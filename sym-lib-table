@@ -53,6 +53,7 @@
   (lib (name "DSP_Texas")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/DSP_Texas.kicad_sym")(options "")(descr "Texas Instruments DSP symbols"))
   (lib (name "Fiber_Optic")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Fiber_Optic.kicad_sym")(options "")(descr "Fiber optic symbols"))
   (lib (name "Filter")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Filter.kicad_sym")(options "")(descr "Filter symbols"))
+  (lib (name "FPGA_CologneChip_GateMate")(type "Legacy")(uri "${KICAD_SYMBOL_DIR}/FPGA_CologneChip_GateMate.lib")(options "")(descr "CologneChip GateMate FPGA symbols"))
   (lib (name "FPGA_Lattice")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/FPGA_Lattice.kicad_sym")(options "")(descr "Lattice FPGA symbols"))
   (lib (name "FPGA_Microsemi")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/FPGA_Microsemi.kicad_sym")(options "")(descr "Microsemi FPGA symbols"))
   (lib (name "FPGA_Xilinx")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/FPGA_Xilinx.kicad_sym")(options "")(descr "Assorted Xilinx FPGA symbols"))
