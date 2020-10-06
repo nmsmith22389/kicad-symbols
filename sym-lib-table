@@ -202,4 +202,5 @@
   (lib (name "Triac_Thyristor")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Triac_Thyristor.kicad_sym")(options "")(descr "TRIAC and thyristor symbols"))
   (lib (name "Valve")(type "Legacy")(uri "${KICAD_SYMBOL_DIR}/Valve.lib")(options "")(descr "Valve symbols"))
   (lib (name "Video")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Video.kicad_sym")(options "")(descr "Video symbols"))
+  (lib (name "CI_Test")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/CI_Test.kicad_sym")(options "")(descr "CI test"))
 )

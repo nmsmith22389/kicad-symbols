@@ -1,0 +1,154 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Fail__S3.1__Pins_off_center
+#
+DEF Fail__S3.1__Pins_off_center U 0 20 Y Y 1 F N
+F0 "U" 90 470 50 H V L CNN
+F1 "Fail__S3.1__Pins_off_center" -100 470 50 H V R CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -450 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -300 400 300 0 0 1 10 f
+S 0 -600 400 -900 0 1 10 f
+X V_{DD} 1 0 500 100 D 50 50 1 1 W
+X IN_{A} 2 -400 100 100 R 50 50 1 1 I
+X IN_{B} 3 -100 -700 100 R 50 50 1 1 I
+X OUT_{A} 4 400 100 100 L 50 50 1 1 O
+X OUT_{B} 5 500 -800 100 L 50 50 1 1 O
+X GND 6 100 -1000 100 U 50 50 1 1 W
+X NC 7 300 300 100 L 50 50 1 1 N N
+X NC 8 300 200 100 L 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# Fail__S3.1__Rectangle_off_center
+#
+DEF Fail__S3.1__Rectangle_off_center U 0 20 Y Y 1 F N
+F0 "U" 90 470 50 H V L CNN
+F1 "Fail__S3.1__Rectangle_off_center" -100 470 50 H V R CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -450 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S 0 0 600 -800 0 1 10 f
+X V_{DD} 1 0 500 100 D 50 50 1 1 W
+X IN_{A} 2 -400 100 100 R 50 50 1 1 I
+X IN_{B} 3 -400 -100 100 R 50 50 1 1 I
+X OUT_{A} 4 400 100 100 L 50 50 1 1 O
+X OUT_{B} 5 400 -100 100 L 50 50 1 1 O
+X GND 6 0 -500 100 U 50 50 1 1 W
+X NC 7 300 300 100 L 50 50 1 1 N N
+X NC 8 300 -300 100 L 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# Fail__S3.3__Rectangle_not_10mil
+#
+DEF Fail__S3.3__Rectangle_not_10mil U 0 20 Y Y 1 F N
+F0 "U" 90 470 50 H V L CNN
+F1 "Fail__S3.3__Rectangle_not_10mil" -100 470 50 H V R CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -450 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -300 400 300 -400 0 1 20 f
+X V_{DD} 1 0 500 100 D 50 50 1 1 W
+X IN_{A} 2 -400 100 100 R 50 50 1 1 I
+X IN_{B} 3 -400 -100 100 R 50 50 1 1 I
+X OUT_{A} 4 400 100 100 L 50 50 1 1 O
+X OUT_{B} 5 400 -100 100 L 50 50 1 1 O
+X GND 6 0 -500 100 U 50 50 1 1 W
+X NC 7 300 300 100 L 50 50 1 1 N N
+X NC 8 300 -300 100 L 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# Fail__S3.3__Rectangle_without_fill
+#
+DEF Fail__S3.3__Rectangle_without_fill U 0 20 Y Y 1 F N
+F0 "U" 90 470 50 H V L CNN
+F1 "Fail__S3.3__Rectangle_without_fill" -100 470 50 H V R CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -450 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -300 400 300 -400 0 1 10 N
+X V_{DD} 1 0 500 100 D 50 50 1 1 W
+X IN_{A} 2 -400 100 100 R 50 50 1 1 I
+X IN_{B} 3 -400 -100 100 R 50 50 1 1 I
+X OUT_{A} 4 400 100 100 L 50 50 1 1 O
+X OUT_{B} 5 400 -100 100 L 50 50 1 1 O
+X GND 6 0 -500 100 U 50 50 1 1 W
+X NC 7 300 300 100 L 50 50 1 1 N N
+X NC 8 300 -300 100 L 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# Warn__S3.1__Rectangle_at_50mil.50mil
+#
+DEF Warn__S3.1__Rectangle_at_50mil.50mil U 0 20 Y Y 1 F N
+F0 "U" 90 470 50 H V L CNN
+F1 "Warn__S3.1__Rectangle_at_50mil.50mil" -100 470 50 H V R CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -450 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -300 500 400 -400 0 1 10 f
+X V_{DD} 1 0 600 100 D 50 50 1 1 W
+X IN_{A} 2 -400 100 100 R 50 50 1 1 I
+X IN_{B} 3 -400 -100 100 R 50 50 1 1 I
+X OUT_{A} 4 500 100 100 L 50 50 1 1 O
+X OUT_{B} 5 500 -100 100 L 50 50 1 1 O
+X GND 6 0 -500 100 U 50 50 1 1 W
+X NC 7 400 300 100 L 50 50 1 1 N N
+X NC 8 400 -300 100 L 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# Warn__S3.3__Small_component_Rectangle_not_10_mil
+#
+DEF Warn__S3.3__Small_component_Rectangle_not_10_mil U 0 20 Y Y 1 F N
+F0 "U" 90 130 50 H V L CNN
+F1 "Warn__S3.3__Small_component_Rectangle_not_10_mil" -100 130 50 H V R CNN
+F2 "Capacitor_SMD:C_0201_0603Metric" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C*0201*0603Metric*
+$ENDFPLIST
+DRAW
+S -100 50 100 -50 0 1 20 f
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Warn__S3.3__Small_component_Rectangle_without_fill
+#
+DEF Warn__S3.3__Small_component_Rectangle_without_fill U 0 20 Y Y 1 F N
+F0 "U" 90 130 50 H V L CNN
+F1 "Warn__S3.3__Small_component_Rectangle_without_fill" -100 130 50 H V R CNN
+F2 "Capacitor_SMD:C_0201_0603Metric" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C*0201*0603Metric*
+$ENDFPLIST
+DRAW
+S -100 50 100 -50 0 1 10 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

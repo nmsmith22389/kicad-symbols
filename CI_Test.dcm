@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Fail__S3.1__Pins_off_center
+D Write-only memory, SOIC-8
+K fail
+F http://www.penisland.net/
+$ENDCMP
+#
+$CMP Fail__S3.1__Rectangle_off_center
+D Write-only memory, SOIC-8
+K fail
+F http://www.penisland.net/
+$ENDCMP
+#
+$CMP Fail__S3.3__Rectangle_not_10mil
+D Write-only memory, SOIC-8
+K fail
+F http://www.penisland.net/
+$ENDCMP
+#
+$CMP Fail__S3.3__Rectangle_without_fill
+D Write-only memory, SOIC-8
+K fail
+F http://www.penisland.net/
+$ENDCMP
+#
+$CMP Warn__S3.1__Rectangle_at_50mil.50mil
+D Write-only memory, SOIC-8
+K fail
+F http://www.penisland.net/
+$ENDCMP
+#
+$CMP Warn__S3.3__Small_component_Rectangle_not_10_mil
+D Flux capacitor, 0201
+K fail
+F http://www.penisland.net/
+$ENDCMP
+#
+$CMP Warn__S3.3__Small_component_Rectangle_without_fill
+D Flux capacitor, 0201
+K fail
+F http://www.penisland.net/
+$ENDCMP
+#
+#End Doc Library
