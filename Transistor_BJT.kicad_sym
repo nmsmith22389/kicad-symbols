@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Transistor_BJT:2N2219" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 5.08 1.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5164,7 +5164,7 @@
     (property "ki_description" "25A Ic, 55V Vce, Silicon Power NPN Transistors, SOT-93/TO247" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TO?218*\nTO?247*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TO?218* TO?247*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BD249_0_1"
@@ -5312,7 +5312,7 @@
     (property "ki_description" "25A Ic, 55V Vce, Silicon Power PNP Transistors, SOT-93/TO247" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TO?218*\nTO?247*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TO?218* TO?247*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BD250_0_1"
@@ -6865,7 +6865,7 @@
     (property "ki_description" "Digital PNP Transistor, 1k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA113T_0_1"
@@ -6995,7 +6995,7 @@
     (property "ki_description" "Digital PNP Transistor, 1k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA113Z_0_1"
@@ -7139,7 +7139,7 @@
     (property "ki_description" "Digital PNP Transistor, 10k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA114E_0_1"
@@ -7283,7 +7283,7 @@
     (property "ki_description" "Digital PNP Transistor, 0k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA114G_0_1"
@@ -7417,7 +7417,7 @@
     (property "ki_description" "Digital PNP Transistor, 10k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA114T_0_1"
@@ -7547,7 +7547,7 @@
     (property "ki_description" "Digital PNP Transistor, 10k/4.7k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA114W_0_1"
@@ -7691,7 +7691,7 @@
     (property "ki_description" "Digital PNP Transistor, 10k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA114Y_0_1"
@@ -7835,7 +7835,7 @@
     (property "ki_description" "Digital PNP Transistor, 100k/100k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA115E_0_1"
@@ -7979,7 +7979,7 @@
     (property "ki_description" "Digital PNP Transistor, 0k/100k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA115G_0_1"
@@ -8113,7 +8113,7 @@
     (property "ki_description" "Digital PNP Transistor, 100k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA115T_0_1"
@@ -8243,7 +8243,7 @@
     (property "ki_description" "Digital PNP Transistor, 100k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA115U_0_1"
@@ -8387,7 +8387,7 @@
     (property "ki_description" "Digital PNP Transistor, 2k2/2k2, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA123E_0_1"
@@ -8531,7 +8531,7 @@
     (property "ki_description" "Digital PNP Transistor, 2k2/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA123J_0_1"
@@ -8675,7 +8675,7 @@
     (property "ki_description" "Digital PNP Transistor, 2k2/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA123Y_0_1"
@@ -8819,7 +8819,7 @@
     (property "ki_description" "Digital PNP Transistor, 22k/22k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA124E_0_1"
@@ -8963,7 +8963,7 @@
     (property "ki_description" "Digital PNP Transistor, 0k/22k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA124G_0_1"
@@ -9097,7 +9097,7 @@
     (property "ki_description" "Digital PNP Transistor, 22k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA124T_0_1"
@@ -9227,7 +9227,7 @@
     (property "ki_description" "Digital PNP Transistor, 22k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA124X_0_1"
@@ -9371,7 +9371,7 @@
     (property "ki_description" "Digital PNP Transistor, 200k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA125T_0_1"
@@ -9501,7 +9501,7 @@
     (property "ki_description" "Digital PNP Transistor, 4k7/4k7, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA143E_0_1"
@@ -9645,7 +9645,7 @@
     (property "ki_description" "Digital PNP Transistor, 4k7/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA143T_0_1"
@@ -9775,7 +9775,7 @@
     (property "ki_description" "Digital PNP Transistor, 4k7/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA143X_0_1"
@@ -9919,7 +9919,7 @@
     (property "ki_description" "Digital PNP Transistor, 4k7/22k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA143Y_0_1"
@@ -10063,7 +10063,7 @@
     (property "ki_description" "Digital PNP Transistor, 4k7/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA143Z_0_1"
@@ -10207,7 +10207,7 @@
     (property "ki_description" "Digital PNP Transistor, 47k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA144E_0_1"
@@ -10351,7 +10351,7 @@
     (property "ki_description" "Digital PNP Transistor, 0k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA144G_0_1"
@@ -10485,7 +10485,7 @@
     (property "ki_description" "Digital PNP Transistor, 47k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA144T_0_1"
@@ -10615,7 +10615,7 @@
     (property "ki_description" "Digital PNP Transistor, 47k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA144V_0_1"
@@ -10759,7 +10759,7 @@
     (property "ki_description" "Digital PNP Transistor, 47k/22k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA144W_0_1"
@@ -10903,7 +10903,7 @@
     (property "ki_description" "Digital PNP Transistor, 2k7/1k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA1D3R_0_1"
@@ -11047,7 +11047,7 @@
     (property "ki_description" "Digital PNP Transistor, 10k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTA214Y_0_1"
@@ -11191,7 +11191,7 @@
     (property "ki_description" "Digital PNP Transistor, 1k/1k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB113E_0_1"
@@ -11335,7 +11335,7 @@
     (property "ki_description" "Digital PNP Transistor, 1k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB113Z_0_1"
@@ -11479,7 +11479,7 @@
     (property "ki_description" "Digital PNP Transistor, 10k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB114E_0_1"
@@ -11623,7 +11623,7 @@
     (property "ki_description" "Digital PNP Transistor, 0k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB114G_0_1"
@@ -11757,7 +11757,7 @@
     (property "ki_description" "Digital PNP Transistor, 10k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB114T_0_1"
@@ -11887,7 +11887,7 @@
     (property "ki_description" "Digital PNP Transistor, 0k22/4k7, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB122J_0_1"
@@ -12031,7 +12031,7 @@
     (property "ki_description" "Digital PNP Transistor, 2k2/2k2, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB123E_0_1"
@@ -12175,7 +12175,7 @@
     (property "ki_description" "Digital PNP Transistor, 2k2/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB123T_0_1"
@@ -12305,7 +12305,7 @@
     (property "ki_description" "Digital PNP Transistor, 2k2/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB123Y_0_1"
@@ -12449,7 +12449,7 @@
     (property "ki_description" "Digital PNP Transistor, 3k3/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB133H_0_1"
@@ -12593,7 +12593,7 @@
     (property "ki_description" "Digital PNP Transistor, 4k7/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB143T_0_1"
@@ -12723,7 +12723,7 @@
     (property "ki_description" "Digital PNP Transistor, 6k8/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTB163T_0_1"
@@ -12853,7 +12853,7 @@
     (property "ki_description" "Digital NPN Transistor, 1k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC113T_0_1"
@@ -12983,7 +12983,7 @@
     (property "ki_description" "Digital NPN Transistor, 1k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC113Z_0_1"
@@ -13127,7 +13127,7 @@
     (property "ki_description" "Digital NPN Transistor, 10k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC114E_0_1"
@@ -13271,7 +13271,7 @@
     (property "ki_description" "Digital NPN Transistor, 0k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC114G_0_1"
@@ -13405,7 +13405,7 @@
     (property "ki_description" "Digital NPN Transistor, 10k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC114T_0_1"
@@ -13535,7 +13535,7 @@
     (property "ki_description" "Digital NPN Transistor, 10k/4k7, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC114W_0_1"
@@ -13679,7 +13679,7 @@
     (property "ki_description" "Digital NPN Transistor, 10k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC114Y_0_1"
@@ -13823,7 +13823,7 @@
     (property "ki_description" "Digital NPN Transistor, 100k/100k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC115E_0_1"
@@ -13967,7 +13967,7 @@
     (property "ki_description" "Digital NPN Transistor, 0k/100k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC115G_0_1"
@@ -14101,7 +14101,7 @@
     (property "ki_description" "Digital NPN Transistor, 100k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC115T_0_1"
@@ -14231,7 +14231,7 @@
     (property "ki_description" "Digital NPN Transistor, 100k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC115U_0_1"
@@ -14375,7 +14375,7 @@
     (property "ki_description" "Digital NPN Transistor, 2k2/2k2, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC123E_0_1"
@@ -14519,7 +14519,7 @@
     (property "ki_description" "Digital NPN Transistor, 2k2/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC123J_0_1"
@@ -14663,7 +14663,7 @@
     (property "ki_description" "Digital NPN Transistor, 2k2/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC123Y_0_1"
@@ -14807,7 +14807,7 @@
     (property "ki_description" "Digital NPN Transistor, 22k/22k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC124E_0_1"
@@ -14951,7 +14951,7 @@
     (property "ki_description" "Digital NPN Transistor, 0k/22k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC124G_0_1"
@@ -15085,7 +15085,7 @@
     (property "ki_description" "Digital NPN Transistor, 22k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC124T_0_1"
@@ -15215,7 +15215,7 @@
     (property "ki_description" "Digital NPN Transistor, 22k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC124X_0_1"
@@ -15359,7 +15359,7 @@
     (property "ki_description" "Digital NPN Transistor, 200k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC125T_0_1"
@@ -15489,7 +15489,7 @@
     (property "ki_description" "Digital NPN Transistor, 4k7/4k7, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC143E_0_1"
@@ -15633,7 +15633,7 @@
     (property "ki_description" "Digital NPN Transistor, 4k7/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC143T_0_1"
@@ -15763,7 +15763,7 @@
     (property "ki_description" "Digital NPN Transistor, 4k7/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC143X_0_1"
@@ -15907,7 +15907,7 @@
     (property "ki_description" "Digital NPN Transistor, 4k7/22k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC143Y_0_1"
@@ -16051,7 +16051,7 @@
     (property "ki_description" "Digital NPN Transistor, 4k7/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC143Z_0_1"
@@ -16195,7 +16195,7 @@
     (property "ki_description" "Digital NPN Transistor, 47k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC144E_0_1"
@@ -16339,7 +16339,7 @@
     (property "ki_description" "Digital NPN Transistor, 0k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC144G_0_1"
@@ -16473,7 +16473,7 @@
     (property "ki_description" "Digital NPN Transistor, 47k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC144T_0_1"
@@ -16603,7 +16603,7 @@
     (property "ki_description" "Digital NPN Transistor, 47k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC144V_0_1"
@@ -16747,7 +16747,7 @@
     (property "ki_description" "Digital NPN Transistor, 47k/22k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC144W_0_1"
@@ -16891,7 +16891,7 @@
     (property "ki_description" "Digital NPN Transistor, 2k7/1k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC1D3R_0_1"
@@ -17035,7 +17035,7 @@
     (property "ki_description" "Digital NPN Transistor, 10k/47k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTC214Y_0_1"
@@ -17179,7 +17179,7 @@
     (property "ki_description" "Digital NPN Transistor, 1k/1k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD113E_0_1"
@@ -17323,7 +17323,7 @@
     (property "ki_description" "Digital NPN Transistor, 1k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD113Z_0_1"
@@ -17467,7 +17467,7 @@
     (property "ki_description" "Digital NPN Transistor, 10k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD114E_0_1"
@@ -17611,7 +17611,7 @@
     (property "ki_description" "Digital NPN Transistor, 0k/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD114G_0_1"
@@ -17745,7 +17745,7 @@
     (property "ki_description" "Digital NPN Transistor, 10k/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD114T_0_1"
@@ -17875,7 +17875,7 @@
     (property "ki_description" "Digital NPN Transistor, 0k22/4k7, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD122J_0_1"
@@ -18019,7 +18019,7 @@
     (property "ki_description" "Digital NPN Transistor, 2k2/2k2, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD123E_0_1"
@@ -18163,7 +18163,7 @@
     (property "ki_description" "Digital NPN Transistor, 2k2/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD123T_0_1"
@@ -18293,7 +18293,7 @@
     (property "ki_description" "Digital NPN Transistor, 2k2/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD123Y_0_1"
@@ -18437,7 +18437,7 @@
     (property "ki_description" "Digital NPN Transistor, 3k3/10k, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD133H_0_1"
@@ -18581,7 +18581,7 @@
     (property "ki_description" "Digital NPN Transistor, 4k7/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD143T_0_1"
@@ -18711,7 +18711,7 @@
     (property "ki_description" "Digital NPN Transistor, 6k8/NONE, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23*\nSC?59*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SC?59*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DTD163T_0_1"
@@ -19685,6 +19685,86 @@
       )
     )
     (symbol "MMBTA42_1_1"
+      (pin input line (at -5.08 0 0) (length 5.08)
+        (name "B" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 2.54 -5.08 90) (length 2.54)
+        (name "E" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 2.54 5.08 270) (length 2.54)
+        (name "C" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Transistor_BJT:MMBTA44" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "Q" (id 0) (at 5.08 1.905 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MMBTA44" (id 1) (at 5.08 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 5.08 -1.905 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mccsemi.com/pdf/Products/MMBTA44(SOT-23)-E.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "ki_keywords" "NPN High Voltage Transistor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "0.1A Ic, 400V Vce, NPN High Voltage Transistor, SOT-23" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "MMBTA44_0_1"
+      (circle (center 1.27 0) (radius 2.8194) (stroke (width 0.254)) (fill (type none)))
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0.635 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 0.635)
+          (xy 2.54 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 -0.635)
+          (xy 2.54 -2.54)
+          (xy 2.54 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 1.905)
+          (xy 0.635 -1.905)
+          (xy 0.635 -1.905)
+        )
+        (stroke (width 0.508)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -1.778)
+          (xy 1.778 -1.27)
+          (xy 2.286 -2.286)
+          (xy 1.27 -1.778)
+          (xy 1.27 -1.778)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+    )
+    (symbol "MMBTA44_1_1"
       (pin input line (at -5.08 0 0) (length 5.08)
         (name "B" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -20811,7 +20891,7 @@
     (property "ki_description" "Audio Dual Matched NPN transistor, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*8*3.9x4.9mm*P1.27mm*\nDIP*8*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*8*3.9x4.9mm*P1.27mm* DIP*8*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SSM2210_0_1"
@@ -20905,7 +20985,7 @@
     (property "ki_description" "Audio Dual Matched PNP transistor, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*8*3.9x4.9mm*P1.27mm*\nDIP*8*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*8*3.9x4.9mm*P1.27mm* DIP*8*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SSM2220_0_1"
