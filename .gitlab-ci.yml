@@ -12,7 +12,7 @@ symbols:
       - "*.kicad_sym"
       - "sym-lib-table"
   script:
-    - $CI_BUILDS_DIR/kicad-library-utils/schlib/gitlabci/check_all.sh 
+    - $CI_BUILDS_DIR/kicad-library-utils/klc-check/gitlabci/check_symbols.sh
 
   artifacts:
     reports:
