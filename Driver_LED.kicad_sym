@@ -7927,7 +7927,7 @@
     (property "ki_keywords" "LED Driver" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Titan Micro Electronics LED Driver with 8 seg x 6 grid / 10 seg x 4 grid, and 3-pin serial interface. Measurements show it matching the 7.5mm wide JEDEC MS-013 standard. SOP-20" (id 5) (at 0 0 0)
+    (property "ki_description" "Titan Micro Electronics LED Driver with 8 seg x 6 grid / 10 seg x 4 grid, and 3-pin serial interface, SOP-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "SOIC*7.5x12.8mm*P1.27mm*" (id 6) (at 0 0 0)
