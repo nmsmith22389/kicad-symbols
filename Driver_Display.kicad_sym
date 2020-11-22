@@ -1126,7 +1126,7 @@
     (property "ki_keywords" "LCD Driver" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Titan Micro Electronics 32x4 LCD Driver. LQFP-44" (id 5) (at 0 0 0)
+    (property "ki_description" "Titan Micro Electronics 32x4 LCD Driver, LQFP-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "LQFP*10x10mm*P0.8mm*" (id 6) (at 0 0 0)
