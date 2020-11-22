@@ -8379,7 +8379,7 @@
     (property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://retrocip.cz/files/tm1638.pdf" (id 3) (at 1.27 38.1 0)
+    (property "Datasheet" "https://www.electrodragon.com/w/images/2/28/Tm1638.pdf" (id 3) (at 1.27 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "LED Driver key scan" (id 4) (at 0 0 0)
