@@ -2,12 +2,12 @@
 
 This repository contains the official KiCad schematic symbol libraries.
 
-**The libraries in this repositiory are intended for KiCad version 6.x**
+**The libraries in this repository are intended for KiCad version 6.x**
 
 Each symbol library is stored as a `.kicad_sym` file.
 
-Contribution guidelines can be found at http://kicad-pcb.org/libraries/contribute
-The library convention can be found at http://kicad-pcb.org/libraries/klc/
+Contribution guidelines can be found at http://kicad.org/libraries/contribute
+The library convention can be found at http://kicad.org/libraries/klc/
 
 Other KiCad library repositories are located:
 
