@@ -82,6 +82,7 @@
   (lib (name "LED")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/LED.kicad_sym")(options "")(descr "Light Emitting Diode (LED) symbols"))
   (lib (name "Logic_LevelTranslator")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Logic_LevelTranslator.kicad_sym")(options "")(descr "Logic level translators and level shifters"))
   (lib (name "Logic_Programmable")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Logic_Programmable.kicad_sym")(options "")(descr "Programmable logic symbols"))
+  (lib (name "Logic_Programmable_GreenPAK")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Logic_Programmable_GreenPAK.kicad_sym")(options "")(descr "Dialog/Silego GreenPAK symbols"))
   (lib (name "MCU_AnalogDevices")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/MCU_AnalogDevices.kicad_sym")(options "")(descr "Analog Devices microcontrollers"))
   (lib (name "MCU_Cypress")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/MCU_Cypress.kicad_sym")(options "")(descr "Cypress microcontrollers"))
   (lib (name "MCU_Dialog")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/MCU_Dialog.kicad_sym")(options "")(descr "Dialog Semiconductor microcontrollers"))
