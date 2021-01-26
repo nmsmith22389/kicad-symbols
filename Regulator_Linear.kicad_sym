@@ -21264,6 +21264,10 @@
     (property "ki_description" "–36V, 1.5A Negative Linear Adjustable Regulator with Programmable Current Limit" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Package*TO*:TO?220*2.54?3.7mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (symbol "LT3091xT7#PBF_0_1"
       (polyline
         (pts
@@ -21273,7 +21277,7 @@
           (xy 10.16 10.16)
           (xy -10.16 10.16)
         )
-        (stroke (width 0.001)) (fill (type background))
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "LT3091xT7#PBF_1_0"
