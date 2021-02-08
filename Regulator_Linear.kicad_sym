@@ -21245,11 +21245,11 @@
       )
     )
   )
-  (symbol "Regulator_Linear:LT3091xT7#PBF" (in_bom yes) (on_board yes)
+  (symbol "Regulator_Linear:LT3091xT7" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -2.54 13.335 0)
       (effects (font (size 1.27 1.27)) (justify right top))
     )
-    (property "Value" "LT3091xT7#PBF" (id 1) (at -2.54 11.43 0)
+    (property "Value" "LT3091xT7" (id 1) (at -2.54 11.43 0)
       (effects (font (size 1.27 1.27)) (justify right top))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical" (id 2) (at 0 -11.43 0)
@@ -21268,7 +21268,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
 
-    (symbol "LT3091xT7#PBF_0_1"
+    (symbol "LT3091xT7_0_1"
       (polyline
         (pts
           (xy -10.16 10.16)
@@ -21280,7 +21280,7 @@
         (stroke (width 0.254)) (fill (type background))
       )
     )
-    (symbol "LT3091xT7#PBF_1_0"
+    (symbol "LT3091xT7_1_0"
       (pin input line (at -12.7 -5.08 0) (length 2.54)
         (name "~SHDN" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
@@ -21302,7 +21302,7 @@
         (number "5" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "LT3091xT7#PBF_1_1"
+    (symbol "LT3091xT7_1_1"
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
