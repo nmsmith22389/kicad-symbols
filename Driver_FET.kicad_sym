@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Driver_FET:1EDN7550B" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -72,6 +72,9 @@
     (property "ki_description" "Single-Channel EiceDRIVER With True Differential Inputs, 8V UVLO, +4/-8A, SOT-23-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:2ED21824S06J" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -105,7 +108,7 @@
         (name "HIN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -121,7 +124,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -149,11 +152,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -203,11 +206,11 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -235,11 +238,11 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -687,7 +690,7 @@
         (name "A" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -1022,7 +1025,7 @@
         (name "A" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -1163,6 +1166,83 @@
     )
     (property "ki_fp_filters" "SOT?223*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "BSP75N_0_0"
+      (text "Limit" (at -1.524 -3.429 0)
+        (effects (font (size 0.5334 0.5334)))
+      )
+      (text "Temp & Current" (at -1.27 -2.286 0)
+        (effects (font (size 0.5334 0.5334)))
+      )
+      (rectangle (start -10.16 7.62) (end 10.16 -7.62)
+        (stroke (width 0)) (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 7.62 2.54)
+          (xy 7.62 -7.62)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 2.54)
+          (xy 7.62 7.62)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 -1.27)
+          (xy -0.635 -0.635)
+          (xy -0.635 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0)
+          (xy 2.54 3.81)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -5.842)
+          (xy -0.635 -5.842)
+          (xy -0.635 -4.572)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 -5.842)
+          (xy -7.62 -5.842)
+          (xy -7.62 0)
+          (xy -5.08 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "BSP75N_0_1"
+      (rectangle (start -5.08 -1.27) (end 2.54 -4.572)
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -7.62 0)
+          (xy -10.16 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -3.937)
+          (xy 2.667 -3.937)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "BSP75N_1_1"
       (circle (center -7.62 0) (radius 0.2794) (stroke (width 0)) (fill (type outline)))
@@ -1394,83 +1474,6 @@
         (number "4" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "BSP75N_0_0"
-      (text "Limit" (at -1.524 -3.429 0)
-        (effects (font (size 0.5334 0.5334)))
-      )
-      (text "Temp & Current" (at -1.27 -2.286 0)
-        (effects (font (size 0.5334 0.5334)))
-      )
-      (rectangle (start -10.16 7.62) (end 10.16 -7.62)
-        (stroke (width 0)) (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 7.62 2.54)
-          (xy 7.62 -7.62)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 2.54)
-          (xy 7.62 7.62)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.635 -1.27)
-          (xy -0.635 -0.635)
-          (xy -0.635 0)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 2.54 3.81)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -5.842)
-          (xy -0.635 -5.842)
-          (xy -0.635 -4.572)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.635 -5.842)
-          (xy -7.62 -5.842)
-          (xy -7.62 0)
-          (xy -5.08 0)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "BSP75N_0_1"
-      (rectangle (start -5.08 -1.27) (end 2.54 -4.572)
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 0)
-          (xy -10.16 0)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -3.937)
-          (xy 2.667 -3.937)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
   )
   (symbol "Driver_FET:EL7202CN" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -1491,7 +1494,7 @@
     (property "ki_description" "High Speed, Dual Channel Power MOSFET Driver, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "EL7202CN_0_1"
@@ -1500,7 +1503,7 @@
       )
     )
     (symbol "EL7202CN_1_1"
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -1528,7 +1531,7 @@
         (name "OUT_A" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1553,6 +1556,9 @@
     (property "ki_description" "High Speed Dual MOSFET Drivers, 1.5A, -40 to 125C, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:MC34152" (extends "EL7202CN")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -1571,6 +1577,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High Speed Dual MOSFET Drivers, 1.5A, 0 to 70C, DIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1593,7 +1602,7 @@
     (property "ki_description" "High Speed, Dual Channel Power MOSFET Driver, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "EL7212CN_0_1"
@@ -1602,7 +1611,7 @@
       )
     )
     (symbol "EL7212CN_1_1"
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -1630,7 +1639,7 @@
         (name "~OUT_A" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1655,7 +1664,7 @@
     (property "ki_description" "High Speed, Dual Channel Power MOSFET Driver, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "EL7222CN_0_1"
@@ -1664,7 +1673,7 @@
       )
     )
     (symbol "EL7222CN_1_1"
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -1692,7 +1701,7 @@
         (name "~OUT_A" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1779,6 +1788,9 @@
     (property "ki_description" "8-27V PMOS-NMOS Bridge Driver, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:FAN7371" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 13.97 0)
@@ -1816,7 +1828,7 @@
         (name "IN" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1824,7 +1836,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -2033,6 +2045,9 @@
     (property "ki_description" "3 Half-Bridge Gate-Drive IC, 600V operation, Output Current 350/650mA, SOIC-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x12.8*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:FL5150MX" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 -12.7 0)
@@ -2121,6 +2136,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IGBT and MOSFET, AC Phase Cut, Dimmer Controller, SSOP-10" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SSOP?10?3.9x4.9mm*1.00mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2411,7 +2429,7 @@
       )
     )
     (symbol "HCPL-3120_1_1"
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -2423,7 +2441,7 @@
         (name "C" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -2686,7 +2704,7 @@
       )
     )
     (symbol "HCPL-314J_1_1"
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -2728,7 +2746,7 @@
         (name "C" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -2770,7 +2788,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -2786,11 +2804,11 @@
         (name "EP" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -2814,7 +2832,7 @@
         (name "LI" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -2837,6 +2855,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High Frequency Half Bridge Driver, TTL/CMOS inputs, Output Current 2.0A, 100V, DFN-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DFN*1EP*4x4mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2925,6 +2946,9 @@
     (property "ki_description" "High Frequency Half Bridge Driver, TTL/CMOS inputs, Output Current 2.0A, 100V, EPSOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*1EP*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:HIP2100_QFN" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 13.335 0)
@@ -2954,7 +2978,7 @@
       )
     )
     (symbol "HIP2100_QFN_1_1"
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -2966,11 +2990,11 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 0 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -2978,7 +3002,7 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -2998,11 +3022,11 @@
         (name "HO" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 0 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -3014,11 +3038,11 @@
         (name "HI" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -3041,6 +3065,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High Frequency Half Bridge Driver, TTL/CMOS inputs, Output Current 2.0A, 100V, QFN-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "QFN*1EP*5x5mm*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3125,6 +3152,9 @@
     (property "ki_description" "High Frequency Half Bridge Driver, TTL/CMOS inputs, Output Current 2.0A, 100V, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:HIP4080A" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 21.59 0)
@@ -3145,7 +3175,7 @@
     (property "ki_description" "High Frequency Full Bridge FET Driver, Input Comparator, 2.5A, 80V, DIP-20/SOIC-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*7.5x12.8mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*7.5x12.8mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "HIP4080A_0_1"
@@ -3255,7 +3285,7 @@
     (property "ki_description" "High Frequency Full Bridge FET Driver, 2.5A, 80V, DIP-20/SOIC-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*7.5x12.8mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*7.5x12.8mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "HIP4081A_0_1"
@@ -3368,6 +3398,12 @@
     (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "HIP4082xB_0_0"
+      (pin passive line (at -12.7 -10.16 0) (length 2.54)
+        (name "DEL" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "HIP4082xB_1_1"
       (rectangle (start -10.16 -15.24) (end 10.16 12.7)
         (stroke (width 0.254)) (fill (type background))
@@ -3433,12 +3469,6 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "HIP4082xB_0_0"
-      (pin passive line (at -12.7 -10.16 0) (length 2.54)
-        (name "DEL" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
   )
   (symbol "Driver_FET:HIP4082xP" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 16.51 0)
@@ -3461,6 +3491,12 @@
     )
     (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "HIP4082xP_0_0"
+      (pin passive line (at -12.7 -10.16 0) (length 2.54)
+        (name "DEL" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "HIP4082xP_1_1"
       (rectangle (start -10.16 -15.24) (end 10.16 12.7)
@@ -3527,12 +3563,6 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "HIP4082xP_0_0"
-      (pin passive line (at -12.7 -10.16 0) (length 2.54)
-        (name "DEL" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
   )
   (symbol "Driver_FET:ICL7667" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -3553,7 +3583,7 @@
     (property "ki_description" "Dual Power MOSFET Driver, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ICL7667_0_1"
@@ -3562,7 +3592,7 @@
       )
     )
     (symbol "ICL7667_1_1"
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -3590,7 +3620,7 @@
         (name "~OUTA" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -3644,7 +3674,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -3656,7 +3686,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -3672,7 +3702,7 @@
         (name "HO" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -3701,6 +3731,9 @@
     (property "ki_description" "High and Low Side Driver, 500V, 2.0/2.0A, PDIP-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2112" (extends "IR2010")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -3719,6 +3752,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 600V, 250/500mA, PDIP-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3741,6 +3777,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 2.0/2.0A, PDIP-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2213" (extends "IR2010")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -3759,6 +3798,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 1200V, 1.7/2.0A, PDIP-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3781,6 +3823,9 @@
     (property "ki_description" "High and Low Side Driver, 500V, 2.0/2.0A, PDIP-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2112" (extends "IR2010")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -3801,6 +3846,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 290/600mA, PDIP-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2113" (extends "IR2010")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -3819,6 +3867,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 600V, 2.0/2.0A, PDIP-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3854,7 +3905,7 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -3878,7 +3929,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 0 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -3890,11 +3941,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -3910,7 +3961,7 @@
         (name "HO" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -3935,6 +3986,9 @@
     (property "ki_description" "High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2112S" (extends "IR2010S")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -3953,6 +4007,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 500V, 250/500mA, SOIC-16W" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3975,6 +4032,9 @@
     (property "ki_description" "High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2213S" (extends "IR2010S")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -3993,6 +4053,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 1200V, 1.7/2.0A, SOIC-16W" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4015,6 +4078,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 2.0/2.0A, SOIC-16W" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2110S" (extends "IR2010S")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4033,6 +4099,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4055,6 +4124,9 @@
     (property "ki_description" "High and Low Side Driver, 500V, 290/600mA, SOIC-16W" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2113S" (extends "IR2010S")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4073,6 +4145,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4095,7 +4170,7 @@
     (property "ki_description" "High and Low Side Driver, 200V, 1.0/1.0A, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2011_0_1"
@@ -4155,6 +4230,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 200V, 1.0/1.0A, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4239,7 +4317,7 @@
     (property "ki_description" "High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2101_0_1"
@@ -4301,6 +4379,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 200/350mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2301" (extends "IR2101")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4319,6 +4400,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 600V, 200/350mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4341,6 +4425,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 200/350mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2001" (extends "IR2101")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4359,6 +4446,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 200V, 200/420mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4381,6 +4471,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2106" (extends "IR2101")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4399,6 +4492,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4421,6 +4517,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2102" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4441,7 +4540,7 @@
     (property "ki_description" "High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2102_0_1"
@@ -4503,7 +4602,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2103_0_1"
@@ -4565,6 +4664,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 210/350mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2003" (extends "IR2103")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4583,6 +4685,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Driver, 200V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4605,6 +4710,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2108" (extends "IR2103")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4623,6 +4731,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4645,7 +4756,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2104_0_1"
@@ -4707,6 +4818,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 200/350mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2302" (extends "IR2104")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4725,6 +4839,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Driver, 600V, 200/350mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4747,6 +4864,9 @@
     (property "ki_description" "Half-Bridge Driver, 200V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2104" (extends "IR2104")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4765,6 +4885,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4787,6 +4910,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR21064" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -4807,7 +4933,7 @@
     (property "ki_description" "High and Low Side Driver, 600V, 200/350mA, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR21064_0_1"
@@ -4820,7 +4946,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -4836,7 +4962,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 0 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -4848,7 +4974,7 @@
         (name "LIN" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -4864,11 +4990,11 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -4893,6 +5019,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 290/600mA, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR21084" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.97 0)
@@ -4913,7 +5042,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 210/350mA, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR21084_0_1"
@@ -4926,7 +5055,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -4942,7 +5071,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -4970,11 +5099,11 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -4999,6 +5128,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR21091" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -5019,7 +5151,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 200/350mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR21091_0_1"
@@ -5081,6 +5213,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR21094" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.97 0)
@@ -5101,7 +5236,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 200/350mA, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR21094_0_1"
@@ -5114,7 +5249,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -5130,7 +5265,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -5158,11 +5293,11 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -5187,6 +5322,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2111" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -5207,7 +5345,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 250/500mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2111_0_1"
@@ -5232,7 +5370,7 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -5267,6 +5405,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5314,23 +5455,23 @@
         (name "DSL" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 12.7 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 10.16 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -5354,7 +5495,7 @@
         (name "HOP" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -12.7 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -5413,6 +5554,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Gate Driver IC, 1200V, 1.0/1.5A, SSOP-24" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SSOP*5.3x8.2mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5577,6 +5721,9 @@
     (property "ki_description" "600V, Vout 12-20V, PDIP-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2233" (extends "IR2133")
     (property "Reference" "U" (id 0) (at -7.62 22.86 0)
@@ -5597,6 +5744,9 @@
     (property "ki_description" "1200V, Vout 10-20V, PDIP-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2235" (extends "IR2133")
     (property "Reference" "U" (id 0) (at -7.62 22.86 0)
@@ -5615,6 +5765,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "1200V, Vout 12-20V, PDIP-28" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5777,6 +5930,9 @@
     (property "ki_description" "600V, Vout 12-20V, SOIC-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x17.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2233S" (extends "IR2133S")
     (property "Reference" "U" (id 0) (at -7.62 22.86 0)
@@ -5795,6 +5951,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "1200V, Vout 10-20V, SOIC-28" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*7.5x17.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5817,6 +5976,9 @@
     (property "ki_description" "1200V, Vout 12-20V, SOIC-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x17.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2153" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -5837,7 +5999,7 @@
     (property "ki_description" "Self-Oscillating Half-Bridge Driver, 600V, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2153_0_1"
@@ -5899,6 +6061,9 @@
     (property "ki_description" "Self-Oscillating Half-Bridge Driver, 600V, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2155" (extends "IR2153")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -5917,6 +6082,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Self-Oscillating Half-Bridge Driver, 600V, 250/500mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5939,6 +6107,9 @@
     (property "ki_description" "Self-Oscillating Half-Bridge Driver IC, 600V, 180/260mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2153D" (extends "IR2153")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -5957,6 +6128,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Self-Oscillating Half-Bridge Driver IC, 600V, 180/260mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5979,7 +6153,7 @@
     (property "ki_description" "High and Low Side Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2181_0_1"
@@ -6041,6 +6215,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2186" (extends "IR2181")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -6059,6 +6236,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 600V, 4A, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6081,7 +6261,7 @@
     (property "ki_description" "High and Low Side Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR21814_0_1"
@@ -6094,7 +6274,7 @@
         (name "HIN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -6110,7 +6290,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 0 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -6122,7 +6302,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -6138,11 +6318,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -6167,6 +6347,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS21864" (extends "IR21814")
     (property "Reference" "U" (id 0) (at 1.27 13.97 0)
@@ -6185,6 +6368,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 600V, 4A, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6207,7 +6393,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2183_0_1"
@@ -6269,6 +6455,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR21834" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.97 0)
@@ -6289,7 +6478,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR21834_0_1"
@@ -6302,7 +6491,7 @@
         (name "HIN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -6318,7 +6507,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -6346,11 +6535,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -6375,6 +6564,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2184" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -6395,7 +6587,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2184_0_1"
@@ -6457,6 +6649,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR21844" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.97 0)
@@ -6477,7 +6672,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR21844_0_1"
@@ -6490,7 +6685,7 @@
         (name "IN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -6506,7 +6701,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -6534,11 +6729,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -6563,6 +6758,9 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IR2304" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -6583,7 +6781,7 @@
     (property "ki_description" "Half-Bridge Driver, 600V, 60/130mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR2304_0_1"
@@ -6643,6 +6841,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6727,6 +6928,9 @@
     (property "ki_description" "200-V Half-Bridge Driver With Shutdown Input, 200V, 290/600mA, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2302S" (extends "IR25602S")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -6745,6 +6949,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Driver, 600V, 200/350mA, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6767,7 +6974,7 @@
     (property "ki_description" "Self-Oscillating Half-Bridge Driver, 600V, 180/260mA, PDIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IR25603_0_1"
@@ -6891,6 +7098,9 @@
     (property "ki_description" "High and Low Side Driver, 700V, 200/350mA, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2005S" (extends "IR25604S")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -6909,6 +7119,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 200V, 290/600mA, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6931,6 +7144,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 4.0/4.0A, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS2301S" (extends "IR25604S")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -6951,6 +7167,9 @@
     (property "ki_description" "High and Low Side Driver, 600V, 200/350mA, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:IRS25606S" (extends "IR25604S")
     (property "Reference" "U" (id 0) (at 1.27 13.335 0)
@@ -6969,6 +7188,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Driver, 600V, 200/350mA, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7124,7 +7346,7 @@
       )
     )
     (symbol "IRS2001M_1_1"
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -7140,7 +7362,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -7164,11 +7386,11 @@
         (name "COM" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -7176,11 +7398,11 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 0 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -7203,6 +7425,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High and Low Side Driver, 200V, 290/600mA, MLPQ-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Infineon*MLPQ*EP*4x4mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7238,7 +7463,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -7254,7 +7479,7 @@
         (name "HO" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -7286,7 +7511,7 @@
         (name "COM" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -7340,7 +7565,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 0 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -7356,7 +7581,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -7368,7 +7593,7 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -7376,11 +7601,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -7430,7 +7655,7 @@
         (name "VB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -7458,7 +7683,7 @@
         (name "LO" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -7466,11 +7691,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -7508,11 +7733,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 0 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -7540,7 +7765,7 @@
         (name "ITRIP" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -7552,7 +7777,7 @@
         (name "RFE" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -7691,6 +7916,9 @@
     (property "ki_description" "Smart High-Side Power Switch for Industrial Applications, Four Channels, Rds 200mΩ, SOIC-20W" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x12.8mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:ITS716G" (extends "ITS724G")
     (property "Reference" "U" (id 0) (at -5.08 11.43 0)
@@ -7709,6 +7937,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Smart High-Side Power Switch for Industrial Applications, Four Channels, Rds 140mΩ, SOIC-20W" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*7.5x12.8mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7748,7 +7979,7 @@
         (name "CP+" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -7883,6 +8114,9 @@
     (property "ki_description" "Half-Bridge Gate Driver, Output Current 1.0A, 100V, WSON-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "WSON*1EP*4x4mm*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:LM5109MA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 13.97 0)
@@ -7965,6 +8199,9 @@
     (property "ki_description" "Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:LM5109BMA" (extends "LM5109MA")
     (property "Reference" "U" (id 0) (at 0 13.97 0)
@@ -7983,6 +8220,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -8030,7 +8270,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -8069,6 +8309,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-side, N-Channel, Mosfet driver, 80V input, -40°C to +125°C, MSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MSOP*1EP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -8143,6 +8386,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -8227,6 +8473,9 @@
     (property "ki_description" "High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:MAX15012BxSA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 13.335 0)
@@ -8307,6 +8556,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -8395,6 +8647,9 @@
     (property "ki_description" "High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*1EP*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:MAX15012DxSA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 13.335 0)
@@ -8481,6 +8736,9 @@
     (property "ki_description" "High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*1EP*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:MCP1415" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -5.08 6.35 0)
@@ -8510,7 +8768,7 @@
       )
     )
     (symbol "MCP1415_1_1"
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -8560,7 +8818,7 @@
       )
     )
     (symbol "MCP1415R_1_1"
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -8610,7 +8868,7 @@
       )
     )
     (symbol "MCP1416_1_1"
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -8660,7 +8918,7 @@
       )
     )
     (symbol "MCP1416R_1_1"
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -8965,6 +9223,9 @@
     (property "ki_description" "Dual 12A-Peak MOSFET Driver, inverting outputs, DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TDFN*1EP*3x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:MCP14A0902xMNY" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -9049,6 +9310,9 @@
     (property "ki_description" "Dual 12A-Peak MOSFET Driver, non-inverting outputs, DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TDFN*1EP*3x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:MIC4426" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -9069,7 +9333,7 @@
     (property "ki_description" "Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*P1.27mm*\nMSOP*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MIC4426_0_1"
@@ -9078,7 +9342,7 @@
       )
     )
     (symbol "MIC4426_1_1"
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -9106,7 +9370,7 @@
         (name "~OUT_A" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -9131,7 +9395,7 @@
     (property "ki_description" "Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*P1.27mm*\nMSOP*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MIC4427_0_1"
@@ -9140,7 +9404,7 @@
       )
     )
     (symbol "MIC4427_1_1"
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -9168,7 +9432,7 @@
         (name "OUT_A" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -9193,7 +9457,7 @@
     (property "ki_description" "Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*P1.27mm*\nMSOP*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MIC4428_0_1"
@@ -9202,7 +9466,7 @@
       )
     )
     (symbol "MIC4428_1_1"
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -9230,7 +9494,7 @@
         (name "~OUT_A" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -9374,7 +9638,7 @@
         (name "GNDA" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -9382,7 +9646,7 @@
         (name "RSVD" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -9413,6 +9677,94 @@
     )
     (property "ki_fp_filters" "SOT?223*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "NCV8402xST_0_0"
+      (text "Limit" (at -1.524 -3.429 0)
+        (effects (font (size 0.5334 0.5334)))
+      )
+      (text "Temp & Current" (at -1.27 -2.286 0)
+        (effects (font (size 0.5334 0.5334)))
+      )
+      (rectangle (start -10.16 7.62) (end 10.16 -7.62)
+        (stroke (width 0)) (fill (type background))
+      )
+      (rectangle (start -5.969 0.508) (end -2.286 -0.508)
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 2.54)
+          (xy 7.62 -7.62)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 2.54)
+          (xy 7.62 7.62)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 -1.27)
+          (xy -0.635 -0.635)
+          (xy -0.635 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0)
+          (xy -2.286 0)
+          (xy -0.889 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0)
+          (xy 2.54 3.81)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -5.842)
+          (xy -0.635 -5.842)
+          (xy -0.635 -4.572)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 -5.842)
+          (xy -7.62 -5.842)
+          (xy -7.62 0)
+          (xy -6.096 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "NCV8402xST_0_1"
+      (rectangle (start -5.08 -1.27) (end 2.54 -4.572)
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -7.62 0)
+          (xy -10.16 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -3.937)
+          (xy 2.667 -3.937)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "NCV8402xST_1_1"
       (circle (center -7.62 0) (radius 0.2794) (stroke (width 0)) (fill (type outline)))
@@ -9628,94 +9980,6 @@
         (number "4" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "NCV8402xST_0_0"
-      (text "Limit" (at -1.524 -3.429 0)
-        (effects (font (size 0.5334 0.5334)))
-      )
-      (text "Temp & Current" (at -1.27 -2.286 0)
-        (effects (font (size 0.5334 0.5334)))
-      )
-      (rectangle (start -10.16 7.62) (end 10.16 -7.62)
-        (stroke (width 0)) (fill (type background))
-      )
-      (rectangle (start -5.969 0.508) (end -2.286 -0.508)
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 2.54)
-          (xy 7.62 -7.62)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 2.54)
-          (xy 7.62 7.62)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.635 -1.27)
-          (xy -0.635 -0.635)
-          (xy -0.635 0)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy -2.286 0)
-          (xy -0.889 0)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 2.54 3.81)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -5.842)
-          (xy -0.635 -5.842)
-          (xy -0.635 -4.572)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.635 -5.842)
-          (xy -7.62 -5.842)
-          (xy -7.62 0)
-          (xy -6.096 0)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "NCV8402xST_0_1"
-      (rectangle (start -5.08 -1.27) (end 2.54 -4.572)
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 0)
-          (xy -10.16 0)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -3.937)
-          (xy 2.667 -3.937)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
   )
   (symbol "Driver_FET:PE29101" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 16.51 0)
@@ -9879,7 +10143,7 @@
         (name "HSB" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -10461,7 +10725,7 @@
         (name "INPUT" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -10523,7 +10787,7 @@
         (name "INPUT" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -10800,7 +11064,7 @@
       )
     )
     (symbol "TLP250_1_1"
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -10812,7 +11076,7 @@
         (name "C" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -11274,11 +11538,11 @@
         (name "VDDB" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -11314,7 +11578,7 @@
         (name "DT" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -11345,6 +11609,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 5V UVLO, SOIC-16W" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -11380,7 +11647,7 @@
         (name "HI" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -11396,7 +11663,7 @@
         (name "HB" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -11424,11 +11691,11 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -11507,6 +11774,9 @@
     (property "ki_description" "9A (peak) Gate driver, 20V, 2ns delay, SOT-23-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:ZXGD3003E6" (extends "ZXGD3001E6")
     (property "Reference" "U" (id 0) (at -8.89 6.35 0)
@@ -11527,6 +11797,9 @@
     (property "ki_description" "5A (peak) Gate driver, 40V, 2ns delay, SOT-23-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_FET:ZXGD3004E6" (extends "ZXGD3001E6")
     (property "Reference" "U" (id 0) (at -8.89 6.35 0)
@@ -11545,6 +11818,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "8A (peak) Gate driver, 40V, 1ns delay, SOT-23-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -11592,7 +11868,7 @@
         (name "SINK" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -11646,7 +11922,7 @@
         (name "SINK" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )

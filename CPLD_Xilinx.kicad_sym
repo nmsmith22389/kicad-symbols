@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "CPLD_Xilinx:XC7336" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -21.59 27.94 0)
       (effects (font (size 1.27 1.27)))
@@ -2659,7 +2659,7 @@
         (name "I/O/GTS3" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 60.96 0) (length 0) hide
+      (pin no_connect line (at -20.32 60.96 0) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -2679,7 +2679,7 @@
         (name "P6" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 58.42 0) (length 0) hide
+      (pin no_connect line (at -20.32 58.42 0) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -2719,7 +2719,7 @@
         (name "P70" (effects (font (size 1.27 1.27))))
         (number "70" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 55.88 180) (length 0) hide
+      (pin no_connect line (at 20.32 55.88 180) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "80" (effects (font (size 1.27 1.27))))
       )
@@ -2811,7 +2811,7 @@
         (name "P33" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 48.26 0) (length 0) hide
+      (pin no_connect line (at -20.32 48.26 0) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
@@ -2823,7 +2823,7 @@
         (name "P63" (effects (font (size 1.27 1.27))))
         (number "63" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 58.42 180) (length 0) hide
+      (pin no_connect line (at 20.32 58.42 180) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "73" (effects (font (size 1.27 1.27))))
       )
@@ -2839,11 +2839,11 @@
         (name "P14" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 53.34 0) (length 0) hide
+      (pin no_connect line (at -20.32 53.34 0) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 50.8 0) (length 0) hide
+      (pin no_connect line (at -20.32 50.8 0) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
@@ -2919,7 +2919,7 @@
         (name "P36" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 60.96 180) (length 0) hide
+      (pin no_connect line (at 20.32 60.96 180) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
@@ -3015,7 +3015,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "98" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 55.88 0) (length 0) hide
+      (pin no_connect line (at -20.32 55.88 0) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -3724,6 +3724,9 @@
     (property "ki_description" "Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-100, Obsolete" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LQFP*14x14mm*P0.5*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "CPLD_Xilinx:XCR3064XL-VQ44" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -16.51 33.02 0)
@@ -3946,6 +3949,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-44, Obsolete" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*10x10mm*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4394,6 +4400,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Xilinx CoolRunner 128-Macrocell CPLD, 3.3V, VQFP-100, Obsolete" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*14x14mm*P0.5*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5018,6 +5027,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Xilinx CoolRunner 256-Macrocell CPLD, 3.3V, TQFP-144, Obsolete" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TQFP*20x20mm*P0.5*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

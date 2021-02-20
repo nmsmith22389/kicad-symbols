@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Amplifier_Buffer:BUF602xD" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 6.35 2.54 0)
       (effects (font (size 1.27 1.27)))
@@ -37,11 +37,11 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -57,7 +57,7 @@
         (name "VREF" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -165,7 +165,7 @@
         (name "IN" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -173,11 +173,11 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -185,7 +185,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -293,7 +293,7 @@
       )
     )
     (symbol "LM6321H_1_1"
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -301,7 +301,7 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -309,7 +309,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 0 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -317,7 +317,7 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -365,7 +365,7 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 0 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -393,7 +393,7 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -453,7 +453,7 @@
       )
     )
     (symbol "LM6321N_1_1"
-      (pin unconnected line (at -2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -461,7 +461,7 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 0 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -469,7 +469,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -477,7 +477,7 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )

@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Driver_Relay:DRV8860" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 10.16 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -213,11 +213,6 @@
     (property "ki_fp_filters" "*TSSOP*4.4x6.5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "MAX4820xUP_0_1"
-      (rectangle (start -10.16 12.7) (end 10.16 -12.7)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX4820xUP_0_0"
       (pin open_collector line (at 12.7 2.54 180) (length 2.54)
         (name "OUT3" (effects (font (size 1.27 1.27))))
@@ -242,6 +237,11 @@
       (pin power_in line (at 0 -15.24 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX4820xUP_0_1"
+      (rectangle (start -10.16 12.7) (end 10.16 -12.7)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "MAX4820xUP_1_1"
@@ -301,7 +301,7 @@
         (name "DOUT" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -329,11 +329,6 @@
     (property "ki_fp_filters" "*TSSOP*4.4x6.5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "MAX4821xUP_0_1"
-      (rectangle (start -10.16 12.7) (end 10.16 -12.7)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX4821xUP_0_0"
       (pin open_collector line (at 12.7 2.54 180) (length 2.54)
         (name "OUT3" (effects (font (size 1.27 1.27))))
@@ -358,6 +353,11 @@
       (pin power_in line (at 0 -15.24 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX4821xUP_0_1"
+      (rectangle (start -10.16 12.7) (end 10.16 -12.7)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "MAX4821xUP_1_1"

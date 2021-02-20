@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "MCU_Module:Adafruit_Feather_32u4_BluefruitLE" (in_bom yes) (on_board yes)
     (property "Reference" "A" (id 0) (at -10.16 28.575 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -395,7 +395,7 @@
         (name "VBAT" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -457,7 +457,7 @@
         (name "~RESET" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -537,7 +537,7 @@
         (name "VBAT" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -549,19 +549,19 @@
         (name "ADC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -728,6 +728,9 @@
     (property "ki_description" "Microcontroller module with SAMD21 Cortex-M0 MCU and SD card reader" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Adafruit*Feather*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:Adafruit_Feather_M0_Express" (extends "Adafruit_Feather_M0_Basic_Proto")
     (property "Reference" "A" (id 0) (at -10.16 29.21 0)
@@ -746,6 +749,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Microcontroller module with SAMD21 Cortex-M0 MCU and SPI Flash" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Adafruit*Feather*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1068,6 +1074,9 @@
     (property "ki_description" "Microcontroller module with SAMD21 Cortex-M0 MCU and RFM9x Radio" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Adafruit*Feather*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:Adafruit_Feather_M0_Wifi" (in_bom yes) (on_board yes)
     (property "Reference" "A" (id 0) (at -10.16 29.21 0)
@@ -1376,7 +1385,7 @@
     (property "ki_description" "32-bit microcontroller module with WiFi" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Adafruit*HUZZAH*ESP8266*breakout*\nAdafruit*HUZZAH*ESP8266*breakout*WithMountingHoles*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Adafruit*HUZZAH*ESP8266*breakout* Adafruit*HUZZAH*ESP8266*breakout*WithMountingHoles*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Adafruit_HUZZAH_ESP8266_breakout_0_1"
@@ -1495,7 +1504,7 @@
       )
     )
     (symbol "Arduino_Leonardo_1_1"
-      (pin unconnected line (at -10.16 -20.32 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -1944,6 +1953,9 @@
     (property "ki_description" "Arduino Nano v3.x" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Arduino*Nano*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:Arduino_UNO_R2" (in_bom yes) (on_board yes)
     (property "Reference" "A" (id 0) (at -10.16 23.495 0)
@@ -1973,7 +1985,7 @@
       )
     )
     (symbol "Arduino_UNO_R2_1_1"
-      (pin unconnected line (at -10.16 -20.32 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -2123,7 +2135,7 @@
       )
     )
     (symbol "Arduino_UNO_R3_1_1"
-      (pin unconnected line (at -10.16 -20.32 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -3305,7 +3317,7 @@
         (name "PC10" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -33.02 55.88 0) (length 5.08) hide
+      (pin no_connect line (at -33.02 55.88 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -3553,7 +3565,7 @@
         (name "RTC_CRYSTAL/PC14" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -33.02 58.42 0) (length 5.08) hide
+      (pin no_connect line (at -33.02 58.42 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
@@ -3733,7 +3745,7 @@
         (name "PG10" (effects (font (size 1.27 1.27))))
         (number "66" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -33.02 53.34 0) (length 5.08) hide
+      (pin no_connect line (at -33.02 53.34 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "67" (effects (font (size 1.27 1.27))))
       )
@@ -3898,6 +3910,9 @@
     (property "ki_description" "Nucleo 144 Development Board with STM32F207ZGT6 MCU, 128+4Kb RAM, 1Mb FLASH" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:NUCLEO144-F412ZG" (extends "NUCLEO144-F429ZI")
     (property "Reference" "U" (id 0) (at -22.86 94.615 0)
@@ -3916,6 +3931,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Nucleo 144 Development Board with STM32F412ZGT6 MCU, 256kB RAM, 1Mb FLASH" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3938,6 +3956,9 @@
     (property "ki_description" "Nucleo 144 Development Board with STM32F413ZHT6 MCU, 320kB RAM, 1.5Mb FLASH" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:NUCLEO144-F439ZI" (extends "NUCLEO144-F429ZI")
     (property "Reference" "U" (id 0) (at -22.86 94.615 0)
@@ -3956,6 +3977,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Nucleo 144 Development Board with STM32F439ZIT6 MCU, 256kB RAM, 2Mb FLASH" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3978,6 +4002,9 @@
     (property "ki_description" "Nucleo 144 Development Board with STM32F446ZET6 MCU, 128kB RAM, 512Kb FLASH" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:NUCLEO144-F722ZE" (extends "NUCLEO144-F429ZI")
     (property "Reference" "U" (id 0) (at -22.86 94.615 0)
@@ -3996,6 +4023,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Nucleo 144 Development Board with STM32F722ZET6 MCU, 256kB RAM, 512Kb FLASH" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4018,6 +4048,9 @@
     (property "ki_description" "Nucleo 144 Development Board with STM32F746ZG MCU, 256kB RAM, 1Mb FLASH" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:NUCLEO144-F756ZG" (extends "NUCLEO144-F429ZI")
     (property "Reference" "U" (id 0) (at -22.86 94.615 0)
@@ -4036,6 +4069,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Nucleo 144 Development Board with STM32F756ZGT6 MCU, 320kB RAM, 1Mb FLASH" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4058,6 +4094,9 @@
     (property "ki_description" "Nucleo 144 Development Board with STM32F767ZIT6 MCU, 512kB RAM, 2Mb FLASH" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:NUCLEO144-H743ZI" (extends "NUCLEO144-F429ZI")
     (property "Reference" "U" (id 0) (at -22.86 94.615 0)
@@ -4076,6 +4115,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Nucleo 144 Development Board with STM32H743ZIT6 MCU, 1024kB RAM, 2Mb FLASH" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ST*Morpho*Connector*144*STLink*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4111,11 +4153,11 @@
         (name "PC10" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -27.94 20.32 0) (length 3.81) hide
+      (pin no_connect line (at -27.94 20.32 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -27.94 15.24 0) (length 3.81) hide
+      (pin no_connect line (at -27.94 15.24 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -4179,7 +4221,7 @@
         (name "PC14" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -27.94 22.86 0) (length 3.81) hide
+      (pin no_connect line (at -27.94 22.86 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
@@ -4275,7 +4317,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -27.94 25.4 0) (length 3.81) hide
+      (pin no_connect line (at -27.94 25.4 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
@@ -4311,7 +4353,7 @@
         (name "PB6" (effects (font (size 1.27 1.27))))
         (number "55" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -27.94 33.02 0) (length 3.81) hide
+      (pin no_connect line (at -27.94 33.02 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
       )
@@ -4391,7 +4433,7 @@
         (name "STLINK_UART_TX/PA2" (effects (font (size 1.27 1.27))))
         (number "73" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -27.94 30.48 0) (length 3.81) hide
+      (pin no_connect line (at -27.94 30.48 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "74" (effects (font (size 1.27 1.27))))
       )
@@ -4399,7 +4441,7 @@
         (name "STLINK_UART_RX/PA3" (effects (font (size 1.27 1.27))))
         (number "75" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -27.94 27.94 0) (length 3.81) hide
+      (pin no_connect line (at -27.94 27.94 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "76" (effects (font (size 1.27 1.27))))
       )
@@ -4423,7 +4465,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "80" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -27.94 17.78 0) (length 3.81) hide
+      (pin no_connect line (at -27.94 17.78 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -4892,6 +4934,9 @@
     (property "ki_description" "Iot Computer Module by Onion, 128MB RAM, 32MB FLASH" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Onion*Omega2S*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:PocketBeagle" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -22.86 -54.61 0)
@@ -5243,7 +5288,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 71.12 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 71.12 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -5331,7 +5376,7 @@
         (name "HDMI_D0_P" (effects (font (size 1.27 1.27))))
         (number "119" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 68.58 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 68.58 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -5351,7 +5396,7 @@
         (name "HDMI_D1_N" (effects (font (size 1.27 1.27))))
         (number "123" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 76.2 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 76.2 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "124" (effects (font (size 1.27 1.27))))
       )
@@ -5359,7 +5404,7 @@
         (name "HDMI_D1_P" (effects (font (size 1.27 1.27))))
         (number "125" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 73.66 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 73.66 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "126" (effects (font (size 1.27 1.27))))
       )
@@ -5367,7 +5412,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "127" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 71.12 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 71.12 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "128" (effects (font (size 1.27 1.27))))
       )
@@ -5379,7 +5424,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 66.04 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 66.04 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "130" (effects (font (size 1.27 1.27))))
       )
@@ -5387,7 +5432,7 @@
         (name "HDMI_D2_P" (effects (font (size 1.27 1.27))))
         (number "131" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 48.26 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 48.26 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "132" (effects (font (size 1.27 1.27))))
       )
@@ -5419,7 +5464,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "139" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -78.74 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -78.74 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -5483,7 +5528,7 @@
         (name "CAM1_DP1" (effects (font (size 1.27 1.27))))
         (number "153" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "154" (effects (font (size 1.27 1.27))))
       )
@@ -5491,7 +5536,7 @@
         (name "CAM1_DN1" (effects (font (size 1.27 1.27))))
         (number "155" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "156" (effects (font (size 1.27 1.27))))
       )
@@ -5499,7 +5544,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "157" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "158" (effects (font (size 1.27 1.27))))
       )
@@ -5507,11 +5552,11 @@
         (name "CAM1_DP0" (effects (font (size 1.27 1.27))))
         (number "159" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 66.04 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 66.04 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -60.96 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -60.96 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "160" (effects (font (size 1.27 1.27))))
       )
@@ -5519,7 +5564,7 @@
         (name "CAM1_DN0" (effects (font (size 1.27 1.27))))
         (number "161" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -63.5 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -63.5 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "162" (effects (font (size 1.27 1.27))))
       )
@@ -5591,11 +5636,11 @@
         (name "VC_TDO" (effects (font (size 1.27 1.27))))
         (number "178" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 78.74 270) (length 2.54) hide
+      (pin no_connect line (at 0 78.74 270) (length 2.54) hide
         (name "VDD_CORE_(DO_NOT_CONNECT)" (effects (font (size 1.27 1.27))))
         (number "179" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 63.5 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 63.5 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -5687,7 +5732,7 @@
         (name "~EMMC_DISABLE" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -78.74 90) (length 2.54) hide
+      (pin no_connect line (at 7.62 -78.74 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -5699,7 +5744,7 @@
         (name "GPIO6" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 60.96 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 60.96 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -5707,7 +5752,7 @@
         (name "GPIO7" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 58.42 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 58.42 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -5775,7 +5820,7 @@
         (name "GPIO0-27_VDD" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 78.74 270) (length 2.54) hide
+      (pin no_connect line (at 5.08 78.74 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -5863,7 +5908,7 @@
         (name "GPIO17" (effects (font (size 1.27 1.27))))
         (number "59" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 78.74 270) (length 2.54) hide
+      (pin no_connect line (at 12.7 78.74 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -5951,7 +5996,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "79" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -78.74 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -78.74 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -6073,7 +6118,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 66.04 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 66.04 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -6161,7 +6206,7 @@
         (name "HDMI_D0_P" (effects (font (size 1.27 1.27))))
         (number "119" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 63.5 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 63.5 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -6181,7 +6226,7 @@
         (name "HDMI_D1_N" (effects (font (size 1.27 1.27))))
         (number "123" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 76.2 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 76.2 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "124" (effects (font (size 1.27 1.27))))
       )
@@ -6189,7 +6234,7 @@
         (name "HDMI_D1_P" (effects (font (size 1.27 1.27))))
         (number "125" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 73.66 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 73.66 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "126" (effects (font (size 1.27 1.27))))
       )
@@ -6197,7 +6242,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "127" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 71.12 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 71.12 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "128" (effects (font (size 1.27 1.27))))
       )
@@ -6209,7 +6254,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 66.04 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 66.04 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "130" (effects (font (size 1.27 1.27))))
       )
@@ -6217,7 +6262,7 @@
         (name "HDMI_D2_P" (effects (font (size 1.27 1.27))))
         (number "131" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 48.26 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 48.26 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "132" (effects (font (size 1.27 1.27))))
       )
@@ -6313,7 +6358,7 @@
         (name "CAM1_DP1" (effects (font (size 1.27 1.27))))
         (number "153" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "154" (effects (font (size 1.27 1.27))))
       )
@@ -6321,7 +6366,7 @@
         (name "CAM1_DN1" (effects (font (size 1.27 1.27))))
         (number "155" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "156" (effects (font (size 1.27 1.27))))
       )
@@ -6329,7 +6374,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "157" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "158" (effects (font (size 1.27 1.27))))
       )
@@ -6337,11 +6382,11 @@
         (name "CAM1_DP0" (effects (font (size 1.27 1.27))))
         (number "159" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 60.96 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 60.96 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -60.96 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -60.96 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "160" (effects (font (size 1.27 1.27))))
       )
@@ -6349,7 +6394,7 @@
         (name "CAM1_DN0" (effects (font (size 1.27 1.27))))
         (number "161" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -63.5 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -63.5 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "162" (effects (font (size 1.27 1.27))))
       )
@@ -6421,11 +6466,11 @@
         (name "VC_TDO" (effects (font (size 1.27 1.27))))
         (number "178" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 78.74 270) (length 2.54) hide
+      (pin no_connect line (at 0 78.74 270) (length 2.54) hide
         (name "VDD_CORE_(DO_NOT_CONNECT)" (effects (font (size 1.27 1.27))))
         (number "179" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 58.42 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 58.42 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -6529,7 +6574,7 @@
         (name "GPIO6" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 55.88 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 55.88 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -6537,7 +6582,7 @@
         (name "GPIO7" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 53.34 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 53.34 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -6605,7 +6650,7 @@
         (name "GPIO0-27_VDD" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 78.74 270) (length 2.54) hide
+      (pin no_connect line (at 5.08 78.74 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -6693,7 +6738,7 @@
         (name "GPIO17" (effects (font (size 1.27 1.27))))
         (number "59" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 78.74 270) (length 2.54) hide
+      (pin no_connect line (at 12.7 78.74 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -6890,6 +6935,9 @@
     (property "ki_description" "BCM2837 Broadcom 1.2 GHZ quad core, 1 GB RAM 4 GB eMMC,  industrial SoM computer" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SODIMM*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_Module:RaspberryPi-CM3+L" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -20.32 81.28 0)
@@ -7031,7 +7079,7 @@
         (name "HDMI_D1_N" (effects (font (size 1.27 1.27))))
         (number "123" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 76.2 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 76.2 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "124" (effects (font (size 1.27 1.27))))
       )
@@ -7039,7 +7087,7 @@
         (name "HDMI_D1_P" (effects (font (size 1.27 1.27))))
         (number "125" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 73.66 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 73.66 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "126" (effects (font (size 1.27 1.27))))
       )
@@ -7047,7 +7095,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "127" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 71.12 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 71.12 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "128" (effects (font (size 1.27 1.27))))
       )
@@ -7059,7 +7107,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 66.04 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 66.04 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "130" (effects (font (size 1.27 1.27))))
       )
@@ -7067,7 +7115,7 @@
         (name "HDMI_D2_P" (effects (font (size 1.27 1.27))))
         (number "131" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 48.26 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 48.26 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "132" (effects (font (size 1.27 1.27))))
       )
@@ -7163,7 +7211,7 @@
         (name "CAM1_DP1" (effects (font (size 1.27 1.27))))
         (number "153" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "154" (effects (font (size 1.27 1.27))))
       )
@@ -7171,7 +7219,7 @@
         (name "CAM1_DN1" (effects (font (size 1.27 1.27))))
         (number "155" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "156" (effects (font (size 1.27 1.27))))
       )
@@ -7179,7 +7227,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "157" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "158" (effects (font (size 1.27 1.27))))
       )
@@ -7191,7 +7239,7 @@
         (name "SDX_D0" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -60.96 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -60.96 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "160" (effects (font (size 1.27 1.27))))
       )
@@ -7199,7 +7247,7 @@
         (name "CAM1_DN0" (effects (font (size 1.27 1.27))))
         (number "161" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 20.32 -63.5 180) (length 2.54) hide
+      (pin no_connect line (at 20.32 -63.5 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "162" (effects (font (size 1.27 1.27))))
       )
@@ -7271,7 +7319,7 @@
         (name "VC_TDO" (effects (font (size 1.27 1.27))))
         (number "178" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 78.74 270) (length 2.54) hide
+      (pin no_connect line (at 0 78.74 270) (length 2.54) hide
         (name "VDD_CORE_(DO_NOT_CONNECT)" (effects (font (size 1.27 1.27))))
         (number "179" (effects (font (size 1.27 1.27))))
       )
@@ -7738,6 +7786,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "BCM2837 Broadcom 1.2 GHZ quad core, 1 GB RAM, industrial SoM computer" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SODIMM*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -8835,7 +8886,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "82" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -93.98 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 -93.98 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "83" (effects (font (size 1.27 1.27))))
       )
@@ -8847,7 +8898,7 @@
         (name "+3.3VOUT" (effects (font (size 1.27 1.27))))
         (number "85" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -76.2 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -76.2 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "86" (effects (font (size 1.27 1.27))))
       )
@@ -8883,11 +8934,11 @@
         (name "+3.3VOUT" (effects (font (size 1.27 1.27))))
         (number "93" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -83.82 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -83.82 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "94" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -91.44 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -91.44 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "95" (effects (font (size 1.27 1.27))))
       )
@@ -8926,6 +8977,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "i.MX6-ULL NXP ARM Cortex-A7 900MHz single core industrial SoM computer" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SODIMM*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -9297,7 +9351,7 @@
         (name "SDIO1-D2" (effects (font (size 1.27 1.27))))
         (number "175" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -99.06 90) (length 3.81) hide
+      (pin no_connect line (at -5.08 -99.06 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "176" (effects (font (size 1.27 1.27))))
       )
@@ -9305,7 +9359,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "177" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -99.06 90) (length 3.81) hide
+      (pin no_connect line (at -2.54 -99.06 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "178" (effects (font (size 1.27 1.27))))
       )
@@ -9317,7 +9371,7 @@
         (name "SNVS-TAMPER8" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -99.06 90) (length 3.81) hide
+      (pin no_connect line (at 2.54 -99.06 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "180" (effects (font (size 1.27 1.27))))
       )
@@ -9325,11 +9379,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "181" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -99.06 90) (length 3.81) hide
+      (pin no_connect line (at 5.08 -99.06 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "182" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 22.86 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 22.86 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "183" (effects (font (size 1.27 1.27))))
       )
@@ -9341,15 +9395,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "185" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 35.56 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 35.56 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "186" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 25.4 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 25.4 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "187" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 33.02 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 33.02 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "188" (effects (font (size 1.27 1.27))))
       )
@@ -9361,39 +9415,39 @@
         (name "USB-OTG2-DP" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 38.1 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 38.1 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "190" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 40.64 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 40.64 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "191" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 43.18 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 43.18 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "192" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 48.26 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 48.26 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "193" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 45.72 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 45.72 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "194" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 50.8 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 50.8 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "195" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 53.34 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 53.34 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "196" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 30.48 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 30.48 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "197" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 27.94 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 27.94 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "198" (effects (font (size 1.27 1.27))))
       )
@@ -9685,7 +9739,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "82" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -93.98 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 -93.98 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "83" (effects (font (size 1.27 1.27))))
       )
@@ -9697,7 +9751,7 @@
         (name "+3.3VOUT" (effects (font (size 1.27 1.27))))
         (number "85" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -76.2 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -76.2 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "86" (effects (font (size 1.27 1.27))))
       )
@@ -9733,11 +9787,11 @@
         (name "+3.3VOUT" (effects (font (size 1.27 1.27))))
         (number "93" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -83.82 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -83.82 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "94" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -91.44 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -91.44 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "95" (effects (font (size 1.27 1.27))))
       )
@@ -9815,7 +9869,7 @@
         (name "VDD-5V" (effects (font (size 1.27 1.27))))
         (number "104" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 73.66 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 73.66 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "105" (effects (font (size 1.27 1.27))))
       )
@@ -9879,7 +9933,7 @@
         (name "GPIO-PC2" (effects (font (size 1.27 1.27))))
         (number "119" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 73.66 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 73.66 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -9895,7 +9949,7 @@
         (name "ENET1-TXD0" (effects (font (size 1.27 1.27))))
         (number "122" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 71.12 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 71.12 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "123" (effects (font (size 1.27 1.27))))
       )
@@ -9907,7 +9961,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "125" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 68.58 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 68.58 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "126" (effects (font (size 1.27 1.27))))
       )
@@ -9923,7 +9977,7 @@
         (name "LCD-R5" (effects (font (size 1.27 1.27))))
         (number "129" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 71.12 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 71.12 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -9967,7 +10021,7 @@
         (name "LCD-G5" (effects (font (size 1.27 1.27))))
         (number "139" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 68.58 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 68.58 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -10055,7 +10109,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "159" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 55.88 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 55.88 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -10143,7 +10197,7 @@
         (name "SD2-CLK" (effects (font (size 1.27 1.27))))
         (number "179" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 48.26 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 48.26 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -10159,7 +10213,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "182" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 55.88 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 55.88 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "183" (effects (font (size 1.27 1.27))))
       )
@@ -10175,7 +10229,7 @@
         (name "DSI-D0N" (effects (font (size 1.27 1.27))))
         (number "186" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 43.18 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 43.18 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "187" (effects (font (size 1.27 1.27))))
       )
@@ -10191,11 +10245,11 @@
         (name "USB-OTG1-DP" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 35.56 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 35.56 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "190" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 27.94 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 27.94 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "191" (effects (font (size 1.27 1.27))))
       )
@@ -10215,15 +10269,15 @@
         (name "DSI-CK-P" (effects (font (size 1.27 1.27))))
         (number "195" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 15.24 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 15.24 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "196" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -2.54 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 -2.54 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "197" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -20.32 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 -20.32 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "198" (effects (font (size 1.27 1.27))))
       )
@@ -10255,7 +10309,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 38.1 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 38.1 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -10283,23 +10337,23 @@
         (name "PWR-LP" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 30.48 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 30.48 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 25.4 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 25.4 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 20.32 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 20.32 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 12.7 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 12.7 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -12.7 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -12.7 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
@@ -10307,11 +10361,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -22.86 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -22.86 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -30.48 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -30.48 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
@@ -10319,7 +10373,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -33.02 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -33.02 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
@@ -10335,7 +10389,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -35.56 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -35.56 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
@@ -10343,7 +10397,7 @@
         (name "JTAG-TDI" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -38.1 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -38.1 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
@@ -10515,7 +10569,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "82" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -40.64 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -40.64 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "83" (effects (font (size 1.27 1.27))))
       )
@@ -10527,7 +10581,7 @@
         (name "VOUT-3V3" (effects (font (size 1.27 1.27))))
         (number "85" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -55.88 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -55.88 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "86" (effects (font (size 1.27 1.27))))
       )
@@ -10563,11 +10617,11 @@
         (name "VOUT-3V3" (effects (font (size 1.27 1.27))))
         (number "93" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -63.5 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -63.5 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "94" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -68.58 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -68.58 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "95" (effects (font (size 1.27 1.27))))
       )

@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "RF_ZigBee:CC2520" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 1.27 0)
       (effects (font (size 1.27 1.27)))
@@ -51,7 +51,7 @@
         (name "AVDD3" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -22.86 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -22.86 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -75,7 +75,7 @@
         (name "AVDD1" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -22.86 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -22.86 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
@@ -461,6 +461,9 @@
     (property "ki_description" "NXP JN5164/JN5169 breakout module, DIP" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*28*W15.24mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_ZigBee:TWE-L-WX" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 21.59 0)
@@ -574,7 +577,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
@@ -637,6 +640,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "NXP JN5164/JN5169 breakout module, SMD" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MonoWireless?TWE*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -704,11 +710,11 @@
         (name "DIO15/SPI_MISO" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -716,11 +722,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
@@ -728,7 +734,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
@@ -776,7 +782,7 @@
         (name "DIO0/AD0" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
@@ -788,7 +794,7 @@
         (name "RF" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
@@ -812,7 +818,7 @@
         (name "DIO11/PWM1" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 -22.86 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 -22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )

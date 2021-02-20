@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Simulation_SPICE:DIODE" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
@@ -186,24 +186,6 @@
     (property "ki_description" "Current source, DC" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "IDC_0_1"
-      (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy 0 2.286)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.254 1.778)
-          (xy 0 1.27)
-          (xy 0.254 1.778)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "IDC_0_0"
       (polyline
         (pts
@@ -230,6 +212,24 @@
         (pts
           (xy 1.27 -0.254)
           (xy 0.762 -0.254)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "IDC_0_1"
+      (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
+      (polyline
+        (pts
+          (xy 0 1.27)
+          (xy 0 2.286)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.254 1.778)
+          (xy 0 1.27)
+          (xy 0.254 1.778)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -352,6 +352,21 @@
     (property "ki_description" "Current source, pulse" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "IPULSE_0_0"
+      (polyline
+        (pts
+          (xy -2.032 -0.762)
+          (xy -1.397 -0.762)
+          (xy -1.143 0.762)
+          (xy -0.127 0.762)
+          (xy 0.127 -0.762)
+          (xy 1.143 -0.762)
+          (xy 1.397 0.762)
+          (xy 2.032 0.762)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
     (symbol "IPULSE_0_1"
       (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
       (polyline
@@ -366,21 +381,6 @@
           (xy -0.254 1.778)
           (xy 0 1.27)
           (xy 0.254 1.778)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "IPULSE_0_0"
-      (polyline
-        (pts
-          (xy -2.032 -0.762)
-          (xy -1.397 -0.762)
-          (xy -1.143 0.762)
-          (xy -0.127 0.762)
-          (xy 0.127 -0.762)
-          (xy 1.143 -0.762)
-          (xy 1.397 0.762)
-          (xy 2.032 0.762)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -424,6 +424,18 @@
     (property "ki_description" "Current source, piece-wise linear" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "IPWL_0_0"
+      (polyline
+        (pts
+          (xy -1.778 -1.016)
+          (xy -0.762 1.016)
+          (xy -0.254 0)
+          (xy 0.762 0)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
     (symbol "IPWL_0_1"
       (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
       (polyline
@@ -438,18 +450,6 @@
           (xy -0.254 1.778)
           (xy 0 1.27)
           (xy 0.254 1.778)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "IPWL_0_0"
-      (polyline
-        (pts
-          (xy -1.778 -1.016)
-          (xy -0.762 1.016)
-          (xy -0.254 0)
-          (xy 0.762 0)
-          (xy 1.27 1.27)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -982,9 +982,6 @@
     (property "ki_description" "Voltage source, DC" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "VDC_0_1"
-      (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
-    )
     (symbol "VDC_0_0"
       (text "+" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)))
@@ -1017,6 +1014,9 @@
         )
         (stroke (width 0)) (fill (type none))
       )
+    )
+    (symbol "VDC_0_1"
+      (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
     )
     (symbol "VDC_1_1"
       (pin passive line (at 0 5.08 270) (length 2.54)
@@ -1124,9 +1124,6 @@
     (property "ki_description" "Voltage source, pulse" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "VPULSE_0_1"
-      (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
-    )
     (symbol "VPULSE_0_0"
       (text "+" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)))
@@ -1144,6 +1141,9 @@
         )
         (stroke (width 0)) (fill (type none))
       )
+    )
+    (symbol "VPULSE_0_1"
+      (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
     )
     (symbol "VPULSE_1_1"
       (pin passive line (at 0 5.08 270) (length 2.54)
@@ -1184,9 +1184,6 @@
     (property "ki_description" "Voltage source, piece-wise linear" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "VPWL_0_1"
-      (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
-    )
     (symbol "VPWL_0_0"
       (text "+" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)))
@@ -1201,6 +1198,9 @@
         )
         (stroke (width 0)) (fill (type none))
       )
+    )
+    (symbol "VPWL_0_1"
+      (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
     )
     (symbol "VPWL_1_1"
       (pin passive line (at 0 5.08 270) (length 2.54)
@@ -1240,6 +1240,11 @@
     )
     (property "ki_description" "Voltage source, single-frequency FM" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VSFFM_0_0"
+      (text "+" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)))
+      )
     )
     (symbol "VSFFM_0_1"
       (arc (start -1.524 0.254) (end -2.032 0.254) (radius (at -1.778 0.254) (length 0.254) (angles 0.1 180))
@@ -1302,11 +1307,6 @@
           (xy 2.032 0)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "VSFFM_0_0"
-      (text "+" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)))
       )
     )
     (symbol "VSFFM_1_1"
@@ -1401,6 +1401,11 @@
     (property "ki_description" "Voltage source, transient noise" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "VTRNOISE_0_0"
+      (text "+" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)))
+      )
+    )
     (symbol "VTRNOISE_0_1"
       (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
       (polyline
@@ -1426,11 +1431,6 @@
           (xy 2.032 -0.889)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "VTRNOISE_0_0"
-      (text "+" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)))
       )
     )
     (symbol "VTRNOISE_1_1"
@@ -1472,6 +1472,11 @@
     (property "ki_description" "Voltage source, random noise" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "VTRRANDOM_0_0"
+      (text "+" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)))
+      )
+    )
     (symbol "VTRRANDOM_0_1"
       (circle (center 0 0) (radius 2.54) (stroke (width 0.254)) (fill (type background)))
       (polyline
@@ -1497,11 +1502,6 @@
           (xy 2.032 -0.889)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "VTRRANDOM_0_0"
-      (text "+" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)))
       )
     )
     (symbol "VTRRANDOM_1_1"

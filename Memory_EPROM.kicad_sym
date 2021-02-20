@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Memory_EPROM:27C010" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 29.21 0)
       (effects (font (size 1.27 1.27)))
@@ -18,7 +18,7 @@
     (property "ki_description" "OTP EPROM 1 MiBit (128 Ki x 8 Bit)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W15.24mm*\nPLCC*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W15.24mm* PLCC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "27C010_1_1"
@@ -170,7 +170,7 @@
     (property "ki_description" "OTP EPROM 2 MiBit (256 Ki x 8 Bit)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W15.24mm*\nPLCC*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W15.24mm* PLCC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "27C020_1_1"
@@ -326,7 +326,7 @@
     (property "ki_description" "OTP EPROM 4 MiBit (512 Ki x 8)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W15.24mm*\nPLCC*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W15.24mm* PLCC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "27C040_1_1"
@@ -482,7 +482,7 @@
     (property "ki_description" "OTP EPROM 8 MiBit (1 Mi x 8)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W15.24mm*\nPLCC*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W15.24mm* PLCC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "27C080_1_1"
@@ -778,6 +778,9 @@
     (property "ki_description" "UV Erasable EPROM 128 KiBit, [Obsolete 2000-11]" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_EPROM:27C256" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 26.67 0)
@@ -936,6 +939,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "UV Erasable EPROM 256 KiBit, [Obsolete 2000-11]" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1098,6 +1104,9 @@
     (property "ki_description" "UV Erasable EPROM 512 KiBit, [Obsolete 2007-01]" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_EPROM:27C512PLCC" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 26.67 0)
@@ -1125,7 +1134,7 @@
       (rectangle (start -7.62 25.4) (end 7.62 -27.94)
         (stroke (width 0.254)) (fill (type background))
       )
-      (pin unconnected line (at 7.62 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -1185,7 +1194,7 @@
         (name "A14" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -22.86 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -1225,11 +1234,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -25.4 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -25.4 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -1369,7 +1378,7 @@
         (name "D4" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
@@ -1412,6 +1421,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "EPROM 64 KiBit, [Obsolete 2000-11]" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

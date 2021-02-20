@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Interface_CAN_LIN:ADM3053" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -197,7 +197,7 @@
         (name "VISOIN" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -17.78 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -17.78 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -904,7 +904,7 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -10.16 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -940,19 +940,19 @@
         (name "~RESET" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -990,7 +990,7 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -10.16 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -1026,19 +1026,19 @@
         (name "~RESET" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -1076,7 +1076,7 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -10.16 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -1112,19 +1112,19 @@
         (name "~RESET" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -1162,11 +1162,11 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -1186,7 +1186,7 @@
         (name "~WWDTTRIG" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -1198,7 +1198,7 @@
         (name "VBAT_RATIO" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -1206,11 +1206,11 @@
         (name "CS/LWAKE" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 -7.62 0) (length 2.54) hide
         (name "PAD" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
@@ -1226,7 +1226,7 @@
         (name "~RESET" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 12.7 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -1238,7 +1238,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 10.16 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -1261,6 +1261,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LIN Transceiver with Voltage Regulator, 5V, QFN-20" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "QFN*1EP*5x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1336,7 +1339,7 @@
         (name "~RESET" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -1367,6 +1370,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LIN Transceiver with Voltage Regulator, 5V, PDIP" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1442,7 +1448,7 @@
         (name "~RESET" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -1473,6 +1479,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LIN Transceiver with Voltage Regulator, 5V, SOIC-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1630,7 +1639,7 @@
         (name "SCK" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -1670,7 +1679,7 @@
         (name "~TX1RTS" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 0 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -1949,6 +1958,9 @@
     (property "ki_description" "CAN-FD Transceiver, Wake-Up on CAN Pattern, 8Mbps, 5V supply, STBY pin, 3x3 DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:MCP2551-I-P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -2118,7 +2130,7 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -2184,7 +2196,7 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -2250,7 +2262,7 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -2547,6 +2559,9 @@
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +150C, DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:MCP2561-E-P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -2629,6 +2644,9 @@
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +150C, DIP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:MCP2561-E-SN" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -2709,6 +2727,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +150C, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2797,6 +2818,9 @@
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:MCP2562-E-P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -2877,6 +2901,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, DIP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2961,6 +2988,9 @@
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:MCP25625-x-SS" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 26.67 0)
@@ -3034,7 +3064,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -3058,7 +3088,7 @@
         (name "TXD" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
@@ -3403,6 +3433,9 @@
     (property "ki_description" "CAN Bus Transceivers, 3.3V, 1Mbps,Ultra Low-Power capabilities, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:SN65HVD232" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -2.54 10.16 0)
@@ -3448,7 +3481,7 @@
         (name "R" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -3460,7 +3493,7 @@
         (name "CANH" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -3688,7 +3721,7 @@
         (name "VSUP" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -3757,7 +3790,7 @@
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*TSOT?23*\n*SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TCAN330_0_1"
@@ -3819,6 +3852,9 @@
     (property "ki_description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:TCAN332" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -3839,7 +3875,7 @@
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, SOT-23-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*TSOT?23*\n*SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TCAN332_0_1"
@@ -3864,7 +3900,7 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -3876,7 +3912,7 @@
         (name "CANH" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -3901,6 +3937,9 @@
     (property "ki_description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, SOT-23-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:TCAN334" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -3921,7 +3960,7 @@
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*TSOT?23*\n*SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TCAN334_0_1"
@@ -3983,6 +4022,9 @@
     (property "ki_description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:TCAN337" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -4003,7 +4045,7 @@
     (property "ki_description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, fault output, SOT-23-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*TSOT?23*\n*SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TCAN337_0_1"
@@ -4063,6 +4105,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, fault output, SOT-23-8/SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4230,7 +4275,7 @@
         (name "~SLP~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -4250,7 +4295,7 @@
         (name "VBAT" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -4292,7 +4337,7 @@
         (name "~SLP~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -4312,7 +4357,7 @@
         (name "VBAT" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -4579,6 +4624,9 @@
     (property "ki_description" "High-Speed CAN Transceiver, standby mode, split pin, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:TJA1049T-3" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -4661,6 +4709,9 @@
     (property "ki_description" "High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:TJA1049TK" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -4681,7 +4732,7 @@
     (property "ki_description" "High-Speed CAN Transceiver, standby mode, DFN-8-1EP" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*\nHVSON*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm* HVSON*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TJA1049TK_0_1"
@@ -4747,7 +4798,7 @@
     (property "ki_description" "High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*\nHVSON*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm* HVSON*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TJA1049TK-3_0_1"
@@ -4813,6 +4864,9 @@
     (property "ki_description" "High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm* HVSON*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:TJA1051T" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -4858,7 +4912,7 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "n.c." (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -5220,7 +5274,7 @@
         (name "TXD" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -5228,7 +5282,7 @@
         (name "RXD" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -5265,6 +5319,9 @@
     (property "ki_description" "Isolated CAN Transceiver 2.5kV, up to 5Mbps" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_CAN_LIN:TJA1052i-5" (extends "TJA1052i-1")
     (property "Reference" "U" (id 0) (at -10.16 13.97 0)
@@ -5283,6 +5340,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Isolated CAN Transceiver 5.0kV, up to 5Mbps" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5389,6 +5449,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-speed CAN transceiver for partial networking with FD-passive function, SOIC-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5499,6 +5562,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-speed CAN transceiver for partial networking with FD-passive function, DFN-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DFN*1EP*3x4.5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Display_Graphic:AG12864E" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "DS" (id 0) (at -8.382 19.05 0)
       (effects (font (size 1.27 1.27)))
@@ -401,11 +401,11 @@
       )
     )
     (symbol "EA_DOGS104B-A_1_1"
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -445,7 +445,7 @@
         (name "SA0" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -453,7 +453,7 @@
         (name "~RST" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -645,7 +645,7 @@
         (name "PWR" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -22.86 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -22.86 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -661,11 +661,11 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -689,7 +689,7 @@
         (name "IN4/OUT5" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -705,7 +705,7 @@
         (name "IN1/OUT8" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -20.32 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -750,6 +750,9 @@
     (property "ki_description" "LCD-graphical display with LED backlight and touch panel blue negative, 3.3V - 5V VDD, RS-232. I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP128B*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP128W-6LW" (extends "EA_eDIP128B-6LW")
     (property "Reference" "U" (id 0) (at -8.636 24.13 0)
@@ -770,6 +773,9 @@
     (property "ki_description" "LCD-graphical display with LED backlight positive mode FSTN, 3.3V - 5V VDD, RS-232. I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP128B*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP128W-6LWTP" (extends "EA_eDIP128B-6LW")
     (property "Reference" "U" (id 0) (at -8.636 24.13 0)
@@ -788,6 +794,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LCD-graphical display with LED backlight and touch panel positive mode FSTN, 3.3V - 5V VDD, RS-232. I2C or SPI" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*EA*eDIP128B*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -859,7 +868,7 @@
         (name "PWR" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -22.86 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -22.86 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -879,11 +888,11 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -25.4 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -25.4 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -907,7 +916,7 @@
         (name "IN4/OUT5" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -923,39 +932,39 @@
         (name "IN1/OUT8" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -22.86 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -25.4 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -25.4 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -20.32 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -1000,6 +1009,9 @@
     (property "ki_description" "LCD-graphical display 160x104 with LED backlight and touch panel, blue negative, 3.3V - 5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP160*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP160W-7LW" (extends "EA_eDIP160B-7LW")
     (property "Reference" "U" (id 0) (at -8.382 29.464 0)
@@ -1020,6 +1032,9 @@
     (property "ki_description" "LCD-graphical display 160x104 with LED backlight, positive mode FSTN, 3.3V - 5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP160*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP160W-7LWTP" (extends "EA_eDIP160B-7LW")
     (property "Reference" "U" (id 0) (at -8.382 29.464 0)
@@ -1038,6 +1053,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LCD-graphical display 160x104 with LED backlight and touch panel, positive mode FSTN, 3.3V - 5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*EA*eDIP160*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1121,39 +1139,39 @@
         (name "TEST_SBUF" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -25.4 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -25.4 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 25.4 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 25.4 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 22.86 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
@@ -1161,43 +1179,43 @@
         (name "VADJ" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -22.86 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -25.4 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -25.4 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
@@ -1205,7 +1223,7 @@
         (name "VOUT" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -1250,6 +1268,9 @@
     (property "ki_description" "LCD graphical display with white LED background and touch panel blue negative, 240x128, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP240*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP240J-7LA" (extends "EA_eDIP240B-7LW")
     (property "Reference" "U" (id 0) (at -8.382 29.21 0)
@@ -1268,6 +1289,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LCD graphical display with amber LED background blue positive mode FSTN 240x128, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*EA*eDIP240*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1290,6 +1314,9 @@
     (property "ki_description" "LCD graphical display with amber LED background and touch panel blue positive mode FSTN, 240x128, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP240*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP240J-7LW" (extends "EA_eDIP240B-7LW")
     (property "Reference" "U" (id 0) (at -8.382 29.21 0)
@@ -1310,6 +1337,9 @@
     (property "ki_description" "LCD graphical display with white LED background blue positive mode FSTN, 240x128, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP240*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP240J-7LWTP" (extends "EA_eDIP240B-7LW")
     (property "Reference" "U" (id 0) (at -8.382 29.21 0)
@@ -1328,6 +1358,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LCD graphical display with amber LED background blue positive mode FSTN, 240x128, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*EA*eDIP240*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1419,31 +1452,31 @@
         (name "PDO" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -30.48 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -30.48 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -33.02 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -33.02 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -35.56 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -35.56 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -38.1 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -38.1 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 25.4 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 25.4 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 22.86 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
@@ -1451,43 +1484,43 @@
         (name "VADJ" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
@@ -1495,35 +1528,35 @@
         (name "VOUT" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -22.86 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -25.4 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -25.4 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -30.48 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -30.48 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -33.02 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -33.02 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -35.56 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -35.56 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
@@ -1539,7 +1572,7 @@
         (name "BAUD1" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -38.1 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -38.1 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "78" (effects (font (size 1.27 1.27))))
       )
@@ -1572,6 +1605,9 @@
     (property "ki_description" "LCD graphical display 320x240 white LED backlight with touch panel blue negative, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP320*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP320J-8LA" (extends "EA_eDIP320B-8LW")
     (property "Reference" "U" (id 0) (at -8.636 29.464 0)
@@ -1590,6 +1626,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LCD graphical display 320x240 amber LED backlight blue positive FSTN, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*EA*eDIP320*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1612,6 +1651,9 @@
     (property "ki_description" "LCD graphical display 320x240 amber LED backlight with touch panel blue positive mode FSTN, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP320*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP320J-8LW" (extends "EA_eDIP320B-8LW")
     (property "Reference" "U" (id 0) (at -8.636 29.464 0)
@@ -1632,6 +1674,9 @@
     (property "ki_description" "LCD graphical display 320x240 white LED backlight blue positive mode FSTN, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIP320*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIP320J-8LWTP" (extends "EA_eDIP320B-8LW")
     (property "Reference" "U" (id 0) (at -8.636 29.464 0)
@@ -1650,6 +1695,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LCD graphical display 320x240 white LED backlight with touch panel blue positive mode FSTN, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*EA*eDIP320*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1769,7 +1817,7 @@
         (name "OUT5/MO4" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1813,7 +1861,7 @@
         (name "IN7/MI2" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -1860,6 +1908,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "TFT graphical display with touch panel, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*EA*eDIPTFT32*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1979,7 +2030,7 @@
         (name "OUT5/MO4" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -2023,7 +2074,7 @@
         (name "IN7/MI2" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -2072,6 +2123,9 @@
     (property "ki_description" "TFT graphical display with resistive touch panel, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "EA*eDIPTFT43*XXX*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIPTFT43-ATS" (extends "EA_eDIPTFT43-A")
     (property "Reference" "U" (id 0) (at -11.176 31.75 0)
@@ -2090,6 +2144,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "TFT graphical display with capacitive touch panel, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "EA*eDIPTFT43*XXX*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2209,7 +2266,7 @@
         (name "OUT5/MO4" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -2253,7 +2310,7 @@
         (name "IN7/MI2" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -2363,35 +2420,35 @@
         (name "TEST_SBUF" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -30.48 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -30.48 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -33.02 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -33.02 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -35.56 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -35.56 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -35.56 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -35.56 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -33.02 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -33.02 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -30.48 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -30.48 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -2524,6 +2581,9 @@
     (property "ki_description" "TFT-graphical display with touch panel. 640x480, LED backlight, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIPTFT57*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIPTFT70-A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.636 36.83 0)
@@ -2605,35 +2665,35 @@
         (name "TEST_SBUF" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -30.48 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -30.48 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -33.02 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -33.02 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -35.56 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -35.56 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -35.56 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -35.56 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -33.02 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -33.02 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -30.48 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -30.48 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -2766,6 +2826,9 @@
     (property "ki_description" "TFT-graphical display with LED background, 800x480, 16-bit colours, +5V VDD, RS-232, I2C or SPI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*EA*eDIPTFT70*XXX*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Graphic:EA_eDIPTFT70-ATC" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.636 36.83 0)
@@ -2847,35 +2910,35 @@
         (name "TEST_SBUF" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -30.48 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -30.48 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -33.02 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -33.02 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -35.56 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -35.56 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -35.56 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -35.56 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -33.02 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -33.02 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -30.48 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -30.48 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -3011,6 +3074,12 @@
     (property "ki_fp_filters" "ERM19264*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "ERM19264_0_0"
+      (pin input line (at 12.7 -15.24 180) (length 2.54)
+        (name "~CS3~" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "ERM19264_0_1"
       (rectangle (start -10.16 17.78) (end 10.16 -17.78)
         (stroke (width 0.254)) (fill (type background))
@@ -3092,12 +3161,6 @@
       (pin passive line (at 12.7 -2.54 180) (length 2.54)
         (name "BLA" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "ERM19264_0_0"
-      (pin input line (at 12.7 -15.24 180) (length 2.54)
-        (name "~CS3~" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -3237,7 +3300,7 @@
         (name "VBAT" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )

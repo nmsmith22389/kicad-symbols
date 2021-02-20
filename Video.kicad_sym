@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Video:AD725" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -13.97 13.97 0)
       (effects (font (size 1.27 1.27)))
@@ -848,7 +848,7 @@
         (name "REF_LO" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -48.26 180) (length 5.08) hide
+      (pin no_connect line (at 12.7 -48.26 180) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -3210,7 +3210,7 @@
     (property "ki_description" "PAL/NTSC Encoder, RGB or Y/Y-R/Y-B Inputs, DIP/SOIC-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*\nSOIC*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP* SOIC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TDA8501_0_1"
@@ -3336,7 +3336,7 @@
     (property "ki_description" "8bit Video DAC (32 MHz), DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*\nSO*\nSOIC*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP* SO* SOIC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TDA8702_0_1"
@@ -3428,6 +3428,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "8bit Video DAC (32 MHz), SOIC-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP* PDIP* SO* SOIC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3786,7 +3789,7 @@
         (name "IVI" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -4101,7 +4104,7 @@
         (name "DGND" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -33.02 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )

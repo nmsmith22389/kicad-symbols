@@ -504,7 +504,7 @@
       )
     )
     (symbol "AH1806-Z_1_1"
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -512,7 +512,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -611,7 +611,7 @@
         (name "U" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -10.16 90) (length 2.54) hide
+      (pin no_connect line (at 7.62 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -647,7 +647,7 @@
         (name "W" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -10.16 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -770,11 +770,11 @@
         (name "PWM" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -10.16 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -798,7 +798,7 @@
         (name "B" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -1344,11 +1344,11 @@
         (name "~INT" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -10.16 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -10.16 90) (length 2.54) hide
+      (pin no_connect line (at 7.62 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -1364,19 +1364,19 @@
         (name "~SS" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1837,7 +1837,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -1861,11 +1861,11 @@
         (name "AVDD" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -1881,7 +1881,7 @@
         (name "VPP" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -2015,7 +2015,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -10.16 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -2105,7 +2105,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -2113,7 +2113,7 @@
         (name "VDDIO" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -2129,27 +2129,27 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )

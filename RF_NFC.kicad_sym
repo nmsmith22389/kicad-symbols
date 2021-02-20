@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "RF_NFC:PN5321A3HN_C1xx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 31.75 0)
       (effects (font (size 1.27 1.27)))
@@ -75,15 +75,15 @@
         (name "LOADMOD" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 -2.54 180) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 -5.08 180) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 -7.62 180) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )

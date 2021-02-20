@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Amplifier_Audio:IR4301" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 20.955 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -108,6 +108,9 @@
     (property "ki_description" "PowIRaudio Integrated Analog Input Class D Audio Amplifier, 90W/4ohm, 60V, PQFN-22" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Infineon*PQFN*4EP*6x5mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:IR4321" (extends "IR4301")
     (property "Reference" "U" (id 0) (at -7.62 20.955 0)
@@ -126,6 +129,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "PowIRaudio Integrated Analog Input Class D Audio Amplifier, 35W/4ohm, 40V, PQFN-22" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Infineon*PQFN*4EP*6x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -176,7 +182,7 @@
         (name "FAULT" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -216,11 +222,11 @@
         (name "COM" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
@@ -307,6 +313,9 @@
     (property "ki_description" "PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 100W/4ohm, 60V, PQFN-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Infineon*PQFN*5EP*7x7mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:IR4322" (extends "IR4302")
     (property "Reference" "U" (id 0) (at -7.62 20.955 0)
@@ -325,6 +334,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 35W/4ohm, 40V, PQFN-44" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Infineon*PQFN*5EP*7x7mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -359,11 +371,11 @@
       )
     )
     (symbol "IRS2052M_1_1"
-      (pin unconnected line (at -7.62 17.78 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 10.16 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -371,11 +383,11 @@
         (name "VS1" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -399,19 +411,19 @@
         (name "COM" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 15.24 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -439,15 +451,15 @@
         (name "VREF" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
@@ -479,7 +491,7 @@
         (name "CSD" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
@@ -802,15 +814,15 @@
         (name "LO1" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 15.24 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 17.78 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -818,11 +830,11 @@
         (name "COM" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 10.16 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
@@ -846,7 +858,7 @@
         (name "VREF" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -878,11 +890,11 @@
         (name "COM" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -1022,7 +1034,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -1054,7 +1066,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -1237,7 +1249,7 @@
         (name "LO1" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -1245,7 +1257,7 @@
         (name "COM" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
@@ -1277,7 +1289,7 @@
         (name "VAA" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -1726,7 +1738,7 @@
     (property "ki_description" "Dual Audio Power Amplifier, PDIP-14/SOIC-14" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*7.5x9mm*P1.27mm*\nDIP*W7.62mm*" (id 7) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*7.5x9mm*P1.27mm* DIP*W7.62mm*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM1877_1_1"
@@ -1852,11 +1864,11 @@
         (name "+" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -1868,11 +1880,11 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -2.54 270) (length 3.81) hide
+      (pin no_connect line (at -2.54 -2.54 270) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -1940,7 +1952,7 @@
         (name "GND" (effects (font (size 0.508 0.508))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 0 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -1976,7 +1988,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -2016,7 +2028,7 @@
       )
     )
     (symbol "LM380N-8_1_1"
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -2100,7 +2112,7 @@
         (name "GND" (effects (font (size 0.508 0.508))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -2136,7 +2148,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -2161,7 +2173,7 @@
     (property "ki_description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*\nMSSOP*P0.65mm*\nTSSOP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSSOP*P0.65mm* TSSOP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM386_0_1"
@@ -2252,11 +2264,11 @@
         (name "+" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -2272,7 +2284,7 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -2419,7 +2431,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -2519,7 +2531,7 @@
         (name "+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -2545,7 +2557,7 @@
         (name "+" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -3077,7 +3089,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -3194,7 +3206,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -3674,6 +3686,9 @@
     (property "ki_description" "Filterless and High-Efficiency +4V to +26V Audio Amplifier with Analog Input, QFN-64" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "QFN*1EP*9x9mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:MA12040P" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 44.45 0)
@@ -3980,6 +3995,9 @@
     (property "ki_description" "Filterless and High-Efficiency +4V to +26V Audio Amplifier with I2S Digital Input, QFN-64" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "QFN*1EP*9x9mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:MAX9715ETE+" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 11.43 0)
@@ -4057,7 +4075,7 @@
         (name "PVDD" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 0 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -4431,7 +4449,7 @@
     (property "ki_description" "2.5W Filterless Class-D Mono Audio Amplifier, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*\nSOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PAM8302AAD_0_1"
@@ -4444,7 +4462,7 @@
         (name "~SD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -4493,6 +4511,9 @@
     (property "ki_description" "2.5W Filterless Class-D Mono Audio Amplifier, MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:PAM8302AAY" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 7.62 11.43 0)
@@ -4526,7 +4547,7 @@
         (name "~SD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -4644,7 +4665,7 @@
         (name "VREF" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -4993,48 +5014,6 @@
     (property "ki_fp_filters" "DIP*W7.62mm*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "SSM2120_2_1"
-      (rectangle (start -5.08 7.62) (end 5.08 -5.08)
-        (stroke (width 0.254)) (fill (type background))
-      )
-      (pin input line (at -7.62 5.08 0) (length 2.54)
-        (name "THRESH" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -7.62 2.54 0) (length 2.54)
-        (name "LOGAV" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 7.62 0 180) (length 2.54)
-        (name "CONOUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -7.62 -2.54 0) (length 2.54)
-        (name "RECIN" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "SSM2120_4_1"
-      (rectangle (start -5.08 7.62) (end 5.08 -5.08)
-        (stroke (width 0.254)) (fill (type background))
-      )
-      (pin input line (at -7.62 5.08 0) (length 2.54)
-        (name "THRESH" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -7.62 2.54 0) (length 2.54)
-        (name "LOGAV" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 7.62 0 180) (length 2.54)
-        (name "CONOUT" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -7.62 -2.54 0) (length 2.54)
-        (name "RECIN" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-    )
     (symbol "SSM2120_1_1"
       (polyline
         (pts
@@ -5066,6 +5045,27 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "SSM2120_2_1"
+      (rectangle (start -5.08 7.62) (end 5.08 -5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -7.62 5.08 0) (length 2.54)
+        (name "THRESH" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -7.62 2.54 0) (length 2.54)
+        (name "LOGAV" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 7.62 0 180) (length 2.54)
+        (name "CONOUT" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -7.62 -2.54 0) (length 2.54)
+        (name "RECIN" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "SSM2120_3_1"
       (polyline
         (pts
@@ -5095,6 +5095,27 @@
       (pin output line (at 7.62 0 180) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "SSM2120_4_1"
+      (rectangle (start -5.08 7.62) (end 5.08 -5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -7.62 5.08 0) (length 2.54)
+        (name "THRESH" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -7.62 2.54 0) (length 2.54)
+        (name "LOGAV" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 7.62 0 180) (length 2.54)
+        (name "CONOUT" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -7.62 -2.54 0) (length 2.54)
+        (name "RECIN" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "SSM2120_5_0"
@@ -5249,7 +5270,7 @@
     (property "ki_description" "Microphone Preamplifier with Variable Compression and Noise Gating, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SSM2165_0_1"
@@ -5619,6 +5640,9 @@
     (property "ki_description" "2-Channel 7 Wmin Audio Frequency Power Amplifier, 4010, SIP-15" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Sanyo*59.2x8.0mm*P2.54mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:STK436_Sanyo" (extends "STK433_Sanyo")
     (property "Reference" "U" (id 0) (at 3.81 5.08 0)
@@ -5637,6 +5661,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "2-Channel 10 Wmin Audio Frequency Power Amplifier, 4010, SIP-15" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Sanyo*59.2x8.0mm*P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5757,6 +5784,9 @@
     (property "ki_description" "2-Channel 16 Wmin Audio Frequency Power Amplifier, 4010, SIP-15" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Sanyo*78.0x8.0mm*P2.54mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:STK441_Sanyo" (extends "STK437_Sanyo")
     (property "Reference" "U" (id 0) (at 3.81 5.08 0)
@@ -5777,6 +5807,9 @@
     (property "ki_description" "2-Channel 24 Wmin Audio Frequency Power Amplifier, 4010, SIP-15" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Sanyo*78.0x8.0mm*P2.54mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:STK443_Sanyo" (extends "STK437_Sanyo")
     (property "Reference" "U" (id 0) (at 3.81 5.08 0)
@@ -5795,6 +5828,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "2-Channel 28 Wmin Audio Frequency Power Amplifier, 4010, SIP-15" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Sanyo*78.0x8.0mm*P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5838,11 +5874,11 @@
         (name "VDDB" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -5858,7 +5894,7 @@
         (name "VDDA" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -5878,7 +5914,7 @@
         (name "DT" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -5911,6 +5947,9 @@
     (property "ki_description" "Class D Audio Driver With Precision Dead-Time Generator, 10V UVLO, +/-750V, +0.5/-0.5A, SOIC-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x9.9*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:Si8244BB" (extends "Si8241BB")
     (property "Reference" "U" (id 0) (at -5.08 11.43 0)
@@ -5931,6 +5970,9 @@
     (property "ki_description" "Class D Audio Driver With Precision Dead-Time Generator, 8V UVLO, +/-750V, +4/-4A, SOIC-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x9.9*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:Si8244CB" (extends "Si8241BB")
     (property "Reference" "U" (id 0) (at -5.08 11.43 0)
@@ -5949,6 +5991,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Class D Audio Driver With Precision Dead-Time Generator, 10V UVLO, +/-750V, +4/-4A, SOIC-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x9.9*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6136,7 +6181,7 @@
     (property "ki_description" "Class-AB Stereo Headphone Driver, SOIC-8/TSSOP-8" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nTSSOP*3x3mm*P0.65mm*" (id 7) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* TSSOP*3x3mm*P0.65mm*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TDA1308_1_1"
@@ -6421,6 +6466,9 @@
     (property "ki_description" "32W Hi-Fi Audio Amplifier, TO-220-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO*220*StaggerOdd*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:TDA7052A" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 7.62 0)
@@ -6441,7 +6489,7 @@
     (property "ki_description" "1W BTL mono audio amplifier with DC volume control, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*7.5x9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*7.5x9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TDA7052A_0_1"
@@ -6515,7 +6563,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -6720,6 +6768,9 @@
     (property "ki_description" "30W + 30W Stereo Amplifier with Mute and Standby, TO-220-11" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?220*StaggerOdd*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:TDA7269A" (extends "TDA7265")
     (property "Reference" "U" (id 0) (at 2.54 6.35 0)
@@ -6740,6 +6791,9 @@
     (property "ki_description" "14W+14W Stereo Amplifier with Mute & St-by, TO-220-11" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?220*StaggerOdd*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:TDA7292" (extends "TDA7265")
     (property "Reference" "U" (id 0) (at 2.54 6.35 0)
@@ -6758,6 +6812,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "40W + 40W stereo amplifier with mute and standby, TO-220-11" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO?220*StaggerOdd*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6835,11 +6892,11 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -6851,7 +6908,7 @@
         (name "+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -6960,6 +7017,9 @@
     (property "ki_description" "15+15W Dual Bridge Amplifier, TO-220-15" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?220*StaggerOdd*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:TDA7266D" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 5.08 0)
@@ -7010,15 +7070,15 @@
         )
         (stroke (width 0.254)) (fill (type background))
       )
-      (pin unconnected line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 0 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -7026,11 +7086,11 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -7171,15 +7231,15 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -7187,11 +7247,11 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 0 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -7207,7 +7267,7 @@
         (name "+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -7286,43 +7346,43 @@
         (name "STBY" (effects (font (size 0.508 0.508))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 0 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 0 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 0 270) (length 2.54) hide
+      (pin no_connect line (at 0 0 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 0 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 0 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 0 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -7338,7 +7398,7 @@
         (name "+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -7445,11 +7505,11 @@
         (name "MUTE" (effects (font (size 0.508 0.508))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -7477,7 +7537,7 @@
         (name "SIG_GND" (effects (font (size 0.508 0.508))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -7518,6 +7578,9 @@
     (property "ki_description" "100V - 100W DMOS Audio Amplifier with Mute/St-by, TO-220-15" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?220*StaggerOdd*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:TDA7295" (extends "TDA7293")
     (property "Reference" "U" (id 0) (at 10.16 6.35 0)
@@ -7538,6 +7601,9 @@
     (property "ki_description" "80V - 80W DMOS Audio Amplifier with Mute/St-by, TO-220-15" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?220*StaggerOdd*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Audio:TDA7296" (extends "TDA7293")
     (property "Reference" "U" (id 0) (at 10.16 6.35 0)
@@ -7556,6 +7622,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "70V - 60W DMOS Audio Amplifier with Mute/St-by, TO-220-15" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO?220*StaggerOdd*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7614,7 +7683,7 @@
         (name "+" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -7724,7 +7793,7 @@
         (name "STABA" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -7788,7 +7857,7 @@
         (name "TEST3" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -7828,17 +7897,6 @@
     (property "ki_fp_filters" "SIP*19x3mm*P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "THAT2180_0_1"
-      (polyline
-        (pts
-          (xy -5.08 5.08)
-          (xy 5.08 0)
-          (xy -5.08 -5.08)
-          (xy -5.08 5.08)
-        )
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "THAT2180_0_0"
       (pin power_in line (at -2.54 -7.62 90) (length 3.81)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -7851,6 +7909,17 @@
       (pin power_in line (at -2.54 7.62 270) (length 3.81)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "THAT2180_0_1"
+      (polyline
+        (pts
+          (xy -5.08 5.08)
+          (xy 5.08 0)
+          (xy -5.08 -5.08)
+          (xy -5.08 5.08)
+        )
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "THAT2180_1_1"
@@ -7895,19 +7964,8 @@
     (property "ki_description" "Blackmer Trimmable IC Voltage Controlled Amplifiers, SIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SIP*19x3mm*P2.54mm*\nSOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SIP*19x3mm*P2.54mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "THAT2181_0_1"
-      (polyline
-        (pts
-          (xy -5.08 5.08)
-          (xy 5.08 0)
-          (xy -5.08 -5.08)
-          (xy -5.08 5.08)
-        )
-        (stroke (width 0.254)) (fill (type background))
-      )
     )
     (symbol "THAT2181_0_0"
       (pin power_in line (at -2.54 -7.62 90) (length 3.81)
@@ -7921,6 +7979,17 @@
       (pin power_in line (at -2.54 7.62 270) (length 3.81)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "THAT2181_0_1"
+      (polyline
+        (pts
+          (xy -5.08 5.08)
+          (xy 5.08 0)
+          (xy -5.08 -5.08)
+          (xy -5.08 5.08)
+        )
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "THAT2181_1_1"

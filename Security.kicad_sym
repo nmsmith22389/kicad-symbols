@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Security:ATAES132A-SH" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -35,7 +35,7 @@
         (name "SO" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -51,7 +51,7 @@
         (name "SCK" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )

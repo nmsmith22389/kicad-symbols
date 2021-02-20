@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Analog_Switch:ADG1408YRUZ" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 23.495 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -20,6 +20,12 @@
     )
     (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "ADG1408YRUZ_0_0"
+      (pin power_in line (at 5.08 -20.32 90) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "ADG1408YRUZ_0_1"
       (circle (center -1.016 -15.24) (radius 0.508) (stroke (width 0.254)) (fill (type none)))
@@ -376,12 +382,6 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
-    (symbol "ADG1408YRUZ_0_0"
-      (pin power_in line (at 5.08 -20.32 90) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-    )
     (symbol "ADG1408YRUZ_1_1"
       (pin input line (at -10.16 17.78 0) (length 2.54)
         (name "A0" (effects (font (size 1.27 1.27))))
@@ -466,6 +466,116 @@
     )
     (property "ki_fp_filters" "TSSOP*4.4x7.8mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "ADG1414BRU_1_0"
+      (text "SHIFT REGISTER" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (polyline
+        (pts
+          (xy -11.43 -17.78)
+          (xy -5.08 -17.78)
+          (xy -5.08 -7.62)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -11.43 -15.24)
+          (xy -6.35 -15.24)
+          (xy -6.35 -7.62)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -11.43 -10.16)
+          (xy -8.89 -10.16)
+          (xy -8.89 -7.62)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -11.43 -12.7)
+          (xy -7.62 -12.7)
+          (xy -7.62 -10.16)
+          (xy -7.62 -7.62)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.223 -2.54)
+          (xy -7.366 -2.54)
+          (xy -6.731 -1.905)
+          (xy -6.35 -2.54)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.683 0)
+          (xy -4.826 0)
+          (xy -4.191 0.635)
+          (xy -3.81 0)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.143 2.54)
+          (xy -2.286 2.54)
+          (xy -1.651 3.175)
+          (xy -1.27 2.54)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.397 5.08)
+          (xy 0.254 5.08)
+          (xy 0.889 5.715)
+          (xy 1.27 5.08)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 3.937 7.62)
+          (xy 2.794 7.62)
+          (xy 3.429 8.255)
+          (xy 3.81 7.62)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 6.477 10.16)
+          (xy 5.334 10.16)
+          (xy 5.969 10.795)
+          (xy 6.35 10.16)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 9.017 12.7)
+          (xy 7.874 12.7)
+          (xy 8.509 13.335)
+          (xy 8.89 12.7)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 11.684 15.24)
+          (xy 10.541 15.24)
+          (xy 11.176 15.875)
+          (xy 11.557 15.24)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
     )
     (symbol "ADG1414BRU_1_1"
       (circle (center -11.049 -2.54) (radius 0.508) (stroke (width 0.254)) (fill (type none)))
@@ -2161,116 +2271,6 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "ADG1414BRU_1_0"
-      (text "SHIFT REGISTER" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (polyline
-        (pts
-          (xy -11.43 -17.78)
-          (xy -5.08 -17.78)
-          (xy -5.08 -7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -11.43 -15.24)
-          (xy -6.35 -15.24)
-          (xy -6.35 -7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -11.43 -10.16)
-          (xy -8.89 -10.16)
-          (xy -8.89 -7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -11.43 -12.7)
-          (xy -7.62 -12.7)
-          (xy -7.62 -10.16)
-          (xy -7.62 -7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -6.223 -2.54)
-          (xy -7.366 -2.54)
-          (xy -6.731 -1.905)
-          (xy -6.35 -2.54)
-        )
-        (stroke (width 0.254)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy -3.683 0)
-          (xy -4.826 0)
-          (xy -4.191 0.635)
-          (xy -3.81 0)
-        )
-        (stroke (width 0.254)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy -1.143 2.54)
-          (xy -2.286 2.54)
-          (xy -1.651 3.175)
-          (xy -1.27 2.54)
-        )
-        (stroke (width 0.254)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.397 5.08)
-          (xy 0.254 5.08)
-          (xy 0.889 5.715)
-          (xy 1.27 5.08)
-        )
-        (stroke (width 0.254)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 3.937 7.62)
-          (xy 2.794 7.62)
-          (xy 3.429 8.255)
-          (xy 3.81 7.62)
-        )
-        (stroke (width 0.254)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 6.477 10.16)
-          (xy 5.334 10.16)
-          (xy 5.969 10.795)
-          (xy 6.35 10.16)
-        )
-        (stroke (width 0.254)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 9.017 12.7)
-          (xy 7.874 12.7)
-          (xy 8.509 13.335)
-          (xy 8.89 12.7)
-        )
-        (stroke (width 0.254)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 11.684 15.24)
-          (xy 10.541 15.24)
-          (xy 11.176 15.875)
-          (xy 11.557 15.24)
-        )
-        (stroke (width 0.254)) (fill (type outline))
-      )
-    )
   )
   (symbol "Analog_Switch:ADG419BRM" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.175 4.699 0)
@@ -2430,11 +2430,6 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "ADG419BRM_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "ADG419BRM_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -2451,6 +2446,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "ADG419BRM_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -2884,16 +2884,6 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "ADG633YCP_4_1"
-      (rectangle (start -5.08 10.16) (end 7.62 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
-    (symbol "ADG633YCP_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "ADG633YCP_4_0"
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "VDD" (effects (font (size 1.27 1.27))))
@@ -2914,6 +2904,16 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "ADG633YCP_4_1"
+      (rectangle (start -5.08 10.16) (end 7.62 -10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
+    (symbol "ADG633YCP_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -3347,16 +3347,6 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "ADG633YRU_4_1"
-      (rectangle (start -5.08 10.16) (end 7.62 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
-    (symbol "ADG633YRU_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "ADG633YRU_4_0"
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "VDD" (effects (font (size 1.27 1.27))))
@@ -3373,6 +3363,16 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "ADG633YRU_4_1"
+      (rectangle (start -5.08 10.16) (end 7.62 -10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
+    (symbol "ADG633YRU_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -3393,6 +3393,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Triple SPDT CMOS Analog Switch, 2.5Ohm Ron, TSSOP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP*4.4x6.5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3417,6 +3420,148 @@
     )
     (property "ki_fp_filters" "TSSOP*4.4x7.8mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "ADG715_0_0"
+      (text "INTERFACE LOGIC" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (polyline
+        (pts
+          (xy -12.7 -7.62)
+          (xy -2.54 -7.62)
+          (xy -2.54 -5.08)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -12.7 -10.16)
+          (xy 0 -10.16)
+          (xy 0 -7.62)
+          (xy 0 -5.08)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+    )
+    (symbol "ADG715_0_1"
+      (rectangle (start -17.78 -17.78) (end 17.78 22.86)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (rectangle (start -8.89 -2.54) (end 8.89 -5.08)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -11.43 0)
+          (xy -13.97 0)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -8.89 2.54)
+          (xy -13.97 2.54)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.35 0)
+          (xy 13.97 0)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.35 5.08)
+          (xy -13.97 5.08)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 2.54)
+          (xy 13.97 2.54)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 7.62)
+          (xy -13.97 7.62)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 5.08)
+          (xy 13.97 5.08)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 10.16)
+          (xy -13.97 10.16)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 7.62)
+          (xy 13.97 7.62)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 12.7)
+          (xy -13.97 12.7)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 10.16)
+          (xy 13.97 10.16)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 15.24)
+          (xy -13.97 15.24)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.35 12.7)
+          (xy 13.97 12.7)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.35 17.78)
+          (xy -13.97 17.78)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.89 15.24)
+          (xy 13.97 15.24)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.43 17.78)
+          (xy 13.97 17.78)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
     )
     (symbol "ADG715_1_1"
       (circle (center -11.049 0) (radius 0.508) (stroke (width 0.254)) (fill (type none)))
@@ -5002,148 +5147,6 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "ADG715_0_0"
-      (text "INTERFACE LOGIC" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (polyline
-        (pts
-          (xy -12.7 -7.62)
-          (xy -2.54 -7.62)
-          (xy -2.54 -5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -12.7 -10.16)
-          (xy 0 -10.16)
-          (xy 0 -7.62)
-          (xy 0 -5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-    )
-    (symbol "ADG715_0_1"
-      (rectangle (start -17.78 -17.78) (end 17.78 22.86)
-        (stroke (width 0.254)) (fill (type background))
-      )
-      (rectangle (start -8.89 -2.54) (end 8.89 -5.08)
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -11.43 0)
-          (xy -13.97 0)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -8.89 2.54)
-          (xy -13.97 2.54)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -6.35 0)
-          (xy 13.97 0)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -6.35 5.08)
-          (xy -13.97 5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 2.54)
-          (xy 13.97 2.54)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 7.62)
-          (xy -13.97 7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.08)
-          (xy 13.97 5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 10.16)
-          (xy -13.97 10.16)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 7.62)
-          (xy 13.97 7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 12.7)
-          (xy -13.97 12.7)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 10.16)
-          (xy 13.97 10.16)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 15.24)
-          (xy -13.97 15.24)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.35 12.7)
-          (xy 13.97 12.7)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.35 17.78)
-          (xy -13.97 17.78)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.89 15.24)
-          (xy 13.97 15.24)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 11.43 17.78)
-          (xy 13.97 17.78)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-    )
   )
   (symbol "Analog_Switch:ADG728" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 23.495 0)
@@ -6479,16 +6482,6 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "ADG733BRQ_4_1"
-      (rectangle (start -5.08 10.16) (end 7.62 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
-    (symbol "ADG733BRQ_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "ADG733BRQ_4_0"
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "VDD" (effects (font (size 1.27 1.27))))
@@ -6505,6 +6498,16 @@
       (pin input line (at -7.62 0 0) (length 2.54)
         (name "6" (effects (font (size 1.27 1.27))))
         (number "~EN" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "ADG733BRQ_4_1"
+      (rectangle (start -5.08 10.16) (end 7.62 -10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
+    (symbol "ADG733BRQ_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -7074,13 +7077,8 @@
         (number "20" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "ADG734_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "ADG734_5_0"
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -7095,6 +7093,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "ADG734_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -8268,7 +8271,7 @@
     (property "ki_description" "CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*\nDIP*W7.62*\nSOIC*3.9x9.9mm*P1.27mm*\nSO*5.3x10.2mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm* DIP*W7.62* SOIC*3.9x9.9mm*P1.27mm* SO*5.3x10.2mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "CD4051B_0_1"
@@ -8543,7 +8546,7 @@
     (property "ki_description" "CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*\nDIP*W7.62*\nSOIC*3.9x9.9mm*P1.27mm*\nSO*5.3x10.2mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm* DIP*W7.62* SOIC*3.9x9.9mm*P1.27mm* SO*5.3x10.2mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "CD4052B_0_1"
@@ -8967,7 +8970,7 @@
     (property "ki_description" "CMOS triple 2-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*\nDIP*W7.62*\nSOIC*3.9x9.9mm*P1.27mm*\nSO*5.3x10.2mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm* DIP*W7.62* SOIC*3.9x9.9mm*P1.27mm* SO*5.3x10.2mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "CD4053B_0_1"
@@ -9412,7 +9415,7 @@
     (property "ki_description" "CMOS double 8-channel analog multiplexer/demultiplexer, TSSOP-24/DIP-24/SOIC-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TSSOP*4.4x7.8mm*P0.65mm*\nSOIC*7.5*15.4*1.27mm*\nSO*5.3x15.0mm*P1.27mm*\nDIP*15.24mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP*4.4x7.8mm*P0.65mm* SOIC*7.5*15.4*1.27mm* SO*5.3x15.0mm*P1.27mm* DIP*15.24mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "CD4097B_0_1"
@@ -10662,13 +10665,8 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG308AxJ_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG308AxJ_5_0"
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -10683,6 +10681,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG308AxJ_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -10703,6 +10706,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST Analog Switches, normally OFF, 60Ohm Ron, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -11084,13 +11090,8 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG308AxY_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG308AxY_5_0"
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -11105,6 +11106,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG308AxY_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -11125,6 +11131,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST Analog Switches, normally OFF, 60Ohm Ron, SOIC-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -11478,13 +11487,8 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG309xJ_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG309xJ_5_0"
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -11499,6 +11503,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG309xJ_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -11519,6 +11528,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST Analog Switches, normally ON, 60Ohm Ron, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -11872,13 +11884,8 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG309xY_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG309xY_5_0"
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -11893,6 +11900,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG309xY_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -11913,6 +11925,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST Analog Switches, normally ON, 60Ohm Ron, SOIC-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -12266,11 +12281,6 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG411xJ_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG411xJ_5_0"
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
         (name "VL" (effects (font (size 1.27 1.27))))
@@ -12287,6 +12297,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG411xJ_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -12307,6 +12322,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST CMOS Analog Switches, normally ON, 6.5Ohm Ron, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -12660,11 +12678,6 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG411xUE_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG411xUE_5_0"
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
         (name "VL" (effects (font (size 1.27 1.27))))
@@ -12681,6 +12694,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG411xUE_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -12701,6 +12719,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST CMOS Analog Switches, normally ON, 6.5Ohm Ron, TSSOP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13054,11 +13075,6 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG411xY_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG411xY_5_0"
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
         (name "VL" (effects (font (size 1.27 1.27))))
@@ -13075,6 +13091,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG411xY_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -13095,6 +13116,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST CMOS Analog Switches, normally ON, 6.5Ohm Ron, SOIC-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13476,11 +13500,6 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG412xJ_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG412xJ_5_0"
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
         (name "VL" (effects (font (size 1.27 1.27))))
@@ -13497,6 +13516,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG412xJ_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -13517,6 +13541,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST CMOS Analog Switches, normally OFF, 6.5Ohm Ron, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13898,11 +13925,6 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG412xUE_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG412xUE_5_0"
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
         (name "VL" (effects (font (size 1.27 1.27))))
@@ -13919,6 +13941,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG412xUE_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -13939,6 +13966,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST CMOS Analog Switches, normally OFF, 6.5Ohm Ron, TSSOP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -14320,11 +14350,6 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG412xY_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG412xY_5_0"
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
         (name "VL" (effects (font (size 1.27 1.27))))
@@ -14341,6 +14366,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG412xY_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -14361,6 +14391,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST CMOS Analog Switches, normally OFF, 6.5Ohm Ron, SOIC-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -14728,11 +14761,6 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG413xJ_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG413xJ_5_0"
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
         (name "VL" (effects (font (size 1.27 1.27))))
@@ -14749,6 +14777,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG413xJ_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -14769,6 +14802,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST CMOS Analog Switches, normally 2xON + 2xOFF, 6.5Ohm Ron, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -15136,11 +15172,6 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG413xUE_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG413xUE_5_0"
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
         (name "VL" (effects (font (size 1.27 1.27))))
@@ -15157,6 +15188,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG413xUE_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -15177,6 +15213,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST CMOS Analog Switches, normally 2xON + 2xOFF, 6.5Ohm Ron, TSSOP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -15544,11 +15583,6 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG413xY_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG413xY_5_0"
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
         (name "VL" (effects (font (size 1.27 1.27))))
@@ -15565,6 +15599,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG413xY_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -15585,6 +15624,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPST CMOS Analog Switches, normally 2xON + 2xOFF, 6.5Ohm Ron, SOIC-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -15692,13 +15734,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG417LDJ_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG417LDJ_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -15717,6 +15754,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG417LDJ_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -15824,13 +15866,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG417LDJ_Maxim_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG417LDJ_Maxim_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -15842,13 +15879,18 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG417LDJ_Maxim_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -15956,13 +15998,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG417LDY_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG417LDY_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -15981,6 +16018,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG417LDY_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -16088,13 +16130,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG417LDY_Maxim_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG417LDY_Maxim_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -16106,13 +16143,18 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG417LDY_Maxim_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -16220,13 +16262,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG417LEUA_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG417LEUA_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -16245,6 +16282,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG417LEUA_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -16352,13 +16394,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG417LEUA_Maxim_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG417LEUA_Maxim_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -16370,13 +16407,18 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG417LEUA_Maxim_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -16484,13 +16526,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG417xJ_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG417xJ_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -16511,6 +16548,11 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "DG417xJ_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
   )
   (symbol "Analog_Switch:MAX317xPA" (extends "DG417xJ")
     (property "Reference" "U" (id 0) (at -3.175 5.334 0)
@@ -16529,6 +16571,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPST Monolithic CMOS Analog Switch, normally ON, 20Ohm Ron, DIP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -16636,13 +16681,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG417xY_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG417xY_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -16663,6 +16703,11 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "DG417xY_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
   )
   (symbol "Analog_Switch:MAX317xSA" (extends "DG417xY")
     (property "Reference" "U" (id 0) (at -3.175 5.334 0)
@@ -16681,6 +16726,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPST Monolithic CMOS Analog Switch, normally ON, 20Ohm Ron, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -16795,13 +16843,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG418LDJ_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG418LDJ_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -16820,6 +16863,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG418LDJ_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -16934,13 +16982,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG418LDJ_Maxim_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG418LDJ_Maxim_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -16952,13 +16995,18 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG418LDJ_Maxim_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -17073,13 +17121,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG418LDY_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG418LDY_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -17098,6 +17141,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG418LDY_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -17212,13 +17260,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG418LDY_Maxim_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG418LDY_Maxim_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -17230,13 +17273,18 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG418LDY_Maxim_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -17351,13 +17399,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG418LEUA_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG418LEUA_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -17376,6 +17419,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG418LEUA_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -17490,13 +17538,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG418LEUA_Maxim_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG418LEUA_Maxim_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -17508,13 +17551,18 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG418LEUA_Maxim_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -17629,13 +17677,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG418xJ_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG418xJ_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -17654,6 +17697,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG418xJ_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -17676,6 +17724,9 @@
     (property "ki_description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, DIP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_Switch:MAX318xPA" (extends "DG418xJ")
     (property "Reference" "U" (id 0) (at -3.175 5.334 0)
@@ -17694,6 +17745,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPST Monolithic CMOS Analog Switch, normally OFF, 20Ohm Ron, DIP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -17808,13 +17862,8 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG418xY_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG418xY_2_0"
-      (pin unconnected line (at -2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -17833,6 +17882,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG418xY_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -17855,6 +17909,9 @@
     (property "ki_description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_Switch:MAX318xSA" (extends "DG418xY")
     (property "Reference" "U" (id 0) (at -3.175 5.334 0)
@@ -17873,6 +17930,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPST Monolithic CMOS Analog Switch, normally OFF, 20Ohm Ron, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -18034,11 +18094,6 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG419LDJ_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG419LDJ_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -18055,6 +18110,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG419LDJ_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -18216,11 +18276,6 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG419LDJ_Maxim_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG419LDJ_Maxim_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -18230,13 +18285,18 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG419LDJ_Maxim_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -18398,11 +18458,6 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG419LDY_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG419LDY_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -18419,6 +18474,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG419LDY_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -18580,11 +18640,6 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG419LDY_Maxim_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG419LDY_Maxim_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -18594,13 +18649,18 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG419LDY_Maxim_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -18762,11 +18822,6 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG419LEUA_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG419LEUA_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -18783,6 +18838,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG419LEUA_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -18944,11 +19004,6 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG419LEUA_Maxim_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG419LEUA_Maxim_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -18958,13 +19013,18 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG419LEUA_Maxim_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -19126,11 +19186,6 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG419xJ_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG419xJ_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -19147,6 +19202,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG419xJ_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -19169,6 +19229,9 @@
     (property "ki_description" "Single SPDT Monolithic LC²MOS Analog Switch, 25Ohm Ron, DIP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_Switch:MAX319xPA" (extends "DG419xJ")
     (property "Reference" "U" (id 0) (at -3.175 4.699 0)
@@ -19187,6 +19250,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPDT Monolithic CMOS Analog Switch, 20Ohm Ron, DIP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -19348,11 +19414,6 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG419xY_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG419xY_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -19369,6 +19430,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG419xY_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -19391,6 +19457,9 @@
     (property "ki_description" "Single SPDT Monolithic LC²MOS Analog Switch, 25Ohm Ron, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_Switch:MAX319xSA" (extends "DG419xY")
     (property "Reference" "U" (id 0) (at -3.175 4.699 0)
@@ -19409,6 +19478,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPDT Monolithic CMOS Analog Switch, 20Ohm Ron, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -20086,11 +20158,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG9421DV_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG9421DV_2_0"
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
@@ -20103,6 +20170,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG9421DV_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -20217,11 +20289,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "DG9422DV_2_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "DG9422DV_2_0"
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
@@ -20234,6 +20301,11 @@
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "DG9422DV_2_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -20546,7 +20618,7 @@
         (name "VP" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 180) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -21085,11 +21157,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX323CPA_3_1"
-      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX323CPA_3_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -21098,6 +21165,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX323CPA_3_1"
+      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -21287,11 +21359,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX323CSA_3_1"
-      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX323CSA_3_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -21300,6 +21367,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX323CSA_3_1"
+      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -21489,11 +21561,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX323CUA_3_1"
-      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX323CUA_3_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -21502,6 +21569,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX323CUA_3_1"
+      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -21691,11 +21763,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX324CPA_3_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX324CPA_3_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -21704,6 +21771,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX324CPA_3_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -21893,11 +21965,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX324CSA_3_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX324CSA_3_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -21906,6 +21973,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX324CSA_3_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -22095,11 +22167,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX324CUA_3_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX324CUA_3_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -22108,6 +22175,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX324CUA_3_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -22297,11 +22369,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX325CPA_3_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX325CPA_3_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -22310,6 +22377,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX325CPA_3_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -22499,11 +22571,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX325CSA_3_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX325CSA_3_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -22512,6 +22579,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX325CSA_3_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -22701,11 +22773,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX325CUA_3_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX325CUA_3_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
@@ -22714,6 +22781,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX325CUA_3_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -22736,7 +22808,7 @@
     (property "ki_description" "Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP*5.3x7.2mm*P0.65mm*\nSOIC*7.5x10.3mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SSOP*5.3x7.2mm*P0.65mm* SOIC*7.5x10.3mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX333_1_1"
@@ -23283,13 +23355,8 @@
         (number "20" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX333_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX333_5_0"
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -23304,6 +23371,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX333_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -23326,7 +23398,7 @@
     (property "ki_description" "Quad SPDT CMOS Analog Switch, 17Ohm Ron, DIP-20/SOIC-20/SSOP-20/TSSOP-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TSSOP*4.4x6.5mm*P0.65mm*\nSSOP*5.3x7.2mm*P0.65mm*\nSOIC*7.5x10.3mm*P1.27mm*\nDIP*W7.62mm*\nSOIC*7.5x12.8mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP*4.4x6.5mm*P0.65mm* SSOP*5.3x7.2mm*P0.65mm* SOIC*7.5x10.3mm*P1.27mm* DIP*W7.62mm* SOIC*7.5x12.8mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX333A_1_1"
@@ -23873,13 +23945,8 @@
         (number "20" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "MAX333A_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "MAX333A_5_0"
-      (pin unconnected line (at 2.54 10.16 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -23894,6 +23961,11 @@
       (pin power_in line (at 2.54 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "MAX333A_5_1"
+      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -23914,6 +23986,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad SPDT CMOS Analog Switch, 35Ohm Ron, DIP-20/SOIC-20/SSOP-20/TSSOP-20" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP*4.4x6.5mm*P0.65mm* SSOP*5.3x7.2mm*P0.65mm* SOIC*7.5x10.3mm*P1.27mm* DIP*W7.62mm* SOIC*7.5x12.8mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -24001,7 +24076,7 @@
         (name "EN" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -24169,11 +24244,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "NC7SB3157L6X_2_1"
-      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "NC7SB3157L6X_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -24182,6 +24252,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "NC7SB3157L6X_2_1"
+      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -24202,6 +24277,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Fairchild*MicroPak*1.0x1.45mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -24363,11 +24441,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "NC7SB3157P6X_2_1"
-      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "NC7SB3157P6X_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -24376,6 +24449,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "NC7SB3157P6X_2_1"
+      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -24398,6 +24476,9 @@
     (property "ki_description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, SC-70-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_Switch:TS5A3159ADCKR" (extends "NC7SB3157P6X")
     (property "Reference" "U" (id 0) (at -3.175 4.699 0)
@@ -24416,6 +24497,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -24438,6 +24522,9 @@
     (property "ki_description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_Switch:TS5A3160DCK" (extends "NC7SB3157P6X")
     (property "Reference" "U" (id 0) (at -3.175 4.699 0)
@@ -24456,6 +24543,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -24478,7 +24568,7 @@
     (property "ki_description" "Dual 1 to 4 Analog Multiplexer" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*\nTSSOP*4.4x5mm*P0.65mm*\nSSOP*5.3x6.2mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SN74CBT3253_0_1"
@@ -25547,7 +25637,7 @@
         (name "IN1" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -15.24 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -15.24 0) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -25669,7 +25759,7 @@
         (name "NC1" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -15.24 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -15.24 0) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -25842,11 +25932,6 @@
     (property "ki_fp_filters" "WQFN*1EP*3.5x9mm*P0.5mm*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "TS3L501ERUA_6_0"
-      (rectangle (start -10.16 5.08) (end 10.16 -5.08)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "TS3L501ERUA_1_1"
       (rectangle (start -5.08 7.62) (end 5.08 -7.62)
         (stroke (width 0.254)) (fill (type background))
@@ -26002,6 +26087,11 @@
       (pin bidirectional line (at -10.16 -2.54 0) (length 2.54)
         (name "LED_A2" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "TS3L501ERUA_6_0"
+      (rectangle (start -10.16 5.08) (end 10.16 -5.08)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "TS3L501ERUA_6_1"
@@ -26799,11 +26889,6 @@
         (number "C2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "TS5A3159AYZPR_2_1"
-      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "TS5A3159AYZPR_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -26812,6 +26897,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "B2" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "TS5A3159AYZPR_2_1"
+      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -26973,11 +27063,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "TS5A3159DBV_2_1"
-      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "TS5A3159DBV_2_0"
       (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -26986,6 +27071,11 @@
       (pin power_in line (at 0 12.7 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "TS5A3159DBV_2_1"
+      (rectangle (start -3.81 10.16) (end 3.81 -10.16)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -27008,6 +27098,9 @@
     (property "ki_description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_Switch:TS5A3160DBV" (extends "TS5A3159DBV")
     (property "Reference" "U" (id 0) (at -3.175 4.699 0)
@@ -27026,6 +27119,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -27050,6 +27146,71 @@
     )
     (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TS5A3166DBVR_0_1"
+      (polyline
+        (pts
+          (xy -5.08 -2.54)
+          (xy -3.302 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.048 -2.54)
+          (xy -2.794 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -2.54)
+          (xy -2.286 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.032 -2.54)
+          (xy -1.778 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 -2.54)
+          (xy -1.27 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.016 -2.54)
+          (xy -0.762 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.508 -2.54)
+          (xy -0.254 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.032)
+          (xy 0 -1.778)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -1.524)
+          (xy 0 -1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "TS5A3166DBVR_1_1"
       (circle (center -2.159 0) (radius 0.508) (stroke (width 0.254)) (fill (type none)))
@@ -27148,7 +27309,30 @@
         (number "5" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "TS5A3166DBVR_0_1"
+  )
+  (symbol "Analog_Switch:TS5A3166DCKR" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -3.81 6.35 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TS5A3166DCKR" (id 1) (at 3.81 -6.35 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (id 2) (at -1.27 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf" (id 3) (at 0 2.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "Analog Switch SPST" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SC-70" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SC?70?5*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TS5A3166DCKR_0_1"
       (polyline
         (pts
           (xy -5.08 -2.54)
@@ -27212,29 +27396,6 @@
         )
         (stroke (width 0)) (fill (type none))
       )
-    )
-  )
-  (symbol "Analog_Switch:TS5A3166DCKR" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at -3.81 6.35 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TS5A3166DCKR" (id 1) (at 3.81 -6.35 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (id 2) (at -1.27 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf" (id 3) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "Analog Switch SPST" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SC-70" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "*SC?70?5*" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TS5A3166DCKR_1_1"
       (circle (center -2.159 0) (radius 0.508) (stroke (width 0.254)) (fill (type none)))
@@ -27331,71 +27492,6 @@
       (pin power_in line (at 2.54 7.62 270) (length 2.54)
         (name "V+" (effects (font (size 0.762 0.762))))
         (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "TS5A3166DCKR_0_1"
-      (polyline
-        (pts
-          (xy -5.08 -2.54)
-          (xy -3.302 -2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.048 -2.54)
-          (xy -2.794 -2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -2.54)
-          (xy -2.286 -2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.032 -2.54)
-          (xy -1.778 -2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.524 -2.54)
-          (xy -1.27 -2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.016 -2.54)
-          (xy -0.762 -2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 -2.54)
-          (xy -0.254 -2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.032)
-          (xy 0 -1.778)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.524)
-          (xy 0 -1.27)
-        )
-        (stroke (width 0)) (fill (type none))
       )
     )
   )

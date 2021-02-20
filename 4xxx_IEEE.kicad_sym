@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "4xxx_IEEE:4001" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 6.35 0)
       (effects (font (size 1.27 1.27)))
@@ -1158,11 +1158,6 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "4013_0_1"
-      (rectangle (start -7.62 6.35) (end 7.62 -6.35)
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "4013_0_0"
       (pin power_in line (at 0 6.35 270) (length 0) hide
         (name "Vdd" (effects (font (size 0.762 0.762))))
@@ -1171,6 +1166,11 @@
       (pin power_in line (at 0 -6.35 90) (length 0) hide
         (name "Vss" (effects (font (size 0.762 0.762))))
         (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "4013_0_1"
+      (rectangle (start -7.62 6.35) (end 7.62 -6.35)
+        (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "4013_1_1"
@@ -1675,6 +1675,24 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "40174_0_0"
+      (pin input inverted (at -12.7 10.16 0) (length 7.62)
+        (name "~R" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 3.81 12.7 270) (length 0) hide
+        (name "Vdd" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 12.7 270) (length 0) hide
+        (name "Vss" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin input clock (at -12.7 7.62 0) (length 7.62)
+        (name "Ck" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "40174_0_1"
       (rectangle (start -5.08 -7.62) (end 5.08 -10.16)
         (stroke (width 0)) (fill (type none))
@@ -1707,24 +1725,6 @@
           (xy 3.81 5.08)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "40174_0_0"
-      (pin input inverted (at -12.7 10.16 0) (length 7.62)
-        (name "~R" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 3.81 12.7 270) (length 0) hide
-        (name "Vdd" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 12.7 270) (length 0) hide
-        (name "Vss" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input clock (at -12.7 7.62 0) (length 7.62)
-        (name "Ck" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "40174_1_0"
@@ -3029,6 +3029,40 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "40240_0_0"
+      (polyline
+        (pts
+          (xy -2.032 3.048)
+          (xy -2.032 2.032)
+          (xy -1.016 2.54)
+          (xy -2.032 3.048)
+          (xy -2.032 3.048)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.048 3.048)
+          (xy 4.064 3.048)
+          (xy 3.556 2.032)
+          (xy 3.048 3.048)
+          (xy 3.048 3.048)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4.572 1.778)
+          (xy -4.064 1.778)
+          (xy -3.302 3.302)
+          (xy -3.048 3.302)
+          (xy -3.556 3.302)
+          (xy -4.318 1.778)
+          (xy -4.318 1.778)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
     (symbol "40240_0_1"
       (rectangle (start -5.08 -3.81) (end 5.08 -6.35)
         (stroke (width 0)) (fill (type none))
@@ -3065,40 +3099,6 @@
         (number "20" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "40240_0_0"
-      (polyline
-        (pts
-          (xy -2.032 3.048)
-          (xy -2.032 2.032)
-          (xy -1.016 2.54)
-          (xy -2.032 3.048)
-          (xy -2.032 3.048)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.048 3.048)
-          (xy 4.064 3.048)
-          (xy 3.556 2.032)
-          (xy 3.048 3.048)
-          (xy 3.048 3.048)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -4.572 1.778)
-          (xy -4.064 1.778)
-          (xy -3.302 3.302)
-          (xy -3.048 3.302)
-          (xy -3.556 3.302)
-          (xy -4.318 1.778)
-          (xy -4.318 1.778)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "40240_1_0"
       (pin output line (at 12.7 -5.08 180) (length 7.62)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -3125,24 +3125,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "40240_2_0"
-      (pin input line (at -12.7 2.54 0) (length 7.62)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -12.7 -2.54 0) (length 7.62)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -12.7 -5.08 0) (length 7.62)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin input inverted (at -12.7 6.35 0) (length 7.62)
-        (name "~EN" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-    )
     (symbol "40240_1_1"
       (pin input inverted (at -12.7 6.35 0) (length 7.62)
         (name "~EN" (effects (font (size 1.27 1.27))))
@@ -3159,6 +3141,24 @@
       (pin input line (at -12.7 -5.08 0) (length 7.62)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "40240_2_0"
+      (pin input line (at -12.7 2.54 0) (length 7.62)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -12.7 -2.54 0) (length 7.62)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -12.7 -5.08 0) (length 7.62)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "17" (effects (font (size 1.27 1.27))))
+      )
+      (pin input inverted (at -12.7 6.35 0) (length 7.62)
+        (name "~EN" (effects (font (size 1.27 1.27))))
+        (number "19" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "40240_2_1"
@@ -3211,6 +3211,29 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "40245_0_0"
+      (polyline
+        (pts
+          (xy 1.016 7.112)
+          (xy 1.016 5.588)
+          (xy 2.286 6.35)
+          (xy 1.016 7.112)
+          (xy 1.016 7.112)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.302 7.112)
+          (xy 4.826 7.112)
+          (xy 3.81 5.588)
+          (xy 2.794 7.112)
+          (xy 3.302 7.112)
+          (xy 3.302 7.112)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
     (symbol "40245_0_1"
       (rectangle (start -6.35 -10.16) (end 6.35 -12.7)
         (stroke (width 0)) (fill (type none))
@@ -3247,29 +3270,6 @@
           (xy 5.08 8.89)
           (xy 5.08 7.62)
           (xy 5.08 7.62)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "40245_0_0"
-      (polyline
-        (pts
-          (xy 1.016 7.112)
-          (xy 1.016 5.588)
-          (xy 2.286 6.35)
-          (xy 1.016 7.112)
-          (xy 1.016 7.112)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.302 7.112)
-          (xy 4.826 7.112)
-          (xy 3.81 5.588)
-          (xy 2.794 7.112)
-          (xy 3.302 7.112)
-          (xy 3.302 7.112)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -3471,11 +3471,6 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "4027_0_1"
-      (rectangle (start -7.62 6.35) (end 7.62 -6.35)
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "4027_0_0"
       (pin power_in line (at 0 6.35 270) (length 0) hide
         (name "VDD" (effects (font (size 0.762 0.762))))
@@ -3484,6 +3479,11 @@
       (pin power_in line (at 0 -6.35 90) (length 0) hide
         (name "VDD" (effects (font (size 0.762 0.762))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "4027_0_1"
+      (rectangle (start -7.62 6.35) (end 7.62 -6.35)
+        (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "4027_1_1"
@@ -3560,6 +3560,12 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "4028_0_0"
+      (pin power_in line (at 0 13.97 270) (length 0) hide
+        (name "VDD" (effects (font (size 1.016 1.016))))
+        (number "16" (effects (font (size 1.016 1.016))))
+      )
+    )
     (symbol "4028_0_1"
       (rectangle (start -7.62 13.97) (end 7.62 -13.97)
         (stroke (width 0)) (fill (type none))
@@ -3567,12 +3573,6 @@
       (pin power_in line (at 0 -13.97 90) (length 0) hide
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "8" (effects (font (size 1.016 1.016))))
-      )
-    )
-    (symbol "4028_0_0"
-      (pin power_in line (at 0 13.97 270) (length 0) hide
-        (name "VDD" (effects (font (size 1.016 1.016))))
-        (number "16" (effects (font (size 1.016 1.016))))
       )
     )
     (symbol "4028_1_1"
@@ -3853,6 +3853,24 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "40373_0_0"
+      (pin input inverted (at -12.7 10.16 0) (length 7.62)
+        (name "~EN" (effects (font (size 0.762 0.762))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -1.27 12.7 270) (length 0) hide
+        (name "Vss" (effects (font (size 0.762 0.762))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -12.7 7.62 0) (length 7.62)
+        (name "ST" (effects (font (size 0.762 0.762))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 2.54 12.7 270) (length 0) hide
+        (name "Vdd" (effects (font (size 0.762 0.762))))
+        (number "20" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "40373_0_1"
       (rectangle (start -5.08 -12.7) (end 5.08 -15.24)
         (stroke (width 0)) (fill (type none))
@@ -3914,24 +3932,6 @@
           (xy 3.81 5.08)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "40373_0_0"
-      (pin input inverted (at -12.7 10.16 0) (length 7.62)
-        (name "~EN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -1.27 12.7 270) (length 0) hide
-        (name "Vss" (effects (font (size 0.762 0.762))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -12.7 7.62 0) (length 7.62)
-        (name "ST" (effects (font (size 0.762 0.762))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 2.54 12.7 270) (length 0) hide
-        (name "Vdd" (effects (font (size 0.762 0.762))))
-        (number "20" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "40373_1_0"
@@ -4020,6 +4020,24 @@
     (property "ki_description" "8-bit D-flip-flop with 3-State outputs" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "40374_0_0"
+      (pin input inverted (at -12.7 10.16 0) (length 7.62)
+        (name "~E" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 12.7 270) (length 0) hide
+        (name "Vss" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin input clock (at -12.7 7.62 0) (length 7.62)
+        (name "Ck" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 3.81 12.7 270) (length 0) hide
+        (name "Vdd" (effects (font (size 1.27 1.27))))
+        (number "20" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "40374_0_1"
       (rectangle (start -5.08 -12.7) (end 5.08 -15.24)
         (stroke (width 0)) (fill (type none))
@@ -4068,24 +4086,6 @@
           (xy 3.81 5.08)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "40374_0_0"
-      (pin input inverted (at -12.7 10.16 0) (length 7.62)
-        (name "~E" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 12.7 270) (length 0) hide
-        (name "Vss" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin input clock (at -12.7 7.62 0) (length 7.62)
-        (name "Ck" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 3.81 12.7 270) (length 0) hide
-        (name "Vdd" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "40374_1_0"
@@ -4910,11 +4910,6 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "4049_0_1"
-      (rectangle (start -6.35 6.35) (end 6.35 -6.35)
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "4049_0_0"
       (polyline
         (pts
@@ -4933,6 +4928,11 @@
       (pin power_in line (at 0 -6.35 90) (length 0)
         (name "Vss" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "4049_0_1"
+      (rectangle (start -6.35 6.35) (end 6.35 -6.35)
+        (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "4049_1_1"
@@ -5009,11 +5009,6 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "4050_0_1"
-      (rectangle (start -6.35 6.35) (end 6.35 -6.35)
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "4050_0_0"
       (polyline
         (pts
@@ -5032,6 +5027,11 @@
       (pin power_in line (at 0 -6.35 90) (length 0)
         (name "Vss" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "4050_0_1"
+      (rectangle (start -6.35 6.35) (end 6.35 -6.35)
+        (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "4050_1_1"
@@ -5108,11 +5108,6 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "4051_0_1"
-      (rectangle (start -7.62 16.51) (end 7.62 -16.51)
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "4051_0_0"
       (pin power_in line (at 0 16.51 270) (length 0) hide
         (name "Vdd" (effects (font (size 1.27 1.27))))
@@ -5121,6 +5116,11 @@
       (pin power_in line (at 0 -16.51 90) (length 0) hide
         (name "Vss" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "4051_0_1"
+      (rectangle (start -7.62 16.51) (end 7.62 -16.51)
+        (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "4051_1_1"
@@ -5195,6 +5195,16 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "4052_0_0"
+      (pin power_in line (at 5.08 16.51 270) (length 0) hide
+        (name "Vdd" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 16.51 270) (length 0) hide
+        (name "Vss" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "4052_0_1"
       (rectangle (start -7.62 -5.08) (end 7.62 -17.78)
         (stroke (width 0)) (fill (type none))
@@ -5215,16 +5225,6 @@
           (xy 6.35 7.62)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "4052_0_0"
-      (pin power_in line (at 5.08 16.51 270) (length 0) hide
-        (name "Vdd" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 16.51 270) (length 0) hide
-        (name "Vss" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "4052_1_1"
@@ -5299,6 +5299,16 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "4053_0_0"
+      (pin power_in line (at 5.08 13.97 270) (length 0) hide
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 13.97 270) (length 0) hide
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "4053_0_1"
       (rectangle (start -7.62 -8.89) (end 7.62 -16.51)
         (stroke (width 0)) (fill (type none))
@@ -5322,16 +5332,6 @@
           (xy 6.35 6.35)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "4053_0_0"
-      (pin power_in line (at 5.08 13.97 270) (length 0) hide
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 13.97 270) (length 0) hide
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "4053_1_1"
@@ -7565,6 +7565,24 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "4174_0_0"
+      (pin input inverted (at -12.7 10.16 0) (length 7.62)
+        (name "~R" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 3.81 12.7 270) (length 0)
+        (name "Vdd" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 12.7 270) (length 0)
+        (name "Vss" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin input clock (at -12.7 7.62 0) (length 7.62)
+        (name "Ck" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "4174_0_1"
       (rectangle (start -5.08 -7.62) (end 5.08 -10.16)
         (stroke (width 0)) (fill (type none))
@@ -7597,24 +7615,6 @@
           (xy 3.81 5.08)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "4174_0_0"
-      (pin input inverted (at -12.7 10.16 0) (length 7.62)
-        (name "~R" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 3.81 12.7 270) (length 0)
-        (name "Vdd" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 12.7 270) (length 0)
-        (name "Vss" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input clock (at -12.7 7.62 0) (length 7.62)
-        (name "Ck" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "4174_1_0"

@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Sensor_Motion:ADXL343" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 11.43 0)
       (effects (font (size 1.27 1.27)))
@@ -31,7 +31,7 @@
         (name "Vdd_I/O" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -10.16 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -339,7 +339,7 @@
       )
     )
     (symbol "BNO055_1_1"
-      (pin unconnected line (at -12.7 10.16 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 10.16 0) (length 2.54) hide
         (name "PIN1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -351,11 +351,11 @@
         (name "~RESET" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 10.16 180) (length 2.54) hide
         (name "PIN12" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 7.62 180) (length 2.54) hide
         (name "PIN13" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -391,19 +391,19 @@
         (name "COM0" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 5.08 180) (length 2.54) hide
         (name "PIN21" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 2.54 180) (length 2.54) hide
         (name "PIN22" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -2.54 180) (length 2.54) hide
         (name "PIN23" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -5.08 180) (length 2.54) hide
         (name "PIN24" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -439,11 +439,11 @@
         (name "PS0" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 5.08 0) (length 2.54) hide
         (name "PIN7" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "PIN8" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -533,7 +533,7 @@
         (name "INT" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 5.08 0) (length 2.54) hide
         (name "RESV" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -575,7 +575,7 @@
       )
     )
     (symbol "ICM-20948_1_1"
-      (pin unconnected line (at -10.16 12.7 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -595,19 +595,19 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -615,11 +615,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -12.7 180) (length 2.54) hide
         (name "RESV" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -643,19 +643,19 @@
         (name "SDA/SDI" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -12.7 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -766,6 +766,9 @@
     (property "ki_description" "3-Axis Accelerometer, 2/4/8g range, 2048 byte buffer, I2C/SPI interface, LGA-12" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LGA*2x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Motion:KX222-1054" (extends "KX022-1020")
     (property "Reference" "U" (id 0) (at -5.08 11.43 0)
@@ -784,6 +787,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "3-Axis Accelerometer, 8/16/32g range, 2048 byte buffer, I2C/SPI interface, LGA-12" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LGA*2x2mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1175,6 +1181,9 @@
     (property "ki_description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LGA*2x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Motion:LIS331HH" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 11.43 0)
@@ -1236,11 +1245,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1330,11 +1339,11 @@
         (name "ADC1" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1612,7 +1621,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 3.81) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1654,11 +1663,11 @@
         (name "SDO/SA0" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 3.81) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 3.81) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )

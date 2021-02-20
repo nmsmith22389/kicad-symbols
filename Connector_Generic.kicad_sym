@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
@@ -69794,7 +69794,7 @@
     (property "ki_description" "Generic connector, double row, 05 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-05Pins_1_1"
@@ -69857,7 +69857,7 @@
     (property "ki_description" "Generic connector, double row, 07 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-07Pins_1_1"
@@ -69934,7 +69934,7 @@
     (property "ki_description" "Generic connector, double row, 09 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-09Pins_1_1"
@@ -70025,7 +70025,7 @@
     (property "ki_description" "Generic connector, double row, 11 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-11Pins_1_1"
@@ -70130,7 +70130,7 @@
     (property "ki_description" "Generic connector, double row, 13 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-13Pins_1_1"
@@ -70249,7 +70249,7 @@
     (property "ki_description" "Generic connector, double row, 15 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-15Pins_1_1"
@@ -70382,7 +70382,7 @@
     (property "ki_description" "Generic connector, double row, 17 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-17Pins_1_1"
@@ -70529,7 +70529,7 @@
     (property "ki_description" "Generic connector, double row, 19 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-19Pins_1_1"
@@ -70690,7 +70690,7 @@
     (property "ki_description" "Generic connector, double row, 21 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-21Pins_1_1"
@@ -70865,7 +70865,7 @@
     (property "ki_description" "Generic connector, double row, 23 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-23Pins_1_1"
@@ -71054,7 +71054,7 @@
     (property "ki_description" "Generic connector, double row, 25 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-25Pins_1_1"
@@ -71257,7 +71257,7 @@
     (property "ki_description" "Generic connector, double row, 27 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-27Pins_1_1"
@@ -71474,7 +71474,7 @@
     (property "ki_description" "Generic connector, double row, 29 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-29Pins_1_1"
@@ -71705,7 +71705,7 @@
     (property "ki_description" "Generic connector, double row, 31 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-31Pins_1_1"
@@ -71950,7 +71950,7 @@
     (property "ki_description" "Generic connector, double row, 33 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-33Pins_1_1"
@@ -72209,7 +72209,7 @@
     (property "ki_description" "Generic connector, double row, 35 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-35Pins_1_1"
@@ -72482,7 +72482,7 @@
     (property "ki_description" "Generic connector, double row, 37 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-37Pins_1_1"
@@ -72769,7 +72769,7 @@
     (property "ki_description" "Generic connector, double row, 39 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-39Pins_1_1"
@@ -73070,7 +73070,7 @@
     (property "ki_description" "Generic connector, double row, 41 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-41Pins_1_1"
@@ -73385,7 +73385,7 @@
     (property "ki_description" "Generic connector, double row, 43 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-43Pins_1_1"
@@ -73714,7 +73714,7 @@
     (property "ki_description" "Generic connector, double row, 45 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-45Pins_1_1"
@@ -74057,7 +74057,7 @@
     (property "ki_description" "Generic connector, double row, 47 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-47Pins_1_1"
@@ -74414,7 +74414,7 @@
     (property "ki_description" "Generic connector, double row, 49 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-49Pins_1_1"
@@ -74785,7 +74785,7 @@
     (property "ki_description" "Generic connector, double row, 51 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-51Pins_1_1"
@@ -75170,7 +75170,7 @@
     (property "ki_description" "Generic connector, double row, 53 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-53Pins_1_1"
@@ -75569,7 +75569,7 @@
     (property "ki_description" "Generic connector, double row, 55 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-55Pins_1_1"
@@ -75982,7 +75982,7 @@
     (property "ki_description" "Generic connector, double row, 57 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-57Pins_1_1"
@@ -76409,7 +76409,7 @@
     (property "ki_description" "Generic connector, double row, 59 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-59Pins_1_1"
@@ -76850,7 +76850,7 @@
     (property "ki_description" "Generic connector, double row, 61 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-61Pins_1_1"
@@ -77305,7 +77305,7 @@
     (property "ki_description" "Generic connector, double row, 63 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-63Pins_1_1"
@@ -77774,7 +77774,7 @@
     (property "ki_description" "Generic connector, double row, 65 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-65Pins_1_1"
@@ -78257,7 +78257,7 @@
     (property "ki_description" "Generic connector, double row, 67 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-67Pins_1_1"
@@ -78754,7 +78754,7 @@
     (property "ki_description" "Generic connector, double row, 69 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-69Pins_1_1"
@@ -79265,7 +79265,7 @@
     (property "ki_description" "Generic connector, double row, 71 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-71Pins_1_1"
@@ -79790,7 +79790,7 @@
     (property "ki_description" "Generic connector, double row, 73 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-73Pins_1_1"
@@ -80329,7 +80329,7 @@
     (property "ki_description" "Generic connector, double row, 75 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Connector*:*2Rows*Pins__*\n*FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_2Rows-75Pins_1_1"

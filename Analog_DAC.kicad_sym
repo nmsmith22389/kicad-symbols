@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Analog_DAC:AD390JD" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -13.97 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -177,7 +177,7 @@
     (property "ki_description" "Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD558JN_0_1"
@@ -269,6 +269,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -439,7 +442,7 @@
         (name "VREF" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -455,7 +458,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -500,6 +503,9 @@
     (property "ki_description" "Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, SPI Interface, LFCSP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LFCSP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD5689BCPZ" (extends "AD5687BCPZ")
     (property "Reference" "U" (id 0) (at 8.89 11.43 0)
@@ -520,6 +526,9 @@
     (property "ki_description" "Dual, 16-Bit nanoDAC+ with SPI Interface, LFCSP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LFCSP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD5689RxCPZ" (extends "AD5687BCPZ")
     (property "Reference" "U" (id 0) (at 8.89 11.43 0)
@@ -538,6 +547,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Dual, 16-Bit nanoDAC+ with 2 ppm/°C Reference, SPI Interface, LFCSP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LFCSP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -601,7 +613,7 @@
         (name "RSTSEL" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -617,7 +629,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -654,6 +666,9 @@
     (property "ki_description" "Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, SPI Interface, TSSOP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD5689BRUZ" (extends "AD5687BRUZ")
     (property "Reference" "U" (id 0) (at 8.89 11.43 0)
@@ -674,6 +689,9 @@
     (property "ki_description" "Dual, 16-Bit nanoDAC+ with SPI Interface, TSSOP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD5689RxRUZ" (extends "AD5687BRUZ")
     (property "Reference" "U" (id 0) (at 8.89 11.43 0)
@@ -692,6 +710,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Dual, 16-Bit nanoDAC+ with 2 ppm/°C Reference, SPI Interface, TSSOP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -784,6 +805,9 @@
     (property "ki_description" "Tiny, 16-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD5697RBCPZ" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 8.89 11.43 0)
@@ -841,7 +865,7 @@
         (name "VREF" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -857,7 +881,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -943,7 +967,7 @@
         (name "RSTSEL" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -959,7 +983,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -996,7 +1020,7 @@
     (property "ki_description" "8bit DAC, Dual or Single Supply, DIP-18" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7224KN_1_1"
@@ -1094,6 +1118,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "8bit DAC, Dual or Single Supply, DIP-18" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1216,6 +1243,9 @@
     (property "ki_description" "8bit DAC, Dual or Single Supply, PLCC-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "PLCC*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7224KR-1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -13.97 22.86 0)
@@ -1336,6 +1366,9 @@
     (property "ki_description" "8bit DAC, Dual or Single Supply, SOIC-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SO*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7224KR-18" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -13.97 22.86 0)
@@ -1454,6 +1487,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "8bit DAC, Dual or Single Supply, SOIC-18" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SO*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1602,6 +1638,9 @@
     (property "ki_description" "Quad 8bit DAC, Separate Reference Voltage, SSOP-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SSOP*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7225KN" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -13.97 22.86 0)
@@ -1622,7 +1661,7 @@
     (property "ki_description" "Quad 8bit DAC, Separate Reference Voltage, PDIP-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7225KN_0_1"
@@ -1746,6 +1785,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad 8bit DAC, Separate Reference Voltage, PDIP-24" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1894,6 +1936,9 @@
     (property "ki_description" "Quad 8bit DAC, Separate Reference Voltage, PLCC-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "PLCC*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7225KR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -13.97 22.86 0)
@@ -2040,6 +2085,9 @@
     (property "ki_description" "Quad 8bit DAC, Separate Reference Voltage, SO-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SO*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7226BRSZ" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -13.97 22.86 0)
@@ -2170,7 +2218,7 @@
     (property "ki_description" "Quad 8bit DAC, 4 Channel, Single Reference Voltage, DIP-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7226KN_0_1"
@@ -2500,7 +2548,7 @@
     (property "ki_description" "8bit DAC 8 Channel, Single Reference, DIP-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PDIP*\nDIP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PDIP* DIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7228ABN_0_1"
@@ -2624,6 +2672,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "8bit DAC 8 Channel, Single Reference, DIP-24" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "PDIP* DIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2772,6 +2823,9 @@
     (property "ki_description" "8bit DAC 8 Channel, Single Reference, PLCC-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "PLCC*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7228ABR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -13.97 22.86 0)
@@ -2918,6 +2972,9 @@
     (property "ki_description" "8bit DAC 8 Channel, Single Reference, SOIC-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SO*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7304" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 13.97 0)
@@ -2938,7 +2995,7 @@
     (property "ki_description" "3V/5V, Rail-to-Rail, Quad, 8-Bit DAC, SPI Interface, SOIC-16/TSSOP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*W*7.5x10.3mm*P1.27mm*\nTSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*W*7.5x10.3mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7304_0_1"
@@ -3032,7 +3089,7 @@
     (property "ki_description" "3V/5V, Rail-to-Rail, Quad, 8-Bit DAC, Parallel Interface, SOIC-20/TSSOP-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*W*7.5x12.8mm*P1.27mm*\nTSSOP*4.4x6.5mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*W*7.5x12.8mm*P1.27mm* TSSOP*4.4x6.5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7305_0_1"
@@ -3142,7 +3199,7 @@
     (property "ki_description" "Serial-Input Micropower 12-Bit DAC, DIP-8/SOIC-8/TSSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*P1.27mm*\nTSSOP*4.4x3mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* TSSOP*4.4x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7390_0_0"
@@ -3212,6 +3269,9 @@
     (property "ki_description" "Serial-Input Micropower 10-Bit DAC, DIP-8/SOIC-8/TSSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* TSSOP*4.4x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7533JN" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 17.78 0)
@@ -3232,7 +3292,7 @@
     (property "ki_description" "10bit Multiplying DAC, 1 Channel, DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7533JN_0_1"
@@ -3326,6 +3386,9 @@
     (property "ki_description" "10bit Multiplying DAC, 1 Channel, DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7533LN" (extends "AD7533JN")
     (property "Reference" "U" (id 0) (at -11.43 17.78 0)
@@ -3344,6 +3407,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "10bit Multiplying DAC, 1 Channel, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3460,6 +3526,9 @@
     (property "ki_description" "10bit Multiplying DAC, 1 Channel, PLCC-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "PLCC*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:AD7533KR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 17.78 0)
@@ -3480,7 +3549,7 @@
     (property "ki_description" "10bit Multiplying DAC, 1 Channel, SOIC-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7533KR_0_1"
@@ -4513,6 +4582,9 @@
     (property "ki_description" "10-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:DAC121C081CIMK" (extends "DAC081C081CIMK")
     (property "Reference" "U" (id 0) (at 2.54 8.89 0)
@@ -4531,6 +4603,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "12-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4610,15 +4685,15 @@
         (name "AVDD" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -4741,6 +4816,9 @@
     (property "ki_description" "10-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, TSSOP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:DAC7578xPW" (extends "DAC5578xPW")
     (property "Reference" "U" (id 0) (at -7.62 13.97 0)
@@ -4759,6 +4837,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "12-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, TSSOP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4790,7 +4871,7 @@
       )
     )
     (symbol "DAC5578xRGE_1_1"
-      (pin unconnected line (at 7.62 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.143 1.143))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -4826,7 +4907,7 @@
         (name "GND" (effects (font (size 1.143 1.143))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.143 1.143))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -4850,11 +4931,11 @@
         (name "~LDAC" (effects (font (size 1.143 1.143))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.143 1.143))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 2.54 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.143 1.143))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -4878,7 +4959,7 @@
         (name "VOUTG" (effects (font (size 1.143 1.143))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.143 1.143))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -4911,6 +4992,9 @@
     (property "ki_description" "10-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, QFN-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:DAC7578xRGE" (extends "DAC5578xRGE")
     (property "Reference" "U" (id 0) (at -7.62 13.97 0)
@@ -4929,6 +5013,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "12-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, QFN-24" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5020,15 +5107,15 @@
       (rectangle (start -10.16 17.78) (end 10.16 -17.78)
         (stroke (width 0.254)) (fill (type background))
       )
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -12.7 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 17.78 270) (length 2.54) hide
+      (pin no_connect line (at -5.08 17.78 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -5060,7 +5147,7 @@
         (name "REFIN" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -5068,15 +5155,15 @@
         (name "~ALARM" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 17.78 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 17.78 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -5112,27 +5199,27 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -17.78 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -17.78 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -17.78 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -17.78 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -17.78 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -17.78 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -17.78 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -17.78 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
@@ -5144,7 +5231,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
@@ -5156,7 +5243,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -5203,6 +5290,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single-Channel, 12bit Programmable Current Output DAC for 4-mA to 20-mA Current Loop Applications, VQFN-40" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Texas*PVQFN*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5287,7 +5377,7 @@
     (property "ki_description" "2-Channel 12-Bit Rail-To-Rail D/A Converters with SPI Interface and Internal Reference (4.096V)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LTC1446_0_0"
@@ -5475,6 +5565,9 @@
     (property "ki_description" "2-Channel 12-Bit Rail-To-Rail D/A Converters with SPI Interface and Internal Reference (2.500V)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:LTC1664CGN" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 12.7 0)
@@ -5516,19 +5609,19 @@
         (name "~CLR" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -15.24 90) (length 3.81) hide
+      (pin no_connect line (at -5.08 -15.24 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -15.24 90) (length 3.81) hide
+      (pin no_connect line (at -2.54 -15.24 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -15.24 90) (length 3.81) hide
+      (pin no_connect line (at 2.54 -15.24 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -15.24 90) (length 3.81) hide
+      (pin no_connect line (at 5.08 -15.24 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -5589,6 +5682,9 @@
     (property "ki_description" "Quad Micropower 10-bit DAC, Standard, DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SSOP*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:LTC1664IGN" (extends "LTC1664CGN")
     (property "Reference" "U" (id 0) (at -8.89 12.7 0)
@@ -5609,6 +5705,9 @@
     (property "ki_description" "Quad Micropower 10-bit DAC, Industrial, SSOP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SSOP*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:LTC1664IN" (extends "LTC1664CGN")
     (property "Reference" "U" (id 0) (at -8.89 12.7 0)
@@ -5627,6 +5726,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quad Micropower 10-bit DAC, Industrial, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SSOP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5658,7 +5760,7 @@
       )
     )
     (symbol "MAX5139_1_1"
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -5698,7 +5800,7 @@
         (name "~LDAC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -5718,7 +5820,7 @@
         (name "AGND" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -5741,6 +5843,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Low-Power, Single, 16-Bit, Buffered Voltage-Output DAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TQFN*1EP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5825,6 +5930,9 @@
     (property "ki_description" "Digital to analog, 16 Bit, 1 ch, 2.7 - 5.5 VDD, I2C, uMAX-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MAX5717xSD" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 11.43 0)
@@ -5906,7 +6014,7 @@
         (name "SCLK" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -5929,6 +6037,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "20-bit Voltage Digital-to-Analog converter, SOIC-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6105,6 +6216,9 @@
     (property "ki_description" "Digital to analog, 10 Bit, 4 ch, 2.7 - 5.5 VDD, I2C, TSSOP-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*TSSOP*14*4.4*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MAX5815" (extends "MAX5813")
     (property "Reference" "U" (id 0) (at -8.89 11.43 0)
@@ -6123,6 +6237,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Digital to analog, 12 Bit, 4 ch, 2.7 - 5.5 VDD, I2C, TSSOP-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*TSSOP*14*4.4*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6223,6 +6340,9 @@
     (property "ki_description" "Digital to analog, 10 Bit, 4 ch, 2.7 - 5.5 VDD, I2C, TSSOP-14, Maxim_WLP-12" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*Maxim*WLP*12*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MAX5815WLP" (extends "MAX5813WLP")
     (property "Reference" "U" (id 0) (at -8.89 8.89 0)
@@ -6241,6 +6361,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Digital to analog, 12 Bit, 4 ch, 2.7 - 5.5 VDD, I2C, TSSOP-14, Maxim_WLP-12" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*Maxim*WLP*12*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6272,7 +6395,7 @@
       )
     )
     (symbol "MC1408_DIP_1_1"
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -6357,6 +6480,9 @@
     (property "ki_description" "8-bit multiplying DAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MC1408_SOIC" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 16.51 0)
@@ -6430,7 +6556,7 @@
         (name "COMPEN" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -6469,6 +6595,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "8-bit multiplying DAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6615,7 +6744,7 @@
     (property "ki_description" "8-Bit D/A Converters with SPI Interface, internal Reference (2.048V)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nMSOP*3x3mm*P0.65mm*\nSOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP4801_0_0"
@@ -6685,6 +6814,9 @@
     (property "ki_description" "10-Bit D/A Converters with SPI Interface, internal Reference (2.048V)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MCP4821" (extends "MCP4801")
     (property "Reference" "U" (id 0) (at 1.27 10.795 0)
@@ -6703,6 +6835,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "12-Bit D/A Converters with SPI Interface, internal Reference (2.048V)" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6799,6 +6934,9 @@
     (property "ki_description" "10-Bit D/A Converters with SPI Interface, internal Reference (2.048V)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*1EP*3x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MCP4821-EMC" (extends "MCP4801-EMC")
     (property "Reference" "U" (id 0) (at 1.27 10.795 0)
@@ -6817,6 +6955,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "12-Bit D/A Converters with SPI Interface, internal Reference (2.048V)" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DFN*1EP*3x2mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6839,7 +6980,7 @@
     (property "ki_description" "2-Channel 8-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*P1.27mm*\nMSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP4802_0_0"
@@ -7018,6 +7159,9 @@
     (property "ki_description" "2-Channel 10-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MCP4822" (extends "MCP4802")
     (property "Reference" "U" (id 0) (at -2.54 10.795 0)
@@ -7036,6 +7180,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7058,7 +7205,7 @@
     (property "ki_description" "8-Bit D/A Converters with SPI Interface" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nMSOP*3x3mm*P0.65mm*\nSOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP4901_0_0"
@@ -7128,6 +7275,9 @@
     (property "ki_description" "10-Bit D/A Converters with SPI Interface" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MCP4921" (extends "MCP4901")
     (property "Reference" "U" (id 0) (at 6.35 10.795 0)
@@ -7146,6 +7296,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "12-Bit D/A Converters with SPI Interface" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7242,6 +7395,9 @@
     (property "ki_description" "10-Bit D/A Converters with SPI Interface" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*1EP*3x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MCP4921-EMC" (extends "MCP4901-EMC")
     (property "Reference" "U" (id 0) (at 6.35 10.795 0)
@@ -7260,6 +7416,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "12-Bit D/A Converters with SPI Interface" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DFN*1EP*3x2mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7282,7 +7441,7 @@
     (property "ki_description" "2-Channel 8-Bit D/A Converters with SPI Interface" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x8.7mm*P1.27mm*\nTSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP4902_0_0"
@@ -7441,7 +7600,7 @@
         (name "VA" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -12.7 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -7457,11 +7616,11 @@
         (name "SDI" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -12.7 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -12.7 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -7494,6 +7653,9 @@
     (property "ki_description" "2-Channel 10-Bit D/A Converters with SPI Interface" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MCP4922" (extends "MCP4902")
     (property "Reference" "U" (id 0) (at -1.905 10.795 0)
@@ -7512,6 +7674,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "2-Channel 12-Bit D/A Converters with SPI Interface" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7534,7 +7699,7 @@
     (property "ki_description" "Single 12-bit Digital to Analog Converter, SPI Interface, MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "MSOP*\nSOIC*\nDIP*\nPDIP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "MSOP* SOIC* DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP4921-EMS_0_1"
@@ -7604,6 +7769,9 @@
     (property "ki_description" "Single 12-bit Digital to Analog Converter, SPI Interface, PDIP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "MSOP* SOIC* DIP* PDIP*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MCP4921-ESN" (extends "MCP4921-EMS")
     (property "Reference" "U" (id 0) (at -11.43 7.62 0)
@@ -7622,6 +7790,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single 12-bit Digital to Analog Converter, SPI Interface, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MSOP* SOIC* DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7644,7 +7815,7 @@
     (property "ki_description" "Dual 12-bit Digital to Analog Converter, SPI Interface, PDIP-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*\nSO*\nSOIC*\nTSSOP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP* SO* SOIC* TSSOP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP4922-EP_0_1"
@@ -7685,7 +7856,7 @@
         (name "VoutA" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -12.7 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -7701,11 +7872,11 @@
         (name "SDI" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -12.7 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -10.16 -12.7 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -7738,6 +7909,9 @@
     (property "ki_description" "Dual 12-bit Digital to Analog Converter, SPI Interface, SOIC-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP* PDIP* SO* SOIC* TSSOP*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Analog_DAC:MCP4922-EST" (extends "MCP4922-EP")
     (property "Reference" "U" (id 0) (at -10.16 10.16 0)
@@ -7756,6 +7930,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Dual 12-bit Digital to Analog Converter, SPI Interface, TSSOP-14" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP* PDIP* SO* SOIC* TSSOP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -7791,23 +7968,23 @@
         (name "D7" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -7895,7 +8072,7 @@
         (name "D0" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -15.24 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -15.24 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -7933,23 +8110,23 @@
         (name "D7" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -8037,7 +8214,7 @@
         (name "D0" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -15.24 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -15.24 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )

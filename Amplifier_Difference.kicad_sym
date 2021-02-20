@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Amplifier_Difference:AD628" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 3.175 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -18,7 +18,7 @@
     (property "ki_description" "High Common-Mode Voltage, Programmable Gain Difference Amplifier, +/-120V, Gain = 0.1 to 100, SOIC-8/MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nMSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD628_0_1"
@@ -148,7 +148,7 @@
     (property "ki_description" "Low Power, Wide Supply Range, Low Cost Unity-Gain Difference Amplifier, SOIC-8/MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nMSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD8276_0_1"
@@ -191,7 +191,7 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 0 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 0 0) (length 2.54) hide
         (name "~" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -243,7 +243,7 @@
         (name "-" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -363,7 +363,7 @@
         (name "-" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -754,6 +754,9 @@
     (property "ki_description" "Precision, ±250-mV Input, Reinforced Isolated Amplifier, Fixed Gain = 8.2, UL1577/VDE V 0884-11 Approved, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x5.85mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Difference:LM733CH" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 6.35 0)
@@ -866,6 +869,9 @@
     (property "ki_description" "Single Differential Amplifier, TO-5-10" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?5*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Difference:LM733CN" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 6.35 0)
@@ -933,7 +939,7 @@
         (name "2A" (effects (font (size 0.508 0.508))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -941,7 +947,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -957,7 +963,7 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -969,7 +975,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 0 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )

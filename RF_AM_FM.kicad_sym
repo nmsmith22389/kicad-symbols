@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "RF_AM_FM:LA1185" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 12.7 0)
       (effects (font (size 1.27 1.27)))
@@ -909,6 +909,131 @@
     (property "ki_fp_filters" "SSOP*4.4x6.5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "SA636DK_0_0"
+      (text "+" (at -6.985 -24.13 0)
+        (effects (font (size 0.762 0.762)))
+      )
+      (text "B" (at -11.43 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (text "E" (at -11.43 10.16 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (text "OSC" (at -7.62 7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (text "RSSI" (at -1.27 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (rectangle (start -12.7 11.43) (end -5.08 3.81)
+        (stroke (width 0)) (fill (type none))
+      )
+      (rectangle (start -5.08 0) (end 2.54 -5.08)
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -15.24 5.08)
+          (xy -12.7 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -13.97 -22.86)
+          (xy -12.7 -22.86)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -13.97 -7.62)
+          (xy -12.7 -7.62)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -13.97 10.16)
+          (xy -12.7 10.16)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -11.43 -22.86)
+          (xy -12.7 -22.86)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.35 -24.13)
+          (xy -2.54 -24.13)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -7.62 -8.89)
+          (xy -3.81 -8.89)
+          (xy -3.81 -5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 0)
+          (xy -1.27 7.62)
+          (xy 1.27 7.62)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 5.08)
+          (xy 2.54 2.54)
+          (xy 11.43 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -17.78)
+          (xy 5.08 -25.4)
+          (xy 10.16 -25.4)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 10.16)
+          (xy 5.08 10.16)
+          (xy 2.54 5.08)
+          (xy 0 10.16)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -12.7)
+          (xy 7.62 -12.7)
+          (xy 5.08 -17.78)
+          (xy 2.54 -12.7)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -20.32)
+          (xy 19.05 -20.32)
+          (xy 19.05 -7.62)
+          (xy 3.81 -7.62)
+          (xy 3.81 -12.7)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
     (symbol "SA636DK_0_1"
       (circle (center -2.54 22.86) (radius 2.8448) (stroke (width 0)) (fill (type none)))
       (circle (center 0 -22.86) (radius 2.8448) (stroke (width 0)) (fill (type none)))
@@ -1061,131 +1186,6 @@
           (xy -11.43 -19.05)
           (xy -12.7 -19.05)
           (xy -12.7 -22.86)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "SA636DK_0_0"
-      (text "+" (at -6.985 -24.13 0)
-        (effects (font (size 0.762 0.762)))
-      )
-      (text "B" (at -11.43 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (text "E" (at -11.43 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (text "OSC" (at -7.62 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (text "RSSI" (at -1.27 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (rectangle (start -12.7 11.43) (end -5.08 3.81)
-        (stroke (width 0)) (fill (type none))
-      )
-      (rectangle (start -5.08 0) (end 2.54 -5.08)
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -15.24 5.08)
-          (xy -12.7 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -13.97 -22.86)
-          (xy -12.7 -22.86)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -13.97 -7.62)
-          (xy -12.7 -7.62)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -13.97 10.16)
-          (xy -12.7 10.16)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -11.43 -22.86)
-          (xy -12.7 -22.86)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -6.35 -24.13)
-          (xy -2.54 -24.13)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 -8.89)
-          (xy -3.81 -8.89)
-          (xy -3.81 -5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 0)
-          (xy -1.27 7.62)
-          (xy 1.27 7.62)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 5.08)
-          (xy 2.54 2.54)
-          (xy 11.43 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -17.78)
-          (xy 5.08 -25.4)
-          (xy 10.16 -25.4)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 10.16)
-          (xy 5.08 10.16)
-          (xy 2.54 5.08)
-          (xy 0 10.16)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -12.7)
-          (xy 7.62 -12.7)
-          (xy 5.08 -17.78)
-          (xy 2.54 -12.7)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 22.86 -20.32)
-          (xy 19.05 -20.32)
-          (xy 19.05 -7.62)
-          (xy 3.81 -7.62)
-          (xy 3.81 -12.7)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -1381,11 +1381,11 @@
         (name "RXn" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -20.32 90) (length 3.81) hide
+      (pin no_connect line (at 2.54 -20.32 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -20.32 90) (length 3.81) hide
+      (pin no_connect line (at 5.08 -20.32 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -1393,7 +1393,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -20.32 90) (length 3.81) hide
+      (pin no_connect line (at 7.62 -20.32 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -1439,11 +1439,11 @@
         (name "DOUT" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -20.32 90) (length 3.81) hide
+      (pin no_connect line (at -5.08 -20.32 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -20.32 90) (length 3.81) hide
+      (pin no_connect line (at 5.08 -20.32 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -1515,11 +1515,11 @@
         (name "GPO1" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -12.7 0) (length 3.81) hide
+      (pin no_connect line (at -15.24 -12.7 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -12.7 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 -12.7 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -1552,6 +1552,9 @@
     (property "ki_description" "AM/FM Broadcast Radio Receiver" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SSOP*3.9x8.7mm*P0.635mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_AM_FM:Si4731-D60-GU" (extends "Si4735-D60-GU")
     (property "Reference" "U" (id 0) (at -5.08 19.685 0)
@@ -1570,6 +1573,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "AM/FM Broadcast Radio Receiver with RDS/RBDS" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SSOP*3.9x8.7mm*P0.635mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1592,6 +1598,9 @@
     (property "ki_description" "AM/FM/SW/LW Broadcast Radio Receiver" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SSOP*3.9x8.7mm*P0.635mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_AM_FM:ZETA-433-SO" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 8.89 0)
@@ -1612,7 +1621,7 @@
     (property "ki_description" "FM ZETA TRANSCEIVER MODULE, OPTIMISED FOR 433MHZ" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "ZETA?433?SO?SMD*\nZETA?433?SO?THT*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "ZETA?433?SO?SMD* ZETA?433?SO?THT*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ZETA-433-SO_0_1"
@@ -1653,7 +1662,7 @@
         (name "~IRQ" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -1690,6 +1699,9 @@
     (property "ki_description" "FM ZETA TRANSCEIVER MODULE, OPTIMISED FOR 868MHZ" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ZETA?433?SO?SMD* ZETA?433?SO?THT*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_AM_FM:ZETA-915-SO" (extends "ZETA-433-SO")
     (property "Reference" "U" (id 0) (at -6.35 8.89 0)
@@ -1708,6 +1720,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "FM ZETA TRANSCEIVER MODULE, OPTIMISED FOR 915MHZ" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ZETA?433?SO?SMD* ZETA?433?SO?THT*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

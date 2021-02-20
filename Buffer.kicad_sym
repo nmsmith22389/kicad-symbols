@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Buffer:PI6C5946002ZH" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 8.89 11.43 0)
       (effects (font (size 1.27 1.27)))
@@ -51,11 +51,11 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -75,11 +75,11 @@
         (name "Q1-" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 5.08 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )

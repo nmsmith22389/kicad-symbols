@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Amplifier_Video:AD813" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -21,7 +21,7 @@
     (property "ki_description" "Single Supply, Low Power, Triple Video Amplifier, DIP-14/SOIC-14" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*P1.27mm*\nDIP*W7.62mm*" (id 7) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*P1.27mm* DIP*W7.62mm*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD813_1_1"
@@ -135,7 +135,7 @@
     (property "ki_description" "CMOS video amplifier with input multiplexer, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX453_0_0"

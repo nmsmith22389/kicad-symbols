@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Sensor_Distance:VL53L1CXV0FY1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 13.97 0)
       (effects (font (size 1.27 1.27)))
@@ -67,7 +67,7 @@
         (name "GPIO1" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 7.62 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )

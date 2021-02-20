@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Driver_Motor:A4950E" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -84,6 +84,9 @@
     (property "ki_description" "Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +125C" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC-*1EP*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_Motor:A4953_LJ" (extends "A4950E")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -102,6 +105,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Full-Bridge, DMOS PWM, Motor Driver, 40V, 2A, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC-*1EP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -314,7 +320,7 @@
       )
     )
     (symbol "AMT49413_1_1"
-      (pin unconnected line (at -5.08 -43.18 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -43.18 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -330,7 +336,7 @@
         (name "H3" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -43.18 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -43.18 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -434,7 +440,7 @@
         (name "GLA" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -43.18 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -43.18 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
@@ -478,11 +484,11 @@
         (name "COAST" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -43.18 90) (length 2.54) hide
+      (pin no_connect line (at 7.62 -43.18 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -43.18 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -43.18 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
@@ -828,7 +834,7 @@
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -15.24 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -15.24 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -1076,7 +1082,7 @@
         (name "VREG" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -2.54 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -2.54 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -1194,7 +1200,7 @@
         (name "ENABLE" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -2.54 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -2.54 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -1785,6 +1791,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "WSON*1EP*2x2mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2773,6 +2782,9 @@
     (property "ki_description" "Quadruple Half-H Drivers" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_Motor:L293E" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 11.43 0)
@@ -2903,7 +2915,7 @@
     (property "ki_description" "Stepper Motor Controller, DIP-20/SO-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nSO*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* SO*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "L297_0_1"
@@ -3147,7 +3159,7 @@
         (name "OUT4" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -3163,7 +3175,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -3286,7 +3298,7 @@
     (property "ki_description" "Parallel to serial data converter for SLA7042M/SLA7044M" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PG001M_0_1"
@@ -3660,6 +3672,9 @@
     (property "ki_description" "Unipolar PWM high-current motor driver" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SLA704XM" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_Motor:SLA7070MPRT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 25.4 0)
@@ -3765,7 +3780,7 @@
         (name "SENSE_A" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 3.81) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 3.81) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -3802,6 +3817,9 @@
     (property "ki_description" "Unipolar 2-phase stepper motor driver, Full and Half step, 1.5A" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ZIP23" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_Motor:SLA7072MPRT" (extends "SLA7070MPRT")
     (property "Reference" "U" (id 0) (at -10.16 25.4 0)
@@ -3822,6 +3840,9 @@
     (property "ki_description" "Unipolar 2-phase stepper motor driver, Full and Half step, 2A" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ZIP23" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_Motor:SLA7073MPRT" (extends "SLA7070MPRT")
     (property "Reference" "U" (id 0) (at -10.16 25.4 0)
@@ -3840,6 +3861,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Unipolar 2-phase stepper motor driver, Full and Half step, 3A" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ZIP23" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3984,6 +4008,9 @@
     (property "ki_description" "Unipolar 2-phase stepper motor driver, Microstep, 1.5A" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ZIP23" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_Motor:SLA7077MPRT" (extends "SLA7075MPRT")
     (property "Reference" "U" (id 0) (at -10.16 25.4 0)
@@ -4004,6 +4031,9 @@
     (property "ki_description" "Unipolar 2-phase stepper motor driver, Microstep, 2A" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ZIP23" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_Motor:SLA7078MPRT" (extends "SLA7075MPRT")
     (property "Reference" "U" (id 0) (at -10.16 25.4 0)
@@ -4022,6 +4052,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Unipolar 2-phase stepper motor driver, Microstep, 3A" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ZIP23" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4407,7 +4440,7 @@
         (name "SENSE" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -17.78 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -17.78 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -4939,7 +4972,7 @@
         (name "VS" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 10.16 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -5051,7 +5084,7 @@
         (name "VCC_IO" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 0 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 0 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -5093,7 +5126,7 @@
         (name "VCC_IO" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 17.78 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 17.78 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -5105,7 +5138,7 @@
         (name "GNDP" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 7.62 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -5113,7 +5146,7 @@
         (name "OB1" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 0 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 0 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -5121,7 +5154,7 @@
         (name "BRB" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -17.78 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -5133,7 +5166,7 @@
         (name "CLK" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 17.78 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -5141,11 +5174,11 @@
         (name "VS" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -22.86 90) (length 2.54) hide
+      (pin no_connect line (at 7.62 -22.86 90) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 20.32 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
@@ -5165,7 +5198,7 @@
         (name "INDEX" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -20.32 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -5225,7 +5258,7 @@
         (name "VS" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -12.7 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
@@ -5233,7 +5266,7 @@
         (name "OA2" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -2.54 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
@@ -5241,7 +5274,7 @@
         (name "BRA" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 0 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 0 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
@@ -5249,7 +5282,7 @@
         (name "OA1" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 10.16 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
@@ -5455,7 +5488,7 @@
         (name "VCC_IO" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 33.02 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 33.02 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -5495,7 +5528,7 @@
         (name "VCC_IO" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -27.94 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -5507,7 +5540,7 @@
         (name "GNDP" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 12.7 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -5515,7 +5548,7 @@
         (name "OB1" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 10.16 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -5523,7 +5556,7 @@
         (name "BRB" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 7.62 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -5535,7 +5568,7 @@
         (name "CLK" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 5.08 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -5543,7 +5576,7 @@
         (name "VS" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 2.54 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -5567,7 +5600,7 @@
         (name "DIAG1" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -20.32 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -20.32 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -5627,7 +5660,7 @@
         (name "VS" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 33.02 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 33.02 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
@@ -5635,7 +5668,7 @@
         (name "OA2" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 30.48 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 30.48 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
@@ -5643,7 +5676,7 @@
         (name "BRA" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 27.94 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 27.94 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
@@ -5651,7 +5684,7 @@
         (name "OA1" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 25.4 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 25.4 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
@@ -5895,7 +5928,7 @@
         (name "GNDP" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 12.7 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -5903,7 +5936,7 @@
         (name "OB1" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 10.16 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -5911,7 +5944,7 @@
         (name "BRB" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 7.62 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -5923,7 +5956,7 @@
         (name "CLK" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 5.08 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -5931,7 +5964,7 @@
         (name "VS" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 2.54 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -6015,7 +6048,7 @@
         (name "VS" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 33.02 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 33.02 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
@@ -6023,7 +6056,7 @@
         (name "OA2" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 30.48 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 30.48 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
@@ -6031,7 +6064,7 @@
         (name "BRA" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 27.94 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 27.94 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
@@ -6039,7 +6072,7 @@
         (name "OA1" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 25.4 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 25.4 180) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
@@ -6337,7 +6370,7 @@
         (name "INB" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -7.62 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -7.62 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -6345,7 +6378,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -10.16 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -10.16 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -6357,7 +6390,7 @@
         (name "OUTB" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -20.32 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -20.32 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -6369,7 +6402,7 @@
         (name "GNDB" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 0 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 0 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -6381,7 +6414,7 @@
         (name "OUTB" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -17.78 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -17.78 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -6389,7 +6422,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -15.24 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -15.24 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -6409,7 +6442,7 @@
         (name "GNDA" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -12.7 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -12.7 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
@@ -6433,7 +6466,7 @@
         (name "OUTB" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -2.54 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -2.54 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -6445,7 +6478,7 @@
         (name "EN/DIAA" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -5.08 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 -5.08 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -6507,7 +6540,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -6519,7 +6552,7 @@
         (name "OUTB" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -6531,7 +6564,7 @@
         (name "GNDB" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -6543,7 +6576,7 @@
         (name "OUTB" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -6551,7 +6584,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -6571,7 +6604,7 @@
         (name "GNDA" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
@@ -6643,11 +6676,6 @@
     (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "ZXBM5210-S_0_1"
-      (rectangle (start -7.62 7.62) (end 7.62 -5.08)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "ZXBM5210-S_0_0"
       (pin output line (at 10.16 2.54 180) (length 2.54)
         (name "OUT1" (effects (font (size 1.27 1.27))))
@@ -6682,6 +6710,11 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "ZXBM5210-S_0_1"
+      (rectangle (start -7.62 7.62) (end 7.62 -5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
   )
   (symbol "Driver_Motor:ZXBM5210-SP" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -6704,11 +6737,6 @@
     )
     (property "ki_fp_filters" "Diodes*SO*EP*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "ZXBM5210-SP_0_1"
-      (rectangle (start -7.62 7.62) (end 7.62 -5.08)
-        (stroke (width 0.254)) (fill (type background))
-      )
     )
     (symbol "ZXBM5210-SP_0_0"
       (pin output line (at 10.16 2.54 180) (length 2.54)
@@ -6746,6 +6774,11 @@
       (pin passive line (at 0 -7.62 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "ZXBM5210-SP_0_1"
+      (rectangle (start -7.62 7.62) (end 7.62 -5.08)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )

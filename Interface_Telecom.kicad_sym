@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Interface_Telecom:FX614" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -18,7 +18,7 @@
     (property "ki_description" "Bell 202 Compatible Modem, DIP-16/SO-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*\nPDIP*\nSO*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP* PDIP* SO*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "FX614_0_1"
