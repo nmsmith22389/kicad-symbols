@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Reference_Current:LM134H" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -474,6 +474,9 @@
     (property "ki_description" "1μA to 10mA 3-Terminal Adjustable Current Source, TO-92" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO*92*Inline*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Reference_Current:LM234Z-6" (extends "LM334Z")
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
@@ -494,6 +497,9 @@
     (property "ki_description" "1μA to 10mA 3-Terminal Adjustable Current Source, TO-92" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO*92*Inline*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Reference_Current:LM334Z-LFT1" (extends "LM334Z")
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
@@ -512,6 +518,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "1μA to 10mA 3-Terminal Adjustable Current Source, TO-92" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO*92*Inline*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -620,7 +629,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -1.27 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -1.27 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -628,11 +637,11 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -1.27 0 0) (length 2.54) hide
+      (pin no_connect line (at -1.27 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -1.27 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -1.27 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -858,7 +867,7 @@
       )
     )
     (symbol "LT3092xTS8_1_1"
-      (pin unconnected line (at -1.27 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -1.27 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -878,7 +887,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -1.27 0 0) (length 2.54) hide
+      (pin no_connect line (at -1.27 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -913,6 +922,12 @@
     )
     (property "ki_fp_filters" "SOT?353*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "PSSI2021SAY_0_1"
+      (pin power_out line (at 5.08 0 180) (length 2.54)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "PSSI2021SAY_1_1"
       (circle (center 0 1.905) (radius 1.27) (stroke (width 0)) (fill (type none)))
@@ -983,7 +998,7 @@
         )
         (stroke (width 0)) (fill (type none))
       )
-      (pin unconnected line (at -2.54 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -2.54 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -998,12 +1013,6 @@
       (pin power_in line (at 0 7.62 270) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "PSSI2021SAY_0_1"
-      (pin power_out line (at 5.08 0 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -1031,6 +1040,12 @@
     )
     (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "REF200AU_0_1"
+      (pin passive line (at 2.54 -7.62 90) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "REF200AU_1_1"
       (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
@@ -1269,12 +1284,6 @@
       (pin passive line (at 0 7.62 270) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "REF200AU_0_1"
-      (pin passive line (at 2.54 -7.62 90) (length 2.54)
-        (name "S" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
       )
     )
   )

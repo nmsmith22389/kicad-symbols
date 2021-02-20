@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "power:+10V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -949,6 +949,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"+3.3VADC\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "+3.3VADC_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+3.3VADC" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "+3.3VADC_0_1"
       (polyline
         (pts
@@ -972,12 +978,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "+3.3VADC_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+3.3VADC" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
   )
   (symbol "power:+3.3VDAC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 3.81 -1.27 0)
@@ -997,6 +997,12 @@
     )
     (property "ki_description" "Power symbol creates a global label with name \"+3.3VDAC\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+3.3VDAC_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+3.3VDAC" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "+3.3VDAC_0_1"
       (polyline
@@ -1021,12 +1027,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "+3.3VDAC_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+3.3VDAC" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
   )
   (symbol "power:+3.3VP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 3.81 -1.27 0)
@@ -1046,6 +1046,12 @@
     )
     (property "ki_description" "Power symbol creates a global label with name \"+3.3VP\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+3.3VP_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+3.3VP" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "+3.3VP_0_1"
       (polyline
@@ -1068,12 +1074,6 @@
           (xy 0.762 1.27)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "+3.3VP_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+3.3VP" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2195,6 +2195,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-10V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-10V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-10V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-10V_0_1"
       (polyline
         (pts
@@ -2206,12 +2212,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-10V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-10V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2234,6 +2234,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-12V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-12V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-12V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-12V_0_1"
       (polyline
         (pts
@@ -2245,12 +2251,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-12V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-12V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2273,6 +2273,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-12VA\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-12VA_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-12VA" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-12VA_0_1"
       (polyline
         (pts
@@ -2284,12 +2290,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-12VA_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-12VA" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2312,6 +2312,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-15V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-15V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-15V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-15V_0_1"
       (polyline
         (pts
@@ -2323,12 +2329,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-15V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-15V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2351,6 +2351,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-24V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-24V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-24V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-24V_0_1"
       (polyline
         (pts
@@ -2362,12 +2368,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-24V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-24V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2390,6 +2390,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-2V5\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-2V5_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-2V5" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-2V5_0_1"
       (polyline
         (pts
@@ -2401,12 +2407,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-2V5_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-2V5" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2429,6 +2429,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-36V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-36V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-36V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-36V_0_1"
       (polyline
         (pts
@@ -2440,12 +2446,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-36V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-36V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2468,6 +2468,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-3V3\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-3V3_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-3V3" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-3V3_0_1"
       (polyline
         (pts
@@ -2479,12 +2485,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-3V3_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-3V3" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2507,6 +2507,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-48V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-48V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-48V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-48V_0_1"
       (polyline
         (pts
@@ -2518,12 +2524,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-48V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-48V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2546,6 +2546,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-5V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-5V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-5V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-5V_0_1"
       (polyline
         (pts
@@ -2557,12 +2563,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-5V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-5V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2585,6 +2585,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-5VA\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-5VA_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-5VA" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-5VA_0_1"
       (polyline
         (pts
@@ -2596,12 +2602,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-5VA_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-5VA" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2624,6 +2624,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-6V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-6V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-6V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-6V_0_1"
       (polyline
         (pts
@@ -2635,12 +2641,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-6V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-6V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2663,6 +2663,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-8V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-8V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-8V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-8V_0_1"
       (polyline
         (pts
@@ -2674,12 +2680,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-8V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-8V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -2877,6 +2877,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-VSW\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-VSW_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-VSW" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-VSW_0_1"
       (polyline
         (pts
@@ -2888,12 +2894,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-VSW_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-VSW" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -3542,6 +3542,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"HT\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "HT_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "HT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "HT_0_1"
       (polyline
         (pts
@@ -3561,12 +3567,6 @@
           (xy 0 1.016)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "HT_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "HT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -3829,6 +3829,12 @@
     (property "ki_description" "Special symbol for telling ERC where power comes from" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "PWR_FLAG_0_0"
+      (pin power_out line (at 0 0 90) (length 0)
+        (name "pwr" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "PWR_FLAG_0_1"
       (polyline
         (pts
@@ -3840,12 +3846,6 @@
           (xy 0 1.27)
         )
         (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "PWR_FLAG_0_0"
-      (pin power_out line (at 0 0 90) (length 0)
-        (name "pwr" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )

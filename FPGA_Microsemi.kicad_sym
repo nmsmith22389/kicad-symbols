@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "FPGA_Microsemi:A3P030-VQG100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 30.48 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10301,11 +10301,11 @@
         (name "SERDES_0_L23_VDDAIO" (effects (font (size 1.27 1.27))))
         (number "T10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 10.16 0) (length 5.08) hide
+      (pin no_connect line (at -25.4 10.16 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "T11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 7.62 0) (length 5.08) hide
+      (pin no_connect line (at -25.4 7.62 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "T12" (effects (font (size 1.27 1.27))))
       )

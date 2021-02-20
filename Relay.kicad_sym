@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Relay:ADW11" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
       (effects (font (size 1.27 1.27)))
@@ -410,6 +410,9 @@
     (property "ki_description" "American Zettler, Microminiature Polarised Dual Pole Relay Bistable" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*FRT5*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:AZ850P2-x" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -717,6 +720,17 @@
     (property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "DIPxx-1Axx-11x_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
     (symbol "DIPxx-1Axx-11x_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
         (stroke (width 0.254)) (fill (type background))
@@ -795,17 +809,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "DIPxx-1Axx-11x_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "DIPxx-1Axx-11x_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -854,6 +857,17 @@
     )
     (property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DIPxx-1Axx-12x_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "DIPxx-1Axx-12x_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -933,17 +947,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "DIPxx-1Axx-12x_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "DIPxx-1Axx-12x_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -996,6 +999,17 @@
     )
     (property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DIPxx-1Axx-12xD_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "DIPxx-1Axx-12xD_0_1"
       (circle (center -5.08 -3.81) (radius 0.4064) (stroke (width 0)) (fill (type outline)))
@@ -1102,17 +1116,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "DIPxx-1Axx-12xD_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "DIPxx-1Axx-12xD_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1165,6 +1168,17 @@
     )
     (property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DIPxx-1Axx-13x_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "DIPxx-1Axx-13x_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -1244,17 +1258,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "DIPxx-1Axx-13x_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "DIPxx-1Axx-13x_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1295,6 +1298,26 @@
     )
     (property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DIPxx-1Cxx-51x_0_0"
+      (polyline
+        (pts
+          (xy 2.54 5.08)
+          (xy 2.54 2.54)
+          (xy 3.175 3.175)
+          (xy 2.54 3.81)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "DIPxx-1Cxx-51x_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -1374,26 +1397,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "DIPxx-1Cxx-51x_0_0"
-      (polyline
-        (pts
-          (xy 2.54 5.08)
-          (xy 2.54 2.54)
-          (xy 3.175 3.175)
-          (xy 2.54 3.81)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "DIPxx-1Cxx-51x_1_1"
       (pin passive line (at 2.54 7.62 270) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1442,6 +1445,26 @@
     )
     (property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DIPxx-2Axx-21x_0_0"
+      (polyline
+        (pts
+          (xy 2.54 5.08)
+          (xy 2.54 2.54)
+          (xy 1.905 3.175)
+          (xy 2.54 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 5.08)
+          (xy 10.16 2.54)
+          (xy 9.525 3.175)
+          (xy 10.16 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "DIPxx-2Axx-21x_0_1"
       (rectangle (start -12.7 5.08) (end 11.43 -5.08)
@@ -1573,26 +1596,6 @@
         (pts
           (xy 10.16 -2.54)
           (xy 10.16 -5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "DIPxx-2Axx-21x_0_0"
-      (polyline
-        (pts
-          (xy 2.54 5.08)
-          (xy 2.54 2.54)
-          (xy 1.905 3.175)
-          (xy 2.54 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 5.08)
-          (xy 10.16 2.54)
-          (xy 9.525 3.175)
-          (xy 10.16 3.81)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -1885,6 +1888,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EC2-24NU" (extends "EC2-3NU")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -1903,6 +1909,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1925,6 +1934,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EC2-5NU" (extends "EC2-3NU")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -1943,6 +1955,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2218,6 +2233,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), single coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EC2-24SNU" (extends "EC2-3SNU")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -2236,6 +2254,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), single coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2258,6 +2279,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), single coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EC2-5SNU" (extends "EC2-3SNU")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -2276,6 +2300,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), single coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2623,6 +2650,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*DoubleCoil*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EC2-24TNU" (extends "EC2-3TNU")
     (property "Reference" "K" (id 0) (at 17.78 8.89 0)
@@ -2641,6 +2671,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*DoubleCoil*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2663,6 +2696,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*DoubleCoil*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EC2-5TNU" (extends "EC2-3TNU")
     (property "Reference" "K" (id 0) (at 17.78 8.89 0)
@@ -2681,6 +2717,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*THT*Kemet*EC2*DoubleCoil*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2945,6 +2984,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, high breakdown voltage, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NKX*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-4.5NKX" (extends "EE2-3NKX")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -2963,6 +3005,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, high breakdown voltage, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NKX*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3227,6 +3272,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-24NU" (extends "EE2-3NU")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -3245,6 +3293,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3267,6 +3318,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-5NU" (extends "EE2-3NU")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -3285,6 +3339,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3549,6 +3606,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-24NUH" (extends "EE2-3NUH")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -3567,6 +3627,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3589,6 +3652,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-5NUH" (extends "EE2-3NUH")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -3607,6 +3673,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3871,6 +3940,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-24NUX" (extends "EE2-3NUX")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -3889,6 +3961,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3911,6 +3986,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-5NUX" (extends "EE2-3NUX")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -3929,6 +4007,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4202,6 +4283,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-24SNU" (extends "EE2-3SNU")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -4220,6 +4304,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4242,6 +4329,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-5SNU" (extends "EE2-3SNU")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -4260,6 +4350,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4533,6 +4626,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-24SNUH" (extends "EE2-3SNUH")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -4551,6 +4647,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4573,6 +4672,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-5SNUH" (extends "EE2-3SNUH")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -4591,6 +4693,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4864,6 +4969,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-24SNUX" (extends "EE2-3SNUX")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -4882,6 +4990,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4904,6 +5015,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-5SNUX" (extends "EE2-3SNUX")
     (property "Reference" "K" (id 0) (at 15.24 8.89 0)
@@ -4922,6 +5036,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), single coil latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5269,6 +5386,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*DoubleCoil*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-24TNU" (extends "EE2-3TNU")
     (property "Reference" "K" (id 0) (at 17.78 8.89 0)
@@ -5287,6 +5407,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*DoubleCoil*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5309,6 +5432,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*DoubleCoil*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-5TNU" (extends "EE2-3TNU")
     (property "Reference" "K" (id 0) (at 17.78 8.89 0)
@@ -5327,6 +5453,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*DoubleCoil*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5674,6 +5803,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*DoubleCoil*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-24TNUH" (extends "EE2-3TNUH")
     (property "Reference" "K" (id 0) (at 17.78 8.89 0)
@@ -5692,6 +5824,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*DoubleCoil*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5714,6 +5849,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*DoubleCoil*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-5TNUH" (extends "EE2-3TNUH")
     (property "Reference" "K" (id 0) (at 17.78 8.89 0)
@@ -5732,6 +5870,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUH*DoubleCoil*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6079,6 +6220,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*DoubleCoil*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-24TNUX" (extends "EE2-3TNUX")
     (property "Reference" "K" (id 0) (at 17.78 8.89 0)
@@ -6097,6 +6241,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*DoubleCoil*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6119,6 +6266,9 @@
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*DoubleCoil*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:EE2-5TNUX" (extends "EE2-3TNUX")
     (property "Reference" "K" (id 0) (at 17.78 8.89 0)
@@ -6137,6 +6287,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, high solder joint reliability SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NUX*DoubleCoil*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6161,6 +6314,44 @@
     )
     (property "ki_fp_filters" "Relay*DPDT*Finder*30.22*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FINDER-30.22_0_0"
+      (polyline
+        (pts
+          (xy -2.54 5.08)
+          (xy -2.54 2.54)
+          (xy -1.905 3.175)
+          (xy -2.54 3.81)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 2.54 5.08)
+          (xy 2.54 2.54)
+          (xy 1.905 3.175)
+          (xy 2.54 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 8.255 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 12.7 5.08)
+          (xy 12.7 2.54)
+          (xy 12.065 3.175)
+          (xy 12.7 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "FINDER-30.22_0_1"
       (rectangle (start -15.24 5.08) (end 15.24 -5.08)
@@ -6310,44 +6501,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "FINDER-30.22_0_0"
-      (polyline
-        (pts
-          (xy -2.54 5.08)
-          (xy -2.54 2.54)
-          (xy -1.905 3.175)
-          (xy -2.54 3.81)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 2.54 5.08)
-          (xy 2.54 2.54)
-          (xy 1.905 3.175)
-          (xy 2.54 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 8.255 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 12.7 5.08)
-          (xy 12.7 2.54)
-          (xy 12.065 3.175)
-          (xy 12.7 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "FINDER-30.22_1_1"
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -6404,6 +6557,26 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Finder*32.21*x000*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FINDER-32.21-x000_0_0"
+      (polyline
+        (pts
+          (xy 2.54 5.08)
+          (xy 2.54 2.54)
+          (xy 3.175 3.175)
+          (xy 2.54 3.81)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "FINDER-32.21-x000_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -6479,26 +6652,6 @@
         (pts
           (xy 5.08 -2.54)
           (xy 5.08 -5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "FINDER-32.21-x000_0_0"
-      (polyline
-        (pts
-          (xy 2.54 5.08)
-          (xy 2.54 2.54)
-          (xy 3.175 3.175)
-          (xy 2.54 3.81)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -6673,6 +6826,9 @@
     (property "ki_description" "FINDER 36.11-4301, Single Pole Relay SPST-NO Sugar Cube, 10A" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPST*Finder*32.21*x300*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:RM50-xx21" (extends "FINDER-32.21-x300")
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -6691,6 +6847,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "RELPOL, Single Pole Relay SPST-NO, 6A" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*SPST*Finder*32.21*x300*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6715,6 +6874,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Finder*34.51*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FINDER-34.51_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "FINDER-34.51_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -6803,17 +6973,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "FINDER-34.51_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "FINDER-34.51_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -6858,6 +7017,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Finder*34.51*Horizontal*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FINDER-34.51.7xxx.x019_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "FINDER-34.51.7xxx.x019_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -6946,17 +7116,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "FINDER-34.51.7xxx.x019_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "FINDER-34.51.7xxx.x019_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -7001,6 +7160,31 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Finder*36.11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FINDER-36.11_0_0"
+      (polyline
+        (pts
+          (xy 2.54 3.81)
+          (xy 2.54 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "FINDER-36.11_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -7095,31 +7279,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "FINDER-36.11_0_0"
-      (polyline
-        (pts
-          (xy 2.54 3.81)
-          (xy 2.54 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "FINDER-36.11_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -7164,6 +7323,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Finder*40.11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FINDER-40.11_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "FINDER-40.11_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -7252,17 +7422,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "FINDER-40.11_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "FINDER-40.11_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -7305,6 +7464,9 @@
     (property "ki_description" "PCB SPDT relay, 16A" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPDT*Finder*40.11*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:FINDER-40.31" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -7327,6 +7489,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Finder*40.31*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FINDER-40.31_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "FINDER-40.31_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -7415,17 +7588,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "FINDER-40.31_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "FINDER-40.31_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -7470,6 +7632,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Finder*40.41*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FINDER-40.41_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "FINDER-40.41_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -7558,17 +7731,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "FINDER-40.41_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "FINDER-40.41_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -7613,6 +7775,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Finder*40.51*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FINDER-40.51_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "FINDER-40.51_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -7699,17 +7872,6 @@
           (xy 2.54 3.81)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "FINDER-40.51_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "FINDER-40.51_1_1"
@@ -7995,6 +8157,9 @@
     (property "ki_description" "FINDER 41.52, Dual Pole Relay, 5mm Pitch, 8A" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Finder*40.52*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:FINDER-44.52" (extends "FINDER-40.52")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -8013,6 +8178,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "FINDER 44.52, Dual Pole Relay, 5mm Pitch, 6A" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Finder*40.52*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -8035,6 +8203,9 @@
     (property "ki_description" "FINDER 44.62, Dual Pole Relay, 5mm Pitch, 10A" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Finder*40.52*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:RM84" (extends "FINDER-40.52")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -8055,6 +8226,9 @@
     (property "ki_description" "RELPOL Dual Pole Relay, 5mm Pitch, 8A" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Finder*40.52*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:RSM822" (extends "FINDER-40.52")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -8073,6 +8247,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "RELPOL Dual Pole Relay, 5mm Pitch, 2A" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Finder*40.52*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -9110,6 +9287,9 @@
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 12V coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:G2RL-2-ASI-DC24" (extends "G2RL-2-DC5")
     (property "Reference" "RL" (id 0) (at 16.51 3.81 0)
@@ -9128,6 +9308,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 24V coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -9150,6 +9333,9 @@
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 48V coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:G2RL-2-ASI-DC5" (extends "G2RL-2-DC5")
     (property "Reference" "RL" (id 0) (at 16.51 3.81 0)
@@ -9168,6 +9354,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 5V coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -9190,6 +9379,9 @@
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:G2RL-2-DC24" (extends "G2RL-2-DC5")
     (property "Reference" "RL" (id 0) (at 16.51 3.81 0)
@@ -9208,6 +9400,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 24V coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -9230,6 +9425,9 @@
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 48V coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:G2RL-2-HA-DC12" (extends "G2RL-2-DC5")
     (property "Reference" "RL" (id 0) (at 16.51 3.81 0)
@@ -9248,6 +9446,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, IEC/EN60335-1, 12V coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -9270,6 +9471,9 @@
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, IEC/EN60335-1, 24V coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:G2RL-2-HA-DC5" (extends "G2RL-2-DC5")
     (property "Reference" "RL" (id 0) (at 16.51 3.81 0)
@@ -9288,6 +9492,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, IEC/EN60335-1, 5V coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -9310,6 +9517,9 @@
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, sealed, 12V coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:G2RL-24-DC24" (extends "G2RL-2-DC5")
     (property "Reference" "RL" (id 0) (at 16.51 3.81 0)
@@ -9328,6 +9538,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, sealed, 24V coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -9350,6 +9563,9 @@
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, sealed, 48V coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:G2RL-24-DC5" (extends "G2RL-2-DC5")
     (property "Reference" "RL" (id 0) (at 16.51 3.81 0)
@@ -9368,6 +9584,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, sealed, 5V coil" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*Omron*G2RL*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -9392,6 +9611,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Omron*G5LE?1*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "G5LE-1_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "G5LE-1_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -9480,17 +9710,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "G5LE-1_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "G5LE-1_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -9535,6 +9754,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Omron*G5Q*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "G5Q-1_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "G5Q-1_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -9623,17 +9853,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "G5Q-1_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "G5Q-1_1_1"
       (pin passive line (at -5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -9678,6 +9897,17 @@
     )
     (property "ki_fp_filters" "Relay*SPST*Omron*G5Q*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "G5Q-1A_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "G5Q-1A_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -9757,17 +9987,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "G5Q-1A_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "G5Q-1A_1_1"
       (pin passive line (at -5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -9808,6 +10027,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Omron*G5V?1*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "G5V-1_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "G5V-1_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -9894,17 +10124,6 @@
           (xy 2.54 3.81)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "G5V-1_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "G5V-1_1_1"
@@ -10857,11 +11076,11 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -11114,11 +11333,11 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -12650,6 +12869,9 @@
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 75ohm, 4.5Vdc, Single-Side Stable" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*75ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:HF3-03" (extends "HF3-01")
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -12668,6 +12890,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 75ohm, 5Vdc, Single-Side Stable" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*75ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -12690,6 +12915,9 @@
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 75ohm, 6Vdc, Single-Side Stable" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*75ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:HF3-05" (extends "HF3-01")
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -12708,6 +12936,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 75ohm, 9Vdc, Single-Side Stable" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*75ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -12730,6 +12961,9 @@
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 75ohm, 12Vdc, Single-Side Stable" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*75ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:HF3-07" (extends "HF3-01")
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -12748,6 +12982,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 75ohm, 24Vdc, Single-Side Stable" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*75ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -12960,6 +13197,9 @@
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 50ohm, 4.5Vdc, Single-Side Stable" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*50ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:HF3-53" (extends "HF3-51")
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -12978,6 +13218,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 50ohm, 5Vdc, Single-Side Stable" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*50ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13000,6 +13243,9 @@
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 50ohm, 6Vdc, Single-Side Stable" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*50ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:HF3-55" (extends "HF3-51")
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -13018,6 +13264,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 50ohm, 9Vdc, Single-Side Stable" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*50ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13040,6 +13289,9 @@
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 50ohm, 12Vdc, Single-Side Stable" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*50ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:HF3-57" (extends "HF3-51")
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -13058,6 +13310,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "AXICOM HF3 relay, 3GHz, SPDT RF Switching Relay, 50ohm, 24Vdc, Single-Side Stable" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*SPDT*AXICOM*HF3Series*50ohms*Pitch1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13326,6 +13581,9 @@
     (property "ki_description" "IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM02" (extends "IM00")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -13344,6 +13602,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13366,6 +13627,9 @@
     (property "ki_description" "IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM04" (extends "IM00")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -13384,6 +13648,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13406,6 +13673,9 @@
     (property "ki_description" "IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM06" (extends "IM00")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -13424,6 +13694,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13446,6 +13719,9 @@
     (property "ki_description" "IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM08" (extends "IM00")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -13464,6 +13740,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13732,6 +14011,9 @@
     (property "ki_description" "IM Relay, sensitive version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM13" (extends "IM11")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -13750,6 +14032,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, sensitive version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13772,6 +14057,9 @@
     (property "ki_description" "IM Relay, sensitive version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM17" (extends "IM11")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -13790,6 +14078,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, sensitive version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -14058,6 +14349,9 @@
     (property "ki_description" "IM Relay, high sensitive version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM23" (extends "IM21")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -14078,6 +14372,9 @@
     (property "ki_description" "IM Relay, high sensitive version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM26" (extends "IM21")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -14096,6 +14393,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, high sensitive version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -14367,6 +14667,9 @@
     (property "ki_description" "IM Relay, standard version, bistable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM42" (extends "IM40")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -14385,6 +14688,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, standard version, bistable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -14407,6 +14713,9 @@
     (property "ki_description" "IM Relay, standard version, bistable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM44" (extends "IM40")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -14425,6 +14734,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, standard version, bistable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -14447,6 +14759,9 @@
     (property "ki_description" "IM Relay, standard version, bistable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM46" (extends "IM40")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -14465,6 +14780,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, standard version, bistable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -14487,6 +14805,9 @@
     (property "ki_description" "IM Relay, standard version, bistable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:IM48" (extends "IM40")
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -14505,6 +14826,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IM Relay, standard version, bistable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -14771,6 +15095,17 @@
     (property "ki_fp_filters" "Relay*SPST*StandexMeder*MS*Form1AB*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "MSxx-1Axx-75_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
     (symbol "MSxx-1Axx-75_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
         (stroke (width 0.254)) (fill (type background))
@@ -14849,17 +15184,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "MSxx-1Axx-75_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "MSxx-1Axx-75_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -14900,6 +15224,17 @@
     )
     (property "ki_fp_filters" "Relay*SPST*StandexMeder*MS*Form1AB*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "MSxx-1Bxx-75_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "MSxx-1Bxx-75_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -14979,17 +15314,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "MSxx-1Bxx-75_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "MSxx-1Bxx-75_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -15030,6 +15354,31 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*RAYEX*L90*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "RAYEX-L90_1_0"
+      (polyline
+        (pts
+          (xy 2.54 3.81)
+          (xy 2.54 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "RAYEX-L90_1_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -15148,31 +15497,6 @@
         (number "A2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "RAYEX-L90_1_0"
-      (polyline
-        (pts
-          (xy 2.54 3.81)
-          (xy 2.54 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
   )
   (symbol "Relay:RAYEX-L90A" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -15195,6 +15519,24 @@
     )
     (property "ki_fp_filters" "Relay*SPST*RAYEX*L90A*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "RAYEX-L90A_1_0"
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "RAYEX-L90A_1_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -15301,24 +15643,6 @@
         (number "A2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "RAYEX-L90A_1_0"
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
   )
   (symbol "Relay:RAYEX-L90AS" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -15341,6 +15665,24 @@
     )
     (property "ki_fp_filters" "Relay*SPST*RAYEX*L90A*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "RAYEX-L90AS_1_0"
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "RAYEX-L90AS_1_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -15443,24 +15785,6 @@
         (number "A2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "RAYEX-L90AS_1_0"
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
   )
   (symbol "Relay:RAYEX-L90B" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 8.89 3.81 0)
@@ -15483,6 +15807,15 @@
     )
     (property "ki_fp_filters" "Relay*SPST*RAYEX*L90B*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "RAYEX-L90B_1_0"
+      (polyline
+        (pts
+          (xy 2.54 3.81)
+          (xy 2.54 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "RAYEX-L90B_1_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -15597,15 +15930,6 @@
         (number "A2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "RAYEX-L90B_1_0"
-      (polyline
-        (pts
-          (xy 2.54 3.81)
-          (xy 2.54 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
   )
   (symbol "Relay:RAYEX-L90BS" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 8.89 3.81 0)
@@ -15628,6 +15952,15 @@
     )
     (property "ki_fp_filters" "Relay*SPST*RAYEX*L90B*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "RAYEX-L90BS_1_0"
+      (polyline
+        (pts
+          (xy 2.54 3.81)
+          (xy 2.54 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "RAYEX-L90BS_1_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -15738,15 +16071,6 @@
         (number "A2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "RAYEX-L90BS_1_0"
-      (polyline
-        (pts
-          (xy 2.54 3.81)
-          (xy 2.54 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
   )
   (symbol "Relay:RAYEX-L90S" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -15769,6 +16093,31 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*RAYEX*L90S*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "RAYEX-L90S_1_0"
+      (polyline
+        (pts
+          (xy 2.54 3.81)
+          (xy 2.54 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 3.81)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "RAYEX-L90S_1_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -15883,31 +16232,6 @@
         (number "A2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "RAYEX-L90S_1_0"
-      (polyline
-        (pts
-          (xy 2.54 3.81)
-          (xy 2.54 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
   )
   (symbol "Relay:RT314A03" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -15930,6 +16254,15 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*Schrack*RT1*16A*FormC*RM5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "RT314A03_0_0"
+      (polyline
+        (pts
+          (xy -2.54 1.905)
+          (xy -7.62 -1.905)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
     )
     (symbol "RT314A03_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -16020,15 +16353,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "RT314A03_0_0"
-      (polyline
-        (pts
-          (xy -2.54 1.905)
-          (xy -7.62 -1.905)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-    )
     (symbol "RT314A03_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -16071,6 +16395,9 @@
     (property "ki_description" "Schrack RT1 relay, bistable single pole dual throw, single DC coil, 5V" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPDT*Schrack*RT1*16A*FormC*RM5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:RT314A06" (extends "RT314A03")
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -16089,6 +16416,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Schrack RT1 relay, bistablesingle pole dual throw, single DC coil, 6V" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*SPDT*Schrack*RT1*16A*FormC*RM5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -16111,6 +16441,9 @@
     (property "ki_description" "Schrack RT1 relay, bistable single pole dual throw, single DC coil, 12V" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*SPDT*Schrack*RT1*16A*FormC*RM5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:RT314A24" (extends "RT314A03")
     (property "Reference" "K" (id 0) (at 11.43 3.81 0)
@@ -16129,6 +16462,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Schrack RT1 relay, bistable single pole dual throw, single DC coil, 24V, IEC 60335-1" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*SPDT*Schrack*RT1*16A*FormC*RM5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -16153,6 +16489,15 @@
     )
     (property "ki_fp_filters" "Relay*DPDT*RT2*FormC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "RT42xAxx_0_0"
+      (polyline
+        (pts
+          (xy -7.62 1.905)
+          (xy -12.7 -1.905)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
     )
     (symbol "RT42xAxx_0_1"
       (rectangle (start -15.24 5.08) (end 15.24 -5.08)
@@ -16331,15 +16676,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "RT42xAxx_0_0"
-      (polyline
-        (pts
-          (xy -7.62 1.905)
-          (xy -12.7 -1.905)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-    )
     (symbol "RT42xAxx_1_1"
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -16394,6 +16730,9 @@
     (property "ki_description" "Schrack RT2 relay, bistable dual pole dual throw, single DC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*RT2*FormC*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:RT42xFxx" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -16416,6 +16755,15 @@
     )
     (property "ki_fp_filters" "Relay*DPDT*RT2*FormC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "RT42xFxx_0_0"
+      (polyline
+        (pts
+          (xy -7.62 1.905)
+          (xy -12.7 -1.905)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
     )
     (symbol "RT42xFxx_0_1"
       (rectangle (start -15.24 0) (end -13.335 0)
@@ -16597,15 +16945,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "RT42xFxx_0_0"
-      (polyline
-        (pts
-          (xy -7.62 1.905)
-          (xy -12.7 -1.905)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-    )
     (symbol "RT42xFxx_1_1"
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -16662,6 +17001,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Schrack RT2 relay, bistable dual pole dual throw, dual DC coils" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Relay*DPDT*RT2*FormC*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -16925,6 +17267,9 @@
     (property "ki_description" "Schrack RT2 relay, monostable dual pole dual throw, DC or AC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPDT*RT2*FormC*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:RT44xxxx" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 16.51 3.81 0)
@@ -17160,6 +17505,9 @@
     (property "ki_description" "Schrack RT2 relay, monostable dual pole normally open, DC or AC coil" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Relay*DPST*RT2*FormA*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Relay:SANYOU_SRD_Form_A" (in_bom yes) (on_board yes)
     (property "Reference" "K" (id 0) (at 8.89 3.81 0)
@@ -17182,6 +17530,17 @@
     )
     (property "ki_fp_filters" "Relay*SPST*SANYOU*SRD*Series*Form*A*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SANYOU_SRD_Form_A_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "SANYOU_SRD_Form_A_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -17257,17 +17616,6 @@
         (pts
           (xy 5.08 -2.54)
           (xy 5.08 -5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "SANYOU_SRD_Form_A_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -17441,6 +17789,17 @@
     (property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "SANYOU_SRD_Form_C_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
     (symbol "SANYOU_SRD_Form_C_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
         (stroke (width 0.254)) (fill (type background))
@@ -17519,17 +17878,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "SANYOU_SRD_Form_C_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "SANYOU_SRD_Form_C_1_1"
       (polyline
         (pts
@@ -17583,6 +17931,17 @@
     )
     (property "ki_fp_filters" "Relay*SPST*StandexMeder*SIL*Form1A*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SILxx-1Axx-71x_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "SILxx-1Axx-71x_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -17662,17 +18021,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "SILxx-1Axx-71x_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "SILxx-1Axx-71x_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -17713,6 +18061,17 @@
     )
     (property "ki_fp_filters" "Relay*SPST*StandexMeder*SIL*Form1B*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SILxx-1Bxx-71x_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "SILxx-1Bxx-71x_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -17792,17 +18151,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "SILxx-1Bxx-71x_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "SILxx-1Bxx-71x_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -17843,6 +18191,17 @@
     )
     (property "ki_fp_filters" "Relay*SPDT*StandexMeder*SIL*Form1C*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SILxx-1Cxx-51x_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "SILxx-1Cxx-51x_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -17931,17 +18290,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "SILxx-1Cxx-51x_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "SILxx-1Cxx-51x_1_1"
       (pin passive line (at 7.62 7.62 270) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -17986,6 +18334,17 @@
     )
     (property "ki_fp_filters" "Relay*SPST*TE*PCH*1***2M*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TE_PCH-1xxx2M_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "TE_PCH-1xxx2M_0_1"
       (rectangle (start -10.16 5.08) (end 7.62 -5.08)
@@ -18065,17 +18424,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "TE_PCH-1xxx2M_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "TE_PCH-1xxx2M_1_1"
       (pin passive line (at -5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -18116,6 +18464,17 @@
     )
     (property "ki_fp_filters" "Relay*HJR?4102*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TIANBO-HJR-4102-L_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "TIANBO-HJR-4102-L_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -18204,17 +18563,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "TIANBO-HJR-4102-L_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "TIANBO-HJR-4102-L_1_1"
       (pin passive line (at 5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -18259,6 +18607,17 @@
     )
     (property "ki_fp_filters" "Relay*StandexMeder*UMS*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "UMS05-1A80-75D_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "UMS05-1A80-75D_0_1"
       (circle (center -5.08 -3.81) (radius 0.2794) (stroke (width 0)) (fill (type outline)))
@@ -18365,17 +18724,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "UMS05-1A80-75D_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "UMS05-1A80-75D_1_1"
       (pin passive line (at -5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -18416,6 +18764,17 @@
     )
     (property "ki_fp_filters" "Relay*StandexMeder*UMS*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "UMS05-1A80-75L_0_0"
+      (polyline
+        (pts
+          (xy 5.08 5.08)
+          (xy 5.08 2.54)
+          (xy 4.445 3.175)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "UMS05-1A80-75L_0_1"
       (rectangle (start -10.16 5.08) (end 6.35 -5.08)
@@ -18495,17 +18854,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "UMS05-1A80-75L_0_0"
-      (polyline
-        (pts
-          (xy 5.08 5.08)
-          (xy 5.08 2.54)
-          (xy 4.445 3.175)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "UMS05-1A80-75L_1_1"
       (pin passive line (at -5.08 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -18546,6 +18894,17 @@
     )
     (property "ki_fp_filters" "Relay*Y14*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Y14x-1C-xxDS_0_0"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 2.54)
+          (xy 6.985 3.175)
+          (xy 7.62 3.81)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "Y14x-1C-xxDS_0_1"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
@@ -18632,17 +18991,6 @@
           (xy 2.54 3.81)
         )
         (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "Y14x-1C-xxDS_0_0"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-          (xy 6.985 3.175)
-          (xy 7.62 3.81)
-        )
-        (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "Y14x-1C-xxDS_1_1"

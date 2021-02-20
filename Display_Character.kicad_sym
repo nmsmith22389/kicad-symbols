@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Display_Character:AD-121F2" (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at -21.59 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -243,14 +243,6 @@
     (property "ki_fp_filters" "*CA56*12CGKWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "CA56-12CGKWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CA56-12CGKWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
     (symbol "CA56-12CGKWA_0_0"
       (text "a" (at -15.24 6.35 0)
         (effects (font (size 1.524 1.524)))
@@ -485,6 +477,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CA56-12CGKWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CA56-12CGKWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CA56-12CGKWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -557,14 +557,6 @@
     )
     (property "ki_fp_filters" "*CA56*12EWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CA56-12EWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CA56-12EWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CA56-12EWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -800,6 +792,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CA56-12EWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CA56-12EWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CA56-12EWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -872,14 +872,6 @@
     )
     (property "ki_fp_filters" "*CA56*12SEKWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CA56-12SEKWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CA56-12SEKWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CA56-12SEKWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -1115,6 +1107,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CA56-12SEKWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CA56-12SEKWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CA56-12SEKWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -1187,14 +1187,6 @@
     )
     (property "ki_fp_filters" "*CA56*12SRWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CA56-12SRWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CA56-12SRWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CA56-12SRWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -1430,6 +1422,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CA56-12SRWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CA56-12SRWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CA56-12SRWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -1502,14 +1502,6 @@
     )
     (property "ki_fp_filters" "*CA56*12SURKWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CA56-12SURKWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CA56-12SURKWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CA56-12SURKWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -1745,6 +1737,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CA56-12SURKWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CA56-12SURKWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CA56-12SURKWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -1817,14 +1817,6 @@
     )
     (property "ki_fp_filters" "*CA56*12SYKWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CA56-12SYKWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CA56-12SYKWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CA56-12SYKWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -2060,6 +2052,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CA56-12SYKWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CA56-12SYKWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CA56-12SYKWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -2132,14 +2132,6 @@
     )
     (property "ki_fp_filters" "*CA56*12CGKWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CC56-12CGKWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CC56-12CGKWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CC56-12CGKWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -2375,6 +2367,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CC56-12CGKWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CC56-12CGKWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CC56-12CGKWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -2447,14 +2447,6 @@
     )
     (property "ki_fp_filters" "*CA56*12EWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CC56-12EWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CC56-12EWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CC56-12EWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -2690,6 +2682,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CC56-12EWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CC56-12EWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CC56-12EWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -2762,14 +2762,6 @@
     )
     (property "ki_fp_filters" "CC56?12GWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CC56-12GWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CC56-12GWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CC56-12GWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -3005,6 +2997,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CC56-12GWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CC56-12GWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CC56-12GWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -3077,14 +3077,6 @@
     )
     (property "ki_fp_filters" "*CA56*12SEKWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CC56-12SEKWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CC56-12SEKWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CC56-12SEKWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -3320,6 +3312,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CC56-12SEKWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CC56-12SEKWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CC56-12SEKWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -3392,14 +3392,6 @@
     )
     (property "ki_fp_filters" "*CA56*12SRWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CC56-12SRWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CC56-12SRWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CC56-12SRWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -3635,6 +3627,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CC56-12SRWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CC56-12SRWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CC56-12SRWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -3707,14 +3707,6 @@
     )
     (property "ki_fp_filters" "*CA56*12SURKWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CC56-12SURKWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CC56-12SURKWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CC56-12SURKWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -3950,6 +3942,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CC56-12SURKWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CC56-12SURKWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CC56-12SURKWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -4022,14 +4022,6 @@
     )
     (property "ki_fp_filters" "*CA56*12SYKWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CC56-12SYKWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CC56-12SYKWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CC56-12SYKWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -4265,6 +4257,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CC56-12SYKWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CC56-12SYKWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CC56-12SYKWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -4337,14 +4337,6 @@
     )
     (property "ki_fp_filters" "CC56?12YWA*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CC56-12YWA_1_0"
-      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-    )
-    (symbol "CC56-12YWA_0_1"
-      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
-      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
     )
     (symbol "CC56-12YWA_0_0"
       (text "a" (at -15.24 6.35 0)
@@ -4580,6 +4572,14 @@
         (stroke (width 0.254)) (fill (type none))
       )
     )
+    (symbol "CC56-12YWA_0_1"
+      (circle (center -13.716 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center -2.54 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
+    (symbol "CC56-12YWA_1_0"
+      (circle (center 7.62 -4.064) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+      (circle (center 17.78 -3.81) (radius 0.3556) (stroke (width 0.254)) (fill (type outline)))
+    )
     (symbol "CC56-12YWA_1_1"
       (pin input line (at -27.94 -2.54 0) (length 2.54)
         (name "e" (effects (font (size 1.27 1.27))))
@@ -4802,6 +4802,9 @@
     (property "ki_description" "One digit 7 segment yellowish-green LED, low current, common cathode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "D1X8K*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:D198K" (extends "D168K")
     (property "Reference" "U" (id 0) (at -2.54 13.97 0)
@@ -4822,6 +4825,9 @@
     (property "ki_description" "One digit 7 segment orangish-red LED, low current, common cathode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "D1X8K*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:D1X8K-14BL" (extends "D168K")
     (property "Reference" "U" (id 0) (at -2.54 13.97 0)
@@ -4840,6 +4846,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "One digit 7 segment ultra bright blue LED, low current, common cathode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "D1X8K*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4965,6 +4974,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Double 7 segment green LED common anode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*DA04*11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5197,6 +5209,9 @@
     (property "ki_description" "Double 7 segment high effecient red LED common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*DA04*11*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:DA04-11SRWA" (extends "DA04-11SURKWA")
     (property "Reference" "U" (id 0) (at -13.97 13.97 0)
@@ -5215,6 +5230,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Double 7 segment super bright red LED common anode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*DA04*11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5459,6 +5477,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Double digit 7 segment green LED common anode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*DA56*11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5719,6 +5740,9 @@
     (property "ki_description" "Double digit 7 segment high effecient red LED common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*DA56*11*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:DA56-11SRWA" (extends "DA56-11SURKWA")
     (property "Reference" "U" (id 0) (at -11.43 13.97 0)
@@ -5737,6 +5761,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Double digit 7 segment super bright red LED common anode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*DA56*11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5878,6 +5905,9 @@
     (property "ki_description" "Double digit 7 segment super bright yellow LED common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*DA56*11*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:DC56-11CGKWA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 13.97 0)
@@ -6015,6 +6045,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Double digit 7 segment green LED common cathode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*DA56*11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6275,6 +6308,9 @@
     (property "ki_description" "Double digit 7 segment super bright red LED common cathode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*DA56*11*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:DC56-11SRWA" (extends "DC56-11SURKWA")
     (property "Reference" "U" (id 0) (at -11.43 13.97 0)
@@ -6293,6 +6329,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Double digit 7 segment super bright red LED common cathode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*DA56*11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6432,6 +6471,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Double digit 7 segment yellow LED common cathode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*DA56*11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6599,23 +6641,23 @@
         (name "1G" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 15.24 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 22.86 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
@@ -6627,7 +6669,7 @@
         (name ":" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 22.86 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 22.86 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -6635,15 +6677,15 @@
         (name "BP" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 20.32 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 17.78 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 15.24 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 15.24 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -6839,19 +6881,19 @@
         (name "1G" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 15.24 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 22.86 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
@@ -6867,7 +6909,7 @@
         (name ":" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 22.86 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 22.86 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -6875,15 +6917,15 @@
         (name "BAT" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 20.32 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 17.78 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 15.24 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 15.24 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -7325,23 +7367,23 @@
         (name "1G" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 15.24 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 22.86 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
@@ -7353,7 +7395,7 @@
         (name ":" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 22.86 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 22.86 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -7361,15 +7403,15 @@
         (name "BP" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 20.32 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 17.78 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 15.24 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 15.24 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -7469,6 +7511,38 @@
     )
     (property "ki_fp_filters" "*ELD*426*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "ELD-426SYGWA_0_0"
+      (text "a" (at 3.4544 10.1854 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (text "b" (at 5.842 8.0772 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (text "c" (at 5.9436 5.5372 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (text "d" (at 3.6068 3.683 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (text "D1" (at -3.937 11.684 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (text "D2" (at 3.429 11.684 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (text "DP" (at 7.239 3.429 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (text "e" (at 1.3716 5.6388 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (text "f" (at 1.3716 8.1026 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (text "g" (at 3.5052 7.7216 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
     )
     (symbol "ELD-426SYGWA_0_1"
       (circle (center -0.508 4.699) (radius 0.2794) (stroke (width 0.254)) (fill (type outline)))
@@ -7573,38 +7647,6 @@
           (xy 4.953 8.89)
         )
         (stroke (width 0.254)) (fill (type none))
-      )
-    )
-    (symbol "ELD-426SYGWA_0_0"
-      (text "a" (at 3.4544 10.1854 0)
-        (effects (font (size 0.9906 0.9906)))
-      )
-      (text "b" (at 5.842 8.0772 0)
-        (effects (font (size 0.9906 0.9906)))
-      )
-      (text "c" (at 5.9436 5.5372 0)
-        (effects (font (size 0.9906 0.9906)))
-      )
-      (text "d" (at 3.6068 3.683 0)
-        (effects (font (size 0.9906 0.9906)))
-      )
-      (text "D1" (at -3.937 11.684 0)
-        (effects (font (size 0.9906 0.9906)))
-      )
-      (text "D2" (at 3.429 11.684 0)
-        (effects (font (size 0.9906 0.9906)))
-      )
-      (text "DP" (at 7.239 3.429 0)
-        (effects (font (size 0.9906 0.9906)))
-      )
-      (text "e" (at 1.3716 5.6388 0)
-        (effects (font (size 0.9906 0.9906)))
-      )
-      (text "f" (at 1.3716 8.1026 0)
-        (effects (font (size 0.9906 0.9906)))
-      )
-      (text "g" (at 3.5052 7.7216 0)
-        (effects (font (size 0.9906 0.9906)))
       )
     )
     (symbol "ELD-426SYGWA_1_1"
@@ -9240,6 +9282,15 @@
     (property "ki_fp_filters" "HDSP?7507*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "HDSP-7507_0_1"
+      (polyline
+        (pts
+          (xy -2.159 2.286)
+          (xy 0.381 2.286)
+        )
+        (stroke (width 0.508)) (fill (type none))
+      )
+    )
     (symbol "HDSP-7507_1_0"
       (text "B" (at 2.921 5.08 0)
         (effects (font (size 0.508 0.508)))
@@ -9314,7 +9365,7 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 0 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -9326,11 +9377,11 @@
         (name "M" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -9349,15 +9400,6 @@
       (pin input line (at -7.62 0 0) (length 2.54)
         (name "B" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "HDSP-7507_0_1"
-      (polyline
-        (pts
-          (xy -2.159 2.286)
-          (xy 0.381 2.286)
-        )
-        (stroke (width 0.508)) (fill (type none))
       )
     )
   )
@@ -9382,6 +9424,15 @@
     )
     (property "ki_fp_filters" "HDSP?7507*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "HDSP-7508_0_1"
+      (polyline
+        (pts
+          (xy -2.159 2.286)
+          (xy 0.381 2.286)
+        )
+        (stroke (width 0.508)) (fill (type none))
+      )
     )
     (symbol "HDSP-7508_1_0"
       (text "B" (at 2.921 5.08 0)
@@ -9457,7 +9508,7 @@
         (name "CC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 0 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -9469,11 +9520,11 @@
         (name "M" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -9492,15 +9543,6 @@
       (pin input line (at -7.62 0 0) (length 2.54)
         (name "B" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "HDSP-7508_0_1"
-      (polyline
-        (pts
-          (xy -2.159 2.286)
-          (xy 0.381 2.286)
-        )
-        (stroke (width 0.508)) (fill (type none))
       )
     )
   )
@@ -9826,6 +9868,15 @@
     (property "ki_fp_filters" "HDSP?7807*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "HDSP-7807_0_1"
+      (polyline
+        (pts
+          (xy -2.159 2.286)
+          (xy 0.381 2.286)
+        )
+        (stroke (width 0.508)) (fill (type none))
+      )
+    )
     (symbol "HDSP-7807_1_0"
       (text "B" (at 2.921 5.08 0)
         (effects (font (size 0.508 0.508)))
@@ -9900,7 +9951,7 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 0 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -9912,11 +9963,11 @@
         (name "M" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -9935,15 +9986,6 @@
       (pin input line (at -7.62 0 0) (length 2.54)
         (name "B" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "HDSP-7807_0_1"
-      (polyline
-        (pts
-          (xy -2.159 2.286)
-          (xy 0.381 2.286)
-        )
-        (stroke (width 0.508)) (fill (type none))
       )
     )
   )
@@ -9968,6 +10010,15 @@
     )
     (property "ki_fp_filters" "HDSP?7807*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "HDSP-7808_0_1"
+      (polyline
+        (pts
+          (xy -2.159 2.286)
+          (xy 0.381 2.286)
+        )
+        (stroke (width 0.508)) (fill (type none))
+      )
     )
     (symbol "HDSP-7808_1_0"
       (text "B" (at 2.921 5.08 0)
@@ -10043,7 +10094,7 @@
         (name "CC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 0 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -10055,11 +10106,11 @@
         (name "M" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -10078,15 +10129,6 @@
       (pin input line (at -7.62 0 0) (length 2.54)
         (name "B" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "HDSP-7808_0_1"
-      (polyline
-        (pts
-          (xy -2.159 2.286)
-          (xy 0.381 2.286)
-        )
-        (stroke (width 0.508)) (fill (type none))
       )
     )
   )
@@ -10259,6 +10301,9 @@
     (property "ki_description" "One digit 7 segment high efficiency red, common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "HDSP?A151*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:HDSP-A153" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -10427,6 +10472,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "One digit 7 segment high efficiency red, common cathode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "HDSP?A151*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -12560,41 +12608,6 @@
     (property "ki_fp_filters" "LTC?4627J*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LTC-4627JG_1_0"
-      (text "A" (at -9.906 2.413 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "B" (at -7.62 1.651 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "C" (at -7.874 -1.397 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "D" (at -10.414 -2.159 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "DP" (at -6.604 -2.921 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "E" (at -12.7 -1.397 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "F" (at -12.446 1.651 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "G" (at -10.16 0.889 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "L1" (at -0.508 2.159 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "L2" (at -0.762 -1.905 0)
-        (effects (font (size 0.508 0.508)))
-      )
-      (text "L3" (at 6.096 2.159 0)
-        (effects (font (size 0.508 0.508)))
-      )
-    )
     (symbol "LTC-4627JG_0_1"
       (rectangle (start -17.78 -11.43) (end 17.78 11.43)
         (stroke (width 0.254)) (fill (type background))
@@ -12638,6 +12651,41 @@
           (xy 12.7 -3.81)
         )
         (stroke (width 0.254)) (fill (type none))
+      )
+    )
+    (symbol "LTC-4627JG_1_0"
+      (text "A" (at -9.906 2.413 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "B" (at -7.62 1.651 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "C" (at -7.874 -1.397 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "D" (at -10.414 -2.159 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "DP" (at -6.604 -2.921 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "E" (at -12.7 -1.397 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "F" (at -12.446 1.651 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "G" (at -10.16 0.889 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "L1" (at -0.508 2.159 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "L2" (at -0.762 -1.905 0)
+        (effects (font (size 0.508 0.508)))
+      )
+      (text "L3" (at 6.096 2.159 0)
+        (effects (font (size 0.508 0.508)))
       )
     )
     (symbol "LTC-4627JG_1_1"
@@ -12938,7 +12986,7 @@
         (name "CA4" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -12963,6 +13011,9 @@
     (property "ki_description" "4 digit 7 segment hyper red, common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LTC?4627J*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:LTC-4627JD-01" (extends "LTC-4627JG")
     (property "Reference" "U" (id 0) (at -17.78 12.7 0)
@@ -12981,6 +13032,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "4 digit 7 segment hyper red, common anode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LTC?4627J*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13003,6 +13057,9 @@
     (property "ki_description" "4 digit 7 segment yellow orange, common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LTC?4627J*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:LTC-4627JR" (extends "LTC-4627JG")
     (property "Reference" "U" (id 0) (at -17.78 12.7 0)
@@ -13023,6 +13080,9 @@
     (property "ki_description" "4 digit 7 segment super red, common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LTC?4627J*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:LTC-4627JS" (extends "LTC-4627JG")
     (property "Reference" "U" (id 0) (at -17.78 12.7 0)
@@ -13041,6 +13101,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "4 digit 7 segment yellow, common anode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LTC?4627J*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13352,7 +13415,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -13372,15 +13435,15 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -13520,7 +13583,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -13540,11 +13603,11 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -13560,7 +13623,7 @@
         (name "D" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -13680,11 +13743,11 @@
         (name "F" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -13704,7 +13767,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -13712,7 +13775,7 @@
         (name "CC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -13856,7 +13919,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -13876,15 +13939,15 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -14024,7 +14087,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -14044,11 +14107,11 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -14064,7 +14127,7 @@
         (name "D" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -14166,11 +14229,11 @@
         (name "A" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -14178,7 +14241,7 @@
         (name "CA_AB" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -14186,15 +14249,15 @@
         (name "CA_CD" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -14206,7 +14269,7 @@
         (name "C" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -14326,11 +14389,11 @@
         (name "F" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -14350,7 +14413,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -14358,7 +14421,7 @@
         (name "CC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -14502,7 +14565,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -14522,15 +14585,15 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -14670,7 +14733,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -14690,11 +14753,11 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -14710,7 +14773,7 @@
         (name "D" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -14830,11 +14893,11 @@
         (name "F" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -14854,7 +14917,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -14862,7 +14925,7 @@
         (name "CC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -15006,7 +15069,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -15026,15 +15089,15 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -15174,7 +15237,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -15194,11 +15257,11 @@
         (name "CA" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -15214,7 +15277,7 @@
         (name "D" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -15316,11 +15379,11 @@
         (name "A" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -15328,7 +15391,7 @@
         (name "CA_AB" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -15336,15 +15399,15 @@
         (name "CA_CD" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -15356,7 +15419,7 @@
         (name "C" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -15476,11 +15539,11 @@
         (name "F" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -15500,7 +15563,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -15508,7 +15571,7 @@
         (name "CC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -16067,6 +16130,9 @@
     (property "ki_description" "High Efficiency Red Single-digit Numeric Display with white white diffused lens, common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SA15?11*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SA15-11GWA" (extends "SA15-11SRWA")
     (property "Reference" "U" (id 0) (at 0 16.51 0)
@@ -16085,6 +16151,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Green Single-digit Numeric Display with white white diffused lens, common anode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SA15?11*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -16257,6 +16326,9 @@
     (property "ki_description" "Single digit 7 segment display, green, common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SA39-11SRWA" (extends "SA39-11EWA")
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -16277,6 +16349,9 @@
     (property "ki_description" "Single digit 7 segment display, super bright red, common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SA39-11YWA" (extends "SA39-11EWA")
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -16295,6 +16370,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single digit 7 segment display, yellow, common anode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -16467,6 +16545,9 @@
     (property "ki_description" "Single digit 7 segment display, green, common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SA39-12SRWA" (extends "SA39-12EWA")
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -16487,6 +16568,9 @@
     (property "ki_description" "Single digit 7 segment display, super bright red, common anode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SA39-12YWA" (extends "SA39-12EWA")
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -16505,6 +16589,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single digit 7 segment display, yellow, common anode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -16679,6 +16766,9 @@
     (property "ki_description" "Single digit 7 segment hyper red and green LED display, common cathode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SBC18*11*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SC39-11EWA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -16849,6 +16939,9 @@
     (property "ki_description" "Single digit 7 segment display, green, common cathode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SC39-11SRWA" (extends "SC39-11EWA")
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -16869,6 +16962,9 @@
     (property "ki_description" "Single digit 7 segment display, super bright red, common cathode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SC39-11YWA" (extends "SC39-11EWA")
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -16887,6 +16983,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single digit 7 segment display, yellow, common cathode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -17059,6 +17158,9 @@
     (property "ki_description" "Single digit 7 segment display, green, common cathode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SC39-12SRWA" (extends "SC39-12EWA")
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -17079,6 +17181,9 @@
     (property "ki_description" "Single digit 7 segment display, super bright red, common cathode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Display_Character:SC39-12YWA" (extends "SC39-12EWA")
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
@@ -17097,6 +17202,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single digit 7 segment display, yellow, common cathode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "S?39?1*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

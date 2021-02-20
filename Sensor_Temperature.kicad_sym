@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Sensor_Temperature:AD8494" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 3.81 0)
       (effects (font (size 1.27 1.27)))
@@ -45,7 +45,7 @@
         (name "-Vs" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 0 180) (length 2.54) hide
+      (pin no_connect line (at -5.08 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -86,6 +86,9 @@
     (property "ki_description" "Precision Thermocouple Amplifiers with Cold Junction Compensation, K-Type Thermocouple, 0 to 50C, MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "MSOP*8*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:AD8496" (extends "AD8494")
     (property "Reference" "U" (id 0) (at 5.08 3.81 0)
@@ -106,6 +109,9 @@
     (property "ki_description" "Precision Thermocouple Amplifiers with Cold Junction Compensation, J-Type Thermocouple, 25 to 100C, MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "MSOP*8*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:AD8497" (extends "AD8494")
     (property "Reference" "U" (id 0) (at 5.08 3.81 0)
@@ -124,6 +130,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Precision Thermocouple Amplifiers with Cold Junction Compensation, K-Type Thermocouple, 25 to 100C, MSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MSOP*8*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -211,7 +220,7 @@
       )
     )
     (symbol "BD1020HFV_1_1"
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -796,11 +805,11 @@
       )
     )
     (symbol "DS1822Z_1_1"
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -816,15 +825,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -849,6 +858,9 @@
     (property "ki_description" "Programmable Resolution 1-Wire Digital Thermometer SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:DS18S20Z" (extends "DS1822Z")
     (property "Reference" "U" (id 0) (at -3.81 6.35 0)
@@ -867,6 +879,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-Precision 1-Wire Digital Thermometer SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -958,11 +973,11 @@
         (name "DQ" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -970,15 +985,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -1020,11 +1035,11 @@
         (name "IO" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 0 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1032,7 +1047,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -1166,6 +1181,9 @@
     (property "ki_description" "KTY10/KT100 series silicon temperature sensors" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOD?70*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:KTY10" (extends "KTY81")
     (property "Reference" "TH" (id 0) (at -4.445 0 90)
@@ -1184,6 +1202,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "KTY10/KT100 series silicon temperature sensors" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOD?70*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1389,6 +1410,9 @@
     (property "ki_description" "KTY84 series silicon temperature sensors, polarized, SOD68" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*DO?34*SOD68*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:KTY85" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "TH" (id 0) (at 0 2.54 0)
@@ -1560,7 +1584,7 @@
       )
     )
     (symbol "LM20BIM7_1_1"
-      (pin unconnected line (at 5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -1599,6 +1623,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Precision Temperature Sensor, Accuracy at 30°C ±4°C to ±5°C Maximum, SC70" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?353*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1690,11 +1717,11 @@
         (name "Vout" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 7.62 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 7.62 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1702,15 +1729,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -2045,6 +2072,9 @@
     (property "ki_description" "11 to 14 Bit digital temperature sensor with 2 wire interface, SOT23-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:LM75C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 11.43 0)
@@ -2065,7 +2095,7 @@
     (property "ki_description" " Digital Temperature Sensor & Thermal Watchdog, SOIC-8 and VSSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nVSSOP*3.0x3.0mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM75C_0_1"
@@ -2181,6 +2211,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Digital Temperature Sensor & Thermal Watchdog with LP on I2C and bus fault timeout, SOIC-8 and VSSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3061,6 +3094,9 @@
     (property "ki_description" "Programmable Digital Thermostat and Thermometer TO-92" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO*92*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:DS1822" (extends "MAX31820")
     (property "Reference" "U" (id 0) (at -3.81 6.35 0)
@@ -3079,6 +3115,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Econo 1-Wire Digital Thermometer TO-92" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO*92*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3101,6 +3140,9 @@
     (property "ki_description" "Programmable Resolution 1-Wire Digital Thermometer TO-92" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO*92*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:DS18S20" (extends "MAX31820")
     (property "Reference" "U" (id 0) (at -3.81 6.35 0)
@@ -3119,6 +3161,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-Precision 1-Wire Digital Thermometer TO-92" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO*92*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3214,7 +3259,7 @@
         (name "DQ" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -3239,6 +3284,9 @@
     (property "ki_description" "Econo 1-Wire Parasite-Power Digital Thermometer TO-92" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO*92*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:DS18B20-PAR" (extends "MAX31820PAR")
     (property "Reference" "U" (id 0) (at -3.81 6.35 0)
@@ -3259,6 +3307,9 @@
     (property "ki_description" "1-Wire Parasite-Power Digital Thermometer TO-92" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO*92*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:DS18S20-PAR" (extends "MAX31820PAR")
     (property "Reference" "U" (id 0) (at -3.81 6.35 0)
@@ -3277,6 +3328,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "1-Wire Parasite-Power Digital Thermometer TO-92" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO*92*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3372,7 +3426,7 @@
         (name "DQ" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -3415,6 +3469,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Programmable Resolution 1-Wire Digital Thermometer With 4-Bit ID MSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3495,6 +3552,9 @@
     (property "ki_description" "Cold Junction E-type Termocouple Interface, SPI, SO8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:MAX31855JASA" (extends "MAX31855KASA")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -3513,6 +3573,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Cold Junction J-type Termocouple Interface, SPI, SO8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3535,6 +3598,9 @@
     (property "ki_description" "Cold Junction N-type Termocouple Interface, SPI, SO8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:MAX31855RASA" (extends "MAX31855KASA")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -3553,6 +3619,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Cold Junction R-type Termocouple Interface, SPI, SO8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3575,6 +3644,9 @@
     (property "ki_description" "Cold Junction S-type Termocouple Interface, SPI, SO8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:MAX31855TASA" (extends "MAX31855KASA")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -3593,6 +3665,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Cold Junction T-type Termocouple Interface, SPI, SO8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3720,7 +3795,7 @@
         (name "AVDD" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -7.62 0) (length 2.54) hide
         (name "DNC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -3814,7 +3889,7 @@
         (name "DVDD" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -3908,7 +3983,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -3990,7 +4065,7 @@
       )
     )
     (symbol "MAX6654_1_1"
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -4006,7 +4081,7 @@
         (name "SMBDATA" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -4018,7 +4093,7 @@
         (name "~STBY" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -4034,7 +4109,7 @@
         (name "DXN" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -4050,7 +4125,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -4293,6 +4368,9 @@
     (property "ki_description" "Temperature Switch with Selectable Hysteresis, Open-Drain, Active-Low Output (Cold Option), SOT-23-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:MCP9502" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 0 90)
@@ -4531,6 +4609,9 @@
     (property "ki_description" "Temperature Switch with Selectable Hysteresis, Push-Pull, Active-High Output (Cold Option), SOT-23-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:MCP9700AT-ELT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
@@ -4616,7 +4697,7 @@
       )
     )
     (symbol "MCP9700AT-ELT_1_1"
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -4632,7 +4713,7 @@
         (name "Vdd" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -4657,6 +4738,9 @@
     (property "ki_description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +150C, in SC-70-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SC-70-5*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:MCP9700T-ELT" (extends "MCP9700AT-ELT")
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
@@ -4677,6 +4761,9 @@
     (property "ki_description" "Low power, analog thermistor temperature sensor, ±4C accuracy, -40C to +125C, in SC-70-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SC-70-5*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:MCP9700T-HLT" (extends "MCP9700AT-ELT")
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
@@ -4695,6 +4782,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Low power, analog thermistor temperature sensor, ±4C accuracy, -40C to +150C, in SC-70-5" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SC-70-5*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4815,6 +4905,9 @@
     (property "ki_description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:MCP9700AT-HTT" (extends "MCP9700T-HTT")
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
@@ -4833,6 +4926,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +150C, in SOT-23-3" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4855,6 +4951,9 @@
     (property "ki_description" "Low power, analog thermistor temperature sensor, ±4C accuracy, -40C to +125C, in SOT-23-3" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:TC1047AxNB" (extends "MCP9700T-HTT")
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
@@ -4875,6 +4974,9 @@
     (property "ki_description" "Precision Temperature-to-Voltage Converter, 10mV/ºC, -40ºC to +125ºC, ±2.0ºC (max), 2.5V to 5.5V, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:TC1047xNB" (extends "MCP9700T-HTT")
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
@@ -4893,6 +4995,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Precision Temperature-to-Voltage Converter, 10mV/ºC, -40ºC to +125ºC, ±2.0ºC (max), 2.7V to 4.4V, SOT-23" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4981,6 +5086,9 @@
     (property "ki_description" "+/-0.25C (+/-0.5C) Typical (Maximum), Digital Temperature Sensor, DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*1EP*3x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:MCP9804_MSOP" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 11.43 0)
@@ -5061,6 +5169,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "+/-0.25C (+/-0.5C) Typical (Maximum), Digital Temperature Sensor, MSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5273,7 +5384,7 @@
     (property "ki_description" "PT100 platinum temperature sensor (RTD)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TO?92*\nPIN?ARRAY*\nbornier*\nTerminal?Block*\nSOD70*\nR*1206*\nR*0805*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TO?92* PIN?ARRAY* bornier* Terminal?Block* SOD70* R*1206* R*0805*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PT100_0_1"
@@ -5370,6 +5481,9 @@
     (property "ki_description" "PT1000 platinum temperature sensor (RTD)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?92* PIN?ARRAY* bornier* Terminal?Block* SOD70* R*1206* R*0805*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:PT500" (extends "PT100")
     (property "Reference" "TH" (id 0) (at -4.445 0 90)
@@ -5388,6 +5502,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "PT500 platinum temperature sensor (RTD)" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO?92* PIN?ARRAY* bornier* Terminal?Block* SOD70* R*1206* R*0805*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5412,6 +5529,11 @@
     )
     (property "ki_fp_filters" "DFN*1EP*3x3mm*P1mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Si7050-A20_0_1"
+      (rectangle (start -7.62 5.08) (end 7.62 -5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
     )
     (symbol "Si7050-A20_1_1"
       (arc (start 4.318 3.175) (end 3.048 3.175) (radius (at 3.683 3.175) (length 0.635) (angles 0.1 179.9))
@@ -5478,11 +5600,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -5493,11 +5615,6 @@
       (pin input line (at -10.16 2.54 0) (length 2.54)
         (name "SCL" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "Si7050-A20_0_1"
-      (rectangle (start -7.62 5.08) (end 7.62 -5.08)
-        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -5520,6 +5637,9 @@
     (property "ki_description" "I2C Temperature Sensor, ±0.1ºC, DFN-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P1mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:Si7053-A20" (extends "Si7050-A20")
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
@@ -5538,6 +5658,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "I2C Temperature Sensor, ±0.3ºC, DFN-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P1mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5560,6 +5683,9 @@
     (property "ki_description" "I2C Temperature Sensor, ±0.4ºC, DFN-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P1mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Temperature:Si7055-A20" (extends "Si7050-A20")
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
@@ -5578,6 +5704,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "I2C Temperature Sensor, ±0.5ºC, DFN-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P1mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5602,6 +5731,11 @@
     )
     (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TMP100_0_1"
+      (rectangle (start -7.62 7.62) (end 7.62 -7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
     )
     (symbol "TMP100_1_1"
       (arc (start 3.683 1.905) (end 2.413 1.905) (radius (at 3.048 1.905) (length 0.635) (angles 0.1 179.9))
@@ -5685,11 +5819,6 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "TMP100_0_1"
-      (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
   )
   (symbol "Sensor_Temperature:TMP101" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 10.16 -2.54 0)
@@ -5712,6 +5841,11 @@
     )
     (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TMP101_0_1"
+      (rectangle (start -7.62 7.62) (end 7.62 -7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
     )
     (symbol "TMP101_1_1"
       (arc (start 3.683 1.905) (end 2.413 1.905) (radius (at 3.048 1.905) (length 0.635) (angles 0.1 179.9))
@@ -5793,11 +5927,6 @@
       (pin bidirectional line (at -10.16 5.08 0) (length 2.54)
         (name "SDA" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "TMP101_0_1"
-      (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -6075,7 +6204,7 @@
       )
     )
     (symbol "TMP20AIDCK_1_1"
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -6181,7 +6310,7 @@
       )
     )
     (symbol "TMP20AIDRL_1_1"
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -6197,7 +6326,7 @@
         (name "Vdd" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -6272,7 +6401,7 @@
     (property "ki_description" "- Remote and Local TEMPERATURE SENSOR" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nVSSOP*3.0x3.0mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TMP411_0_1"
@@ -6407,7 +6536,7 @@
         (name "Signal" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -6415,19 +6544,19 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -6450,6 +6579,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, SO-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6568,6 +6700,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, TO-92" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO?92*Inline*Narrow*Oval*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

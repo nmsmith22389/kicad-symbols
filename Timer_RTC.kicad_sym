@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Timer_RTC:AB0805" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 16.51 0)
       (effects (font (size 1.27 1.27)))
@@ -27,7 +27,7 @@
       )
     )
     (symbol "AB0805_1_1"
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -67,7 +67,7 @@
         (name "WDI" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -87,7 +87,7 @@
         (name "SCL" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -125,7 +125,7 @@
       )
     )
     (symbol "AB0815_1_1"
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -165,7 +165,7 @@
         (name "WDI" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -185,7 +185,7 @@
         (name "SCL" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -472,6 +472,9 @@
     (property "ki_description" "Serial, I2C Real-time clock, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm?P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Timer_RTC:DS1302+" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 8.89 0)
@@ -550,6 +553,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, -40°C to +85°C, DIP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -632,6 +638,9 @@
     (property "ki_description" "Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, -40°C to +85°C, SO-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SO*5.3x6.2mm?P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Timer_RTC:DS1302Z+" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 8.89 0)
@@ -710,6 +719,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, -40°C to +85°C, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm?P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -794,6 +806,9 @@
     (property "ki_description" "64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, -40°C to +85°C, DIP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Timer_RTC:DS1307Z+" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 8.89 0)
@@ -876,6 +891,9 @@
     (property "ki_description" "64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, -40°C to +85°C, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm?P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Timer_RTC:DS1602" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 8.89 0)
@@ -896,7 +914,7 @@
     (property "ki_description" "Elapsed Time Counter, -40 to +85 C, 2.5V to 5.5V VCC, DIP-8, SO-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSO*5.3x6.2mm?P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SO*5.3x6.2mm?P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DS1602_0_1"
@@ -1308,7 +1326,7 @@
     (property "ki_description" "Real-Time Clock, I2C, Battery Backup, MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nTSSOP*4.4x3mm*P0.65mm*\nMSOP*3x3mm*P0.65mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP7940N-xMS_0_1"
@@ -1370,6 +1388,9 @@
     (property "ki_description" "Real-Time Clock, I2C, Battery Backup, DIP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Timer_RTC:MCP7940N-xSN" (extends "MCP7940N-xMS")
     (property "Reference" "U" (id 0) (at -6.35 8.89 0)
@@ -1390,6 +1411,9 @@
     (property "ki_description" "Real-Time Clock, I2C, Battery Backup, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Timer_RTC:MCP7940N-xST" (extends "MCP7940N-xMS")
     (property "Reference" "U" (id 0) (at -6.35 8.89 0)
@@ -1408,6 +1432,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Real-Time Clock, I2C, Battery Backup, TSSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1579,7 +1606,7 @@
         (name "SCL" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -1595,7 +1622,7 @@
         (name "OSCO" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1607,7 +1634,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -1619,7 +1646,7 @@
         (name "CLKOUT" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -1768,6 +1795,9 @@
     (property "ki_description" "Tiny Real-Time Clock/calendar with 64 byte RAM, alarm function, battery switch-over, time stamp input, I2C bus, TSSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Timer_RTC:PCF85263ATT1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 8.89 0)
@@ -1856,6 +1886,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Tiny Real-Time Clock/calendar with 64 byte RAM, alarm function, battery switch-over, time stamp input, I2C bus, TSSOP-10" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2085,7 +2118,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -2117,7 +2150,7 @@
         (name "VBACKUP" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )

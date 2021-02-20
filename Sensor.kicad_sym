@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Sensor:ADE7758" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 28.575 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -697,7 +697,7 @@
         (name "IO" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 0 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -724,6 +724,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Temperature and humidity module" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Aosong*DHT11*5.5x12.0*P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -771,7 +774,7 @@
         (name "VBUS" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -919,7 +922,7 @@
       )
     )
     (symbol "MAX30102_1_1"
-      (pin unconnected line (at 10.16 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -939,7 +942,7 @@
         (name "~INT" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -963,11 +966,11 @@
         (name "IR_DRV" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -995,6 +998,11 @@
     )
     (property "ki_description" "Generic radiation detector" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Nuclear-Radiation_Detector_0_0"
+      (text "+" (at 2.032 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
     )
     (symbol "Nuclear-Radiation_Detector_0_1"
       (arc (start -2.794 3.302) (end -3.302 3.81) (radius (at -3.175 3.429) (length 0.4064) (angles -18.4 108.4))
@@ -1072,11 +1080,6 @@
       (pin passive line (at 0 -5.08 90) (length 2.54)
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "Nuclear-Radiation_Detector_0_0"
-      (text "+" (at 2.032 3.175 0)
-        (effects (font (size 1.27 1.27)))
       )
     )
   )

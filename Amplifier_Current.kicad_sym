@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Amplifier_Current:AD8202" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 10.795 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -18,7 +18,7 @@
     (property "ki_description" "28V High Common-Mode Voltage, Single-Supply Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 50kHz, Vcc=3.5V~12V, unidirectional, SOIC-8/MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*P1.27mm*\nMSOP*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*P1.27mm* MSOP*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD8202_0_1"
@@ -51,7 +51,7 @@
         (name "+Vs" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -80,6 +80,9 @@
     (property "ki_description" "45V High Voltage, Precision Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 70kHz, Vcc=5V, unidirectional, SOIC-8/MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*P1.27mm* MSOP*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:AD8203" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 10.795 0)
@@ -100,7 +103,7 @@
     (property "ki_description" "30V High Common-Mode Voltage, Single-Supply Difference Amplifier, 7V/V x 2V/V adjustable gain, bandwidth 60kHz, Vcc=3.5V~12V, unidirectional, SOIC-8/MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*P1.27mm*\nMSOP*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*P1.27mm* MSOP*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD8203_0_1"
@@ -129,7 +132,7 @@
         (name "OUT" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -160,6 +163,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "45V High Voltage, Precision Difference Amplifier, 7V/V x 2V/V adjustable gain, bandwidth 80kHz, Vcc=5V, unidirectional, MSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*P1.27mm* MSOP*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -203,7 +209,7 @@
         (name "Vref2" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -244,6 +250,9 @@
     (property "ki_description" "65V Single-Supply, System Difference Amplifier, 50V/V gain, bandwidth 50kHz, Vcc=5V, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:AD8206" (extends "AD8210")
     (property "Reference" "U" (id 0) (at -7.62 10.795 0)
@@ -264,6 +273,9 @@
     (property "ki_description" "65V High Common-Mode Voltage, Bidirectional, Current Shunt Amplifier, 20V/V gain, bandwidth 100kHz, Vcc=5V, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:AD8216" (extends "AD8210")
     (property "Reference" "U" (id 0) (at -7.62 10.795 0)
@@ -282,6 +294,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "65V High Bandwidth, Bidirectional Difference Amplifier, 3V/V gain, bandwidth 3MHz, Vcc=5V, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -375,7 +390,7 @@
         (name "BIAS" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -387,7 +402,7 @@
         (name "ALPHA" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 0 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -505,11 +520,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -521,7 +536,7 @@
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -563,11 +578,11 @@
         (name "+IN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -579,11 +594,11 @@
         (name "OUT" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -641,7 +656,7 @@
         (name "OUT" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -707,7 +722,7 @@
         (name "OUT" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -757,7 +772,7 @@
         (name "Vs" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -769,11 +784,11 @@
         (name "OUT" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -802,7 +817,7 @@
     (property "ki_description" "70V Bidirectional, Zero Drift, Current Sense Amplifier, 60V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nMSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD8417_0_1"
@@ -823,7 +838,7 @@
         (name "REF2" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -862,6 +877,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1000,6 +1018,9 @@
     (property "ki_description" "High-Side Measurement Current Shunt Monitor, 40V, SOT-23-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA168" (extends "INA138")
     (property "Reference" "U" (id 0) (at 3.81 5.08 0)
@@ -1020,6 +1041,9 @@
     (property "ki_description" "High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA169" (extends "INA138")
     (property "Reference" "U" (id 0) (at 3.81 5.08 0)
@@ -1038,6 +1062,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1176,6 +1203,9 @@
     (property "ki_description" "Current Shunt Monitor −16V to +80V Common-Mode Range, 50V/V, SOT-23-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA195" (extends "INA193")
     (property "Reference" "U" (id 0) (at 3.81 3.81 0)
@@ -1194,6 +1224,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1272,6 +1305,9 @@
     (property "ki_description" "Current Shunt Monitor −16V to +80V Common-Mode Range, 50V/V, SOT-23-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA198" (extends "INA196")
     (property "Reference" "U" (id 0) (at 3.81 3.81 0)
@@ -1290,6 +1326,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1380,6 +1419,9 @@
     (property "ki_description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA240A3D" (extends "INA240A1D")
     (property "Reference" "U" (id 0) (at 3.81 3.81 0)
@@ -1400,6 +1442,9 @@
     (property "ki_description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 100V/V, SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA240A4D" (extends "INA240A1D")
     (property "Reference" "U" (id 0) (at 3.81 3.81 0)
@@ -1418,6 +1463,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, SOIC-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1508,6 +1556,9 @@
     (property "ki_description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, TSSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSSOP*4.4x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA240A3PW" (extends "INA240A1PW")
     (property "Reference" "U" (id 0) (at 3.81 3.81 0)
@@ -1528,6 +1579,9 @@
     (property "ki_description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 100V/V, TSSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSSOP*4.4x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA240A4PW" (extends "INA240A1PW")
     (property "Reference" "U" (id 0) (at 3.81 3.81 0)
@@ -1546,6 +1600,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, TSSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP*4.4x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1589,7 +1646,7 @@
         (name "REF1" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -1597,7 +1654,7 @@
         (name "OUT" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 10.16 180) (length 2.54) hide
         (name "DNC2" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -1645,11 +1702,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 7.62 180) (length 2.54) hide
         (name "DNC1" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1678,7 +1735,7 @@
     (property "ki_description" "High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 50V/V, SOIC-8/VSSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nMSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "INA282_0_1"
@@ -1705,7 +1762,7 @@
         (name "REF2" (effects (font (size 0.508 0.508))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 0 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -1746,6 +1803,9 @@
     (property "ki_description" "High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 200V/V, SOIC-8/VSSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA284" (extends "INA282")
     (property "Reference" "U" (id 0) (at 3.81 3.81 0)
@@ -1764,6 +1824,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 500V/V, SOIC-8/VSSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1786,6 +1849,9 @@
     (property "ki_description" "High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 1000V/V, SOIC-8/VSSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:INA286" (extends "INA282")
     (property "Reference" "U" (id 0) (at 3.81 3.81 0)
@@ -1804,6 +1870,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 100V/V, SOIC-8/VSSOP-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2004,6 +2073,9 @@
     (property "ki_description" "Precision Zero Drift Current Sense Amplifier, 100V, DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DFN*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:LTC6102xDD-1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -2152,6 +2224,9 @@
     (property "ki_description" "Precision Zero Drift Current Sense Amplifier, 100V, MSOP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:LTC6102xMS8-1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
@@ -2234,7 +2309,7 @@
     (property "ki_description" "76V, High-Side, Current-Sense Amplifiers with Voltage Output, Unidirectional, 5V/V Gain, SOIC-8/uMAX-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nMSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX4080F_0_1"
@@ -2251,7 +2326,7 @@
         (name "Vcc" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -2263,11 +2338,11 @@
         (name "OUT" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -2296,6 +2371,9 @@
     (property "ki_description" "76V, High-Side, Current-Sense Amplifiers with Voltage Output, Undirectional, 60V/V Gain, SOIC-8/uMAX-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:MAX4080T" (extends "MAX4080F")
     (property "Reference" "U" (id 0) (at -7.62 6.35 0)
@@ -2314,6 +2392,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "76V, High-Side, Current-Sense Amplifiers with Voltage Output, Unidirectional, 20V/V Gain, SOIC-8/uMAX-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2336,7 +2417,7 @@
     (property "ki_description" "76V, High-Side, Current-Sense Amplifiers with Voltage Output, Bidirectional, 5V/V Gain, SOIC-8/uMAX-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nMSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX4081F_0_1"
@@ -2353,7 +2434,7 @@
         (name "Vcc" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -2398,6 +2479,9 @@
     (property "ki_description" "76V, High-Side, Current-Sense Amplifiers with Voltage Outpute, Bidirectional, 60V/V Gain, SOIC-8/uMAX-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:MAX4081T" (extends "MAX4081F")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -2416,6 +2500,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "76V, High-Side, Current-Sense Amplifiers with Voltage Output, Bidirectional, 20V/V Gain, SOIC-8/uMAX-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2438,7 +2525,7 @@
     (property "ki_description" "Precision, High-Side, Current-Sense Amplifiers, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX471_0_1"
@@ -2500,7 +2587,7 @@
     (property "ki_description" "Precision, High-Side, Current-Sense Amplifiers, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX472_0_1"
@@ -2513,7 +2600,7 @@
         (name "SHDN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -2616,6 +2703,9 @@
     (property "ki_description" "Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:NCS213" (extends "NCS210")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -2634,6 +2724,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 50V/V Gain, SC-70-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2656,6 +2749,9 @@
     (property "ki_description" "Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 100V/V Gain, SC-70-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:NCV210" (extends "NCS210")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -2674,6 +2770,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2696,6 +2795,9 @@
     (property "ki_description" "Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:NCV213" (extends "NCS210")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -2716,6 +2818,9 @@
     (property "ki_description" "Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 50V/V Gain, SC-70-6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Amplifier_Current:NCV214" (extends "NCS210")
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
@@ -2734,6 +2839,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 100V/V Gain, SC-70-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SC?70*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2811,7 +2919,7 @@
         (name "Vs-" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -2823,19 +2931,19 @@
         (name "Iout" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -2.54 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -2869,7 +2977,7 @@
       )
     )
     (symbol "ZXCT1010_1_1"
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -3003,7 +3111,7 @@
       )
     )
     (symbol "ZXCT1110_1_1"
-      (pin unconnected line (at 0 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 0 2.54 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )

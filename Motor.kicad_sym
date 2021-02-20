@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Motor:Fan" (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "M" (id 0) (at 2.54 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -18,7 +18,7 @@
     (property "ki_description" "Fan" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PinHeader*P2.54mm*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Fan_0_1"
@@ -91,7 +91,7 @@
     (property "ki_description" "Fan without PWM or tach, alternative symbol" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PinHeader*P2.54mm*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Fan_ALT_0_1"
@@ -165,7 +165,7 @@
     (property "ki_description" "Fan (according to IEC-60617)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PinHeader*P2.54mm*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Fan_IEC60617_0_1"
@@ -246,7 +246,7 @@
     (property "ki_description" "Fan, tacho output, 3-pin connector" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical*\nPinHeader*P2.54mm*Vertical*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Fan_Tacho_0_0"
@@ -360,6 +360,9 @@
     (property "ki_description" "Fan, tacho output, 3-pin connector" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Motor:Fan_PC_Chassis" (extends "Fan_Tacho")
     (property "Reference" "M" (id 0) (at 2.54 2.54 0)
@@ -378,6 +381,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "PC chassis fan, tacho output, 3-pin connector" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -400,7 +406,7 @@
     (property "ki_description" "Fan, tacho output, PWM input, 4-pin connector" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical*\nPinHeader*P2.54mm*Vertical*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Fan_Tacho_PWM_0_0"
@@ -542,6 +548,9 @@
     (property "ki_description" "Fan, tacho output, PWM input, 4-pin connector" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Motor:Fan_CPU_4pin" (extends "Fan_Tacho_PWM")
     (property "Reference" "M" (id 0) (at 2.54 5.08 0)
@@ -560,6 +569,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "CPU Fan, tacho output, PWM input, 4-pin connector" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -582,7 +594,7 @@
     (property "ki_description" "AC Motor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PinHeader*P2.54mm*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Motor_AC_0_0"
@@ -664,8 +676,20 @@
     (property "ki_description" "DC Motor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PinHeader*P2.54mm*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Motor_DC_0_0"
+      (polyline
+        (pts
+          (xy -1.27 -3.302)
+          (xy -1.27 0.508)
+          (xy 0 -2.032)
+          (xy 1.27 0.508)
+          (xy 1.27 -3.302)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "Motor_DC_0_1"
       (circle (center 0 -1.524) (radius 3.2512) (stroke (width 0.254)) (fill (type none)))
@@ -694,18 +718,6 @@
         (pts
           (xy 0 2.032)
           (xy 0 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "Motor_DC_0_0"
-      (polyline
-        (pts
-          (xy -1.27 -3.302)
-          (xy -1.27 0.508)
-          (xy 0 -2.032)
-          (xy 1.27 0.508)
-          (xy 1.27 -3.302)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -740,7 +752,7 @@
     (property "ki_description" "DC Motor, alternative symbol" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PinHeader*P2.54mm*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Motor_DC_ALT_0_0"
@@ -915,6 +927,9 @@
     (property "ki_description" "Servo Motor (Futuba J-connector)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "PinHeader*P2.54mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Motor:Motor_Servo_Grapner_JR" (extends "Motor_Servo")
     (property "Reference" "M" (id 0) (at -5.08 4.445 0)
@@ -933,6 +948,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Servo Motor (Graupner JR connector)" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "PinHeader*P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -955,6 +973,9 @@
     (property "ki_description" "Servo Motor (HiTec connector)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "PinHeader*P2.54mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Motor:Motor_Servo_JR" (extends "Motor_Servo")
     (property "Reference" "M" (id 0) (at -5.08 4.445 0)
@@ -975,6 +996,9 @@
     (property "ki_description" "Servo Motor (JR connector)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "PinHeader*P2.54mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Motor:Motor_Servo_Robbe" (extends "Motor_Servo")
     (property "Reference" "M" (id 0) (at -5.08 4.445 0)
@@ -993,6 +1017,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Servo Motor (Robbe connector)" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "PinHeader*P2.54mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1117,8 +1144,20 @@
     (property "ki_description" "4-wire bipolar stepper motor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PinHeader*P2.54mm*Vertical*\nTerminalBlock*\nMotor*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader*P2.54mm*Vertical* TerminalBlock* Motor*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Stepper_Motor_bipolar_0_0"
+      (polyline
+        (pts
+          (xy -1.27 -1.778)
+          (xy -1.27 2.032)
+          (xy 0 -0.508)
+          (xy 1.27 2.032)
+          (xy 1.27 -1.778)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "Stepper_Motor_bipolar_0_1"
       (arc (start -4.445 -2.54) (end -4.445 -1.27) (radius (at -4.445 -1.905) (length 0.635) (angles -89.9 89.9))
@@ -1175,18 +1214,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "Stepper_Motor_bipolar_0_0"
-      (polyline
-        (pts
-          (xy -1.27 -1.778)
-          (xy -1.27 2.032)
-          (xy 0 -0.508)
-          (xy 1.27 2.032)
-          (xy 1.27 -1.778)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "Stepper_Motor_bipolar_1_1"
       (pin passive line (at -2.54 7.62 270) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1225,8 +1252,20 @@
     (property "ki_description" "5-wire unipolar stepper motor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PinHeader*P2.54mm*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Stepper_Motor_unipolar_5pin_0_0"
+      (polyline
+        (pts
+          (xy -1.27 -1.778)
+          (xy -1.27 2.032)
+          (xy 0 -0.508)
+          (xy 1.27 2.032)
+          (xy 1.27 -1.778)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "Stepper_Motor_unipolar_5pin_0_1"
       (arc (start -4.445 -2.54) (end -4.445 -1.27) (radius (at -4.445 -1.905) (length 0.635) (angles -89.9 89.9))
@@ -1301,18 +1340,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "Stepper_Motor_unipolar_5pin_0_0"
-      (polyline
-        (pts
-          (xy -1.27 -1.778)
-          (xy -1.27 2.032)
-          (xy 0 -0.508)
-          (xy 1.27 2.032)
-          (xy 1.27 -1.778)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "Stepper_Motor_unipolar_5pin_1_1"
       (pin passive line (at -5.08 7.62 270) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1355,8 +1382,20 @@
     (property "ki_description" "6-wire unipolar stepper motor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PinHeader*P2.54mm*\nTerminalBlock*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Stepper_Motor_unipolar_6pin_0_0"
+      (polyline
+        (pts
+          (xy -1.27 -1.778)
+          (xy -1.27 2.032)
+          (xy 0 -0.508)
+          (xy 1.27 2.032)
+          (xy 1.27 -1.778)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "Stepper_Motor_unipolar_6pin_0_1"
       (arc (start -4.445 -2.54) (end -4.445 -1.27) (radius (at -4.445 -1.905) (length 0.635) (angles -89.9 89.9))
@@ -1423,18 +1462,6 @@
         (pts
           (xy 2.54 4.445)
           (xy 2.54 5.08)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "Stepper_Motor_unipolar_6pin_0_0"
-      (polyline
-        (pts
-          (xy -1.27 -1.778)
-          (xy -1.27 2.032)
-          (xy 0 -0.508)
-          (xy 1.27 2.032)
-          (xy 1.27 -1.778)
         )
         (stroke (width 0)) (fill (type none))
       )

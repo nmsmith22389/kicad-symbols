@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Interface_HID:JoyWarrior24A10L" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 17.78 -24.13 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -18,7 +18,7 @@
     (property "ki_description" "JoyWarrior 10bit, 3 axis, joystick controller, DIP-24/SOIC-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*7.5x15.4mm*P1.27mm*\nDIP*7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*7.5x15.4mm*P1.27mm* DIP*7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "JoyWarrior24A10L_0_1"
@@ -87,7 +87,7 @@
         (name "Y2/B6" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -22.86 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -22.86 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -144,6 +144,9 @@
     (property "ki_description" "JoyWarrior 8bit, 4 axis, joystick controller, DIP-24/SOIC-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOIC*7.5x15.4mm*P1.27mm* DIP*7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Interface_HID:SpinWarrior24A3" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 12.7 -24.13 0)
@@ -164,7 +167,7 @@
     (property "ki_description" "SpinWarrior, 3 16bit absolute position rotary encoders, 6 digital inputs, DIP-24/SOIC-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*7.62mm*\nSOIC*7.5x15.4mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*7.62mm* SOIC*7.5x15.4mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SpinWarrior24A3_1_1"
@@ -231,7 +234,7 @@
         (name "N0" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -288,7 +291,7 @@
     (property "ki_description" "SpinWarrior, 4 8bit relative position rotary encoders, 7 switches, DIP-24/SOIC-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*7.62mm*\nSOIC*7.5x15.4mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*7.62mm* SOIC*7.5x15.4mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SpinWarrior24R4_1_1"
@@ -355,7 +358,7 @@
         (name "A3" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -412,7 +415,7 @@
     (property "ki_description" "SpinWarrior, 6 8bit relative position rotary encoders, 3 switches, DIP-24/SOIC-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*7.62mm*\nSOIC*7.5x15.4mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*7.62mm* SOIC*7.5x15.4mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SpinWarrior24R6_1_1"
@@ -479,7 +482,7 @@
         (name "A3" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )

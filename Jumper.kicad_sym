@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Jumper:Jumper_2_Bridged" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "JP" (id 0) (at 0 1.905 0)
       (effects (font (size 1.27 1.27)))
@@ -18,17 +18,17 @@
     (property "ki_description" "Jumper, 2-pole, closed/bridged" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Jumper*\nTestPoint*2Pads*\nTestPoint*Bridge*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Jumper_2_Bridged_0_0"
+      (circle (center -2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center 2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
     )
     (symbol "Jumper_2_Bridged_0_1"
       (arc (start -1.524 0.254) (end 1.524 0.254) (radius (at 0 -1.778) (length 2.54) (angles 126.9 53.1))
         (stroke (width 0)) (fill (type none))
       )
-    )
-    (symbol "Jumper_2_Bridged_0_0"
-      (circle (center -2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-      (circle (center 2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
     )
     (symbol "Jumper_2_Bridged_1_1"
       (pin passive line (at -5.08 0 0) (length 2.54)
@@ -60,17 +60,17 @@
     (property "ki_description" "Jumper, 2-pole, open" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Jumper*\nTestPoint*2Pads*\nTestPoint*Bridge*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Jumper_2_Open_0_0"
+      (circle (center -2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center 2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
     )
     (symbol "Jumper_2_Open_0_1"
       (arc (start -1.524 1.27) (end 1.524 1.27) (radius (at 0 -0.762) (length 2.54) (angles 126.9 53.1))
         (stroke (width 0)) (fill (type none))
       )
-    )
-    (symbol "Jumper_2_Open_0_0"
-      (circle (center -2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-      (circle (center 2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
     )
     (symbol "Jumper_2_Open_1_1"
       (pin passive line (at -5.08 0 0) (length 2.54)
@@ -102,8 +102,13 @@
     (property "ki_description" "Jumper, 3-pole, pins 1+2 closed/bridged" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Jumper*\nTestPoint*3Pads*\nTestPoint*Bridge*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Jumper_3_Bridged12_0_0"
+      (circle (center -3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center 0 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center 3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
     )
     (symbol "Jumper_3_Bridged12_0_1"
       (arc (start -3.048 0.508) (end -0.254 0.508) (radius (at -1.651 -1.27) (length 2.2606) (angles 128.2 51.8))
@@ -116,11 +121,6 @@
         )
         (stroke (width 0)) (fill (type none))
       )
-    )
-    (symbol "Jumper_3_Bridged12_0_0"
-      (circle (center -3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-      (circle (center 3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
     )
     (symbol "Jumper_3_Bridged12_1_1"
       (pin passive line (at -6.35 0 0) (length 2.54)
@@ -156,8 +156,13 @@
     (property "ki_description" "Jumper, 3-pole, both open" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Jumper*\nTestPoint*3Pads*\nTestPoint*Bridge*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Jumper_3_Open_0_0"
+      (circle (center -3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center 0 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center 3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
     )
     (symbol "Jumper_3_Open_0_1"
       (arc (start -3.048 1.016) (end -0.254 1.016) (radius (at -1.651 -0.762) (length 2.2606) (angles 128.2 51.8))
@@ -173,11 +178,6 @@
         )
         (stroke (width 0)) (fill (type none))
       )
-    )
-    (symbol "Jumper_3_Open_0_0"
-      (circle (center -3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-      (circle (center 3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
     )
     (symbol "Jumper_3_Open_1_1"
       (pin passive line (at -6.35 0 0) (length 2.54)

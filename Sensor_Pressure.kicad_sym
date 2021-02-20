@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Sensor_Pressure:40PC015G" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -60,15 +60,15 @@
         (name "Vout" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -439,7 +439,7 @@
       )
     )
     (symbol "MPXA6115A_1_1"
-      (pin unconnected line (at 5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -455,19 +455,19 @@
         (name "Vout" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -5.08 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -552,7 +552,7 @@
     (property "ki_description" "Integrated Digital Pressure Sensor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TE?MS5525DSO*DB*\nTE?MS5525DSO*SB*\nTE?MS5525DSO*ST*\nTE?MS5525DSO*DH*\nTE?MS5525DSO*FT*\nTE?MS5525DSO*FB*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TE?MS5525DSO*DB* TE?MS5525DSO*SB* TE?MS5525DSO*ST* TE?MS5525DSO*DH* TE?MS5525DSO*FT* TE?MS5525DSO*FB*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MS5525DSO_0_1"
@@ -698,6 +698,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LGA*3x5mm*P1.25mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

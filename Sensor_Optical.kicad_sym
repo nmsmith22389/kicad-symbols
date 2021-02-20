@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Sensor_Optical:A1050" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
@@ -96,6 +96,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "light dependent resistor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "R*LDR*D6.4*P3.4*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -198,6 +201,9 @@
     (property "ki_description" "light dependent resistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "R*LDR*5.0x4.1mm*P3mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:A9060" (extends "A9050")
     (property "Reference" "R" (id 0) (at -5.08 0 90)
@@ -216,6 +222,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "light dependent resistor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "R*LDR*5.0x4.1mm*P3mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -396,11 +405,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -420,7 +429,7 @@
         (name "INT" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -561,7 +570,7 @@
         (name "INT" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -599,11 +608,11 @@
       )
     )
     (symbol "AS7261_1_1"
-      (pin unconnected line (at 12.7 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 10.16 180) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 5.08 0) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -639,7 +648,7 @@
         (name "LED_IND" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -647,7 +656,7 @@
         (name "~RES" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -10.16 0) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -675,7 +684,7 @@
         (name "I2C_ENB" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -10.16 180) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -700,6 +709,9 @@
     (property "ki_description" "Spectral Sensing Engine, 6-Channel Visible Spectral_ID" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "AMS?LGA*4.7x4.5mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:AS7263" (extends "AS7261")
     (property "Reference" "U" (id 0) (at -10.16 17.78 0)
@@ -718,6 +730,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Spectral Sensing Engine, 6-Channel NIR Spectral_ID" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "AMS?LGA*4.7x4.5mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -789,7 +804,7 @@
         (name "LED_IND" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -817,7 +832,7 @@
         (name "~CS" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -852,6 +867,15 @@
     )
     (property "ki_fp_filters" "TO?18*Lens*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "BP103_0_0"
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0.635 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "BP103_0_1"
       (circle (center 1.27 0) (radius 2.8194) (stroke (width 0.254)) (fill (type none)))
@@ -919,15 +943,6 @@
         (stroke (width 0)) (fill (type outline))
       )
     )
-    (symbol "BP103_0_0"
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0.635 0)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "BP103_1_1"
       (pin passive line (at 2.54 -5.08 90) (length 2.54)
         (name "E" (effects (font (size 1.27 1.27))))
@@ -960,6 +975,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "NPN Phototransistor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO?18*Lens*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1071,6 +1089,9 @@
     (property "ki_description" "Silicon PIN Photodiode, SMD package" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Osram*SMD*DIL2*4.5x4.0mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:SFH2430" (extends "BP104-SMD")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
@@ -1091,6 +1112,9 @@
     (property "ki_description" "Silicon Photodiode with V? Characteristic, SMD package" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Osram*SMD*DIL2*4.5x4.0mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:SFH2440" (extends "BP104-SMD")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
@@ -1109,6 +1133,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Silicon Photodiode with V? Characteristic, SMD package" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Osram*SMD*DIL2*4.5x4.0mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1220,6 +1247,9 @@
     (property "ki_description" "Silicon Photodiode for the visible spectral range" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?5*Window*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:BPW34" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
@@ -1327,6 +1357,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Silicon PIN Photodiode" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Osram*DIL2*4.3x4.65mm*P5.08*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1448,6 +1481,9 @@
     (property "ki_description" "NPN phototransistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*D5.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:BP103BF" (extends "BPW40")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
@@ -1468,6 +1504,9 @@
     (property "ki_description" "NPN phototransistor with daylight filter" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*D5.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:SFH300" (extends "BPW40")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
@@ -1486,6 +1525,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "silicon NPN phototransistor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LED*D5.0mm*Clear*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1727,7 +1769,7 @@
         (name "TRG" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1756,7 +1798,7 @@
     (property "ki_description" "LWIR camera 8 to 14um 80x60 pixel" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*105028*1001*\n*105028*2011*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*105028*1001* *105028*2011*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Flir_LEPTON_0_1"
@@ -1797,7 +1839,7 @@
         (name "VDDIO" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -2022,6 +2064,17 @@
     (property "ki_fp_filters" "Kingbright*KPS?5130*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "KPS-5130_0_0"
+      (text "B" (at 2.286 -3.81 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (text "G" (at 2.159 1.27 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (text "R" (at 2.032 6.223 0)
+        (effects (font (size 1.524 1.524)))
+      )
+    )
     (symbol "KPS-5130_0_1"
       (circle (center 3.81 0) (radius 0.508) (stroke (width 0.254)) (fill (type outline)))
       (polyline
@@ -2132,17 +2185,6 @@
           (xy 0.635 5.08)
         )
         (stroke (width 0.254)) (fill (type none))
-      )
-    )
-    (symbol "KPS-5130_0_0"
-      (text "B" (at 2.286 -3.81 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (text "G" (at 2.159 1.27 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (text "R" (at 2.032 6.223 0)
-        (effects (font (size 1.524 1.524)))
       )
     )
     (symbol "KPS-5130_1_1"
@@ -2458,7 +2500,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 0 180) (length 2.54) hide
+      (pin no_connect line (at 2.54 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -2760,7 +2802,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -3257,6 +3299,9 @@
     (property "ki_description" "Multi-Pixel Photon Counter with 50µm pixel pitch" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Hamamatsu*S13360*30CS*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:S13360-3075CS" (extends "S13360-3025CS")
     (property "Reference" "D" (id 0) (at 1.778 1.778 0)
@@ -3275,6 +3320,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Multi-Pixel Photon Counter with 75µm pixel pitch" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Hamamatsu*S13360*30CS*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3299,6 +3347,12 @@
     )
     (property "ki_fp_filters" "TO?18*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "S5971_0_0"
+      (pin passive line (at 0 -7.62 90) (length 3.81)
+        (name "C" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "S5971_0_1"
       (circle (center 0 0) (radius 3.81) (stroke (width 0)) (fill (type none)))
@@ -3358,12 +3412,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "S5971_0_0"
-      (pin passive line (at 0 -7.62 90) (length 3.81)
-        (name "C" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
     (symbol "S5971_1_1"
       (pin passive line (at -7.62 0 0) (length 3.81)
         (name "K" (effects (font (size 1.27 1.27))))
@@ -3394,6 +3442,9 @@
     (property "ki_description" "Si PIN Photodiode, 0.5 GHz, TO-18-3" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?18*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:S5973" (extends "S5971")
     (property "Reference" "D" (id 0) (at 2.54 -5.08 0)
@@ -3412,6 +3463,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Si PIN Photodiode, 1 GHz, TO-18-3" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TO?18*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3523,6 +3577,9 @@
     (property "ki_description" "Silicon PIN Photodiode with Daylight Blocking Filter" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*D5.0mm*IRGrey*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:SFH205F" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
@@ -3630,6 +3687,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Silicon PIN Photodiode with Daylight Blocking Filter" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Osram*SFH205*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3917,6 +3977,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Silicon PIN Photodiode with Daylight Blocking Filter" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Osram*SFH225*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4216,6 +4279,9 @@
     (property "ki_description" "NPN phototransistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:BPW85" (extends "SFH309")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
@@ -4234,6 +4300,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Silicon NPN Phototransistor, Ica = 0.8-8mA, T-1" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4256,6 +4325,9 @@
     (property "ki_description" "Silicon NPN Phototransistor, Ica = 0.8-2.5mA, T-1" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:BPW85B" (extends "SFH309")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
@@ -4274,6 +4346,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Silicon NPN Phototransistor, Ica = 1.5-4mA, T-1" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4296,6 +4371,9 @@
     (property "ki_description" "Silicon NPN Phototransistor, Ica = 3-8mA, T-1" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Sensor_Optical:TEPT4400" (extends "SFH309")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
@@ -4314,6 +4392,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Ambient Light Sensor, NPN Epitaxial Planar Phototransistor, T-1" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4616,11 +4697,11 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -4632,11 +4713,11 @@
         (name "CLK" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )

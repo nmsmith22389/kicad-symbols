@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Memory_RAM:628128_DIP32_SSOP32" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 23.495 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -18,13 +18,8 @@
     (property "ki_description" "128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP-32/SSOP-32" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W15.24mm*\nSSOP*11.305x20.495mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W15.24mm* SSOP*11.305x20.495mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "628128_DIP32_SSOP32_0_1"
-      (rectangle (start -10.16 22.86) (end 10.16 -22.86)
-        (stroke (width 0.254)) (fill (type background))
-      )
     )
     (symbol "628128_DIP32_SSOP32_0_0"
       (pin power_in line (at 0 -25.4 90) (length 2.54)
@@ -36,8 +31,13 @@
         (number "32" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "628128_DIP32_SSOP32_0_1"
+      (rectangle (start -10.16 22.86) (end 10.16 -22.86)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
     (symbol "628128_DIP32_SSOP32_1_1"
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -178,13 +178,8 @@
     (property "ki_description" "128K x 8 High-Speed CMOS Static RAM, 55/70ns, TSOP-I-32" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TSOP?I*11.8x8mm*P0.5mm*\nTSOP?I*18.4x8mm*P0.5mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TSOP?I*11.8x8mm*P0.5mm* TSOP?I*18.4x8mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "628128_TSOP32_0_1"
-      (rectangle (start -10.16 22.86) (end 10.16 -22.86)
-        (stroke (width 0.254)) (fill (type background))
-      )
     )
     (symbol "628128_TSOP32_0_0"
       (pin power_in line (at 0 -25.4 90) (length 2.54)
@@ -194,6 +189,11 @@
       (pin power_in line (at 0 25.4 270) (length 2.54)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "628128_TSOP32_0_1"
+      (rectangle (start -10.16 22.86) (end 10.16 -22.86)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "628128_TSOP32_1_1"
@@ -313,7 +313,7 @@
         (name "A15" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -340,135 +340,6 @@
     )
     (property "ki_fp_filters" "BGA*9.0x13.0mm*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "AS4C256M16D3_1_1"
-      (text "DDR3" (at -3.81 3.81 0)
-        (effects (font (size 2.1336 2.1336)) (justify left bottom))
-      )
-      (pin bidirectional line (at 17.78 5.08 180) (length 2.54)
-        (name "DQ13" (effects (font (size 1.27 1.27))))
-        (number "A2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 0 180) (length 2.54)
-        (name "DQ15" (effects (font (size 1.27 1.27))))
-        (number "A3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 7.62 180) (length 2.54)
-        (name "DQ12" (effects (font (size 1.27 1.27))))
-        (number "A7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 -20.32 180) (length 2.54)
-        (name "~UDQS" (effects (font (size 1.27 1.27))))
-        (number "B7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 2.54 180) (length 2.54)
-        (name "DQ14" (effects (font (size 1.27 1.27))))
-        (number "B8" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 10.16 180) (length 2.54)
-        (name "DQ11" (effects (font (size 1.27 1.27))))
-        (number "C2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 15.24 180) (length 2.54)
-        (name "DQ9" (effects (font (size 1.27 1.27))))
-        (number "C3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 -17.78 180) (length 2.54)
-        (name "UDQS" (effects (font (size 1.27 1.27))))
-        (number "C7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 12.7 180) (length 2.54)
-        (name "DQ10" (effects (font (size 1.27 1.27))))
-        (number "C8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 17.78 -7.62 180) (length 2.54)
-        (name "UDM" (effects (font (size 1.27 1.27))))
-        (number "D3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 17.78 180) (length 2.54)
-        (name "DQ8" (effects (font (size 1.27 1.27))))
-        (number "D7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 17.78 -5.08 180) (length 2.54)
-        (name "LDM" (effects (font (size 1.27 1.27))))
-        (number "E7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 -12.7 180) (length 2.54)
-        (name "LDQS" (effects (font (size 1.27 1.27))))
-        (number "F3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 -15.24 180) (length 2.54)
-        (name "~LDQS" (effects (font (size 1.27 1.27))))
-        (number "G3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unconnected line (at 15.24 -27.94 180) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "J1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -27.94 0) (length 2.54)
-        (name "~RAS" (effects (font (size 1.27 1.27))))
-        (number "J3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -12.7 0) (length 2.54)
-        (name "CK" (effects (font (size 1.27 1.27))))
-        (number "J7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unconnected line (at 15.24 -30.48 180) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "J9" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -35.56 0) (length 2.54)
-        (name "ODT" (effects (font (size 1.27 1.27))))
-        (number "K1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -30.48 0) (length 2.54)
-        (name "~CAS" (effects (font (size 1.27 1.27))))
-        (number "K3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -15.24 0) (length 2.54)
-        (name "~CK" (effects (font (size 1.27 1.27))))
-        (number "K7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -17.78 0) (length 2.54)
-        (name "CKE" (effects (font (size 1.27 1.27))))
-        (number "K9" (effects (font (size 1.27 1.27))))
-      )
-      (pin unconnected line (at 15.24 -33.02 180) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "L1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -33.02 0) (length 2.54)
-        (name "~WE" (effects (font (size 1.27 1.27))))
-        (number "L3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 17.78 -25.4 180) (length 2.54)
-        (name "ZQ" (effects (font (size 1.27 1.27))))
-        (number "L8" (effects (font (size 1.27 1.27))))
-      )
-      (pin unconnected line (at 15.24 -35.56 180) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "L9" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -2.54 0) (length 2.54)
-        (name "BA0" (effects (font (size 1.27 1.27))))
-        (number "M2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -7.62 0) (length 2.54)
-        (name "BA2" (effects (font (size 1.27 1.27))))
-        (number "M3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unconnected line (at 15.24 -38.1 180) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "M7" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 5.08 43.18 270) (length 2.54)
-        (name "VREFCA" (effects (font (size 1.27 1.27))))
-        (number "M8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -17.78 -5.08 0) (length 2.54)
-        (name "BA1" (effects (font (size 1.27 1.27))))
-        (number "N8" (effects (font (size 1.27 1.27))))
-      )
     )
     (symbol "AS4C256M16D3_0_1"
       (rectangle (start -15.24 -40.64) (end 15.24 40.64)
@@ -735,6 +606,135 @@
         (number "T9" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "AS4C256M16D3_1_1"
+      (text "DDR3" (at -3.81 3.81 0)
+        (effects (font (size 2.1336 2.1336)) (justify left bottom))
+      )
+      (pin bidirectional line (at 17.78 5.08 180) (length 2.54)
+        (name "DQ13" (effects (font (size 1.27 1.27))))
+        (number "A2" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 0 180) (length 2.54)
+        (name "DQ15" (effects (font (size 1.27 1.27))))
+        (number "A3" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 7.62 180) (length 2.54)
+        (name "DQ12" (effects (font (size 1.27 1.27))))
+        (number "A7" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 -20.32 180) (length 2.54)
+        (name "~UDQS" (effects (font (size 1.27 1.27))))
+        (number "B7" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 2.54 180) (length 2.54)
+        (name "DQ14" (effects (font (size 1.27 1.27))))
+        (number "B8" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 10.16 180) (length 2.54)
+        (name "DQ11" (effects (font (size 1.27 1.27))))
+        (number "C2" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 15.24 180) (length 2.54)
+        (name "DQ9" (effects (font (size 1.27 1.27))))
+        (number "C3" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 -17.78 180) (length 2.54)
+        (name "UDQS" (effects (font (size 1.27 1.27))))
+        (number "C7" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 12.7 180) (length 2.54)
+        (name "DQ10" (effects (font (size 1.27 1.27))))
+        (number "C8" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 17.78 -7.62 180) (length 2.54)
+        (name "UDM" (effects (font (size 1.27 1.27))))
+        (number "D3" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 17.78 180) (length 2.54)
+        (name "DQ8" (effects (font (size 1.27 1.27))))
+        (number "D7" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 17.78 -5.08 180) (length 2.54)
+        (name "LDM" (effects (font (size 1.27 1.27))))
+        (number "E7" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 -12.7 180) (length 2.54)
+        (name "LDQS" (effects (font (size 1.27 1.27))))
+        (number "F3" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 17.78 -15.24 180) (length 2.54)
+        (name "~LDQS" (effects (font (size 1.27 1.27))))
+        (number "G3" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 15.24 -27.94 180) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "J1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -27.94 0) (length 2.54)
+        (name "~RAS" (effects (font (size 1.27 1.27))))
+        (number "J3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -12.7 0) (length 2.54)
+        (name "CK" (effects (font (size 1.27 1.27))))
+        (number "J7" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 15.24 -30.48 180) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "J9" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -35.56 0) (length 2.54)
+        (name "ODT" (effects (font (size 1.27 1.27))))
+        (number "K1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -30.48 0) (length 2.54)
+        (name "~CAS" (effects (font (size 1.27 1.27))))
+        (number "K3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -15.24 0) (length 2.54)
+        (name "~CK" (effects (font (size 1.27 1.27))))
+        (number "K7" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -17.78 0) (length 2.54)
+        (name "CKE" (effects (font (size 1.27 1.27))))
+        (number "K9" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "L1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -33.02 0) (length 2.54)
+        (name "~WE" (effects (font (size 1.27 1.27))))
+        (number "L3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 17.78 -25.4 180) (length 2.54)
+        (name "ZQ" (effects (font (size 1.27 1.27))))
+        (number "L8" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 15.24 -35.56 180) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "L9" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -2.54 0) (length 2.54)
+        (name "BA0" (effects (font (size 1.27 1.27))))
+        (number "M2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -7.62 0) (length 2.54)
+        (name "BA2" (effects (font (size 1.27 1.27))))
+        (number "M3" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 15.24 -38.1 180) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "M7" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 5.08 43.18 270) (length 2.54)
+        (name "VREFCA" (effects (font (size 1.27 1.27))))
+        (number "M8" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -5.08 0) (length 2.54)
+        (name "BA1" (effects (font (size 1.27 1.27))))
+        (number "N8" (effects (font (size 1.27 1.27))))
+      )
+    )
   )
   (symbol "Memory_RAM:AS4C4M16SA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 34.29 0)
@@ -880,7 +880,7 @@
         (name "A11" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
@@ -900,7 +900,7 @@
         (name "DQ1" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC/RFU" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -1014,7 +1014,7 @@
         (name "A15" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -22.86 180) (length 0) hide
+      (pin no_connect line (at 10.16 -22.86 180) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -1026,7 +1026,7 @@
         (name "CE2" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -25.4 180) (length 0) hide
+      (pin no_connect line (at 10.16 -25.4 180) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -1174,7 +1174,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -27.94 180) (length 0) hide
+      (pin no_connect line (at 10.16 -27.94 180) (length 0) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
@@ -1226,11 +1226,6 @@
     (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "AS6C4008-55PCN_0_1"
-      (rectangle (start -10.16 25.4) (end 10.16 -25.4)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "AS6C4008-55PCN_0_0"
       (pin power_in line (at 0 -27.94 90) (length 2.54)
         (name "VSS" (effects (font (size 1.27 1.27))))
@@ -1239,6 +1234,11 @@
       (pin power_in line (at 0 27.94 270) (length 2.54)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "AS6C4008-55PCN_0_1"
+      (rectangle (start -10.16 25.4) (end 10.16 -25.4)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "AS6C4008-55PCN_1_1"
@@ -1377,11 +1377,6 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "CY7C199_0_1"
-      (rectangle (start -11.43 26.67) (end 11.43 -26.67)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "CY7C199_0_0"
       (pin power_in line (at 0 -30.48 90) (length 3.81)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -1390,6 +1385,11 @@
       (pin power_in line (at 0 30.48 270) (length 3.81)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "CY7C199_0_1"
+      (rectangle (start -11.43 26.67) (end 11.43 -26.67)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "CY7C199_1_1"
@@ -1582,11 +1582,6 @@
     )
     (property "ki_fp_filters" "FBGA*7.5x11mm*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "H5AN8G8NAFR-UHC_1_1"
-      (text "DDR4" (at -3.81 8.89 0)
-        (effects (font (size 2.1336 2.1336)) (justify left bottom))
-      )
     )
     (symbol "H5AN8G8NAFR-UHC_0_1"
       (rectangle (start -15.24 -45.72) (end 15.24 45.72)
@@ -1903,6 +1898,11 @@
       (pin passive line (at -2.54 48.26 270) (length 2.54) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "N9" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "H5AN8G8NAFR-UHC_1_1"
+      (text "DDR4" (at -3.81 8.89 0)
+        (effects (font (size 2.1336 2.1336)) (justify left bottom))
       )
     )
   )
@@ -3620,6 +3620,9 @@
     (property "ki_description" "2048x9 CMOS Asynchronous FIFO, DIP-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:IDT7205" (extends "IDT7204")
     (property "Reference" "U" (id 0) (at -8.89 25.4 0)
@@ -3638,6 +3641,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "8192x9 CMOS Asynchronous FIFO, DIP-28" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3660,6 +3666,9 @@
     (property "ki_description" "16384x9 CMOS Asynchronous FIFO, DIP-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:IDT7207" (extends "IDT7204")
     (property "Reference" "U" (id 0) (at -8.89 25.4 0)
@@ -3680,6 +3689,9 @@
     (property "ki_description" "32768x9 CMOS Asynchronous FIFO, DIP-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*7.62mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:IDT7208" (extends "IDT7204")
     (property "Reference" "U" (id 0) (at -8.89 25.4 0)
@@ -3698,6 +3710,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "65536x9 CMOS Asynchronous FIFO, DIP-28" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3843,7 +3858,7 @@
         (name "A11" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
@@ -3863,7 +3878,7 @@
         (name "DQ1" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -3964,6 +3979,9 @@
     (property "ki_description" "64Mb Synchronous DRAM, 1 Mb x 16 b x 4 Banks, Alloy42 leadframe plated with matte Sn, TSOP-II-54" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSOP?II*22.2x10.16mm*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:IS43LQ32256A-062BLI" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 7.62 39.37 0)
@@ -3995,13 +4013,8 @@
         (stroke (width 0.254)) (fill (type background))
       )
     )
-    (symbol "IS43LQ32256A-062BLI_2_0"
-      (rectangle (start -15.24 -33.02) (end 15.24 33.02)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "IS43LQ32256A-062BLI_1_1"
-      (pin unconnected line (at 15.24 12.7 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 12.7 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
       )
@@ -4009,15 +4022,15 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "A10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 7.62 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 7.62 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "A11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 5.08 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 5.08 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "A12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 10.16 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 10.16 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "A2" (effects (font (size 1.27 1.27))))
       )
@@ -4033,7 +4046,7 @@
         (name "VDD2" (effects (font (size 1.27 1.27))))
         (number "A9" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 2.54 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 2.54 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
@@ -4045,7 +4058,7 @@
         (name "DQ8_A" (effects (font (size 1.27 1.27))))
         (number "B11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 0 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 0 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "B12" (effects (font (size 1.27 1.27))))
       )
@@ -4289,7 +4302,7 @@
         (name "CA0_A" (effects (font (size 1.27 1.27))))
         (number "H2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -15.24 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "H3" (effects (font (size 1.27 1.27))))
       )
@@ -4337,7 +4350,7 @@
         (name "CKE0_A" (effects (font (size 1.27 1.27))))
         (number "J4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 0 0) (length 5.08) hide
+      (pin no_connect line (at -15.24 0 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "J5" (effects (font (size 1.27 1.27))))
       )
@@ -4377,11 +4390,11 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "K4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 20.32 0) (length 5.08) hide
+      (pin no_connect line (at -15.24 20.32 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "K5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -2.54 0) (length 5.08) hide
+      (pin no_connect line (at -15.24 -2.54 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "K8" (effects (font (size 1.27 1.27))))
       )
@@ -4390,16 +4403,21 @@
         (number "K9" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "IS43LQ32256A-062BLI_2_0"
+      (rectangle (start -15.24 -33.02) (end 15.24 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
     (symbol "IS43LQ32256A-062BLI_2_1"
       (pin input line (at 20.32 25.4 180) (length 5.08)
         (name "ZQ0" (effects (font (size 1.27 1.27))))
         (number "A5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 22.86 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 22.86 180) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 12.7 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 12.7 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "AA1" (effects (font (size 1.27 1.27))))
       )
@@ -4411,7 +4429,7 @@
         (name "DQ8_B" (effects (font (size 1.27 1.27))))
         (number "AA11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 10.16 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 10.16 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "AA12" (effects (font (size 1.27 1.27))))
       )
@@ -4439,7 +4457,7 @@
         (name "DQ15_B" (effects (font (size 1.27 1.27))))
         (number "AA9" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 7.62 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 7.62 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "AB1" (effects (font (size 1.27 1.27))))
       )
@@ -4447,15 +4465,15 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "AB10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 2.54 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 2.54 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "AB11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 0 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 0 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "AB12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 5.08 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 5.08 180) (length 5.08) hide
         (name "DNU" (effects (font (size 1.27 1.27))))
         (number "AB2" (effects (font (size 1.27 1.27))))
       )
@@ -4479,7 +4497,7 @@
         (name "VDD2" (effects (font (size 1.27 1.27))))
         (number "AB9" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 20.32 180) (length 5.08) hide
+      (pin no_connect line (at 15.24 20.32 180) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "G11" (effects (font (size 1.27 1.27))))
       )
@@ -4511,11 +4529,11 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "N4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 20.32 0) (length 5.08) hide
+      (pin no_connect line (at -15.24 20.32 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 -2.54 0) (length 5.08) hide
+      (pin no_connect line (at -15.24 -2.54 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N8" (effects (font (size 1.27 1.27))))
       )
@@ -4551,7 +4569,7 @@
         (name "CKE0_B" (effects (font (size 1.27 1.27))))
         (number "P4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 0 0) (length 5.08) hide
+      (pin no_connect line (at -15.24 0 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P5" (effects (font (size 1.27 1.27))))
       )
@@ -4583,7 +4601,7 @@
         (name "CA0_B" (effects (font (size 1.27 1.27))))
         (number "R2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -15.24 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "R3" (effects (font (size 1.27 1.27))))
       )
@@ -4824,6 +4842,9 @@
     (property "ki_description" "256Mx32 bit Low Power Double Data Rate 4X (LPDDR4X) SDRAM, 1600 MHz, Industrial, BGA-200" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "BGA*10.0x14.5mm*P0.80x0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:IS61C5128AL-10KLI" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 31.75 0)
@@ -4893,7 +4914,7 @@
         (name "A9" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -4969,7 +4990,7 @@
         (name "A18" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -25.4 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -25.4 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
@@ -5018,6 +5039,9 @@
     (property "ki_description" "512K x 8 HIGH-SPEED CMOS STATIC RAM, 12ns, SOJ-36" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOJ*10.16x23.49mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:IS61C5128AL-10TLI" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 31.75 0)
@@ -5047,7 +5071,7 @@
       )
     )
     (symbol "IS61C5128AL-10TLI_1_1"
-      (pin unconnected line (at 12.7 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -5091,7 +5115,7 @@
         (name "A8" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -25.4 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -25.4 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -5099,23 +5123,23 @@
         (name "A9" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -22.86 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
@@ -5191,15 +5215,15 @@
         (name "A18" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
@@ -5242,6 +5266,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "512K x 8 HIGH-SPEED CMOS STATIC RAM, 12ns, TSOP II-44" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSOP*10.16x18.41mm*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5741,11 +5768,6 @@
     (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "KM62256CLP_0_1"
-      (rectangle (start -10.16 20.32) (end 10.16 -20.32)
-        (stroke (width 0.254)) (fill (type background))
-      )
-    )
     (symbol "KM62256CLP_0_0"
       (pin power_in line (at 0 -22.86 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -5754,6 +5776,11 @@
       (pin power_in line (at 0 22.86 270) (length 2.54)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "KM62256CLP_0_1"
+      (rectangle (start -10.16 20.32) (end 10.16 -20.32)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "KM62256CLP_1_1"
@@ -5882,6 +5909,9 @@
     (property "ki_description" "256K (32K x 8) Static RAM, 70ns, DIP-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:HM62256BLP" (extends "KM62256CLP")
     (property "Reference" "U" (id 0) (at -10.16 20.955 0)
@@ -5900,6 +5930,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "32,768-word × 8-bit High Speed CMOS Static RAM, 70ns, DIP-28" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W15.24mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6067,7 +6100,7 @@
         (name "DQ1" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -6168,6 +6201,9 @@
     (property "ki_description" "256M – (16M x 16 bit) Synchronous DRAM (SDRAM), TSOP-II-54" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSOP?II*22.2x10.16mm*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:MT48LC32M8A2TG" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 34.29 0)
@@ -6201,7 +6237,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -6213,7 +6249,7 @@
         (name "VSSQ" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -6221,7 +6257,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -20.32 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -6329,11 +6365,11 @@
         (name "DQM" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -6341,7 +6377,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
@@ -6353,7 +6389,7 @@
         (name "DQ4" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
@@ -6365,7 +6401,7 @@
         (name "DQ5" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
@@ -6381,7 +6417,7 @@
         (name "DQ6" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
@@ -6401,7 +6437,7 @@
         (name "VSSQ" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -6432,6 +6468,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "256M – (32M x 8 bit) Synchronous DRAM (SDRAM), TSOP-II-54" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSOP?II*22.2x10.16mm*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6467,7 +6506,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -6479,7 +6518,7 @@
         (name "VSSQ" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -6487,7 +6526,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -20.32 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -20.32 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -6507,7 +6546,7 @@
         (name "~CS~" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -6595,11 +6634,11 @@
         (name "DQM" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -6607,7 +6646,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
@@ -6619,7 +6658,7 @@
         (name "DQ2" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
@@ -6627,11 +6666,11 @@
         (name "VSSQ" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
@@ -6647,7 +6686,7 @@
         (name "DQ3" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
@@ -6655,7 +6694,7 @@
         (name "VSSQ" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "53" (effects (font (size 1.27 1.27))))
       )
@@ -6667,11 +6706,11 @@
         (name "VSSQ" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 15.24 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -6698,6 +6737,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "256M – (64M x 4 bit) Synchronous DRAM (SDRAM), TSOP-II-54" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSOP?II*22.2x10.16mm*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6843,7 +6885,7 @@
         (name "A11" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
@@ -6863,7 +6905,7 @@
         (name "DQ1" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -6964,6 +7006,9 @@
     (property "ki_description" "128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 166 MHz, TSOP-II-54" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSOP?II*22.2x10.16mm*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:W9812G6KH-6I" (extends "W9812G6KH-5")
     (property "Reference" "U" (id 0) (at -10.16 31.75 0)
@@ -6984,6 +7029,9 @@
     (property "ki_description" "128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 166 MHz, TSOP-II-54" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TSOP?II*22.2x10.16mm*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Memory_RAM:W9812G6KH-75" (extends "W9812G6KH-5")
     (property "Reference" "U" (id 0) (at -10.16 31.75 0)
@@ -7002,6 +7050,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 133 MHz, TSOP-II-54" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSOP?II*22.2x10.16mm*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "RF_Switch:ADG901BCPZ" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 11.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2198,6 +2198,14 @@
     (property "ki_fp_filters" "LFCSP*1EP*4x4mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "HMC849A_0_0"
+      (text "50" (at 1.651 -1.016 0)
+        (effects (font (size 0.635 0.635)))
+      )
+      (text "50" (at 1.651 1.016 0)
+        (effects (font (size 0.635 0.635)))
+      )
+    )
     (symbol "HMC849A_0_1"
       (circle (center -2.286 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (circle (center -2.286 1.016) (radius 0.254) (stroke (width 0)) (fill (type none)))
@@ -2406,14 +2414,6 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "HMC849A_0_0"
-      (text "50" (at 1.651 -1.016 0)
-        (effects (font (size 0.635 0.635)))
-      )
-      (text "50" (at 1.651 1.016 0)
-        (effects (font (size 0.635 0.635)))
-      )
-    )
   )
   (symbol "RF_Switch:KSW-2-46" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 8.89 0)
@@ -2434,7 +2434,7 @@
     (property "ki_description" "SPDT DC-4.6GHz reflective switch, 50 Ohm, XX112" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Mini?Circuits*XX112*\nSOP*1EP*4.57x4.57mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Mini?Circuits*XX112* SOP*1EP*4.57x4.57mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "KSW-2-46_0_1"
@@ -2610,8 +2610,16 @@
     (property "ki_description" "SPDT DC-4.6GHz absorbative switch, 50 Ohm, XX112" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Mini?Circuits*XX112*\nSOP*1EP*4.57x4.57mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Mini?Circuits*XX112* SOP*1EP*4.57x4.57mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "KSWA-2-46_0_0"
+      (text "50" (at 1.524 -4.699 900)
+        (effects (font (size 0.635 0.635)))
+      )
+      (text "50" (at 2.794 -4.699 900)
+        (effects (font (size 0.635 0.635)))
+      )
     )
     (symbol "KSWA-2-46_0_1"
       (arc (start 2.794 0.508) (end 2.794 -0.508) (radius (at 2.794 0) (length 0.508) (angles 90.1 -90.1))
@@ -2752,14 +2760,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "KSWA-2-46_0_0"
-      (text "50" (at 1.524 -4.699 900)
-        (effects (font (size 0.635 0.635)))
-      )
-      (text "50" (at 2.794 -4.699 900)
-        (effects (font (size 0.635 0.635)))
-      )
-    )
     (symbol "KSWA-2-46_1_1"
       (pin input line (at -15.24 -5.08 0) (length 2.54)
         (name "CONTROL2" (effects (font (size 1.27 1.27))))
@@ -2814,8 +2814,30 @@
     (property "ki_description" "SPST DC-2.0GHz absorbative switch, 50 Ohm, XX112" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Mini?Circuits*XX112*\nSOP*1EP*4.57x4.57mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Mini?Circuits*XX112* SOP*1EP*4.57x4.57mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "KSWHA-1-20_0_1"
+      (rectangle (start -12.7 5.08) (end 12.7 -7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -0.508)
+          (xy -1.27 -1.524)
+          (xy 2.54 -1.524)
+          (xy 2.54 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "KSWHA-1-20_1_0"
+      (text "50" (at 2.54 -3.683 900)
+        (effects (font (size 0.635 0.635)))
+      )
+      (text "50" (at 3.81 -3.683 900)
+        (effects (font (size 0.635 0.635)))
+      )
     )
     (symbol "KSWHA-1-20_1_1"
       (circle (center -1.27 -0.254) (radius 0.254) (stroke (width 0)) (fill (type none)))
@@ -2941,28 +2963,6 @@
       (pin passive line (at 0 -10.16 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "KSWHA-1-20_1_0"
-      (text "50" (at 2.54 -3.683 900)
-        (effects (font (size 0.635 0.635)))
-      )
-      (text "50" (at 3.81 -3.683 900)
-        (effects (font (size 0.635 0.635)))
-      )
-    )
-    (symbol "KSWHA-1-20_0_1"
-      (rectangle (start -12.7 5.08) (end 12.7 -7.62)
-        (stroke (width 0.254)) (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.508)
-          (xy -1.27 -1.524)
-          (xy 2.54 -1.524)
-          (xy 2.54 -2.54)
-        )
-        (stroke (width 0)) (fill (type none))
       )
     )
   )
@@ -3112,6 +3112,9 @@
     (property "ki_description" "Macom GaAs RF SPDT switch, DC-3GHz, 0.56/12dB loss/isolation, SOT-363" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT*363*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Switch:MASWSS0115" (extends "MASWSS0136")
     (property "Reference" "U" (id 0) (at -7.62 7.62 0)
@@ -3130,6 +3133,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Macom GaAs RF SPDT switch, DC-3GHz, 0.3/22dB loss/isolation, SOT-363" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT*363*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3152,6 +3158,9 @@
     (property "ki_description" "Macom GaAs RF SPDT switch, DC-3GHz, 0.4/16dB loss/isolation, IP 58dB@1GHz, SOT-363" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT*363*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Switch:MASWSS0151" (extends "MASWSS0136")
     (property "Reference" "U" (id 0) (at -7.62 7.62 0)
@@ -3170,6 +3179,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Macom GaAs RF SPDT switch, DC-3GHz, 0.65/21dB loss/isolation, SOT-363" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT*363*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3192,6 +3204,9 @@
     (property "ki_description" "Macom GaAs RF SPDT switch, DC-3GHz, 0.3/12dB loss/isolation, SOT-363" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT*363*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Switch:MASWSS0176" (extends "MASWSS0136")
     (property "Reference" "U" (id 0) (at -7.62 7.62 0)
@@ -3212,6 +3227,9 @@
     (property "ki_description" "Macom GaAs RF SPDT switch, DC-3GHz, 0.35/21dB loss/isolation, SOT-363" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOT*363*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Switch:MASWSS0192" (extends "MASWSS0136")
     (property "Reference" "U" (id 0) (at -7.62 7.62 0)
@@ -3230,6 +3248,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Macom GaAs RF SPDT switch, DC-3GHz, 0.33/13.5dB loss/isolation, SOT-363" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT*363*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3254,6 +3275,29 @@
     )
     (property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "MASWSS0178_0_1"
+      (polyline
+        (pts
+          (xy -4.318 2.54)
+          (xy -5.842 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 1.524)
+          (xy -0.508 1.524)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.508 3.556)
+          (xy -2.286 3.556)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
     )
     (symbol "MASWSS0178_1_1"
       (circle (center -4.064 2.54) (radius 0.254) (stroke (width 0)) (fill (type none)))
@@ -3386,29 +3430,6 @@
       (pin passive line (at 0 -10.16 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "MASWSS0178_0_1"
-      (polyline
-        (pts
-          (xy -4.318 2.54)
-          (xy -5.842 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.286 1.524)
-          (xy -0.508 1.524)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 3.556)
-          (xy -2.286 3.556)
-        )
-        (stroke (width 0)) (fill (type none))
       )
     )
   )
@@ -3877,7 +3898,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -3932,6 +3953,14 @@
     )
     (property "ki_fp_filters" "SOP*3.76x4.96mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "MSWA-2-20_0_0"
+      (text "50" (at 1.524 -4.699 900)
+        (effects (font (size 0.635 0.635)))
+      )
+      (text "50" (at 2.794 -4.699 900)
+        (effects (font (size 0.635 0.635)))
+      )
     )
     (symbol "MSWA-2-20_0_1"
       (arc (start 2.794 0.508) (end 2.794 -0.508) (radius (at 2.794 0) (length 0.508) (angles 90.1 -90.1))
@@ -4072,14 +4101,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "MSWA-2-20_0_0"
-      (text "50" (at 1.524 -4.699 900)
-        (effects (font (size 0.635 0.635)))
-      )
-      (text "50" (at 2.794 -4.699 900)
-        (effects (font (size 0.635 0.635)))
-      )
-    )
     (symbol "MSWA-2-20_1_1"
       (pin input line (at -15.24 -5.08 0) (length 2.54)
         (name "CONTROL2" (effects (font (size 1.27 1.27))))
@@ -4136,6 +4157,14 @@
     )
     (property "ki_fp_filters" "QFN*1EP*3x3mm*P0.51mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "MSWA2-50_0_0"
+      (text "50" (at 1.524 -4.699 900)
+        (effects (font (size 0.635 0.635)))
+      )
+      (text "50" (at 2.794 -4.699 900)
+        (effects (font (size 0.635 0.635)))
+      )
     )
     (symbol "MSWA2-50_0_1"
       (arc (start 2.794 0.508) (end 2.794 -0.508) (radius (at 2.794 0) (length 0.508) (angles 90.1 -90.1))
@@ -4276,14 +4305,6 @@
         (stroke (width 0)) (fill (type none))
       )
     )
-    (symbol "MSWA2-50_0_0"
-      (text "50" (at 1.524 -4.699 900)
-        (effects (font (size 0.635 0.635)))
-      )
-      (text "50" (at 2.794 -4.699 900)
-        (effects (font (size 0.635 0.635)))
-      )
-    )
     (symbol "MSWA2-50_1_1"
       (pin input line (at -15.24 -2.54 0) (length 2.54)
         (name "CONTROL1" (effects (font (size 1.27 1.27))))
@@ -4305,7 +4326,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

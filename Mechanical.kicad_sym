@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Mechanical:DIN_Rail_Adapter" (in_bom yes) (on_board yes)
     (property "Reference" "DRA" (id 0) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)))
@@ -18,7 +18,7 @@
     (property "ki_description" "DIN Rail adapter universal, mounting holes without connection" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DINRailAdapter?3xM3*\nDINRailAdapter?2xM3*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DINRailAdapter?3xM3* DINRailAdapter?2xM3*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DIN_Rail_Adapter_0_1"
@@ -350,7 +350,7 @@
     (property "ki_description" "Housing" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Enclosure*\nHousing*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Enclosure* Housing*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Housing_0_1"

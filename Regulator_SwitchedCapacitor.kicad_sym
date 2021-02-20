@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Regulator_SwitchedCapacitor:LM2665M6" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
       (effects (font (size 1.27 1.27)))
@@ -336,7 +336,7 @@
     (property "ki_description" "Voltage converter from +1.5V to +10V to +1.5V to +10V, SO-8/DIP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*\nDIP*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LMC7660_0_1"
@@ -345,7 +345,7 @@
       )
     )
     (symbol "LMC7660_1_1"
-      (pin unconnected line (at -7.62 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -398,7 +398,7 @@
     (property "ki_description" "Switched-Capacitor Voltage Converter with Regulator, output current 100mA, operating range 3.5V to 15V, low loss 1.1V at 100mA, DIP-8/SO-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LT1054_0_1"
@@ -458,6 +458,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Switched-Capacitor Voltage Converter with Regulator, output current 125mA, operating range 3.5V to 15V, low loss 1.1V at 100mA, DIP-8/SO-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -542,7 +545,7 @@
     (property "ki_description" "Switched Capacitor Voltage Converter, 1.5V to 9V supply operation, 200uA Max No Load Supply Current at 5V, DIP-8/TO-99" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nTO?99*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* TO?99*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LTC1044_0_1"
@@ -604,7 +607,7 @@
     (property "ki_description" "Monolithic CMOS switched-capacitor from 1.5V to 5.5V up to 100mA, SO-8/DIP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LTC660_0_1"
@@ -666,7 +669,7 @@
     (property "ki_description" "Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*\nSOIC*3.9x4.9mm*\nMSOP*3x3mm*P0.65mm*\nTO?99*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm* MSOP*3x3mm*P0.65mm* TO?99*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX1044_0_1"
@@ -675,7 +678,7 @@
       )
     )
     (symbol "MAX1044_1_1"
-      (pin unconnected line (at -7.62 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -726,6 +729,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm* MSOP*3x3mm*P0.65mm* TO?99*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -798,6 +804,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Switched capacitor boost, Fixed 4.5V output, 150mA, SOT-23-6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?23*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -948,6 +957,9 @@
     (property "ki_description" "250mA High-Efficiency Step-Down Charge Pump Regulator, 3.3V Output Voltage, MSOP-10" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Regulator_SwitchedCapacitor:TPS60502DGS" (extends "TPS60500DGS")
     (property "Reference" "U" (id 0) (at -12.7 -8.89 0)
@@ -968,6 +980,9 @@
     (property "ki_description" "250mA High-Efficiency Step-Down Charge Pump Regulator, 1.8V Output Voltage, MSOP-10" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Regulator_SwitchedCapacitor:TPS60503DGS" (extends "TPS60500DGS")
     (property "Reference" "U" (id 0) (at -12.7 -8.89 0)
@@ -986,6 +1001,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "250mA High-Efficiency Step-Down Charge Pump Regulator, 1.5V Output Voltage, MSOP-10" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

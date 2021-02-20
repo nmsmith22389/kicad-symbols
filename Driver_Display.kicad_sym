@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "Driver_Display:82720" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -19.05 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -302,6 +302,9 @@
     (property "ki_description" "Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, SSOP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SSOP*3.9x4.9mm*P0.635mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_Display:ADS7843EG4" (extends "ADS7843E")
     (property "Reference" "U" (id 0) (at -10.16 11.176 0)
@@ -322,6 +325,9 @@
     (property "ki_description" "Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, SSOP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*SSOP*3.9x4.9mm*P0.635mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "Driver_Display:ADS7843IDBQRQ1" (extends "ADS7843E")
     (property "Reference" "U" (id 0) (at -10.16 11.176 0)
@@ -340,6 +346,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +125 C, QSPI, SPI, 3-wire serial interface, SSOP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*SSOP*3.9x4.9mm*P0.635mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -451,11 +460,11 @@
         (name "SEG_9" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -38.1 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -38.1 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -35.56 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -35.56 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
@@ -499,7 +508,7 @@
         (name "DATA_OUT" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -33.02 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -33.02 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
@@ -531,7 +540,7 @@
         (name "SEG_30" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -40.64 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -40.64 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -902,7 +911,7 @@
         (name "DOUT" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )

@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "MCU_Dialog:DA14691" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
@@ -305,7 +305,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "J3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 -45.72 0) (length 3.81) hide
+      (pin no_connect line (at -20.32 -45.72 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "J4" (effects (font (size 1.27 1.27))))
       )
@@ -345,7 +345,7 @@
         (name "BUCK_GND" (effects (font (size 1.27 1.27))))
         (number "K3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -20.32 -48.26 0) (length 3.81) hide
+      (pin no_connect line (at -20.32 -48.26 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "K4" (effects (font (size 1.27 1.27))))
       )
@@ -388,6 +388,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Multi-core BLE 5.1 Soc series, 96-MHz/32-bit ARM Cortex-M33, 128 kB ROM, 512 kB SRAM, 4 kB OTP Memory, 16 kB cache SRAM, VFBGA-86" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "VFBGA*6x6mm*Layout10x10*P0.55mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

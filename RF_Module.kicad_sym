@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "RF_Module:ATSAMR21G18-MR210UA_NoRFPads" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -33,7 +33,7 @@
         (name "PA28" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 15.24 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 15.24 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -49,11 +49,11 @@
         (name "PA08" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 12.7 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -77,7 +77,7 @@
         (name "PA25" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 7.62 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
@@ -101,11 +101,11 @@
         (name "PA6" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -125,7 +125,7 @@
         (name "PA31" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 0 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
@@ -133,11 +133,11 @@
         (name "ATECC508_GPIO" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
@@ -149,11 +149,11 @@
         (name "PA22" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
@@ -161,7 +161,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -12.7 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -287,7 +287,7 @@
         (name "TX_LED" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -15.24 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 2.54 0) (length 2.54) hide
         (name "NC24" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -319,11 +319,11 @@
         (name "GPIO2/PA2" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 5.08 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
@@ -343,11 +343,11 @@
         (name "GPIO14/PC7" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 7.62 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 10.16 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
@@ -379,7 +379,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 22.86 270) (length 2.54) hide
+      (pin no_connect line (at -10.16 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -387,15 +387,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 22.86 270) (length 2.54) hide
+      (pin no_connect line (at -7.62 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 22.86 270) (length 2.54) hide
+      (pin no_connect line (at -5.08 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 22.86 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -525,11 +525,11 @@
         (name "GPIO2/PA2" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 5.08 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
@@ -549,11 +549,11 @@
         (name "GPIO14/PC7" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 7.62 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 10.16 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
@@ -585,7 +585,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 22.86 270) (length 2.54) hide
+      (pin no_connect line (at -10.16 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -593,15 +593,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 22.86 270) (length 2.54) hide
+      (pin no_connect line (at -7.62 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 22.86 270) (length 2.54) hide
+      (pin no_connect line (at -5.08 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 22.86 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -1070,6 +1070,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LoRa/SigFox Module, STM32L072 MCU, Murata CMWX1ZZABZ" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "CMWX1ZZABZ*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1651,11 +1654,11 @@
         (name "P1.6" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -12.7 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -1884,6 +1887,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "nRF52810 BLE5 Module" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "E73*2G4M04S*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2118,6 +2124,9 @@
     (property "ki_description" "802.11 b/g/n Wi-Fi Module" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ESP?12*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:ESP-WROOM-02" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 13.97 0)
@@ -2246,11 +2255,6 @@
     )
     (property "ki_fp_filters" "QFN*1EP*7x7mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "ESP32-PICO-D4_0_1"
-      (rectangle (start -17.78 38.1) (end 17.78 -38.1)
-        (stroke (width 0.254)) (fill (type background))
-      )
     )
     (symbol "ESP32-PICO-D4_0_0"
       (pin power_in line (at -5.08 40.64 270) (length 2.54)
@@ -2405,11 +2409,11 @@
         (name "VDDA" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -25.4 0) (length 2.54) hide
+      (pin no_connect line (at -17.78 -25.4 0) (length 2.54) hide
         (name "XTAL_N_NC" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -17.78 -27.94 0) (length 2.54) hide
         (name "XTAL_P_NC" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
@@ -2417,11 +2421,11 @@
         (name "VDDA" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -30.48 0) (length 2.54) hide
+      (pin no_connect line (at -17.78 -30.48 0) (length 2.54) hide
         (name "CAP2_NC" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -33.02 0) (length 2.54) hide
+      (pin no_connect line (at -17.78 -33.02 0) (length 2.54) hide
         (name "CAP1_NC" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
@@ -2448,6 +2452,11 @@
       (pin input line (at -20.32 35.56 0) (length 2.54)
         (name "EN" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "ESP32-PICO-D4_0_1"
+      (rectangle (start -17.78 38.1) (end 17.78 -38.1)
+        (stroke (width 0.254)) (fill (type background))
       )
     )
   )
@@ -2672,6 +2681,9 @@
     (property "ki_description" "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, 32-bit, 2.7-3.6V, onboard antenna, SMD" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ESP32?S2?WROVER*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:ESP32-WROOM-32" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 34.29 0)
@@ -2801,7 +2813,7 @@
         (name "IO19" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
@@ -2876,6 +2888,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ESP32?WROOM?32*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3007,7 +3022,7 @@
         (name "IO19" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -27.94 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -27.94 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
@@ -3358,6 +3373,9 @@
     (property "ki_description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Raytac?MDBT50Q*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:MDBT50Q-U1MV2" (extends "MDBT50Q-1MV2")
     (property "Reference" "U" (id 0) (at 0 0 0)
@@ -3376,6 +3394,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Raytac?MDBT50Q*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3503,7 +3524,7 @@
         (name "VDDH" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 43.18 270) (length 2.54) hide
+      (pin no_connect line (at 5.08 43.18 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
@@ -3539,7 +3560,7 @@
         (name "P0.15" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -17.78 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -17.78 -17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -3551,7 +3572,7 @@
         (name "P0.17" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 0 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 0 180) (length 2.54) hide
         (name "P0.19" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
@@ -3563,7 +3584,7 @@
         (name "P0.20" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
@@ -3579,7 +3600,7 @@
         (name "P0.24" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
@@ -3623,7 +3644,7 @@
         (name "P1.07" (effects (font (size 1.27 1.27))))
         (number "58" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 38.1 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 38.1 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "59" (effects (font (size 1.27 1.27))))
       )
@@ -3631,7 +3652,7 @@
         (name "P1.05" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 40.64 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 40.64 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "60" (effects (font (size 1.27 1.27))))
       )
@@ -3672,6 +3693,9 @@
     (property "ki_description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Raytac?MDBT50Q*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:MDBT50Q-U512K" (extends "MDBT50Q-512K")
     (property "Reference" "U" (id 0) (at 0 0 0)
@@ -3690,6 +3714,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Raytac?MDBT50Q*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3862,15 +3889,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 35.56 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 35.56 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 35.56 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 35.56 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 38.1 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 38.1 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -3878,7 +3905,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 25.4 40.64 180) (length 2.54) hide
+      (pin no_connect line (at 25.4 40.64 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -4142,19 +4169,19 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "73" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 -33.02 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 -33.02 0) (length 2.54) hide
         (name "PAD1" (effects (font (size 1.27 1.27))))
         (number "74" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 -35.56 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 -35.56 0) (length 2.54) hide
         (name "PAD2" (effects (font (size 1.27 1.27))))
         (number "75" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 40.64 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 40.64 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -25.4 38.1 0) (length 2.54) hide
+      (pin no_connect line (at -25.4 38.1 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -4291,11 +4318,6 @@
     )
     (property "ki_fp_filters" "RAK811*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RAK811-HF-EU868_0_1"
-      (rectangle (start 12.7 -20.32) (end -12.7 20.32)
-        (stroke (width 0.254)) (fill (type background))
-      )
     )
     (symbol "RAK811-HF-EU868_0_0"
       (pin power_in line (at 0 -22.86 90) (length 2.54)
@@ -4435,6 +4457,11 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "RAK811-HF-EU868_0_1"
+      (rectangle (start 12.7 -20.32) (end -12.7 20.32)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
   )
   (symbol "RF_Module:RAK811-HF-AS923" (extends "RAK811-HF-EU868")
     (property "Reference" "U" (id 0) (at 0 31.75 0)
@@ -4453,6 +4480,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LoRa Module, STM32L151, AS923, RAKwireless" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "RAK811*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4475,6 +4505,9 @@
     (property "ki_description" "LoRa Module, STM32L151, AU915, RAKwireless" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "RAK811*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:RAK811-HF-IN865" (extends "RAK811-HF-EU868")
     (property "Reference" "U" (id 0) (at 0 31.75 0)
@@ -4493,6 +4526,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LoRa Module, STM32L151, IN865, RAKwireless" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "RAK811*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4515,6 +4551,9 @@
     (property "ki_description" "LoRa Module, STM32L151, KR920, RAKwireless" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "RAK811*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:RAK811-HF-US915" (extends "RAK811-HF-EU868")
     (property "Reference" "U" (id 0) (at 0 31.75 0)
@@ -4533,6 +4572,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LoRa Module, STM32L151, US915, RAKwireless" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "RAK811*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4557,11 +4599,6 @@
     )
     (property "ki_fp_filters" "RAK811*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RAK811-LF-EU433_0_1"
-      (rectangle (start 12.7 -20.32) (end -12.7 20.32)
-        (stroke (width 0.254)) (fill (type background))
-      )
     )
     (symbol "RAK811-LF-EU433_0_0"
       (pin power_in line (at 0 -22.86 90) (length 2.54)
@@ -4701,6 +4738,11 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "RAK811-LF-EU433_0_1"
+      (rectangle (start 12.7 -20.32) (end -12.7 20.32)
+        (stroke (width 0.254)) (fill (type background))
+      )
+    )
   )
   (symbol "RF_Module:RAK811-LF-CN470" (extends "RAK811-LF-EU433")
     (property "Reference" "U" (id 0) (at 0 31.75 0)
@@ -4719,6 +4761,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LoRa Module, STM32L151, CN470, RAKwireless" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "RAK811*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4778,7 +4823,7 @@
         (name "NSS" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -12.7 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -4833,6 +4878,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ISM Radio Transciever Module, SPI interface" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "HOPERF*RFM69HW*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4949,6 +4997,9 @@
     (property "ki_description" "Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "HOPERF*RFM9XW*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:RFM95W-915S2" (extends "RFM95W-868S2")
     (property "Reference" "U" (id 0) (at -10.414 11.684 0)
@@ -4967,6 +5018,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "HOPERF*RFM9XW*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4989,6 +5043,9 @@
     (property "ki_description" "Low power long range transceiver module, SPI and parallel interface, 315 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "HOPERF*RFM9XW*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:RFM96W-433S2" (extends "RFM95W-868S2")
     (property "Reference" "U" (id 0) (at -10.414 11.684 0)
@@ -5007,6 +5064,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Low power long range transceiver module, SPI and parallel interface, 433 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "HOPERF*RFM9XW*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5029,6 +5089,9 @@
     (property "ki_description" "Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -139 dBm, SMD-16, DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "HOPERF*RFM9XW*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:RFM97W-915S2" (extends "RFM95W-868S2")
     (property "Reference" "U" (id 0) (at -10.414 11.684 0)
@@ -5047,6 +5110,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -139 dBm, SMD-16, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "HOPERF*RFM9XW*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5069,6 +5135,9 @@
     (property "ki_description" "Low power long range transceiver module, SPI and parallel interface, 315 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "HOPERF*RFM9XW*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:RFM98W-433S2" (extends "RFM95W-868S2")
     (property "Reference" "U" (id 0) (at -10.414 11.684 0)
@@ -5087,6 +5156,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Low power long range transceiver module, SPI and parallel interface, 433 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "HOPERF*RFM9XW*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5367,6 +5439,9 @@
     (property "ki_description" "IQRF data controlled transceiver with PCB antenna, FSK modulation" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "IQRF?TRx2DA?KON?SIM?01*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:DCTR-52DAT" (extends "TR-52DA")
     (property "Reference" "U" (id 0) (at -25.4 11.43 0)
@@ -5385,6 +5460,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IQRF data controlled transceiver with PCB antenna and thermometer, FSK modulation" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "IQRF?TRx2DA?KON?SIM?01*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5407,6 +5485,9 @@
     (property "ki_description" "IQRF common transceiver with PCB antenna and thermometer, FSK modulation" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "IQRF?TRx2DA?KON?SIM?01*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:TR-72DA" (extends "TR-52DA")
     (property "Reference" "U" (id 0) (at -25.4 11.43 0)
@@ -5427,6 +5508,9 @@
     (property "ki_description" "IQRF transceiver with PCB antenna, GMSK modulation" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "IQRF?TRx2DA?KON?SIM?01*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Module:TR-72DAT" (extends "TR-52DA")
     (property "Reference" "U" (id 0) (at -25.4 11.43 0)
@@ -5445,6 +5529,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "IQRF transceiver with PCB antenna and thermometer, GMSK modulation" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "IQRF?TRx2DA?KON?SIM?01*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5477,7 +5564,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 5.08 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -5553,7 +5640,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 22.86 270) (length 2.54) hide
+      (pin no_connect line (at 7.62 22.86 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )

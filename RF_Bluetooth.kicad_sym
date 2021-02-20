@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "RF_Bluetooth:BL652" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 1.27 0)
       (effects (font (size 1.27 1.27)))
@@ -401,6 +401,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Bluetooth Dual-Mode, UART, Class 2" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "BM78SPPS5XC2*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -978,7 +981,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -1062,7 +1065,7 @@
         (name "P0.14" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1134,7 +1137,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 -17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -1679,6 +1682,9 @@
     (property "ki_description" "Very Low Power network processor module for BLE v4.1" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ST*SPBTLE*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "RF_Bluetooth:nRF8001" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 -1.27 0)
@@ -1732,7 +1738,7 @@
         (name "MISO" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -10.16 180) (length 3.81) hide
+      (pin no_connect line (at 15.24 -10.16 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )

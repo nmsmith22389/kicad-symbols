@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "MCU_ST_STM32F7:STM32F722ICKx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -58.42 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -852,6 +852,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 140 GPIO, UFBGA-176" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "UFBGA*10x10mm*Layout15x15*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F722ICTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -33.02 107.95 0)
@@ -1606,6 +1609,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 140 GPIO, LQFP-176" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LQFP*24x24mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F722RCTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
@@ -1910,6 +1916,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 50 GPIO, LQFP-64" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*10x10mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2360,6 +2369,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 82 GPIO, LQFP-100" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*14x14mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2986,6 +2998,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 114 GPIO, LQFP-144" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*20x20mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3842,6 +3857,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 138 GPIO, UFBGA-176" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "UFBGA*10x10mm*Layout15x15*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F723ICTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -33.02 107.95 0)
@@ -4596,6 +4614,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 138 GPIO, LQFP-176" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LQFP*24x24mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F723VCYx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -20.32 64.77 0)
@@ -5044,6 +5065,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 79 GPIO, WLCSP-100" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ST_WLCSP*Die452*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5672,6 +5696,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 112 GPIO, UFBGA-144" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "UFBGA*7x7mm*Layout12x12*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F723ZCTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -27.94 87.63 0)
@@ -6296,6 +6323,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 512KB flash, 192KB RAM, 216MHz, 1.7-3.6V, 112 GPIO, LQFP-144" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*20x20mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -13252,6 +13282,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 1024KB flash, 320KB RAM, 216MHz, 1.7-3.6V, 140 GPIO, UFBGA-176" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "UFBGA*10x10mm*Layout15x15*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F745IETx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -33.02 107.95 0)
@@ -14006,6 +14039,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 1024KB flash, 320KB RAM, 216MHz, 1.7-3.6V, 140 GPIO, LQFP-176" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LQFP*24x24mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F745VEHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -20.32 64.77 0)
@@ -14456,6 +14492,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 1024KB flash, 320KB RAM, 216MHz, 1.7-3.6V, 82 GPIO, TFBGA-100" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TFBGA*8x8mm*Layout10x10*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F745VETx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -17.78 64.77 0)
@@ -14904,6 +14943,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 1024KB flash, 320KB RAM, 216MHz, 1.7-3.6V, 82 GPIO, LQFP-100" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*14x14mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -15530,6 +15572,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 1024KB flash, 320KB RAM, 216MHz, 1.7-3.6V, 114 GPIO, LQFP-144" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*20x20mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -16414,6 +16459,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 1024KB flash, 320KB RAM, 216MHz, 1.7-3.6V, 168 GPIO, LQFP-208" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LQFP*28x28mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F746IEKx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -58.42 107.95 0)
@@ -17266,6 +17314,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 1024KB flash, 320KB RAM, 216MHz, 1.7-3.6V, 140 GPIO, UFBGA-176" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "UFBGA*10x10mm*Layout15x15*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -20974,6 +21025,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 1024KB flash, 320KB RAM, 216MHz, 1.7-3.6V, 82 GPIO, TFBGA-100" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TFBGA*8x8mm*Layout10x10*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F746VETx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -17.78 64.77 0)
@@ -23060,6 +23114,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 1024KB flash, 320KB RAM, 216MHz, 1.7-3.6V, 114 GPIO, WLCSP-143" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ST_WLCSP*Die449*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -29942,6 +29999,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 168 GPIO, LQFP-208" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LQFP*28x28mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F765IGKx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -58.42 107.95 0)
@@ -30796,6 +30856,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 140 GPIO, UFBGA-176" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "UFBGA*10x10mm*Layout15x15*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F765IGTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -33.02 107.95 0)
@@ -31548,6 +31611,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 140 GPIO, LQFP-176" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*24x24mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -32464,6 +32530,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 168 GPIO, TFBGA-216" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TFBGA*13x13mm*Layout15x15*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F765VGHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -20.32 64.77 0)
@@ -32914,6 +32983,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 82 GPIO, TFBGA-100" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TFBGA*8x8mm*Layout10x10*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F765VGTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -17.78 64.77 0)
@@ -33362,6 +33434,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 82 GPIO, LQFP-100" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*14x14mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -33988,6 +34063,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 114 GPIO, LQFP-144" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*20x20mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -34872,6 +34950,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 168 GPIO, LQFP-208" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LQFP*28x28mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F767IGKx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -58.42 107.95 0)
@@ -35726,6 +35807,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 140 GPIO, UFBGA-176" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "UFBGA*10x10mm*Layout15x15*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F767IGTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -33.02 107.95 0)
@@ -36478,6 +36562,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 140 GPIO, LQFP-176" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*24x24mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -37394,6 +37481,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 168 GPIO, TFBGA-216" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TFBGA*13x13mm*Layout15x15*P0.8mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32F7:STM32F767VGHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -20.32 64.77 0)
@@ -37842,6 +37932,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 82 GPIO, TFBGA-100" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TFBGA*8x8mm*Layout10x10*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -39973,51 +40066,51 @@
         (name "DSIHOST_D1P" (effects (font (size 1.27 1.27))))
         (number "H1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -101.6 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -101.6 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -96.52 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -96.52 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -93.98 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -93.98 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -99.06 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -99.06 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -91.44 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -91.44 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -88.9 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -88.9 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "B13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -86.36 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -86.36 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -83.82 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -83.82 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -81.28 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -81.28 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -76.2 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -76.2 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -73.66 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -73.66 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -78.74 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -78.74 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P2" (effects (font (size 1.27 1.27))))
       )
@@ -40723,51 +40816,51 @@
         (name "DSIHOST_D1P" (effects (font (size 1.27 1.27))))
         (number "H1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -101.6 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -101.6 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -96.52 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -96.52 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -93.98 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -93.98 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -99.06 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -99.06 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -91.44 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -91.44 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -88.9 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -88.9 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "B13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -86.36 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -86.36 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -83.82 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -83.82 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -81.28 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -81.28 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -76.2 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -76.2 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -73.66 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -73.66 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -78.74 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -78.74 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P2" (effects (font (size 1.27 1.27))))
       )
@@ -41434,6 +41527,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 128 GPIO, WLCSP-180" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "ST_WLCSP*Die451*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -42316,6 +42412,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 2048KB flash, 384KB RAM, 216MHz, 1.7-3.6V, 159 GPIO, LQFP-208" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP*28x28mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -50421,51 +50520,51 @@
         (name "DSIHOST_D1P" (effects (font (size 1.27 1.27))))
         (number "H1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -101.6 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -101.6 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -96.52 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -96.52 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -93.98 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -93.98 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -99.06 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -99.06 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -91.44 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -91.44 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -88.9 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -88.9 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "B13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -86.36 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -86.36 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -83.82 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -83.82 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -81.28 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -81.28 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -76.2 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -76.2 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -73.66 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -73.66 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -78.74 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -78.74 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P2" (effects (font (size 1.27 1.27))))
       )
@@ -51171,51 +51270,51 @@
         (name "DSIHOST_D1P" (effects (font (size 1.27 1.27))))
         (number "H1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -101.6 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -101.6 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -96.52 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -96.52 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -93.98 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -93.98 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -99.06 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -99.06 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -91.44 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -91.44 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -88.9 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -88.9 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "B13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -86.36 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -86.36 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -83.82 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -83.82 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -81.28 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -81.28 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -76.2 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -76.2 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -73.66 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -73.66 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -30.48 -78.74 0) (length 5.08) hide
+      (pin no_connect line (at -30.48 -78.74 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P2" (effects (font (size 1.27 1.27))))
       )

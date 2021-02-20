@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
   (symbol "MCU_ST_STM32H7:STM32H743BITx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -33.02 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2891,43 +2891,43 @@
         (name "BOOT0" (effects (font (size 1.27 1.27))))
         (number "E8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -127 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -127 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "E1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -124.46 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -124.46 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "F1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -121.92 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -121.92 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "G2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -119.38 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -119.38 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "K16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -116.84 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -116.84 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "K17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -114.3 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -114.3 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "L16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -111.76 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -111.76 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "L17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -109.22 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -109.22 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "M16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -106.68 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -106.68 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "M17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -104.14 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -104.14 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N17" (effects (font (size 1.27 1.27))))
       )
@@ -6254,6 +6254,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 128KB flash, 864KB RAM, 480MHz, 1.7-3.6V, 140 GPIO, UFBGA-176" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "UFBGA*10x10mm*Layout15x15*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32H7:STM32H753IITx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -30.48 107.95 0)
@@ -7438,6 +7441,9 @@
     (property "ki_description" "ARM Cortex-M7 MCU, 128KB flash, 864KB RAM, 480MHz, 1.7-3.6V, 82 GPIO, LQFP-100" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LQFP*14x14mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
   (symbol "MCU_ST_STM32H7:STM32H753XIHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -68.58 130.81 0)
@@ -7471,43 +7477,43 @@
         (name "BOOT0" (effects (font (size 1.27 1.27))))
         (number "E8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -127 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -127 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "E1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -124.46 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -124.46 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "F1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -121.92 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -121.92 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "G2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -119.38 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -119.38 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "K16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -116.84 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -116.84 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "K17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -114.3 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -114.3 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "L16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -111.76 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -111.76 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "L17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -109.22 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -109.22 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "M16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -106.68 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -106.68 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "M17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -68.58 -104.14 0) (length 5.08) hide
+      (pin no_connect line (at -68.58 -104.14 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N17" (effects (font (size 1.27 1.27))))
       )
@@ -8530,6 +8536,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "ARM Cortex-M7 MCU, 128KB flash, 864KB RAM, 480MHz, 1.7-3.6V, 168 GPIO, TFBGA-240" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TFBGA*14x14mm*Layout17x17*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
