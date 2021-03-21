@@ -10,13 +10,13 @@ if( APPLE )
     set( CMAKE_INSTALL_PREFIX "/Library/Application Support/kicad/" CACHE PATH "" )
 
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
-    set( KICAD_LIBRARY library )
+    set( KICAD_LIBRARY symbols )
     set( KICAD_TEMPLATE template )
 else()
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
     set( KICAD_DATA share/kicad
          CACHE PATH "Location of KiCad data files." )
-    set( KICAD_LIBRARY ${KICAD_DATA}/library )
+    set( KICAD_LIBRARY ${KICAD_DATA}/symbols )
     set( KICAD_TEMPLATE ${KICAD_DATA}/template )
 endif()
 
