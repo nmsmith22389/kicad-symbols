@@ -283,7 +283,7 @@
     (property "ki_description" "AD7147 Capacitance to Digital Converter" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "LFCSP-24-1*4x4mm*P0.5mm*2.5x2.5mm" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "LFCSP*24*4x4mm*P0.5mm*2.5x2.5mm" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7147-1_0_1"
