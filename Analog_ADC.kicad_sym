@@ -283,7 +283,7 @@
     (property "ki_description" "AD7147 Capacitance to Digital Converter" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Package_CSP:LFCSP-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "LFCSP-24-1*4x4mm*P0.5mm*2.5x2.5mm" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD7147-1_0_1"
@@ -296,7 +296,7 @@
         (name "CIN6" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at 0 -27.94 90) (length 2.54)
+      (pin power_in line (at 0 -27.94 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
