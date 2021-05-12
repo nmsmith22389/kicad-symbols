@@ -867,6 +867,12 @@
     (property "ki_fp_filters" "DFN*1EP*2x2mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "SGL0622Z_0_0"
+      (pin passive line (at -2.54 -7.62 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "SGL0622Z_1_1"
       (polyline
         (pts
