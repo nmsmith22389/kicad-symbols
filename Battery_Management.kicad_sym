@@ -6811,7 +6811,7 @@
         (name "REG" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin open_emitter line (at 12.7 10.16 180) (length 2.54)
+      (pin open_collector line (at 12.7 10.16 180) (length 2.54)
         (name "ALRT" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
