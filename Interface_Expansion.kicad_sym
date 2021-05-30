@@ -2970,7 +2970,7 @@
     (property "ki_description" "Low voltage 8-channel I2C switch with reset, HVQFN-24" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "HVQFN*4x4mm*P0.5mm*EP2.1x2.1mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "HVQFN*4x4mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCA9547BS_0_1"
