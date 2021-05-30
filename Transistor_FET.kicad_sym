@@ -16321,7 +16321,7 @@
     (property "Value" "AON6411" (id 1) (at 5.08 0 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4.12x4.6mm" (id 2) (at 5.08 -1.905 0)
+    (property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4.12x4.6mm_AO" (id 2) (at 5.08 -1.905 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.aosmd.com/res/data_sheets/AON6411.pdf" (id 3) (at 0 0 90)
