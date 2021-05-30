@@ -3047,6 +3047,10 @@
         (name "~RESET" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
+      (pin power_in line (at 0 -25.4 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "25" (effects (font (size 1.27 1.27))))
+      )
       (pin bidirectional line (at 10.16 10.16 180) (length 2.54)
         (name "SD1" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
