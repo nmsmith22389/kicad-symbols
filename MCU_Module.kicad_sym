@@ -4490,6 +4490,9 @@
     (property "ki_description" "NXP i.MX6ULL/i.MX6UL, 256 or 512 MB RAM, industrial SoM computer, M.2M (NGFF)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*M.2*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "OPOS6UL_NANO_0_1"
       (rectangle (start -17.78 48.26) (end 17.78 -48.26)
         (stroke (width 0.254)) (fill (type background))
