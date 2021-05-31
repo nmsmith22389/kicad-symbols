@@ -1137,7 +1137,7 @@
     (property "Value" "ADV7280xCP" (id 1) (at 11.43 -24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.25x3.25mm" (id 2) (at 0 0 0)
+    (property "Footprint" "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7280.PDF" (id 3) (at 60.96 -63.5 0)
