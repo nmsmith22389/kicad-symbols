@@ -4715,41 +4715,9 @@
         (name "CSI_D7" (effects (font (size 1.27 1.27))))
         (number "58" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -20.32 -33.02 0) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "59" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -20.32 40.64 0) (length 2.54)
         (name "USB_OTG2_DN" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -20.32 -35.56 0) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "60" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -20.32 -38.1 0) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "61" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -20.32 -40.64 0) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "62" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -20.32 -43.18 0) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "63" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -20.32 -45.72 0) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "64" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 20.32 -43.18 180) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "65" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 20.32 -45.72 180) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "66" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 20.32 -22.86 180) (length 2.54)
         (name "CSI_D4" (effects (font (size 1.27 1.27))))
