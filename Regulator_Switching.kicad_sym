@@ -28811,7 +28811,7 @@
     )
     (symbol "SIC401_0_1"
       (rectangle (start -21.59 19.05) (end 19.05 -21.59)
-        (stroke (width 0.1524)) (fill (type background))
+        (stroke (width 0.254)) (fill (type background))
       )
     )
     (symbol "SIC401_1_1"
