@@ -9552,7 +9552,7 @@
     (property "ki_description" "Controlled load switch with low Ron, DFN-12" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*DFN*12*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*DFN*12* DFN*1EP?3x3mm?P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
