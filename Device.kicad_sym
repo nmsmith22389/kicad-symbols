@@ -64311,7 +64311,7 @@
     (property "ki_keywords" "resistor PTC thermistor sensor RTD" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Temperature dependent resistor, positive temperature coefficient, 3-wire interface" (id 5) (at 0 0 0)
+    (property "ki_description" "Temperature dependent resistor, positive temperature coefficient, 4-wire interface" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "PIN_ARRAY_4X1 bornier4 TerminalBlock*4pol" (id 6) (at 0 0 0)
