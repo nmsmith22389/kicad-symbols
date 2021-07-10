@@ -12,6 +12,63 @@ K STC, 8051, microcontroller
 F www.stcmicro.com/datasheet/STC15F2K60S2-en.pdf
 $ENDCMP
 #
+$CMP STC12C5A08S2-35I-LQFP44
+K 8051 microcontroller with 8KB flash
+$ENDCMP
+#
+$CMP STC12C5A16S2-35I-LQFP44
+K 8051 microcontroller with 16KB flash
+$ENDCMP
+#
+$CMP STC12C5A32S2-35I-LQFP44
+K 8051 microcontroller with 32KB flash
+$ENDCMP
+#
+$CMP STC12C5A40S2-35I-LQFP44
+K 8051 microcontroller with 40KB flash
+$ENDCMP
+#
+$CMP STC12C5A48S2-35I-LQFP44
+K 8051 microcontroller with 48KB flash
+$ENDCMP
+#
+$CMP STC12C5A56S2-35I-LQFP44
+K 8051 microcontroller with 56KB flash
+$ENDCMP
+#
+$CMP STC12C5A60S2-35I-LQFP44
+K 8051 microcontroller
+F http://www.stcmcudata.com/datasheet/stc/STC-AD-PDF/STC12C5A60S2.pdf
+$ENDCMP
+#
+$CMP STC12LE5A08S2-35I-LQFP44
+K 8051 microcontroller with 8KB flash and 3.3V power supply
+$ENDCMP
+#
+$CMP STC12LE5A16S2-35I-LQFP44
+K 8051 microcontroller with 16KB flash and 3.3V power supply
+$ENDCMP
+#
+$CMP STC12LE5A32S2-35I-LQFP44
+K 8051 microcontroller with 32KB flash and 3.3V power supply
+$ENDCMP
+#
+$CMP STC12LE5A40S2-35I-LQFP44
+K 8051 microcontroller with 40KB flash and 3.3V power supply
+$ENDCMP
+#
+$CMP STC12LE5A48S2-35I-LQFP44
+K 8051 microcontroller with 48KB flash and 3.3V power supply
+$ENDCMP
+#
+$CMP STC12LE5A56S2-35I-LQFP44
+K 8051 microcontroller with 56KB flash and 3.3V power supply
+$ENDCMP
+#
+$CMP STC12LE5A60S2-35I-LQFP44
+K 8051 microcontroller with 60KB flash and 3.3V power supply
+$ENDCMP
+#
 $CMP STC15W201S-35x-SOP16
 D Single Chip MCU based on the 8051 architecture, 1KB Flash, 4KB EEPROM, SOP-16
 K STC 8051 microcontroller
