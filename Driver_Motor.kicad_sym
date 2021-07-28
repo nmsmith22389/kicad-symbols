@@ -6782,11 +6782,11 @@
       )
     )
   )
-  (symbol "SN:SN754410" (in_bom yes) (on_board yes)
+  (symbol "SN:SN754410NE" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SN754410" (id 1) (at -7.62 15.24 0)
+    (property "Value" "SN754410NE" (id 1) (at -7.62 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (id 2) (at -2.54 22.86 0)
@@ -6804,12 +6804,12 @@
     (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "SN754410_0_1"
+    (symbol "SN754410NE_0_1"
       (rectangle (start -12.7 10.16) (end 12.7 -10.16)
         (stroke (width 0.254)) (fill (type background))
       )
     )
-    (symbol "SN754410_1_1"
+    (symbol "SN754410NE_1_1"
       (pin input line (at -15.24 7.62 0) (length 2.54)
         (name "1,2EN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
