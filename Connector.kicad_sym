@@ -38322,7 +38322,7 @@
       )
     )
   )
-  (symbol "triaxial:Conn_Triaxial" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "triaxial:Conn_Triaxial" (pin_names (offset 0.508) hide) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 0.254 5.588 0)
       (effects (font (size 1.27 1.27)))
     )
