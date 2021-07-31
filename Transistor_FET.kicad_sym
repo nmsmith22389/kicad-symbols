@@ -11659,7 +11659,7 @@
     (property "Reference" "Q" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DMN32D2LDF" (id 1) (at 0 -3.81 0)
+    (property "Value" "DMN32D2LDF" (id 1) (at 6.35 -3.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (id 2) (at 1.27 -24.13 0)
@@ -11687,7 +11687,7 @@
       )
       (polyline
         (pts
-          (xy 0 -5.08)
+          (xy 0 -2.54)
           (xy 0 0)
         )
         (stroke (width 0)) (fill (type none))
@@ -11932,7 +11932,7 @@
         (name "G1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -7.62 90) (length 2.54)
+      (pin passive line (at 0 -5.08 90) (length 2.54)
         (name "S" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
