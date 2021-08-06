@@ -36458,7 +36458,7 @@
     (property "ki_keywords" "buck controller" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "5A, Step Down DC-DC Converter, 4.5-60V Input Voltage, SO-8,  Texas R-PDSO-G8" (id 5) (at 0 0 0)
+    (property "ki_description" "5A, Step Down DC-DC Converter, 4.5-60V Input Voltage, Texas R-PDSO-G8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Texas*R*PDSO*G8*" (id 6) (at 0 0 0)
