@@ -21984,11 +21984,11 @@
       )
     )
   )
-  (symbol "Regulator_Switching:MAX1771" (in_bom yes) (on_board yes)
+  (symbol "Regulator_Switching:MAX1771xSA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "MAX1771" (id 1) (at 6.35 10.16 0)
+    (property "Value" "MAX1771xSA" (id 1) (at 6.35 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (id 2) (at 0 0 0)
@@ -22006,12 +22006,12 @@
     (property "ki_fp_filters" "SO*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "MAX1771_0_1"
+    (symbol "MAX1771xSA_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -7.62)
         (stroke (width 0.254)) (fill (type background))
       )
     )
-    (symbol "MAX1771_1_1"
+    (symbol "MAX1771xSA_1_1"
       (pin output line (at 10.16 5.08 180) (length 2.54)
         (name "EXT" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
