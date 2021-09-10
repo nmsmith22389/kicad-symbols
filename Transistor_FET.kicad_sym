@@ -3688,7 +3688,7 @@
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ndt3055l-d.pdf" (id 3) (at 5.08 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "ki_keywords" "N-Channel MOSFET" (id 4) (at 0 0 0)
+    (property "ki_keywords" "n channel fet" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "4A Id, 60V Vds, N-Channel Logic Level Enhancement Mode MOSFET, SOT-223" (id 5) (at 0 0 0)
