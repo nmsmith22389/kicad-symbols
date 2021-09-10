@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20210619) (generator kicad_symbol_editor)
   (symbol "Transistor_FET:2N7000" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 5.08 1.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -86,15 +86,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -110,6 +101,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "2N7000_1_1"
@@ -230,15 +230,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -254,6 +245,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "3SK263_1_1"
@@ -737,15 +737,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -761,6 +752,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BS107_1_1"
@@ -911,15 +911,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -935,6 +926,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BS250_1_1"
@@ -1039,15 +1039,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -1063,6 +1054,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSB008NE2LX_1_1"
@@ -1788,15 +1788,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -1812,6 +1803,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSB028N06NN3_1_1"
@@ -2100,15 +2100,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -2124,6 +2115,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSB104N08NP3_1_1"
@@ -2274,15 +2274,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -2298,6 +2289,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSB165N15NZ3_1_1"
@@ -2540,15 +2540,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -2564,6 +2555,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSC13DN30NSFD_1_1"
@@ -2676,15 +2676,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 -0.381)
-          (xy 2.032 0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -2700,6 +2691,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 -0.381)
+          (xy 2.032 0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (pin passive line (at 2.54 -5.08 90) (length 2.54)
         (name "SN" (effects (font (size 1.27 1.27))))
@@ -2779,15 +2779,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 -0.381)
-          (xy 1.27 0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -2803,6 +2794,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 -0.381)
+          (xy 1.27 0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (pin passive line (at 2.54 -5.08 90) (length 2.54)
         (name "DP" (effects (font (size 1.27 1.27))))
@@ -2905,15 +2905,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -2929,6 +2920,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSF030NE2LQ_1_1"
@@ -3263,15 +3263,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -3287,6 +3278,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSF450NE7NH3_1_1"
@@ -3483,15 +3483,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -3507,6 +3498,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSP129_1_1"
@@ -3611,15 +3611,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -3635,6 +3626,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSP89_1_1"
@@ -3669,6 +3669,29 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "7A Id, 55V Vds, N-Channel Enhancement Mode MOSFET, SOT-223" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT?223*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "Transistor_FET:NDT3055L" (extends "BSP89")
+    (property "Reference" "Q" (id 0) (at 5.08 1.905 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "NDT3055L" (id 1) (at 5.08 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (id 2) (at 5.08 -3.81 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ndt3055l-d.pdf" (id 3) (at 5.08 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "ki_keywords" "n channel fet" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "4A Id, 60V Vds, N-Channel Logic Level Enhancement Mode MOSFET, SOT-223" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "SOT?223*" (id 6) (at 0 0 0)
@@ -4025,15 +4048,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -4049,6 +4063,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSS138_1_1"
@@ -5579,15 +5602,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -5603,6 +5617,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BSS214NW_1_1"
@@ -5707,15 +5730,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -5731,6 +5745,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BUK9M53-60EX_1_1"
@@ -6740,15 +6763,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -6764,6 +6778,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "BUZ11_1_1"
@@ -7061,15 +7084,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -7085,6 +7099,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "C3M0030090K_1_1"
@@ -7262,15 +7285,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -7286,6 +7300,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "C3M0065090D_1_1"
@@ -7606,15 +7629,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -7630,6 +7644,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "C3M0065090J_1_1"
@@ -7892,15 +7915,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -7916,6 +7930,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "CSD16301Q2_1_1"
@@ -8063,15 +8086,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -8087,6 +8101,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "CSD17578Q5A_1_1"
@@ -10729,15 +10752,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -10753,6 +10767,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "CSD19537Q3_1_1"
@@ -10865,15 +10888,6 @@
       )
       (polyline
         (pts
-          (xy -0.254 0)
-          (xy -1.27 0.381)
-          (xy -1.27 -0.381)
-          (xy -0.254 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 0.254 -0.508)
           (xy 0.381 -0.381)
           (xy 1.143 -0.381)
@@ -10889,6 +10903,15 @@
           (xy 0.762 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.254 0)
+          (xy -1.27 0.381)
+          (xy -1.27 -0.381)
+          (xy -0.254 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "CSD25302Q2_1_1"
@@ -11015,15 +11038,6 @@
     (symbol "DMC2053UVT_1_1"
       (polyline
         (pts
-          (xy -1.524 0)
-          (xy -0.508 0.381)
-          (xy -0.508 -0.381)
-          (xy -1.524 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 0.254 0.508)
           (xy 0.381 0.381)
           (xy 1.143 0.381)
@@ -11039,6 +11053,15 @@
           (xy 0.762 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 0)
+          (xy -0.508 0.381)
+          (xy -0.508 -0.381)
+          (xy -1.524 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (pin passive line (at -7.62 0 0) (length 2.54)
         (name "G" (effects (font (size 1.27 1.27))))
@@ -11056,15 +11079,6 @@
     (symbol "DMC2053UVT_2_1"
       (polyline
         (pts
-          (xy -0.254 0)
-          (xy -1.27 0.381)
-          (xy -1.27 -0.381)
-          (xy -0.254 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 0.254 -0.508)
           (xy 0.381 -0.381)
           (xy 1.143 -0.381)
@@ -11080,6 +11094,15 @@
           (xy 0.762 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.254 0)
+          (xy -1.27 0.381)
+          (xy -1.27 -0.381)
+          (xy -0.254 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (pin passive line (at 0 -5.08 90) (length 2.54)
         (name "S" (effects (font (size 1.27 1.27))))
@@ -11151,8 +11174,8 @@
       )
     )
     (symbol "DMG1012T_1_1"
-      (circle (center -2.286 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (circle (center 1.651 0) (radius 2.794) (stroke (width 0.254)) (fill (type none)))
+      (circle (center -2.286 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (circle (center 2.54 -3.81) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (circle (center 2.54 -1.778) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (circle (center 2.54 1.778) (radius 0.254) (stroke (width 0)) (fill (type outline)))
@@ -11235,15 +11258,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 1.143 -3.81)
           (xy 0.508 -3.429)
           (xy 0.508 -4.191)
@@ -11277,6 +11291,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (pin input line (at -5.08 0 0) (length 2.54)
         (name "G" (effects (font (size 1.27 1.27))))
@@ -11379,15 +11402,6 @@
       )
       (polyline
         (pts
-          (xy -1.524 5.08)
-          (xy -0.508 4.699)
-          (xy -0.508 5.461)
-          (xy -1.524 5.08)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 0.254 4.572)
           (xy 0.381 4.699)
           (xy 1.143 4.699)
@@ -11403,6 +11417,15 @@
           (xy 0.762 4.699)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 5.08)
+          (xy -0.508 4.699)
+          (xy -0.508 5.461)
+          (xy -1.524 5.08)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "DMG9926UDM_1_1"
@@ -11464,15 +11487,6 @@
       )
       (polyline
         (pts
-          (xy -1.524 -5.08)
-          (xy -0.508 -4.699)
-          (xy -0.508 -5.461)
-          (xy -1.524 -5.08)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 0.254 -4.572)
           (xy 0.381 -4.699)
           (xy 1.143 -4.699)
@@ -11488,6 +11502,15 @@
           (xy 0.762 -4.699)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 -5.08)
+          (xy -0.508 -4.699)
+          (xy -0.508 -5.461)
+          (xy -1.524 -5.08)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (pin passive line (at 0 10.16 270) (length 2.54)
         (name "D1" (effects (font (size 1.27 1.27))))
@@ -11602,15 +11625,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -11626,6 +11640,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "DMN3033LDM_1_1"
@@ -11834,15 +11857,6 @@
       )
       (polyline
         (pts
-          (xy -5.461 -0.762)
-          (xy -4.826 -0.508)
-          (xy -4.826 -1.016)
-          (xy -5.461 -0.762)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -3.81 1.778)
           (xy -3.81 0)
           (xy -2.54 0)
@@ -11858,15 +11872,6 @@
           (xy 2.54 0)
         )
         (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.461 -0.762)
-          (xy 4.826 -0.508)
-          (xy 4.826 -1.016)
-          (xy 5.461 -0.762)
-        )
-        (stroke (width 0)) (fill (type outline))
       )
       (polyline
         (pts
@@ -11905,6 +11910,24 @@
           (xy 3.81 0)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.461 -0.762)
+          (xy -4.826 -0.508)
+          (xy -4.826 -1.016)
+          (xy -5.461 -0.762)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 5.461 -0.762)
+          (xy 4.826 -0.508)
+          (xy 4.826 -1.016)
+          (xy 5.461 -0.762)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (polyline
         (pts
@@ -12037,15 +12060,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -12061,6 +12075,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "DMP3013SFV_1_1"
@@ -12173,15 +12196,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -12197,6 +12211,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "FDC2512_1_1"
@@ -12351,9 +12374,9 @@
       )
     )
     (symbol "FDC6330L_1_1"
+      (circle (center -0.889 6.731) (radius 2.794) (stroke (width 0.254)) (fill (type none)))
       (circle (center -2.667 7.62) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (circle (center -0.889 2.54) (radius 0.254) (stroke (width 0)) (fill (type outline)))
-      (circle (center -0.889 6.731) (radius 2.794) (stroke (width 0.254)) (fill (type none)))
       (circle (center 0.889 7.62) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (polyline
         (pts
@@ -12423,15 +12446,6 @@
       )
       (polyline
         (pts
-          (xy -1.524 -2.54)
-          (xy -0.508 -2.159)
-          (xy -0.508 -2.921)
-          (xy -1.524 -2.54)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -1.397 7.874)
           (xy -1.27 8.001)
           (xy -1.27 8.763)
@@ -12450,15 +12464,6 @@
       )
       (polyline
         (pts
-          (xy -0.889 7.366)
-          (xy -0.508 6.35)
-          (xy -1.27 6.35)
-          (xy -0.889 7.366)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 0.254 -2.032)
           (xy 0.381 -2.159)
           (xy 1.143 -2.159)
@@ -12474,6 +12479,24 @@
           (xy 0.762 -2.159)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 -2.54)
+          (xy -0.508 -2.159)
+          (xy -0.508 -2.921)
+          (xy -1.524 -2.54)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -0.889 7.366)
+          (xy -0.508 6.35)
+          (xy -1.27 6.35)
+          (xy -0.889 7.366)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "S1" (effects (font (size 1.27 1.27))))
@@ -12588,15 +12611,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -12612,6 +12626,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "FDG1024NZ_1_1"
@@ -12753,15 +12776,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -12777,6 +12791,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "FDMC8032L_1_1"
@@ -12895,15 +12918,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -12919,6 +12933,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "FDMT80060DC_1_1"
@@ -13138,15 +13161,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -13162,6 +13176,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "FDS6890A_1_1"
@@ -13951,15 +13974,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -13975,6 +13989,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IPB180N10S4-02_1_1"
@@ -14095,15 +14118,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -14119,6 +14133,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IPD50R380CE_1_1"
@@ -14278,15 +14301,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -14302,6 +14316,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IPDD60R050G7_1_1"
@@ -14549,15 +14572,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -14573,6 +14587,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IPT012N08N5_1_1"
@@ -14723,15 +14746,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -14747,6 +14761,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF40DM229_1_1"
@@ -14874,15 +14897,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -14898,6 +14912,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF60DM206_1_1"
@@ -15094,15 +15117,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -15118,6 +15132,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF6613_1_1"
@@ -15291,15 +15314,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -15315,6 +15329,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF6655_1_1"
@@ -15442,15 +15465,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -15466,6 +15480,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF6710S2_1_1"
@@ -15593,15 +15616,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -15617,6 +15631,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF6718L2_1_1"
@@ -15744,15 +15767,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -15768,6 +15782,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF6802SD_1_1"
@@ -15909,15 +15932,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -15933,6 +15947,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF6892S_1_1"
@@ -16039,15 +16062,6 @@
     (symbol "IRF7309IPBF_1_1"
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -16063,6 +16077,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (pin passive line (at 2.54 -5.08 90) (length 2.54)
         (name "S" (effects (font (size 1.27 1.27))))
@@ -16084,15 +16107,6 @@
     (symbol "IRF7309IPBF_2_1"
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -16108,6 +16122,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
       (pin passive line (at 2.54 -5.08 90) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
@@ -16398,15 +16421,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -16422,6 +16436,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF7324_1_1"
@@ -16548,15 +16571,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -16572,6 +16586,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF7404_1_1"
@@ -16719,15 +16742,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -16743,6 +16757,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF7606PBF_1_1"
@@ -16867,15 +16890,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -16891,6 +16905,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF7607PBF_1_1"
@@ -17015,15 +17038,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -17039,6 +17053,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF7665S2_1_1"
@@ -17143,15 +17166,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -17167,6 +17181,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF7739L1_1_1"
@@ -17386,15 +17409,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -17410,6 +17424,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF8721PBF-1_1_1"
@@ -17626,15 +17649,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -17650,6 +17664,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF9383M_1_1"
@@ -17754,15 +17777,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -17778,6 +17792,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRF9540N_1_1"
@@ -17984,24 +18007,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 -5.08)
-          (xy 2.032 -4.699)
-          (xy 2.032 -5.461)
-          (xy 1.016 -5.08)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.016 5.08)
-          (xy 2.032 5.461)
-          (xy 2.032 4.699)
-          (xy 1.016 5.08)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -4.572)
           (xy 2.921 -4.699)
           (xy 3.683 -4.699)
@@ -18035,6 +18040,24 @@
           (xy 3.302 5.461)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 -5.08)
+          (xy 2.032 -4.699)
+          (xy 2.032 -5.461)
+          (xy 1.016 -5.08)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.016 5.08)
+          (xy 2.032 5.461)
+          (xy 2.032 4.699)
+          (xy 1.016 5.08)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRFI4019H_1_1"
@@ -18193,15 +18216,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -18217,6 +18231,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRFTS9342PBF_1_1"
@@ -18333,15 +18356,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -18357,6 +18371,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRL6283M_1_1"
@@ -18461,15 +18484,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -18485,6 +18499,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "IRLIZ44N_1_1"
@@ -18598,15 +18621,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -18622,6 +18636,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "PGA26E07BA_1_1"
@@ -18773,15 +18796,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -18797,6 +18811,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "PMN48XP_1_1"
@@ -18913,15 +18936,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -18937,6 +18951,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "PSMN5R2-60YL_1_1"
@@ -19049,15 +19072,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -19073,6 +19087,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "QM6015D_1_1"
@@ -19177,15 +19200,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -19201,6 +19215,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "STB15N80K5_1_1"
@@ -19489,15 +19512,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -19513,6 +19527,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "STD7NK40Z_1_1"
@@ -19617,15 +19640,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -19641,6 +19655,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "SUD19P06-60_1_1"
@@ -19906,15 +19929,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -19930,6 +19944,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "Si1442DH_1_1"
@@ -20053,21 +20076,21 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 3.302 0.381)
           (xy 2.921 -0.254)
           (xy 3.683 -0.254)
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "Si3456DDV_1_1"
@@ -20184,15 +20207,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -20208,6 +20222,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "Si7141DP_1_1"
@@ -20320,15 +20343,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -20344,6 +20358,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "Si7336ADP_1_1"
@@ -20479,15 +20502,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -20503,6 +20517,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "SiA453EDJ_1_1"
@@ -20630,15 +20653,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -20654,6 +20668,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "SiS415DNT_1_1"
@@ -20812,15 +20835,6 @@
       )
       (polyline
         (pts
-          (xy 1.016 0)
-          (xy 2.032 0.381)
-          (xy 2.032 -0.381)
-          (xy 1.016 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 0.508)
           (xy 2.921 0.381)
           (xy 3.683 0.381)
@@ -20836,6 +20850,15 @@
           (xy 3.302 0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0)
+          (xy 2.032 0.381)
+          (xy 2.032 -0.381)
+          (xy 1.016 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "SiS454DN_1_1"
@@ -20948,15 +20971,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -20972,6 +20986,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TP0610L_1_1"
@@ -21099,15 +21122,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -21123,6 +21137,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TP0610T_1_1"
@@ -21549,15 +21572,6 @@
       )
       (polyline
         (pts
-          (xy 2.286 0)
-          (xy 1.27 0.381)
-          (xy 1.27 -0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.794 -0.508)
           (xy 2.921 -0.381)
           (xy 3.683 -0.381)
@@ -21573,6 +21587,15 @@
           (xy 3.302 -0.381)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 1.27 0.381)
+          (xy 1.27 -0.381)
+          (xy 2.286 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "ZXMP4A16G_1_1"
