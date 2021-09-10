@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20210619) (generator kicad_symbol_editor)
   (symbol "Transformer:0896BM15A0001" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)))
@@ -5520,6 +5520,29 @@
       )
     )
   )
+  (symbol "Transformer:Wuerth_749013011A" (extends "PT61017PEL")
+    (property "Reference" "TR" (id 0) (at 0 10.795 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Wuerth_749013011A" (id 1) (at 0 -10.795 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Transformer_SMD:Transformer_Ethernet_Wuerth_749013011A" (id 2) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/749013011A.pdf" (id 3) (at 0 12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "single port ethernet transformer poe center-tap" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Ethernet LAN 10/100 Base-Tx Transformer with Center Taps" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Transformer*Ethernet*Wuerth*749013011A*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
   (symbol "Transformer:TEZ0.5-D-1" (pin_names (offset 0.0254)) (in_bom yes) (on_board yes)
     (property "Reference" "TR" (id 0) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)))
@@ -9427,22 +9450,6 @@
       )
       (polyline
         (pts
-          (xy 1.524 -7.366)
-          (xy 1.524 -7.62)
-          (xy 1.524 -7.62)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.524 -2.54)
-          (xy 1.524 -2.794)
-          (xy 1.524 -2.794)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 1.524 -2.54)
           (xy 2.54 -2.54)
           (xy 2.54 -2.54)
@@ -9452,26 +9459,10 @@
       (polyline
         (pts
           (xy 1.524 2.54)
-          (xy 1.524 2.794)
-          (xy 1.524 2.794)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.524 2.54)
           (xy 2.54 2.54)
           (xy 2.54 2.54)
         )
         (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.524 7.62)
-          (xy 1.524 7.366)
-          (xy 1.524 7.366)
-        )
-        (stroke (width 0)) (fill (type outline))
       )
       (polyline
         (pts
@@ -9497,6 +9488,38 @@
           (xy -1.524 -4.318)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.524 -7.366)
+          (xy 1.524 -7.62)
+          (xy 1.524 -7.62)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 -2.54)
+          (xy 1.524 -2.794)
+          (xy 1.524 -2.794)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 2.54)
+          (xy 1.524 2.794)
+          (xy 1.524 2.794)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 7.62)
+          (xy 1.524 7.366)
+          (xy 1.524 7.366)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TRANSF3_1_1"
@@ -9569,14 +9592,6 @@
       )
       (polyline
         (pts
-          (xy -1.524 0)
-          (xy -2.54 0)
-          (xy -2.54 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -2.54 5.08)
           (xy -1.524 5.08)
           (xy -1.524 3.048)
@@ -9610,6 +9625,14 @@
           (xy 1.524 -3.048)
         )
         (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 0)
+          (xy -2.54 0)
+          (xy -2.54 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TRANSF4_1_1"
@@ -9678,22 +9701,6 @@
       )
       (polyline
         (pts
-          (xy -1.524 0)
-          (xy -2.54 0)
-          (xy -2.54 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.524 0)
-          (xy 2.54 0)
-          (xy 2.54 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -2.54 5.08)
           (xy -1.524 5.08)
           (xy -1.524 3.048)
@@ -9727,6 +9734,22 @@
           (xy 1.524 -3.048)
         )
         (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 0)
+          (xy -2.54 0)
+          (xy -2.54 0)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 0)
+          (xy 2.54 0)
+          (xy 2.54 0)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TRANSF5_1_1"
@@ -9811,22 +9834,6 @@
       )
       (polyline
         (pts
-          (xy 1.524 -4.826)
-          (xy 1.524 -5.08)
-          (xy 1.524 -5.08)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.524 0)
-          (xy 1.524 -0.254)
-          (xy 1.524 -0.254)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 1.524 0)
           (xy 2.54 0)
           (xy 2.54 0)
@@ -9836,26 +9843,10 @@
       (polyline
         (pts
           (xy 1.524 2.54)
-          (xy 1.524 2.794)
-          (xy 1.524 2.794)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.524 2.54)
           (xy 2.54 2.54)
           (xy 2.54 2.54)
         )
         (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.524 7.62)
-          (xy 1.524 7.366)
-          (xy 1.524 7.366)
-        )
-        (stroke (width 0)) (fill (type outline))
       )
       (polyline
         (pts
@@ -9908,6 +9899,38 @@
           (xy -2.54 7.62)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.524 -4.826)
+          (xy 1.524 -5.08)
+          (xy 1.524 -5.08)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 0)
+          (xy 1.524 -0.254)
+          (xy 1.524 -0.254)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 2.54)
+          (xy 1.524 2.794)
+          (xy 1.524 2.794)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 7.62)
+          (xy 1.524 7.366)
+          (xy 1.524 7.366)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TRANSF6_1_1"
@@ -10024,22 +10047,6 @@
       )
       (polyline
         (pts
-          (xy -1.524 -5.08)
-          (xy -2.54 -5.08)
-          (xy -2.54 -5.08)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy -1.524 7.62)
-          (xy -2.54 7.62)
-          (xy -2.54 7.62)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -1.524 -9.652)
           (xy -1.524 -10.16)
           (xy -2.54 -10.16)
@@ -10113,6 +10120,22 @@
           (xy 2.54 2.54)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 -5.08)
+          (xy -2.54 -5.08)
+          (xy -2.54 -5.08)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.524 7.62)
+          (xy -2.54 7.62)
+          (xy -2.54 7.62)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TRANSF7_1_1"
@@ -10207,30 +10230,6 @@
       )
       (polyline
         (pts
-          (xy -1.524 0)
-          (xy -2.54 0)
-          (xy -2.54 0)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.524 -7.366)
-          (xy 1.524 -7.62)
-          (xy 1.524 -7.62)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.524 -2.54)
-          (xy 1.524 -2.794)
-          (xy 1.524 -2.794)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 1.524 -2.54)
           (xy 2.54 -2.54)
           (xy 2.54 -2.54)
@@ -10240,26 +10239,10 @@
       (polyline
         (pts
           (xy 1.524 2.54)
-          (xy 1.524 2.794)
-          (xy 1.524 2.794)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.524 2.54)
           (xy 2.54 2.54)
           (xy 2.54 2.54)
         )
         (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.524 7.62)
-          (xy 1.524 7.366)
-          (xy 1.524 7.366)
-        )
-        (stroke (width 0)) (fill (type outline))
       )
       (polyline
         (pts
@@ -10294,6 +10277,46 @@
           (xy -1.524 3.048)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 0)
+          (xy -2.54 0)
+          (xy -2.54 0)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 -7.366)
+          (xy 1.524 -7.62)
+          (xy 1.524 -7.62)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 -2.54)
+          (xy 1.524 -2.794)
+          (xy 1.524 -2.794)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 2.54)
+          (xy 1.524 2.794)
+          (xy 1.524 2.794)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.524 7.62)
+          (xy 1.524 7.366)
+          (xy 1.524 7.366)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TRANSF8_1_1"
