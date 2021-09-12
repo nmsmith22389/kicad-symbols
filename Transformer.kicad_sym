@@ -5536,7 +5536,7 @@
     (property "ki_keywords" "single port ethernet transformer poe center tap" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Ethernet LAN 10/100 Base-Tx Transformer with Center Taps" (id 5) (at 0 0 0)
+    (property "ki_description" "Ethernet LAN 10/100 Base-Tx Transformer CT, SMD" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Transformer*Ethernet*Wuerth*749013011A*" (id 6) (at 0 0 0)
