@@ -1165,7 +1165,7 @@
     (property "Value" "AVR128DB32xPT" (id 1) (at 2.54 -30.48 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "Package_QFP:TQFP-48_7x7mm_P0.5mm" (id 2) (at 0 0 0)
+    (property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/AVR128DB28-32-48-64-DataSheet-DS40002247A.pdf" (id 3) (at 0 0 0)
@@ -1177,7 +1177,7 @@
     (property "ki_description" "24MHz, 128kB Flash, 16kB SRAM, 512B EEPROM, 32B USERROW, TQFP-32" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TQFP*7x7mm*P0.5mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TQFP*7x7mm*P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AVR128DB32xPT_0_1"
