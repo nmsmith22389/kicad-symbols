@@ -3523,7 +3523,7 @@
       )
     )
   )
-   (symbol "my_stuff:GND_EU" (power) (in_bom no) (on_board no)
+   (symbol "power:GND_EU" (power) (in_bom no) (on_board no)
     (property "Reference" "#PWR?" (id 0) (at -3.81 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
