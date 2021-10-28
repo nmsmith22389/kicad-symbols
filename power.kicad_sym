@@ -3523,8 +3523,6 @@
       )
     )
   )
-   
-  )
   (symbol "power:HT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 3.048 0)
       (effects (font (size 1.27 1.27)) hide)
