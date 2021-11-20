@@ -30134,7 +30134,7 @@
         (name "PVIN" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 1.27 11.43 270) (length 2.54) hide
+      (pin passive line (at 1.27 11.43 270) (length 2.54) hide
         (name "PVIN" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -30150,15 +30150,15 @@
         (name "PGND" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 1.27 -11.43 90) (length 2.54) hide
+      (pin passive line (at 1.27 -11.43 90) (length 2.54) hide
         (name "PGND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at 10.16 6.35 180) (length 2.54) hide
+      (pin passive line (at 10.16 6.35 180) (length 2.54) hide
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at 10.16 6.35 180) (length 2.54) hide
+      (pin passive line (at 10.16 6.35 180) (length 2.54) hide
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
