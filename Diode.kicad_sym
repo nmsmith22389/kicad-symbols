@@ -10650,7 +10650,7 @@
     (property "ki_description" "400mW Zener Diode, 2.4-36V, SOD-323" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "D*SMF*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "D?SOD?323" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PDZxxB_0_1"
