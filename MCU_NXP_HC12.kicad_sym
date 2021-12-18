@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "MCU_NXP_HC12:MC68HC812A4" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MC68HC812A4" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 16.51 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -20,7 +20,8 @@
     )
     (symbol "MC68HC812A4_0_1"
       (rectangle (start -27.94 83.82) (end 27.94 -71.12)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MC68HC812A4_1_1"
@@ -474,7 +475,7 @@
       )
     )
   )
-  (symbol "MCU_NXP_HC12:MC68HC912" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+  (symbol "MC68HC912" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 8.89 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -495,7 +496,8 @@
     )
     (symbol "MC68HC912_0_1"
       (rectangle (start -20.32 -60.96) (end 20.32 66.04)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MC68HC912_1_1"

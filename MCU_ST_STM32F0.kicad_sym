@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "MCU_ST_STM32F0:STM32F030C6Tx" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "STM32F030C6Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "STM32F030C6Tx_0_1"
       (rectangle (start -12.7 -38.1) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F030C6Tx_1_1"
@@ -221,7 +222,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F030C8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F030C8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -245,7 +246,8 @@
     )
     (symbol "STM32F030C8Tx_0_1"
       (rectangle (start -12.7 -38.1) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F030C8Tx_1_1"
@@ -443,7 +445,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F030CCTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F030CCTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -467,7 +469,8 @@
     )
     (symbol "STM32F030CCTx_0_1"
       (rectangle (start -15.24 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F030CCTx_1_1"
@@ -665,7 +668,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F030F4Px" (in_bom yes) (on_board yes)
+  (symbol "STM32F030F4Px" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -689,7 +692,8 @@
     )
     (symbol "STM32F030F4Px_0_1"
       (rectangle (start -10.16 -17.78) (end 10.16 15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F030F4Px_1_1"
@@ -775,7 +779,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F030K6Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F030K6Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -799,7 +803,8 @@
     )
     (symbol "STM32F030K6Tx_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F030K6Tx_1_1"
@@ -933,7 +938,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F030R8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F030R8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -957,7 +962,8 @@
     )
     (symbol "STM32F030R8Tx_0_1"
       (rectangle (start -12.7 -43.18) (end 12.7 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F030R8Tx_1_1"
@@ -1219,7 +1225,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F030RCTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F030RCTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1243,7 +1249,8 @@
     )
     (symbol "STM32F030RCTx_0_1"
       (rectangle (start -15.24 -43.18) (end 15.24 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F030RCTx_1_1"
@@ -1505,7 +1512,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031C4Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F031C4Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1529,7 +1536,8 @@
     )
     (symbol "STM32F031C4Tx_0_1"
       (rectangle (start -12.7 -38.1) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F031C4Tx_1_1"
@@ -1727,7 +1735,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031C6Tx" (extends "STM32F031C4Tx")
+  (symbol "STM32F031C6Tx" (extends "STM32F031C4Tx")
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1750,7 +1758,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031E6Yx" (in_bom yes) (on_board yes)
+  (symbol "STM32F031E6Yx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1774,7 +1782,8 @@
     )
     (symbol "STM32F031E6Yx_0_1"
       (rectangle (start -10.16 -17.78) (end 10.16 17.78)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F031E6Yx_1_1"
@@ -1880,7 +1889,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031F4Px" (in_bom yes) (on_board yes)
+  (symbol "STM32F031F4Px" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1904,7 +1913,8 @@
     )
     (symbol "STM32F031F4Px_0_1"
       (rectangle (start -10.16 -17.78) (end 10.16 15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F031F4Px_1_1"
@@ -1990,7 +2000,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031F6Px" (extends "STM32F031F4Px")
+  (symbol "STM32F031F6Px" (extends "STM32F031F4Px")
     (property "Reference" "U" (id 0) (at -10.16 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2013,7 +2023,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031G4Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F031G4Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2037,7 +2047,8 @@
     )
     (symbol "STM32F031G4Ux_0_1"
       (rectangle (start -10.16 -20.32) (end 10.16 17.78)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F031G4Ux_1_1"
@@ -2155,7 +2166,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031G6Ux" (extends "STM32F031G4Ux")
+  (symbol "STM32F031G6Ux" (extends "STM32F031G4Ux")
     (property "Reference" "U" (id 0) (at -10.16 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2178,7 +2189,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031K4Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F031K4Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2202,7 +2213,8 @@
     )
     (symbol "STM32F031K4Ux_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F031K4Ux_1_1"
@@ -2340,7 +2352,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031K6Ux" (extends "STM32F031K4Ux")
+  (symbol "STM32F031K6Ux" (extends "STM32F031K4Ux")
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2363,7 +2375,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F031K6Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F031K6Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2387,7 +2399,8 @@
     )
     (symbol "STM32F031K6Tx_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F031K6Tx_1_1"
@@ -2521,7 +2534,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F038C6Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F038C6Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2545,7 +2558,8 @@
     )
     (symbol "STM32F038C6Tx_0_1"
       (rectangle (start -12.7 -40.64) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F038C6Tx_1_1"
@@ -2743,7 +2757,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F038E6Yx" (in_bom yes) (on_board yes)
+  (symbol "STM32F038E6Yx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2767,7 +2781,8 @@
     )
     (symbol "STM32F038E6Yx_0_1"
       (rectangle (start -10.16 -17.78) (end 10.16 17.78)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F038E6Yx_1_1"
@@ -2873,7 +2888,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F038F6Px" (in_bom yes) (on_board yes)
+  (symbol "STM32F038F6Px" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2897,7 +2912,8 @@
     )
     (symbol "STM32F038F6Px_0_1"
       (rectangle (start -10.16 -17.78) (end 10.16 15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F038F6Px_1_1"
@@ -2983,7 +2999,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F038G6Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F038G6Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3007,7 +3023,8 @@
     )
     (symbol "STM32F038G6Ux_0_1"
       (rectangle (start -10.16 -20.32) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F038G6Ux_1_1"
@@ -3125,7 +3142,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F038K6Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F038K6Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3149,7 +3166,8 @@
     )
     (symbol "STM32F038K6Ux_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 22.86)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F038K6Ux_1_1"
@@ -3287,7 +3305,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042C4Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F042C4Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3311,7 +3329,8 @@
     )
     (symbol "STM32F042C4Tx_0_1"
       (rectangle (start -12.7 -35.56) (end 12.7 33.02)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F042C4Tx_1_1"
@@ -3509,7 +3528,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042C6Tx" (extends "STM32F042C4Tx")
+  (symbol "STM32F042C6Tx" (extends "STM32F042C4Tx")
     (property "Reference" "U" (id 0) (at -12.7 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3532,7 +3551,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042C4Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F042C4Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3556,7 +3575,8 @@
     )
     (symbol "STM32F042C4Ux_0_1"
       (rectangle (start -12.7 -35.56) (end 12.7 33.02)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F042C4Ux_1_1"
@@ -3758,7 +3778,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042C6Ux" (extends "STM32F042C4Ux")
+  (symbol "STM32F042C6Ux" (extends "STM32F042C4Ux")
     (property "Reference" "U" (id 0) (at -12.7 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3781,7 +3801,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042F4Px" (in_bom yes) (on_board yes)
+  (symbol "STM32F042F4Px" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3805,7 +3825,8 @@
     )
     (symbol "STM32F042F4Px_0_1"
       (rectangle (start -12.7 -17.78) (end 12.7 15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F042F4Px_1_1"
@@ -3891,7 +3912,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042F6Px" (in_bom yes) (on_board yes)
+  (symbol "STM32F042F6Px" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3915,7 +3936,8 @@
     )
     (symbol "STM32F042F6Px_0_1"
       (rectangle (start -12.7 -17.78) (end 12.7 15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F042F6Px_1_1"
@@ -4001,7 +4023,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042G4Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F042G4Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4025,7 +4047,8 @@
     )
     (symbol "STM32F042G4Ux_0_1"
       (rectangle (start -15.24 -17.78) (end 12.7 17.78)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F042G4Ux_1_1"
@@ -4143,7 +4166,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042G6Ux" (extends "STM32F042G4Ux")
+  (symbol "STM32F042G6Ux" (extends "STM32F042G4Ux")
     (property "Reference" "U" (id 0) (at -15.24 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4166,7 +4189,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042K4Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F042K4Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4190,7 +4213,8 @@
     )
     (symbol "STM32F042K4Tx_0_1"
       (rectangle (start -10.16 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F042K4Tx_1_1"
@@ -4324,7 +4348,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042K6Tx" (extends "STM32F042K4Tx")
+  (symbol "STM32F042K6Tx" (extends "STM32F042K4Tx")
     (property "Reference" "U" (id 0) (at -10.16 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4347,7 +4371,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042K4Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F042K4Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4371,7 +4395,8 @@
     )
     (symbol "STM32F042K4Ux_0_1"
       (rectangle (start -10.16 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F042K4Ux_1_1"
@@ -4509,7 +4534,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042K6Ux" (extends "STM32F042K4Ux")
+  (symbol "STM32F042K6Ux" (extends "STM32F042K4Ux")
     (property "Reference" "U" (id 0) (at -10.16 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4532,7 +4557,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F042T6Yx" (in_bom yes) (on_board yes)
+  (symbol "STM32F042T6Yx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4556,7 +4581,8 @@
     )
     (symbol "STM32F042T6Yx_0_1"
       (rectangle (start -10.16 -25.4) (end 10.16 22.86)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F042T6Yx_1_1"
@@ -4706,7 +4732,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F048C6Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F048C6Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4730,7 +4756,8 @@
     )
     (symbol "STM32F048C6Ux_0_1"
       (rectangle (start -12.7 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F048C6Ux_1_1"
@@ -4932,7 +4959,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F048G6Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F048G6Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4956,7 +4983,8 @@
     )
     (symbol "STM32F048G6Ux_0_1"
       (rectangle (start -15.24 -20.32) (end 12.7 17.78)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F048G6Ux_1_1"
@@ -5074,7 +5102,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F048T6Yx" (in_bom yes) (on_board yes)
+  (symbol "STM32F048T6Yx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -5098,7 +5126,8 @@
     )
     (symbol "STM32F048T6Yx_0_1"
       (rectangle (start -10.16 -25.4) (end 10.16 25.4)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F048T6Yx_1_1"
@@ -5248,7 +5277,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051C4Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051C4Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -5272,7 +5301,8 @@
     )
     (symbol "STM32F051C4Tx_0_1"
       (rectangle (start -12.7 -38.1) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051C4Tx_1_1"
@@ -5470,7 +5500,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051C4Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F051C4Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -5494,7 +5524,8 @@
     )
     (symbol "STM32F051C4Ux_0_1"
       (rectangle (start -12.7 -38.1) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051C4Ux_1_1"
@@ -5696,7 +5727,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051C6Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051C6Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -5720,7 +5751,8 @@
     )
     (symbol "STM32F051C6Tx_0_1"
       (rectangle (start -12.7 -38.1) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051C6Tx_1_1"
@@ -5918,7 +5950,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051C6Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F051C6Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -5942,7 +5974,8 @@
     )
     (symbol "STM32F051C6Ux_0_1"
       (rectangle (start -12.7 -38.1) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051C6Ux_1_1"
@@ -6144,7 +6177,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051C8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051C8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -6168,7 +6201,8 @@
     )
     (symbol "STM32F051C8Tx_0_1"
       (rectangle (start -12.7 -38.1) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051C8Tx_1_1"
@@ -6366,7 +6400,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051C8Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F051C8Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -6390,7 +6424,8 @@
     )
     (symbol "STM32F051C8Ux_0_1"
       (rectangle (start -12.7 -38.1) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051C8Ux_1_1"
@@ -6592,7 +6627,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051K4Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051K4Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -6616,7 +6651,8 @@
     )
     (symbol "STM32F051K4Tx_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051K4Tx_1_1"
@@ -6750,7 +6786,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051K4Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F051K4Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -6774,7 +6810,8 @@
     )
     (symbol "STM32F051K4Ux_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051K4Ux_1_1"
@@ -6912,7 +6949,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051K6Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051K6Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -6936,7 +6973,8 @@
     )
     (symbol "STM32F051K6Tx_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051K6Tx_1_1"
@@ -7070,7 +7108,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051K6Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F051K6Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -7094,7 +7132,8 @@
     )
     (symbol "STM32F051K6Ux_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051K6Ux_1_1"
@@ -7232,7 +7271,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051K8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051K8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -7256,7 +7295,8 @@
     )
     (symbol "STM32F051K8Tx_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051K8Tx_1_1"
@@ -7390,7 +7430,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051K8Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F051K8Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -7414,7 +7454,8 @@
     )
     (symbol "STM32F051K8Ux_0_1"
       (rectangle (start -12.7 -22.86) (end 10.16 20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051K8Ux_1_1"
@@ -7552,7 +7593,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051R4Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051R4Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -7576,7 +7617,8 @@
     )
     (symbol "STM32F051R4Tx_0_1"
       (rectangle (start -12.7 -43.18) (end 12.7 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051R4Tx_1_1"
@@ -7838,7 +7880,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051R6Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051R6Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -7862,7 +7904,8 @@
     )
     (symbol "STM32F051R6Tx_0_1"
       (rectangle (start -12.7 -43.18) (end 12.7 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051R6Tx_1_1"
@@ -8124,7 +8167,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051R8Hx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051R8Hx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -8148,7 +8191,8 @@
     )
     (symbol "STM32F051R8Hx_0_1"
       (rectangle (start -12.7 -43.18) (end 12.7 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051R8Hx_1_1"
@@ -8410,7 +8454,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051R8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051R8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -8434,7 +8478,8 @@
     )
     (symbol "STM32F051R8Tx_0_1"
       (rectangle (start -12.7 -43.18) (end 12.7 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051R8Tx_1_1"
@@ -8696,7 +8741,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F051T8Yx" (in_bom yes) (on_board yes)
+  (symbol "STM32F051T8Yx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -8720,7 +8765,8 @@
     )
     (symbol "STM32F051T8Yx_0_1"
       (rectangle (start -12.7 -25.4) (end 10.16 25.4)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F051T8Yx_1_1"
@@ -8870,7 +8916,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F058C8Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F058C8Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -8894,7 +8940,8 @@
     )
     (symbol "STM32F058C8Ux_0_1"
       (rectangle (start -12.7 -40.64) (end 12.7 38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F058C8Ux_1_1"
@@ -9096,7 +9143,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F058R8Hx" (in_bom yes) (on_board yes)
+  (symbol "STM32F058R8Hx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -9120,7 +9167,8 @@
     )
     (symbol "STM32F058R8Hx_0_1"
       (rectangle (start -12.7 -43.18) (end 12.7 40.64)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F058R8Hx_1_1"
@@ -9382,7 +9430,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F058R8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F058R8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -9406,7 +9454,8 @@
     )
     (symbol "STM32F058R8Tx_0_1"
       (rectangle (start -12.7 -43.18) (end 12.7 40.64)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F058R8Tx_1_1"
@@ -9668,7 +9717,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F058T8Yx" (in_bom yes) (on_board yes)
+  (symbol "STM32F058T8Yx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -9692,7 +9741,8 @@
     )
     (symbol "STM32F058T8Yx_0_1"
       (rectangle (start -12.7 -27.94) (end 10.16 25.4)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F058T8Yx_1_1"
@@ -9842,7 +9892,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F070C6Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F070C6Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -9866,7 +9916,8 @@
     )
     (symbol "STM32F070C6Tx_0_1"
       (rectangle (start -15.24 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F070C6Tx_1_1"
@@ -10064,7 +10115,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F070CBTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F070CBTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -10088,7 +10139,8 @@
     )
     (symbol "STM32F070CBTx_0_1"
       (rectangle (start -15.24 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F070CBTx_1_1"
@@ -10286,7 +10338,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F070F6Px" (in_bom yes) (on_board yes)
+  (symbol "STM32F070F6Px" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -10310,7 +10362,8 @@
     )
     (symbol "STM32F070F6Px_0_1"
       (rectangle (start -15.24 -17.78) (end 12.7 15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F070F6Px_1_1"
@@ -10396,7 +10449,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F070RBTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F070RBTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -10420,7 +10473,8 @@
     )
     (symbol "STM32F070RBTx_0_1"
       (rectangle (start -15.24 -43.18) (end 15.24 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F070RBTx_1_1"
@@ -10682,7 +10736,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071C8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F071C8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -10706,7 +10760,8 @@
     )
     (symbol "STM32F071C8Tx_0_1"
       (rectangle (start -15.24 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F071C8Tx_1_1"
@@ -10904,7 +10959,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071CBTx" (extends "STM32F071C8Tx")
+  (symbol "STM32F071CBTx" (extends "STM32F071C8Tx")
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -10927,7 +10982,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071C8Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F071C8Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -10951,7 +11006,8 @@
     )
     (symbol "STM32F071C8Ux_0_1"
       (rectangle (start -15.24 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F071C8Ux_1_1"
@@ -11153,7 +11209,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071CBUx" (extends "STM32F071C8Ux")
+  (symbol "STM32F071CBUx" (extends "STM32F071C8Ux")
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -11176,7 +11232,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071CBYx" (in_bom yes) (on_board yes)
+  (symbol "STM32F071CBYx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -11200,7 +11256,8 @@
     )
     (symbol "STM32F071CBYx_0_1"
       (rectangle (start -15.24 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F071CBYx_1_1"
@@ -11402,7 +11459,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071RBTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F071RBTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -11426,7 +11483,8 @@
     )
     (symbol "STM32F071RBTx_0_1"
       (rectangle (start -15.24 -43.18) (end 15.24 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F071RBTx_1_1"
@@ -11688,7 +11746,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071V8Hx" (in_bom yes) (on_board yes)
+  (symbol "STM32F071V8Hx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -11712,7 +11770,8 @@
     )
     (symbol "STM32F071V8Hx_0_1"
       (rectangle (start -15.24 -66.04) (end 15.24 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F071V8Hx_1_1"
@@ -12118,7 +12177,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071VBHx" (extends "STM32F071V8Hx")
+  (symbol "STM32F071VBHx" (extends "STM32F071V8Hx")
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -12141,7 +12200,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071V8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F071V8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -12165,7 +12224,8 @@
     )
     (symbol "STM32F071V8Tx_0_1"
       (rectangle (start -15.24 -66.04) (end 15.24 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F071V8Tx_1_1"
@@ -12571,7 +12631,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F071VBTx" (extends "STM32F071V8Tx")
+  (symbol "STM32F071VBTx" (extends "STM32F071V8Tx")
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -12594,7 +12654,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072C8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F072C8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -12618,7 +12678,8 @@
     )
     (symbol "STM32F072C8Tx_0_1"
       (rectangle (start -15.24 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F072C8Tx_1_1"
@@ -12816,7 +12877,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072CBTx" (extends "STM32F072C8Tx")
+  (symbol "STM32F072CBTx" (extends "STM32F072C8Tx")
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -12839,7 +12900,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072C8Ux" (in_bom yes) (on_board yes)
+  (symbol "STM32F072C8Ux" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -12863,7 +12924,8 @@
     )
     (symbol "STM32F072C8Ux_0_1"
       (rectangle (start -15.24 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F072C8Ux_1_1"
@@ -13065,7 +13127,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072CBUx" (extends "STM32F072C8Ux")
+  (symbol "STM32F072CBUx" (extends "STM32F072C8Ux")
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -13088,7 +13150,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072CBYx" (in_bom yes) (on_board yes)
+  (symbol "STM32F072CBYx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -13112,7 +13174,8 @@
     )
     (symbol "STM32F072CBYx_0_1"
       (rectangle (start -15.24 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F072CBYx_1_1"
@@ -13314,7 +13377,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072R8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F072R8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -13338,7 +13401,8 @@
     )
     (symbol "STM32F072R8Tx_0_1"
       (rectangle (start -15.24 -43.18) (end 15.24 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F072R8Tx_1_1"
@@ -13600,7 +13664,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072RBTx" (extends "STM32F072R8Tx")
+  (symbol "STM32F072RBTx" (extends "STM32F072R8Tx")
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -13623,7 +13687,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072RBHx" (in_bom yes) (on_board yes)
+  (symbol "STM32F072RBHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -13647,7 +13711,8 @@
     )
     (symbol "STM32F072RBHx_0_1"
       (rectangle (start -15.24 -43.18) (end 15.24 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F072RBHx_1_1"
@@ -13909,7 +13974,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072RBIx" (in_bom yes) (on_board yes)
+  (symbol "STM32F072RBIx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -13933,7 +13998,8 @@
     )
     (symbol "STM32F072RBIx_0_1"
       (rectangle (start -15.24 -43.18) (end 15.24 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F072RBIx_1_1"
@@ -14195,7 +14261,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072V8Hx" (in_bom yes) (on_board yes)
+  (symbol "STM32F072V8Hx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -14219,7 +14285,8 @@
     )
     (symbol "STM32F072V8Hx_0_1"
       (rectangle (start -15.24 -66.04) (end 15.24 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F072V8Hx_1_1"
@@ -14625,7 +14692,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072VBHx" (extends "STM32F072V8Hx")
+  (symbol "STM32F072VBHx" (extends "STM32F072V8Hx")
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -14648,7 +14715,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072V8Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F072V8Tx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -14672,7 +14739,8 @@
     )
     (symbol "STM32F072V8Tx_0_1"
       (rectangle (start -15.24 -66.04) (end 15.24 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F072V8Tx_1_1"
@@ -15078,7 +15146,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F072VBTx" (extends "STM32F072V8Tx")
+  (symbol "STM32F072VBTx" (extends "STM32F072V8Tx")
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -15101,7 +15169,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F078CBTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F078CBTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -15125,7 +15193,8 @@
     )
     (symbol "STM32F078CBTx_0_1"
       (rectangle (start -15.24 -38.1) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F078CBTx_1_1"
@@ -15323,7 +15392,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F078CBUx" (in_bom yes) (on_board yes)
+  (symbol "STM32F078CBUx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -15347,7 +15416,8 @@
     )
     (symbol "STM32F078CBUx_0_1"
       (rectangle (start -15.24 -38.1) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F078CBUx_1_1"
@@ -15549,7 +15619,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F078CBYx" (in_bom yes) (on_board yes)
+  (symbol "STM32F078CBYx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -15573,7 +15643,8 @@
     )
     (symbol "STM32F078CBYx_0_1"
       (rectangle (start -15.24 -38.1) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F078CBYx_1_1"
@@ -15775,7 +15846,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F078RBHx" (in_bom yes) (on_board yes)
+  (symbol "STM32F078RBHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -15799,7 +15870,8 @@
     )
     (symbol "STM32F078RBHx_0_1"
       (rectangle (start -15.24 -43.18) (end 15.24 40.64)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F078RBHx_1_1"
@@ -16061,7 +16133,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F078RBTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F078RBTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -16085,7 +16157,8 @@
     )
     (symbol "STM32F078RBTx_0_1"
       (rectangle (start -15.24 -43.18) (end 15.24 40.64)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F078RBTx_1_1"
@@ -16347,7 +16420,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F078VBHx" (in_bom yes) (on_board yes)
+  (symbol "STM32F078VBHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -16371,7 +16444,8 @@
     )
     (symbol "STM32F078VBHx_0_1"
       (rectangle (start -15.24 -63.5) (end 15.24 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F078VBHx_1_1"
@@ -16777,7 +16851,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F078VBTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F078VBTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -16801,7 +16875,8 @@
     )
     (symbol "STM32F078VBTx_0_1"
       (rectangle (start -15.24 -63.5) (end 15.24 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F078VBTx_1_1"
@@ -17207,7 +17282,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091CBTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F091CBTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -17231,7 +17306,8 @@
     )
     (symbol "STM32F091CBTx_0_1"
       (rectangle (start -12.7 -35.56) (end 12.7 33.02)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F091CBTx_1_1"
@@ -17429,7 +17505,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091CCTx" (extends "STM32F091CBTx")
+  (symbol "STM32F091CCTx" (extends "STM32F091CBTx")
     (property "Reference" "U" (id 0) (at -12.7 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -17452,7 +17528,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091CBUx" (in_bom yes) (on_board yes)
+  (symbol "STM32F091CBUx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -17476,7 +17552,8 @@
     )
     (symbol "STM32F091CBUx_0_1"
       (rectangle (start -12.7 -35.56) (end 12.7 33.02)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F091CBUx_1_1"
@@ -17678,7 +17755,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091CCUx" (extends "STM32F091CBUx")
+  (symbol "STM32F091CCUx" (extends "STM32F091CBUx")
     (property "Reference" "U" (id 0) (at -12.7 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -17701,7 +17778,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091RBTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F091RBTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -17725,7 +17802,8 @@
     )
     (symbol "STM32F091RBTx_0_1"
       (rectangle (start -15.24 -43.18) (end 12.7 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F091RBTx_1_1"
@@ -17987,7 +18065,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091RCTx" (extends "STM32F091RBTx")
+  (symbol "STM32F091RCTx" (extends "STM32F091RBTx")
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -18010,7 +18088,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091RCHx" (in_bom yes) (on_board yes)
+  (symbol "STM32F091RCHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -18034,7 +18112,8 @@
     )
     (symbol "STM32F091RCHx_0_1"
       (rectangle (start -15.24 -43.18) (end 12.7 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F091RCHx_1_1"
@@ -18296,7 +18375,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091RCYx" (in_bom yes) (on_board yes)
+  (symbol "STM32F091RCYx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -18320,7 +18399,8 @@
     )
     (symbol "STM32F091RCYx_0_1"
       (rectangle (start -15.24 -43.18) (end 12.7 43.18)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F091RCYx_1_1"
@@ -18582,7 +18662,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091VBTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F091VBTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -18606,7 +18686,8 @@
     )
     (symbol "STM32F091VBTx_0_1"
       (rectangle (start -15.24 -66.04) (end 12.7 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F091VBTx_1_1"
@@ -19012,7 +19093,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091VCTx" (extends "STM32F091VBTx")
+  (symbol "STM32F091VCTx" (extends "STM32F091VBTx")
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -19035,7 +19116,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F091VCHx" (in_bom yes) (on_board yes)
+  (symbol "STM32F091VCHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -19059,7 +19140,8 @@
     )
     (symbol "STM32F091VCHx_0_1"
       (rectangle (start -15.24 -66.04) (end 12.7 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F091VCHx_1_1"
@@ -19465,7 +19547,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F098CCTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F098CCTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -19489,7 +19571,8 @@
     )
     (symbol "STM32F098CCTx_0_1"
       (rectangle (start -12.7 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F098CCTx_1_1"
@@ -19687,7 +19770,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F098CCUx" (in_bom yes) (on_board yes)
+  (symbol "STM32F098CCUx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -19711,7 +19794,8 @@
     )
     (symbol "STM32F098CCUx_0_1"
       (rectangle (start -12.7 -35.56) (end 12.7 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F098CCUx_1_1"
@@ -19913,7 +19997,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F098RCHx" (in_bom yes) (on_board yes)
+  (symbol "STM32F098RCHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -19937,7 +20021,8 @@
     )
     (symbol "STM32F098RCHx_0_1"
       (rectangle (start -15.24 -43.18) (end 12.7 40.64)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F098RCHx_1_1"
@@ -20199,7 +20284,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F098RCTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F098RCTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -20223,7 +20308,8 @@
     )
     (symbol "STM32F098RCTx_0_1"
       (rectangle (start -15.24 -43.18) (end 12.7 40.64)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F098RCTx_1_1"
@@ -20485,7 +20571,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F098RCYx" (in_bom yes) (on_board yes)
+  (symbol "STM32F098RCYx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -20509,7 +20595,8 @@
     )
     (symbol "STM32F098RCYx_0_1"
       (rectangle (start -15.24 -43.18) (end 12.7 40.64)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F098RCYx_1_1"
@@ -20771,7 +20858,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F098VCHx" (in_bom yes) (on_board yes)
+  (symbol "STM32F098VCHx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -20795,7 +20882,8 @@
     )
     (symbol "STM32F098VCHx_0_1"
       (rectangle (start -15.24 -63.5) (end 12.7 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F098VCHx_1_1"
@@ -21201,7 +21289,7 @@
       )
     )
   )
-  (symbol "MCU_ST_STM32F0:STM32F098VCTx" (in_bom yes) (on_board yes)
+  (symbol "STM32F098VCTx" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -21225,7 +21313,8 @@
     )
     (symbol "STM32F098VCTx_0_1"
       (rectangle (start -15.24 -63.5) (end 12.7 63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "STM32F098VCTx_1_1"
