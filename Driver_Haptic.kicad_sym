@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "Driver_Haptic:DRV2510-Q1" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "DRV2510-Q1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 -13.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -93,11 +93,12 @@
     )
     (symbol "DRV2510-Q1_0_1"
       (rectangle (start -10.16 12.7) (end 10.16 -12.7)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
   )
-  (symbol "Driver_Haptic:DRV2605LDGS" (in_bom yes) (on_board yes)
+  (symbol "DRV2605LDGS" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.255 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
@@ -121,7 +122,8 @@
     )
     (symbol "DRV2605LDGS_0_1"
       (rectangle (start -10.16 7.62) (end 10.16 -7.62)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "DRV2605LDGS_1_1"

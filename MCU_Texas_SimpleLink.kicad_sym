@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "MCU_Texas_SimpleLink:CC1312R1F3RGZ" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CC1312R1F3RGZ" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -16.51 -36.83 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "CC1312R1F3RGZ_0_1"
       (rectangle (start -17.78 35.56) (end 17.78 -35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "CC1312R1F3RGZ_1_1"
@@ -140,7 +141,7 @@
         (number "34" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -20.32 10.16 0) (length 2.54)
-        (name "~RESET" (effects (font (size 1.27 1.27))))
+        (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 20.32 -7.62 180) (length 2.54)
