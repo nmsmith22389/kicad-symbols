@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "FPGA_Lattice:ICE40HX1K-TQ144" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ICE40HX1K-TQ144" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -26,7 +26,8 @@
     )
     (symbol "ICE40HX1K-TQ144_1_1"
       (rectangle (start -8.89 31.75) (end 8.89 -31.75)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 27.94 0) (length 3.81)
         (name "IOT_73" (effects (font (size 1.27 1.27))))
@@ -151,7 +152,8 @@
     )
     (symbol "ICE40HX1K-TQ144_2_1"
       (rectangle (start -8.89 34.29) (end 8.89 -34.29)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 38.1 270) (length 3.81) hide
         (name "VCCIO_1" (effects (font (size 1.27 1.27))))
@@ -284,7 +286,8 @@
     )
     (symbol "ICE40HX1K-TQ144_3_1"
       (rectangle (start -8.89 29.21) (end 8.89 -29.21)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin no_connect line (at 7.62 -10.16 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
@@ -397,7 +400,8 @@
     )
     (symbol "ICE40HX1K-TQ144_4_1"
       (rectangle (start -8.89 34.29) (end 8.89 -34.29)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 27.94 0) (length 3.81)
         (name "IOL_1A" (effects (font (size 1.27 1.27))))
@@ -526,7 +530,8 @@
     )
     (symbol "ICE40HX1K-TQ144_5_1"
       (rectangle (start -11.43 13.97) (end 11.43 -13.97)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 -17.78 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -589,7 +594,7 @@
         (number "65" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 -10.16 0) (length 3.81)
-        (name "~CRESET_B" (effects (font (size 1.27 1.27))))
+        (name "~{CRESET_B}" (effects (font (size 1.27 1.27))))
         (number "66" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -15.24 2.54 0) (length 3.81)
@@ -626,7 +631,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:ICE40HX4K-TQ144" (in_bom yes) (on_board yes)
+  (symbol "ICE40HX4K-TQ144" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 12.7 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -653,7 +658,8 @@
     )
     (symbol "ICE40HX4K-TQ144_1_1"
       (rectangle (start -8.89 41.91) (end 6.35 -36.83)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 30.48 0) (length 3.81)
         (name "IOT_168" (effects (font (size 1.27 1.27))))
@@ -774,7 +780,8 @@
     )
     (symbol "ICE40HX4K-TQ144_2_1"
       (rectangle (start -8.89 44.45) (end 6.35 -39.37)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 48.26 270) (length 3.81) hide
         (name "VCCIO_1" (effects (font (size 1.27 1.27))))
@@ -903,7 +910,8 @@
     )
     (symbol "ICE40HX4K-TQ144_3_1"
       (rectangle (start -8.89 31.75) (end 7.62 -26.67)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 20.32 0) (length 3.81)
         (name "IOB_56" (effects (font (size 1.27 1.27))))
@@ -992,7 +1000,8 @@
     )
     (symbol "ICE40HX4K-TQ144_4_1"
       (rectangle (start -8.89 41.91) (end 6.35 -39.37)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 30.48 0) (length 3.81)
         (name "IOL_2A" (effects (font (size 1.27 1.27))))
@@ -1117,7 +1126,8 @@
     )
     (symbol "ICE40HX4K-TQ144_5_1"
       (rectangle (start -11.43 13.97) (end 13.97 -13.97)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 -17.78 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -1212,7 +1222,7 @@
         (number "65" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 -10.16 0) (length 3.81)
-        (name "~CRESET" (effects (font (size 1.27 1.27))))
+        (name "~{CRESET}" (effects (font (size 1.27 1.27))))
         (number "66" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -15.24 2.54 0) (length 3.81)
@@ -1253,7 +1263,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:ICE40HX8K-BG121" (in_bom yes) (on_board yes)
+  (symbol "ICE40HX8K-BG121" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1280,7 +1290,8 @@
     )
     (symbol "ICE40HX8K-BG121_1_1"
       (rectangle (start -8.89 31.75) (end 8.89 -38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 -35.56 0) (length 3.81)
         (name "IOT_225" (effects (font (size 1.27 1.27))))
@@ -1381,7 +1392,8 @@
     )
     (symbol "ICE40HX8K-BG121_2_1"
       (rectangle (start -8.89 31.75) (end 8.89 -33.02)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 -30.48 0) (length 3.81)
         (name "IOR_161" (effects (font (size 1.27 1.27))))
@@ -1474,7 +1486,8 @@
     )
     (symbol "ICE40HX8K-BG121_3_1"
       (rectangle (start -11.43 29.21) (end 11.43 -31.75)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at 0 33.02 270) (length 3.81)
         (name "VCCIO_2" (effects (font (size 1.27 1.27))))
@@ -1561,13 +1574,14 @@
         (number "L8" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 25.4 0) (length 3.81)
-        (name "~CRESET" (effects (font (size 1.27 1.27))))
+        (name "~{CRESET}" (effects (font (size 1.27 1.27))))
         (number "L9" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "ICE40HX8K-BG121_4_1"
       (rectangle (start -8.89 39.37) (end 8.89 -39.37)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 27.94 0) (length 3.81)
         (name "IOL_2A" (effects (font (size 1.27 1.27))))
@@ -1684,7 +1698,8 @@
     )
     (symbol "ICE40HX8K-BG121_5_1"
       (rectangle (start -11.43 13.97) (end 11.43 -13.97)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at -2.54 17.78 270) (length 3.81)
         (name "VPP_FAST" (effects (font (size 1.27 1.27))))
@@ -1788,7 +1803,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:ICE40HX4K-BG121" (extends "ICE40HX8K-BG121")
+  (symbol "ICE40HX4K-BG121" (extends "ICE40HX8K-BG121")
     (property "Reference" "U" (id 0) (at 2.54 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1811,7 +1826,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:ICE40UL1K-SWG16" (in_bom yes) (on_board yes)
+  (symbol "ICE40UL1K-SWG16" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 8.89 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1835,7 +1850,8 @@
     )
     (symbol "ICE40UL1K-SWG16_0_1"
       (rectangle (start -17.78 20.32) (end 17.78 -20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "ICE40UL1K-SWG16_1_1"
@@ -1905,7 +1921,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:ICE40UP5K-SG48ITR" (in_bom yes) (on_board yes)
+  (symbol "ICE40UP5K-SG48ITR" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 -29.21 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1932,7 +1948,8 @@
     )
     (symbol "ICE40UP5K-SG48ITR_1_1"
       (rectangle (start -7.62 25.4) (end 7.62 -27.94)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 12.7 0) (length 2.54)
         (name "IOT_37a" (effects (font (size 1.27 1.27))))
@@ -2009,7 +2026,8 @@
     )
     (symbol "ICE40UP5K-SG48ITR_2_1"
       (rectangle (start -10.16 25.4) (end 10.16 -25.4)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 5.08 0) (length 2.54)
         (name "IOB_18a" (effects (font (size 1.27 1.27))))
@@ -2072,7 +2090,7 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -12.7 17.78 0) (length 2.54)
-        (name "~CRESET" (effects (font (size 1.27 1.27))))
+        (name "~{CRESET}" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -12.7 7.62 0) (length 2.54)
@@ -2082,7 +2100,8 @@
     )
     (symbol "ICE40UP5K-SG48ITR_3_1"
       (rectangle (start -7.62 15.24) (end 7.62 -15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at 0 17.78 270) (length 2.54)
         (name "VCCIO_2" (effects (font (size 1.27 1.27))))
@@ -2123,7 +2142,8 @@
     )
     (symbol "ICE40UP5K-SG48ITR_4_1"
       (rectangle (start -5.08 7.62) (end 5.08 -7.62)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at -2.54 10.16 270) (length 2.54)
         (name "VPP_2V5" (effects (font (size 1.27 1.27))))
@@ -2147,7 +2167,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:ICE5LP1K-SG48" (extends "ICE40UP5K-SG48ITR")
+  (symbol "ICE5LP1K-SG48" (extends "ICE40UP5K-SG48ITR")
     (property "Reference" "U" (id 0) (at -8.89 -29.21 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -2170,7 +2190,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5U-85F-8BG381x" (in_bom yes) (on_board yes)
+  (symbol "LFE5U-85F-8BG381x" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2197,111 +2217,8 @@
     )
     (symbol "LFE5U-85F-8BG381x_1_1"
       (rectangle (start -25.4 10.16) (end 25.4 -10.16)
-        (stroke (width 0.3048)) (fill (type background))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U11" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U13" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U14" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U9" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V13" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V14" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V16" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V19" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V20" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V9" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W16" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W19" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W7" (effects (font (size 1.27 1.27))))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -2677,11 +2594,43 @@
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U10" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U11" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U12" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U13" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U14" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
         (number "U15" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "U6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U9" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -2693,11 +2642,63 @@
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V12" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V13" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V14" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V15" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V16" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
         (number "V17" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "V18" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V19" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V20" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V9" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W12" (effects (font (size 1.27 1.27))))
       )
       (pin no_connect line (at 25.4 -5.08 180) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
@@ -2707,6 +2708,14 @@
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "W14" (effects (font (size 1.27 1.27))))
       )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W15" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W16" (effects (font (size 1.27 1.27))))
+      )
       (pin no_connect line (at 25.4 0 180) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "W17" (effects (font (size 1.27 1.27))))
@@ -2714,6 +2723,10 @@
       (pin no_connect line (at 25.4 2.54 180) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "W18" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W19" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -2726,6 +2739,14 @@
       (pin no_connect line (at -25.4 0 0) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "W5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W7" (effects (font (size 1.27 1.27))))
       )
       (pin no_connect line (at -25.4 -2.54 0) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
@@ -2782,7 +2803,8 @@
     )
     (symbol "LFE5U-85F-8BG381x_2_1"
       (rectangle (start -5.08 40.64) (end 5.08 -40.64)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 -27.94 0) (length 5.08)
         (name "PT63A" (effects (font (size 1.27 1.27))))
@@ -2903,7 +2925,8 @@
     )
     (symbol "LFE5U-85F-8BG381x_3_1"
       (rectangle (start -5.08 48.26) (end 5.08 -48.26)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 22.86 0) (length 5.08)
         (name "PT76A" (effects (font (size 1.27 1.27))))
@@ -3048,7 +3071,8 @@
     )
     (symbol "LFE5U-85F-8BG381x_4_1"
       (rectangle (start -5.08 48.26) (end 5.08 -48.26)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 38.1 0) (length 5.08)
         (name "PR11A" (effects (font (size 1.27 1.27))))
@@ -3201,7 +3225,8 @@
     )
     (symbol "LFE5U-85F-8BG381x_5_1"
       (rectangle (start -5.08 48.26) (end 5.08 -48.26)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 53.34 270) (length 5.08) hide
         (name "VCCIO3" (effects (font (size 1.27 1.27))))
@@ -3350,7 +3375,8 @@
     )
     (symbol "LFE5U-85F-8BG381x_6_1"
       (rectangle (start -5.08 48.26) (end 5.08 -48.26)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 35.56 0) (length 5.08)
         (name "PL47B" (effects (font (size 1.27 1.27))))
@@ -3499,7 +3525,8 @@
     )
     (symbol "LFE5U-85F-8BG381x_7_1"
       (rectangle (start -5.08 45.72) (end 5.08 -45.72)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 -5.08 0) (length 5.08)
         (name "PL35A" (effects (font (size 1.27 1.27))))
@@ -3644,7 +3671,8 @@
     )
     (symbol "LFE5U-85F-8BG381x_8_1"
       (rectangle (start -5.08 22.86) (end 5.08 -22.86)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at 0 27.94 270) (length 5.08)
         (name "VCCIO8" (effects (font (size 1.27 1.27))))
@@ -3709,7 +3737,8 @@
     )
     (symbol "LFE5U-85F-8BG381x_9_1"
       (rectangle (start -10.16 12.7) (end 10.16 -12.7)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin input line (at -15.24 -10.16 0) (length 5.08)
         (name "CFG_2" (effects (font (size 1.27 1.27))))
@@ -3740,7 +3769,7 @@
         (number "U5" (effects (font (size 1.27 1.27))))
       )
       (pin open_collector line (at -15.24 2.54 0) (length 5.08)
-        (name "~INIT" (effects (font (size 1.27 1.27))))
+        (name "~{INIT}" (effects (font (size 1.27 1.27))))
         (number "V3" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 15.24 10.16 180) (length 5.08)
@@ -3756,7 +3785,7 @@
         (number "W11" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 5.08 0) (length 5.08)
-        (name "~PROGRAM" (effects (font (size 1.27 1.27))))
+        (name "~{PROGRAM}" (effects (font (size 1.27 1.27))))
         (number "W3" (effects (font (size 1.27 1.27))))
       )
       (pin open_collector line (at -15.24 0 0) (length 5.08)
@@ -3765,7 +3794,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:LFE5U-85F-6BG381x" (extends "LFE5U-85F-8BG381x")
+  (symbol "LFE5U-85F-6BG381x" (extends "LFE5U-85F-8BG381x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3788,7 +3817,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5U-85F-7BG381x" (extends "LFE5U-85F-8BG381x")
+  (symbol "LFE5U-85F-7BG381x" (extends "LFE5U-85F-8BG381x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3811,7 +3840,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5U-85F-8BG756x" (in_bom yes) (on_board yes)
+  (symbol "LFE5U-85F-8BG756x" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3838,7 +3867,8 @@
     )
     (symbol "LFE5U-85F-8BG756x_1_1"
       (rectangle (start -25.4 10.16) (end 25.4 -10.16)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -5211,7 +5241,8 @@
     )
     (symbol "LFE5U-85F-8BG756x_2_1"
       (rectangle (start -5.08 76.2) (end 5.08 -76.2)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 2.54 0) (length 5.08)
         (name "PT31B" (effects (font (size 1.27 1.27))))
@@ -5460,7 +5491,8 @@
     )
     (symbol "LFE5U-85F-8BG756x_3_1"
       (rectangle (start -5.08 66.04) (end 5.08 -66.04)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 50.8 0) (length 5.08)
         (name "PT71A" (effects (font (size 1.27 1.27))))
@@ -5677,7 +5709,8 @@
     )
     (symbol "LFE5U-85F-8BG756x_4_1"
       (rectangle (start -5.08 66.04) (end 5.08 -66.04)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 35.56 0) (length 5.08)
         (name "PR17A" (effects (font (size 1.27 1.27))))
@@ -5894,7 +5927,8 @@
     )
     (symbol "LFE5U-85F-8BG756x_5_1"
       (rectangle (start -5.08 86.36) (end 5.08 -86.36)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 91.44 270) (length 5.08) hide
         (name "VCCIO3" (effects (font (size 1.27 1.27))))
@@ -6175,7 +6209,8 @@
     )
     (symbol "LFE5U-85F-8BG756x_6_1"
       (rectangle (start -5.08 35.56) (end 5.08 -35.56)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at 0 40.64 270) (length 5.08)
         (name "VCCIO4" (effects (font (size 1.27 1.27))))
@@ -6288,7 +6323,8 @@
     )
     (symbol "LFE5U-85F-8BG756x_7_1"
       (rectangle (start -5.08 86.36) (end 5.08 -86.36)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 91.44 270) (length 5.08) hide
         (name "VCCIO6" (effects (font (size 1.27 1.27))))
@@ -6569,7 +6605,8 @@
     )
     (symbol "LFE5U-85F-8BG756x_8_1"
       (rectangle (start -5.08 66.04) (end 5.08 -66.04)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 35.56 0) (length 5.08)
         (name "PL17A" (effects (font (size 1.27 1.27))))
@@ -6782,7 +6819,8 @@
     )
     (symbol "LFE5U-85F-8BG756x_9_1"
       (rectangle (start -5.08 22.86) (end 5.08 -22.86)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at 0 27.94 270) (length 5.08)
         (name "VCCIO8" (effects (font (size 1.27 1.27))))
@@ -6847,10 +6885,11 @@
     )
     (symbol "LFE5U-85F-8BG756x_10_1"
       (rectangle (start -10.16 12.7) (end 10.16 -12.7)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin open_collector line (at -15.24 2.54 0) (length 5.08)
-        (name "~INIT" (effects (font (size 1.27 1.27))))
+        (name "~{INIT}" (effects (font (size 1.27 1.27))))
         (number "AG4" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 15.24 10.16 180) (length 5.08)
@@ -6858,7 +6897,7 @@
         (number "AG5" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 5.08 0) (length 5.08)
-        (name "~PROGRAM" (effects (font (size 1.27 1.27))))
+        (name "~{PROGRAM}" (effects (font (size 1.27 1.27))))
         (number "AH4" (effects (font (size 1.27 1.27))))
       )
       (pin open_collector line (at -15.24 0 0) (length 5.08)
@@ -6911,7 +6950,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:LFE5U-85F-6BG756x" (extends "LFE5U-85F-8BG756x")
+  (symbol "LFE5U-85F-6BG756x" (extends "LFE5U-85F-8BG756x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -6934,7 +6973,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5U-85F-7BG756x" (extends "LFE5U-85F-8BG756x")
+  (symbol "LFE5U-85F-7BG756x" (extends "LFE5U-85F-8BG756x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -6957,7 +6996,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5UM5G-85F-8BG381x" (in_bom yes) (on_board yes)
+  (symbol "LFE5UM5G-85F-8BG381x" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -6984,111 +7023,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_1_1"
       (rectangle (start -25.4 10.16) (end 25.4 -10.16)
-        (stroke (width 0.3048)) (fill (type background))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U11" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U13" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U14" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "U9" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V13" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V14" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V16" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V19" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V20" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "V9" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W16" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W19" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "W7" (effects (font (size 1.27 1.27))))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -7462,6 +7398,26 @@
         (name "VCCHRX1_D0CH1" (effects (font (size 1.27 1.27))))
         (number "T9" (effects (font (size 1.27 1.27))))
       )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U10" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U11" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U12" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U13" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U14" (effects (font (size 1.27 1.27))))
+      )
       (pin passive line (at 20.32 15.24 270) (length 5.08) hide
         (name "VCCA1" (effects (font (size 1.27 1.27))))
         (number "U15" (effects (font (size 1.27 1.27))))
@@ -7469,6 +7425,18 @@
       (pin passive line (at 17.78 15.24 270) (length 5.08) hide
         (name "VCCA0" (effects (font (size 1.27 1.27))))
         (number "U6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "U9" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 5.08 15.24 270) (length 5.08) hide
         (name "VCCAUXA0" (effects (font (size 1.27 1.27))))
@@ -7478,6 +7446,26 @@
         (name "VCCAUXA0" (effects (font (size 1.27 1.27))))
         (number "V11" (effects (font (size 1.27 1.27))))
       )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V12" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V13" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V14" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V15" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V16" (effects (font (size 1.27 1.27))))
+      )
       (pin passive line (at 7.62 15.24 270) (length 5.08) hide
         (name "VCCAUXA1" (effects (font (size 1.27 1.27))))
         (number "V17" (effects (font (size 1.27 1.27))))
@@ -7486,10 +7474,63 @@
         (name "VCCAUXA1" (effects (font (size 1.27 1.27))))
         (number "V18" (effects (font (size 1.27 1.27))))
       )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V19" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V20" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "V9" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W12" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W15" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W16" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W19" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -15.24 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "W7" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "LFE5UM5G-85F-8BG381x_2_1"
       (rectangle (start -5.08 40.64) (end 5.08 -40.64)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 -27.94 0) (length 5.08)
         (name "PT63A" (effects (font (size 1.27 1.27))))
@@ -7610,7 +7651,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_3_1"
       (rectangle (start -5.08 48.26) (end 5.08 -48.26)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 22.86 0) (length 5.08)
         (name "PT76A" (effects (font (size 1.27 1.27))))
@@ -7755,7 +7797,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_4_1"
       (rectangle (start -5.08 48.26) (end 5.08 -48.26)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 38.1 0) (length 5.08)
         (name "PR11A" (effects (font (size 1.27 1.27))))
@@ -7908,7 +7951,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_5_1"
       (rectangle (start -5.08 48.26) (end 5.08 -48.26)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 53.34 270) (length 5.08) hide
         (name "VCCIO3" (effects (font (size 1.27 1.27))))
@@ -8057,7 +8101,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_6_1"
       (rectangle (start -5.08 48.26) (end 5.08 -48.26)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 35.56 0) (length 5.08)
         (name "PL47B" (effects (font (size 1.27 1.27))))
@@ -8206,7 +8251,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_7_1"
       (rectangle (start -5.08 45.72) (end 5.08 -45.72)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 -5.08 0) (length 5.08)
         (name "PL35A" (effects (font (size 1.27 1.27))))
@@ -8351,7 +8397,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_8_1"
       (rectangle (start -5.08 22.86) (end 5.08 -22.86)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at 0 27.94 270) (length 5.08)
         (name "VCCIO8" (effects (font (size 1.27 1.27))))
@@ -8416,7 +8463,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_9_1"
       (rectangle (start -10.16 12.7) (end 10.16 -12.7)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin input line (at -15.24 -10.16 0) (length 5.08)
         (name "CFG_2" (effects (font (size 1.27 1.27))))
@@ -8447,7 +8495,7 @@
         (number "U5" (effects (font (size 1.27 1.27))))
       )
       (pin open_collector line (at -15.24 2.54 0) (length 5.08)
-        (name "~INIT" (effects (font (size 1.27 1.27))))
+        (name "~{INIT}" (effects (font (size 1.27 1.27))))
         (number "V3" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 15.24 10.16 180) (length 5.08)
@@ -8463,7 +8511,7 @@
         (number "W11" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 5.08 0) (length 5.08)
-        (name "~PROGRAM" (effects (font (size 1.27 1.27))))
+        (name "~{PROGRAM}" (effects (font (size 1.27 1.27))))
         (number "W3" (effects (font (size 1.27 1.27))))
       )
       (pin open_collector line (at -15.24 0 0) (length 5.08)
@@ -8473,7 +8521,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_10_1"
       (rectangle (start -10.16 17.78) (end 10.16 -17.78)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin output line (at -15.24 15.24 0) (length 5.08)
         (name "HDTXP0_D0CH0" (effects (font (size 1.27 1.27))))
@@ -8518,7 +8567,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG381x_11_1"
       (rectangle (start -10.16 17.78) (end 10.16 -17.78)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin output line (at -15.24 15.24 0) (length 5.08)
         (name "HDTXP0_D1CH0" (effects (font (size 1.27 1.27))))
@@ -8562,7 +8612,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:LFE5UM-85F-6BG381x" (extends "LFE5UM5G-85F-8BG381x")
+  (symbol "LFE5UM-85F-6BG381x" (extends "LFE5UM5G-85F-8BG381x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -8585,7 +8635,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5UM-85F-7BG381x" (extends "LFE5UM5G-85F-8BG381x")
+  (symbol "LFE5UM-85F-7BG381x" (extends "LFE5UM5G-85F-8BG381x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -8608,7 +8658,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5UM-85F-8BG381x" (extends "LFE5UM5G-85F-8BG381x")
+  (symbol "LFE5UM-85F-8BG381x" (extends "LFE5UM5G-85F-8BG381x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -8631,7 +8681,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5UM5G-85F-8BG756x" (in_bom yes) (on_board yes)
+  (symbol "LFE5UM5G-85F-8BG756x" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -8658,7 +8708,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_1_1"
       (rectangle (start -25.4 10.16) (end 25.4 -10.16)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 -15.24 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -9951,7 +10002,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_2_1"
       (rectangle (start -5.08 76.2) (end 5.08 -76.2)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 2.54 0) (length 5.08)
         (name "PT31B" (effects (font (size 1.27 1.27))))
@@ -10200,7 +10252,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_3_1"
       (rectangle (start -5.08 66.04) (end 5.08 -66.04)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 50.8 0) (length 5.08)
         (name "PT71A" (effects (font (size 1.27 1.27))))
@@ -10417,7 +10470,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_4_1"
       (rectangle (start -5.08 66.04) (end 5.08 -66.04)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 35.56 0) (length 5.08)
         (name "PR17A" (effects (font (size 1.27 1.27))))
@@ -10634,7 +10688,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_5_1"
       (rectangle (start -5.08 86.36) (end 5.08 -86.36)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 91.44 270) (length 5.08) hide
         (name "VCCIO3" (effects (font (size 1.27 1.27))))
@@ -10915,7 +10970,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_6_1"
       (rectangle (start -5.08 35.56) (end 5.08 -35.56)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at 0 40.64 270) (length 5.08)
         (name "VCCIO4" (effects (font (size 1.27 1.27))))
@@ -11028,7 +11084,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_7_1"
       (rectangle (start -5.08 86.36) (end 5.08 -86.36)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 91.44 270) (length 5.08) hide
         (name "VCCIO6" (effects (font (size 1.27 1.27))))
@@ -11309,7 +11366,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_8_1"
       (rectangle (start -5.08 66.04) (end 5.08 -66.04)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -10.16 35.56 0) (length 5.08)
         (name "PL17A" (effects (font (size 1.27 1.27))))
@@ -11522,7 +11580,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_9_1"
       (rectangle (start -5.08 22.86) (end 5.08 -22.86)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at 0 27.94 270) (length 5.08)
         (name "VCCIO8" (effects (font (size 1.27 1.27))))
@@ -11587,10 +11646,11 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_10_1"
       (rectangle (start -10.16 12.7) (end 10.16 -12.7)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin open_collector line (at -15.24 2.54 0) (length 5.08)
-        (name "~INIT" (effects (font (size 1.27 1.27))))
+        (name "~{INIT}" (effects (font (size 1.27 1.27))))
         (number "AG4" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 15.24 10.16 180) (length 5.08)
@@ -11598,7 +11658,7 @@
         (number "AG5" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 5.08 0) (length 5.08)
-        (name "~PROGRAM" (effects (font (size 1.27 1.27))))
+        (name "~{PROGRAM}" (effects (font (size 1.27 1.27))))
         (number "AH4" (effects (font (size 1.27 1.27))))
       )
       (pin open_collector line (at -15.24 0 0) (length 5.08)
@@ -11652,7 +11712,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_11_1"
       (rectangle (start -10.16 17.78) (end 10.16 -17.78)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin output line (at -15.24 12.7 0) (length 5.08)
         (name "HDTXN0_D0CH0" (effects (font (size 1.27 1.27))))
@@ -11697,7 +11758,8 @@
     )
     (symbol "LFE5UM5G-85F-8BG756x_12_1"
       (rectangle (start -10.16 17.78) (end 10.16 -17.78)
-        (stroke (width 0.3048)) (fill (type background))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin output line (at -15.24 15.24 0) (length 5.08)
         (name "HDTXP0_D1CH0" (effects (font (size 1.27 1.27))))
@@ -11741,7 +11803,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:LFE5UM-85F-6BG756x" (extends "LFE5UM5G-85F-8BG756x")
+  (symbol "LFE5UM-85F-6BG756x" (extends "LFE5UM5G-85F-8BG756x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -11764,7 +11826,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5UM-85F-7BG756x" (extends "LFE5UM5G-85F-8BG756x")
+  (symbol "LFE5UM-85F-7BG756x" (extends "LFE5UM5G-85F-8BG756x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -11787,7 +11849,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFE5UM-85F-8BG756x" (extends "LFE5UM5G-85F-8BG756x")
+  (symbol "LFE5UM-85F-8BG756x" (extends "LFE5UM5G-85F-8BG756x")
     (property "Reference" "U" (id 0) (at 24.13 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -11810,7 +11872,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFXP2-5E-5TN144" (in_bom yes) (on_board yes)
+  (symbol "LFXP2-5E-5TN144" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -11845,7 +11907,8 @@
     )
     (symbol "LFXP2-5E-5TN144_1_1"
       (rectangle (start -21.59 36.83) (end 21.59 -36.83)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at 25.4 12.7 180) (length 3.81)
         (name "PT28B/VREF2_1" (effects (font (size 1.27 1.27))))
@@ -11986,7 +12049,8 @@
     )
     (symbol "LFXP2-5E-5TN144_2_1"
       (rectangle (start -21.59 34.29) (end 21.59 -34.29)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -25.4 7.62 0) (length 3.81)
         (name "PR6B" (effects (font (size 1.27 1.27))))
@@ -12111,7 +12175,8 @@
     )
     (symbol "LFXP2-5E-5TN144_3_1"
       (rectangle (start -21.59 34.29) (end 21.59 -34.29)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at 25.4 22.86 180) (length 3.81)
         (name "PB8A" (effects (font (size 1.27 1.27))))
@@ -12252,7 +12317,8 @@
     )
     (symbol "LFXP2-5E-5TN144_4_1"
       (rectangle (start -21.59 34.29) (end 21.59 -34.29)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at 25.4 22.86 180) (length 3.81)
         (name "PL2A/VREF1_7" (effects (font (size 1.27 1.27))))
@@ -12385,7 +12451,8 @@
     )
     (symbol "LFXP2-5E-5TN144_5_1"
       (rectangle (start -21.59 16.51) (end 21.59 -16.51)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at -12.7 20.32 270) (length 3.81)
         (name "VCCAUX" (effects (font (size 1.27 1.27))))
@@ -12449,11 +12516,12 @@
       )
     )
     (symbol "LFXP2-5E-5TN144_6_0"
+      (rectangle (start -16.51 8.89) (end 16.51 -8.89)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
       (text "Bank 8" (at 0 5.08 0)
         (effects (font (size 1.27 1.27) italic))
-      )
-      (rectangle (start -16.51 8.89) (end 16.51 -8.89)
-        (stroke (width 0)) (fill (type background))
       )
     )
     (symbol "LFXP2-5E-5TN144_6_1"
@@ -12479,7 +12547,7 @@
       )
     )
   )
-  (symbol "FPGA_Lattice:LFXP2-5E-6TN144" (extends "LFXP2-5E-5TN144")
+  (symbol "LFXP2-5E-6TN144" (extends "LFXP2-5E-5TN144")
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -12502,7 +12570,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Lattice:LFXP2-5E-7TN144" (extends "LFXP2-5E-5TN144")
+  (symbol "LFXP2-5E-7TN144" (extends "LFXP2-5E-5TN144")
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )

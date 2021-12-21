@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "MCU_NXP_MCore:MMC2114CFCPU" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MMC2114CFCPU" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 13.97 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -17,7 +17,8 @@
     )
     (symbol "MMC2114CFCPU_0_1"
       (rectangle (start -20.32 63.5) (end 20.32 -63.5)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MMC2114CFCPU_1_1"
