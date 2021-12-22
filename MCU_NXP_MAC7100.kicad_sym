@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
-  (symbol "MCU_NXP_MAC7100:MAC7101" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MAC7101" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 -44.45 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "MAC7101_0_1"
       (rectangle (start 30.48 -109.22) (end -27.94 88.9)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MAC7101_1_1"
@@ -601,7 +602,7 @@
       )
     )
   )
-  (symbol "MCU_NXP_MAC7100:MAC7111" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "MAC7111" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 -44.45 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -625,7 +626,8 @@
     )
     (symbol "MAC7111_0_1"
       (rectangle (start 27.94 -109.22) (end -30.48 88.9)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MAC7111_1_1"

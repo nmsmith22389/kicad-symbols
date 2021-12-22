@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
-  (symbol "Sensor_Motion:ADXL343" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ADXL343" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "ADXL343_0_1"
       (rectangle (start -10.16 10.16) (end 10.16 -10.16)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "ADXL343_1_1"
@@ -31,7 +32,7 @@
         (name "Vdd_I/O" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -10.16 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -72,7 +73,7 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -12.7 -5.08 0) (length 2.54)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 12.7 0 180) (length 2.54)
@@ -85,7 +86,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:BMF055" (in_bom yes) (on_board yes)
+  (symbol "BMF055" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -16.51 21.59 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -109,7 +110,8 @@
     )
     (symbol "BMF055_0_1"
       (rectangle (start -17.78 20.32) (end 17.78 -20.32)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "BMF055_1_1"
@@ -122,7 +124,7 @@
         (number "10" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -20.32 17.78 0) (length 2.54)
-        (name "~RESET" (effects (font (size 1.27 1.27))))
+        (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 20.32 10.16 180) (length 2.54)
@@ -227,7 +229,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:BMI160" (in_bom yes) (on_board yes)
+  (symbol "BMI160" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -251,7 +253,8 @@
     )
     (symbol "BMI160_1_1"
       (rectangle (start -10.16 7.62) (end 7.62 -10.16)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 5.08 0) (length 2.54)
         (name "SDO" (effects (font (size 1.27 1.27))))
@@ -311,7 +314,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:BNO055" (in_bom yes) (on_board yes)
+  (symbol "BNO055" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 16.51 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -335,11 +338,12 @@
     )
     (symbol "BNO055_0_1"
       (rectangle (start -12.7 15.24) (end 12.7 -15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "BNO055_1_1"
-      (pin unconnected line (at -12.7 10.16 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 10.16 0) (length 2.54) hide
         (name "PIN1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -348,14 +352,14 @@
         (number "10" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 12.7 0) (length 2.54)
-        (name "~RESET" (effects (font (size 1.27 1.27))))
+        (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 10.16 180) (length 2.54) hide
         (name "PIN12" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 7.62 180) (length 2.54) hide
         (name "PIN13" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -391,19 +395,19 @@
         (name "COM0" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 5.08 180) (length 2.54) hide
         (name "PIN21" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 2.54 180) (length 2.54) hide
         (name "PIN22" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -2.54 180) (length 2.54) hide
         (name "PIN23" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -5.08 180) (length 2.54) hide
         (name "PIN24" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -428,7 +432,7 @@
         (number "3" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 2.54 0) (length 2.54)
-        (name "~BOOT_LOAD_PIN" (effects (font (size 1.27 1.27))))
+        (name "~{BOOT_LOAD_PIN}" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 15.24 -10.16 180) (length 2.54)
@@ -439,11 +443,11 @@
         (name "PS0" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 5.08 0) (length 2.54) hide
         (name "PIN7" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "PIN8" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -453,7 +457,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:ICM-20602" (in_bom yes) (on_board yes)
+  (symbol "ICM-20602" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 11.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -477,7 +481,8 @@
     )
     (symbol "ICM-20602_0_1"
       (rectangle (start -10.16 10.16) (end 10.16 -10.16)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "ICM-20602_1_1"
@@ -526,14 +531,14 @@
         (number "4" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -12.7 -5.08 0) (length 2.54)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 12.7 2.54 180) (length 2.54)
         (name "INT" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 5.08 0) (length 2.54) hide
         (name "RESV" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -547,7 +552,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:ICM-20948" (in_bom yes) (on_board yes)
+  (symbol "ICM-20948" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -571,11 +576,12 @@
     )
     (symbol "ICM-20948_0_1"
       (rectangle (start -10.16 15.24) (end 10.16 -15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "ICM-20948_1_1"
-      (pin unconnected line (at -10.16 12.7 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -595,19 +601,19 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -615,11 +621,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -12.7 180) (length 2.54) hide
         (name "RESV" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -632,7 +638,7 @@
         (number "21" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -12.7 0 0) (length 2.54)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -12.7 2.54 0) (length 2.54)
@@ -643,19 +649,19 @@
         (name "SDA/SDI" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -10.16 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -12.7 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -12.7 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -673,7 +679,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:KX022-1020" (in_bom yes) (on_board yes)
+  (symbol "KX022-1020" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -5.08 11.43 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -697,7 +703,8 @@
     )
     (symbol "KX022-1020_0_1"
       (rectangle (start -7.62 10.16) (end 10.16 -10.16)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "KX022-1020_1_1"
@@ -706,7 +713,7 @@
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -10.16 5.08 0) (length 2.54)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 12.7 -5.08 180) (length 2.54)
@@ -747,7 +754,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:KX122-1042" (extends "KX022-1020")
+  (symbol "KX122-1042" (extends "KX022-1020")
     (property "Reference" "U" (id 0) (at -5.08 11.43 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -766,8 +773,11 @@
     (property "ki_description" "3-Axis Accelerometer, 2/4/8g range, 2048 byte buffer, I2C/SPI interface, LGA-12" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LGA*2x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Motion:KX222-1054" (extends "KX022-1020")
+  (symbol "KX222-1054" (extends "KX022-1020")
     (property "Reference" "U" (id 0) (at -5.08 11.43 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -786,8 +796,11 @@
     (property "ki_description" "3-Axis Accelerometer, 8/16/32g range, 2048 byte buffer, I2C/SPI interface, LGA-12" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LGA*2x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Motion:KXTJ3-1057" (in_bom yes) (on_board yes)
+  (symbol "KXTJ3-1057" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 11.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -822,7 +835,8 @@
     )
     (symbol "KXTJ3-1057_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -844,7 +858,8 @@
           (xy -2.54 -1.524)
           (xy -2.032 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "KXTJ3-1057_1_1"
@@ -898,7 +913,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:L3GD20" (in_bom yes) (on_board yes)
+  (symbol "L3GD20" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 6.35 15.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -922,7 +937,8 @@
     )
     (symbol "L3GD20_0_1"
       (rectangle (start -13.97 11.43) (end 13.97 -11.43)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "L3GD20_1_1"
@@ -992,31 +1008,32 @@
       )
     )
   )
-  (symbol "Sensor_Motion:LIS2DH" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at -5.08 11.43 0)
+  (symbol "LIS2DH" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -8.89 11.43 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LIS2DH" (id 1) (at 3.81 11.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y" (id 2) (at 0 -15.24 0)
+    (property "Footprint" "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y" (id 2) (at 0 -11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf" (id 3) (at -8.89 0 0)
+    (property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf" (id 3) (at 0 -15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "3-axis accelerometer spi mems" (id 4) (at 0 0 0)
+    (property "ki_keywords" "3-axis accelerometer spi mems LGA-14" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface" (id 5) (at 0 0 0)
+    (property "ki_description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-14" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "LGA-*_2x2mm_P0.35mm*LayoutBorder3x4y*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "LGA*2x2mm*P0.35mm*LayoutBorder3x4y*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LIS2DH_0_1"
       (rectangle (start -7.62 10.16) (end 10.16 -10.16)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LIS2DH_1_1"
@@ -1024,23 +1041,23 @@
         (name "SCL/SPC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -12.7 90) (length 2.54)
+      (pin passive line (at 0 -12.7 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -12.7 90) (length 2.54)
+      (pin passive line (at 0 -12.7 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 2.54 -12.7 90) (length 2.54)
+      (pin passive line (at 0 -12.7 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 5.08 -12.7 90) (length 2.54)
+      (pin passive line (at 0 -12.7 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 7.62 -12.7 90) (length 2.54)
+      (pin passive line (at 0 -12.7 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -1049,11 +1066,12 @@
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -10.16 0 0) (length 2.54)
-        (name "SA0/SDO" (effects (font (size 1.27 1.27))))
+        (name "SDO" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
+        (alternate "SA0" passive line)
       )
       (pin input line (at -10.16 5.08 0) (length 2.54)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 12.7 0 180) (length 2.54)
@@ -1065,20 +1083,20 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 12.7 270) (length 2.54)
-        (name "Vdd_IO" (effects (font (size 1.27 1.27))))
+        (name "VDD_IO" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 0 12.7 270) (length 2.54)
-        (name "Vdd" (effects (font (size 1.27 1.27))))
+        (name "VDD" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -5.08 -12.7 90) (length 2.54)
+      (pin power_in line (at 0 -12.7 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
   )
-  (symbol "Sensor_Motion:LIS2HH12" (in_bom yes) (on_board yes)
+  (symbol "LIS2HH12" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -5.08 11.43 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -1102,7 +1120,8 @@
     )
     (symbol "LIS2HH12_0_1"
       (rectangle (start -7.62 10.16) (end 10.16 -10.16)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LIS2HH12_1_1"
@@ -1123,7 +1142,7 @@
         (number "12" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -10.16 5.08 0) (length 2.54)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -10.16 0 0) (length 2.54)
@@ -1156,7 +1175,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:LIS2DE12" (extends "LIS2HH12")
+  (symbol "LIS2DE12" (extends "LIS2HH12")
     (property "Reference" "U" (id 0) (at -5.08 11.43 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -1175,8 +1194,11 @@
     (property "ki_description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LGA*2x2mm*P0.5mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Motion:LIS331HH" (in_bom yes) (on_board yes)
+  (symbol "LIS331HH" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 11.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1200,7 +1222,8 @@
     )
     (symbol "LIS331HH_0_1"
       (rectangle (start -7.62 10.16) (end 10.16 -10.16)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LIS331HH_1_1"
@@ -1236,11 +1259,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1261,7 +1284,7 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -10.16 5.08 0) (length 2.54)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 12.7 0 180) (length 2.54)
@@ -1270,7 +1293,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:LIS3DH" (in_bom yes) (on_board yes)
+  (symbol "LIS3DH" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1294,7 +1317,8 @@
     )
     (symbol "LIS3DH_0_1"
       (rectangle (start -10.16 10.16) (end 10.16 -12.7)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LIS3DH_1_1"
@@ -1330,11 +1354,11 @@
         (name "ADC1" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 5.08 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1364,7 +1388,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:LSM303C" (in_bom yes) (on_board yes)
+  (symbol "LSM303C" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 15.24 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -1388,7 +1412,8 @@
     )
     (symbol "LSM303C_0_1"
       (rectangle (start 13.97 11.43) (end -13.97 -11.43)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LSM303C_1_1"
@@ -1442,7 +1467,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:LSM303D" (in_bom yes) (on_board yes)
+  (symbol "LSM303D" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -5.08 17.145 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -1466,7 +1491,8 @@
     )
     (symbol "LSM303D_0_1"
       (rectangle (start 8.89 13.97) (end -8.89 -13.97)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LSM303D_1_1"
@@ -1536,7 +1562,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:LSM303DLHC" (in_bom yes) (on_board yes)
+  (symbol "LSM303DLHC" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -5.08 17.145 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -1560,7 +1586,8 @@
     )
     (symbol "LSM303DLHC_0_1"
       (rectangle (start 8.89 13.97) (end -8.89 -13.97)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LSM303DLHC_1_1"
@@ -1612,7 +1639,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -2.54 180) (length 3.81) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1622,7 +1649,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:LSM6DS3" (in_bom yes) (on_board yes)
+  (symbol "LSM6DS3" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 15.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1646,7 +1673,8 @@
     )
     (symbol "LSM6DS3_0_1"
       (rectangle (start 11.43 11.43) (end -11.43 -11.43)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LSM6DS3_1_1"
@@ -1654,11 +1682,11 @@
         (name "SDO/SA0" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -5.08 180) (length 3.81) hide
+      (pin no_connect line (at 10.16 -5.08 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -2.54 180) (length 3.81) hide
+      (pin no_connect line (at 10.16 -2.54 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -1708,7 +1736,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:LSM9DS1" (in_bom yes) (on_board yes)
+  (symbol "LSM9DS1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1732,7 +1760,8 @@
     )
     (symbol "LSM9DS1_0_1"
       (rectangle (start -15.24 17.78) (end 15.24 -17.78)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LSM9DS1_1_1"
@@ -1834,7 +1863,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:MMA8653FCR1" (in_bom yes) (on_board yes)
+  (symbol "MMA8653FCR1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1858,7 +1887,8 @@
     )
     (symbol "MMA8653FCR1_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MMA8653FCR1_1_1"
@@ -1904,7 +1934,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:MPU-6000" (in_bom yes) (on_board yes)
+  (symbol "MPU-6000" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1928,7 +1958,8 @@
     )
     (symbol "MPU-6000_0_1"
       (rectangle (start -12.7 12.7) (end 12.7 -12.7)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MPU-6000_1_1"
@@ -1977,7 +2008,7 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -17.78 0 0) (length 5.08)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -17.78 5.08 0) (length 5.08)
@@ -1986,7 +2017,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:MPU-6050" (in_bom yes) (on_board yes)
+  (symbol "MPU-6050" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -2010,7 +2041,8 @@
     )
     (symbol "MPU-6050_0_1"
       (rectangle (start -12.7 12.7) (end 12.7 -12.7)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MPU-6050_1_1"
@@ -2068,7 +2100,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:MPU-9150" (in_bom yes) (on_board yes)
+  (symbol "MPU-9150" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -2092,7 +2124,8 @@
     )
     (symbol "MPU-9150_0_1"
       (rectangle (start -12.7 12.7) (end 12.7 -12.7)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MPU-9150_1_1"
@@ -2162,7 +2195,7 @@
       )
     )
   )
-  (symbol "Sensor_Motion:MPU-9250" (in_bom yes) (on_board yes)
+  (symbol "MPU-9250" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -2186,7 +2219,8 @@
     )
     (symbol "MPU-9250_0_1"
       (rectangle (start -12.7 17.78) (end 12.7 -17.78)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MPU-9250_1_1"
@@ -2223,7 +2257,7 @@
         (number "21" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -17.78 0 0) (length 5.08)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -17.78 2.54 0) (length 5.08)

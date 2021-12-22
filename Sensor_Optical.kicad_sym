@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
-  (symbol "Sensor_Optical:A1050" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "A1050" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -23,49 +23,56 @@
     )
     (symbol "A1050_0_1"
       (rectangle (start -1.016 2.54) (end 1.016 -2.54)
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -4.064 0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -2.286 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -1.524 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -4.064 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -2.286 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -1.524 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "A1050_1_1"
@@ -79,7 +86,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:A1060" (extends "A1050")
+  (symbol "A1060" (extends "A1050")
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -98,8 +105,11 @@
     (property "ki_description" "light dependent resistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "R*LDR*D6.4*P3.4*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:A9050" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "A9050" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -123,49 +133,56 @@
     )
     (symbol "A9050_0_1"
       (rectangle (start -1.016 2.54) (end 1.016 -2.54)
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -4.064 0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -2.286 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -1.524 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -4.064 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -2.286 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -1.524 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "A9050_1_1"
@@ -179,7 +196,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:A9013" (extends "A9050")
+  (symbol "A9013" (extends "A9050")
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -198,8 +215,11 @@
     (property "ki_description" "light dependent resistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "R*LDR*5.0x4.1mm*P3mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:A9060" (extends "A9050")
+  (symbol "A9060" (extends "A9050")
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -218,8 +238,11 @@
     (property "ki_description" "light dependent resistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "R*LDR*5.0x4.1mm*P3mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:APDS-9301" (in_bom yes) (on_board yes)
+  (symbol "APDS-9301" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -243,7 +266,8 @@
     )
     (symbol "APDS-9301_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "APDS-9301_1_1"
@@ -273,7 +297,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:APDS-9306" (in_bom yes) (on_board yes)
+  (symbol "APDS-9306" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -296,9 +320,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "APDS-9306_0_0"
-      (text "ADC" (at -1.27 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
       (polyline
         (pts
           (xy -3.81 1.27)
@@ -308,12 +329,17 @@
           (xy -2.54 0)
           (xy -3.81 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (text "ADC" (at -1.27 1.27 0)
+        (effects (font (size 1.27 1.27)))
       )
     )
     (symbol "APDS-9306_0_1"
       (rectangle (start -7.62 5.08) (end 7.62 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "APDS-9306_1_0"
@@ -323,7 +349,8 @@
           (xy -5.08 1.27)
           (xy -3.81 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "APDS-9306_1_1"
@@ -332,56 +359,64 @@
           (xy -6.223 -0.762)
           (xy -7.112 -1.651)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 -0.762)
           (xy -6.731 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 -0.762)
           (xy -6.223 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.254)
           (xy -6.985 -0.635)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.254)
           (xy -6.604 0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.254)
           (xy -6.096 -0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -5.842 0.635)
           (xy -4.191 0.635)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -4.826 -1.524)
           (xy -5.334 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -390,17 +425,18 @@
           (xy -5.08 0.635)
           (xy -5.842 -1.016)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (pin power_in line (at 2.54 -7.62 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -420,13 +456,13 @@
         (name "INT" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
   )
-  (symbol "Sensor_Optical:APDS-9306-065" (in_bom yes) (on_board yes)
+  (symbol "APDS-9306-065" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -449,9 +485,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "APDS-9306-065_0_0"
-      (text "ADC" (at -1.27 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
       (polyline
         (pts
           (xy -3.81 1.27)
@@ -461,12 +494,17 @@
           (xy -2.54 0)
           (xy -3.81 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (text "ADC" (at -1.27 1.27 0)
+        (effects (font (size 1.27 1.27)))
       )
     )
     (symbol "APDS-9306-065_0_1"
       (rectangle (start -7.62 5.08) (end 7.62 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "APDS-9306-065_1_0"
@@ -476,7 +514,8 @@
           (xy -5.08 1.27)
           (xy -3.81 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "APDS-9306-065_1_1"
@@ -485,56 +524,64 @@
           (xy -6.223 -0.762)
           (xy -7.112 -1.651)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 -0.762)
           (xy -6.731 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 -0.762)
           (xy -6.223 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.254)
           (xy -6.985 -0.635)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.254)
           (xy -6.604 0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.254)
           (xy -6.096 -0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -5.842 0.635)
           (xy -4.191 0.635)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -4.826 -1.524)
           (xy -5.334 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -543,7 +590,8 @@
           (xy -5.08 0.635)
           (xy -5.842 -1.016)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (pin input line (at 10.16 0 180) (length 2.54)
         (name "SCL" (effects (font (size 1.27 1.27))))
@@ -561,7 +609,7 @@
         (name "INT" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -571,7 +619,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:AS7261" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "AS7261" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -595,15 +643,16 @@
     )
     (symbol "AS7261_0_1"
       (rectangle (start -10.16 12.7) (end 10.16 -12.7)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "AS7261_1_1"
-      (pin unconnected line (at 12.7 10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 10.16 180) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 5.08 0) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -639,15 +688,15 @@
         (name "LED_IND" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -12.7 10.16 0) (length 2.54)
-        (name "~RES" (effects (font (size 1.27 1.27))))
+        (name "~{RES}" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -10.16 0) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -675,13 +724,13 @@
         (name "I2C_ENB" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -10.16 180) (length 2.54) hide
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
   )
-  (symbol "Sensor_Optical:AS7262" (extends "AS7261")
+  (symbol "AS7262" (extends "AS7261")
     (property "Reference" "U" (id 0) (at -10.16 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -700,8 +749,11 @@
     (property "ki_description" "Spectral Sensing Engine, 6-Channel Visible Spectral_ID" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "AMS?LGA*4.7x4.5mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:AS7263" (extends "AS7261")
+  (symbol "AS7263" (extends "AS7261")
     (property "Reference" "U" (id 0) (at -10.16 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -720,8 +772,11 @@
     (property "ki_description" "Spectral Sensing Engine, 6-Channel NIR Spectral_ID" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "AMS?LGA*4.7x4.5mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:AS72651" (in_bom yes) (on_board yes)
+  (symbol "AS72651" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -745,12 +800,13 @@
     )
     (symbol "AS72651_0_1"
       (rectangle (start 10.16 -17.78) (end -10.16 17.78)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "AS72651_1_1"
       (pin output line (at -12.7 -5.08 0) (length 2.54)
-        (name "~SLV1_RES" (effects (font (size 1.27 1.27))))
+        (name "~{SLV1_RES}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -12.7 -2.54 0) (length 2.54)
@@ -789,16 +845,16 @@
         (name "LED_IND" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -12.7 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -12.7 -12.7 0) (length 2.54)
-        (name "~RES" (effects (font (size 1.27 1.27))))
+        (name "~{RES}" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at -12.7 -7.62 0) (length 2.54)
-        (name "~SLV2_RES" (effects (font (size 1.27 1.27))))
+        (name "~{SLV2_RES}" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 12.7 -5.08 180) (length 2.54)
@@ -814,10 +870,10 @@
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 12.7 -7.62 180) (length 2.54)
-        (name "~CS" (effects (font (size 1.27 1.27))))
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -831,7 +887,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:BP103" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+  (symbol "BP103" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -853,28 +909,40 @@
     (property "ki_fp_filters" "TO?18*Lens*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "BP103_0_0"
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0.635 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
     (symbol "BP103_0_1"
-      (circle (center 1.27 0) (radius 2.8194) (stroke (width 0.254)) (fill (type none)))
       (polyline
         (pts
           (xy -1.905 1.27)
           (xy -2.54 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 2.54)
           (xy -1.905 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0.635 0.635)
           (xy 2.54 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -882,7 +950,8 @@
           (xy -1.905 1.27)
           (xy -1.905 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -890,7 +959,8 @@
           (xy -1.27 2.54)
           (xy -1.27 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -898,7 +968,8 @@
           (xy 2.54 -2.54)
           (xy 2.54 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -906,7 +977,8 @@
           (xy 0.635 -1.905)
           (xy 0.635 -1.905)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -916,16 +988,12 @@
           (xy 1.27 -1.778)
           (xy 1.27 -1.778)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
-    )
-    (symbol "BP103_0_0"
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0.635 0)
-        )
-        (stroke (width 0)) (fill (type none))
+      (circle (center 1.27 0) (radius 2.8194)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BP103_1_1"
@@ -943,7 +1011,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:BPY62" (extends "BP103")
+  (symbol "BPY62" (extends "BP103")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -962,8 +1030,11 @@
     (property "ki_description" "NPN Phototransistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?18*Lens*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BP104-SMD" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "BP104-SMD" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -991,28 +1062,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1020,7 +1095,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1028,7 +1104,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1038,7 +1115,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BP104-SMD_1_1"
@@ -1052,7 +1130,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:BPW34-SMD" (extends "BP104-SMD")
+  (symbol "BPW34-SMD" (extends "BP104-SMD")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1071,8 +1149,11 @@
     (property "ki_description" "Silicon PIN Photodiode, SMD package" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Osram*SMD*DIL2*4.5x4.0mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:SFH2430" (extends "BP104-SMD")
+  (symbol "SFH2430" (extends "BP104-SMD")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1091,8 +1172,11 @@
     (property "ki_description" "Silicon Photodiode with V? Characteristic, SMD package" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Osram*SMD*DIL2*4.5x4.0mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:SFH2440" (extends "BP104-SMD")
+  (symbol "SFH2440" (extends "BP104-SMD")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1111,8 +1195,11 @@
     (property "ki_description" "Silicon Photodiode with V? Characteristic, SMD package" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Osram*SMD*DIL2*4.5x4.0mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BPW21" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "BPW21" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1140,28 +1227,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1169,7 +1260,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1177,7 +1269,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1187,7 +1280,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BPW21_1_1"
@@ -1201,7 +1295,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:BPX61" (extends "BPW21")
+  (symbol "BPX61" (extends "BPW21")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1220,8 +1314,11 @@
     (property "ki_description" "Silicon Photodiode for the visible spectral range" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?5*Window*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BPW34" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "BPW34" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1249,28 +1346,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1278,7 +1379,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1286,7 +1388,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1296,7 +1399,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BPW34_1_1"
@@ -1310,7 +1414,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:BP104" (extends "BPW34")
+  (symbol "BP104" (extends "BPW34")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1329,8 +1433,11 @@
     (property "ki_description" "Silicon PIN Photodiode" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Osram*DIL2*4.3x4.65mm*P5.08*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BPW40" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+  (symbol "BPW40" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1353,27 +1460,29 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BPW40_0_1"
-      (circle (center 1.27 0) (radius 2.8194) (stroke (width 0.254)) (fill (type none)))
       (polyline
         (pts
           (xy -1.905 1.27)
           (xy -2.54 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 2.54)
           (xy -1.905 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0.635 0.635)
           (xy 2.54 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1381,7 +1490,8 @@
           (xy -1.905 1.27)
           (xy -1.905 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1389,7 +1499,8 @@
           (xy -1.27 2.54)
           (xy -1.27 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1397,7 +1508,8 @@
           (xy 2.54 -2.54)
           (xy 2.54 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1405,7 +1517,8 @@
           (xy 0.635 -1.905)
           (xy 0.635 -1.905)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1415,7 +1528,12 @@
           (xy 1.27 -1.778)
           (xy 1.27 -1.778)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (circle (center 1.27 0) (radius 2.8194)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BPW40_1_1"
@@ -1429,7 +1547,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:BP103B" (extends "BPW40")
+  (symbol "BP103B" (extends "BPW40")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1448,8 +1566,11 @@
     (property "ki_description" "NPN phototransistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*D5.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BP103BF" (extends "BPW40")
+  (symbol "BP103BF" (extends "BPW40")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1468,8 +1589,11 @@
     (property "ki_description" "NPN phototransistor with daylight filter" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*D5.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:SFH300" (extends "BPW40")
+  (symbol "SFH300" (extends "BPW40")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1488,8 +1612,11 @@
     (property "ki_description" "silicon NPN phototransistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*D5.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BPW82" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "BPW82" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1517,28 +1644,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1546,7 +1677,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1554,7 +1686,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1564,7 +1697,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BPW82_1_1"
@@ -1578,7 +1712,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:BPX65" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "BPX65" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1606,28 +1740,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1635,7 +1773,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1643,7 +1782,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1653,7 +1793,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "BPX65_1_1"
@@ -1667,7 +1808,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:C12880MA" (in_bom yes) (on_board yes)
+  (symbol "C12880MA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 13.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1691,7 +1832,8 @@
     )
     (symbol "C12880MA_0_1"
       (rectangle (start -7.62 10.16) (end 7.62 -10.16)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "C12880MA_1_1"
@@ -1727,7 +1869,7 @@
         (name "TRG" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1737,7 +1879,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:Flir_LEPTON" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "Flir_LEPTON" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1756,12 +1898,13 @@
     (property "ki_description" "LWIR camera 8 to 14um 80x60 pixel" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*105028*1001*\n*105028*2011*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*105028*1001* *105028*2011*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Flir_LEPTON_0_1"
       (rectangle (start -15.24 17.78) (end 15.24 -17.78)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "Flir_LEPTON_1_1"
@@ -1797,7 +1940,7 @@
         (name "VDDIO" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -1895,7 +2038,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:KPS-3227" (pin_numbers hide) (in_bom yes) (on_board yes)
+  (symbol "KPS-3227" (pin_numbers hide) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 3.81 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1918,27 +2061,33 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "KPS-3227_1_1"
-      (circle (center -1.27 0) (radius 2.8194) (stroke (width 0.254)) (fill (type none)))
+      (circle (center -1.27 0) (radius 2.8194)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -4.445 1.27)
           (xy -5.08 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -3.81 2.54)
           (xy -4.445 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1946,7 +2095,8 @@
           (xy -4.445 1.27)
           (xy -4.445 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1954,7 +2104,8 @@
           (xy -3.81 2.54)
           (xy -3.81 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1962,7 +2113,8 @@
           (xy 0 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1970,7 +2122,8 @@
           (xy -1.905 -1.905)
           (xy -1.905 -1.905)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1980,7 +2133,8 @@
           (xy -1.27 -1.778)
           (xy -1.27 -1.778)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (pin passive line (at 0 5.08 270) (length 2.54) hide
         (name "~" (effects (font (size 1.27 1.27))))
@@ -2000,7 +2154,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:KPS-5130" (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "KPS-5130" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at -4.064 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -2022,118 +2176,6 @@
     (property "ki_fp_filters" "Kingbright*KPS?5130*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "KPS-5130_0_1"
-      (circle (center 3.81 0) (radius 0.508) (stroke (width 0.254)) (fill (type outline)))
-      (polyline
-        (pts
-          (xy 5.08 0)
-          (xy -5.08 0)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.08 5.08)
-          (xy 3.81 5.08)
-          (xy 3.81 -5.08)
-          (xy -5.08 -5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.159 -2.159)
-          (xy -1.016 -3.302)
-          (xy -1.27 -2.794)
-          (xy -1.524 -3.048)
-          (xy -1.016 -3.302)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.159 2.921)
-          (xy -1.016 1.778)
-          (xy -1.27 2.286)
-          (xy -1.524 2.032)
-          (xy -1.016 1.778)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.159 8.001)
-          (xy -1.016 6.858)
-          (xy -1.27 7.366)
-          (xy -1.524 7.112)
-          (xy -1.016 6.858)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.016 -2.032)
-          (xy 0.127 -3.175)
-          (xy -0.127 -2.667)
-          (xy -0.381 -2.921)
-          (xy 0.127 -3.175)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.889 2.921)
-          (xy 0.254 1.778)
-          (xy 0 2.286)
-          (xy -0.254 2.032)
-          (xy 0.254 1.778)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.889 8.128)
-          (xy 0.254 6.985)
-          (xy 0 7.493)
-          (xy -0.254 7.239)
-          (xy 0.254 6.985)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 -3.81)
-          (xy 0.635 -6.35)
-          (xy 0.635 -5.08)
-          (xy -1.27 -3.81)
-          (xy -1.27 -6.35)
-          (xy 0.635 -5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 1.27)
-          (xy 0.635 -1.27)
-          (xy 0.635 0)
-          (xy -1.27 1.27)
-          (xy -1.27 -1.27)
-          (xy 0.635 0)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 6.35)
-          (xy 0.635 3.81)
-          (xy 0.635 5.08)
-          (xy -1.27 6.35)
-          (xy -1.27 3.81)
-          (xy 0.635 5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-    )
     (symbol "KPS-5130_0_0"
       (text "B" (at 2.286 -3.81 0)
         (effects (font (size 1.524 1.524)))
@@ -2145,9 +2187,136 @@
         (effects (font (size 1.524 1.524)))
       )
     )
+    (symbol "KPS-5130_0_1"
+      (polyline
+        (pts
+          (xy 5.08 0)
+          (xy -5.08 0)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 5.08)
+          (xy 3.81 5.08)
+          (xy 3.81 -5.08)
+          (xy -5.08 -5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.159 -2.159)
+          (xy -1.016 -3.302)
+          (xy -1.27 -2.794)
+          (xy -1.524 -3.048)
+          (xy -1.016 -3.302)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.159 2.921)
+          (xy -1.016 1.778)
+          (xy -1.27 2.286)
+          (xy -1.524 2.032)
+          (xy -1.016 1.778)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.159 8.001)
+          (xy -1.016 6.858)
+          (xy -1.27 7.366)
+          (xy -1.524 7.112)
+          (xy -1.016 6.858)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.016 -2.032)
+          (xy 0.127 -3.175)
+          (xy -0.127 -2.667)
+          (xy -0.381 -2.921)
+          (xy 0.127 -3.175)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.889 2.921)
+          (xy 0.254 1.778)
+          (xy 0 2.286)
+          (xy -0.254 2.032)
+          (xy 0.254 1.778)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.889 8.128)
+          (xy 0.254 6.985)
+          (xy 0 7.493)
+          (xy -0.254 7.239)
+          (xy 0.254 6.985)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 -3.81)
+          (xy 0.635 -6.35)
+          (xy 0.635 -5.08)
+          (xy -1.27 -3.81)
+          (xy -1.27 -6.35)
+          (xy 0.635 -5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 1.27)
+          (xy 0.635 -1.27)
+          (xy 0.635 0)
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
+          (xy 0.635 0)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 6.35)
+          (xy 0.635 3.81)
+          (xy 0.635 5.08)
+          (xy -1.27 6.35)
+          (xy -1.27 3.81)
+          (xy 0.635 5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 3.81 0) (radius 0.508)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+    )
     (symbol "KPS-5130_1_1"
       (rectangle (start 5.08 8.89) (end -5.08 -7.62)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at -7.62 5.08 0) (length 2.54)
         (name "AR" (effects (font (size 1.27 1.27))))
@@ -2167,7 +2336,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:LDR03" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "LDR03" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -2191,49 +2360,56 @@
     )
     (symbol "LDR03_0_1"
       (rectangle (start -1.016 2.54) (end 1.016 -2.54)
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -4.064 0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -2.286 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -1.524 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -4.064 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -2.286 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -1.524 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LDR03_1_1"
@@ -2247,7 +2423,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:LDR07" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "LDR07" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -2271,49 +2447,56 @@
     )
     (symbol "LDR07_0_1"
       (rectangle (start -1.016 2.54) (end 1.016 -2.54)
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -4.064 0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -2.286 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -1.524 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -4.064 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -2.286 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -1.524 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LDR07_1_1"
@@ -2327,7 +2510,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:LPT80A" (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "LPT80A" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at -5.08 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2350,27 +2533,33 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LPT80A_0_1"
-      (circle (center -1.27 0) (radius 2.8194) (stroke (width 0.254)) (fill (type none)))
+      (circle (center -1.27 0) (radius 2.8194)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -4.445 1.27)
           (xy -5.08 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -3.81 2.54)
           (xy -4.445 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2378,7 +2567,8 @@
           (xy -4.445 1.27)
           (xy -4.445 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2386,7 +2576,8 @@
           (xy -3.81 2.54)
           (xy -3.81 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2394,7 +2585,8 @@
           (xy 0 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2402,7 +2594,8 @@
           (xy -1.905 -1.905)
           (xy -1.905 -1.905)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2412,7 +2605,8 @@
           (xy -1.27 -1.778)
           (xy -1.27 -1.778)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "LPT80A_1_1"
@@ -2426,7 +2620,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:LTR-303ALS-01" (in_bom yes) (on_board yes)
+  (symbol "LTR-303ALS-01" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2450,7 +2644,8 @@
     )
     (symbol "LTR-303ALS-01_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LTR-303ALS-01_1_1"
@@ -2458,7 +2653,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 0 180) (length 2.54) hide
+      (pin no_connect line (at 2.54 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -2480,7 +2675,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:M9960" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "M9960" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -2504,49 +2699,56 @@
     )
     (symbol "M9960_0_1"
       (rectangle (start -1.016 2.54) (end 1.016 -2.54)
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -4.064 0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -2.286 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -1.524 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -4.064 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -2.286 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -1.524 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "M9960_1_1"
@@ -2560,7 +2762,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:NOA1305" (in_bom yes) (on_board yes)
+  (symbol "NOA1305" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -2583,21 +2785,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "NOA1305_0_0"
-      (text "ADC" (at -1.143 0.381 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (text "CTRL" (at 2.794 0.254 900)
-        (effects (font (size 1.524 1.524)))
-      )
-      (rectangle (start 1.651 3.556) (end 4.064 -3.302)
-        (stroke (width 0)) (fill (type none))
-      )
       (polyline
         (pts
           (xy 1.143 0.381)
           (xy 1.524 0.381)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2605,7 +2799,8 @@
           (xy -6.35 0)
           (xy -3.937 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2613,7 +2808,8 @@
           (xy -6.35 0.762)
           (xy -3.937 0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2622,7 +2818,8 @@
           (xy 1.143 -1.016)
           (xy 1.143 0.381)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2631,110 +2828,132 @@
           (xy 1.143 1.778)
           (xy 1.143 0.381)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 1.651 3.556) (end 4.064 -3.302)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (text "ADC" (at -1.143 0.381 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (text "CTRL" (at 2.794 0.254 900)
+        (effects (font (size 1.524 1.524)))
       )
     )
     (symbol "NOA1305_0_1"
-      (rectangle (start 10.16 7.62) (end -10.16 -7.62)
-        (stroke (width 0.254)) (fill (type background))
-      )
       (polyline
         (pts
           (xy -7.493 -2.032)
           (xy -8.382 -2.921)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.493 -2.032)
           (xy -8.001 -2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.493 -2.032)
           (xy -7.493 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.493 2.667)
           (xy -8.382 3.556)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.493 2.667)
           (xy -8.001 2.667)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.493 2.667)
           (xy -7.493 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.366 -1.016)
           (xy -8.255 -1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.366 -1.016)
           (xy -7.874 -1.016)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.366 -1.016)
           (xy -7.366 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.366 1.651)
           (xy -8.255 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.366 1.651)
           (xy -7.874 1.651)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.366 1.651)
           (xy -7.366 2.159)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.112 -0.635)
           (xy -5.461 -0.635)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -7.112 1.27)
           (xy -5.461 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2743,7 +2962,8 @@
           (xy -6.35 -0.635)
           (xy -7.112 -2.286)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -2752,7 +2972,12 @@
           (xy -6.35 1.27)
           (xy -7.112 2.921)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (rectangle (start 10.16 7.62) (end -10.16 -7.62)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "NOA1305_1_1"
@@ -2760,7 +2985,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -2786,7 +3011,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:PMTx08Dyn" (in_bom yes) (on_board yes)
+  (symbol "PMTx08Dyn" (in_bom yes) (on_board yes)
     (property "Reference" "PMT" (id 0) (at -8.89 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -2809,112 +3034,133 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PMTx08Dyn_0_1"
-      (arc (start -10.16 20.32) (end 10.16 20.32) (radius (at 0 1.27) (length 21.59) (angles 118.1 61.9))
-        (stroke (width 0)) (fill (type none))
-      )
-      (arc (start 8.89 -19.05) (end 8.89 -16.51) (radius (at 8.89 -17.78) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 -13.97) (end 8.89 -11.43) (radius (at 8.89 -12.7) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 -8.89) (end 8.89 -6.35) (radius (at 8.89 -7.62) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 -3.81) (end 8.89 -1.27) (radius (at 8.89 -2.54) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 1.27) (end 8.89 3.81) (radius (at 8.89 2.54) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 6.35) (end 8.89 8.89) (radius (at 8.89 7.62) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 11.43) (end 8.89 13.97) (radius (at 8.89 12.7) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 16.51) (end 8.89 19.05) (radius (at 8.89 17.78) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (rectangle (start 11.43 -25.4) (end -11.43 25.4)
-        (stroke (width 0.254)) (fill (type background))
-      )
       (polyline
         (pts
           (xy 0 -25.4)
           (xy 0 -24.13)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 25.4)
           (xy 0 24.13)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 10.16 -22.86)
           (xy -10.16 -22.86)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 -17.78)
           (xy 10.16 -17.78)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 -12.7)
           (xy 10.16 -12.7)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 -7.62)
           (xy 10.16 -7.62)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 -2.54)
           (xy 10.16 -2.54)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 2.54)
           (xy 10.16 2.54)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 7.62)
           (xy 10.16 7.62)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 12.7 12.7)
           (xy 11.43 12.7)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 12.7 17.78)
           (xy 11.43 17.78)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 -19.05) (mid 10.16 -17.78) (end 8.89 -16.51)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 -13.97) (mid 10.16 -12.7) (end 8.89 -11.43)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 -8.89) (mid 10.16 -7.62) (end 8.89 -6.35)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 -3.81) (mid 10.16 -2.54) (end 8.89 -1.27)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 1.27) (mid 10.16 2.54) (end 8.89 3.81)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 6.35) (mid 10.16 7.62) (end 8.89 8.89)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 11.43) (mid 10.16 12.7) (end 8.89 13.97)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 16.51) (mid 10.16 17.78) (end 8.89 19.05)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 10.16 20.32) (mid 0 22.86) (end -10.16 20.32)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 11.43 -25.4) (end -11.43 25.4)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "PMTx08Dyn_1_1"
@@ -2960,7 +3206,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:PMTx08Dyn_Shld" (in_bom yes) (on_board yes)
+  (symbol "PMTx08Dyn_Shld" (in_bom yes) (on_board yes)
     (property "Reference" "PMT" (id 0) (at -8.89 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -2983,119 +3229,141 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PMTx08Dyn_Shld_0_1"
-      (arc (start -10.16 20.32) (end 10.16 20.32) (radius (at 0 1.27) (length 21.59) (angles 118.1 61.9))
-        (stroke (width 0)) (fill (type none))
-      )
-      (arc (start 8.89 -19.05) (end 8.89 -16.51) (radius (at 8.89 -17.78) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 -13.97) (end 8.89 -11.43) (radius (at 8.89 -12.7) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 -8.89) (end 8.89 -6.35) (radius (at 8.89 -7.62) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 -3.81) (end 8.89 -1.27) (radius (at 8.89 -2.54) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 1.27) (end 8.89 3.81) (radius (at 8.89 2.54) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 6.35) (end 8.89 8.89) (radius (at 8.89 7.62) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 11.43) (end 8.89 13.97) (radius (at 8.89 12.7) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (arc (start 8.89 16.51) (end 8.89 19.05) (radius (at 8.89 17.78) (length 1.27) (angles -89.9 89.9))
-        (stroke (width 0.127)) (fill (type none))
-      )
-      (rectangle (start 11.43 -25.4) (end -11.43 25.4)
-        (stroke (width 0.254)) (fill (type background))
-      )
       (polyline
         (pts
           (xy -10.16 17.78)
           (xy -10.16 -21.59)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -25.4)
           (xy 0 -24.13)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 25.4)
           (xy 0 24.13)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 10.16 -22.86)
           (xy -10.16 -22.86)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 -17.78)
           (xy 10.16 -17.78)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 -12.7)
           (xy 10.16 -12.7)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 -7.62)
           (xy 10.16 -7.62)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 -2.54)
           (xy 10.16 -2.54)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 2.54)
           (xy 10.16 2.54)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 11.43 7.62)
           (xy 10.16 7.62)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 12.7 12.7)
           (xy 11.43 12.7)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 12.7 17.78)
           (xy 11.43 17.78)
         )
-        (stroke (width 0.127)) (fill (type none))
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 -19.05) (mid 10.16 -17.78) (end 8.89 -16.51)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 -13.97) (mid 10.16 -12.7) (end 8.89 -11.43)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 -8.89) (mid 10.16 -7.62) (end 8.89 -6.35)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 -3.81) (mid 10.16 -2.54) (end 8.89 -1.27)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 1.27) (mid 10.16 2.54) (end 8.89 3.81)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 6.35) (mid 10.16 7.62) (end 8.89 8.89)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 11.43) (mid 10.16 12.7) (end 8.89 13.97)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 8.89 16.51) (mid 10.16 17.78) (end 8.89 19.05)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 10.16 20.32) (mid 0 22.86) (end -10.16 20.32)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 11.43 -25.4) (end -11.43 25.4)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "PMTx08Dyn_Shld_1_1"
@@ -3149,7 +3417,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:S13360-3025CS" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "S13360-3025CS" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 1.778 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3177,28 +3445,32 @@
           (xy -1.27 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 1.27)
           (xy -1.27 -1.27)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 1.27)
           (xy 1.27 -1.27)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3206,7 +3478,8 @@
           (xy -0.762 1.778)
           (xy -0.762 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3214,7 +3487,8 @@
           (xy -1.27 0)
           (xy 1.27 -1.27)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3224,7 +3498,8 @@
           (xy 0.508 1.778)
           (xy 1.016 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "S13360-3025CS_1_1"
@@ -3238,7 +3513,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:S13360-3050CS" (extends "S13360-3025CS")
+  (symbol "S13360-3050CS" (extends "S13360-3025CS")
     (property "Reference" "D" (id 0) (at 1.778 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3257,8 +3532,11 @@
     (property "ki_description" "Multi-Pixel Photon Counter with 50µm pixel pitch" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Hamamatsu*S13360*30CS*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:S13360-3075CS" (extends "S13360-3025CS")
+  (symbol "S13360-3075CS" (extends "S13360-3025CS")
     (property "Reference" "D" (id 0) (at 1.778 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3277,8 +3555,11 @@
     (property "ki_description" "Multi-Pixel Photon Counter with 75µm pixel pitch" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Hamamatsu*S13360*30CS*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:S5971" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+  (symbol "S5971" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 2.54 -5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3300,35 +3581,44 @@
     (property "ki_fp_filters" "TO?18*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "S5971_0_0"
+      (pin passive line (at 0 -7.62 90) (length 3.81)
+        (name "C" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "S5971_0_1"
-      (circle (center 0 0) (radius 3.81) (stroke (width 0)) (fill (type none)))
       (polyline
         (pts
           (xy -1.27 0)
           (xy -3.81 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 1.27)
           (xy -1.27 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 3.81 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3336,7 +3626,8 @@
           (xy -0.762 1.778)
           (xy -0.762 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3345,7 +3636,8 @@
           (xy 1.27 -1.27)
           (xy -1.27 0)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -3355,13 +3647,12 @@
           (xy 0.508 1.778)
           (xy 1.016 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
-    )
-    (symbol "S5971_0_0"
-      (pin passive line (at 0 -7.62 90) (length 3.81)
-        (name "C" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
+      (circle (center 0 0) (radius 3.81)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "S5971_1_1"
@@ -3375,7 +3666,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:S5972" (extends "S5971")
+  (symbol "S5972" (extends "S5971")
     (property "Reference" "D" (id 0) (at 2.54 -5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3394,8 +3685,11 @@
     (property "ki_description" "Si PIN Photodiode, 0.5 GHz, TO-18-3" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?18*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:S5973" (extends "S5971")
+  (symbol "S5973" (extends "S5971")
     (property "Reference" "D" (id 0) (at 2.54 -5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3414,8 +3708,11 @@
     (property "ki_description" "Si PIN Photodiode, 1 GHz, TO-18-3" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TO?18*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:SFH203" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "SFH203" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3443,28 +3740,32 @@
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3472,7 +3773,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3480,7 +3782,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3490,7 +3793,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SFH203_1_1"
@@ -3504,7 +3808,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:SFH203FA" (extends "SFH203")
+  (symbol "SFH203FA" (extends "SFH203")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3523,8 +3827,11 @@
     (property "ki_description" "Silicon PIN Photodiode with Daylight Blocking Filter" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*D5.0mm*IRGrey*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:SFH205F" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "SFH205F" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3552,28 +3859,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3581,7 +3892,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3589,7 +3901,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3599,7 +3912,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SFH205F_1_1"
@@ -3613,7 +3927,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:SFH205FA" (extends "SFH205F")
+  (symbol "SFH205FA" (extends "SFH205F")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3632,8 +3946,11 @@
     (property "ki_description" "Silicon PIN Photodiode with Daylight Blocking Filter" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Osram*SFH205*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:SFH206K" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "SFH206K" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3661,28 +3978,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3690,7 +4011,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3698,7 +4020,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3708,7 +4031,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SFH206K_1_1"
@@ -3722,7 +4046,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:SFH216" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "SFH216" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3750,28 +4074,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3779,7 +4107,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3787,7 +4116,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3797,7 +4127,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SFH216_1_1"
@@ -3811,7 +4142,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:SFH225FA" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "SFH225FA" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3839,28 +4170,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3868,7 +4203,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3876,7 +4212,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3886,7 +4223,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SFH225FA_1_1"
@@ -3900,7 +4238,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:SFH235FA" (extends "SFH225FA")
+  (symbol "SFH235FA" (extends "SFH225FA")
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3919,8 +4257,11 @@
     (property "ki_description" "Silicon PIN Photodiode with Daylight Blocking Filter" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Osram*SFH225*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:SFH2400" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "SFH2400" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3948,28 +4289,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3977,7 +4322,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3985,7 +4331,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3995,7 +4342,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SFH2400_1_1"
@@ -4009,7 +4357,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:SFH2701" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "SFH2701" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0.508 1.778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4037,28 +4385,32 @@
           (xy -2.54 1.27)
           (xy -2.54 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 1.778)
           (xy -1.524 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4066,7 +4418,8 @@
           (xy -2.032 1.778)
           (xy -2.032 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4074,7 +4427,8 @@
           (xy -2.54 0)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4084,7 +4438,8 @@
           (xy -0.762 1.778)
           (xy -0.254 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SFH2701_1_1"
@@ -4098,7 +4453,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:SFH309" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+  (symbol "SFH309" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4121,27 +4476,29 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SFH309_0_1"
-      (circle (center 1.27 0) (radius 2.8194) (stroke (width 0.254)) (fill (type none)))
       (polyline
         (pts
           (xy -1.905 1.27)
           (xy -2.54 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 2.54)
           (xy -1.905 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0.635 0.635)
           (xy 2.54 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4149,7 +4506,8 @@
           (xy -1.905 1.27)
           (xy -1.905 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4157,7 +4515,8 @@
           (xy -1.27 2.54)
           (xy -1.27 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4165,7 +4524,8 @@
           (xy 2.54 -2.54)
           (xy 2.54 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4173,7 +4533,8 @@
           (xy 0.635 -1.905)
           (xy 0.635 -1.905)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4183,7 +4544,12 @@
           (xy 1.27 -1.778)
           (xy 1.27 -1.778)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (circle (center 1.27 0) (radius 2.8194)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SFH309_1_1"
@@ -4197,7 +4563,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:BPW42" (extends "SFH309")
+  (symbol "BPW42" (extends "SFH309")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4216,8 +4582,11 @@
     (property "ki_description" "NPN phototransistor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BPW85" (extends "SFH309")
+  (symbol "BPW85" (extends "SFH309")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4236,8 +4605,11 @@
     (property "ki_description" "Silicon NPN Phototransistor, Ica = 0.8-8mA, T-1" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BPW85A" (extends "SFH309")
+  (symbol "BPW85A" (extends "SFH309")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4256,8 +4628,11 @@
     (property "ki_description" "Silicon NPN Phototransistor, Ica = 0.8-2.5mA, T-1" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BPW85B" (extends "SFH309")
+  (symbol "BPW85B" (extends "SFH309")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4276,8 +4651,11 @@
     (property "ki_description" "Silicon NPN Phototransistor, Ica = 1.5-4mA, T-1" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:BPW85C" (extends "SFH309")
+  (symbol "BPW85C" (extends "SFH309")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4296,8 +4674,11 @@
     (property "ki_description" "Silicon NPN Phototransistor, Ica = 3-8mA, T-1" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:TEPT4400" (extends "SFH309")
+  (symbol "TEPT4400" (extends "SFH309")
     (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4316,8 +4697,11 @@
     (property "ki_description" "Ambient Light Sensor, NPN Epitaxial Planar Phototransistor, T-1" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "LED*3.0mm*Clear*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "Sensor_Optical:SFH3201" (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "SFH3201" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (id 0) (at 2.54 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4340,27 +4724,33 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SFH3201_0_1"
-      (circle (center -1.27 0) (radius 2.8194) (stroke (width 0.254)) (fill (type none)))
+      (circle (center -1.27 0) (radius 2.8194)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -4.445 1.27)
           (xy -5.08 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -3.81 2.54)
           (xy -4.445 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4368,7 +4758,8 @@
           (xy -4.445 1.27)
           (xy -4.445 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4376,7 +4767,8 @@
           (xy -3.81 2.54)
           (xy -3.81 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4384,7 +4776,8 @@
           (xy 0 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4392,7 +4785,8 @@
           (xy -1.905 -1.905)
           (xy -1.905 -1.905)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4402,7 +4796,8 @@
           (xy -1.27 -1.778)
           (xy -1.27 -1.778)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "SFH3201_1_1"
@@ -4416,7 +4811,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:TSL2550D" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "TSL2550D" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.985 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4439,21 +4834,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSL2550D_0_0"
-      (text "ADC" (at 0.127 -0.889 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (text "CTRL" (at 4.064 -1.016 900)
-        (effects (font (size 1.524 1.524)))
-      )
-      (rectangle (start 2.921 2.286) (end 5.334 -4.572)
-        (stroke (width 0)) (fill (type none))
-      )
       (polyline
         (pts
           (xy 2.413 -0.889)
           (xy 2.794 -0.889)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4461,7 +4848,8 @@
           (xy -5.08 -1.27)
           (xy -2.667 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4469,7 +4857,8 @@
           (xy -5.08 -0.508)
           (xy -2.667 -0.508)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4478,7 +4867,8 @@
           (xy 2.413 -2.286)
           (xy 2.413 -0.889)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4487,110 +4877,132 @@
           (xy 2.413 0.508)
           (xy 2.413 -0.889)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 2.921 2.286) (end 5.334 -4.572)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (text "ADC" (at 0.127 -0.889 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (text "CTRL" (at 4.064 -1.016 900)
+        (effects (font (size 1.524 1.524)))
       )
     )
     (symbol "TSL2550D_0_1"
-      (rectangle (start 10.16 5.08) (end -7.62 -7.62)
-        (stroke (width 0.254)) (fill (type background))
-      )
       (polyline
         (pts
           (xy -6.223 -3.302)
           (xy -7.112 -4.191)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 -3.302)
           (xy -6.731 -3.302)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 -3.302)
           (xy -6.223 -3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 1.397)
           (xy -7.112 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 1.397)
           (xy -6.731 1.397)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 1.397)
           (xy -6.223 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 -2.286)
           (xy -6.985 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 -2.286)
           (xy -6.604 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 -2.286)
           (xy -6.096 -2.794)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.381)
           (xy -6.985 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.381)
           (xy -6.604 0.381)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.381)
           (xy -6.096 0.889)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -5.842 -1.905)
           (xy -4.191 -1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -5.842 0)
           (xy -4.191 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4599,7 +5011,8 @@
           (xy -5.08 -1.905)
           (xy -5.842 -3.556)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -4608,7 +5021,12 @@
           (xy -5.08 0)
           (xy -5.842 1.651)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (rectangle (start 10.16 5.08) (end -7.62 -7.62)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "TSL2550D_1_1"
@@ -4616,11 +5034,11 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -4632,11 +5050,11 @@
         (name "CLK" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -4646,7 +5064,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:TSL2550T" (in_bom yes) (on_board yes)
+  (symbol "TSL2550T" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4669,21 +5087,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSL2550T_0_0"
-      (text "ADC" (at 0.127 -0.889 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (text "CTRL" (at 4.064 -1.016 900)
-        (effects (font (size 1.524 1.524)))
-      )
-      (rectangle (start 2.921 2.286) (end 5.334 -4.572)
-        (stroke (width 0)) (fill (type none))
-      )
       (polyline
         (pts
           (xy 2.413 -0.889)
           (xy 2.794 -0.889)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4691,7 +5101,8 @@
           (xy -5.08 -1.27)
           (xy -2.667 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4699,7 +5110,8 @@
           (xy -5.08 -0.508)
           (xy -2.667 -0.508)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4708,7 +5120,8 @@
           (xy 2.413 -2.286)
           (xy 2.413 -0.889)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4717,110 +5130,132 @@
           (xy 2.413 0.508)
           (xy 2.413 -0.889)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 2.921 2.286) (end 5.334 -4.572)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (text "ADC" (at 0.127 -0.889 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (text "CTRL" (at 4.064 -1.016 900)
+        (effects (font (size 1.524 1.524)))
       )
     )
     (symbol "TSL2550T_0_1"
-      (rectangle (start 10.16 5.08) (end -7.62 -7.62)
-        (stroke (width 0.254)) (fill (type background))
-      )
       (polyline
         (pts
           (xy -6.223 -3.302)
           (xy -7.112 -4.191)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 -3.302)
           (xy -6.731 -3.302)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 -3.302)
           (xy -6.223 -3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 1.397)
           (xy -7.112 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 1.397)
           (xy -6.731 1.397)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.223 1.397)
           (xy -6.223 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 -2.286)
           (xy -6.985 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 -2.286)
           (xy -6.604 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 -2.286)
           (xy -6.096 -2.794)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.381)
           (xy -6.985 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.381)
           (xy -6.604 0.381)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.096 0.381)
           (xy -6.096 0.889)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -5.842 -1.905)
           (xy -4.191 -1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -5.842 0)
           (xy -4.191 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4829,7 +5264,8 @@
           (xy -5.08 -1.905)
           (xy -5.842 -3.556)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -4838,7 +5274,12 @@
           (xy -5.08 0)
           (xy -5.842 1.651)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (rectangle (start 10.16 5.08) (end -7.62 -7.62)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "TSL2550T_1_1"
@@ -4860,7 +5301,7 @@
       )
     )
   )
-  (symbol "Sensor_Optical:VT93xx" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VT93xx" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at -5.08 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -4884,49 +5325,56 @@
     )
     (symbol "VT93xx_0_1"
       (rectangle (start -1.016 2.54) (end 1.016 -2.54)
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -4.064 0.254)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -2.286 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -2.286)
           (xy -1.524 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -4.064 1.778)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -2.286 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.524 -0.762)
           (xy -1.524 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VT93xx_1_1"

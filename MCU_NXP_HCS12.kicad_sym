@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
-  (symbol "MCU_NXP_HCS12:MC9S12DT256" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MC9S12DT256" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 17.78 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -20,7 +20,8 @@
     )
     (symbol "MC9S12DT256_0_1"
       (rectangle (start -35.56 83.82) (end 38.1 -71.12)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MC9S12DT256_1_1"
