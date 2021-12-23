@@ -13212,7 +13212,7 @@
     )
     (symbol "SN74LV8153N_0_1"
       (rectangle (start -7.62 12.7) (end 7.62 -12.7)
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
