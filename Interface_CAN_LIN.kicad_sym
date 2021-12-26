@@ -2176,7 +2176,8 @@
     )
     (symbol "MCP2518FDTxQBB_0_1"
       (rectangle (start -12.7 10.16) (end 12.7 -10.16)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MCP2518FDTxQBB_1_1"
@@ -2193,7 +2194,7 @@
         (name "SDI" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin tri_state line (at -15.24 5.08 0) (length 2.54)
+      (pin output line (at -15.24 5.08 0) (length 2.54)
         (name "SDO" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
