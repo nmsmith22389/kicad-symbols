@@ -2057,7 +2057,7 @@
     (property "ki_description" "Ambient light photo sensor (NPN phototransistor)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "LED*RGB*1210*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*KPS*3227*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "KPS-3227_1_1"
