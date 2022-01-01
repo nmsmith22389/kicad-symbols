@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "RF_RFID:HTRC11001T" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "HTRC11001T" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "HTRC11001T_0_1"
       (rectangle (start -11.43 16.51) (end 11.43 -16.51)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "HTRC11001T_1_1"
@@ -81,7 +82,7 @@
       )
     )
   )
-  (symbol "RF_RFID:PN5120A0HN1" (in_bom yes) (on_board yes)
+  (symbol "PN5120A0HN1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -105,7 +106,8 @@
     )
     (symbol "PN5120A0HN1_0_1"
       (rectangle (start -15.24 22.86) (end 15.24 -22.86)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "PN5120A0HN1_1_1"
@@ -226,7 +228,7 @@
         (number "5" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -17.78 17.78 0) (length 2.54)
-        (name "~NRSTPD" (effects (font (size 1.27 1.27))))
+        (name "~{NRSTPD}" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 17.78 7.62 180) (length 2.54)

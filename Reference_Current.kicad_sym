@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "Reference_Current:LM134H" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LM134H" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -22,59 +22,69 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM134H_0_1"
-      (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.54 3.175) (end 2.54 -3.175)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.143 -2.413)
           (xy -0.381 -2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 2.413)
           (xy -0.254 2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.635 2.794)
           (xy -0.635 2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.905)
           (xy 0 -3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.397)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.81)
           (xy 0 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -83,7 +93,8 @@
           (xy 0.254 -0.889)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -92,7 +103,12 @@
           (xy 2.159 -0.254)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LM134H_1_1"
@@ -110,7 +126,7 @@
       )
     )
   )
-  (symbol "Reference_Current:LM334M" (in_bom yes) (on_board yes)
+  (symbol "LM334M" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -133,59 +149,69 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM334M_0_1"
-      (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.286 3.048) (end 2.54 -2.794)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.143 -2.413)
           (xy -0.381 -2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 2.413)
           (xy -0.254 2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.635 2.794)
           (xy -0.635 2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.905)
           (xy 0 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.397)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.81)
           (xy 0 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -194,7 +220,8 @@
           (xy 0.254 -0.889)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -203,7 +230,12 @@
           (xy 2.159 -0.254)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LM334M_1_1"
@@ -233,7 +265,7 @@
       )
     )
   )
-  (symbol "Reference_Current:LM334SM" (in_bom yes) (on_board yes)
+  (symbol "LM334SM" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -256,59 +288,69 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM334SM_0_1"
-      (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.54 3.175) (end 2.54 -3.175)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.143 -2.413)
           (xy -0.381 -2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 2.413)
           (xy -0.254 2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.635 2.794)
           (xy -0.635 2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.905)
           (xy 0 -3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.397)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.81)
           (xy 0 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -317,7 +359,8 @@
           (xy 0.254 -0.889)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -326,7 +369,12 @@
           (xy 2.159 -0.254)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LM334SM_1_1"
@@ -344,7 +392,7 @@
       )
     )
   )
-  (symbol "Reference_Current:LM334Z" (in_bom yes) (on_board yes)
+  (symbol "LM334Z" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -367,59 +415,69 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM334Z_0_1"
-      (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.54 3.175) (end 2.54 -3.175)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.143 -2.413)
           (xy -0.381 -2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 2.413)
           (xy -0.254 2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.635 2.794)
           (xy -0.635 2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.905)
           (xy 0 -5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.397)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 5.08)
           (xy 0 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -428,7 +486,8 @@
           (xy 0.254 -0.889)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -437,7 +496,12 @@
           (xy 2.159 -0.254)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LM334Z_1_1"
@@ -455,7 +519,7 @@
       )
     )
   )
-  (symbol "Reference_Current:LM234Z-3" (extends "LM334Z")
+  (symbol "LM234Z-3" (extends "LM334Z")
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -478,7 +542,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "Reference_Current:LM234Z-6" (extends "LM334Z")
+  (symbol "LM234Z-6" (extends "LM334Z")
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -501,7 +565,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "Reference_Current:LM334Z-LFT1" (extends "LM334Z")
+  (symbol "LM334Z-LFT1" (extends "LM334Z")
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -524,7 +588,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "Reference_Current:LT3092xDD" (in_bom yes) (on_board yes)
+  (symbol "LT3092xDD" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -547,59 +611,69 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LT3092xDD_0_1"
-      (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.286 3.048) (end 2.54 -2.794)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.143 -2.413)
           (xy -0.381 -2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 2.413)
           (xy -0.254 2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.635 2.794)
           (xy -0.635 2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.905)
           (xy 0 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.397)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.81)
           (xy 0 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -608,7 +682,8 @@
           (xy 0.254 -0.889)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -617,7 +692,12 @@
           (xy 2.159 -0.254)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LT3092xDD_1_1"
@@ -659,7 +739,7 @@
       )
     )
   )
-  (symbol "Reference_Current:LT3092xST" (in_bom yes) (on_board yes)
+  (symbol "LT3092xST" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -682,59 +762,69 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LT3092xST_0_1"
-      (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.286 3.048) (end 2.54 -2.794)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.143 -2.413)
           (xy -0.381 -2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 2.413)
           (xy -0.254 2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.635 2.794)
           (xy -0.635 2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.905)
           (xy 0 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.397)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.81)
           (xy 0 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -743,7 +833,8 @@
           (xy 0.254 -0.889)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -752,7 +843,12 @@
           (xy 2.159 -0.254)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LT3092xST_1_1"
@@ -770,7 +866,7 @@
       )
     )
   )
-  (symbol "Reference_Current:LT3092xTS8" (in_bom yes) (on_board yes)
+  (symbol "LT3092xTS8" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0.635 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -793,59 +889,69 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LT3092xTS8_0_1"
-      (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.286 3.048) (end 2.54 -2.794)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.143 -2.413)
           (xy -0.381 -2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 2.413)
           (xy -0.254 2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.635 2.794)
           (xy -0.635 2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.905)
           (xy 0 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.397)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.81)
           (xy 0 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -854,7 +960,8 @@
           (xy 0.254 -0.889)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -863,7 +970,12 @@
           (xy 2.159 -0.254)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LT3092xTS8_1_1"
@@ -901,7 +1013,7 @@
       )
     )
   )
-  (symbol "Reference_Current:PSSI2021SAY" (in_bom yes) (on_board yes)
+  (symbol "PSSI2021SAY" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 8.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -930,45 +1042,49 @@
       )
     )
     (symbol "PSSI2021SAY_1_1"
-      (circle (center 0 1.905) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 3.175) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.54 5.08) (end 2.54 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (polyline
         (pts
           (xy -1.778 0.508)
           (xy -1.016 0.508)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.778 4.445)
           (xy -1.016 4.445)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.397 4.826)
           (xy -1.397 4.064)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.937)
           (xy 0 1.143)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 5.08)
           (xy 0 4.445)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -976,7 +1092,8 @@
           (xy 0 0)
           (xy 0 0.635)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -985,7 +1102,8 @@
           (xy 0.254 1.524)
           (xy 0 1.016)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -996,7 +1114,16 @@
           (xy 1.778 2.413)
           (xy 1.778 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 1.905) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 3.175) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin no_connect line (at -2.54 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
@@ -1016,7 +1143,7 @@
       )
     )
   )
-  (symbol "Reference_Current:REF200AU" (in_bom yes) (on_board yes)
+  (symbol "REF200AU" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.175 4.445 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -1048,52 +1175,61 @@
       )
     )
     (symbol "REF200AU_1_1"
-      (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.54 5.08) (end 3.81 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.143 -2.413)
           (xy -0.381 -2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 2.413)
           (xy -0.254 2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.635 2.794)
           (xy -0.635 2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.905)
           (xy 0 -5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.397)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 5.08)
           (xy 0 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1102,7 +1238,12 @@
           (xy 0.254 -0.889)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1114,52 +1255,61 @@
       )
     )
     (symbol "REF200AU_2_1"
-      (circle (center 0 -0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 0.635) (radius 1.27) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.54 5.08) (end 3.81 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.143 -2.413)
           (xy -0.381 -2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 2.413)
           (xy -0.254 2.413)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.635 2.794)
           (xy -0.635 2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.905)
           (xy 0 -5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.397)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 5.08)
           (xy 0 1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1168,7 +1318,12 @@
           (xy 0.254 -0.889)
           (xy 0 -1.397)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0.635) (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1180,39 +1335,45 @@
       )
     )
     (symbol "REF200AU_3_1"
-      (circle (center 0 -2.54) (radius 0.1524) (stroke (width 0)) (fill (type none)))
-      (circle (center 0 3.81) (radius 0.1524) (stroke (width 0)) (fill (type none)))
-      (circle (center 3.81 0) (radius 0.1524) (stroke (width 0)) (fill (type none)))
       (rectangle (start -2.54 5.08) (end 8.89 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 0 -2.54) (radius 0.1524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.81)
           (xy 0 5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -1.27)
           (xy 1.27 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 0)
           (xy 6.35 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 6.35 1.27)
           (xy 6.35 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1220,7 +1381,8 @@
           (xy 0 -1.27)
           (xy 1.27 -0.635)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1228,7 +1390,8 @@
           (xy 3.81 3.81)
           (xy 3.81 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1236,7 +1399,8 @@
           (xy 0 1.27)
           (xy 0 3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1244,7 +1408,8 @@
           (xy 7.62 1.27)
           (xy 6.35 0.635)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1253,7 +1418,8 @@
           (xy 0.762 -1.1176)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1262,7 +1428,8 @@
           (xy 7.62 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1271,7 +1438,16 @@
           (xy 6.858 -1.1176)
           (xy 7.62 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 3.81) (radius 0.1524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 3.81 0) (radius 0.1524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))

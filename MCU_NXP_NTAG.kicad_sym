@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "MCU_NXP_NTAG:NHS3100" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "NHS3100" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -13.97 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "NHS3100_0_1"
       (rectangle (start 15.24 -12.7) (end -15.24 12.7)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "NHS3100_1_1"
@@ -124,7 +125,7 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 17.78 -10.16 180) (length 2.54)
-        (name "~RESET" (effects (font (size 1.27 1.27))))
+        (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )

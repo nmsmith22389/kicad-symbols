@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "Memory_ROM:XC18V01SO20" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "XC18V01SO20" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.8392 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -14,10 +14,12 @@
     )
     (symbol "XC18V01SO20_0_1"
       (rectangle (start -10.16 12.7) (end -10.16 12.7)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (rectangle (start -10.16 13.97) (end 10.16 -13.97)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "XC18V01SO20_1_1"
@@ -103,7 +105,7 @@
       )
     )
   )
-  (symbol "Memory_ROM:XCF08P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XCF08P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -124,7 +126,8 @@
     )
     (symbol "XCF08P_0_1"
       (rectangle (start -8.89 31.75) (end 8.89 -31.75)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "XCF08P_1_1"
