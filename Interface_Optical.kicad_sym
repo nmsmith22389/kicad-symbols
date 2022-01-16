@@ -22,7 +22,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IS471F_0_0"
-      (arc (start -12.065 1.397) (mid -12.8679 -0.1852) (end -12.065 -1.778)
+      (arc (start -12.065 1.397) (mid -12.8679 -0.1905) (end -12.065 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -332,7 +332,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IS485_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -354,7 +354,7 @@
       )
     )
     (symbol "IS485_0_1"
-      (arc (start -1.27 -1.143) (mid -0.3048 -0.1778) (end -1.27 0.762)
+      (arc (start -1.27 -1.143) (mid -0.3047 -0.1905) (end -1.27 0.762)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
@@ -606,7 +606,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IS486_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -628,7 +628,7 @@
       )
     )
     (symbol "IS486_0_1"
-      (arc (start -1.27 -1.143) (mid -0.3048 -0.1778) (end -1.27 0.762)
+      (arc (start -1.27 -1.143) (mid -0.3047 -0.1905) (end -1.27 0.762)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
@@ -880,7 +880,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "QSE159_0_0"
-      (arc (start -5.08 1.651) (mid -5.8829 0.0688) (end -5.08 -1.524)
+      (arc (start -5.08 1.651) (mid -5.8829 0.0635) (end -5.08 -1.524)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -1309,7 +1309,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSDP341xx_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -1722,7 +1722,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSMP58138_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -1974,7 +1974,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSOP17xx_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -2249,7 +2249,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSOP32S40F_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -2616,7 +2616,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSOP331xx_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -2960,7 +2960,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSOP34S40F_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -3189,7 +3189,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSOP581xx_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )

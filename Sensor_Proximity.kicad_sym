@@ -4398,7 +4398,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TSSP58P38_0_0"
-      (arc (start -10.287 1.397) (mid -11.0899 -0.1852) (end -10.287 -1.778)
+      (arc (start -10.287 1.397) (mid -11.0899 -0.1905) (end -10.287 -1.778)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
