@@ -9515,7 +9515,7 @@
     (property "ki_description" "Integrated USB 2.0 Compatible 7-Port Hub" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TQFP*12x12mm_P0.5mm*" (id 7) (at 0 0 0)
+    (property "ki_fp_filters" "TQFP*12x12mm?P0.5mm*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "USB2507_1_1"
@@ -9733,7 +9733,7 @@
       )
     )
     (symbol "USB2507_2_1"
-      (rectangle (start -10.16 45.72) (end 10.16 -43.18)
+      (rectangle (start -10.16 45.72) (end 10.16 -45.72)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
