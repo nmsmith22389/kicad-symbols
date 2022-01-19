@@ -9517,7 +9517,7 @@
     )
     (symbol "USB2507_1_1"
       (rectangle (start -25.4 38.1) (end 25.4 -38.1)
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
       (pin power_in line (at -5.08 40.64 270) (length 2.54)
