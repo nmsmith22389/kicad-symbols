@@ -9515,12 +9515,15 @@
     (property "ki_description" "Integrated USB 2.0 Compatible 7-Port Hub" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "TQFP-80_12x12mm_P0.5mm" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "USB2507_1_1"
       (rectangle (start -25.4 38.1) (end 25.4 -38.1)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (pin power_in line (at -5.08 40.64 270) (length 2.54)
+      (pin power_in line (at -2.54 40.64 270) (length 2.54)
         (name "VDDA33" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -9528,7 +9531,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -5.08 40.64 270) (length 2.54) hide
+      (pin passive line (at -2.54 40.64 270) (length 2.54) hide
         (name "VDDA33" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -9600,7 +9603,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 8.89 40.64 270) (length 2.54)
+      (pin power_in line (at 7.62 40.64 270) (length 2.54)
         (name "VDD18" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
@@ -9636,11 +9639,11 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 8.89 40.64 270) (length 2.54) hide
+      (pin passive line (at 7.62 40.64 270) (length 2.54) hide
         (name "VDD18" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -8.89 40.64 270) (length 2.54)
+      (pin power_in line (at -7.62 40.64 270) (length 2.54)
         (name "VDD33CR" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
@@ -9660,7 +9663,7 @@
         (name "VBUS_DET" (effects (font (size 1.27 1.27))))
         (number "60" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -5.08 40.64 270) (length 2.54) hide
+      (pin passive line (at -2.54 40.64 270) (length 2.54) hide
         (name "VDDA33" (effects (font (size 1.27 1.27))))
         (number "61" (effects (font (size 1.27 1.27))))
       )
@@ -9676,11 +9679,11 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "64" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -5.08 40.64 270) (length 2.54) hide
+      (pin passive line (at -2.54 40.64 270) (length 2.54) hide
         (name "VDDA33" (effects (font (size 1.27 1.27))))
         (number "67" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -5.08 40.64 270) (length 2.54) hide
+      (pin passive line (at -2.54 40.64 270) (length 2.54) hide
         (name "VDDA33" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -9692,7 +9695,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "71" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 8.89 40.64 270) (length 2.54) hide
+      (pin passive line (at 7.62 40.64 270) (length 2.54) hide
         (name "VDD18" (effects (font (size 1.27 1.27))))
         (number "72" (effects (font (size 1.27 1.27))))
       )
@@ -9712,7 +9715,7 @@
         (name "VDDA18PLL" (effects (font (size 1.27 1.27))))
         (number "76" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 5.08 40.64 270) (length 2.54)
+      (pin power_in line (at 2.54 40.64 270) (length 2.54)
         (name "VDDA33PLL" (effects (font (size 1.27 1.27))))
         (number "77" (effects (font (size 1.27 1.27))))
       )
