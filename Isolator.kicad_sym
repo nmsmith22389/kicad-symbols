@@ -11409,7 +11409,7 @@
     (property "ki_description" "3.75kV 7-Channel SPI Isolator, 1 Reverse Channel, SSOP-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SSOP*5.3x7.2mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ADuM3151_0_0"
@@ -11664,7 +11664,7 @@
     (property "ki_description" "3.75kV 7-Channel SPI Isolator, 2 Reverse Channels, SSOP-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SSOP*5.3x7.2mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ADuM3152_0_0"
@@ -11919,7 +11919,7 @@
     (property "ki_description" "3.75kV 7-Channel SPI Isolator, 3 Reverse Channels, SSOP-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SSOP*5.3x7.2mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ADuM3153_0_0"
