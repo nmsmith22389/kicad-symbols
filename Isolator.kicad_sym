@@ -27271,7 +27271,7 @@
     (property "ki_description" "Six-channel digital isolator" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "QSOP*16_3.9x4.9mm*P0.635mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "QSOP*16?3.9x4.9mm*P0.635mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX14850AEE+_0_1"
@@ -27918,7 +27918,7 @@
     (property "ki_description" "Six-channel digital isolator" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOIC*16_3.9x9.9mm*P1.27mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC*16?3.9x9.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX14850ASE+_0_1"
