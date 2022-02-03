@@ -2054,10 +2054,10 @@
     (property "ki_keywords" "Kingbright npn phototransistor ambient light photo sensor" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Ambient light photo sensor (NPN phototransistor)" (id 5) (at 0 0 0)
+    (property "ki_description" "Ambient light NPN phototransistor, KPS-3227" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*KPS*3227*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Kingbright*KPS?3227*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "KPS-3227_1_1"
