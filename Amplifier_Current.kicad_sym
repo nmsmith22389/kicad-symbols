@@ -1213,7 +1213,7 @@
     (property "Value" "INA180B1IDBV" (id 1) (at 8.89 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 0 -1.27 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 0 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina180.pdf" (id 3) (at 1.27 1.27 0)
