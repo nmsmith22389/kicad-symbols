@@ -3782,11 +3782,11 @@
       )
     )
   )
-  (symbol "SN65HVD255" (in_bom yes) (on_board yes)
+  (symbol "SN65HVD255D" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 8.89 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SN65HVD255" (id 1) (at 1.27 8.89 0)
+    (property "Value" "SN65HVD255D" (id 1) (at 1.27 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 0 -1.27 0)
@@ -3804,13 +3804,13 @@
     (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "SN65HVD255_0_1"
+    (symbol "SN65HVD255D_0_1"
       (rectangle (start -10.16 7.62) (end 10.16 -7.62)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "SN65HVD255_1_1"
+    (symbol "SN65HVD255D_1_1"
       (pin input line (at -12.7 5.08 0) (length 2.54)
         (name "TXD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -3845,11 +3845,11 @@
       )
     )
   )
-  (symbol "SN65HVD256" (in_bom yes) (on_board yes)
+  (symbol "SN65HVD256D" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 8.89 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SN65HVD256" (id 1) (at 2.54 8.89 0)
+    (property "Value" "SN65HVD256D" (id 1) (at 2.54 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 0 -1.27 0)
@@ -3867,13 +3867,13 @@
     (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "SN65HVD256_0_1"
+    (symbol "SN65HVD256D_0_1"
       (rectangle (start -10.16 7.62) (end 10.16 -7.62)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "SN65HVD256_1_1"
+    (symbol "SN65HVD256D_1_1"
       (pin input line (at -12.7 5.08 0) (length 2.54)
         (name "TXD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -3908,11 +3908,11 @@
       )
     )
   )
-  (symbol "SN65HVD257" (in_bom yes) (on_board yes)
+  (symbol "SN65HVD257D" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 8.89 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SN65HVD257" (id 1) (at 1.27 8.89 0)
+    (property "Value" "SN65HVD257D" (id 1) (at 1.27 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 0 -1.27 0)
@@ -3930,13 +3930,13 @@
     (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "SN65HVD257_0_1"
+    (symbol "SN65HVD257D_0_1"
       (rectangle (start -10.16 7.62) (end 10.16 -7.62)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "SN65HVD257_1_1"
+    (symbol "SN65HVD257D_1_1"
       (pin input line (at -12.7 5.08 0) (length 2.54)
         (name "TXD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
