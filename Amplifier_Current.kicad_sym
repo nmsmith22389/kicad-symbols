@@ -1841,7 +1841,7 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -7.62 90) (length 2.54) hide
-        (name "EP" (effects (font (size 1.27 1.27))))
+        (name "GND" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
