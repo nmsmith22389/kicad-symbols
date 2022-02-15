@@ -12515,7 +12515,8 @@
     )
     (symbol "LMR36510_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LMR36510_1_1"
