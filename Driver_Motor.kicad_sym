@@ -5908,7 +5908,7 @@
       )
     )
   )
-  (symbol "Driver_Motor:TMC2160" (in_bom yes) (on_board yes)
+  (symbol "TMC2160" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 -33.02 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
@@ -5932,7 +5932,8 @@
     )
     (symbol "TMC2160_1_1"
       (rectangle (start -17.78 30.48) (end 17.78 -30.48)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin output line (at 20.32 15.24 180) (length 2.54)
         (name "HB1" (effects (font (size 1.27 1.27))))
