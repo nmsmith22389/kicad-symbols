@@ -219,10 +219,6 @@
         (name "DIE" (effects (font (size 0.635 0.635))))
         (number "3" (effects (font (size 0.635 0.635))))
       )
-      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "dummy" (effects (font (size 1.27 1.27))))
-      )
     )
   )
   (symbol "IBIS_DRIVER" (in_bom yes) (on_board yes)
@@ -268,10 +264,6 @@
       (pin output line (at 2.54 -2.54 90) (length 1.27)
         (name "DIE" (effects (font (size 0.635 0.635))))
         (number "3" (effects (font (size 0.635 0.635))))
-      )
-      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "dummy" (effects (font (size 1.27 1.27))))
       )
     )
   )
