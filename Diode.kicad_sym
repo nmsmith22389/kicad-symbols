@@ -16967,7 +16967,7 @@
     (property "Footprint" "Diode_SMD:D_MELF" (id 2) (at 0 -4.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.vishay.com/docs/85790/zpy3v9.pdf" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85788/zmy3v9.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "zener diode" (id 4) (at 0 0 0)
