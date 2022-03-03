@@ -27599,7 +27599,7 @@
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 2.54 0) (length 2.54) hide
+      (pin passive line (at -12.7 2.54 0) (length 2.54) hide
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -27806,7 +27806,7 @@
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 2.54 0) (length 2.54) hide
+      (pin passive line (at -12.7 2.54 0) (length 2.54) hide
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -28017,7 +28017,7 @@
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 2.54 0) (length 2.54) hide
+      (pin passive line (at -12.7 2.54 0) (length 2.54) hide
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -28078,7 +28078,7 @@
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 2.54 0) (length 2.54) hide
+      (pin passive line (at -12.7 2.54 0) (length 2.54) hide
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
