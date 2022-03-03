@@ -3202,7 +3202,7 @@
     (property "Value" "W25X40CL" (id 1) (at 8.89 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 0 0 0)
+    (property "Footprint" "" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.winbond.com/resource-files/W25X40CL_G%2020210505.pdf" (id 3) (at 0 0 0)
