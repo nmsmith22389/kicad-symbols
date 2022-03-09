@@ -5983,11 +5983,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MT41K1G4RG_0_1"
-      (rectangle (start -10.16 45.72) (end 10.16 -43.18)
+      (rectangle (start -10.16 45.72) (end 10.16 -45.72)
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54)
+      (pin passive line (at -2.54 -48.26 90) (length 2.54)
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
       )
@@ -5999,11 +5999,11 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A3" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 15.24 180) (length 2.54)
+      (pin free line (at 12.7 15.24 180) (length 2.54)
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "A7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "A8" (effects (font (size 1.27 1.27))))
       )
@@ -6011,11 +6011,11 @@
         (name "V_{DD}" (effects (font (size 1.27 1.27))))
         (number "A9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -48.26 90) (length 2.54) hide
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "B2" (effects (font (size 1.27 1.27))))
       )
@@ -6027,7 +6027,7 @@
         (name "DM" (effects (font (size 1.27 1.27))))
         (number "B7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -48.26 90) (length 2.54) hide
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "B8" (effects (font (size 1.27 1.27))))
       )
@@ -6055,15 +6055,15 @@
         (name "DQ3" (effects (font (size 1.27 1.27))))
         (number "C8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -48.26 90) (length 2.54) hide
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "C9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54)
+      (pin passive line (at 2.54 -48.26 90) (length 2.54)
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "D1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 25.4 180) (length 2.54)
+      (pin free line (at 12.7 25.4 180) (length 2.54)
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "D2" (effects (font (size 1.27 1.27))))
       )
@@ -6075,11 +6075,11 @@
         (name "V_{DD}" (effects (font (size 1.27 1.27))))
         (number "D7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "D8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -48.26 90) (length 2.54) hide
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "D9" (effects (font (size 1.27 1.27))))
       )
@@ -6091,15 +6091,15 @@
         (name "V_{DDQ}" (effects (font (size 1.27 1.27))))
         (number "E2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 30.48 180) (length 2.54)
+      (pin free line (at 12.7 30.48 180) (length 2.54)
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "E3" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 22.86 180) (length 2.54)
+      (pin free line (at 12.7 22.86 180) (length 2.54)
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "E7" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 27.94 180) (length 2.54)
+      (pin free line (at 12.7 27.94 180) (length 2.54)
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "E8" (effects (font (size 1.27 1.27))))
       )
@@ -6111,7 +6111,7 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "F1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "F2" (effects (font (size 1.27 1.27))))
       )
@@ -6123,7 +6123,7 @@
         (name "CK" (effects (font (size 1.27 1.27))))
         (number "F7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "F8" (effects (font (size 1.27 1.27))))
       )
@@ -6179,7 +6179,7 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "H9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "J1" (effects (font (size 1.27 1.27))))
       )
@@ -6199,7 +6199,7 @@
         (name "V_{REFCA}" (effects (font (size 1.27 1.27))))
         (number "J8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "J9" (effects (font (size 1.27 1.27))))
       )
@@ -6227,7 +6227,7 @@
         (name "V_{DD}" (effects (font (size 1.27 1.27))))
         (number "K9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "L1" (effects (font (size 1.27 1.27))))
       )
@@ -6247,7 +6247,7 @@
         (name "A4" (effects (font (size 1.27 1.27))))
         (number "L8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "L9" (effects (font (size 1.27 1.27))))
       )
@@ -6275,7 +6275,7 @@
         (name "V_{DD}" (effects (font (size 1.27 1.27))))
         (number "M9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "N1" (effects (font (size 1.27 1.27))))
       )
@@ -6295,7 +6295,7 @@
         (name "A8" (effects (font (size 1.27 1.27))))
         (number "N8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "N9" (effects (font (size 1.27 1.27))))
       )
@@ -6375,11 +6375,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MT41K512M8RG_0_1"
-      (rectangle (start -10.16 45.72) (end 10.16 -43.18)
+      (rectangle (start -10.16 45.72) (end 10.16 -45.72)
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54)
+      (pin passive line (at -2.54 -48.26 90) (length 2.54)
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
       )
@@ -6391,12 +6391,12 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "A3" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 15.24 180) (length 2.54)
+      (pin free line (at 12.7 15.24 180) (length 2.54)
         (name "NF" (effects (font (size 1.27 1.27))))
         (number "A7" (effects (font (size 1.27 1.27))))
         (alternate "TDQS#" output line)
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "A8" (effects (font (size 1.27 1.27))))
       )
@@ -6404,11 +6404,11 @@
         (name "V_{DD}" (effects (font (size 1.27 1.27))))
         (number "A9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -48.26 90) (length 2.54) hide
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "B2" (effects (font (size 1.27 1.27))))
       )
@@ -6421,7 +6421,7 @@
         (number "B7" (effects (font (size 1.27 1.27))))
         (alternate "TDQS" output line)
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -48.26 90) (length 2.54) hide
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "B8" (effects (font (size 1.27 1.27))))
       )
@@ -6449,11 +6449,11 @@
         (name "DQ3" (effects (font (size 1.27 1.27))))
         (number "C8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -48.26 90) (length 2.54) hide
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "C9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54)
+      (pin passive line (at 2.54 -48.26 90) (length 2.54)
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "D1" (effects (font (size 1.27 1.27))))
       )
@@ -6469,11 +6469,11 @@
         (name "V_{DD}" (effects (font (size 1.27 1.27))))
         (number "D7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "D8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -48.26 90) (length 2.54) hide
         (name "V_{SSQ}" (effects (font (size 1.27 1.27))))
         (number "D9" (effects (font (size 1.27 1.27))))
       )
@@ -6505,7 +6505,7 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "F1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "F2" (effects (font (size 1.27 1.27))))
       )
@@ -6517,7 +6517,7 @@
         (name "CK" (effects (font (size 1.27 1.27))))
         (number "F7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "F8" (effects (font (size 1.27 1.27))))
       )
@@ -6573,7 +6573,7 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "H9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "J1" (effects (font (size 1.27 1.27))))
       )
@@ -6593,7 +6593,7 @@
         (name "V_{REFCA}" (effects (font (size 1.27 1.27))))
         (number "J8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "J9" (effects (font (size 1.27 1.27))))
       )
@@ -6621,7 +6621,7 @@
         (name "V_{DD}" (effects (font (size 1.27 1.27))))
         (number "K9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "L1" (effects (font (size 1.27 1.27))))
       )
@@ -6641,7 +6641,7 @@
         (name "A4" (effects (font (size 1.27 1.27))))
         (number "L8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "L9" (effects (font (size 1.27 1.27))))
       )
@@ -6669,7 +6669,7 @@
         (name "V_{DD}" (effects (font (size 1.27 1.27))))
         (number "M9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "N1" (effects (font (size 1.27 1.27))))
       )
@@ -6689,7 +6689,7 @@
         (name "A8" (effects (font (size 1.27 1.27))))
         (number "N8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -48.26 90) (length 2.54) hide
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "N9" (effects (font (size 1.27 1.27))))
       )
