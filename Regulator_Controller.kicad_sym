@@ -2426,7 +2426,7 @@
     )
   )
   (symbol "LM3478" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at -8.89 8.89 0)
+    (property "Reference" "U" (id 0) (at -10.16 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM3478" (id 1) (at 6.35 8.89 0)
