@@ -2449,7 +2449,7 @@
     )
     (symbol "LM3478_0_1"
       (rectangle (start -10.16 7.62) (end 10.16 -7.62)
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
