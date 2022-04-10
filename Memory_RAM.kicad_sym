@@ -6199,7 +6199,7 @@
         (name "V_{SS}" (effects (font (size 1.27 1.27))))
         (number "J8" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -38.1 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -40.64 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "J9" (effects (font (size 1.27 1.27))))
       )
@@ -6227,7 +6227,7 @@
         (name "CKE" (effects (font (size 1.27 1.27))))
         (number "K9" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -38.1 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -43.18 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "L1" (effects (font (size 1.27 1.27))))
       )
@@ -6247,7 +6247,7 @@
         (name "ZQ" (effects (font (size 1.27 1.27))))
         (number "L8" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -38.1 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -45.72 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "L9" (effects (font (size 1.27 1.27))))
       )
@@ -6263,7 +6263,7 @@
         (name "BA2" (effects (font (size 1.27 1.27))))
         (number "M3" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -38.1 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -35.56 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "M7" (effects (font (size 1.27 1.27))))
       )
