@@ -17874,7 +17874,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Filter_EMI_LLL_0_1"
-      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
+      (rectangle (start -5.08 5.08) (end 5.08 -5.08)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
@@ -17913,7 +17913,7 @@
       (polyline
         (pts
           (xy -2.54 -2.54)
-          (xy -6.35 -2.54)
+          (xy -5.08 -2.54)
         )
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -17921,7 +17921,7 @@
       (polyline
         (pts
           (xy -2.54 0)
-          (xy -6.35 0)
+          (xy -5.08 0)
         )
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -17929,7 +17929,7 @@
       (polyline
         (pts
           (xy -2.54 2.54)
-          (xy -6.35 2.54)
+          (xy -5.08 2.54)
         )
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -17961,7 +17961,7 @@
       (polyline
         (pts
           (xy 2.54 -2.54)
-          (xy 6.35 -2.54)
+          (xy 5.08 -2.54)
         )
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -17969,7 +17969,7 @@
       (polyline
         (pts
           (xy 2.54 0)
-          (xy 6.35 0)
+          (xy 5.08 0)
         )
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -17977,7 +17977,7 @@
       (polyline
         (pts
           (xy 2.54 2.54)
-          (xy 6.35 2.54)
+          (xy 5.08 2.54)
         )
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -18020,27 +18020,27 @@
       )
     )
     (symbol "Filter_EMI_LLL_1_1"
-      (pin passive line (at -7.62 2.54 0) (length 1.27)
+      (pin passive line (at -7.62 2.54 0) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 7.62 2.54 180) (length 1.27)
+      (pin passive line (at 7.62 2.54 180) (length 2.54)
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -7.62 0 0) (length 1.27)
+      (pin passive line (at -7.62 0 0) (length 2.54)
         (name "3" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 7.62 0 180) (length 1.27)
+      (pin passive line (at 7.62 0 180) (length 2.54)
         (name "4" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -7.62 -2.54 0) (length 1.27)
+      (pin passive line (at -7.62 -2.54 0) (length 2.54)
         (name "5" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 7.62 -2.54 180) (length 1.27)
+      (pin passive line (at 7.62 -2.54 180) (length 2.54)
         (name "6" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
