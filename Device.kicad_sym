@@ -17874,15 +17874,15 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Filter_EMI_LLL_0_1"
-      (circle (center -2.54 -1.27) (radius 0.254)
+      (circle (center -3.048 -1.27) (radius 0.254)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (circle (center -2.54 1.27) (radius 0.254)
+      (circle (center -3.048 1.27) (radius 0.254)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (circle (center -2.54 3.81) (radius 0.254)
+      (circle (center -3.048 3.81) (radius 0.254)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
@@ -17908,7 +17908,7 @@
       )
       (polyline
         (pts
-          (xy -1.27 -3.175)
+          (xy -2.54 -3.175)
           (xy 2.921 -3.175)
         )
         (stroke (width 0.3) (type default) (color 0 0 0 0))
@@ -17916,7 +17916,7 @@
       )
       (polyline
         (pts
-          (xy -1.27 -0.635)
+          (xy -2.54 -0.635)
           (xy 2.921 -0.635)
         )
         (stroke (width 0.3) (type default) (color 0 0 0 0))
@@ -17924,7 +17924,7 @@
       )
       (polyline
         (pts
-          (xy -1.27 1.905)
+          (xy -2.54 1.905)
           (xy 2.921 1.905)
         )
         (stroke (width 0.3) (type default) (color 0 0 0 0))
@@ -17932,10 +17932,50 @@
       )
       (polyline
         (pts
-          (xy 2.921 -3.175)
-          (xy 2.921 1.905)
+          (xy -0.889 -2.413)
+          (xy -2.54 -3.175)
         )
-        (stroke (width 0.3) (type default) (color 0 0 0 0))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.889 0.127)
+          (xy -2.54 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.762 -1.651)
+          (xy -0.254 -2.159)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.762 0.889)
+          (xy -0.254 0.381)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.921 -0.635)
+          (xy 1.27 -1.397)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.921 1.905)
+          (xy 1.27 1.143)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (arc (start 0 2.54) (mid -0.635 3.175) (end -1.27 2.54)
