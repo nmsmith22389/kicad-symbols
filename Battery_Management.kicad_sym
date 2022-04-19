@@ -1358,7 +1358,7 @@
         (name "~{TTE}" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 10.16 5.08 180) (length 2.54)
+      (pin input line (at 10.16 5.08 180) (length 2.54)
         (name "BAT" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
