@@ -3146,7 +3146,7 @@
     (property "ki_keywords" "dual opamp rail" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Dual Operational Amplifiers, DIP-8/SOIC-8" (id 5) (at 0 0 0)
+    (property "ki_description" "Dual Operational Amplifiers, 17MHz, DIP-8/SOIC-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (id 6) (at 0 0 0)
