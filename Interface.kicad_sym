@@ -4388,7 +4388,7 @@
     (property "ki_description" "32Mbps 3.3V RS485 Quad Line Drivers, DIP-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP?16*W7.62mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
