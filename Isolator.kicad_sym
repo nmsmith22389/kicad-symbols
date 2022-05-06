@@ -1061,7 +1061,7 @@
     (property "Value" "ADN4650" (id 1) (at 13.97 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" (id 2) (at 0 -15.24 0)
+    (property "Footprint" "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" (id 2) (at 0 -17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adn4650-4651-4652.pdf" (id 3) (at -8.89 17.78 0)
@@ -1173,7 +1173,7 @@
         (name "GND1" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -15.24 90) (length 2.54) hide
+      (pin passive line (at 2.54 -15.24 90) (length 2.54)
         (name "GND2" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -1193,7 +1193,7 @@
         (name "DOUT1+" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 2.54 -15.24 90) (length 2.54)
+      (pin power_in line (at 2.54 -15.24 90) (length 2.54) hide
         (name "GND2" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -1205,7 +1205,7 @@
         (name "GND2" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -15.24 90) (length 2.54) hide
+      (pin passive line (at -2.54 -15.24 90) (length 2.54)
         (name "GND1" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -1217,7 +1217,7 @@
         (name "VDD1" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -15.24 90) (length 2.54)
+      (pin power_in line (at -2.54 -15.24 90) (length 2.54) hide
         (name "GND1" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -2189,7 +2189,7 @@
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 -2.54 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1280_1281_1285_1286.pdf" (id 3) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "Dual-channel digital isolator" (id 4) (at 0 0 0)
