@@ -2509,7 +2509,7 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1250_1251.pdf" (id 3) (at -11.43 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "Dual-channel digital isolator, I2C" (id 4) (at 0 0 0)
+    (property "ki_keywords" "Dual-channel digital isolator I2C" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Dual-channel I2C digital isolator, Bidirectional communication, 3V/5V level translation, SOIC-8" (id 5) (at 0 0 0)
