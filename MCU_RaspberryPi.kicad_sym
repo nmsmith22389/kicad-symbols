@@ -6,7 +6,7 @@
     (property "Value" "RP2040" (id 1) (at 17.78 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.1x3.1mm" (id 2) (at 0 0 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf" (id 3) (at 0 0 0)
@@ -18,7 +18,7 @@
     (property "ki_description" "A microcontroller by Raspberry Pi" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "QFN*7x7mm?P0.4mm?EP3.1x3.1mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "QFN*7x7mm?P0.4mm?EP3.2x3.2mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "RP2040_0_1"
