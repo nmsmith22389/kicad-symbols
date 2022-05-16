@@ -23476,7 +23476,7 @@
     (property "Value" "LT3011xDD" (id 1) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm" (id 2) (at 3.81 12.7 0)
+    (property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm" (id 2) (at 3.81 12.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3011f.pdf" (id 3) (at 3.81 13.97 0)
