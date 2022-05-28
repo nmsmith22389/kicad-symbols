@@ -15067,11 +15067,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "STTH2002_TO-220" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "STTH2002D" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "STTH2002_TO-220" (id 1) (at 0 -2.54 0)
+    (property "Value" "STTH2002D" (id 1) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical" (id 2) (at 0 -4.445 0)
@@ -15083,19 +15083,19 @@
     (property "ki_keywords" "diode" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "200V 20A Ultrafast Recovery Diode" (id 5) (at 0 0 0)
+    (property "ki_description" "200V 20A Ultrafast Recovery Diode, TO-220" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TO*220*2*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TO?220*2*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "STTH2002_TO-220_0_0"
+    (symbol "STTH2002D_0_0"
       (pin no_connect line (at 0 0 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "STTH2002_TO-220_0_1"
+    (symbol "STTH2002D_0_1"
       (polyline
         (pts
           (xy -1.27 1.27)
@@ -15123,7 +15123,7 @@
         (fill (type none))
       )
     )
-    (symbol "STTH2002_TO-220_1_1"
+    (symbol "STTH2002D_1_1"
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -15134,11 +15134,11 @@
       )
     )
   )
-  (symbol "STTH2002_TO-263_SMD" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "STTH2002G" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "STTH2002_TO-263_SMD" (id 1) (at 0 -2.54 0)
+    (property "Value" "STTH2002G" (id 1) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:TO-263-2" (id 2) (at 0 -4.445 0)
@@ -15150,19 +15150,19 @@
     (property "ki_keywords" "diode" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "200V 20A Ultrafast Recovery Diode" (id 5) (at 0 0 0)
+    (property "ki_description" "200V 20A Ultrafast Recovery Diode, TO-263" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TO*263*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TO?263*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "STTH2002_TO-263_SMD_0_0"
+    (symbol "STTH2002G_0_0"
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "STTH2002_TO-263_SMD_0_1"
+    (symbol "STTH2002G_0_1"
       (polyline
         (pts
           (xy -1.27 1.27)
@@ -15190,7 +15190,7 @@
         (fill (type none))
       )
     )
-    (symbol "STTH2002_TO-263_SMD_1_1"
+    (symbol "STTH2002G_1_1"
       (pin no_connect line (at 0 0 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
