@@ -3341,7 +3341,7 @@
     (property "Footprint" "Display:ST7920_128x64" (id 2) (at 0 -22.86 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/view/326219/SITRONIX/ST7920/+225_3AVPhySPPlbeZa.Hwz+/datasheet.pdf" (id 3) (at 17.78 0 0)
+    (property "Datasheet" "https://www.waveshare.com/datasheet/LCD_en_PDF/ST7920.pdf" (id 3) (at 17.78 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "display LCD dot-matrix" (id 4) (at 0 0 0)
