@@ -5278,7 +5278,7 @@
     (property "Value" "NJG1806K75" (id 1) (at 7.62 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "Package_DFN_QFN:Nisshinbo_DFN-6_1EP_1x1mm_P0.35mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/NJG1806K75_E.pdf" (id 3) (at 0 -39.37 0)
@@ -5288,6 +5288,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "SPDT RF switch GaAs MMIC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*DFN*6*1x1mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "NJG1806K75_0_1"
