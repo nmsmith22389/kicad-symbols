@@ -31477,7 +31477,7 @@
     (property "ki_description" "LDO 500mA Vin 2.5V to 5.5V Vout 3.3V Dropout 260mV @500mA DFN6" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*dfn*6*1.2*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*DFN*6*1.2x1.2*P0.4*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MIC5528-3.3YMT_0_1"
