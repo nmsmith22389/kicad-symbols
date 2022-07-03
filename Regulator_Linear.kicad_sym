@@ -31487,7 +31487,7 @@
       )
     )
     (symbol "MIC5528-3.3YMT_1_1"
-      (pin passive line (at 10.16 2.54 180) (length 2.54)
+      (pin power_out line (at 10.16 2.54 180) (length 2.54)
         (name "VOUT" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
