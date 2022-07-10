@@ -4020,8 +4020,8 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 0 90) (length 2.54) hide
-        (name "~" (effects (font (size 1.27 1.27))))
+      (pin no_connect line (at 0 0 270) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 7.62 0 180) (length 3.81)
@@ -4191,8 +4191,8 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 0 90) (length 2.54) hide
-        (name "~" (effects (font (size 1.27 1.27))))
+      (pin no_connect line (at 0 0 270) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 7.62 0 180) (length 3.81)
@@ -4362,8 +4362,8 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 0 90) (length 2.54) hide
-        (name "~" (effects (font (size 1.27 1.27))))
+      (pin no_connect line (at 0 0 270) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 7.62 0 180) (length 3.81)
