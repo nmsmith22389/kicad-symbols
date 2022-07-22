@@ -173,6 +173,7 @@
   (lib (name "RF_Module")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/RF_Module.kicad_sym")(options "")(descr "RF module symbols"))
   (lib (name "RF_NFC")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/RF_NFC.kicad_sym")(options "")(descr "Near Field Communication (RFID)"))
   (lib (name "RF_RFID")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/RF_RFID.kicad_sym")(options "")(descr "Radio Frequency ID (RFID)"))
+  (lib (name "RF_SAT")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/RF_SAT.kicad_sym")(options "")(descr "Satellite devices"))
   (lib (name "RF_Switch")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/RF_Switch.kicad_sym")(options "")(descr "RF switch symbols"))
   (lib (name "RF_WiFi")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/RF_WiFi.kicad_sym")(options "")(descr "WiFi symbols"))
   (lib (name "RF_ZigBee")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/RF_ZigBee.kicad_sym")(options "")(descr "ZigBee / XBee symbols"))
