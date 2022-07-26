@@ -2379,7 +2379,7 @@
     (property "ki_description" "I2C Hall Effect Magnetic Position and Temperature Sensor, TDFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TDFN-8*1.4x1.6mm*P0.4mm" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TDFN-8*1.4x1.6mm*P0.4mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Si7210-B-xx-IM2_0_1"
