@@ -3135,7 +3135,7 @@
     (property "Value" "W25Q80DVSN" (id 1) (at 7.62 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (id 2) (at 0 0 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf" (id 3) (at 0 0 0)
