@@ -1811,7 +1811,7 @@
     (property "ki_description" "triode pentode" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "VALVE*NOVAL*P*" (id 7) (at 0 0 0)
+    (property "ki_fp_filters" "Valve*Noval*P*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ECL82_0_1"
@@ -2192,7 +2192,7 @@
     (property "ki_description" "triode pentode" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "VALVE*NOVAL*P*" (id 7) (at 0 0 0)
+    (property "ki_fp_filters" "Valve*Noval*P*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ECL86_0_1"
