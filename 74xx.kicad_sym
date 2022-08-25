@@ -14962,7 +14962,7 @@
     (property "ki_keywords" "TTL Buffer 3State BUS BIDI" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "4-bit Bus Tranceiver" (id 6) (at 0 0 0)
+    (property "ki_description" "4-bit Bus Transceiver" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "DIP?12*" (id 7) (at 0 0 0)

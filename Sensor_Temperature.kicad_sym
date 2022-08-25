@@ -153,7 +153,7 @@
     (property "ki_keywords" "Temperature sensor" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Analog Ouput Temperature Sensor" (id 5) (at 0 0 0)
+    (property "ki_description" "Analog Output Temperature Sensor" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "HVSOF5*" (id 6) (at 0 0 0)
