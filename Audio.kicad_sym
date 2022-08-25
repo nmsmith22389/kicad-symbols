@@ -5425,7 +5425,7 @@
     (property "ki_keywords" "pcm2902 usb audio" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Stereo Audio Codec with USB interface, Analog Iput/Output, and S/PDIF, SSOP-28" (id 5) (at 0 0 0)
+    (property "ki_description" "Stereo Audio Codec with USB interface, Analog Input/Output, and S/PDIF, SSOP-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "SSOP*5.3x10.2mm*P0.65mm*" (id 6) (at 0 0 0)
