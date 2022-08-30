@@ -133,37 +133,37 @@ $ENDCMP
 #
 $CMP MT48LC16M4A2P
 D PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin [Obsolete]
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
+K SDRAM Synchronous DRAM PC133 PC100 64Mb 16Mbx4
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC16M4A2TG
 D PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin [Obsolete]
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
+K SDRAM Synchronous DRAM PC133 PC100 64Mb 16Mbx4
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC4M16A2P
 D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin [Obsolete]
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
+K SDRAM Synchronous DRAM PC133 PC100 64Mb 4Mbx16
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC4M16A2TG
 D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin [Obsolete]
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
+K SDRAM Synchronous DRAM PC133 PC100 64Mb 4Mbx16
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC8M8A2P
 D PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin [Obsolete]
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
+K SDRAM Synchronous DRAM PC133 PC100 64Mb 8Mbx8
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC8M8A2TG
 D PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin [Obsolete]
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
+K SDRAM Synchronous DRAM PC133 PC100 64Mb 8Mbx8
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
