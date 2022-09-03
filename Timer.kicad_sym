@@ -975,7 +975,7 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 10.16 0 180) (length 2.54)
-        (name "OUTPUT" (effects (font (size 1.27 1.27))))
+        (name "OUTPUT/Q" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -10.16 -5.08 0) (length 2.54)
