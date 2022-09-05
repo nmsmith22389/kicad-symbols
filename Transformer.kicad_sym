@@ -7425,7 +7425,7 @@
     (property "Datasheet" "https://www.bourns.com/pdfs/PT61020.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "gigabit RJ45 transformer ethernet lan" (id 4) (at 0 0 0)
+    (property "ki_keywords" "Gigabit PoE RJ45 Transformer Ethernet Lan" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "10/100/1000 Base-T Ethernet Transformer, SMD-24" (id 5) (at 0 0 0)
