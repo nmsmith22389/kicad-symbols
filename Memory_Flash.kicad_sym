@@ -2526,7 +2526,7 @@
     (property "ki_description" "NAND Flash, 8Gb, Parallel Interface, TSOP-I-48" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*TSOP-*-48_18.4x12mm_P0.5mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TSOP*48*18.4x12mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "S34ML08G301TF_0_0"
