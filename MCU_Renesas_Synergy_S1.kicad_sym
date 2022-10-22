@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
-  (symbol "MCU_Renesas_Synergy_S1:R7FS12878xA01CFL" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "R7FS12878xA01CFL" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "R7FS12878xA01CFL_0_1"
       (rectangle (start -15.24 -35.56) (end 15.24 35.56)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "R7FS12878xA01CFL_1_1"

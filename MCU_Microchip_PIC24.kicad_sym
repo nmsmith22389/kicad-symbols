@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
-  (symbol "MCU_Microchip_PIC24:PIC24FJ256DA210-xBG" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "PIC24FJ256DA210-xBG" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -22.86 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "PIC24FJ256DA210-xBG_1_1"
       (rectangle (start -19.05 69.85) (end 19.05 -69.85)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -22.86 -55.88 0) (length 3.81)
         (name "RE4" (effects (font (size 1.27 1.27))))
@@ -61,7 +62,7 @@
         (name "ENVREG" (effects (font (size 1.27 1.27))))
         (number "A7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -25.4 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -25.4 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "A8" (effects (font (size 1.27 1.27))))
       )
@@ -69,7 +70,7 @@
         (name "RD12" (effects (font (size 1.27 1.27))))
         (number "A9" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -27.94 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -27.94 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
@@ -141,7 +142,7 @@
         (name "RA6" (effects (font (size 1.27 1.27))))
         (number "C5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -30.48 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -30.48 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "C6" (effects (font (size 1.27 1.27))))
       )
@@ -161,7 +162,7 @@
         (name "RC1" (effects (font (size 1.27 1.27))))
         (number "D1" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -35.56 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -35.56 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "D10" (effects (font (size 1.27 1.27))))
       )
@@ -185,7 +186,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "D5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -33.02 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -33.02 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "D6" (effects (font (size 1.27 1.27))))
       )
@@ -233,7 +234,7 @@
         (name "RG1" (effects (font (size 1.27 1.27))))
         (number "E6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -38.1 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -38.1 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "E7" (effects (font (size 1.27 1.27))))
       )
@@ -246,7 +247,7 @@
         (number "E9" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -22.86 58.42 0) (length 3.81)
-        (name "~MCLR" (effects (font (size 1.27 1.27))))
+        (name "~{MCLR}" (effects (font (size 1.27 1.27))))
         (number "F1" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 0 -73.66 90) (length 3.81)
@@ -273,11 +274,11 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "F5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -40.64 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -40.64 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "F6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -43.18 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -43.18 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "F7" (effects (font (size 1.27 1.27))))
       )
@@ -309,7 +310,7 @@
         (name "RA0" (effects (font (size 1.27 1.27))))
         (number "G3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -45.72 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -45.72 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "G4" (effects (font (size 1.27 1.27))))
       )
@@ -325,7 +326,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "G7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -48.26 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -48.26 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "G8" (effects (font (size 1.27 1.27))))
       )
@@ -357,7 +358,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "H4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -50.8 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -50.8 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "H5" (effects (font (size 1.27 1.27))))
       )
@@ -365,7 +366,7 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "H6" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -53.34 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -53.34 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "H7" (effects (font (size 1.27 1.27))))
       )
@@ -413,11 +414,11 @@
         (name "RB12" (effects (font (size 1.27 1.27))))
         (number "J7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -55.88 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -55.88 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "J8" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -58.42 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "J9" (effects (font (size 1.27 1.27))))
       )
@@ -445,7 +446,7 @@
         (name "RB8" (effects (font (size 1.27 1.27))))
         (number "K4" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -60.96 180) (length 3.81) hide
+      (pin no_connect line (at 2.54 -60.96 180) (length 3.81) hide
         (name "N/C" (effects (font (size 1.27 1.27))))
         (number "K5" (effects (font (size 1.27 1.27))))
       )
@@ -511,7 +512,7 @@
       )
     )
   )
-  (symbol "MCU_Microchip_PIC24:PIC24FJ256DA210-xPT" (in_bom yes) (on_board yes)
+  (symbol "PIC24FJ256DA210-xPT" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -16.51 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -535,7 +536,8 @@
     )
     (symbol "PIC24FJ256DA210-xPT_1_1"
       (rectangle (start -16.51 69.85) (end 16.51 -69.85)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at 20.32 -66.04 180) (length 3.81)
         (name "RG15" (effects (font (size 1.27 1.27))))
@@ -558,7 +560,7 @@
         (number "12" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -20.32 63.5 0) (length 3.81)
-        (name "~MCLR" (effects (font (size 1.27 1.27))))
+        (name "~{MCLR}" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 20.32 -55.88 180) (length 3.81)
@@ -939,7 +941,7 @@
       )
     )
   )
-  (symbol "MCU_Microchip_PIC24:PIC24FV32KA304-IPT" (in_bom yes) (on_board yes)
+  (symbol "PIC24FV32KA304-IPT" (in_bom yes) (on_board yes)
     (property "Reference" "IC" (id 0) (at -43.18 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -963,12 +965,13 @@
     )
     (symbol "PIC24FV32KA304-IPT_1_0"
       (rectangle (start -43.18 -50.8) (end 43.18 50.8)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "PIC24FV32KA304-IPT_1_1"
       (pin bidirectional line (at -48.26 -22.86 0) (length 5.08)
-        (name "RB9/DA1/T1CK/~U1RTS~/CTED4/CN21" (effects (font (size 1.27 1.27))))
+        (name "RB9/DA1/T1CK/~{U1RTS}/CTED4/CN21" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -48.26 -30.48 0) (length 5.08)
@@ -1004,7 +1007,7 @@
         (number "17" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -48.26 25.4 0) (length 5.08)
-        (name "RA5/~MCLR~/Vpp" (effects (font (size 1.27 1.27))))
+        (name "RA5/~{MCLR}/Vpp" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -48.26 38.1 0) (length 5.08)
@@ -1072,7 +1075,7 @@
         (number "32" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -48.26 -10.16 0) (length 5.08)
-        (name "RB4/SOSCI/AN15/~U2RTS~/CN1" (effects (font (size 1.27 1.27))))
+        (name "RB4/SOSCI/AN15/~{U2RTS}/CN1" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -48.26 27.94 0) (length 5.08)
@@ -1080,7 +1083,7 @@
         (number "34" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -48.26 15.24 0) (length 5.08)
-        (name "RA9/~SS2~/CN34" (effects (font (size 1.27 1.27))))
+        (name "RA9/~{SS2}/CN34" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 48.26 22.86 180) (length 5.08)

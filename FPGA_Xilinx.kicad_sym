@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
-  (symbol "FPGA_Xilinx:XC2018-PC68" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "XC2018-PC68" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -14,7 +14,8 @@
     )
     (symbol "XC2018-PC68_0_1"
       (rectangle (start -16.51 -41.91) (end 16.51 41.91)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "XC2018-PC68_1_1"
@@ -292,7 +293,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2064-PC68" (extends "XC2018-PC68")
+  (symbol "XC2064-PC68" (extends "XC2018-PC68")
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -306,7 +307,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Xilinx:XC2018-PC84" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC2018-PC84" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -321,7 +322,8 @@
     )
     (symbol "XC2018-PC84_0_1"
       (rectangle (start -20.32 -52.07) (end 20.32 52.07)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC2018-PC84_1_1"
@@ -663,7 +665,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2C256-TQ144" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+  (symbol "XC2C256-TQ144" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -21.59 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -687,7 +689,8 @@
     )
     (symbol "XC2C256-TQ144_0_1"
       (rectangle (start -22.86 -88.9) (end 22.86 88.9)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "XC2C256-TQ144_1_1"
@@ -1269,7 +1272,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2C256-VQ100" (in_bom yes) (on_board yes)
+  (symbol "XC2C256-VQ100" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 15.24 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1293,7 +1296,8 @@
     )
     (symbol "XC2C256-VQ100_0_1"
       (rectangle (start -21.59 59.69) (end 21.59 -59.69)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "XC2C256-VQ100_1_1"
@@ -1699,7 +1703,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2S100TQ144" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC2S100TQ144" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 27.94 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1720,7 +1724,8 @@
     )
     (symbol "XC2S100TQ144_0_1"
       (rectangle (start -40.64 78.74) (end 38.1 -78.74)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC2S100TQ144_1_1"
@@ -2282,7 +2287,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2S150PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC2S150PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 -2.4892 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -2300,7 +2305,8 @@
     )
     (symbol "XC2S150PQ208_0_1"
       (rectangle (start -46.99 109.22) (end 46.99 -109.22)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC2S150PQ208_1_1"
@@ -3126,7 +3132,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2S200PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC2S200PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 -2.3876 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -3144,7 +3150,8 @@
     )
     (symbol "XC2S200PQ208_0_1"
       (rectangle (start -46.99 110.49) (end 46.99 -110.49)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "XC2S200PQ208_1_1"
@@ -3974,7 +3981,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2S300PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC2S300PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -3989,7 +3996,8 @@
     )
     (symbol "XC2S300PQ208_0_1"
       (rectangle (start -46.99 113.03) (end 46.99 -113.03)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC2S300PQ208_1_1"
@@ -4827,7 +4835,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2S400FT256" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC2S400FT256" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -4842,7 +4850,8 @@
     )
     (symbol "XC2S400FT256_0_1"
       (rectangle (start 46.99 -148.59) (end -46.99 148.59)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC2S400FT256_1_1"
@@ -5872,7 +5881,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2S50-PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC2S50-PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 40.64 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -5887,7 +5896,8 @@
     )
     (symbol "XC2S50-PQ208_0_1"
       (rectangle (start -46.99 109.22) (end 46.99 -109.22)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC2S50-PQ208_1_1"
@@ -6713,7 +6723,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC2S64A-xQFG48" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+  (symbol "XC2S64A-xQFG48" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 8.89 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -6731,7 +6741,8 @@
     )
     (symbol "XC2S64A-xQFG48_0_1"
       (rectangle (start -16.51 33.02) (end 16.51 -33.02)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -6741,7 +6752,8 @@
           (xy -10.16 -26.67)
           (xy -10.16 -26.67)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -6751,7 +6763,8 @@
           (xy 12.7 -29.21)
           (xy 12.7 -29.21)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -6761,7 +6774,8 @@
           (xy 12.7 24.13)
           (xy 12.7 24.13)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -6772,7 +6786,8 @@
           (xy -10.16 1.27)
           (xy -10.16 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC2S64A-xQFG48_1_1"
@@ -6970,7 +6985,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3020-PC68" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3020-PC68" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -6985,7 +7000,8 @@
     )
     (symbol "XC3020-PC68_0_1"
       (rectangle (start -16.51 -41.91) (end 16.51 41.91)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3020-PC68_1_1"
@@ -7263,7 +7279,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3030-PC68" (extends "XC3020-PC68")
+  (symbol "XC3030-PC68" (extends "XC3020-PC68")
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -7277,7 +7293,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Xilinx:XC3030-PC44" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3030-PC44" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -7292,7 +7308,8 @@
     )
     (symbol "XC3030-PC44_0_1"
       (rectangle (start -16.51 -26.67) (end 16.51 26.67)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3030-PC44_1_1"
@@ -7474,7 +7491,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3030-PC84" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3030-PC84" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -7489,7 +7506,8 @@
     )
     (symbol "XC3030-PC84_0_1"
       (rectangle (start -20.32 -52.07) (end 20.32 52.07)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3030-PC84_1_1"
@@ -7831,7 +7849,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3042-PC84" (extends "XC3030-PC84")
+  (symbol "XC3042-PC84" (extends "XC3030-PC84")
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -7845,7 +7863,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Xilinx:XC3030-VQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3030-VQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -7860,7 +7878,8 @@
     )
     (symbol "XC3030-VQ100_0_1"
       (rectangle (start -16.51 -57.15) (end 16.51 57.15)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3030-VQ100_1_1"
@@ -8258,7 +8277,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3042-VQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3042-VQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -8273,7 +8292,8 @@
     )
     (symbol "XC3042-VQ100_0_1"
       (rectangle (start -16.51 -57.15) (end 16.51 57.15)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3042-VQ100_1_1"
@@ -8679,7 +8699,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3S1400A-FG484" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3S1400A-FG484" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -8700,7 +8720,8 @@
     )
     (symbol "XC3S1400A-FG484_0_1"
       (rectangle (start -71.12 133.35) (end 71.12 -133.35)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3S1400A-FG484_1_1"
@@ -10644,7 +10665,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3S200AN-FT256" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3S200AN-FT256" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -10679,7 +10700,8 @@
     )
     (symbol "XC3S200AN-FT256_0_1"
       (rectangle (start -46.99 142.24) (end 46.99 -142.24)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -10689,7 +10711,8 @@
           (xy -22.86 -1.27)
           (xy -22.86 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -10699,7 +10722,8 @@
           (xy -15.24 -134.62)
           (xy -15.24 -134.62)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -10709,7 +10733,8 @@
           (xy 13.97 -127)
           (xy 13.97 -127)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -10719,7 +10744,8 @@
           (xy 13.97 -1.27)
           (xy 13.97 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3S200AN-FT256_1_1"
@@ -11749,7 +11775,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3S400-FG320" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3S400-FG320" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -11764,7 +11790,8 @@
     )
     (symbol "XC3S400-FG320_0_1"
       (rectangle (start -50.8 -82.55) (end 50.8 82.55)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3S400-FG320_1_1"
@@ -13050,7 +13077,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3S400-PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3S400-PQ208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 41.91 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -13091,7 +13118,8 @@
     )
     (symbol "XC3S400-PQ208_0_1"
       (rectangle (start -46.99 114.3) (end 46.99 -114.3)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -13101,7 +13129,8 @@
           (xy -16.51 -106.68)
           (xy -15.24 -106.68)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -13111,7 +13140,8 @@
           (xy -16.51 -22.86)
           (xy -16.51 -22.86)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -13121,7 +13151,8 @@
           (xy -16.51 25.4)
           (xy -16.51 25.4)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -13131,7 +13162,8 @@
           (xy -16.51 81.28)
           (xy -16.51 81.28)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -13141,7 +13173,8 @@
           (xy 20.32 -102.87)
           (xy 20.32 -102.87)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -13151,7 +13184,8 @@
           (xy 20.32 -49.53)
           (xy 20.32 -49.53)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -13161,7 +13195,8 @@
           (xy 20.32 1.27)
           (xy 20.32 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -13171,7 +13206,8 @@
           (xy 20.32 41.91)
           (xy 20.32 41.91)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3S400-PQ208_1_1"
@@ -14009,7 +14045,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3S50-VQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3S50-VQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 26.67 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -14029,6 +14065,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "XC3S50-VQ100_0_0"
+      (rectangle (start -34.29 63.5) (end 31.75 -63.5)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (text "Bank0" (at 15.24 16.51 900)
         (effects (font (size 1.524 1.524) bold))
       )
@@ -14053,9 +14093,6 @@
       (text "Bank7" (at -17.78 17.78 900)
         (effects (font (size 1.524 1.524) bold))
       )
-      (rectangle (start -34.29 63.5) (end 31.75 -63.5)
-        (stroke (width 0)) (fill (type none))
-      )
     )
     (symbol "XC3S50-VQ100_0_1"
       (polyline
@@ -14066,7 +14103,8 @@
           (xy -22.86 6.35)
           (xy -22.86 6.35)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14076,7 +14114,8 @@
           (xy -22.86 -62.23)
           (xy -22.86 -62.23)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14086,7 +14125,8 @@
           (xy -22.86 -39.37)
           (xy -22.86 -39.37)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14096,7 +14136,8 @@
           (xy -22.86 -16.51)
           (xy -22.86 -16.51)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14106,7 +14147,8 @@
           (xy 20.32 -62.23)
           (xy 20.32 -62.23)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14116,7 +14158,8 @@
           (xy 20.32 -39.37)
           (xy 20.32 -39.37)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14126,7 +14169,8 @@
           (xy 20.32 -16.51)
           (xy 20.32 -16.51)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14136,7 +14180,8 @@
           (xy 20.32 6.35)
           (xy 20.32 6.35)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3S50-VQ100_1_1"
@@ -14530,7 +14575,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC3S50AN-TQG144" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC3S50AN-TQG144" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -14562,7 +14607,8 @@
     )
     (symbol "XC3S50AN-TQG144_0_1"
       (rectangle (start -46.99 81.28) (end 46.99 -78.74)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14571,7 +14617,8 @@
           (xy -12.7 30.48)
           (xy -12.7 30.48)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14580,7 +14627,8 @@
           (xy -12.7 21.59)
           (xy -12.7 21.59)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14589,7 +14637,8 @@
           (xy -38.1 -15.24)
           (xy -38.1 -15.24)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14598,7 +14647,8 @@
           (xy 11.43 -38.1)
           (xy 11.43 -38.1)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14607,7 +14657,8 @@
           (xy 11.43 -29.21)
           (xy 11.43 -29.21)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14616,7 +14667,8 @@
           (xy 11.43 41.91)
           (xy 11.43 41.91)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14625,7 +14677,8 @@
           (xy 11.43 33.02)
           (xy 11.43 33.02)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -14635,7 +14688,8 @@
           (xy -12.7 -49.53)
           (xy -12.7 -49.53)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC3S50AN-TQG144_1_1"
@@ -15217,7 +15271,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC4003-PC84" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC4003-PC84" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -15232,7 +15286,8 @@
     )
     (symbol "XC4003-PC84_0_1"
       (rectangle (start -20.32 -52.07) (end 20.32 52.07)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "XC4003-PC84_1_1"
@@ -15566,7 +15621,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC4005-PC84" (extends "XC4003-PC84")
+  (symbol "XC4005-PC84" (extends "XC4003-PC84")
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -15580,7 +15635,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "FPGA_Xilinx:XC4003-VQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC4003-VQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -15595,7 +15650,8 @@
     )
     (symbol "XC4003-VQ100_0_1"
       (rectangle (start -16.51 -59.69) (end 16.51 59.69)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC4003-VQ100_1_1"
@@ -16001,7 +16057,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC4004-PQ160" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC4004-PQ160" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -16016,7 +16072,8 @@
     )
     (symbol "XC4004-PQ160_0_1"
       (rectangle (start -21.59 -68.58) (end 21.59 68.58)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC4004-PQ160_1_1"
@@ -16530,7 +16587,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC4005-PG156" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC4005-PG156" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -16545,7 +16602,8 @@
     )
     (symbol "XC4005-PG156_0_1"
       (rectangle (start -20.32 -78.74) (end 20.32 78.74)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC4005-PG156_1_1"
@@ -17123,7 +17181,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC4005-PQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC4005-PQ100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -17138,7 +17196,8 @@
     )
     (symbol "XC4005-PQ100_0_1"
       (rectangle (start -19.05 -58.42) (end 19.05 58.42)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC4005-PQ100_1_1"
@@ -17540,7 +17599,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC4005-PQ160" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC4005-PQ160" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -17555,7 +17614,8 @@
     )
     (symbol "XC4005-PQ160_0_1"
       (rectangle (start -20.32 -78.74) (end 20.32 78.74)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "XC4005-PQ160_1_1"
@@ -18133,7 +18193,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XC6SLX25T-BG484" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XC6SLX25T-BG484" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -18154,7 +18214,8 @@
     )
     (symbol "XC6SLX25T-BG484_1_1"
       (rectangle (start -27.94 95.25) (end 27.94 -95.25)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin input line (at -35.56 -57.15 0) (length 7.62)
         (name "MGTREFCLK0P_101" (effects (font (size 1.27 1.27))))
@@ -18755,7 +18816,8 @@
     )
     (symbol "XC6SLX25T-BG484_2_1"
       (rectangle (start -30.48 109.22) (end 30.48 -109.22)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin bidirectional line (at 38.1 45.72 180) (length 7.62)
         (name "IO_L10N_3" (effects (font (size 1.27 1.27))))
@@ -19420,7 +19482,8 @@
     )
     (symbol "XC6SLX25T-BG484_3_1"
       (rectangle (start -10.16 74.93) (end 10.16 -74.93)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin power_in line (at 16.51 11.43 180) (length 6.35)
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -19840,7 +19903,7 @@
       )
     )
   )
-  (symbol "FPGA_Xilinx:XCV150_BG352" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "XCV150_BG352" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -19861,7 +19924,8 @@
     )
     (symbol "XCV150_BG352_0_1"
       (rectangle (start -27.94 101.6) (end 29.21 -102.87)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "XCV150_BG352_1_1"

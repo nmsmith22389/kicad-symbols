@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
-  (symbol "power:+10V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "+10V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -24,21 +24,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+10V_1_1"
@@ -48,7 +51,7 @@
       )
     )
   )
-  (symbol "power:+12C" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+12C" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -73,21 +76,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+12C_1_1"
@@ -97,7 +103,7 @@
       )
     )
   )
-  (symbol "power:+12L" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+12L" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -122,21 +128,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+12L_1_1"
@@ -146,7 +155,7 @@
       )
     )
   )
-  (symbol "power:+12LF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+12LF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -171,21 +180,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+12LF_1_1"
@@ -195,7 +207,7 @@
       )
     )
   )
-  (symbol "power:+12P" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+12P" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -220,21 +232,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+12P_1_1"
@@ -244,7 +259,7 @@
       )
     )
   )
-  (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -269,21 +284,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+12V_1_1"
@@ -293,7 +311,7 @@
       )
     )
   )
-  (symbol "power:+12VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+12VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -318,21 +336,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+12VA_1_1"
@@ -342,7 +363,7 @@
       )
     )
   )
-  (symbol "power:+15V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+15V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -367,21 +388,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+15V_1_1"
@@ -391,7 +415,7 @@
       )
     )
   )
-  (symbol "power:+1V0" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+1V0" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -416,21 +440,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+1V0_1_1"
@@ -440,7 +467,7 @@
       )
     )
   )
-  (symbol "power:+1V1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+1V1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -465,21 +492,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+1V1_1_1"
@@ -489,7 +519,7 @@
       )
     )
   )
-  (symbol "power:+1V2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+1V2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -514,21 +544,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+1V2_1_1"
@@ -538,7 +571,7 @@
       )
     )
   )
-  (symbol "power:+1V35" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+1V35" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -563,21 +596,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+1V35_1_1"
@@ -587,7 +623,7 @@
       )
     )
   )
-  (symbol "power:+1V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+1V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -612,21 +648,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+1V5_1_1"
@@ -636,7 +675,7 @@
       )
     )
   )
-  (symbol "power:+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -661,21 +700,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+1V8_1_1"
@@ -685,7 +727,7 @@
       )
     )
   )
-  (symbol "power:+24V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+24V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -710,21 +752,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+24V_1_1"
@@ -734,7 +779,7 @@
       )
     )
   )
-  (symbol "power:+28V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+28V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -759,21 +804,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+28V_1_1"
@@ -783,7 +831,7 @@
       )
     )
   )
-  (symbol "power:+2V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+2V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -808,21 +856,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+2V5_1_1"
@@ -832,7 +883,7 @@
       )
     )
   )
-  (symbol "power:+2V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+2V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -857,21 +908,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+2V8_1_1"
@@ -881,7 +935,59 @@
       )
     )
   )
-  (symbol "power:+3.3VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+3.3V_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "+3.3V_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+3.3V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "+3.3VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -906,21 +1012,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+3.3VA_1_1"
@@ -930,7 +1039,7 @@
       )
     )
   )
-  (symbol "power:+3.3VADC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+3.3VADC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 3.81 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -949,37 +1058,40 @@
     (property "ki_description" "Power symbol creates a global label with name \"+3.3VADC\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "+3.3VADC_0_1"
-      (polyline
-        (pts
-          (xy -0.762 1.27)
-          (xy 0 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 0.762 1.27)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "+3.3VADC_0_0"
       (pin power_in line (at 0 0 90) (length 0) hide
         (name "+3.3VADC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "+3.3VADC_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
   )
-  (symbol "power:+3.3VDAC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+3.3VDAC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 3.81 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -998,37 +1110,40 @@
     (property "ki_description" "Power symbol creates a global label with name \"+3.3VDAC\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "+3.3VDAC_0_1"
-      (polyline
-        (pts
-          (xy -0.762 1.27)
-          (xy 0 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 0.762 1.27)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "+3.3VDAC_0_0"
       (pin power_in line (at 0 0 90) (length 0) hide
         (name "+3.3VDAC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "+3.3VDAC_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
   )
-  (symbol "power:+3.3VP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+3.3VP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 3.81 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1047,37 +1162,40 @@
     (property "ki_description" "Power symbol creates a global label with name \"+3.3VP\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "+3.3VP_0_1"
-      (polyline
-        (pts
-          (xy -0.762 1.27)
-          (xy 0 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 0.762 1.27)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
     (symbol "+3.3VP_0_0"
       (pin power_in line (at 0 0 90) (length 0) hide
         (name "+3.3VP" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "+3.3VP_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
   )
-  (symbol "power:+36V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+36V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1102,21 +1220,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+36V_1_1"
@@ -1126,7 +1247,7 @@
       )
     )
   )
-  (symbol "power:+3V0" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+3V0" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1151,21 +1272,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+3V0_1_1"
@@ -1175,7 +1299,7 @@
       )
     )
   )
-  (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1200,21 +1324,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+3V3_1_1"
@@ -1224,27 +1351,7 @@
       )
     )
   )
-  (symbol "power:+3.3V" (extends "+3V3")
-    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (id 1) (at 0 3.556 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "power:+3V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+3V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1269,21 +1376,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+3V8_1_1"
@@ -1293,7 +1403,7 @@
       )
     )
   )
-  (symbol "power:+48V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+48V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1318,21 +1428,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+48V_1_1"
@@ -1342,7 +1455,7 @@
       )
     )
   )
-  (symbol "power:+4V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+4V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1367,21 +1480,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+4V_1_1"
@@ -1391,7 +1507,7 @@
       )
     )
   )
-  (symbol "power:+5C" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+5C" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1416,21 +1532,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+5C_1_1"
@@ -1440,7 +1559,7 @@
       )
     )
   )
-  (symbol "power:+5F" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+5F" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1465,21 +1584,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+5F_1_1"
@@ -1489,7 +1611,7 @@
       )
     )
   )
-  (symbol "power:+5P" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+5P" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1514,21 +1636,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+5P_1_1"
@@ -1538,7 +1663,7 @@
       )
     )
   )
-  (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1563,21 +1688,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+5V_1_1"
@@ -1587,7 +1715,7 @@
       )
     )
   )
-  (symbol "power:+5VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+5VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1612,21 +1740,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+5VA_1_1"
@@ -1636,7 +1767,7 @@
       )
     )
   )
-  (symbol "power:+5VD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+5VD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1661,21 +1792,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+5VD_1_1"
@@ -1685,7 +1819,7 @@
       )
     )
   )
-  (symbol "power:+5VL" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+5VL" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1710,21 +1844,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+5VL_1_1"
@@ -1734,7 +1871,7 @@
       )
     )
   )
-  (symbol "power:+5VP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+5VP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1759,21 +1896,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+5VP_1_1"
@@ -1783,7 +1923,7 @@
       )
     )
   )
-  (symbol "power:+6V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+6V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1808,21 +1948,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+6V_1_1"
@@ -1832,7 +1975,7 @@
       )
     )
   )
-  (symbol "power:+7.5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+7.5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1857,21 +2000,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+7.5V_1_1"
@@ -1881,7 +2027,7 @@
       )
     )
   )
-  (symbol "power:+8V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+8V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1906,21 +2052,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+8V_1_1"
@@ -1930,7 +2079,7 @@
       )
     )
   )
-  (symbol "power:+9V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+9V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1955,21 +2104,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+9V_1_1"
@@ -1979,7 +2131,7 @@
       )
     )
   )
-  (symbol "power:+9VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+9VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2004,21 +2156,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+9VA_1_1"
@@ -2028,7 +2183,7 @@
       )
     )
   )
-  (symbol "power:+BATT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+BATT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2053,21 +2208,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+BATT_1_1"
@@ -2077,7 +2235,7 @@
       )
     )
   )
-  (symbol "power:+VDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+VDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2097,27 +2255,33 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "+VDC_0_1"
-      (circle (center 0 3.175) (radius 1.905) (stroke (width 0.254)) (fill (type none)))
       (polyline
         (pts
           (xy -1.143 3.175)
           (xy 1.143 3.175)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.032)
           (xy 0 4.318)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 3.175) (radius 1.905)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+VDC_1_1"
@@ -2127,7 +2291,7 @@
       )
     )
   )
-  (symbol "power:+VSW" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+VSW" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2152,21 +2316,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+VSW_1_1"
@@ -2176,7 +2343,7 @@
       )
     )
   )
-  (symbol "power:-10V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-10V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2195,6 +2362,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-10V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-10V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-10V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-10V_0_1"
       (polyline
         (pts
@@ -2205,17 +2378,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-10V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-10V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2234,6 +2402,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-12V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-12V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-12V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-12V_0_1"
       (polyline
         (pts
@@ -2244,17 +2418,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-12V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-12V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-12VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-12VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2273,6 +2442,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-12VA\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-12VA_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-12VA" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-12VA_0_1"
       (polyline
         (pts
@@ -2283,17 +2458,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-12VA_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-12VA" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-15V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-15V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2312,6 +2482,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-15V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-15V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-15V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-15V_0_1"
       (polyline
         (pts
@@ -2322,17 +2498,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-15V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-15V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-24V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-24V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2351,6 +2522,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-24V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-24V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-24V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-24V_0_1"
       (polyline
         (pts
@@ -2361,17 +2538,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-24V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-24V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-2V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-2V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2390,6 +2562,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-2V5\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-2V5_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-2V5" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-2V5_0_1"
       (polyline
         (pts
@@ -2400,17 +2578,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-2V5_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-2V5" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-36V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-36V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2429,6 +2602,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-36V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-36V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-36V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-36V_0_1"
       (polyline
         (pts
@@ -2439,17 +2618,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-36V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-36V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2468,6 +2642,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-3V3\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-3V3_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-3V3" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-3V3_0_1"
       (polyline
         (pts
@@ -2478,17 +2658,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-3V3_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-3V3" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-48V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-48V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2507,6 +2682,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-48V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-48V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-48V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-48V_0_1"
       (polyline
         (pts
@@ -2517,17 +2698,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-48V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-48V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2546,6 +2722,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-5V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-5V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-5V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-5V_0_1"
       (polyline
         (pts
@@ -2556,17 +2738,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-5V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-5V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-5VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-5VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2585,6 +2762,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-5VA\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-5VA_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-5VA" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-5VA_0_1"
       (polyline
         (pts
@@ -2595,17 +2778,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-5VA_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-5VA" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-6V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-6V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2624,6 +2802,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-6V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-6V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-6V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-6V_0_1"
       (polyline
         (pts
@@ -2634,17 +2818,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-6V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-6V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-8V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-8V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2663,6 +2842,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-8V\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-8V_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-8V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-8V_0_1"
       (polyline
         (pts
@@ -2673,17 +2858,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-8V_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-8V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:-9V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-9V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2708,7 +2888,8 @@
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2717,7 +2898,8 @@
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "-9V_1_1"
@@ -2727,7 +2909,7 @@
       )
     )
   )
-  (symbol "power:-9VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-9VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2752,7 +2934,8 @@
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2761,7 +2944,8 @@
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "-9VA_1_1"
@@ -2771,7 +2955,7 @@
       )
     )
   )
-  (symbol "power:-BATT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-BATT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2796,7 +2980,8 @@
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2805,7 +2990,8 @@
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "-BATT_1_1"
@@ -2815,7 +3001,7 @@
       )
     )
   )
-  (symbol "power:-VDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-VDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2835,20 +3021,25 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "-VDC_0_1"
-      (circle (center 0 3.175) (radius 1.905) (stroke (width 0.254)) (fill (type none)))
       (polyline
         (pts
           (xy -1.143 3.175)
           (xy 1.143 3.175)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 3.175) (radius 1.905)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "-VDC_1_1"
@@ -2858,7 +3049,7 @@
       )
     )
   )
-  (symbol "power:-VSW" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "-VSW" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2877,6 +3068,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"-VSW\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "-VSW_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "-VSW" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "-VSW_0_1"
       (polyline
         (pts
@@ -2887,17 +3084,12 @@
           (xy -0.762 1.27)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
-      )
-    )
-    (symbol "-VSW_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-VSW" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
-  (symbol "power:AC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "AC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2917,19 +3109,25 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AC_0_1"
-      (arc (start 0 3.175) (end -1.27 3.175) (radius (at -0.635 3.175) (length 0.635) (angles 0.1 179.9))
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (arc (start 0 3.175) (end 1.27 3.175) (radius (at 0.635 3.175) (length 0.635) (angles -179.9 -0.1))
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (circle (center 0 3.175) (radius 1.905) (stroke (width 0.254)) (fill (type none)))
       (polyline
         (pts
           (xy 0 0)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 0 3.175) (mid -0.635 3.81) (end -1.27 3.175)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 0 3.175) (mid 0.635 2.54) (end 1.27 3.175)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 3.175) (radius 1.905)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "AC_1_1"
@@ -2939,7 +3137,7 @@
       )
     )
   )
-  (symbol "power:Earth" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "Earth" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2964,28 +3162,32 @@
           (xy -0.635 -1.905)
           (xy 0.635 -1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.127 -2.54)
           (xy 0.127 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.27)
           (xy 0 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -1.27)
           (xy -1.27 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Earth_1_1"
@@ -2995,7 +3197,7 @@
       )
     )
   )
-  (symbol "power:Earth_Clean" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "Earth_Clean" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 6.35 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3015,36 +3217,41 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Earth_Clean_0_1"
-      (arc (start 2.54 -3.81) (end -2.54 -3.81) (radius (at 0 -3.81) (length 2.54) (angles 0.1 179.9))
-        (stroke (width 0)) (fill (type none))
-      )
       (polyline
         (pts
           (xy -0.635 -3.175)
           (xy 0.635 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.127 -3.81)
           (xy 0.127 -3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -2.54)
           (xy -1.27 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 2.54 -3.81) (mid 0 -1.27) (end -2.54 -3.81)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Earth_Clean_1_1"
@@ -3054,7 +3261,7 @@
       )
     )
   )
-  (symbol "power:Earth_Protective" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "Earth_Protective" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 6.35 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3074,34 +3281,41 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Earth_Protective_0_1"
-      (circle (center 0 -3.81) (radius 2.54) (stroke (width 0)) (fill (type none)))
+      (circle (center 0 -3.81) (radius 2.54)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -0.635 -4.445)
           (xy 0.635 -4.445)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.127 -5.08)
           (xy 0.127 -5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -3.81)
           (xy 0 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -3.81)
           (xy -1.27 -3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Earth_Protective_1_1"
@@ -3111,7 +3325,7 @@
       )
     )
   )
-  (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3140,7 +3354,8 @@
           (xy -1.27 -1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GND_1_1"
@@ -3150,7 +3365,7 @@
       )
     )
   )
-  (symbol "power:GND1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GND1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3179,7 +3394,8 @@
           (xy -1.27 -1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GND1_1_1"
@@ -3189,7 +3405,7 @@
       )
     )
   )
-  (symbol "power:GND2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GND2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3218,7 +3434,8 @@
           (xy -1.27 -1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GND2_1_1"
@@ -3228,7 +3445,7 @@
       )
     )
   )
-  (symbol "power:GND3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GND3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3257,7 +3474,8 @@
           (xy -1.27 -1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GND3_1_1"
@@ -3267,7 +3485,7 @@
       )
     )
   )
-  (symbol "power:GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3296,7 +3514,8 @@
           (xy -1.27 -1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GNDA_1_1"
@@ -3306,7 +3525,7 @@
       )
     )
   )
-  (symbol "power:GNDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GNDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3327,14 +3546,16 @@
     )
     (symbol "GNDD_0_1"
       (rectangle (start -1.27 -1.524) (end 1.27 -2.032)
-        (stroke (width 0.254)) (fill (type outline))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GNDD_1_1"
@@ -3344,7 +3565,7 @@
       )
     )
   )
-  (symbol "power:GNDPWR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GNDPWR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3369,7 +3590,8 @@
           (xy 0 -1.27)
           (xy 0 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3377,7 +3599,8 @@
           (xy -1.27 -2.032)
           (xy -1.27 -2.032)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3385,7 +3608,8 @@
           (xy -0.762 -2.032)
           (xy -0.762 -2.032)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3393,7 +3617,8 @@
           (xy -0.254 -2.032)
           (xy -0.254 -2.032)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3401,7 +3626,8 @@
           (xy 0.254 -2.032)
           (xy 0.254 -2.032)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3409,7 +3635,8 @@
           (xy -1.016 -1.27)
           (xy -1.016 -1.27)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3418,7 +3645,8 @@
           (xy 0.762 -2.032)
           (xy 0.762 -2.032)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GNDPWR_1_1"
@@ -3428,7 +3656,7 @@
       )
     )
   )
-  (symbol "power:GNDREF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GNDREF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3453,28 +3681,32 @@
           (xy -0.635 -1.905)
           (xy 0.635 -1.905)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -0.127 -2.54)
           (xy 0.127 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -1.27)
           (xy 0 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -1.27)
           (xy -1.27 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GNDREF_1_1"
@@ -3484,7 +3716,7 @@
       )
     )
   )
-  (symbol "power:GNDS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GNDS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3513,7 +3745,8 @@
           (xy -1.27 -1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GNDS_1_1"
@@ -3523,7 +3756,7 @@
       )
     )
   )
-  (symbol "power:HT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "HT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 3.048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3542,6 +3775,12 @@
     (property "ki_description" "Power symbol creates a global label with name \"HT\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "HT_0_0"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "HT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "HT_0_1"
       (polyline
         (pts
@@ -3549,7 +3788,8 @@
           (xy 0 1.016)
           (xy 0 1.016)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3560,17 +3800,12 @@
           (xy 0 1.016)
           (xy 0 1.016)
         )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "HT_0_0"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "HT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
   )
-  (symbol "power:LINE" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "LINE" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3595,21 +3830,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "LINE_1_1"
@@ -3619,7 +3857,7 @@
       )
     )
   )
-  (symbol "power:NEUT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "NEUT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3644,21 +3882,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "NEUT_1_1"
@@ -3668,7 +3909,7 @@
       )
     )
   )
-  (symbol "power:PRI_HI" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "PRI_HI" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3693,21 +3934,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PRI_HI_1_1"
@@ -3717,7 +3961,7 @@
       )
     )
   )
-  (symbol "power:PRI_LO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "PRI_LO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3742,7 +3986,8 @@
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -3751,7 +3996,8 @@
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "PRI_LO_1_1"
@@ -3761,7 +4007,7 @@
       )
     )
   )
-  (symbol "power:PRI_MID" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "PRI_MID" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3786,21 +4032,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PRI_MID_1_1"
@@ -3810,7 +4059,7 @@
       )
     )
   )
-  (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+  (symbol "PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "#FLG" (id 0) (at 0 1.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3829,6 +4078,12 @@
     (property "ki_description" "Special symbol for telling ERC where power comes from" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "PWR_FLAG_0_0"
+      (pin power_out line (at 0 0 90) (length 0)
+        (name "pwr" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "PWR_FLAG_0_1"
       (polyline
         (pts
@@ -3839,17 +4094,12 @@
           (xy 1.016 1.905)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "PWR_FLAG_0_0"
-      (pin power_out line (at 0 0 90) (length 0)
-        (name "pwr" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
   )
-  (symbol "power:VAA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VAA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3874,21 +4124,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VAA_1_1"
@@ -3898,7 +4151,7 @@
       )
     )
   )
-  (symbol "power:VAC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VAC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3918,19 +4171,25 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "VAC_0_1"
-      (arc (start 0 3.175) (end -1.27 3.175) (radius (at -0.635 3.175) (length 0.635) (angles 0.1 179.9))
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (arc (start 0 3.175) (end 1.27 3.175) (radius (at 0.635 3.175) (length 0.635) (angles -179.9 -0.1))
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (circle (center 0 3.175) (radius 1.905) (stroke (width 0.254)) (fill (type none)))
       (polyline
         (pts
           (xy 0 0)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 0 3.175) (mid -0.635 3.81) (end -1.27 3.175)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 0 3.175) (mid 0.635 2.54) (end 1.27 3.175)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 3.175) (radius 1.905)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VAC_1_1"
@@ -3940,7 +4199,7 @@
       )
     )
   )
-  (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3965,21 +4224,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VBUS_1_1"
@@ -3989,7 +4251,7 @@
       )
     )
   )
-  (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4014,21 +4276,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VCC_1_1"
@@ -4038,7 +4303,7 @@
       )
     )
   )
-  (symbol "power:VCCQ" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VCCQ" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4063,21 +4328,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VCCQ_1_1"
@@ -4087,7 +4355,7 @@
       )
     )
   )
-  (symbol "power:VCOM" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VCOM" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4112,7 +4380,8 @@
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4121,7 +4390,8 @@
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "VCOM_1_1"
@@ -4131,7 +4401,7 @@
       )
     )
   )
-  (symbol "power:VD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4156,21 +4426,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VD_1_1"
@@ -4180,7 +4453,7 @@
       )
     )
   )
-  (symbol "power:VDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4205,21 +4478,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VDC_1_1"
@@ -4229,7 +4505,7 @@
       )
     )
   )
-  (symbol "power:VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4254,21 +4530,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VDD_1_1"
@@ -4278,7 +4557,7 @@
       )
     )
   )
-  (symbol "power:VDDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VDDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4303,21 +4582,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VDDA_1_1"
@@ -4327,7 +4609,7 @@
       )
     )
   )
-  (symbol "power:VDDF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VDDF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4352,21 +4634,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VDDF_1_1"
@@ -4376,7 +4661,7 @@
       )
     )
   )
-  (symbol "power:VEE" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VEE" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4401,7 +4686,8 @@
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4410,7 +4696,8 @@
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "VEE_1_1"
@@ -4420,7 +4707,7 @@
       )
     )
   )
-  (symbol "power:VMEM" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VMEM" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4445,21 +4732,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VMEM_1_1"
@@ -4469,7 +4759,7 @@
       )
     )
   )
-  (symbol "power:VPP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VPP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4494,21 +4784,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VPP_1_1"
@@ -4518,7 +4811,7 @@
       )
     )
   )
-  (symbol "power:VS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at -5.08 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4543,7 +4836,8 @@
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4552,7 +4846,8 @@
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "VS_1_1"
@@ -4562,7 +4857,7 @@
       )
     )
   )
-  (symbol "power:VSS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VSS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4587,7 +4882,8 @@
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4596,7 +4892,8 @@
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "VSS_1_1"
@@ -4606,7 +4903,7 @@
       )
     )
   )
-  (symbol "power:VSSA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VSSA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4631,7 +4928,8 @@
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -4640,7 +4938,8 @@
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "VSSA_1_1"
@@ -4650,7 +4949,7 @@
       )
     )
   )
-  (symbol "power:Vdrive" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "Vdrive" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at -5.08 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4675,21 +4974,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Vdrive_1_1"

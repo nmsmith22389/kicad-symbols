@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200908) (generator kicad_symbol_editor)
-  (symbol "RF_GSM:BC66" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BC66" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "BC66_0_1"
       (rectangle (start -12.7 25.4) (end 12.7 -25.4)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "BC66_1_1"
@@ -52,7 +53,7 @@
         (number "14" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 -7.62 0) (length 2.54)
-        (name "~RESET" (effects (font (size 1.27 1.27))))
+        (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 15.24 -15.24 180) (length 2.54)
@@ -71,7 +72,7 @@
         (name "PSM_EINT" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 25.4 270) (length 2.54) hide
+      (pin no_connect line (at -5.08 25.4 270) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -79,15 +80,15 @@
         (name "RI" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 12.7 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 12.7 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 5.08 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 5.08 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
@@ -95,11 +96,11 @@
         (name "VDD_EXT" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -10.16 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -10.16 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -17.78 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
@@ -119,19 +120,19 @@
         (name "SPI_MISO" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -22.86 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -22.86 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -10.16 -25.4 90) (length 2.54) hide
+      (pin no_connect line (at -10.16 -25.4 90) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -7.62 -25.4 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -25.4 90) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -5.08 -25.4 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -25.4 90) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
@@ -179,27 +180,27 @@
         (name "VBAT_RF" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -25.4 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -25.4 90) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 -25.4 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -25.4 90) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 7.62 -25.4 90) (length 2.54) hide
+      (pin no_connect line (at 7.62 -25.4 90) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 10.16 -25.4 90) (length 2.54) hide
+      (pin no_connect line (at 10.16 -25.4 90) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -22.86 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -22.86 180) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -20.32 180) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
@@ -207,39 +208,39 @@
         (name "SPI_SCLK" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -17.78 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -17.78 180) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -12.7 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -12.7 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -12.7 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -12.7 180) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 0 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 0 180) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "53" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 2.54 -25.4 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -25.4 90) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "54" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 17.78 180) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "55" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 15.24 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 15.24 180) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 22.86 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 22.86 180) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "57" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 5.08 25.4 270) (length 2.54) hide
+      (pin no_connect line (at 5.08 25.4 270) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "58" (effects (font (size 1.27 1.27))))
       )
@@ -251,7 +252,7 @@
         (name "PWRKEY" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 22.86 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 22.86 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -261,7 +262,7 @@
       )
     )
   )
-  (symbol "RF_GSM:BC95" (in_bom yes) (on_board yes)
+  (symbol "BC95" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -285,7 +286,8 @@
     )
     (symbol "BC95_0_1"
       (rectangle (start -12.7 15.24) (end 12.7 -15.24)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "BC95_1_1"
@@ -459,7 +461,7 @@
       )
     )
   )
-  (symbol "RF_GSM:M95" (in_bom yes) (on_board yes)
+  (symbol "M95" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -483,7 +485,8 @@
     )
     (symbol "M95_0_1"
       (rectangle (start -12.7 27.94) (end 12.7 -27.94)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "M95_1_1"
@@ -492,11 +495,11 @@
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 20.32 0) (length 2.54)
-        (name "~PWRKEY" (effects (font (size 1.27 1.27))))
+        (name "~{PWRKEY}" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 17.78 0) (length 2.54)
-        (name "~EMERG_OFF" (effects (font (size 1.27 1.27))))
+        (name "~{EMERG_OFF}" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 15.24 -22.86 180) (length 2.54)
@@ -515,15 +518,15 @@
         (name "DBG_TXD" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -12.7 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -12.7 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -15.24 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -15.24 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -17.78 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -627,11 +630,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -20.32 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -20.32 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -22.86 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -22.86 0) (length 2.54) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
@@ -657,7 +660,7 @@
       )
     )
   )
-  (symbol "RF_GSM:SARA-U201" (in_bom yes) (on_board yes)
+  (symbol "SARA-U201" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 10.16 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -681,7 +684,8 @@
     )
     (symbol "SARA-U201_0_1"
       (rectangle (start -12.7 25.4) (end 12.7 -25.4)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "SARA-U201_1_1"
@@ -722,7 +726,7 @@
         (number "17" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 -5.08 0) (length 2.54)
-        (name "~RESET" (effects (font (size 1.27 1.27))))
+        (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 15.24 -12.7 180) (length 2.54)
@@ -781,7 +785,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 2.54 0) (length 2.54) hide
         (name "RSVD" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
@@ -789,7 +793,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54) hide
         (name "RSVD" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
@@ -837,27 +841,27 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -7.62 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -7.62 0) (length 2.54) hide
         (name "RSVD" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -12.7 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -17.78 0) (length 2.54) hide
         (name "RSVD" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at -2.54 -25.4 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -25.4 90) (length 2.54) hide
         (name "RSVD" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 -10.16 180) (length 2.54) hide
         (name "RSVD" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 2.54 180) (length 2.54) hide
         (name "RSVD" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 12.7 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 12.7 17.78 180) (length 2.54) hide
         (name "RSVD" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
@@ -1071,7 +1075,7 @@
       )
     )
   )
-  (symbol "RF_GSM:SARA-U260" (extends "SARA-U201")
+  (symbol "SARA-U260" (extends "SARA-U201")
     (property "Reference" "U" (id 0) (at 10.16 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1090,8 +1094,11 @@
     (property "ki_description" "Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ublox*SARA*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "RF_GSM:SARA-U270" (extends "SARA-U201")
+  (symbol "SARA-U270" (extends "SARA-U201")
     (property "Reference" "U" (id 0) (at 10.16 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1110,8 +1117,11 @@
     (property "ki_description" "Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for Europe, Asia and Others, LGA-96" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ublox*SARA*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "RF_GSM:SARA-U280" (extends "SARA-U201")
+  (symbol "SARA-U280" (extends "SARA-U201")
     (property "Reference" "U" (id 0) (at 10.16 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1130,8 +1140,11 @@
     (property "ki_description" "Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ublox*SARA*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "RF_GSM:SIM7020E" (in_bom yes) (on_board yes)
+  (symbol "SIM7020E" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1155,7 +1168,8 @@
     )
     (symbol "SIM7020E_0_1"
       (rectangle (start -17.78 25.4) (end 17.78 -25.4)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "SIM7020E_1_1"
@@ -1207,7 +1221,7 @@
         (name "UART1_RXD" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 17.78 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -1240,7 +1254,7 @@
         (number "27" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -20.32 -7.62 0) (length 2.54)
-        (name "~RESET" (effects (font (size 1.27 1.27))))
+        (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -20.32 -20.32 0) (length 2.54)
@@ -1288,7 +1302,7 @@
         (number "38" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -20.32 -5.08 0) (length 2.54)
-        (name "~PWRKEY" (effects (font (size 1.27 1.27))))
+        (name "~{PWRKEY}" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at -20.32 15.24 0) (length 2.54)
@@ -1329,7 +1343,7 @@
       )
     )
   )
-  (symbol "RF_GSM:SIM7020C" (extends "SIM7020E")
+  (symbol "SIM7020C" (extends "SIM7020E")
     (property "Reference" "U" (id 0) (at -15.24 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1348,8 +1362,11 @@
     (property "ki_description" "NB-IoT B1/B3/B5/B8, AT Command Set" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SIMCom*SIM800C*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
-  (symbol "RF_GSM:SIM800C" (in_bom yes) (on_board yes)
+  (symbol "SIM800C" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1373,7 +1390,8 @@
     )
     (symbol "SIM800C_0_1"
       (rectangle (start -17.78 25.4) (end 17.78 -25.4)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "SIM800C_1_1"
@@ -1506,7 +1524,7 @@
         (number "38" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -20.32 -5.08 0) (length 2.54)
-        (name "~PWRKEY" (effects (font (size 1.27 1.27))))
+        (name "~{PWRKEY}" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at -20.32 15.24 0) (length 2.54)
@@ -1547,7 +1565,7 @@
       )
     )
   )
-  (symbol "RF_GSM:SIM900" (in_bom yes) (on_board yes)
+  (symbol "SIM900" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1571,7 +1589,8 @@
     )
     (symbol "SIM900_0_1"
       (rectangle (start -15.24 38.1) (end 15.24 -38.1)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "SIM900_1_1"
@@ -1604,7 +1623,7 @@
         (number "15" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -17.78 35.56 0) (length 2.54)
-        (name "~RESET~" (effects (font (size 1.27 1.27))))
+        (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 0 -40.64 90) (length 2.54)
@@ -1619,7 +1638,7 @@
         (name "MIC_P" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 33.02 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 33.02 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -1635,11 +1654,11 @@
         (name "SPK_N" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -15.24 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 -15.24 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 -27.94 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 -27.94 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -1795,7 +1814,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "59" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 15.24 17.78 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 17.78 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -1849,7 +1868,7 @@
       )
     )
   )
-  (symbol "RF_GSM:UL865" (in_bom yes) (on_board yes)
+  (symbol "UL865" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -19.05 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1873,7 +1892,8 @@
     )
     (symbol "UL865_0_1"
       (rectangle (start -19.05 41.91) (end 19.05 -52.07)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "UL865_1_1"
@@ -1917,7 +1937,7 @@
         (name "USB_D+" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 19.05 -17.78 180) (length 3.81) hide
+      (pin no_connect line (at 19.05 -17.78 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -1925,15 +1945,15 @@
         (name "C125/RING/GPO" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 19.05 -20.32 180) (length 3.81) hide
+      (pin no_connect line (at 19.05 -20.32 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 19.05 -22.86 180) (length 3.81) hide
+      (pin no_connect line (at 19.05 -22.86 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 19.05 -25.4 180) (length 3.81) hide
+      (pin no_connect line (at 19.05 -25.4 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -1941,7 +1961,7 @@
         (name "AGND" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 19.05 -30.48 180) (length 3.81) hide
+      (pin no_connect line (at 19.05 -30.48 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -1973,7 +1993,7 @@
         (name "VRTC" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 19.05 -33.02 180) (length 3.81) hide
+      (pin no_connect line (at 19.05 -33.02 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
@@ -2042,10 +2062,10 @@
         (number "46" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -22.86 38.1 0) (length 3.81)
-        (name "~RESET" (effects (font (size 1.27 1.27))))
+        (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin unconnected line (at 19.05 -35.56 180) (length 3.81) hide
+      (pin no_connect line (at 19.05 -35.56 180) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
