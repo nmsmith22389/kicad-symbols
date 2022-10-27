@@ -18800,7 +18800,7 @@
     (property "ki_description" "Polarized fuse, small symbol" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SM*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*Fuse*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Fuse_Polarized_Small_0_1"
@@ -18851,7 +18851,7 @@
     (property "ki_description" "Fuse, small symbol" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SM*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*Fuse*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Fuse_Small_0_1"
