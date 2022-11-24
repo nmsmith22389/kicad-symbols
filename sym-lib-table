@@ -181,6 +181,7 @@
   (lib (name "Sensor_Audio")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Sensor_Audio.kicad_sym")(options "")(descr "Audio / sound / microphone sensors"))
   (lib (name "Sensor_Current")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Sensor_Current.kicad_sym")(options "")(descr "Current sensors"))
   (lib (name "Sensor_Distance")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Sensor_Distance.kicad_sym")(options "")(descr "Distance sensors"))
+  (lib (name "Sensor_Energy")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Sensor_Energy.kicad_sym")(options "")(descr "Power / Energy sensors"))
   (lib (name "Sensor_Gas")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Sensor_Gas.kicad_sym")(options "")(descr "Gas sensors"))
   (lib (name "Sensor_Humidity")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Sensor_Humidity.kicad_sym")(options "")(descr "Humidity sensors"))
   (lib (name "Sensor_Magnetic")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Sensor_Magnetic.kicad_sym")(options "")(descr "Magnetic field and hall-effect sensors"))
