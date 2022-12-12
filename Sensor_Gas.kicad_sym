@@ -191,7 +191,7 @@
     (property "Footprint" "Package_LGA:AMS_LGA-10-1EP_2.7x4mm_P0.6mm" (id 2) (at 0 -15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://ams.com/eng/Products/Environmental-Sensors/Air-Quality-Sensors/CCS811" (id 3) (at 0 -5.08 0)
+    (property "Datasheet" "https://www.sciosense.com/wp-content/uploads/documents/SC-001232-DS-3-CCS811B-Datasheet-Revision-2.pdf" (id 3) (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "metal oxide gas sensor MOX volatile organix comounds VOC I2C" (id 4) (at 0 0 0)
