@@ -2,6 +2,7 @@ image: python:latest
   
 before_script:
   - python -V
+  - pip install pytest
   - git clone --depth 1 https://gitlab.com/kicad/libraries/kicad-library-utils $CI_BUILDS_DIR/kicad-library-utils
 
 symbols:
