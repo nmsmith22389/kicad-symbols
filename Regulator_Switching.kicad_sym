@@ -10051,7 +10051,7 @@
         (name "PGND" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -15.24 90) (length 2.54) hide
+      (pin passive line (at -2.54 -15.24 90) (length 2.54) hide
         (name "SGND" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -10083,7 +10083,7 @@
         (name "ILIM" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -15.24 90) (length 2.54) hide
+      (pin passive line (at -2.54 -15.24 90) (length 2.54) hide
         (name "SGND" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -31409,7 +31409,7 @@
         (name "VOS" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 2.54 -17.78 90) (length 2.54) hide
+      (pin passive line (at 2.54 -17.78 90) (length 2.54) hide
         (name "AGND" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )

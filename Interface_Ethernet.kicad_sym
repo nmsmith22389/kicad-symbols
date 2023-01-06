@@ -5206,7 +5206,7 @@
         (name "PECLKp" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 45.72 270) (length 2.54) hide
+      (pin passive line (at -12.7 45.72 270) (length 2.54) hide
         (name "VDD3p3" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
@@ -5270,7 +5270,7 @@
         (name "CTOP" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 45.72 270) (length 2.54) hide
+      (pin passive line (at -12.7 45.72 270) (length 2.54) hide
         (name "VDD3p3" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
@@ -5370,7 +5370,7 @@
         (name "SDP0" (effects (font (size 1.27 1.27))))
         (number "63" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 45.72 270) (length 2.54) hide
+      (pin passive line (at -12.7 45.72 270) (length 2.54) hide
         (name "VDD3p3" (effects (font (size 1.27 1.27))))
         (number "64" (effects (font (size 1.27 1.27))))
       )

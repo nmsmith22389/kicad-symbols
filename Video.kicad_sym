@@ -2837,7 +2837,7 @@
         (name "X/R" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 -19.05 90) (length 0) hide
+      (pin power_in line (at 0 -21.59 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -2881,7 +2881,7 @@
         (name "DA7" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 19.05 90) (length 0) hide
+      (pin power_in line (at 0 21.59 270) (length 2.54)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )

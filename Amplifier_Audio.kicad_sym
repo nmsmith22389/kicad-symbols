@@ -4403,7 +4403,7 @@
         (name "PVDD" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 12.7 270) (length 2.54) hide
+      (pin passive line (at 0 12.7 270) (length 2.54) hide
         (name "PVDD" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -4415,7 +4415,7 @@
         (name "OUTL-" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -12.7 90) (length 2.54) hide
+      (pin passive line (at 0 -12.7 90) (length 2.54) hide
         (name "PGND" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -4443,7 +4443,7 @@
         (name "INR+" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -12.7 90) (length 2.54) hide
+      (pin passive line (at 0 -12.7 90) (length 2.54) hide
         (name "PGND" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )

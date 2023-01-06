@@ -36,7 +36,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -12.7 90) (length 2.54) hide
+      (pin passive line (at 0 -12.7 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )

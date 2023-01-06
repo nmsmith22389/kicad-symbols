@@ -7147,7 +7147,7 @@
         (name "P8.0" (effects (font (size 1.27 1.27))))
         (number "B10" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "B11" (effects (font (size 1.27 1.27))))
       )
@@ -7159,7 +7159,7 @@
         (name "AVSS" (effects (font (size 1.27 1.27))))
         (number "B2" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -55.88 90) (length 3.81) hide
+      (pin passive line (at 0 -55.88 90) (length 3.81) hide
         (name "AVSS" (effects (font (size 1.27 1.27))))
         (number "B3" (effects (font (size 1.27 1.27))))
       )
@@ -7227,19 +7227,19 @@
         (name "A0/P6.0" (effects (font (size 1.27 1.27))))
         (number "D4" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "D5" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "D6" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "D7" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "D8" (effects (font (size 1.27 1.27))))
       )
@@ -7255,7 +7255,7 @@
         (name "P7.0" (effects (font (size 1.27 1.27))))
         (number "E11" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "E12" (effects (font (size 1.27 1.27))))
       )
@@ -7263,27 +7263,27 @@
         (name "VREF+" (effects (font (size 1.27 1.27))))
         (number "E2" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "E4" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "E5" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "E6" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "E7" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "E8" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "E9" (effects (font (size 1.27 1.27))))
       )
@@ -7303,19 +7303,19 @@
         (name "VeREF+/DAC0" (effects (font (size 1.27 1.27))))
         (number "F2" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "F4" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "F5" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "F8" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "F9" (effects (font (size 1.27 1.27))))
       )
@@ -7335,19 +7335,19 @@
         (name "P1.0/TACLK/CAOUT" (effects (font (size 1.27 1.27))))
         (number "G2" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "G4" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "G5" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "G8" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "G9" (effects (font (size 1.27 1.27))))
       )
@@ -7367,27 +7367,27 @@
         (name "P1.2/TA1" (effects (font (size 1.27 1.27))))
         (number "H2" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "H4" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "H5" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "H6" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "H7" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "H8" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "H9" (effects (font (size 1.27 1.27))))
       )
@@ -7411,19 +7411,19 @@
         (name "P2.6/ADC12CLK/DMAE0/CA6" (effects (font (size 1.27 1.27))))
         (number "J4" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "J5" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "J6" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "J7" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "J8" (effects (font (size 1.27 1.27))))
       )
@@ -7455,7 +7455,7 @@
         (name "P4.3/TB3" (effects (font (size 1.27 1.27))))
         (number "L10" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "L11" (effects (font (size 1.27 1.27))))
       )
@@ -7463,7 +7463,7 @@
         (name "P4.6/TB6" (effects (font (size 1.27 1.27))))
         (number "L12" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -55.88 90) (length 3.81) hide
+      (pin passive line (at -2.54 -55.88 90) (length 3.81) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "L2" (effects (font (size 1.27 1.27))))
       )

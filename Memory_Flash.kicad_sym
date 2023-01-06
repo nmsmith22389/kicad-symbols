@@ -2588,11 +2588,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SST39SF010_0_0"
-      (pin power_in line (at 0 -30.48 90) (length 1.27) hide
+      (pin power_in line (at 0 -34.29 90) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 33.02 270) (length 1.27) hide
+      (pin power_in line (at 0 36.83 270) (length 5.08)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
@@ -2746,11 +2746,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SST39SF020_0_0"
-      (pin power_in line (at 0 -30.48 90) (length 1.27) hide
+      (pin power_in line (at 0 -34.29 90) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 33.02 270) (length 1.27) hide
+      (pin power_in line (at 0 36.83 270) (length 5.08)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
@@ -2904,11 +2904,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SST39SF040_0_0"
-      (pin power_in line (at 0 -30.48 90) (length 1.27) hide
+      (pin power_in line (at 0 -34.29 90) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 33.02 270) (length 1.27) hide
+      (pin power_in line (at 0 36.83 270) (length 5.08)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
