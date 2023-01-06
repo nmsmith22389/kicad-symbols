@@ -1733,7 +1733,7 @@
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (pin no_connect line (at -17.78 -22.86 0) (length 5.08) hide
+      (pin no_connect line (at -13.97 -22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -1745,7 +1745,7 @@
         (name "PC7" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 -25.4 0) (length 5.08) hide
+      (pin no_connect line (at -13.97 -25.4 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
@@ -1793,7 +1793,7 @@
         (name "PB2" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 -27.94 0) (length 5.08) hide
+      (pin no_connect line (at -13.97 -27.94 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
@@ -1841,7 +1841,7 @@
         (name "D4" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 -30.48 0) (length 5.08) hide
+      (pin no_connect line (at -13.97 -30.48 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )

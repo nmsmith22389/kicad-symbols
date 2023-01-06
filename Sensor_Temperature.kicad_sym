@@ -234,7 +234,7 @@
       )
     )
     (symbol "BD1020HFV_1_1"
-      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -881,11 +881,11 @@
       )
     )
     (symbol "DS1822Z_1_1"
-      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -901,15 +901,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1062,11 +1062,11 @@
         (name "DQ" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -7.62 2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1074,15 +1074,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -1125,11 +1125,11 @@
         (name "IO" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -10.16 0 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1137,7 +1137,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 0 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -1879,11 +1879,11 @@
         (name "Vout" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 7.62 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 5.08 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1891,15 +1891,15 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -3565,7 +3565,7 @@
         (name "DQ" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 5.08 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -3745,7 +3745,7 @@
         (name "DQ" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -10.16 -5.08 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -5.08 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -5028,7 +5028,7 @@
     (property "ki_description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SC-70-5" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SC-70-5*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*SC-70-5*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP9700AT-ELT_0_1"
@@ -5106,7 +5106,7 @@
       )
     )
     (symbol "MCP9700AT-ELT_1_1"
-      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -5122,7 +5122,7 @@
         (name "Vdd" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -7206,7 +7206,7 @@
       )
     )
     (symbol "TMP20AIDRL_1_1"
-      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -7222,7 +7222,7 @@
         (name "Vdd" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -7447,7 +7447,7 @@
         (name "Signal" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -7455,19 +7455,19 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 5.08 -7.62 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -5.08 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )

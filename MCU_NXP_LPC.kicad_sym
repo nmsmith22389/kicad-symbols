@@ -1957,7 +1957,7 @@
         (name "PIO1_23" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 17.78 -22.86 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 -22.86 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -1965,7 +1965,7 @@
         (name "PIO1_19" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 17.78 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 15.24 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -3386,7 +3386,7 @@
     (property "Datasheet" "http://www.nxp.com/documents/data_sheet/LPC1769_68_67_66_65_64_63.pdf" (id 3) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "ARM, 32-bit, Cortex-M3, M3, NXP, microcontroller" (id 4) (at 0 0 0)
+    (property "ki_keywords" "ARM 32-bit Cortex-M3 M3 NXP microcontroller" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "32-bit ARM Cortex-M3 microcontroller, 256KB flash, 64KB RAM" (id 5) (at 0 0 0)
@@ -3422,7 +3422,7 @@
         (name "VREFP" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -22.86 -55.88 0) (length 3.81) hide
+      (pin no_connect line (at -19.05 -55.88 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )

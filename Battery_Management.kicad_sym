@@ -616,7 +616,7 @@
         (name "CGND" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -10.16 -20.32 90) (length 2.54) hide
+      (pin no_connect line (at -10.16 -17.78 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
@@ -656,7 +656,7 @@
         (name "TSECL" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -7.62 -20.32 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -17.78 90) (length 2.54) hide
         (name "NC_T" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -5083,7 +5083,7 @@
         (name "COMP" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 5.08 -10.16 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -7.62 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -6122,7 +6122,7 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 0 33.02 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
@@ -6150,7 +6150,7 @@
         (name "TOS" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 35.56 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 33.02 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
@@ -6333,7 +6333,7 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 0 33.02 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )

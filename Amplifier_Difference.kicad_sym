@@ -1005,7 +1005,7 @@
         (name "2A" (effects (font (size 0.508 0.508))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 -2.54 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -3.81 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -1013,7 +1013,7 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 2.54 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 1.27 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

@@ -870,13 +870,10 @@
     (property "Datasheet" "http://www.xptek.cn/uploadfile/download/201707171401161883.pdf" (id 3) (at 5.08 -13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, QFN-16" (id 4) (at 0 0 0)
+    (property "ki_description" "Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, QFN-16" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, QFN-16" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "*QFN*1EP*4x4mm*P0.65mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "*QFN*1EP*4x4mm*P0.65mm*" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "XPT2046QF_0_1"
@@ -918,7 +915,7 @@
         (name "DOUT" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )

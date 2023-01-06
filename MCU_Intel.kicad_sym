@@ -1566,11 +1566,11 @@
         (name "AD0" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 -30.48 0) (length 3.81) hide
+      (pin no_connect line (at -13.97 -30.48 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 -33.02 0) (length 3.81) hide
+      (pin no_connect line (at -13.97 -33.02 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -1618,7 +1618,7 @@
         (name "~{S2}" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 -35.56 0) (length 3.81) hide
+      (pin no_connect line (at -13.97 -35.56 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
@@ -1626,7 +1626,7 @@
         (name "AD13" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 -38.1 0) (length 3.81) hide
+      (pin no_connect line (at -13.97 -38.1 0) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )

@@ -162,8 +162,8 @@
         (name "SCL" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
-        (name "PAD" (effects (font (size 1.27 1.27))))
+      (pin no_connect line (at -7.62 -2.54 0) (length 2.54) hide
+        (name "EP" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
     )

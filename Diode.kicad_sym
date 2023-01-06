@@ -4308,7 +4308,7 @@
         (name "A" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 3.81 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 1.27 1.27 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -9397,7 +9397,7 @@
       )
     )
     (symbol "IDDD04G65C6_1_1"
-      (pin no_connect line (at -2.54 0 0) (length 2.54) hide
+      (pin no_connect line (at 1.27 -1.27 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -9405,7 +9405,7 @@
         (name "K" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 0 180) (length 2.54) hide
+      (pin no_connect line (at 1.27 1.27 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

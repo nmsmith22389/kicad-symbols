@@ -6,7 +6,7 @@
     (property "Value" "28F400" (id 1) (at -5.08 34.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "PSOP-44" (id 2) (at 1.27 -34.29 0)
+    (property "Footprint" "Package_SO:PSOP-44_16.9x27.17mm_P1.27mm" (id 2) (at 1.27 -34.29 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://download.intel.com/design/archives/flash/docs/29045101.pdf" (id 3) (at 0 6.35 0)
@@ -72,7 +72,7 @@
         (name "D2" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 15.24 -30.48 180) (length 6.35) hide
+      (pin no_connect line (at 8.89 -30.48 180) (length 6.35) hide
         (name "DU" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

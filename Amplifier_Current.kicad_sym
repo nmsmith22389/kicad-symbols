@@ -2650,7 +2650,7 @@
         (name "Vcc" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -2818,7 +2818,7 @@
         (name "SHDN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 2.54 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 2.54 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

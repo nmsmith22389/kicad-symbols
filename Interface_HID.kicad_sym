@@ -12,7 +12,7 @@
     (property "Datasheet" "http://codemercs.com/downloads/joywarrior/JW_Datasheet.pdf" (id 3) (at 0 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "joystick controller, 10bit, 3 axis" (id 4) (at 0 0 0)
+    (property "ki_keywords" "joystick controller 10bit 3-axis" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "JoyWarrior 10bit, 3 axis, joystick controller, DIP-24/SOIC-24" (id 5) (at 0 0 0)
@@ -44,7 +44,7 @@
         (name "Direct" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -22.86 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -17.78 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -162,7 +162,7 @@
     (property "Datasheet" "http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf" (id 3) (at -1.27 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "16bit, absolute position, USB, rotary encoder" (id 4) (at 0 0 0)
+    (property "ki_keywords" "16bit absolute position USB rotary encoder" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "SpinWarrior, 3 16bit absolute position rotary encoders, 6 digital inputs, DIP-24/SOIC-24" (id 5) (at 0 0 0)
@@ -192,7 +192,7 @@
         (name "Power" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -12.7 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -287,7 +287,7 @@
     (property "Datasheet" "http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf" (id 3) (at -1.27 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "8bit, relative position, USB, rotary encoder" (id 4) (at 0 0 0)
+    (property "ki_keywords" "8bit relative position USB rotary encoder" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "SpinWarrior, 4 8bit relative position rotary encoders, 7 switches, DIP-24/SOIC-24" (id 5) (at 0 0 0)
@@ -317,7 +317,7 @@
         (name "Power" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -12.7 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -412,7 +412,7 @@
     (property "Datasheet" "http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf" (id 3) (at -1.27 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "8bit, relative position, USB, rotary encoder" (id 4) (at 0 0 0)
+    (property "ki_keywords" "8bit relative position USB rotary encoder" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "SpinWarrior, 6 8bit relative position rotary encoders, 3 switches, DIP-24/SOIC-24" (id 5) (at 0 0 0)
@@ -442,7 +442,7 @@
         (name "Power" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -17.78 22.86 0) (length 5.08) hide
+      (pin no_connect line (at -12.7 22.86 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )

@@ -5923,19 +5923,19 @@
         (name "~{CLR}" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 -15.24 90) (length 3.81) hide
+      (pin no_connect line (at -5.08 -11.43 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 -15.24 90) (length 3.81) hide
+      (pin no_connect line (at -2.54 -11.43 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 -15.24 90) (length 3.81) hide
+      (pin no_connect line (at 2.54 -11.43 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 5.08 -15.24 90) (length 3.81) hide
+      (pin no_connect line (at 5.08 -11.43 90) (length 3.81) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -6075,7 +6075,7 @@
       )
     )
     (symbol "MAX5139_1_1"
-      (pin no_connect line (at 10.16 -10.16 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -10.16 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -6115,7 +6115,7 @@
         (name "~{LDAC}" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -7.62 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -7.62 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -6135,7 +6135,7 @@
         (name "AGND" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -6716,7 +6716,7 @@
       )
     )
     (symbol "MC1408_DIP_1_1"
-      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -6878,7 +6878,7 @@
         (name "COMPEN" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
+      (pin no_connect line (at 7.62 -5.08 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -7959,7 +7959,7 @@
         (name "VA" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -7.62 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -7975,11 +7975,11 @@
         (name "SDI" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -8217,7 +8217,7 @@
         (name "VoutA" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -8.89 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -8233,11 +8233,11 @@
         (name "SDI" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -7.62 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -8.89 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -10.16 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at -10.16 -8.89 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
