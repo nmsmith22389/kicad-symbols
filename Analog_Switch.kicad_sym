@@ -2875,7 +2875,7 @@
     (property "Footprint" "Package_CSP:LFCSP-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adg633.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "CMOS Analog Switch" (id 4) (at 0 0 0)
