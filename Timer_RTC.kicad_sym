@@ -1275,7 +1275,7 @@
     (property "ki_description" "Real-Time Clock, I2C, Battery Backup, TDFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*3x2mm*P0.5mm*EP1.36x1.46mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DFN*1EP*3x2mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP7940N-xMNY_0_1"

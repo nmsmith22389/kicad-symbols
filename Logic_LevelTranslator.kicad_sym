@@ -220,7 +220,7 @@
     (property "ki_description" "Dual-Supply, 8-Bit Signal Translator with Configurable Voltage Supplies and Signals Levels, 3-State Outputs and Auto Direction Sensing, WQFN-20" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "WQFN*2.5x4.5mm*P0.5mm*EP1x2.9mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "WQFN*1EP*2.5x4.5mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "FXMA108_1_1"

@@ -1138,7 +1138,7 @@
     (property "ki_description" "Buck LED Lamp Driver Average-Mode Constant Current, DFN8 (3x3mm)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*3x3mm*P0.65mm*EP1.55x2.4mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "HV9967BK7-G_0_1"

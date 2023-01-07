@@ -18,7 +18,7 @@
     (property "ki_description" "A microcontroller by Raspberry Pi" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "QFN*7x7mm?P0.4mm?EP3.2x3.2mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "QFN*1EP*7x7mm?P0.4mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "RP2040_0_1"

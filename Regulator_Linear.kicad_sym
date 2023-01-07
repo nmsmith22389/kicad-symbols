@@ -31713,7 +31713,7 @@
     (property "ki_description" "Dual 500mA μCap Low Dropout Micropower Linear Regulator, 2.8V/2.8V, DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "MLF*3x3mm*P0.65mm*EP1.55x2.3mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "MLF*1EP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MIC5356-MMYML_0_1"
@@ -31780,7 +31780,7 @@
     (property "ki_description" "Dual 500mA μCap Low Dropout Micropower Linear Regulator, 2.8V/1.8V, DFN-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "MLF*3x3mm*P0.65mm*EP1.55x2.3mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "MLF*1EP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

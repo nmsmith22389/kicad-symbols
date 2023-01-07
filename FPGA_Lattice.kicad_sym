@@ -1943,7 +1943,7 @@
     (property "ki_description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "QFN*7x7mm*P0.5mm*EP5.6x5.6mm*" (id 7) (at 0 0 0)
+    (property "ki_fp_filters" "QFN*1EP*7x7mm*P0.5mm*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ICE40UP5K-SG48ITR_1_1"
@@ -2186,7 +2186,7 @@
     (property "ki_description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "QFN*7x7mm*P0.5mm*EP5.6x5.6mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "QFN*1EP*7x7mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

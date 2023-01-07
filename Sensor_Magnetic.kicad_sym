@@ -2088,7 +2088,7 @@
     (property "ki_description" "Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "QFN*3x3mm*P0.5mm*EP1.8x1.8mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "QFN*1EP*3x3mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MA730_0_1"

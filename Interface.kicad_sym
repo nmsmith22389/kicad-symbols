@@ -2747,7 +2747,7 @@
     (property "ki_description" "1 GSPS, 14-Bit, 3.3V CMOS, Direct Digital Synthesizer, QFP-100" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "TQFP*14x14mm*P0.5mm*EP5x5mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "TQFP*1EP*14x14mm*P0.5mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AD9910_0_0"
@@ -8782,7 +8782,7 @@
     (property "ki_description" "Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVPECL, DFN-12" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*3x3mm*P0.45mm*EP1.66x2.38mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.45mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LTC6957xDD-1_0_1"
@@ -8865,7 +8865,7 @@
     (property "ki_description" "Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVDS, DFN-12" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*3x3mm*P0.45mm*EP1.66x2.38mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.45mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LTC6957xDD-2_0_1"
@@ -8948,7 +8948,7 @@
     (property "ki_description" "Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS In-Phase Outputs, DFN-12" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*3x3mm*P0.45mm*EP1.66x2.38mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.45mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LTC6957xDD-3_0_1"
@@ -9031,7 +9031,7 @@
     (property "ki_description" "Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS Complementary Outputs, DFN-12" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*3x3mm*P0.45mm*EP1.66x2.38mm*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.45mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
