@@ -2680,7 +2680,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-<<<<<<< HEAD
   (symbol "ESP32-S3-WROOM-1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -12.7 26.67 0)
       (effects (font (size 1.27 1.27)))
@@ -3293,8 +3292,11 @@
       )
     )
   )
+<<<<<<< HEAD
 =======
 >>>>>>> 1a9347fe (Moved ESP32-S3-DevKitC-1 to MCU_Modules)
+=======
+>>>>>>> db490254 (RF_Module: added ESP32-S3-DevKit symbol)
   (symbol "ESP32-WROOM-32" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -12.7 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
