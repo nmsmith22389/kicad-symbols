@@ -3401,12 +3401,6 @@
         (fill (type background))
       )
     )
-    (symbol "ADG633YCP_5_1"
-      (rectangle (start -3.81 10.16) (end 6.35 -10.16)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
   )
   (symbol "ADG633YRU" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.175 5.334 0)
