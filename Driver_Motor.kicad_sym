@@ -6777,7 +6777,7 @@
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (pin passive line (at 17.78 2.54 180) (length 5.08) hide
+      (pin output line (at 17.78 2.54 180) (length 5.08)
         (name "OUTA" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -6801,7 +6801,7 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 17.78 -2.54 180) (length 5.08) hide
+      (pin output line (at 17.78 -2.54 180) (length 5.08)
         (name "OUTB" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -6813,7 +6813,7 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -27.94 90) (length 5.08) hide
+      (pin power_in line (at -2.54 -27.94 90) (length 5.08)
         (name "GNDB" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -6825,11 +6825,11 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -27.94 90) (length 5.08)
+      (pin passive line (at -2.54 -27.94 90) (length 5.08) hide
         (name "GNDB" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 17.78 -2.54 180) (length 5.08)
+      (pin passive line (at 17.78 -2.54 180) (length 5.08) hide
         (name "OUTB" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
@@ -6849,7 +6849,7 @@
         (name "OUTA" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -27.94 90) (length 5.08) hide
+      (pin power_in line (at 2.54 -27.94 90) (length 5.08)
         (name "GNDA" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
@@ -6857,7 +6857,7 @@
         (name "GNDA" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -27.94 90) (length 5.08)
+      (pin passive line (at 2.54 -27.94 90) (length 5.08) hide
         (name "GNDA" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -6877,12 +6877,12 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 17.78 2.54 180) (length 5.08)
-        (name "OUTA" (effects (font (size 1.27 1.27))))
-        (number "32" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at 17.78 -2.54 180) (length 5.08) hide
         (name "OUTB" (effects (font (size 1.27 1.27))))
+        (number "32" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 17.78 2.54 180) (length 5.08) hide
+        (name "OUTA" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
       (pin no_connect line (at -12.7 -2.54 0) (length 5.08) hide

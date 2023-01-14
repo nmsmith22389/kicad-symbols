@@ -2038,7 +2038,7 @@
         (number "11" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -12.7 0 0) (length 2.54)
-        (name "IOB_22b" (effects (font (size 1.27 1.27))))
+        (name "IOB_22a" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -12.7 -5.08 0) (length 2.54)
