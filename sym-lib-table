@@ -161,7 +161,6 @@
   (lib (name "Power_Management")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Power_Management.kicad_sym")(options "")(descr "Power management and distribution ICs"))
   (lib (name "Power_Protection")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Power_Protection.kicad_sym")(options "")(descr "Power protection devices"))
   (lib (name "Power_Supervisor")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Power_Supervisor.kicad_sym")(options "")(descr "Power supervisory devices"))
-  (lib (name "pspice")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/pspice.kicad_sym")(options "")(descr "Legacy pspice symbol library."))
   (lib (name "Reference_Current")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Reference_Current.kicad_sym")(options "")(descr "Precision current references"))
   (lib (name "Reference_Voltage")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Reference_Voltage.kicad_sym")(options "")(descr "Precision voltage references"))
   (lib (name "Regulator_Controller")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Regulator_Controller.kicad_sym")(options "")(descr "Power regulator controllers"))
