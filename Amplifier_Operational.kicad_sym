@@ -728,11 +728,11 @@
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 0 180) (length 3.81) hide
+      (pin free line (at 2.54 0 180) (length 3.81) hide
         (name "NIC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 2.54 180) (length 3.81) hide
+      (pin free line (at 2.54 2.54 180) (length 3.81) hide
         (name "NIC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
