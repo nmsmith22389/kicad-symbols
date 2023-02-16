@@ -10425,6 +10425,14 @@
     (symbol "D_Schottky_Dual_CommonAnode_AKK_Split_0_1"
       (polyline
         (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -1.27 1.27)
           (xy 1.27 0)
           (xy -1.27 -1.27)
@@ -10447,36 +10455,15 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_CommonAnode_AKK_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
+    )
+    (symbol "D_Schottky_Dual_CommonAnode_AKK_Split_1_1"
       (pin passive line (at 3.81 0 180) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "D_Schottky_Dual_CommonAnode_AKK_Split_2_0"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -3.81 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "1" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
       )
     )
     (symbol "D_Schottky_Dual_CommonAnode_AKK_Split_2_1"
@@ -10752,6 +10739,14 @@
     (symbol "D_Schottky_Dual_CommonAnode_KAK_Split_0_1"
       (polyline
         (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -1.27 1.27)
           (xy 1.27 0)
           (xy -1.27 -1.27)
@@ -10774,36 +10769,15 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_CommonAnode_KAK_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "D_Schottky_Dual_CommonAnode_KAK_Split_2_0"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -3.81 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "2" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+    (symbol "D_Schottky_Dual_CommonAnode_KAK_Split_1_1"
+      (pin passive line (at 3.81 0 180) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "D_Schottky_Dual_CommonAnode_KAK_Split_2_1"
@@ -11079,6 +11053,14 @@
     (symbol "D_Schottky_Dual_CommonAnode_KKA_Split_0_1"
       (polyline
         (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -1.27 1.27)
           (xy 1.27 0)
           (xy -1.27 -1.27)
@@ -11101,36 +11083,15 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_CommonAnode_KKA_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "D_Schottky_Dual_CommonAnode_KKA_Split_2_0"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -3.81 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "3" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+    (symbol "D_Schottky_Dual_CommonAnode_KKA_Split_1_1"
+      (pin passive line (at 3.81 0 180) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "D_Schottky_Dual_CommonAnode_KKA_Split_2_1"
@@ -11406,6 +11367,14 @@
     (symbol "D_Schottky_Dual_CommonCathode_AAK_Split_0_1"
       (polyline
         (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -1.27 1.27)
           (xy 1.27 0)
           (xy -1.27 -1.27)
@@ -11428,36 +11397,15 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_CommonCathode_AAK_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at 3.81 0 180) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "D_Schottky_Dual_CommonCathode_AAK_Split_2_0"
-      (polyline
-        (pts
-          (xy 3.81 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "3" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+    (symbol "D_Schottky_Dual_CommonCathode_AAK_Split_1_1"
+      (pin passive line (at -3.81 0 0) (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "D_Schottky_Dual_CommonCathode_AAK_Split_2_1"
@@ -11733,6 +11681,14 @@
     (symbol "D_Schottky_Dual_CommonCathode_AKA_Split_0_1"
       (polyline
         (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -1.27 1.27)
           (xy 1.27 0)
           (xy -1.27 -1.27)
@@ -11755,36 +11711,15 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_CommonCathode_AKA_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at 3.81 0 180) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "D_Schottky_Dual_CommonCathode_AKA_Split_2_0"
-      (polyline
-        (pts
-          (xy 3.81 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "2" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+    (symbol "D_Schottky_Dual_CommonCathode_AKA_Split_1_1"
+      (pin passive line (at -3.81 0 0) (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "D_Schottky_Dual_CommonCathode_AKA_Split_2_1"
@@ -12060,6 +11995,14 @@
     (symbol "D_Schottky_Dual_CommonCathode_KAA_Split_0_1"
       (polyline
         (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -1.27 1.27)
           (xy 1.27 0)
           (xy -1.27 -1.27)
@@ -12082,36 +12025,15 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_CommonCathode_KAA_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
       (pin passive line (at 3.81 0 180) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
+    )
+    (symbol "D_Schottky_Dual_CommonCathode_KAA_Split_1_1"
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "D_Schottky_Dual_CommonCathode_KAA_Split_2_0"
-      (polyline
-        (pts
-          (xy 3.81 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "1" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
       )
     )
     (symbol "D_Schottky_Dual_CommonCathode_KAA_Split_2_1"
@@ -12393,6 +12315,20 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "D_Schottky_Dual_Series_ACK_Split_0_1"
+      (pin passive line (at 3.81 0 180) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "D_Schottky_Dual_Series_ACK_Split_1_1"
+      (polyline
+        (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -1.27 1.27)
@@ -12417,40 +12353,45 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_ACK_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
     )
-    (symbol "D_Schottky_Dual_Series_ACK_Split_2_0"
+    (symbol "D_Schottky_Dual_Series_ACK_Split_2_1"
       (polyline
         (pts
+          (xy -1.27 0)
           (xy 1.27 0)
-          (xy -3.81 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (text "2" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+      (polyline
+        (pts
+          (xy -1.778 1.016)
+          (xy -1.778 1.27)
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
+          (xy -0.762 -1.27)
+          (xy -0.762 -1.016)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_ACK_Split_2_1"
-      (pin passive line (at 3.81 0 180) (length 2.54)
+      (polyline
+        (pts
+          (xy 1.27 1.27)
+          (xy -1.27 0)
+          (xy 1.27 -1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (pin passive line (at -3.81 0 0) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -12728,6 +12669,20 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "D_Schottky_Dual_Series_AKC_Split_0_1"
+      (pin passive line (at 3.81 0 180) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "D_Schottky_Dual_Series_AKC_Split_1_1"
+      (polyline
+        (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -1.27 1.27)
@@ -12752,40 +12707,45 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_AKC_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
     )
-    (symbol "D_Schottky_Dual_Series_AKC_Split_2_0"
+    (symbol "D_Schottky_Dual_Series_AKC_Split_2_1"
       (polyline
         (pts
+          (xy -1.27 0)
           (xy 1.27 0)
-          (xy -3.81 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (text "3" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+      (polyline
+        (pts
+          (xy -1.778 1.016)
+          (xy -1.778 1.27)
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
+          (xy -0.762 -1.27)
+          (xy -0.762 -1.016)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_AKC_Split_2_1"
-      (pin passive line (at 3.81 0 180) (length 2.54)
+      (polyline
+        (pts
+          (xy 1.27 1.27)
+          (xy -1.27 0)
+          (xy 1.27 -1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (pin passive line (at -3.81 0 0) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -13055,6 +13015,20 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "D_Schottky_Dual_Series_CAK_Split_0_1"
+      (pin passive line (at 3.81 0 180) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "D_Schottky_Dual_Series_CAK_Split_1_1"
+      (polyline
+        (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -1.27 1.27)
@@ -13079,40 +13053,45 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_CAK_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "D_Schottky_Dual_Series_CAK_Split_2_0"
+    (symbol "D_Schottky_Dual_Series_CAK_Split_2_1"
       (polyline
         (pts
+          (xy -1.27 0)
           (xy 1.27 0)
-          (xy -3.81 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (text "1" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+      (polyline
+        (pts
+          (xy -1.778 1.016)
+          (xy -1.778 1.27)
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
+          (xy -0.762 -1.27)
+          (xy -0.762 -1.016)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_CAK_Split_2_1"
-      (pin passive line (at 3.81 0 180) (length 2.54)
+      (polyline
+        (pts
+          (xy 1.27 1.27)
+          (xy -1.27 0)
+          (xy 1.27 -1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (pin passive line (at -3.81 0 0) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -13382,6 +13361,20 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "D_Schottky_Dual_Series_CKA_Split_0_1"
+      (pin passive line (at 3.81 0 180) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "D_Schottky_Dual_Series_CKA_Split_1_1"
+      (polyline
+        (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -1.27 1.27)
@@ -13406,40 +13399,45 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_CKA_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "D_Schottky_Dual_Series_CKA_Split_2_0"
+    (symbol "D_Schottky_Dual_Series_CKA_Split_2_1"
       (polyline
         (pts
+          (xy -1.27 0)
           (xy 1.27 0)
-          (xy -3.81 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (text "1" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+      (polyline
+        (pts
+          (xy -1.778 1.016)
+          (xy -1.778 1.27)
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
+          (xy -0.762 -1.27)
+          (xy -0.762 -1.016)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_CKA_Split_2_1"
-      (pin passive line (at 3.81 0 180) (length 2.54)
+      (polyline
+        (pts
+          (xy 1.27 1.27)
+          (xy -1.27 0)
+          (xy 1.27 -1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (pin passive line (at -3.81 0 0) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -13709,6 +13707,20 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "D_Schottky_Dual_Series_KAC_Split_0_1"
+      (pin passive line (at 3.81 0 180) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "D_Schottky_Dual_Series_KAC_Split_1_1"
+      (polyline
+        (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -1.27 1.27)
@@ -13733,40 +13745,45 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_KAC_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
     )
-    (symbol "D_Schottky_Dual_Series_KAC_Split_2_0"
+    (symbol "D_Schottky_Dual_Series_KAC_Split_2_1"
       (polyline
         (pts
+          (xy -1.27 0)
           (xy 1.27 0)
-          (xy -3.81 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (text "3" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+      (polyline
+        (pts
+          (xy -1.778 1.016)
+          (xy -1.778 1.27)
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
+          (xy -0.762 -1.27)
+          (xy -0.762 -1.016)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_KAC_Split_2_1"
-      (pin passive line (at 3.81 0 180) (length 2.54)
+      (polyline
+        (pts
+          (xy 1.27 1.27)
+          (xy -1.27 0)
+          (xy 1.27 -1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (pin passive line (at -3.81 0 0) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -14044,6 +14061,20 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "D_Schottky_Dual_Series_KCA_Split_0_1"
+      (pin passive line (at 3.81 0 180) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "D_Schottky_Dual_Series_KCA_Split_1_1"
+      (polyline
+        (pts
+          (xy 1.27 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -1.27 1.27)
@@ -14068,40 +14099,45 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_KCA_Split_1_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "D_Schottky_Dual_Series_KCA_Split_2_0"
+    (symbol "D_Schottky_Dual_Series_KCA_Split_2_1"
       (polyline
         (pts
+          (xy -1.27 0)
           (xy 1.27 0)
-          (xy -3.81 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (text "2" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)))
+      (polyline
+        (pts
+          (xy -1.778 1.016)
+          (xy -1.778 1.27)
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
+          (xy -0.762 -1.27)
+          (xy -0.762 -1.016)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
       )
-    )
-    (symbol "D_Schottky_Dual_Series_KCA_Split_2_1"
-      (pin passive line (at 3.81 0 180) (length 2.54)
+      (polyline
+        (pts
+          (xy 1.27 1.27)
+          (xy -1.27 0)
+          (xy 1.27 -1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (pin passive line (at -3.81 0 0) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
