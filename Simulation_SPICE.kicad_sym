@@ -3183,7 +3183,7 @@
     (property "Sim.Params" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Library" "${KICAD7_SYMBOL_DIR}\\Simulation_SPICE.sp" (at 0 0 0)
+    (property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "voltmeter differential vdiff" (at 0 0 0)
