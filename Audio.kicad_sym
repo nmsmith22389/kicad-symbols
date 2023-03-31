@@ -3159,7 +3159,7 @@
     (property "Reference" "U" (at -10.795 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CS4348" (at 7.62 -8.89 0)
+    (property "Value" "CS4345" (at 7.62 -8.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm" (at 0 0 0)
