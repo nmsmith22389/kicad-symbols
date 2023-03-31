@@ -3108,7 +3108,7 @@
     (property "ki_description" "Delta-Sigma Stereo DA Converter, I2S, 24-bit, 192kHz, TSSOP-10" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*TSSOP*3x3mm*P0.5mm" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP*3x3mm*P0.5mm" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "CS4344_1_1"
@@ -3177,7 +3177,7 @@
     (property "ki_description" "Delta-Sigma Stereo DA Converter, 24-bit, left-justified, 192kHz, TSSOP-10" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*TSSOP*3x3mm*P0.5mm" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP*3x3mm*P0.5mm" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
