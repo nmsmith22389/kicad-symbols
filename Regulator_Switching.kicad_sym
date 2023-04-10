@@ -11240,7 +11240,7 @@
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 11.43 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at 10.16 -12.7 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
