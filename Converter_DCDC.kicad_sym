@@ -12729,6 +12729,9 @@
     (property "ki_description" "Isolated DC/DC Converter, THT" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Converter_DCDC_CUI_PDS1-Sx-Sx-S" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "PDS1-Sx_1_1"
       (rectangle (start -6.35 5.08) (end 6.35 -5.08)
         (stroke (width 0) (type default))
