@@ -4910,6 +4910,12 @@
     (property "Datasheet" "https://www.vishay.com/docs/83760/tcrt5000.pdf" (at 0 -6.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_keywords" "Infrared IR Optical Sensor" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Infrared Reflective Optical Sensor (IR LED + IR Phototransistor)" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "TCRT5000_0_1"
       (polyline
         (pts
