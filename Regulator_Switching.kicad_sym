@@ -11194,7 +11194,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM51571_0_0"
-      (pin power_in line (at -7.62 -12.7 90) (length 2.54)
+      (pin power_in line (at -5.08 -12.7 90) (length 2.54)
         (name "PGND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -11205,10 +11205,6 @@
       (pin input line (at 15.24 -5.08 180) (length 2.54)
         (name "MODE" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 5.08 -12.7 90) (length 2.54)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 7.62 12.7 270) (length 2.54)
         (name "VCC" (effects (font (size 1.27 1.27))))
@@ -11244,7 +11240,11 @@
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -7.62 -12.7 90) (length 2.54) hide
+      (pin no_connect line (at 11.43 -12.7 90) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -5.08 -12.7 90) (length 2.54) hide
         (name "PGND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -11256,7 +11256,7 @@
         (name "UVLO/EN" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -12.7 90) (length 2.54)
+      (pin power_in line (at 5.08 -12.7 90) (length 2.54)
         (name "AGND" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
