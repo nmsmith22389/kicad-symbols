@@ -11190,7 +11190,7 @@
     (property "ki_description" "2,2MHz Wide Vin 50-V Boost/SEPIC/Flyback Converter with Spread Spectrum" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias" (at 0 0 0)
+    (property "ki_fp_filters" "*WQFN*16*3x3mm*P0.5mm*EP1.68x1.68mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM51571_0_0"
