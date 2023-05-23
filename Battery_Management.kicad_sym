@@ -2544,7 +2544,7 @@
     (property "ki_description" " I2C Controlled, 2-Cell, 2-A, Boost-Mode, Battery Charger, Cell Balancing, QFN-24" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Texas*S?PWQFN?N*EP*" (at 0 0 0)
+    (property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BQ25887_0_1"
