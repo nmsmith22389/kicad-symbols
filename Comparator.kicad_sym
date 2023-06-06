@@ -3145,7 +3145,7 @@
         (name "_" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin open_collector line (at 7.62 0 180) (length 2.54)
+      (pin output line (at 7.62 0 180) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
