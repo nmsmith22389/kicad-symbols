@@ -1378,6 +1378,10 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "186" (effects (font (size 1.27 1.27))))
       )
+      (pin no_connect line (at -16.51 10.16 0) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "187" (effects (font (size 1.27 1.27))))
+      )
       (pin passive line (at 0 -17.78 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "188" (effects (font (size 1.27 1.27))))
@@ -1385,6 +1389,14 @@
       (pin passive line (at 0 -17.78 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "189" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -16.51 7.62 0) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "190" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -16.51 5.08 0) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "191" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -17.78 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
@@ -1410,6 +1422,10 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "198" (effects (font (size 1.27 1.27))))
       )
+      (pin no_connect line (at -16.51 -5.08 0) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "199" (effects (font (size 1.27 1.27))))
+      )
       (pin passive line (at -2.54 17.78 270) (length 3.81) hide
         (name "VBAT_BB" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
@@ -1421,6 +1437,30 @@
       (pin passive line (at 0 -17.78 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "201" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -16.51 -12.7 0) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "202" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 16.51 -12.7 180) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "203" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 16.51 -7.62 180) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "204" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 16.51 2.54 180) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "205" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 16.51 10.16 180) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "206" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 5.08 13.97 270) (length 3.81) hide
+        (name "RESERVED" (effects (font (size 1.27 1.27))))
+        (number "207" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -17.78 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
