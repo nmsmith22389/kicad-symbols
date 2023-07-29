@@ -37511,7 +37511,7 @@
     (property "Value" "TPS51396A" (at -3.81 11.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.45mm_EP1.55x1.55mm" (at 0 -16.51 0)
+    (property "Footprint" "Package_DFN_QFN:Texas_RJE0020A_VQFN-20-1EP_3x3mm_P0.45mm_EP0.675x0.76mm" (at 0 -16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/gpn/tps51396a" (at 0 -19.05 0)
@@ -37523,7 +37523,7 @@
     (property "ki_description" "4.5V to 24V, 8A Synchronous Step-Down Voltage Regulator, QFN-20" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "VQFN*1EP*3x3mm*P0.45mm*" (at 0 0 0)
+    (property "ki_fp_filters" "Texas*RJE0020A*VQFN*1EP*3x3mm_P0.45mm*EP0.675x0.76mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TPS51396A_0_0"
