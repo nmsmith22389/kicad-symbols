@@ -261,7 +261,7 @@
     (property "Reference" "U" (at 10.16 -26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "HD3SS6126" (at 0 -10.16 0)
+    (property "Value" "HD3SS6126" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DFN_QFN:WQFN-42-1EP_3.5x9mm_P0.5mm_EP2.05x7.55mm_ThermalVias" (at 0 0 0)
