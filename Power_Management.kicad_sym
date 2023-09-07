@@ -11369,7 +11369,7 @@
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TEA1708T.pdf" (at 0 0 0)
+    (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TEA1708TDS.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "X capacitor discharge" (at 0 0 0)
