@@ -20392,7 +20392,7 @@
     (property "Reference" "Q" (at 5.08 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LSK389_SOIC" (at 5.08 3.81 0)
+    (property "Value" "LSK489_SOIC" (at 5.08 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 0 1.27 0)
