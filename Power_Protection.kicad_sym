@@ -12004,7 +12004,7 @@
     (property "ki_description" "3 channel EMI filters with integrated ESD protection for SIM Card Interface, USON-8" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*USON*1EP*1.6x2.1mm*P0.5mm*{space}{space}" (at 0 0 0)
+    (property "ki_fp_filters" "*USON*1EP*1.6x2.1mm*P0.5mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TPD3F303DPV_0_1"
