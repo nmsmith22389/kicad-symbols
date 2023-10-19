@@ -53,7 +53,7 @@
         (name "CLK" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -60.96 90) (length 2.54) hide
+      (pin passive line (at 0 -60.96 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -197,7 +197,7 @@
         (name "A20" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 60.96 270) (length 2.54) hide
+      (pin passive line (at 0 60.96 270) (length 2.54) hide
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
@@ -353,7 +353,7 @@
         (name "A15" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -45.72 90) (length 3.81) hide
+      (pin passive line (at 0 -45.72 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
@@ -584,7 +584,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -60.96 90) (length 2.54) hide
+      (pin passive line (at 0 -60.96 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -740,7 +740,7 @@
         (name "A20" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 60.96 270) (length 2.54) hide
+      (pin passive line (at 0 60.96 270) (length 2.54) hide
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
       )
@@ -756,11 +756,11 @@
         (name "A23" (effects (font (size 1.27 1.27))))
         (number "55" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -60.96 90) (length 2.54) hide
+      (pin passive line (at 0 -60.96 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -60.96 90) (length 2.54) hide
+      (pin passive line (at 0 -60.96 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "57" (effects (font (size 1.27 1.27))))
       )
@@ -1029,7 +1029,7 @@
         (name "CLK" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -45.72 90) (length 3.81) hide
+      (pin passive line (at 0 -45.72 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
@@ -1158,7 +1158,7 @@
         (name "D8" (effects (font (size 1.27 1.27))))
         (number "100" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "101" (effects (font (size 1.27 1.27))))
       )
@@ -1178,11 +1178,11 @@
         (name "D4" (effects (font (size 1.27 1.27))))
         (number "105" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "106" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "107" (effects (font (size 1.27 1.27))))
       )
@@ -1222,11 +1222,11 @@
         (name "~{BGACK}/~{CS2}" (effects (font (size 1.27 1.27))))
         (number "115" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "116" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "117" (effects (font (size 1.27 1.27))))
       )
@@ -1266,11 +1266,11 @@
         (name "A23/~{CS10}" (effects (font (size 1.27 1.27))))
         (number "125" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "126" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "127" (effects (font (size 1.27 1.27))))
       )
@@ -1310,11 +1310,11 @@
         (name "TP0" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -1354,11 +1354,11 @@
         (name "A8" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
@@ -1382,7 +1382,7 @@
         (name "A12" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
@@ -1402,7 +1402,7 @@
         (name "A16" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
       )
@@ -1410,7 +1410,7 @@
         (name "TP10" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -1454,11 +1454,11 @@
         (name "TP9" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
@@ -1490,7 +1490,7 @@
         (name "FREEZE/QUOT" (effects (font (size 1.27 1.27))))
         (number "58" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "59" (effects (font (size 1.27 1.27))))
       )
@@ -1510,7 +1510,7 @@
         (name "EXTAL" (effects (font (size 1.27 1.27))))
         (number "62" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "63" (effects (font (size 1.27 1.27))))
       )
@@ -1518,7 +1518,7 @@
         (name "XFC" (effects (font (size 1.27 1.27))))
         (number "64" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "65" (effects (font (size 1.27 1.27))))
       )
@@ -1526,7 +1526,7 @@
         (name "CLKOUT" (effects (font (size 1.27 1.27))))
         (number "66" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "67" (effects (font (size 1.27 1.27))))
       )
@@ -1538,7 +1538,7 @@
         (name "~{HALT}" (effects (font (size 1.27 1.27))))
         (number "69" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -1582,7 +1582,7 @@
         (name "R/~{W}" (effects (font (size 1.27 1.27))))
         (number "79" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -1598,11 +1598,11 @@
         (name "~{AS}" (effects (font (size 1.27 1.27))))
         (number "82" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "83" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "84" (effects (font (size 1.27 1.27))))
       )
@@ -1650,11 +1650,11 @@
         (name "D12" (effects (font (size 1.27 1.27))))
         (number "94" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -80.01 90) (length 3.81) hide
+      (pin passive line (at 0 -80.01 90) (length 3.81) hide
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "95" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 80.01 270) (length 3.81) hide
+      (pin passive line (at 0 80.01 270) (length 3.81) hide
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "96" (effects (font (size 1.27 1.27))))
       )
@@ -1733,11 +1733,11 @@
         (name "CLK" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -63.5 90) (length 2.54) hide
+      (pin passive line (at 0 -63.5 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -63.5 90) (length 2.54) hide
+      (pin passive line (at 0 -63.5 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -1813,7 +1813,7 @@
         (name "A3" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -63.5 90) (length 2.54) hide
+      (pin passive line (at 0 -63.5 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
@@ -1893,7 +1893,7 @@
         (name "A20" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 60.96 270) (length 2.54) hide
+      (pin passive line (at 0 60.96 270) (length 2.54) hide
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "53" (effects (font (size 1.27 1.27))))
       )
@@ -1909,7 +1909,7 @@
         (name "A23" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -63.5 90) (length 2.54) hide
+      (pin passive line (at 0 -63.5 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "57" (effects (font (size 1.27 1.27))))
       )
@@ -2036,7 +2036,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -60.96 90) (length 2.54) hide
+      (pin passive line (at 0 -60.96 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -2192,7 +2192,7 @@
         (name "A20" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 60.96 270) (length 2.54) hide
+      (pin passive line (at 0 60.96 270) (length 2.54) hide
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
       )
@@ -2208,11 +2208,11 @@
         (name "A23" (effects (font (size 1.27 1.27))))
         (number "55" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -60.96 90) (length 2.54) hide
+      (pin passive line (at 0 -60.96 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -60.96 90) (length 2.54) hide
+      (pin passive line (at 0 -60.96 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "57" (effects (font (size 1.27 1.27))))
       )
