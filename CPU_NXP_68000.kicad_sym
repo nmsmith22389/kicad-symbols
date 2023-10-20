@@ -1672,7 +1672,7 @@
       )
     )
   )
-  (symbol "MC68EC000FN" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+  (symbol "MC68EC000FN" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -16.51 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
