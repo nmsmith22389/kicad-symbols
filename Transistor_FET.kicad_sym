@@ -20378,7 +20378,7 @@
       (text "SUBSTRATE" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (pin passive line (at -10.16 0 0) (length 3.81)
+      (pin passive line (at 10.16 0 180) (length 3.81) hide
         (name "SS" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
