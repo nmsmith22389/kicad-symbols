@@ -7925,7 +7925,7 @@
     (property "ki_description" "RGB LED with integrated controller" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "LED*SK6812MINI*E*PLCC*3.5x3.5mm*P1.75mm*" (at 0 0 0)
+    (property "ki_fp_filters" "LED*SK6812MINI?E*PLCC*3.2x2.8mm*P1.5mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SK6812MINI-E_0_0"
