@@ -209,6 +209,7 @@
   (lib (name "Transistor_Array")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/Transistor_Array.kicad_sym")(options "")(descr "Specialized transistor arrays"))
   (lib (name "Transistor_BJT")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/Transistor_BJT.kicad_sym")(options "")(descr "BJT transistor symbols"))
   (lib (name "Transistor_FET")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/Transistor_FET.kicad_sym")(options "")(descr "FET transistor symbols"))
+  (lib (name "Transistor_FET_Other")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/Transistor_FET_Other.kicad_sym")(options "")(descr "Other FET transistor symbols"))
   (lib (name "Transistor_IGBT")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/Transistor_IGBT.kicad_sym")(options "")(descr "IGBT transistor symbols"))
   (lib (name "Transistor_Power_Module")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/Transistor_Power_Module.kicad_sym")(options "")(descr "Transistor power modules"))
   (lib (name "Triac_Thyristor")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/Triac_Thyristor.kicad_sym")(options "")(descr "TRIAC and thyristor symbols"))
