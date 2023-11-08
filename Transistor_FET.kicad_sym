@@ -13404,10 +13404,10 @@
     (property "Value" "EPC2019" (at 5.08 0 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_EpcFET:EPC2019-7_2.77x0.95mm" (at 5.08 12.7 0)
+    (property "Footprint" "Package_EpcFET:EPC2019-7_2.77x0.95mm" (at 0 -7.62 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC2019_datasheet.pdf" (at 0 -17.78 0)
+    (property "Datasheet" "https://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC2019_datasheet.pdf" (at 0 -10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "N-Channel GaN MOSFET" (at 0 0 0)
@@ -13420,6 +13420,14 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "EPC2019_0_1"
+      (polyline
+        (pts
+          (xy -2.54 -2.54)
+          (xy -2.54 -3.175)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy 0.254 0)
@@ -13463,7 +13471,7 @@
       (polyline
         (pts
           (xy 2.54 -3.175)
-          (xy -1.27 -3.175)
+          (xy -2.54 -3.175)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -13567,7 +13575,7 @@
         (name "Source" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -1.27 -5.08 90) (length 1.91)
+      (pin passive line (at -5.08 -2.54 0) (length 2.54)
         (name "Substrate" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
