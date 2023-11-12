@@ -755,7 +755,7 @@
     (property "ki_keywords" "DRAM LPDDR4x Alliance Memory ECC" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "The 8Gb AS4C256M32MD4V is organized for 2 channels per device, an eight bank per channel mobile LPDDR4x DRAM organized as 2 x 8 banks x 32M x 16." (at 0 0 0)
+    (property "ki_description" "LPDDR4x DRAM, 8Gb 2 channel with 8 banks 32x16" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "*BGA*10.0x14.5mm*P0.80x0.65mm*" (at 0 0 0)
