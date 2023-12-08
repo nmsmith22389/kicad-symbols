@@ -780,6 +780,7 @@
           (xy 0.508 -0.762)
           (xy -0.254 -0.508)
           (xy 0.254 0)
+          (xy 0.508 -0.762)
         )
         (stroke (width 0) (type default))
         (fill (type outline))
