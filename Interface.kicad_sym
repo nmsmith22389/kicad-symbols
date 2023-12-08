@@ -11614,7 +11614,7 @@
     (property "Value" "PI4ULS3V4857" (at 1.778 22.098 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 1.27 -8.89 0)
+    (property "Footprint" "Package_CSP:DIODES-INC_WLCSP-20_1.70x2.10mm_Layout4x5_P0.4mm" (at 1.27 -8.89 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/PI4ULS3V4857.pdf" (at 0 -21.844 0)
