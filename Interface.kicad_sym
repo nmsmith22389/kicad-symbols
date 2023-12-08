@@ -11626,7 +11626,7 @@
     (property "ki_description" "6-Bit Bi-directional Level Shifter for SD 3.0-SDR104 Compliant Memory Card " (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*WLCSP*1.70x2.10mm*Layout4x5*P0.4mm*" (at 0 0 0)
+    (property "ki_fp_filters" "*WLCSP*1.70x2.10mm*Layout4x5*P0.4mm* DIODES*WLCSP-20*1.70x2.10mm*Layout4x5*P0.4mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PI4ULS3V4857_0_1"
