@@ -9470,7 +9470,7 @@
       )
       (pin input line (at -7.62 0 0) (length 2.54)
         (name "6" (effects (font (size 1.27 1.27))))
-        (number "~EN" (effects (font (size 1.27 1.27))))
+        (number "~{EN}" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "ADG733BRQ_4_1"
