@@ -1323,7 +1323,7 @@
     (property "Sim.Pins" "1=+ 2=-" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Params" "dc=0 ampl=1 f=1k" (at 2.54 -2.54 0)
+    (property "Sim.Params" "dc=0 ampl=1 f=1k ac=1" (at 2.54 -2.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Sim.Device" "I" (at 0 0 0)
