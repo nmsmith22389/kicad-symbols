@@ -21634,7 +21634,7 @@
     (property "Value" "IMH3A" (at 7.62 -1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SC-74-6_1.5x2.9mm_P0.95mm" (at 0.127 -11.176 0)
+    (property "Footprint" "Package_SO:ROHM_SOT-457_ClockwisePinNumbering" (at 0.127 -11.176 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf" (at 3.81 0 0)
@@ -21646,7 +21646,7 @@
     (property "ki_description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-457" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SC?74*" (at 0 0 0)
+    (property "ki_fp_filters" "ROHM*SOT?457*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "IMH3A_0_1"
