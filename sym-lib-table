@@ -28,6 +28,7 @@
   (lib (name "Converter_DCDC")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/Converter_DCDC.kicad_sym")(options "")(descr "DC to DC converter modules"))
   (lib (name "CPLD_Altera")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/CPLD_Altera.kicad_sym")(options "")(descr "Altera CPLD symbols"))
   (lib (name "CPLD_Microchip")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/CPLD_Microchip.kicad_sym")(options "")(descr "Microchip CPLD symbols"))
+  (lib (name "CPLD_Renesas")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/CPLD_Renesas.kicad_sym")(options "")(descr "Renesas CPLD symbols"))
   (lib (name "CPLD_Xilinx")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/CPLD_Xilinx.kicad_sym")(options "")(descr "Xilinx CPLD symbols"))
   (lib (name "CPU")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/CPU.kicad_sym")(options "")(descr "Central processor unit (CPU) symbols, assorted"))
   (lib (name "CPU_NXP_6800")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/CPU_NXP_6800.kicad_sym")(options "")(descr "NXP (formerly Motorola) 6800 CPUs"))
