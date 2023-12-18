@@ -1892,7 +1892,7 @@
     (property "Reference" "U" (at -13.97 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "" (at -12.7 35.56 0)
+    (property "Value" "LPC11C14FBD48-301" (at 0 0 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm" (at -22.86 41.91 0)
