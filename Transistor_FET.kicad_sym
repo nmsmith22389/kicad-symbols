@@ -13810,11 +13810,11 @@
         (name "S1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 7.62 7.62 180) (length 2.54) hide
+      (pin passive line (at 7.62 7.62 180) (length 2.54)
         (name "D2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 7.62 7.62 180) (length 2.54)
+      (pin passive line (at 7.62 7.62 180) (length 2.54) hide
         (name "D2" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -14584,11 +14584,11 @@
         (name "G1" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
+      (pin passive line (at 2.54 5.08 270) (length 2.54)
         (name "D1" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54)
+      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
         (name "D1" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -17955,11 +17955,11 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
+      (pin passive line (at 2.54 5.08 270) (length 2.54)
         (name "D" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54)
+      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
         (name "D" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -18003,11 +18003,11 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
+      (pin passive line (at 2.54 5.08 270) (length 2.54)
         (name "D" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54)
+      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
         (name "D" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -18339,11 +18339,11 @@
         (name "G1" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
+      (pin passive line (at 2.54 5.08 270) (length 2.54)
         (name "D1" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54)
+      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
         (name "D1" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -18357,11 +18357,11 @@
         (name "G2" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
+      (pin passive line (at 2.54 5.08 270) (length 2.54)
         (name "D2" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54)
+      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
         (name "D2" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -18517,7 +18517,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
+      (pin passive line (at 2.54 5.08 270) (length 2.54)
         (name "D" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -18529,7 +18529,7 @@
         (name "D" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54)
+      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
         (name "D" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -18708,7 +18708,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
+      (pin passive line (at 2.54 5.08 270) (length 2.54)
         (name "D" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -18720,7 +18720,7 @@
         (name "D" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54)
+      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
         (name "D" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -18876,7 +18876,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -5.08 90) (length 2.54) hide
+      (pin passive line (at 2.54 -5.08 90) (length 2.54)
         (name "D" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -18888,7 +18888,7 @@
         (name "D" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -5.08 90) (length 2.54)
+      (pin passive line (at 2.54 -5.08 90) (length 2.54) hide
         (name "D" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -19455,7 +19455,7 @@
         (name "G" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
+      (pin passive line (at 2.54 5.08 270) (length 2.54)
         (name "D" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -19467,7 +19467,7 @@
         (name "D" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 5.08 270) (length 2.54)
+      (pin passive line (at 2.54 5.08 270) (length 2.54) hide
         (name "D" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
