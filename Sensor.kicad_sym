@@ -489,7 +489,7 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 0 10.16 270) (length 2.54)
-        (name "VCC" (effects (font (size 1.27 1.27))))
+        (name "VDD" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
@@ -1252,7 +1252,7 @@
     )
     (symbol "RPR-0521RS_1_1"
       (pin power_in line (at 0 10.16 270) (length 2.54)
-        (name "VCC" (effects (font (size 1.27 1.27))))
+        (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -10.16 2.54 0) (length 2.54)
