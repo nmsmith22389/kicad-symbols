@@ -20894,7 +20894,7 @@
     (property "ki_keywords" "P-Channel MOSFET" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "-4.1A Id, -20V Vds, P-Channel Power MOSFET, 48mOhm Ron, SC-74-6" (at 0 0 0)
+    (property "ki_description" "-4.1A Id, -20V Vds, P-Channel Power MOSFET, 48mOhm Ron, TSOP-6" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "TSOP*1.65x3.05mm*P0.95mm*" (at 0 0 0)
