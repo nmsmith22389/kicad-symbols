@@ -6360,7 +6360,7 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305121704_Legend-Si-LGS5116B_C5818961.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
