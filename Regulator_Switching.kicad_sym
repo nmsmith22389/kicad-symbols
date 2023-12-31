@@ -40431,7 +40431,7 @@
     (property "Reference" "U" (at -6.35 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TPS61089" (at 6.35 11.43 0)
+    (property "Value" "TPS610891" (at 6.35 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DFN_QFN:Texas_VQFN-RNR0011A-11" (at 22.86 -11.43 0)
