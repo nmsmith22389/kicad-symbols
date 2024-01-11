@@ -148,7 +148,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CB3Q16210DGG_0_1"
@@ -393,7 +393,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CB3Q16210DGV_0_1"
@@ -638,7 +638,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "SSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CB3Q16210DL_0_1"
@@ -883,7 +883,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CB3T16210DGG_0_1"
@@ -1128,7 +1128,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CB3T16210DGV_0_1"
@@ -1373,7 +1373,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CBT16210DGG_0_1"
@@ -1618,7 +1618,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CBT16210DGV_0_1"
@@ -1863,7 +1863,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "SSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CBT16210DL_0_1"
@@ -2108,7 +2108,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CBTD16210DGG_0_1"
@@ -2353,7 +2353,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "TSSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CBTD16210DGV_0_1"
@@ -2598,7 +2598,7 @@
     (property "ki_description" "20-bit FET bus switch with 10-bit output enables" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SSOP* TSSOP*" (at 0 0 0)
+    (property "ki_fp_filters" "SSOP-48*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "74CBTD16210DL_0_1"
