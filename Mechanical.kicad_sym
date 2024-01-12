@@ -915,11 +915,11 @@
       )
     )
   )
-  (symbol "Screw" (in_bom no) (on_board yes)
+  (symbol "MountingScrew" (in_bom no) (on_board yes)
     (property "Reference" "H" (at 0 4.064 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "Screw" (at 0 -3.556 0)
+    (property "Value" "MountingScrew" (at 0 -3.556 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "MountingEquipment:Screw_symbol" (at 0 0 0)
@@ -940,7 +940,7 @@
     (property "ki_fp_filters" "Screw*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "Screw_0_1"
+    (symbol "MountingScrew_0_1"
       (polyline
         (pts
           (xy -0.635 -0.635)
