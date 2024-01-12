@@ -922,7 +922,7 @@
     (property "Value" "MountingScrew" (at 0 -3.556 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "MountingEquipment:Screw_symbol" (at 0 0 0)
+    (property "Footprint" "MountingEquipment:MountingScrew" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 0 0)
@@ -937,7 +937,7 @@
     (property "ki_description" "Mounting screw" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Screw*" (at 0 0 0)
+    (property "ki_fp_filters" "MountingScrew*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MountingScrew_0_1"
