@@ -7143,7 +7143,7 @@
     (property "Value" "TMP461xxRUN" (at 2.54 11.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:Texas_WQFN-10_2x2mm_P0.5mm" (at 0 0 0)
+    (property "Footprint" "Package_DFN_QFN:Texas_RUN0010A_WQFN-10_2x2mm_P0.5mm" (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp461.pdf" (at 0 0 0)
@@ -7155,7 +7155,7 @@
     (property "ki_description" "Texas Instruments High-Accuracy Remote and Local Temperature Sensor with Pin-Programmable Bus Address, WQFN-10" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*WQFN*2x2mm*P0.5mm*" (at 0 0 0)
+    (property "ki_fp_filters" "Texas*RUN0010A*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TMP461xxRUN_0_1"
