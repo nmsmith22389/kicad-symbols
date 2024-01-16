@@ -9750,7 +9750,7 @@
     (property "Reference" "U" (at -1.27 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MCP6L91T-EOT" (at -1.27 3.81 0)
+    (property "Value" "LM8261M5X" (at -1.27 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at -2.54 -5.08 0)
