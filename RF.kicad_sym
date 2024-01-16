@@ -1011,7 +1011,7 @@
     (property "Value" "CC2500" (at 13.97 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DFN_QFN:Texas_S-PVQFN-N20_EP2.4x2.4mm" (at 1.27 -17.78 0)
+    (property "Footprint" "Package_DFN_QFN:Texas_RGP0020H_VQFN-20-1EP_4x4mm_P0.5mm_EP2.4x2.4mm" (at 1.27 -17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cc2500.pdf" (at 5.08 15.24 0)
@@ -1023,7 +1023,7 @@
     (property "ki_description" "Single Chip Low Power RF Transceiver, QFN-20" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "*QFN*4x4mm*0.5mm*" (at 0 0 0)
+    (property "ki_fp_filters" "Texas*RGP0020H*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "CC2500_0_1"
