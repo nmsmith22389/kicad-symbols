@@ -11992,7 +11992,7 @@
     (property "Value" "TPD3F303DPV" (at 7.62 9.525 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "Package_SON:Texas_R-PUSON-N8_USON-8-1EP_1.6x2.1mm_P0.5mm_EP0.40x1.7mm" (at -1.27 -10.16 0)
+    (property "Footprint" "Package_SON:Texas_R-PUSON-N8_USON-8-1EP_1.6x2.1mm_P0.5mm_EP0.4x1.7mm" (at -1.27 -10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/gpn/tpd3f303" (at 3.81 -12.7 0)
