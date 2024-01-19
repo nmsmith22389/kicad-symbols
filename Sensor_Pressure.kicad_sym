@@ -381,8 +381,8 @@
         (number "2" (effects (font (size 1.27 1.27))))
         (alternate "SPC" input clock)
       )
-      (pin passive line (at -5.08 -10.16 90) (length 2.54)
-        (name "RES" (effects (font (size 1.27 1.27))))
+      (pin passive line (at -2.54 -10.16 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 12.7 7.62 180) (length 2.54)
