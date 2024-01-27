@@ -4,9 +4,9 @@
 	(generator_version "8.0")
 	(symbol "+10V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -124,9 +124,9 @@
 	)
 	(symbol "+12C"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -244,9 +244,9 @@
 	)
 	(symbol "+12L"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -364,9 +364,9 @@
 	)
 	(symbol "+12LF"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -484,9 +484,9 @@
 	)
 	(symbol "+12P"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -604,9 +604,9 @@
 	)
 	(symbol "+12V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -724,9 +724,9 @@
 	)
 	(symbol "+12VA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -844,9 +844,9 @@
 	)
 	(symbol "+15V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -964,9 +964,9 @@
 	)
 	(symbol "+1V0"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1084,9 +1084,9 @@
 	)
 	(symbol "+1V1"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1204,9 +1204,9 @@
 	)
 	(symbol "+1V2"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1324,9 +1324,9 @@
 	)
 	(symbol "+1V35"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1444,9 +1444,9 @@
 	)
 	(symbol "+1V5"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1564,9 +1564,9 @@
 	)
 	(symbol "+1V8"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1684,9 +1684,9 @@
 	)
 	(symbol "+24V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1804,9 +1804,9 @@
 	)
 	(symbol "+28V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1924,9 +1924,9 @@
 	)
 	(symbol "+2V5"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2044,9 +2044,9 @@
 	)
 	(symbol "+2V8"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2164,9 +2164,9 @@
 	)
 	(symbol "+3.3V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2284,9 +2284,9 @@
 	)
 	(symbol "+3.3VA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2404,9 +2404,9 @@
 	)
 	(symbol "+3.3VADC"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2524,9 +2524,9 @@
 	)
 	(symbol "+3.3VDAC"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2644,9 +2644,9 @@
 	)
 	(symbol "+3.3VP"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2764,9 +2764,9 @@
 	)
 	(symbol "+36V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2884,9 +2884,9 @@
 	)
 	(symbol "+3V0"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3004,9 +3004,9 @@
 	)
 	(symbol "+3V3"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3124,9 +3124,9 @@
 	)
 	(symbol "+3V8"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3244,9 +3244,9 @@
 	)
 	(symbol "+48V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3364,9 +3364,9 @@
 	)
 	(symbol "+4V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3484,9 +3484,9 @@
 	)
 	(symbol "+5C"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3604,9 +3604,9 @@
 	)
 	(symbol "+5F"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3724,9 +3724,9 @@
 	)
 	(symbol "+5P"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3844,9 +3844,9 @@
 	)
 	(symbol "+5V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3964,9 +3964,9 @@
 	)
 	(symbol "+5VA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4084,9 +4084,9 @@
 	)
 	(symbol "+5VD"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4204,9 +4204,9 @@
 	)
 	(symbol "+5VL"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4324,9 +4324,9 @@
 	)
 	(symbol "+5VP"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4444,9 +4444,9 @@
 	)
 	(symbol "+6V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4564,9 +4564,9 @@
 	)
 	(symbol "+7.5V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4684,9 +4684,9 @@
 	)
 	(symbol "+8V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4804,9 +4804,9 @@
 	)
 	(symbol "+9V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4924,9 +4924,9 @@
 	)
 	(symbol "+9VA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5044,9 +5044,9 @@
 	)
 	(symbol "+BATT"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5164,9 +5164,9 @@
 	)
 	(symbol "+VDC"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5295,9 +5295,9 @@
 	)
 	(symbol "+VSW"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5415,9 +5415,9 @@
 	)
 	(symbol "-10V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5511,9 +5511,9 @@
 	)
 	(symbol "-12V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5607,9 +5607,9 @@
 	)
 	(symbol "-12VA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5703,9 +5703,9 @@
 	)
 	(symbol "-15V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5799,9 +5799,9 @@
 	)
 	(symbol "-24V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5895,9 +5895,9 @@
 	)
 	(symbol "-2V5"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5991,9 +5991,9 @@
 	)
 	(symbol "-36V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6087,9 +6087,9 @@
 	)
 	(symbol "-3V3"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6183,9 +6183,9 @@
 	)
 	(symbol "-48V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6279,9 +6279,9 @@
 	)
 	(symbol "-5V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6375,9 +6375,9 @@
 	)
 	(symbol "-5VA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6471,9 +6471,9 @@
 	)
 	(symbol "-6V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6567,9 +6567,9 @@
 	)
 	(symbol "-8V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6663,9 +6663,9 @@
 	)
 	(symbol "-9V"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6771,9 +6771,9 @@
 	)
 	(symbol "-9VA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6879,9 +6879,9 @@
 	)
 	(symbol "-BATT"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6987,9 +6987,9 @@
 	)
 	(symbol "-VDC"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7106,9 +7106,9 @@
 	)
 	(symbol "-VSW"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7202,9 +7202,9 @@
 	)
 	(symbol "AC"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7333,9 +7333,9 @@
 	)
 	(symbol "Earth"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7465,9 +7465,9 @@
 	)
 	(symbol "Earth_Clean"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7609,9 +7609,9 @@
 	)
 	(symbol "Earth_Protective"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7752,9 +7752,9 @@
 	)
 	(symbol "GND"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7848,9 +7848,9 @@
 	)
 	(symbol "GND1"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7944,9 +7944,9 @@
 	)
 	(symbol "GND2"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8040,9 +8040,9 @@
 	)
 	(symbol "GND3"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8136,9 +8136,9 @@
 	)
 	(symbol "GNDA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8232,9 +8232,9 @@
 	)
 	(symbol "GNDD"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8339,9 +8339,9 @@
 	)
 	(symbol "GNDPWR"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8507,9 +8507,9 @@
 	)
 	(symbol "GNDREF"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8639,9 +8639,9 @@
 	)
 	(symbol "GNDS"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8735,9 +8735,9 @@
 	)
 	(symbol "HT"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8843,9 +8843,9 @@
 	)
 	(symbol "LINE"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8963,9 +8963,9 @@
 	)
 	(symbol "NEUT"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9083,9 +9083,9 @@
 	)
 	(symbol "PRI_HI"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9203,9 +9203,9 @@
 	)
 	(symbol "PRI_LO"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9311,9 +9311,9 @@
 	)
 	(symbol "PRI_MID"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9527,9 +9527,9 @@
 	)
 	(symbol "VAA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9647,9 +9647,9 @@
 	)
 	(symbol "VAC"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9778,9 +9778,9 @@
 	)
 	(symbol "VBUS"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9898,9 +9898,9 @@
 	)
 	(symbol "VCC"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10018,9 +10018,9 @@
 	)
 	(symbol "VCCQ"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10138,9 +10138,9 @@
 	)
 	(symbol "VCOM"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10246,9 +10246,9 @@
 	)
 	(symbol "VD"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10366,9 +10366,9 @@
 	)
 	(symbol "VDC"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10486,9 +10486,9 @@
 	)
 	(symbol "VDD"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10606,9 +10606,9 @@
 	)
 	(symbol "VDDA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10726,9 +10726,9 @@
 	)
 	(symbol "VDDF"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10846,9 +10846,9 @@
 	)
 	(symbol "VEE"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10954,9 +10954,9 @@
 	)
 	(symbol "VMEM"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11074,9 +11074,9 @@
 	)
 	(symbol "VPP"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11194,9 +11194,9 @@
 	)
 	(symbol "VS"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11302,9 +11302,9 @@
 	)
 	(symbol "VSS"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11410,9 +11410,9 @@
 	)
 	(symbol "VSSA"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11518,9 +11518,9 @@
 	)
 	(symbol "Vdrive"
 		(power)
+		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
