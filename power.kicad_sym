@@ -105,7 +105,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+10V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -225,7 +225,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+12C"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -345,7 +345,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+12L"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -465,7 +465,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+12LF"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -585,7 +585,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+12P"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -705,7 +705,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+12V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -825,7 +825,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+12VA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -945,7 +945,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+15V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1065,7 +1065,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+1V0"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1185,7 +1185,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+1V1"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1305,7 +1305,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+1V2"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1425,7 +1425,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+1V35"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1545,7 +1545,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+1V5"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1665,7 +1665,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+1V8"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1785,7 +1785,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+24V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1905,7 +1905,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+28V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2025,7 +2025,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+2V5"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2145,7 +2145,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+2V8"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+3.3V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2385,7 +2385,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+3.3VA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2467,7 +2467,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+3.3VADC"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2587,7 +2587,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+3.3VDAC"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2707,7 +2707,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+3.3VP"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2865,7 +2865,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+36V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2985,7 +2985,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+3V0"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3105,7 +3105,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+3V3"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3225,7 +3225,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+3V8"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3345,7 +3345,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+48V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3465,7 +3465,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+4V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3585,7 +3585,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+5C"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3705,7 +3705,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+5F"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3825,7 +3825,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+5P"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3945,7 +3945,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+5V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4065,7 +4065,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+5VA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4185,7 +4185,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+5VD"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4305,7 +4305,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+5VL"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4425,7 +4425,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+5VP"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4545,7 +4545,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+6V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4665,7 +4665,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+7.5V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4785,7 +4785,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+8V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4905,7 +4905,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+9V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5025,7 +5025,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+9VA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5145,7 +5145,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+BATT"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5276,7 +5276,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+VDC"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5396,7 +5396,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "+VSW"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5478,7 +5478,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-10V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5574,7 +5574,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-12V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5670,7 +5670,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-12VA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5766,7 +5766,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-15V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5862,7 +5862,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-24V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5958,7 +5958,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-2V5"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6054,7 +6054,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-36V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6150,7 +6150,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-3V3"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6246,7 +6246,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-48V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6342,7 +6342,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-5V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6438,7 +6438,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-5VA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6534,7 +6534,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-6V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6630,7 +6630,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-8V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6752,7 +6752,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-9V"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6860,7 +6860,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-9VA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6968,7 +6968,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-BATT"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7087,7 +7087,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-VDC"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7169,7 +7169,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "-VSW"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7314,7 +7314,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "AC"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7446,7 +7446,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "Earth"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7590,7 +7590,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "Earth_Clean"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7733,7 +7733,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "Earth_Protective"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7829,7 +7829,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "GND"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7925,7 +7925,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "GND1"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8021,7 +8021,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "GND2"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8117,7 +8117,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "GND3"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8213,7 +8213,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "GNDA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8320,7 +8320,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "GNDD"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8488,7 +8488,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "GNDPWR"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8620,7 +8620,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "GNDREF"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8716,7 +8716,7 @@
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
-				(name "GNDS"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8798,7 +8798,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "HT"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8944,7 +8944,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "LINE"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9064,7 +9064,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "NEUT"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9184,7 +9184,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "PRI_HI"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9292,7 +9292,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "PRI_LO"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9412,7 +9412,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "PRI_MID"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9494,7 +9494,7 @@
 			(pin power_out line
 				(at 0 0 90)
 				(length 0)
-				(name "pwr"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9628,7 +9628,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VAA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9759,7 +9759,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VAC"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9879,7 +9879,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VBUS"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9999,7 +9999,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VCC"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10119,7 +10119,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VCCQ"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10227,7 +10227,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VCOM"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10347,7 +10347,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VD"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10467,7 +10467,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VDC"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10587,7 +10587,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VDD"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10707,7 +10707,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VDDA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10827,7 +10827,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VDDF"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10935,7 +10935,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VEE"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11055,7 +11055,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VMEM"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11175,7 +11175,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VPP"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11283,7 +11283,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VS"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11391,7 +11391,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VSS"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11499,7 +11499,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "VSSA"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11619,7 +11619,7 @@
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
-				(name "Vdrive"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
