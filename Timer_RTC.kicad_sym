@@ -1260,7 +1260,7 @@
     (property "Reference" "U" (at -11.43 12.7 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "" (at 0 0 0)
+    (property "Value" "MAX31331" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 0 0)
@@ -1275,7 +1275,7 @@
     (property "ki_description" "Ultra-Low-Power, I2C Real-Time Clock and Power Management, TDFN" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Package?DFN?QFN:TDFN*-1EP?3x3mm?P0.5mm_EP1.58x2.35mm*" (at 0 0 0)
+    (property "ki_fp_filters" "Package?DFN?QFN:TDFN*1EP?3x3mm?P0.5mm?EP1.58x2.35mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MAX31331_0_1"
