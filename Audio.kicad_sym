@@ -15,7 +15,7 @@
     (property "ki_keywords" "audio dac 2ch 24bit 192kHz" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Stereo, 24-Bit, 192 kHz, Multibit Sigma-Delta DAC, SSOP-28" (at 0 0 0)
+    (property "ki_description" "Awesome Stereo, 24-Bit, 192 kHz, Multibit Sigma-Delta DAC, SSOP-28" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "SSOP*5.3x10.2mm*P0.65mm*" (at 0 0 0)
