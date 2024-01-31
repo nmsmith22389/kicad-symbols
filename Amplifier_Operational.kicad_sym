@@ -9529,7 +9529,7 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm8261.pdf" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "single opamp unlimited capacitive drive high output current" (at 0 0 0)
+    (property "ki_keywords" "RRIO CapLoad gate driver" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Single Opamp, Rail-to-Rail Input/Output, Unlimited Capacitive Load Drive, +53mA/-75mA Output Current, 2.5-30V, 350uV offset, 12MHz GBW, SOT-23-5" (at 0 0 0)
