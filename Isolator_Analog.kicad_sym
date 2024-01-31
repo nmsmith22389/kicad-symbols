@@ -9,7 +9,7 @@
     (property "Footprint" "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" (at 3.81 -8.89 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "http://docs.avagotech.com/docs/AV02-2460EN" (at 1.143 0.127 0)
+    (property "Datasheet" "http://docs.avagotech.com/docs/AV02-2460EN_Foo" (at 1.143 0.127 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "ki_keywords" "Isolation Amplifer" (at 0 0 0)
