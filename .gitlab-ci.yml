@@ -1,7 +1,6 @@
 image: python:latest
 
 stages:
-  - diffs
   - tests
   - export
 
@@ -35,6 +34,7 @@ visual_diff:
     changes:
       - "*.kicad_sym"
   script:
+    - echo "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     - mkdir -p $HOME/.config/kicad/7.0/colors
     - sudo apt update -qq
     - sudo apt install curl python3 python3-pip -qqy --no-install-recommends
