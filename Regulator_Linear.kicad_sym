@@ -25340,7 +25340,7 @@
     (property "ki_description" "3A, Very Low Dropout Linear Regulator with Programmable Current Limit, 0.95V to 10Vin, 0.2V to 10Vout, QFN-20" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "QFN*4EP*3x4mm*P0.5mm" (at 0 0 0)
+    (property "ki_fp_filters" "*QFN*4EP*3x4mm*P0.5mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LT3033xUDC_0_0"
