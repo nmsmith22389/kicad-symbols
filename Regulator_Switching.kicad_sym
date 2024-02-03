@@ -1681,7 +1681,7 @@
     (property "ki_description" "3A Buck Regulator, 4.5-18V input, 750kHz, pulse energy mode on light load, DFN-8" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*" (at 0 0 0)
+    (property "ki_fp_filters" "*DFN*1EP*3x3mm*P0.65mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AOZ6663DI_0_0"
@@ -1752,7 +1752,7 @@
     (property "ki_description" "3A Buck Regulator, 4.5-18V input, 750kHz,  fixed frequency on light load <= 4V, pulse energy mode on light load > 4V,DFN-8" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*" (at 0 0 0)
+    (property "ki_fp_filters" "*DFN*1EP*3x3mm*P0.65mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
