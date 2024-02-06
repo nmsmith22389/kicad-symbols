@@ -4063,7 +4063,7 @@
     (property "Value" "RPR-0720" (at 0.508 9.017 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "OptoDevice:Rohm_RPR-0720" (at 0 -12.573 0)
+    (property "Footprint" "" (at 0 -12.573 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/optical_sensor/photosensor/rpr-0720-e.pdf" (at 1.016 12.7 0)
