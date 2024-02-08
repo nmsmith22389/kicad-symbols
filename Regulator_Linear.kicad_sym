@@ -44451,7 +44451,7 @@
       )
     )
   )
-  (symbol "TPS7A4101DGN" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
+  (symbol "TPS7A4101DGN" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -5.08 -6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
