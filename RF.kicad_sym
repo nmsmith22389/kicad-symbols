@@ -1434,7 +1434,7 @@
     (property "Datasheet" "https://www.decawave.com/wp-content/uploads/2020/04/DW1000_Datasheet.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "Ultra Wideband UWB transceiver IEEE802.15.4-2011" (at 0 0 0)
+    (property "ki_keywords" "Ultra Wideband UWB transceiver IEEE802.15.4-2011 Decawave Qorvo" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Ultra Wideband transceiver, 6.8Mbps data rates, 3.5GHz to 6.5GHz, QFN-48" (at 0 0 0)
