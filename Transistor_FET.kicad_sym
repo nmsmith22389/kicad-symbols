@@ -25166,7 +25166,7 @@
     (property "ki_keywords" "N-Channel MOSFET" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "60A Id, 125V Vds, 2.4mOhm Ron, 19.4 nC Qg(typ), PowerPAK-8" (at 0 0 0)
+    (property "ki_description" "60A Id, 125V Vds, 9.6mOhm Ron, 19.4 nC Qg(typ), PowerPAK-8" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "PowerPAK*SO*Single*" (at 0 0 0)
