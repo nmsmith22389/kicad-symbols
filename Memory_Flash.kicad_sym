@@ -1073,7 +1073,7 @@
     (property "Reference" "U" (at -5.08 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SST26VF064B-xx/MF" (at 11.43 11.43 0)
+    (property "Value" "SST26VF064B-xMF" (at 11.43 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm" (at 0 -15.24 0)
