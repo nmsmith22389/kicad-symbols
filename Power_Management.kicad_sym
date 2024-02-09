@@ -11806,14 +11806,6 @@
       )
       (polyline
         (pts
-          (xy 2.54 -11.43)
-          (xy 2.54 -6.096)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy 2.54 0)
           (xy 10.16 0)
         )
@@ -11839,7 +11831,6 @@
       )
       (polyline
         (pts
-          (xy -5.08 -19.05)
           (xy -5.08 -15.24)
           (xy -5.08 -8.89)
           (xy -0.762 -8.89)
@@ -12014,7 +12005,7 @@
         (pts
           (xy 0.635 -2.286)
           (xy 2.54 -2.286)
-          (xy 2.54 -6.096)
+          (xy 2.54 -8.89)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -12208,7 +12199,7 @@
         (name "GL" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -17.78 90) (length 3.81) hide
+      (pin passive line (at 2.54 -17.78 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -12240,7 +12231,7 @@
         (name "" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -17.78 90) (length 3.81) hide
+      (pin passive line (at 2.54 -17.78 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
