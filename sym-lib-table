@@ -103,6 +103,7 @@
   (lib (name "MCU_Microchip_PIC24")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/MCU_Microchip_PIC24.kicad_sym")(options "")(descr "Microchip PIC24 microcontrollers"))
   (lib (name "MCU_Microchip_PIC32")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/MCU_Microchip_PIC32.kicad_sym")(options "")(descr "Microchip PIC32 microcontrollers"))
   (lib (name "MCU_Microchip_SAMA")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/MCU_Microchip_SAMA.kicad_sym")(options "")(descr "Microchip SAMA microcontrollers"))
+  (lib (name "MCU_Microchip_SAMC")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/MCU_Microchip_SAMC.kicad_sym")(options "")(descr "Microchip SAMC microcontrollers"))
   (lib (name "MCU_Microchip_SAMD")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/MCU_Microchip_SAMD.kicad_sym")(options "")(descr "Microchip SAMD microcontrollers"))
   (lib (name "MCU_Microchip_SAME")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/MCU_Microchip_SAME.kicad_sym")(options "")(descr "Microchip SAME microcontrollers"))
   (lib (name "MCU_Microchip_SAML")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/MCU_Microchip_SAML.kicad_sym")(options "")(descr "Microchip SAML microcontrollers"))
