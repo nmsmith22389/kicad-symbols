@@ -5159,6 +5159,9 @@
     (property "ki_description" "Infrared Reflective Optical Sensor (IR LED + IR Phototransistor)" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "OptoDevice:Vishay?TCRT5000*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "TCRT5000_0_1"
       (polyline
         (pts
