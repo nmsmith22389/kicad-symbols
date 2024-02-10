@@ -1695,7 +1695,7 @@
     (property "Footprint" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina201.pdf" (at 0 0 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina201.pdf" (at 28.448 -20.828 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "current sense shunt monitor with open-drain comparator and reference" (at 0 0 0)
