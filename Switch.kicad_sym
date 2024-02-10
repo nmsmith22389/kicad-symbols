@@ -8856,7 +8856,7 @@
     (property "Reference" "SW" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_SPDT_321" (at 0 -5.08 0)
+    (property "Value" "SW_SPDT_312" (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 -10.16 0)
