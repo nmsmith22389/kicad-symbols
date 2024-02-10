@@ -6,13 +6,13 @@
     (property "Value" "ADM3053" (at 10.16 19.05 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" (at 5.08 -17.78 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf" (at -7.62 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf" (at 5.08 -15.24 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "ki_keywords" "can transceiver isolated protected" (at 0 0 0)
+    (property "ki_keywords" "protected" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Isolated CAN Transceiver, integrated isolated DC-DC converter, 1Mbps" (at 0 0 0)
@@ -22,25 +22,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ADM3053_0_1"
-      (rectangle (start -10.16 17.78) (end 10.16 -17.78)
+      (rectangle (start -10.16 17.78) (end 10.16 -10.16)
         (stroke (width 0.254) (type default))
         (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -0.762 -13.97)
-          (xy -0.762 -16.51)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 -10.16)
-          (xy -0.762 -12.7)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
       )
       (polyline
         (pts
@@ -94,22 +78,6 @@
         (pts
           (xy -0.762 16.51)
           (xy -0.762 13.97)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 -13.97)
-          (xy 0.762 -16.51)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 -10.16)
-          (xy 0.762 -12.7)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -172,11 +140,11 @@
       )
     )
     (symbol "ADM3053_1_1"
-      (pin power_in line (at -12.7 -5.08 0) (length 2.54)
+      (pin power_in line (at -12.7 -7.62 0) (length 2.54)
         (name "GND1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 -15.24 0) (length 2.54)
+      (pin passive line (at -12.7 -7.62 0) (length 2.54) hide
         (name "GND1" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -188,7 +156,7 @@
         (name "VISOOUT" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 12.7 -10.16 180) (length 2.54)
+      (pin passive line (at 12.7 -7.62 180) (length 2.54) hide
         (name "GND2" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -200,7 +168,7 @@
         (name "CANL" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 12.7 -12.7 180) (length 2.54)
+      (pin passive line (at 12.7 -7.62 180) (length 2.54) hide
         (name "GND2" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -216,15 +184,15 @@
         (name "VISOIN" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 -17.78 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -10.16 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 12.7 -15.24 180) (length 2.54)
+      (pin passive line (at 12.7 -7.62 180) (length 2.54) hide
         (name "GND2" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 -7.62 0) (length 2.54)
+      (pin passive line (at -12.7 -7.62 0) (length 2.54) hide
         (name "GND1" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -240,7 +208,7 @@
         (name "VIO" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 -10.16 0) (length 2.54)
+      (pin passive line (at -12.7 -7.62 0) (length 2.54) hide
         (name "GND1" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -248,7 +216,7 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 -12.7 0) (length 2.54)
+      (pin passive line (at -12.7 -7.62 0) (length 2.54) hide
         (name "GND1" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
