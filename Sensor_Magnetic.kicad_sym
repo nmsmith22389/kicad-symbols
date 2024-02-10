@@ -2538,7 +2538,7 @@
     (property "Datasheet" "https://www.magntek.com.cn/upload/MT6701_Rev.1.5.pdf" (at 0 -33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "sensor magnetic hall position rotation" (at 0 0 0)
+    (property "ki_keywords" "sensor magnetic hall rotation" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Hall Based Angle Position Encoder Sensor, I2C, SSI, ABZ & UVW interfaces, 3.3..5V supply, SOP-8" (at 0 0 0)
