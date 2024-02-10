@@ -1449,7 +1449,7 @@
     (property "Datasheet" "https://www.decawave.com/sites/default/files/resources/dwm1000-datasheet-v1.3.pdf" (at 7.62 -29.21 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "ki_keywords" "DWM1000,Decawave,RF,ranging,UWB" (at 0 0 0)
+    (property "ki_keywords" "Decawave Qorvo UWB" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Ultra wide band RF module With ranging location capabilities" (at 0 0 0)
@@ -1459,7 +1459,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DWM1000_0_1"
-      (rectangle (start 17.78 22.86) (end -17.78 -22.86)
+      (rectangle (start -17.78 22.86) (end 17.78 -22.86)
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
