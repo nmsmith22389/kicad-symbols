@@ -25740,7 +25740,7 @@
     (property "ki_keywords" "LDO low noise" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "–36V, 1.5A Negative Linear Adjustable Regulator with Programmable Current Limit" (at 0 0 0)
+    (property "ki_description" "–36V, 1.5A Negative Linear Adjustable Regulator with Programmable Current Limit, TO-220-7" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Package*TO*:TO?220*2.54?3.7mm*" (at 0 0 0)
