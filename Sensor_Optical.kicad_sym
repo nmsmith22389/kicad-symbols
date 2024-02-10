@@ -4959,7 +4959,7 @@
     (property "Value" "TCRT5000" (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 1.2306 -0.0636 0)
+    (property "Footprint" "OptoDevice:Vishay_TCRT5000" (at 1.2306 -0.0636 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/83760/tcrt5000.pdf" (at 0 -6.985 0)
