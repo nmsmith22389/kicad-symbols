@@ -1821,7 +1821,7 @@
       )
     )
     (symbol "INA200_1_1"
-      (pin power_in line (at -2.54 17.78 270) (length 2.54)
+      (pin power_in line (at 0 17.78 270) (length 2.54)
         (name "V_{s}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
