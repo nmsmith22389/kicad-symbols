@@ -1714,14 +1714,6 @@
       )
       (polyline
         (pts
-          (xy -7.62 7.62)
-          (xy -2.794 7.62)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy -5.08 -7.62)
           (xy -2.794 -7.62)
         )
@@ -1740,6 +1732,14 @@
         (pts
           (xy 5.08 -5.08)
           (xy 7.62 -5.08)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 7.62)
+          (xy 5.334 7.62)
         )
         (stroke (width 0.1524) (type default))
         (fill (type none))
@@ -1765,10 +1765,10 @@
       )
       (polyline
         (pts
-          (xy 5.08 12.7)
-          (xy 5.08 2.54)
-          (xy -2.794 7.62)
-          (xy 5.08 12.7)
+          (xy -2.54 12.7)
+          (xy -2.54 2.54)
+          (xy 5.334 7.62)
+          (xy -2.54 12.7)
         )
         (stroke (width 0.1524) (type default))
         (fill (type background))
@@ -1776,16 +1776,16 @@
       (text "+" (at -1.524 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (text "+" (at 3.81 10.16 0)
+      (text "+" (at -1.27 10.16 0)
         (effects (font (size 1.27 1.27)))
       )
       (text "-" (at -1.524 -7.62 0)
         (effects (font (size 1.27 1.27)))
       )
-      (text "-" (at 3.81 5.08 0)
+      (text "-" (at -1.27 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (text "G" (at 2.032 7.62 0)
+      (text "G" (at 0.508 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
       (text "Ref" (at -8.382 -8.636 0)
@@ -1796,6 +1796,22 @@
       (rectangle (start -12.7 15.24) (end 15.24 -15.24)
         (stroke (width 0.254) (type default))
         (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -7.62 10.16)
+          (xy -2.54 10.16)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 5.08)
+          (xy -7.62 5.08)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1839,22 +1855,6 @@
       )
       (polyline
         (pts
-          (xy 5.08 5.08)
-          (xy 10.16 5.08)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 10.16)
-          (xy 5.08 10.16)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy -1.143 -6.35)
           (xy -0.508 -6.35)
           (xy 0.762 -3.81)
@@ -1887,7 +1887,7 @@
         (name "V_{s}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -15.24 7.62 0) (length 2.54)
+      (pin output line (at 17.78 7.62 180) (length 2.54)
         (name "OUT" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -1907,11 +1907,11 @@
         (name "CMP_{OUT}" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 17.78 5.08 180) (length 2.54)
+      (pin input line (at -15.24 5.08 0) (length 2.54)
         (name "V_{IN-}" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 17.78 10.16 180) (length 2.54)
+      (pin input line (at -15.24 10.16 0) (length 2.54)
         (name "V_{IN+}" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
