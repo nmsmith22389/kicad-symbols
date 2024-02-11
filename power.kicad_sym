@@ -140,7 +140,7 @@
 			)
 		)
 		(property "Value" "+12C"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1820,7 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2420,7 @@
 			)
 		)
 		(property "Value" "+3.3VADC"
-			(at 0 2.54 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2540,7 @@
 			)
 		)
 		(property "Value" "+3.3VDAC"
-			(at 0 2.54 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2660,7 @@
 			)
 		)
 		(property "Value" "+3.3VP"
-			(at 0 2.54 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4940,7 @@
 			)
 		)
 		(property "Value" "+9VA"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5422,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5431,7 @@
 			)
 		)
 		(property "Value" "-10V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5518,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5527,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5710,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5719,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5806,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5815,7 @@
 			)
 		)
 		(property "Value" "-24V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +5902,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +5911,7 @@
 			)
 		)
 		(property "Value" "-2V5"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +5998,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6007,7 @@
 			)
 		)
 		(property "Value" "-36V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6094,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6103,7 @@
 			)
 		)
 		(property "Value" "-3V3"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6190,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6199,7 @@
 			)
 		)
 		(property "Value" "-48V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6286,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6295,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +6382,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6391,7 @@
 			)
 		)
 		(property "Value" "-5VA"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +6478,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +6487,7 @@
 			)
 		)
 		(property "Value" "-6V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6574,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6583,7 @@
 			)
 		)
 		(property "Value" "-8V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6670,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 -3.175 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6679,7 @@
 			)
 		)
 		(property "Value" "-9V"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6778,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 -3.175 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +6787,7 @@
 			)
 		)
 		(property "Value" "-9VA"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7113,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,7 +7122,7 @@
 			)
 		)
 		(property "Value" "-VSW"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,7 +7472,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 6.35 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7481,7 @@
 			)
 		)
 		(property "Value" "Earth_Clean"
-			(at 7.62 -3.81 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7616,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 6.35 -6.35 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7625,7 @@
 			)
 		)
 		(property "Value" "Earth_Protective"
-			(at 11.43 -3.81 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,7 +8742,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 3.048 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +8751,7 @@
 			)
 		)
 		(property "Value" "HT"
-			(at 0 2.286 0)
+			(at 0 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8859,7 +8859,7 @@
 			)
 		)
 		(property "Value" "LINE"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,7 +8979,7 @@
 			)
 		)
 		(property "Value" "NEUT"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9099,7 @@
 			)
 		)
 		(property "Value" "PRI_HI"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +9219,7 @@
 			)
 		)
 		(property "Value" "PRI_LO"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +9327,7 @@
 			)
 		)
 		(property "Value" "PRI_MID"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +9543,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,7 +9794,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +9914,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10034,7 @@
 			)
 		)
 		(property "Value" "VCCQ"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,7 +10154,7 @@
 			)
 		)
 		(property "Value" "VCOM"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10262,7 +10262,7 @@
 			)
 		)
 		(property "Value" "VD"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +10373,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 -2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,7 +10382,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 0 6.35 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10502,7 +10502,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +10622,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +10742,7 @@
 			)
 		)
 		(property "Value" "VDDF"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10862,7 +10862,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10970,7 +10970,7 @@
 			)
 		)
 		(property "Value" "VMEM"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11090,7 +11090,7 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11201,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at -5.08 -3.81 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +11210,7 @@
 			)
 		)
 		(property "Value" "VS"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11318,7 +11318,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,7 +11426,7 @@
 			)
 		)
 		(property "Value" "VSSA"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11525,7 +11525,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at -5.08 -3.81 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11534,7 +11534,7 @@
 			)
 		)
 		(property "Value" "Vdrive"
-			(at 0 3.81 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
