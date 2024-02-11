@@ -783,7 +783,7 @@
     )
     (symbol "AS5045B_1_1"
       (pin open_collector line (at -12.7 -5.08 0) (length 2.54)
-        (name "MagINCn" (effects (font (size 1.27 1.27))))
+        (name "~{MagINC}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 12.7 2.54 180) (length 2.54)
@@ -815,7 +815,7 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
       (pin open_collector line (at -12.7 -7.62 0) (length 2.54)
-        (name "MagDECn" (effects (font (size 1.27 1.27))))
+        (name "~{MagDEC}" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at -12.7 7.62 0) (length 2.54)
