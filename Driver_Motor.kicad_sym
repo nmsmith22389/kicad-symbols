@@ -2777,7 +2777,7 @@
     )
     (symbol "DRV8848_1_1"
       (pin input line (at -15.24 5.08 0) (length 2.54)
-        (name "nSLEEP" (effects (font (size 1.27 1.27))))
+        (name "~{SLEEP}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 -10.16 0) (length 2.54)
@@ -2808,8 +2808,8 @@
         (name "AIN1" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 2.54 -15.24 90) (length 2.54)
-        (name "PPAD" (effects (font (size 1.27 1.27))))
+      (pin passive line (at 0 -15.24 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 15.24 5.08 180) (length 2.54)
@@ -2837,7 +2837,7 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
       (pin open_collector line (at -15.24 7.62 0) (length 2.54)
-        (name "nFAULT" (effects (font (size 1.27 1.27))))
+        (name "~{FAULT}" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -15.24 -7.62 0) (length 2.54)
