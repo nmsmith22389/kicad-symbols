@@ -6880,7 +6880,7 @@
     (property "ki_description" "16-channel, 8-bit PWM, Constant Current, Dimming, LED controller, SPI, HTSSOP-28" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "NXP_HTSSOP*28*1EP*4.4x9.7mm*P0.65mm*EP2.2x3.4mm*" (at 0 0 0)
+    (property "ki_fp_filters" "NXP*HTSSOP*28*1EP*4.4x9.7mm*P0.65mm*EP2.2x3.4mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCA9745BTW_0_1"
