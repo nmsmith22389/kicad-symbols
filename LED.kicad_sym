@@ -6716,7 +6716,7 @@
     (property "ki_keywords" "led diode bicolor red green dual down facing reverse" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "LED dual, 4-pin, down-facing" (at 0 0 0)
+    (property "ki_description" "LED dual red/green, 4-pin, down-facing" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "*LTST*C235K*" (at 0 0 0)
