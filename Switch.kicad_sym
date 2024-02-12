@@ -8931,7 +8931,7 @@
     (property "ki_description" "Switch, single pole double throw" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SW*Wuerth*WS*SLTV*450301014042*P2.54mm*" (at 0 0 0)
+    (property "ki_fp_filters" "SW*Wuerth*WS*SLTV*P2.54mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
