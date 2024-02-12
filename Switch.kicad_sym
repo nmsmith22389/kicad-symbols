@@ -8923,7 +8923,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "switch single-pole double-throw spdt ON-ON" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
