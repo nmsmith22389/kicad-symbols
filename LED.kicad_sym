@@ -6713,7 +6713,7 @@
     (property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf" (at 0.762 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "led diode bicolor red green dual down facing reverse" (at 0 0 0)
+    (property "ki_keywords" "diode bicolor down-facing reverse" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "LED dual red/green, 4-pin, down-facing" (at 0 0 0)
