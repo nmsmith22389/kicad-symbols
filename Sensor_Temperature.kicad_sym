@@ -2360,7 +2360,7 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G5_DCK-5" (at 6.35 -14.605 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm94021-q1.pdf" (at 6.985 -12.7 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
