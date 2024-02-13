@@ -9524,8 +9524,8 @@
       )
     )
     (symbol "LTC2508CDKD-32_1_1"
-      (pin input inverted (at 15.24 10.16 180) (length 5.08)
-        (name "RDLA" (effects (font (size 1.27 1.27))))
+      (pin input line (at 15.24 10.16 180) (length 5.08)
+        (name "~{RDLA}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 5.08 22.86 270) (length 5.08) hide
@@ -9548,8 +9548,8 @@
         (name "SYNC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin output inverted (at 15.24 5.08 180) (length 5.08)
-        (name "DRL" (effects (font (size 1.27 1.27))))
+      (pin output line (at 15.24 5.08 180) (length 5.08)
+        (name "~{DRL}" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -22.86 90) (length 5.08) hide
@@ -9568,8 +9568,8 @@
         (name "SCKB" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin input inverted (at 15.24 7.62 180) (length 5.08)
-        (name "RDLB" (effects (font (size 1.27 1.27))))
+      (pin input line (at 15.24 7.62 180) (length 5.08)
+        (name "~{RDLB}" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin tri_state line (at 15.24 -10.16 180) (length 5.08)
