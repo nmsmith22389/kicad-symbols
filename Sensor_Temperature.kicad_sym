@@ -2371,7 +2371,7 @@
     (property "ki_description" "Analog, selectable coefficient -5.5/-8.2/-10.9/-13.6mV/°C, ±2C accuracy, 1.5-5.5V supply, -50C to +150C, SOT-323" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT*353*SC*70*" (at 0 0 0)
+    (property "ki_fp_filters" "Texas?R-PDSO-G5?DCK*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LM94021_0_1"
