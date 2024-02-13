@@ -7282,6 +7282,9 @@
     (property "ki_description" "Dual Logarithmic amplifer, 100pA to 10mA, integrated 2.5V reference, single or dual supply: +-5V, +5V VQFN-16" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Texas*RGV0016A*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "LOG114AxRGV_0_0"
       (pin power_in line (at -7.62 -38.1 90) (length 2.54)
         (name "V_{REFGND}" (effects (font (size 1.27 1.27))))
