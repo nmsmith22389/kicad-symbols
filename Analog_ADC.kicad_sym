@@ -9581,7 +9581,7 @@
         (number "21" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at -2.54 22.86 270) (length 5.08)
-        (name "OVDD" (effects (font (size 1.27 1.27))))
+        (name "OV_{DD}" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -22.86 90) (length 5.08) hide
@@ -9597,7 +9597,7 @@
         (number "25" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at -5.08 22.86 270) (length 5.08)
-        (name "VDD" (effects (font (size 1.27 1.27))))
+        (name "V_{DD}" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 0 -22.86 90) (length 5.08)
