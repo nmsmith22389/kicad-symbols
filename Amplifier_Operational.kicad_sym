@@ -7267,7 +7267,7 @@
     (property "Reference" "U" (at -19.05 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LOG114AIR" (at 20.32 21.59 0)
+    (property "Value" "LOG114AxRGV" (at 20.32 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DFN_QFN:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm" (at 12.7 -36.83 0)
