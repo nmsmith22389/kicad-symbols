@@ -7497,7 +7497,7 @@
     )
     (symbol "LOG114AxRGV_1_1"
       (rectangle (start -20.32 7.62) (end 25.4 -35.56)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type background))
       )
       (circle (center -13.716 -7.62) (radius 0.1796)
