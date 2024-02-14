@@ -479,7 +479,7 @@
     (property "ki_description" "MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "ST?HLGA*2.5x2.5mm*P0.6mm*LayoutBorder3x2y*" (at 0 0 0)
+    (property "ki_fp_filters" "ST?HLGA*2x2mm*P0.5mm*LayoutBorder3x2y*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
