@@ -2453,7 +2453,7 @@
         (number "23" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 2.54 27.94 270) (length 2.54) hide
-        (name "VCCB" (effects (font (size 1.27 1.27))))
+        (name "V_{CCB}" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -10.16 17.78 0) (length 2.54)
