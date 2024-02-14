@@ -44412,7 +44412,7 @@
     (property "ki_keywords" "optically coupled gates automotive" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Linear Optocoupler, High Gain Stability, Wide Bandwidth" (id 5) (at 0 0 0)
+    (property "ki_description" "Linear Optocoupler, High Gain Stability, 5300VRMS isolation, 200 kHz Bandwidth, DIP-8" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "DIP*W7.62mm*" (id 6) (at 0 0 0)
