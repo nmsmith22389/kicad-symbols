@@ -6443,7 +6443,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304071430_Legend-Si-LGS6302_C5123975.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "1.5A Buck DC/DC" (at 0 0 0)
+    (property "ki_keywords" "step-up" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "1.5A, 1.2MHz Boost DC/DC Converter, adjustable 3-60V output voltage, SOT-23-5" (at 0 0 0)
