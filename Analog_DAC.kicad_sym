@@ -5817,7 +5817,7 @@
     (property "ki_keywords" "texas digital-analog converter" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "16-bit dual-channel voltage output DAC, 2.5V 5ppm/°C internal reference, WSON-10" (at 0 0 0)
+    (property "ki_description" "12-bit dual-channel voltage output DAC, 2.5V 5ppm/°C internal reference, WSON-10" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Texas*2.5x2.5mm*P0.5mm*" (at 0 0 0)
