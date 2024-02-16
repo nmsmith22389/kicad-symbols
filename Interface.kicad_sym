@@ -9,7 +9,7 @@
     (property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" (at 0 -17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.renesas.com/us/en/document/dst/5pb11xx-family-datasheet?r=156341" (at -60.96 15.24 0)
+    (property "Datasheet" "https://www.renesas.com/us/en/document/dst/5pb11xx-family-datasheet" (at -60.96 15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "clock buffer lvcmos" (at 0 0 0)
