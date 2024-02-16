@@ -26145,7 +26145,7 @@
     (property "Reference" "U" (at -7.62 11.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MCP16312MNY" (at 0 11.43 0)
+    (property "Value" "MCP16312x-xMNY" (at 0 11.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" (at 1.27 -6.35 0)
