@@ -7231,7 +7231,7 @@
     (property "Reference" "U" (at -7.62 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RE46C317S" (at 6.35 8.89 0)
+    (property "Value" "RE46C317" (at 6.35 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 5.08 -6.35 0)
