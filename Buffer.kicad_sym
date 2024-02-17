@@ -1,5 +1,5 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "CDCV304" (pin_names (offset 0.504)) (in_bom yes) (on_board yes)
+  (symbol "CDCV304" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -6.35 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
