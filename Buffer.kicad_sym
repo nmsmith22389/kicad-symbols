@@ -12,7 +12,7 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/cdcv304.pdf" (at 5.08 -15.24 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "ki_keywords" "texas" (at 0 0 0)
+    (property "ki_keywords" "texas quadruple" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "0-200 MHz 1:4 Clock Buffer, PCI-X Compliant, TSSOP-8" (at 0 0 0)
