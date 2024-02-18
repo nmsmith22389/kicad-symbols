@@ -796,7 +796,7 @@
     (property "Reference" "U" (at 8.89 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "AD5691RxRM" (at 8.89 3.81 0)
+    (property "Value" "AD5692RxRM" (at 8.89 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm" (at 33.02 -8.89 0)
