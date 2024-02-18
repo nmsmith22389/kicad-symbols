@@ -220,7 +220,7 @@
         (name "XTAL_N" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -22.86 -21.59 0) (length 2.54)
+      (pin input line (at -22.86 -21.59 0) (length 2.54)
         (name "XTAL_P" (effects (font (size 1.27 1.27))))
         (number "53" (effects (font (size 1.27 1.27))))
       )
