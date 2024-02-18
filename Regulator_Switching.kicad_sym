@@ -6489,7 +6489,7 @@
     (property "Reference" "U" (at -7.62 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LGS5116B" (at 2.54 6.35 0)
+    (property "Value" "LGS5145" (at 2.54 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 20.32 -12.7 0)
