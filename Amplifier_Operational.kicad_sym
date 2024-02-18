@@ -8173,7 +8173,7 @@
     (property "Value" "OPA310SxDCK" (at 0 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G5_DCK-5" (at 0 -15.24 0)
+    (property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G6" (at 0 -15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa310.pdf" (at 0 0 0)
