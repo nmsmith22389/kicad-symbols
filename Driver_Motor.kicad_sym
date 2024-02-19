@@ -1207,6 +1207,9 @@
     (property "ki_description" "65V, 3A SPI Stepper motor controller with integrated MOSFETs, automatic torque, automatic microstep, HTSSOP-28" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "HTSSOP*1EP*4.4x6.5mm*P0.65mm*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "DRV8461SPWP_0_0"
       (pin input line (at 12.7 15.24 180) (length 2.54)
         (name "VCP" (effects (font (size 1.27 1.27))))
