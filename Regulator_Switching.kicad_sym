@@ -6498,7 +6498,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304071600_Legend-Si-LGS5145_C5123971.pdf" (at 45.72 -15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "Legend" (at 0 0 0)
+    (property "ki_keywords" "Legend step-down" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "1A, 1.2MHz Buck DC/DC Converter, adjustable output voltage, 4.5..55V input, 0.8..50V output, SOT-23-6" (at 0 0 0)
