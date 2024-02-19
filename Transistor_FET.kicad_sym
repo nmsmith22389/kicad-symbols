@@ -25337,7 +25337,7 @@
     (property "ki_keywords" "NMOS NFET Vishay" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "12A Id, 30V Vds, N-Channel MOSFET, PowerPAK SC70-6" (at 0 0 0)
+    (property "ki_description" "12A Id, 30V Vds, N-Channel MOSFET, Rds 18mΩ PowerPAK, SC70-6" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Vishay*PowerPAK*SC70*Single*" (at 0 0 0)
