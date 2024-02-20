@@ -5851,7 +5851,7 @@
     (property "Reference" "U" (at -10.16 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DAC80502" (at 7.62 16.51 0)
+    (property "Value" "DAC70502" (at 7.62 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SON:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm" (at 5.08 -27.94 0)
