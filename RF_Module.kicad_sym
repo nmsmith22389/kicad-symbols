@@ -2563,7 +2563,7 @@
     (property "Reference" "U" (at -7.62 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "ESP32-C3-WROOM-02" (at 12.7 19.05 0)
+    (property "Value" "ESP32-C3-WROOM-02U" (at 12.7 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RF_Module:ESP32-C3-WROOM-02U" (at 17.78 -19.05 0)
