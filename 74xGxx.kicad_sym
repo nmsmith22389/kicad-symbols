@@ -7081,7 +7081,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 10.16 0)
+			(at -8.382 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +7089,7 @@
 			)
 		)
 		(property "Value" "74LVC1G386"
-			(at 7.62 -10.16 0)
+			(at 6.096 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7132,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOT* SG-*"
+		(property "ki_fp_filters" "SOT* SG*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7180,6 +7180,30 @@
 			)
 			(polyline
 				(pts
+					(xy -8.89 -5.08) (xy -7.874 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 5.08) (xy -7.874 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0 -6.35) (xy -7.62 -6.35)
 				)
 				(stroke
@@ -7217,8 +7241,8 @@
 		)
 		(symbol "74LVC1G386_1_1"
 			(pin input line
-				(at -12.698 0 0)
-				(length 7.11)
+				(at -12.7 0 0)
+				(length 6.35)
 				(name "~"
 					(effects
 						(font
@@ -7253,8 +7277,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 -5.08 0)
-				(length 5.84)
+				(at -12.7 -5.08 0)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
@@ -7307,8 +7331,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 5.08 0)
-				(length 5.84)
+				(at -12.7 5.08 0)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
