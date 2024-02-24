@@ -11034,7 +11034,7 @@
 			)
 			(pin input line
 				(at 0 7.62 270)
-				(length 5.46)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -11138,7 +11138,7 @@
 			)
 			(pin input line
 				(at 0 7.62 270)
-				(length 5.46)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
