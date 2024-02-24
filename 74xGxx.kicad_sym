@@ -11553,7 +11553,7 @@
 		(symbol "74LVC2G157_1_1"
 			(pin input line
 				(at -10.16 5.08 0)
-				(length 6.25)
+				(length 6.35)
 				(name "A"
 					(effects
 						(font
@@ -11571,7 +11571,7 @@
 			)
 			(pin input line
 				(at -10.16 2.54 0)
-				(length 6.25)
+				(length 6.35)
 				(name "B"
 					(effects
 						(font
@@ -11643,7 +11643,7 @@
 			)
 			(pin input line
 				(at -10.16 -2.54 0)
-				(length 6.25)
+				(length 6.35)
 				(name "~{A}/B"
 					(effects
 						(font
@@ -11661,7 +11661,7 @@
 			)
 			(pin input line
 				(at -10.16 -5.08 0)
-				(length 6.25)
+				(length 6.35)
 				(name "~{G}"
 					(effects
 						(font
