@@ -3283,7 +3283,7 @@
 		(symbol "74LVC1G139_1_1"
 			(pin input line
 				(at -10.16 2.54 0)
-				(length 6.25)
+				(length 6.35)
 				(name "A"
 					(effects
 						(font
@@ -3301,7 +3301,7 @@
 			)
 			(pin input line
 				(at -10.16 -2.54 0)
-				(length 6.25)
+				(length 6.35)
 				(name "B"
 					(effects
 						(font
@@ -3337,7 +3337,7 @@
 			)
 			(pin power_in line
 				(at 0 -12.7 90)
-				(length 6.25)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
@@ -3409,7 +3409,7 @@
 			)
 			(pin power_in line
 				(at 0 12.7 270)
-				(length 6.25)
+				(length 6.35)
 				(name "VCC"
 					(effects
 						(font
