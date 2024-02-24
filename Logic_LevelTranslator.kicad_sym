@@ -6881,7 +6881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1-Bit Bidirectional Voltage-Level Translator in SOT-23-6 Package With Auto Direction Sensing and ±15-kV ESD Protection"
+		(property "Description" "1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7143,7 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1-Bit Bidirectional Voltage-Level Translator in DSBGA-6 Package With Auto Direction Sensing and ±15-kV ESD Protection"
+		(property "Description" "1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, DSBGA-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7405,7 +7405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-Bit Bidirectional Voltage-Level Translator in TSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection"
+		(property "Description" "2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, TSSOP-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7775,7 +7775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-Bit Bidirectional Voltage-Level Translator in VSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection"
+		(property "Description" "2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, VSSOP-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8145,7 +8145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-Bit Bidirectional Voltage-Level Translator in DSBGA Package  With Auto Direction Sensing and ±15-kV ESD Protection"
+		(property "Description" "2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, DSBGA-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13114,7 +13114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-bit bidirectional voltage level translator with auto-direction sensing USON package"
+		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, USON-20"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13151,6 +13151,78 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -2.54 1.016) (xy -0.762 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 0) (xy 2.794 -1.016) (xy 1.016 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -1.016) (xy -2.54 -1.016) (xy -2.54 0) (xy -4.572 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -1.016) (xy 1.016 0) (xy 1.016 -2.032) (xy -0.762 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 1.016) (xy -0.762 0) (xy -0.762 2.032) (xy 1.016 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 1.016) (xy 2.794 1.016) (xy 2.794 0) (xy 4.064 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -18411,7 +18483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1-Bit Bidirectional Voltage-Level Translator in SC-70-6 Package With Auto Direction Sensing and ±15-kV ESD Protection"
+		(property "Description" "1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, SC-70-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18476,7 +18548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1-Bit Bidirectional Voltage-Level Translator in SOT-563 Package With Auto Direction Sensing and ±15-kV ESD Protection"
+		(property "Description" "1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, SOT-563"
 			(at 0 0 0)
 			(effects
 				(font
