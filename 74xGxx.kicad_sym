@@ -3283,7 +3283,7 @@
 		(symbol "74LVC1G139_1_1"
 			(pin input line
 				(at -10.16 2.54 0)
-				(length 6.25)
+				(length 6.35)
 				(name "A"
 					(effects
 						(font
@@ -3301,7 +3301,7 @@
 			)
 			(pin input line
 				(at -10.16 -2.54 0)
-				(length 6.25)
+				(length 6.35)
 				(name "B"
 					(effects
 						(font
@@ -3337,7 +3337,7 @@
 			)
 			(pin power_in line
 				(at 0 -12.7 90)
-				(length 6.25)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
@@ -3409,7 +3409,7 @@
 			)
 			(pin power_in line
 				(at 0 12.7 270)
-				(length 6.25)
+				(length 6.35)
 				(name "VCC"
 					(effects
 						(font
@@ -4656,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOT* SG-*"
+		(property "ki_fp_filters" "SOT* SG*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4668,7 +4668,7 @@
 		(symbol "74LVC1G27_0_1"
 			(arc
 				(start -7.62 -6.35)
-				(mid -5.321 0)
+				(mid -4.9897 0)
 				(end -7.62 6.35)
 				(stroke
 					(width 0.254)
@@ -4714,6 +4714,30 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy -7.62 -5.08) (xy -6.604 -5.08) (xy -6.985 -5.08) (xy -6.604 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 5.08) (xy -6.604 5.08) (xy -6.985 5.08) (xy -6.604 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(arc
 				(start 6.35 0)
 				(mid 3.9978 3.9978)
@@ -4729,8 +4753,8 @@
 		)
 		(symbol "74LVC1G27_1_1"
 			(pin input line
-				(at -12.698 0 0)
-				(length 7.11)
+				(at -12.7 0 0)
+				(length 7.62)
 				(name "~"
 					(effects
 						(font
@@ -4765,8 +4789,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 -5.08 0)
-				(length 5.84)
+				(at -12.7 -5.08 0)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -4819,8 +4843,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 5.08 0)
-				(length 5.84)
+				(at -12.7 5.08 0)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -6022,7 +6046,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 10.16 0)
+			(at -7.112 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6054,7 @@
 			)
 		)
 		(property "Value" "74LVC1G332"
-			(at 0 -10.16 0)
+			(at 6.096 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6097,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOT* SG-*"
+		(property "ki_fp_filters" "SOT* SG*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6101,6 +6125,42 @@
 				(end 6.35 0)
 				(stroke
 					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -5.08) (xy -6.858 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 5.08) (xy -6.858 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -5.334 0)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -6146,8 +6206,8 @@
 		)
 		(symbol "74LVC1G332_1_1"
 			(pin input line
-				(at -12.698 0 0)
-				(length 7.11)
+				(at -12.7 0 0)
+				(length 6.35)
 				(name "~"
 					(effects
 						(font
@@ -6182,8 +6242,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 -5.08 0)
-				(length 5.84)
+				(at -12.7 -5.08 0)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -6236,8 +6296,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 5.08 0)
-				(length 5.84)
+				(at -12.7 5.08 0)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -7021,7 +7081,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 10.16 0)
+			(at -8.382 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,7 +7089,7 @@
 			)
 		)
 		(property "Value" "74LVC1G386"
-			(at 7.62 -10.16 0)
+			(at 6.096 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7132,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOT* SG-*"
+		(property "ki_fp_filters" "SOT* SG*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7120,6 +7180,30 @@
 			)
 			(polyline
 				(pts
+					(xy -8.89 -5.08) (xy -7.874 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 5.08) (xy -7.874 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0 -6.35) (xy -7.62 -6.35)
 				)
 				(stroke
@@ -7157,8 +7241,8 @@
 		)
 		(symbol "74LVC1G386_1_1"
 			(pin input line
-				(at -12.698 0 0)
-				(length 7.11)
+				(at -12.7 0 0)
+				(length 6.35)
 				(name "~"
 					(effects
 						(font
@@ -7193,8 +7277,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 -5.08 0)
-				(length 5.84)
+				(at -12.7 -5.08 0)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
@@ -7247,8 +7331,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 5.08 0)
-				(length 5.84)
+				(at -12.7 5.08 0)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
@@ -7809,7 +7893,7 @@
 			)
 			(pin bidirectional line
 				(at 10.16 0 180)
-				(length 6.25)
+				(length 6.35)
 				(name "~"
 					(effects
 						(font
@@ -10950,7 +11034,7 @@
 			)
 			(pin input line
 				(at 0 7.62 270)
-				(length 5.46)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -11054,7 +11138,7 @@
 			)
 			(pin input line
 				(at 0 7.62 270)
-				(length 5.46)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -11469,7 +11553,7 @@
 		(symbol "74LVC2G157_1_1"
 			(pin input line
 				(at -10.16 5.08 0)
-				(length 6.25)
+				(length 6.35)
 				(name "A"
 					(effects
 						(font
@@ -11487,7 +11571,7 @@
 			)
 			(pin input line
 				(at -10.16 2.54 0)
-				(length 6.25)
+				(length 6.35)
 				(name "B"
 					(effects
 						(font
@@ -11559,7 +11643,7 @@
 			)
 			(pin input line
 				(at -10.16 -2.54 0)
-				(length 6.25)
+				(length 6.35)
 				(name "~{A}/B"
 					(effects
 						(font
@@ -11577,7 +11661,7 @@
 			)
 			(pin input line
 				(at -10.16 -5.08 0)
-				(length 6.25)
+				(length 6.35)
 				(name "~{G}"
 					(effects
 						(font
@@ -13669,7 +13753,7 @@
 			)
 			(pin bidirectional line
 				(at -10.16 0 0)
-				(length 6.25)
+				(length 6.35)
 				(name "~"
 					(effects
 						(font
@@ -13705,7 +13789,7 @@
 			)
 			(pin input line
 				(at -10.16 -5.08 0)
-				(length 6.25)
+				(length 6.35)
 				(name "~"
 					(effects
 						(font
@@ -13770,9 +13854,9 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 0 -10.157 90)
-				(length 4.95) hide
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -13788,9 +13872,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -10.157 90)
-				(length 4.95)
+			(pin passive line
+				(at 0 -10.16 90)
+				(length 5.08) hide
 				(name "GND"
 					(effects
 						(font
