@@ -4656,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOT* SG-*"
+		(property "ki_fp_filters" "SOT* SG*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4668,7 +4668,7 @@
 		(symbol "74LVC1G27_0_1"
 			(arc
 				(start -7.62 -6.35)
-				(mid -5.321 0)
+				(mid -4.9897 0)
 				(end -7.62 6.35)
 				(stroke
 					(width 0.254)
@@ -4714,6 +4714,30 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy -7.62 -5.08) (xy -6.604 -5.08) (xy -6.985 -5.08) (xy -6.604 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 5.08) (xy -6.604 5.08) (xy -6.985 5.08) (xy -6.604 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(arc
 				(start 6.35 0)
 				(mid 3.9978 3.9978)
@@ -4729,8 +4753,8 @@
 		)
 		(symbol "74LVC1G27_1_1"
 			(pin input line
-				(at -12.698 0 0)
-				(length 7.11)
+				(at -12.7 0 0)
+				(length 7.62)
 				(name "~"
 					(effects
 						(font
@@ -4765,8 +4789,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 -5.08 0)
-				(length 5.84)
+				(at -12.7 -5.08 0)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -4819,8 +4843,8 @@
 				)
 			)
 			(pin input line
-				(at -12.698 5.08 0)
-				(length 5.84)
+				(at -12.7 5.08 0)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
