@@ -4553,7 +4553,7 @@
 			)
 		)
 		(property "Value" "LM74_DSBGA"
-			(at 0 10.16 0)
+			(at 2.54 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4597,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DSBGA*1.5855x1.6365*P0.5mm*"
+		(property "ki_fp_filters" "*DSBGA*1.5855x1.6365*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4608,8 +4608,8 @@
 		)
 		(symbol "LM74_DSBGA_0_1"
 			(rectangle
-				(start -7.62 8.89)
-				(end 7.62 -8.89)
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4775,7 +4775,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -11.43 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4793,7 +4793,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 11.43 270)
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "+V"
 					(effects
@@ -4843,7 +4843,7 @@
 			)
 		)
 		(property "Value" "LM74_SOIC"
-			(at 0 10.16 0)
+			(at 3.556 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,8 +4898,8 @@
 		)
 		(symbol "LM74_SOIC_0_1"
 			(rectangle
-				(start -7.62 8.89)
-				(end 7.62 -8.89)
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5083,7 +5083,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -11.43 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5155,7 +5155,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 11.43 270)
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "+V"
 					(effects
