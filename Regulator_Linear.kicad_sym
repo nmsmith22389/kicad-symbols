@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
-			(at -0.508 0.254 0)
+			(at -0.508 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adp322_323.pdf"
-			(at 0.254 -0.254 0)
+			(at 0.254 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Triple, 200mA, Low Noise, High PSRR Voltage Regulator, LFCSP-16"
-			(at -0.508 0.508 0)
+			(at -0.254 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,9 +58,18 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ADP322ACPZ-115-R7_0_0"
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "EN1"
 					(effects
@@ -96,7 +105,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -7.62 180)
+				(at 12.7 -10.16 180)
 				(length 2.54) hide
 				(name "NIC"
 					(effects
@@ -114,7 +123,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -10.16 0)
+				(at 0 -19.05 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -132,7 +141,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -10.16 180)
+				(at 12.7 -12.7 180)
 				(length 2.54) hide
 				(name "NIC"
 					(effects
@@ -150,7 +159,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 90)
+				(at 12.7 -15.24 180)
 				(length 2.54) hide
 				(name "NIC"
 					(effects
@@ -168,7 +177,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "EN3"
 					(effects
@@ -186,7 +195,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "EN2"
 					(effects
@@ -204,7 +213,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -5.08 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "VBIAS"
 					(effects
@@ -276,7 +285,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 3.81 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "VOUT2"
 					(effects
@@ -294,7 +303,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 1.27 180)
+				(at 12.7 0 180)
 				(length 2.54) hide
 				(name "NIC"
 					(effects
@@ -312,7 +321,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -2.54 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "VOUT3"
 					(effects
@@ -330,7 +339,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -5.08 180)
+				(at 12.7 -7.62 180)
 				(length 2.54) hide
 				(name "NIC"
 					(effects
@@ -351,9 +360,9 @@
 		(symbol "ADP322ACPZ-115-R7_0_1"
 			(rectangle
 				(start -10.16 12.7)
-				(end 10.16 -12.7)
+				(end 10.16 -16.51)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -363,9 +372,9 @@
 		)
 		(symbol "ADP322ACPZ-115-R7_1_1"
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at 0 -19.05 90)
 				(length 2.54) hide
-				(name "EP"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -387,7 +396,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 16.002 0)
+			(at 0 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,7 +404,7 @@
 			)
 		)
 		(property "Value" "ADP323ACPZ-R7"
-			(at 0.254 13.97 0)
+			(at 0.254 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,7 +412,7 @@
 			)
 		)
 		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
-			(at -0.508 0.254 0)
+			(at 0 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -412,7 +421,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adp322_323.pdf"
-			(at 0.254 -0.254 0)
+			(at 0.508 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,7 +430,7 @@
 			)
 		)
 		(property "Description" "Triple, 200mA, Low Noise, High PSRR Voltage Regulator, LFCSP-16"
-			(at -0.508 0.508 0)
+			(at 0 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -438,9 +447,18 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ADP323ACPZ-R7_0_0"
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "EN1"
 					(effects
@@ -458,7 +476,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 7.62 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "VIN3"
 					(effects
@@ -494,7 +512,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -10.16 0)
+				(at 0 -16.51 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -530,7 +548,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 90)
+				(at 12.7 -12.7 180)
 				(length 2.54) hide
 				(name "NIC"
 					(effects
@@ -548,7 +566,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "EN3"
 					(effects
@@ -566,7 +584,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "EN2"
 					(effects
@@ -602,7 +620,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 10.16 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "VIN1/VIN2"
 					(effects
@@ -619,8 +637,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 7.62 180)
+			(pin passive line
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "FB1"
 					(effects
@@ -638,7 +656,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 10.16 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "VOUT1"
 					(effects
@@ -656,7 +674,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VOUT2"
 					(effects
@@ -673,8 +691,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 1.27 180)
+			(pin passive line
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "FB2"
 					(effects
@@ -709,7 +727,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "FB3"
@@ -730,10 +748,10 @@
 		)
 		(symbol "ADP323ACPZ-R7_0_1"
 			(rectangle
-				(start -10.16 12.7)
-				(end 10.16 -12.7)
+				(start -10.16 15.24)
+				(end 10.16 -13.97)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -743,9 +761,9 @@
 		)
 		(symbol "ADP323ACPZ-R7_1_1"
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at 0 -16.51 90)
 				(length 2.54) hide
-				(name "EP"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58159,7 +58177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
 			(at -0.508 0.254 0)
 			(effects
 				(font
@@ -58168,7 +58186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adp322_323.pdf"
 			(at 0.254 -0.254 0)
 			(effects
 				(font
@@ -58187,6 +58205,15 @@
 			)
 		)
 		(property "ki_keywords" "linear regulator ldo adjustable positive"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140576,7 +140603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
 			(at -0.508 0.254 0)
 			(effects
 				(font
@@ -140585,7 +140612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adp322_323.pdf"
 			(at 0.254 -0.254 0)
 			(effects
 				(font
@@ -140604,6 +140631,15 @@
 			)
 		)
 		(property "ki_keywords" "linear regulator ldo adjustable positive"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140631,7 +140667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
 			(at -0.508 0.254 0)
 			(effects
 				(font
@@ -140640,7 +140676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adp322_323.pdf"
 			(at 0.254 -0.254 0)
 			(effects
 				(font
@@ -140659,6 +140695,15 @@
 			)
 		)
 		(property "ki_keywords" "linear regulator ldo adjustable positive"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140686,7 +140731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
 			(at -0.508 0.254 0)
 			(effects
 				(font
@@ -140695,7 +140740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adp322_323.pdf"
 			(at 0.254 -0.254 0)
 			(effects
 				(font
@@ -140714,6 +140759,15 @@
 			)
 		)
 		(property "ki_keywords" "linear regulator ldo adjustable positive"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140741,7 +140795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
 			(at -0.508 0.254 0)
 			(effects
 				(font
@@ -140750,7 +140804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adp322_323.pdf"
 			(at 0.254 -0.254 0)
 			(effects
 				(font
@@ -140769,6 +140823,15 @@
 			)
 		)
 		(property "ki_keywords" "linear regulator ldo adjustable positive"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140796,7 +140859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
 			(at -0.508 0.254 0)
 			(effects
 				(font
@@ -140805,7 +140868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adp322_323.pdf"
 			(at 0.254 -0.254 0)
 			(effects
 				(font
@@ -140824,6 +140887,15 @@
 			)
 		)
 		(property "ki_keywords" "linear regulator ldo adjustable positive"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
 			(at 0 0 0)
 			(effects
 				(font
