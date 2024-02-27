@@ -104,26 +104,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 12.7 -10.16 180)
-				(length 2.54) hide
-				(name "NIC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 0 -19.05 90)
+				(at 0 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -133,42 +115,6 @@
 					)
 				)
 				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 12.7 -12.7 180)
-				(length 2.54) hide
-				(name "NIC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 12.7 -15.24 180)
-				(length 2.54) hide
-				(name "NIC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -360,7 +306,7 @@
 		(symbol "ADP322ACPZ-115-R7_0_1"
 			(rectangle
 				(start -10.16 12.7)
-				(end 10.16 -16.51)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -372,7 +318,7 @@
 		)
 		(symbol "ADP322ACPZ-115-R7_1_1"
 			(pin passive line
-				(at 0 -19.05 90)
+				(at 0 -15.24 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -396,7 +342,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 19.05 0)
+			(at 0 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,7 +350,7 @@
 			)
 		)
 		(property "Value" "ADP323ACPZ-R7"
-			(at 0.254 17.018 0)
+			(at 0.254 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,7 +404,7 @@
 		)
 		(symbol "ADP323ACPZ-R7_0_0"
 			(pin input line
-				(at -12.7 5.08 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "EN1"
 					(effects
@@ -476,7 +422,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 10.16 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "VIN3"
 					(effects
@@ -493,26 +439,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 12.7 -7.62 180)
-				(length 2.54) hide
-				(name "NIC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at 0 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -529,44 +457,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 12.7 -10.16 180)
-				(length 2.54) hide
-				(name "NIC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 12.7 -12.7 180)
-				(length 2.54) hide
-				(name "NIC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -12.7 0 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "EN3"
 					(effects
@@ -584,7 +476,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "EN2"
 					(effects
@@ -602,7 +494,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -5.08 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "VBIAS"
 					(effects
@@ -620,7 +512,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 12.7 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "VIN1/VIN2"
 					(effects
@@ -638,7 +530,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 10.16 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "FB1"
 					(effects
@@ -656,7 +548,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 12.7 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "VOUT1"
 					(effects
@@ -674,7 +566,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 5.08 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "VOUT2"
 					(effects
@@ -692,7 +584,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "FB2"
 					(effects
@@ -710,7 +602,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -2.54 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "VOUT3"
 					(effects
@@ -728,7 +620,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -5.08 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "FB3"
 					(effects
@@ -748,8 +640,8 @@
 		)
 		(symbol "ADP323ACPZ-R7_0_1"
 			(rectangle
-				(start -10.16 15.24)
-				(end 10.16 -13.97)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -761,7 +653,7 @@
 		)
 		(symbol "ADP323ACPZ-R7_1_1"
 			(pin passive line
-				(at 0 -16.51 90)
+				(at 0 -15.24 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -58213,7 +58105,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140639,7 +140531,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140703,7 +140595,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140767,7 +140659,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140831,7 +140723,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140895,7 +140787,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_*"
+		(property "ki_fp_filters" "LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm*"
 			(at 0 0 0)
 			(effects
 				(font
