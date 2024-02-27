@@ -2388,7 +2388,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+		(property "ki_fp_filters" "TSSOP?14*4.4x5mm*P0.65mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+		(property "ki_fp_filters" "TSSOP?16*4.4x5mm*P0.65mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3094,7 +3094,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TSSOP*4.4x6.5mm*P0.65mm*"
+		(property "ki_fp_filters" "TSSOP?20*4.4x6.5mm*P0.65mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3537,7 +3537,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TSSOP*4.4x7.8mm*P0.65mm*"
+		(property "ki_fp_filters" "TSSOP?24*4.4x7.8mm*P0.65mm*"
 			(at 0 0 0)
 			(effects
 				(font
