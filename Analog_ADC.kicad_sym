@@ -2353,7 +2353,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 0 -5.08 0)
+			(at 38.1 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2362,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809282221_Analog-Devices-AD7327BRUZ_C58823.pdf"
-			(at 4.572 -10.668 0)
+			(at 59.69 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2371,7 @@
 			)
 		)
 		(property "Description" "8-Channel, software selectable, true bipolar input, 12-Bit plus sign, 500 kSPS SAR ADC, TSSOP-20"
-			(at 0 -7.62 0)
+			(at 65.786 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2796,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
-			(at 0 -2.54 0)
+			(at 41.91 -16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2805,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7329.pdf"
-			(at 8.89 -16.51 0)
+			(at 62.738 -22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2814,7 @@
 			)
 		)
 		(property "Description" "8-Channel, software selectable, true bipolar input, 12-Bit plus sign, 1 MSPS SAR ADC, TSSOP-24"
-			(at 0 -2.54 0)
+			(at 68.58 -19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45031,7 +45031,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7328.pdf"
-			(at 4.572 -10.668 0)
+			(at 59.182 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45040,7 +45040,7 @@
 			)
 		)
 		(property "Description" "8-Channel, software selectable, true bipolar input, 12-Bit plus sign, 1 MSPS SAR ADC, TSSOP-20"
-			(at 0 -7.62 0)
+			(at 65.024 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
