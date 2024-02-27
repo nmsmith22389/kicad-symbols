@@ -2576,7 +2576,7 @@
 			(pin power_in line
 				(at -12.7 7.62 0)
 				(length 2.54)
-				(name "REFin/out"
+				(name "REF_{IN/OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2947,7 +2947,7 @@
 			(pin power_in line
 				(at -12.7 7.62 0)
 				(length 2.54)
-				(name "REFin/out"
+				(name "REF_{IN/OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3138,7 +3138,7 @@
 			(pin input line
 				(at -12.7 -7.62 0)
 				(length 2.54)
-				(name "CH5"
+				(name "V_{IN}5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3156,7 +3156,7 @@
 			(pin input line
 				(at -12.7 -12.7 0)
 				(length 2.54)
-				(name "CH7"
+				(name "V_{IN}7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3174,7 +3174,7 @@
 			(pin input line
 				(at -12.7 -10.16 0)
 				(length 2.54)
-				(name "CH6"
+				(name "V_{IN}6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3192,7 +3192,7 @@
 			(pin input line
 				(at -12.7 -2.54 0)
 				(length 2.54)
-				(name "CH3"
+				(name "V_{IN}3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3210,7 +3210,7 @@
 			(pin input line
 				(at -12.7 0 0)
 				(length 2.54)
-				(name "CH2"
+				(name "V_{IN}2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3390,7 +3390,7 @@
 			(pin power_in line
 				(at -12.7 10.16 0)
 				(length 2.54)
-				(name "REFin/out"
+				(name "REF_{IN/OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3426,7 +3426,7 @@
 			(pin input line
 				(at -12.7 5.08 0)
 				(length 2.54)
-				(name "CH0"
+				(name "V_{IN}0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3444,7 +3444,7 @@
 			(pin input line
 				(at -12.7 2.54 0)
 				(length 2.54)
-				(name "CH1"
+				(name "V_{IN}1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3462,7 +3462,7 @@
 			(pin input line
 				(at -12.7 -5.08 0)
 				(length 2.54)
-				(name "CH4"
+				(name "V_{IN}4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3581,7 +3581,7 @@
 			(pin input line
 				(at -12.7 7.62 0)
 				(length 2.54)
-				(name "CH1"
+				(name "V_{IN}1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3599,7 +3599,7 @@
 			(pin input line
 				(at -12.7 0 0)
 				(length 2.54)
-				(name "CH4"
+				(name "V_{IN}4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3617,7 +3617,7 @@
 			(pin input line
 				(at -12.7 -2.54 0)
 				(length 2.54)
-				(name "CH5"
+				(name "V_{IN}5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3635,7 +3635,7 @@
 			(pin input line
 				(at -12.7 -7.62 0)
 				(length 2.54)
-				(name "CH7"
+				(name "V_{IN}7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3653,7 +3653,7 @@
 			(pin input line
 				(at -12.7 -5.08 0)
 				(length 2.54)
-				(name "CH6"
+				(name "V_{IN}6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3671,7 +3671,7 @@
 			(pin input line
 				(at -12.7 2.54 0)
 				(length 2.54)
-				(name "CH3"
+				(name "V_{IN}3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3689,7 +3689,7 @@
 			(pin input line
 				(at -12.7 5.08 0)
 				(length 2.54)
-				(name "CH2"
+				(name "V_{IN}2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3707,7 +3707,7 @@
 			(pin output line
 				(at 12.7 -15.24 180)
 				(length 2.54)
-				(name "MUXout-"
+				(name "MUX_{OUT}-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3725,7 +3725,7 @@
 			(pin power_in line
 				(at -12.7 -15.24 0)
 				(length 2.54)
-				(name "ADCin-"
+				(name "ADC_{IN}-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3905,7 +3905,7 @@
 			(pin power_in line
 				(at -12.7 15.24 0)
 				(length 2.54)
-				(name "REFin/out"
+				(name "REF_{IN/OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3941,7 +3941,7 @@
 			(pin power_in line
 				(at -12.7 -12.7 0)
 				(length 2.54)
-				(name "ADCin+"
+				(name "ADC_{IN}+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3959,7 +3959,7 @@
 			(pin output line
 				(at 12.7 -12.7 180)
 				(length 2.54)
-				(name "MUXout+"
+				(name "MUX_{OUT}+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3977,7 +3977,7 @@
 			(pin input line
 				(at -12.7 10.16 0)
 				(length 2.54)
-				(name "CH0"
+				(name "V_{IN}0"
 					(effects
 						(font
 							(size 1.27 1.27)
