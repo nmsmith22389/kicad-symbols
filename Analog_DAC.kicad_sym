@@ -20211,7 +20211,7 @@
 			)
 		)
 		(property "Footprint" "Plastic_SO:Texas_S-PDSO-G8_3x3mm_P0.65mm"
-			(at 27.686 -11.684 0)
+			(at 26.924 -11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20229,7 +20229,7 @@
 			)
 		)
 		(property "Description" "Digital to analog converter, 16 Bit, 2 ch, ultra-low glitch, 2.7 - 5.5 VDD, S-PDSO-G8"
-			(at 46.228 -9.398 0)
+			(at 46.736 -9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
