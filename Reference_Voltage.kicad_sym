@@ -1090,7 +1090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.048V Voltage Reference, Ultraprecision, Low Noise, SOIC-8"
+		(property "Description" "2.048V Voltage Reference, Ultraprecision, Low Noise, MSOP-8"
 			(at 32.258 -9.652 0)
 			(effects
 				(font
@@ -13499,7 +13499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.5V Voltage Reference, Ultraprecision, Low Noise, SOIC-8"
+		(property "Description" "2.5V Voltage Reference, Ultraprecision, Low Noise, MSOP-8"
 			(at 30.988 -9.652 0)
 			(effects
 				(font
@@ -13627,7 +13627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3V Voltage Reference, Ultraprecision, Low Noise, SOIC-8"
+		(property "Description" "3V Voltage Reference, Ultraprecision, Low Noise, MSOP-8"
 			(at 29.972 -9.652 0)
 			(effects
 				(font
@@ -13755,7 +13755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.096V Voltage Reference, Ultraprecision, Low Noise, SOIC-8"
+		(property "Description" "4.096V Voltage Reference, Ultraprecision, Low Noise, MSOP-8"
 			(at 32.258 -9.652 0)
 			(effects
 				(font
@@ -13883,7 +13883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5V Voltage Reference, Ultraprecision, Low Noise, SOIC-8"
+		(property "Description" "5V Voltage Reference, Ultraprecision, Low Noise, MSOP-8"
 			(at 29.972 -9.652 0)
 			(effects
 				(font
