@@ -20210,8 +20210,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Plastic_SO:Texas_S-PDSO-G8_3x3mm_P0.65mm"
-			(at 26.924 -11.938 0)
+		(property "Footprint" "Package_SO:Texas_S-PDSO-G8_3x3mm_P0.65mm"
+			(at 27.686 -12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20220,7 +20220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac8552.pdf"
-			(at 27.178 -14.224 0)
+			(at 27.178 -14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20228,8 +20228,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital to analog converter, 16 Bit, 2 ch, ultra-low glitch, 2.7 - 5.5 VDD, S-PDSO-G8"
-			(at 46.736 -9.652 0)
+		(property "Description" "Digital to analog converter, 16 Bit, 2 ch, ultra-low glitch, 2.7 - 5.5 VDD, MSOP-8"
+			(at 44.704 -9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
