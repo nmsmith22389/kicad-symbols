@@ -20210,7 +20210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Plastic_SO:Texas_S-PDSO-G8_3x3mm_P0.65mm"
 			(at 27.686 -11.684 0)
 			(effects
 				(font
@@ -20228,7 +20228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital to analog, 16 Bit, 2 ch, ultra-low glitch, 2.7 - 5.5 VDD, S-PDSO-G8, MSOP-8"
+		(property "Description" "Digital to analog converter, 16 Bit, 2 ch, ultra-low glitch, 2.7 - 5.5 VDD, S-PDSO-G8"
 			(at 46.228 -9.398 0)
 			(effects
 				(font
@@ -20246,7 +20246,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*S?PDSO?G8*3x3mm*P0.65* MSOP?8*3x3mm*P0.65*"
+		(property "ki_fp_filters" "*S?PDSO?G8*3x3mm*P0.65*"
 			(at 0 0 0)
 			(effects
 				(font
