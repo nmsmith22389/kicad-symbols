@@ -23187,7 +23187,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -16.51 26.67 0)
+			(at -9.398 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23195,7 +23195,7 @@
 			)
 		)
 		(property "Value" "PCM3060"
-			(at 13.97 26.67 0)
+			(at 8.89 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23249,8 +23249,8 @@
 		)
 		(symbol "PCM3060_0_1"
 			(rectangle
-				(start -17.78 25.4)
-				(end 17.78 -25.4)
+				(start -10.16 25.4)
+				(end 10.16 -25.4)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -23262,7 +23262,7 @@
 		)
 		(symbol "PCM3060_1_1"
 			(pin input line
-				(at -20.32 20.32 0)
+				(at -12.7 20.32 0)
 				(length 2.54)
 				(name "MC/SCL/FMT"
 					(effects
@@ -23280,7 +23280,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 0 0)
+				(at -12.7 -15.24 0)
 				(length 2.54)
 				(name "BCK2"
 					(effects
@@ -23298,7 +23298,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -2.54 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "LRCK2"
 					(effects
@@ -23316,7 +23316,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -7.62 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "DIN"
 					(effects
@@ -23334,7 +23334,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -5.08 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "ZEROR"
 					(effects
@@ -23352,7 +23352,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "ZEROL"
 					(effects
@@ -23370,7 +23370,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -10.16 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "~{RST}"
 					(effects
@@ -23406,7 +23406,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 2.54 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "V_{OUT}R-"
 					(effects
@@ -23424,7 +23424,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 5.08 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "V_{OUT}R+"
 					(effects
@@ -23442,7 +23442,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 10.16 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "V_{OUT}L-"
 					(effects
@@ -23460,7 +23460,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 17.78 0)
+				(at -12.7 17.78 0)
 				(length 2.54)
 				(name "MD/SDA/DEMP"
 					(effects
@@ -23478,7 +23478,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 12.7 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "V_{OUT}L+"
 					(effects
@@ -23496,7 +23496,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -12.7 180)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(name "V_{COM}"
 					(effects
@@ -23568,7 +23568,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -12.7 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "V_{IN}L"
 					(effects
@@ -23586,7 +23586,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -15.24 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "V_{IN}R"
 					(effects
@@ -23604,7 +23604,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -17.78 0)
+				(at -12.7 15.24 0)
 				(length 2.54)
 				(name "~{MS}/AD/IFMD"
 					(effects
@@ -23622,7 +23622,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -20.32 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "MODE"
 					(effects
@@ -23640,7 +23640,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -10.16 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "DOUT"
 					(effects
@@ -23658,7 +23658,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 12.7 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "LRCK1"
 					(effects
@@ -23676,7 +23676,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 10.16 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "BCK1"
 					(effects
@@ -23694,7 +23694,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 7.62 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "SCKI1"
 					(effects
@@ -23748,7 +23748,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 2.54 0)
+				(at -12.7 -17.78 0)
 				(length 2.54)
 				(name "SCKI2"
 					(effects
