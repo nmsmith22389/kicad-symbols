@@ -19218,7 +19218,6 @@
 				(at -2.54 2.54 270)
 				(length 2.54) hide
 				(name "NC"
-				
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19445,24 +19444,6 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 7.62 270)
-				(length 3.81)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -2.54 -7.62 90)
 				(length 3.81)
 				(name "V-"
@@ -19473,6 +19454,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 3.81)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
