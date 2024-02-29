@@ -13644,7 +13644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±65A, 5V Supply, Fixed Gain, SOIC-16W"
+		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±65A, 5V Supply, Fixed Gain, 27 mV/A, SOIC-16W"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -27566,7 +27566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±20A, 3.3V Supply, Fixed Gain, SOIC-16W"
+		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±20A, 3.3V Supply, Fixed Gain, 60 mV/A, SOIC-16W"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -27630,7 +27630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±20A, 5V Supply, Fixed Gain, SOIC-16W"
+		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±20A, 5V Supply, Fixed Gain, 90 mV/A, SOIC-16W"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -27694,7 +27694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±5A, 3.3V Supply, Fixed Gain, SOIC-16W"
+		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±5A, 3.3V Supply, Fixed Gain, 230 mV/A, SOIC-16W"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -27758,7 +27758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±5A, 5V Supply, Fixed Gain, SOIC-16W"
+		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±5A, 5V Supply, Fixed Gain, 350 mV/A, SOIC-16W"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -27822,7 +27822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±50A, 3.3V Supply, Fixed Gain, SOIC-16W"
+		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±50A, 3.3V Supply, Fixed Gain, 25 mV/A, SOIC-16W"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -27886,7 +27886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±50A, 5V Supply, Fixed Gain, SOIC-16W"
+		(property "Description" "High Accuracy Current Sensor IC with 1.5MHz 3dB Bandwidth and Isolation, ±50A, 5V Supply, Fixed Gain, 35 mV/A, SOIC-16W"
 			(at 0 -25.4 0)
 			(effects
 				(font
