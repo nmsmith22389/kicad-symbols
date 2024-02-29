@@ -93384,7 +93384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
+		(property "Footprint" "Package_SON:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
 			(at 3.81 -8.89 0)
 			(effects
 				(font
@@ -151193,7 +151193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
+		(property "Footprint" "Package_SON:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
 			(at 3.81 -8.89 0)
 			(effects
 				(font
@@ -151260,7 +151260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
+		(property "Footprint" "Package_SON:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
 			(at 3.81 -8.89 0)
 			(effects
 				(font
