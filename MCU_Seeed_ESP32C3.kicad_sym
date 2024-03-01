@@ -25,13 +25,12 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "RF_WiFi:MCU_Seeed_ESP32C3_reflow"
+			(at 1.016 -30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -119,7 +118,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 15.24 270)
+				(at 1.27 15.24 270)
 				(length 2.54)
 				(name "3V3"
 					(effects
@@ -137,7 +136,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -21.59 90)
+				(at -2.54 -21.59 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -155,7 +154,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 15.24 270)
+				(at -1.27 15.24 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -165,6 +164,24 @@
 					)
 				)
 				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21.59 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -182,7 +199,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -194,24 +211,6 @@
 				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "BAT-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15.24 -13.97 180)
-				(length 2.54)
-				(name "MTDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -230,24 +229,6 @@
 				(at 15.24 -11.43 180)
 				(length 2.54)
 				(name "MTDO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15.24 -8.89 180)
-				(length 2.54)
-				(name "MTCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,6 +261,42 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 -21.59 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -8.89 180)
+				(length 2.54)
+				(name "MTCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 15.24 -6.35 180)
 				(length 2.54)
@@ -290,7 +307,43 @@
 						)
 					)
 				)
-				(number "20"
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -13.97 180)
+				(length 2.54)
+				(name "MTDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
