@@ -26423,11 +26423,12 @@
 			)
 		)
 		(property "Description" "Single Rail-to-Rail Input/Output Operational Amplifier with Shutdown, 1.5..5.5V supply, 3MHz GBW, 250uV offset voltage, 150mA output current,  SC-70-6"
-			(at 0 0 0)
+			(at 3.302 -9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
