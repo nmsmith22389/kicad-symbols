@@ -13708,7 +13708,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "FOOTPRINT"
+		(property "Footprint" ""
 			(at 0 -49.53 0)
 			(effects
 				(font
