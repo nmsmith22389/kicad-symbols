@@ -2783,7 +2783,7 @@
 				(start -12.7 25.4)
 				(end 12.7 -25.4)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -3676,7 +3676,7 @@
 				(start -12.7 25.4)
 				(end 12.7 -25.4)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
