@@ -3,6 +3,7 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
 	(symbol "Jumper_2_Bridged"
+		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim yes)
@@ -147,6 +148,7 @@
 		)
 	)
 	(symbol "Jumper_2_Open"
+		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim yes)
@@ -963,6 +965,7 @@
 		)
 	)
 	(symbol "SolderJumper_2_Bridged"
+		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim yes)
@@ -1154,6 +1157,7 @@
 		)
 	)
 	(symbol "SolderJumper_2_Open"
+		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim yes)
