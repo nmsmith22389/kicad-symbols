@@ -13182,7 +13182,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*PowerDI3333*UXC*3.3x3.3mm*P0.65mm*"
+		(property "ki_fp_filters" "*PowerDI3333?6?UXC*3.3x3.3mm*P0.65mm*"
 			(at 0 0 0)
 			(effects
 				(font
