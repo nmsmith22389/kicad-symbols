@@ -5,8 +5,8 @@
 	(symbol "Jumper_2_Bridged"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 1.905 0)
@@ -149,8 +149,8 @@
 	(symbol "Jumper_2_Open"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 2.794 0)
@@ -294,8 +294,8 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 2.794 0)
@@ -439,8 +439,8 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 2.794 0)
@@ -583,8 +583,8 @@
 	(symbol "Jumper_3_Bridged12"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at -2.54 -2.54 0)
@@ -768,8 +768,8 @@
 	(symbol "Jumper_3_Open"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at -2.54 -2.54 0)
@@ -965,8 +965,8 @@
 	(symbol "SolderJumper_2_Bridged"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 2.032 0)
@@ -1156,8 +1156,8 @@
 	(symbol "SolderJumper_2_Open"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 2.032 0)
