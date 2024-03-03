@@ -300,7 +300,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
-			(at 0 2.794 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
