@@ -6,7 +6,7 @@
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 1.905 0)
@@ -150,7 +150,7 @@
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 2.794 0)
@@ -295,7 +295,7 @@
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 2.794 0)
@@ -440,7 +440,7 @@
 		(pin_names
 			(offset 0) hide)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
 			(at 0 2.794 0)
