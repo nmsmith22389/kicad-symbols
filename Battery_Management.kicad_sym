@@ -31252,7 +31252,7 @@
 		)
 		(symbol "SLM6800_0_0"
 			(pin open_collector line
-				(at 12.7 -16.51 180)
+				(at 12.7 -17.78 180)
 				(length 2.54)
 				(name "~{CHRG}"
 					(effects
@@ -31270,7 +31270,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 12.7 -20.32 180)
+				(at 12.7 -21.59 180)
 				(length 2.54)
 				(name "~{STBY}"
 					(effects
@@ -31287,28 +31287,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 12.7 -12.7 180)
-				(length 2.54)
-				(name "BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "SLM6800_1_0"
 			(pin input line
-				(at 12.7 -8.89 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "NTC"
 					(effects
@@ -31452,7 +31434,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 2.54 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "BST"
 					(effects
@@ -31488,7 +31470,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "LX"
 					(effects
@@ -31506,7 +31488,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54) hide
 				(name "LX"
 					(effects
@@ -31524,7 +31506,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -5.08 180)
+				(at 12.7 -6.35 180)
 				(length 2.54)
 				(name "VSYS"
 					(effects
@@ -31542,7 +31524,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -5.08 180)
+				(at 12.7 -6.35 180)
 				(length 2.54) hide
 				(name "VSYS"
 					(effects
@@ -31552,6 +31534,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 -13.97 180)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
