@@ -31222,7 +31222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A, 2-Cell 8.4V switch-mode Li-Ion Charger IC, standalone, 5Vin, 750kHz, HTSSOP-20"
+		(property "Description" "1.5A, 2-Cell 8.4V, standalone switch-mode Li-Ion Charger, 5Vin, 750kHz, QFN-16"
 			(at 22.606 -36.576 0)
 			(effects
 				(font
