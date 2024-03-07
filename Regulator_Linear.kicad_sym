@@ -131762,7 +131762,7 @@
 		)
 	)
 	(symbol "TLV76150DCY"
-		(extends "LT1963AxST-1.5")
+		(extends "AP1117-15")
 		(property "Reference" "U"
 			(at -7.62 6.35 0)
 			(effects
@@ -131808,7 +131808,73 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "LDO voltage regulator fixed"
+		(property "ki_keywords" "voltage fixed low-dropout"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT*223*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "TLV76133DCY"
+		(extends "AP1117-15")
+		(property "Reference" "U"
+			(at -7.62 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV76133DCY"
+			(at -1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv761.pdf"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V, 1A, Low Noise, High-PSRR LDO Regulator, 2.5V...16V input, SOT-223"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "voltage fixed low-dropout"
 			(at 0 0 0)
 			(effects
 				(font
