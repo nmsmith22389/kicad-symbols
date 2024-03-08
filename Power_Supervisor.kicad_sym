@@ -5862,7 +5862,7 @@
 			)
 		)
 	)
-	(symbol "TPS3430WDRCR"
+	(symbol "TPS3430WDRC"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5874,7 +5874,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS3430WDRCR"
+		(property "Value" "TPS3430WDRC"
 			(at 11.176 -13.462 0)
 			(effects
 				(font
@@ -5927,7 +5927,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS3430WDRCR_0_1"
+		(symbol "TPS3430WDRC_0_1"
 			(rectangle
 				(start -7.62 10.16)
 				(end 7.62 -10.16)
@@ -5940,7 +5940,7 @@
 				)
 			)
 		)
-		(symbol "TPS3430WDRCR_1_0"
+		(symbol "TPS3430WDRC_1_0"
 			(pin power_in line
 				(at 2.54 12.7 270)
 				(length 2.54)
@@ -5978,7 +5978,7 @@
 				)
 			)
 		)
-		(symbol "TPS3430WDRCR_1_1"
+		(symbol "TPS3430WDRC_1_1"
 			(pin power_in line
 				(at 0 12.7 270)
 				(length 2.54)
