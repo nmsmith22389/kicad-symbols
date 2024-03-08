@@ -5867,7 +5867,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 15.24 0)
+			(at 4.064 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,15 +5875,15 @@
 			)
 		)
 		(property "Value" "TPS3430WDRCR"
-			(at 0 12.7 0)
+			(at 11.176 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
-			(at 3.81 -11.43 0)
+		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm"
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +5892,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/TPS3430"
-			(at 0 -13.97 0)
+			(at 0 -20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +5901,7 @@
 			)
 		)
 		(property "Description" "Window watchdog timer with programmable reset delay"
-			(at 0 0 0)
+			(at -0.508 -15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +5918,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*VSON-10*3x3mm*P0.5mm*"
+		(property "ki_fp_filters" "*VSON*1EP*3x3mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5942,7 +5942,7 @@
 		)
 		(symbol "TPS3430WDRCR_1_0"
 			(pin power_in line
-				(at 10.16 5.08 180)
+				(at 2.54 12.7 270)
 				(length 2.54)
 				(name "VDD2"
 					(effects
@@ -5959,10 +5959,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 10.16 -7.62 180)
-				(length 2.54)
-				(name "TP"
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 2.54) hide
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5980,7 +5980,7 @@
 		)
 		(symbol "TPS3430WDRCR_1_1"
 			(pin power_in line
-				(at 10.16 7.62 180)
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "VDD1"
 					(effects
@@ -6052,7 +6052,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -5.08 180)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
