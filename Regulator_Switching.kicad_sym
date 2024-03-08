@@ -74806,7 +74806,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 22.86 0)
+			(at -7.62 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74814,7 +74814,7 @@
 			)
 		)
 		(property "Value" "SIC437"
-			(at -7.62 20.32 0)
+			(at 5.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
