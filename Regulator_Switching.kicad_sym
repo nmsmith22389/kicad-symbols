@@ -74822,29 +74822,32 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Vishay_PowerPAK_MLP44-24L_ThermalVias"
+			(at 5.08 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/75921/sic437.pdf"
 			(at 5.08 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/75921/sic437.pdf"
-			(at 5.08 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "12A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3-28V input, 0.6-0.9Vin V Output Voltage < 20V, -40°C to +125°C"
-			(at 0 0 0)
+			(at 5.08 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -74937,7 +74940,7 @@
 			(pin power_out line
 				(at 12.7 -12.7 180)
 				(length 3.81)
-				(name "VDRV"
+				(name "V_{DRV}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -74955,7 +74958,7 @@
 			(pin passive line
 				(at 2.54 -22.86 90)
 				(length 3.81) hide
-				(name "PGND"
+				(name "P_{GND}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -74973,7 +74976,7 @@
 			(pin open_collector line
 				(at -12.7 10.16 0)
 				(length 3.81)
-				(name "PGOOD"
+				(name "P_{GOOD}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -74991,7 +74994,7 @@
 			(pin power_out line
 				(at -12.7 2.54 0)
 				(length 3.81)
-				(name "V_DD"
+				(name "V_{DD}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75009,7 +75012,7 @@
 			(pin power_in line
 				(at 0 -22.86 90)
 				(length 3.81)
-				(name "AGND"
+				(name "A_{GND}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75045,7 +75048,7 @@
 			(pin input line
 				(at 12.7 -7.62 180)
 				(length 3.81)
-				(name "V_OUT"
+				(name "V_{OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75135,7 +75138,7 @@
 			(pin passive line
 				(at 0 22.86 270)
 				(length 3.81) hide
-				(name "VIN"
+				(name "V_{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75189,7 +75192,7 @@
 			(pin passive line
 				(at 0 -22.86 90)
 				(length 3.81) hide
-				(name "AGND"
+				(name "A_{GND}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75207,7 +75210,7 @@
 			(pin passive line
 				(at 0 22.86 270)
 				(length 3.81) hide
-				(name "VIN"
+				(name "V_{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75225,7 +75228,7 @@
 			(pin passive line
 				(at 2.54 -22.86 90)
 				(length 3.81) hide
-				(name "PGND"
+				(name "P_{GND}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75261,7 +75264,7 @@
 			(pin power_in line
 				(at 2.54 -22.86 90)
 				(length 3.81)
-				(name "PGND"
+				(name "P_{GND}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75279,7 +75282,7 @@
 			(pin passive line
 				(at 2.54 -22.86 90)
 				(length 3.81) hide
-				(name "PGND"
+				(name "P_{GND}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75383,135 +75386,6 @@
 						)
 					)
 				)
-			)
-		)
-	)
-
-	(symbol "SIC431"
-		(extends "SIC437")
-		(property "Reference" "U"
-			(at -10.16 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIC431"
-			(at -10.16 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Vishay_PowerPAK_MLP44-24L_ThermalVias"
-			(at 6.35 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/74589/sic431.pdf"
-			(at 1.27 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "24A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3-24V input, 0.6-0.9Vin V Output Voltage, -40°C to +125°C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "Step-Down Buck Voltage Regulator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Vishay?PowerPAK?MLP44?24L*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol "SIC438"
-		(extends "SIC437")
-		(property "Reference" "U"
-			(at -10.16 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIC438"
-			(at -10.16 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Vishay_PowerPAK_MLP44-24L_ThermalVias"
-			(at 6.35 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/75921/sic437.pdf"
-			(at 1.27 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3-28V input, 0.6-0.9Vin V Output Voltage < 20V, -40°C to +125°C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "Step-Down Buck Voltage Regulator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Vishay?PowerPAK?MLP44?24L*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 	)
@@ -134942,6 +134816,134 @@
 			)
 		)
 		(property "ki_fp_filters" "DIP*W7.62mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "SIC431"
+		(extends "SIC437")
+		(property "Reference" "U"
+			(at -10.16 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SIC431"
+			(at -10.16 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Vishay_PowerPAK_MLP44-24L_ThermalVias"
+			(at 6.35 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/74589/sic431.pdf"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3-24V input, 0.6-0.9Vin V Output Voltage, -40°C to +125°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Step-Down Buck Voltage Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Vishay?PowerPAK?MLP44?24L*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "SIC438"
+		(extends "SIC437")
+		(property "Reference" "U"
+			(at -10.16 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SIC438"
+			(at -10.16 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Vishay_PowerPAK_MLP44-24L_ThermalVias"
+			(at 6.35 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/75921/sic437.pdf"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3-28V input, 0.6-0.9Vin V Output Voltage < 20V, -40°C to +125°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Step-Down Buck Voltage Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Vishay?PowerPAK?MLP44?24L*"
 			(at 0 0 0)
 			(effects
 				(font
