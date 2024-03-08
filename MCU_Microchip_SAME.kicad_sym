@@ -4864,7 +4864,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 2.54 55.88 270)
 				(length 5.08)
 				(name "VDDOUT"
@@ -6295,7 +6295,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 0 78.74 270)
 				(length 5.08)
 				(name "VDDOUT"
@@ -7552,8 +7552,8 @@
 		)
 		(symbol "ATSAME70Q21A-AN_0_1"
 			(rectangle
-				(start 25.4 86.36)
-				(end -25.4 -86.36)
+				(start -25.4 86.36)
+				(end 25.4 -86.36)
 				(stroke
 					(width 0)
 					(type default)
@@ -8781,7 +8781,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 0 91.44 270)
 				(length 5.08)
 				(name "VDDOUT"
