@@ -74841,7 +74841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3-28V input, 0.6-0.9Vin V Output Voltage < 20V, -40°C to +125°C"
+		(property "Description" "12A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3..24Vin, 0.6..21.6Vout"
 			(at 5.08 -30.48 0)
 			(effects
 				(font
@@ -74851,7 +74851,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Step-Down Buck Voltage Regulator"
+		(property "ki_keywords" "Buck Vishay Siliconix voltage-regulator"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134861,7 +134861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "24A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3-24V input, 0.6-0.9Vin V Output Voltage, -40°C to +125°C"
+		(property "Description" "24A Step-Down DC/DC-Regulator, 300kHz-1MHz, 12A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3..24Vin, 0.6..21.6Vout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134870,7 +134870,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Step-Down Buck Voltage Regulator"
+		(property "ki_keywords" "Buck Vishay Siliconix voltage-regulator"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134925,7 +134925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3-28V input, 0.6-0.9Vin V Output Voltage < 20V, -40°C to +125°C"
+		(property "Description" "8A Step-Down DC/DC-Regulator, 300kHz-1MHz, 12A Step-Down DC/DC-Regulator, 300kHz-1MHz, 3..24Vin, 0.6..21.6Vout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134934,7 +134934,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Step-Down Buck Voltage Regulator"
+		(property "ki_keywords" "Buck Vishay Siliconix voltage-regulator"
 			(at 0 0 0)
 			(effects
 				(font
