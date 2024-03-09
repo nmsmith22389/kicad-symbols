@@ -55599,7 +55599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Analog Switch, beyond-the-Rails 8xSPST, TQFP-28"
+		(property "Description" "Analog Switch, beyond-the-Rails 8xSPST, I²C/SPI interface, 1.6..5.5V supply, 0.425Ohm Ron, TQFN-28"
 			(at 0 0 0)
 			(effects
 				(font
