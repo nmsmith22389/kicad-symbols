@@ -24811,7 +24811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-stage shift-and-store register"
+		(property "Description" "8-stage shift-and-store register, 3..15V"
 			(at 0.254 -28.448 0)
 			(effects
 				(font
@@ -24820,7 +24820,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "shift store register 8-bit"
+		(property "ki_keywords" "nexperia cmos"
 			(at 0 0 0)
 			(effects
 				(font
