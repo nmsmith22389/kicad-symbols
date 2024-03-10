@@ -3,14 +3,11 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
 	(symbol "Seeed-ESP32C3"
-		(pin_names
-			(offset 1.27)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +15,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "RF_WiFi:MCU_Seeed_ESP32C3_reflow"
-			(at 1.016 -30.988 0)
+			(at 1.016 -27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +31,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +40,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,10 +50,10 @@
 		)
 		(symbol "Seeed-ESP32C3_1_1"
 			(rectangle
-				(start -12.7 12.7)
-				(end 12.7 -19.05)
+				(start -12.7 15.24)
+				(end 12.7 -15.24)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -64,7 +61,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 8.89 0)
+				(at -15.24 12.7 0)
 				(length 2.54)
 				(name "D0"
 					(effects
@@ -82,7 +79,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -13.97 0)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "D9"
 					(effects
@@ -100,7 +97,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -16.51 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "D10"
 					(effects
@@ -118,7 +115,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 15.24 270)
+				(at 2.54 17.78 270)
 				(length 2.54)
 				(name "3V3"
 					(effects
@@ -135,8 +132,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -21.59 90)
+			(pin power_in line
+				(at -2.54 -17.78 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -154,7 +151,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 15.24 270)
+				(at -2.54 17.78 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -171,8 +168,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -21.59 90)
+			(pin power_in line
+				(at 0 -17.78 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -190,7 +187,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 5.08 180)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "BAT+"
 					(effects
@@ -208,7 +205,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 7.62 180)
+				(at 15.24 10.16 180)
 				(length 2.54)
 				(name "BAT-"
 					(effects
@@ -225,8 +222,26 @@
 					)
 				)
 			)
+			(pin input line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "MTDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at 15.24 -11.43 180)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "MTDO"
 					(effects
@@ -244,7 +259,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 6.35 0)
+				(at -15.24 10.16 0)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -261,8 +276,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 -21.59 90)
+			(pin power_in line
+				(at 2.54 -17.78 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -280,7 +295,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -8.89 180)
+				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "MTCK"
 					(effects
@@ -298,7 +313,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -6.35 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "MTMS"
 					(effects
@@ -316,7 +331,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 0 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -333,26 +348,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -13.97 180)
-				(length 2.54)
-				(name "MTDI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at -15.24 3.81 0)
+				(at -15.24 7.62 0)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -370,7 +367,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 1.27 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -388,7 +385,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -1.27 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "D4"
 					(effects
@@ -406,7 +403,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -3.81 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "D5"
 					(effects
@@ -424,7 +421,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -6.35 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "D6"
 					(effects
@@ -442,7 +439,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -8.89 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "D7"
 					(effects
@@ -460,7 +457,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -11.43 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "D8"
 					(effects
