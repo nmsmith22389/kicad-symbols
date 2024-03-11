@@ -18912,7 +18912,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070AAUT18/V+T"
+	(symbol "MAX6070AAUT18V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -18923,7 +18923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070AAUT18/V+T"
+		(property "Value" "MAX6070AAUT18V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -18963,7 +18963,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.8V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.8V AEC-Q100 MAX6070AAUT18/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19262,7 +19262,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070AAUT33/V+T"
+	(symbol "MAX6070AAUT33V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -19273,7 +19273,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070AAUT33/V+T"
+		(property "Value" "MAX6070AAUT33V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -19313,7 +19313,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V AEC-Q100 MAX6070AAUT33/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19472,7 +19472,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070AAUT50/V+T"
+	(symbol "MAX6070AAUT50V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -19483,7 +19483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070AAUT50/V+T"
+		(property "Value" "MAX6070AAUT50V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -19523,7 +19523,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V AEC-Q100 MAX6070AAUT50/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19612,7 +19612,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070BAUT12/V+T"
+	(symbol "MAX6070BAUT12V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -19623,7 +19623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070BAUT12/V+T"
+		(property "Value" "MAX6070BAUT12V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -19663,7 +19663,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V AEC-Q100 MAX6070BAUT12/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19822,7 +19822,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070BAUT21/V+T"
+	(symbol "MAX6070BAUT21V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -19833,7 +19833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070BAUT21/V+T"
+		(property "Value" "MAX6070BAUT21V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -19873,7 +19873,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.048V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.048V AEC-Q100 MAX6070BAUT21/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19962,7 +19962,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070BAUT25/V+T"
+	(symbol "MAX6070BAUT25V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -19973,7 +19973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070BAUT25/V+T"
+		(property "Value" "MAX6070BAUT25V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -20013,7 +20013,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V AEC-Q100 MAX6070BAUT25/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20172,7 +20172,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070BAUT33/V+T"
+	(symbol "MAX6070BAUT33V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -20183,7 +20183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070BAUT33/V+T"
+		(property "Value" "MAX6070BAUT33V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -20223,7 +20223,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V AEC-Q100 MAX6070BAUT33/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20312,7 +20312,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070BAUT41/V+T"
+	(symbol "MAX6070BAUT41V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -20323,7 +20323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070BAUT41/V+T"
+		(property "Value" "MAX6070BAUT41V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -20363,7 +20363,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V AEC-Q100 MAX6070BAUT41/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20452,7 +20452,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070BAUT50/V+T"
+	(symbol "MAX6070BAUT50V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -20463,7 +20463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070BAUT50/V+T"
+		(property "Value" "MAX6070BAUT50V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -20503,7 +20503,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V AEC-Q100 MAX6070BAUT50/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20522,7 +20522,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070DAUT12/V+T"
+	(symbol "MAX6070DAUT12V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -20533,7 +20533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070DAUT12/V+T"
+		(property "Value" "MAX6070DAUT12V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -20573,7 +20573,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V AEC-Q100 MAX6070DAUT12/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20592,7 +20592,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070DAUT25/V+T"
+	(symbol "MAX6070DAUT25V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -20603,7 +20603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070DAUT25/V+T"
+		(property "Value" "MAX6070DAUT25V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -20643,7 +20643,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V AEC-Q100 MAX6070DAUT25/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20662,7 +20662,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070DAUT30/V+T"
+	(symbol "MAX6070DAUT30V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -20673,7 +20673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070DAUT30/V+T"
+		(property "Value" "MAX6070DAUT30V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -20713,7 +20713,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V AEC-Q100 MAX6070DAUT30/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20732,7 +20732,7 @@
 			)
 		)
 	)
-	(symbol "MAX6070DAUT41/V+T"
+	(symbol "MAX6070DAUT41V+T"
 		(extends "MAX6070AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -20743,7 +20743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6070DAUT41/V+T"
+		(property "Value" "MAX6070DAUT41V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -20783,7 +20783,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V AEC-Q100 MAX6070DAUT41/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21082,7 +21082,7 @@
 			)
 		)
 	)
-	(symbol "MAX6071AAUT30/V+T"
+	(symbol "MAX6071AAUT30V+T"
 		(extends "MAX6071AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -21093,7 +21093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6071AAUT30/V+T"
+		(property "Value" "MAX6071AAUT30V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -21133,7 +21133,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V AEC-Q100 MAX6071AAUT30/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21642,7 +21642,7 @@
 			)
 		)
 	)
-	(symbol "MAX6071BAUT25/V+T"
+	(symbol "MAX6071BAUT25V+T"
 		(extends "MAX6071AAUT12+T")
 		(property "Reference" "U"
 			(at 1.27 8.89 0)
@@ -21653,7 +21653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6071BAUT25/V+T"
+		(property "Value" "MAX6071BAUT25V+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
@@ -21693,7 +21693,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V AEC-Q100"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V AEC-Q100 MAX6071BAUT25/V+T"
 			(at 0 0 0)
 			(effects
 				(font
