@@ -21723,7 +21723,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX6071BAUT30+T "
+		(property "Value" "MAX6071BAUT30+T"
 			(at 1.27 6.35 0)
 			(effects
 				(font
