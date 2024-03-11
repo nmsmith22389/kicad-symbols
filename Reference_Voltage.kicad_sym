@@ -5555,7 +5555,7 @@
 		)
 		(symbol "MAX6070AAUT12+T_1_1"
 			(pin passive line
-				(at -10.16 -1.27 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "FILTER"
 					(effects
@@ -5591,7 +5591,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -5627,7 +5627,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -1.27 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "OUTS"
 					(effects
@@ -5645,7 +5645,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "OUTF"
 					(effects
@@ -5750,7 +5750,7 @@
 		)
 		(symbol "MAX6071AAUT12+T_1_1"
 			(pin power_in line
-				(at -1.27 -7.62 90)
+				(at -2.54 -7.62 90)
 				(length 2.54)
 				(name "GNDF"
 					(effects
@@ -5768,7 +5768,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -7.62 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GNDS"
 					(effects
@@ -5786,7 +5786,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -5822,7 +5822,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -1.27 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "OUTS"
 					(effects
@@ -5840,7 +5840,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "OUTF"
 					(effects
