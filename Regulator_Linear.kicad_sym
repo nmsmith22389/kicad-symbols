@@ -55730,7 +55730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps7a7200.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a47.pdf"
 			(at 0 24.13 0)
 			(effects
 				(font
