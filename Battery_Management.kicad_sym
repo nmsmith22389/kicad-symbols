@@ -31252,7 +31252,7 @@
 		)
 		(symbol "SLM6800_0_0"
 			(pin open_collector line
-				(at 10.16 -10.16 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "~{CHRG}"
 					(effects
@@ -31270,7 +31270,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 10.16 -12.7 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "~{STBY}"
 					(effects
@@ -31290,7 +31290,7 @@
 		)
 		(symbol "SLM6800_1_0"
 			(pin input line
-				(at 10.16 -2.54 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "NTC"
 					(effects
@@ -31506,7 +31506,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 2.54 180)
+				(at 10.16 -12.7 180)
 				(length 2.54)
 				(name "VSYS"
 					(effects
@@ -31524,7 +31524,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 2.54 180)
+				(at 10.16 -12.7 180)
 				(length 2.54) hide
 				(name "VSYS"
 					(effects
@@ -31542,7 +31542,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 -5.08 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "BAT"
 					(effects
