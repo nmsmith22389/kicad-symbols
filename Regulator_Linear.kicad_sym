@@ -30212,7 +30212,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.89 6.604 0)
+			(at -4.064 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30238,7 +30238,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf"
-			(at -43.688 19.558 0)
+			(at 0.762 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30247,7 +30247,7 @@
 			)
 		)
 		(property "Description" "Adjustable 1.1A Single Resistor Low Dropout Regulator, TO-220"
-			(at 0 0 0)
+			(at 0.762 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30275,8 +30275,8 @@
 		)
 		(symbol "LT3080xT_0_1"
 			(rectangle
-				(start -10.16 5.08)
-				(end 10.16 -5.08)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -30288,7 +30288,7 @@
 		)
 		(symbol "LT3080xT_1_1"
 			(pin no_connect line
-				(at 10.16 -2.54 180)
+				(at 5.08 -2.54 180)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -30306,7 +30306,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "SET"
 					(effects
@@ -30324,7 +30324,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 2.54 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -30342,9 +30342,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 0 0)
+				(at -7.62 0 0)
 				(length 2.54)
-				(name "VCONTROL"
+				(name "V_{CONTROL}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30360,7 +30360,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 2.54 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -30377,9 +30377,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 0 180)
-				(length 2.54)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54) hide
 				(name "OUT"
 					(effects
 						(font
