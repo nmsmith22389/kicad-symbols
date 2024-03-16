@@ -27411,7 +27411,7 @@
 				(start -7.62 5.08)
 				(end 7.62 -5.08)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -27582,7 +27582,7 @@
 				(start -7.62 5.08)
 				(end 7.62 -5.08)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
