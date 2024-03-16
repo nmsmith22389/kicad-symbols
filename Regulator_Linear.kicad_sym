@@ -27285,6 +27285,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "DFN*1EP*3x3mm*P0.45mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "LT3014xDD_0_0"
 			(pin power_out line
 				(at 10.16 2.54 180)
@@ -27459,6 +27468,15 @@
 			)
 		)
 		(property "ki_keywords" "analog analog-devices linear linear-technology linear LDO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
 			(at 0 0 0)
 			(effects
 				(font
