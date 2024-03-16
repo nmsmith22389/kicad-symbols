@@ -24159,9 +24159,6 @@
 		)
 	)
 	(symbol "LT1761-5"
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -24334,9 +24331,6 @@
 		)
 	)
 	(symbol "LT1761-BYP"
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -24509,9 +24503,6 @@
 		)
 	)
 	(symbol "LT1761-SD"
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
