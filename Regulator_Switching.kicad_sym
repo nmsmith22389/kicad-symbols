@@ -123475,7 +123475,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX1522"
+		(property "Value" "MAX1523"
 			(at 2.54 6.35 0)
 			(effects
 				(font
@@ -123539,7 +123539,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX1522"
+		(property "Value" "MAX1524"
 			(at 2.54 6.35 0)
 			(effects
 				(font
