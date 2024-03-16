@@ -27285,7 +27285,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DFN*1EP*3x3mm*P0.45mm*"
+		(property "ki_fp_filters" "DFN*1EP*3x3mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
