@@ -29380,7 +29380,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.89 9.144 0)
+			(at -5.08 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29406,7 +29406,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf"
-			(at -43.688 19.558 0)
+			(at 0.254 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29415,7 +29415,7 @@
 			)
 		)
 		(property "Description" "Adjustable 1.1A Single Resistor Low Dropout Regulator, DFN-8"
-			(at 0 0 0)
+			(at 0.254 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29443,8 +29443,8 @@
 		)
 		(symbol "LT3080xDD_0_1"
 			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -7.62)
+				(start -5.08 7.62)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -29456,7 +29456,7 @@
 		)
 		(symbol "LT3080xDD_1_1"
 			(pin power_out line
-				(at 12.7 5.08 180)
+				(at 7.62 5.08 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -29474,7 +29474,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 5.08 180)
+				(at 7.62 5.08 180)
 				(length 2.54) hide
 				(name "OUT"
 					(effects
@@ -29492,7 +29492,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 5.08 180)
+				(at 7.62 5.08 180)
 				(length 2.54) hide
 				(name "OUT"
 					(effects
@@ -29510,7 +29510,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "SET"
 					(effects
@@ -29528,9 +29528,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at -7.62 0 0)
 				(length 2.54)
-				(name "VCONTROL"
+				(name "V_{CONTROL}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -29546,7 +29546,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 0 0)
+				(at -5.08 2.54 0)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -29564,7 +29564,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 5.08 0)
+				(at -7.62 5.08 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -29582,7 +29582,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 5.08 0)
+				(at -7.62 5.08 0)
 				(length 2.54) hide
 				(name "IN"
 					(effects
@@ -29600,7 +29600,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 180)
+				(at 7.62 5.08 180)
 				(length 2.54) hide
 				(name "OUT"
 					(effects
@@ -29624,7 +29624,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.89 9.144 0)
+			(at -6.35 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29650,7 +29650,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf"
-			(at -43.688 19.558 0)
+			(at -0.254 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29659,7 +29659,7 @@
 			)
 		)
 		(property "Description" "Adjustable 1.1A Single Resistor Low Dropout Regulator, MSOP-8"
-			(at 0 0 0)
+			(at 1.016 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29687,8 +29687,8 @@
 		)
 		(symbol "LT3080xMS8E_0_1"
 			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -7.62)
+				(start -5.08 7.62)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -29700,7 +29700,7 @@
 		)
 		(symbol "LT3080xMS8E_1_1"
 			(pin power_out line
-				(at 12.7 5.08 180)
+				(at 7.62 5.08 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -29717,9 +29717,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 2.54 180)
-				(length 2.54)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54) hide
 				(name "OUT"
 					(effects
 						(font
@@ -29735,9 +29735,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 0 180)
-				(length 2.54)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54) hide
 				(name "OUT"
 					(effects
 						(font
@@ -29754,7 +29754,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "SET"
 					(effects
@@ -29772,9 +29772,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at -7.62 0 0)
 				(length 2.54)
-				(name "VCONTROL"
+				(name "V_{CONTROL}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -29790,7 +29790,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 0 0)
+				(at -5.08 2.54 0)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -29808,7 +29808,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 2.54 0)
+				(at -7.62 5.08 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -29825,9 +29825,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -12.7 5.08 0)
-				(length 2.54)
+			(pin passive line
+				(at -7.62 5.08 0)
+				(length 2.54) hide
 				(name "IN"
 					(effects
 						(font
@@ -29843,9 +29843,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 -2.54 180)
-				(length 2.54)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54) hide
 				(name "OUT"
 					(effects
 						(font
