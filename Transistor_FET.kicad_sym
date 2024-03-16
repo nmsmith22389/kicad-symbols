@@ -34462,7 +34462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FDS6890A"
+		(property "Value" "AO4892"
 			(at 5.08 0 0)
 			(effects
 				(font
