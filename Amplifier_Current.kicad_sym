@@ -14742,7 +14742,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "INA281A2"
+		(property "Value" "INA281A3"
 			(at -7.62 8.89 0)
 			(effects
 				(font
