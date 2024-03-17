@@ -2642,7 +2642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "36 V, 18 MHz, Low Noise, Fast Settling Single Supply, RRO, JFET Op Amp"
+		(property "Description" "Single 5V..36V/±2.5V..±18V supply, 18 MHz, 48V/µs slew rate, ±80 µV offset, RRO, Fast-settling single JFET Op Amp, SOIC-8-1EP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2651,7 +2651,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "single opamp"
+		(property "ki_keywords" "analog-devices adi operational amplifier"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33607,7 +33607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "36 V, 18 MHz, Low Noise, Fast Settling Single Supply, RRO, JFET Op Amp"
+		(property "Description" "Dual 5V..36V/±2.5V..±18V supply, 18 MHz, 48V/µs slew rate, ±80 µV offset, RRO, Fast-settling JFET Op Amp, SOIC-8-1EP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33616,7 +33616,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "opamp dual"
+		(property "ki_keywords" "analog-devices adi operational amplifier"
 			(at 0 0 0)
 			(effects
 				(font
