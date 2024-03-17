@@ -5513,7 +5513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.25V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5522,7 +5522,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5708,7 +5708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.25V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5717,7 +5717,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18884,7 +18884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.8V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18893,7 +18893,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.8V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18954,7 +18954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.8V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18963,7 +18963,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.8V AEC-Q100 MAX6070AAUT18/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070AAUT18/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19024,7 +19024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.048V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19033,7 +19033,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.048V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19094,7 +19094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.5V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19103,7 +19103,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19164,7 +19164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19173,7 +19173,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19234,7 +19234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3.3V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19243,7 +19243,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19304,7 +19304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3.3V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19313,7 +19313,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V AEC-Q100 MAX6070AAUT33/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070AAUT33/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19374,7 +19374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 4.096V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19383,7 +19383,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19444,7 +19444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 5V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19453,7 +19453,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19514,7 +19514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 5V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19523,7 +19523,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V AEC-Q100 MAX6070AAUT50/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070AAUT50/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19584,7 +19584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.25V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19593,7 +19593,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19654,7 +19654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.25V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19663,7 +19663,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V AEC-Q100 MAX6070BAUT12/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070BAUT12/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19724,7 +19724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.8V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19733,7 +19733,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.8V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19794,7 +19794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.048V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19803,7 +19803,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.048V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19864,7 +19864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.048V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19873,7 +19873,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.048V AEC-Q100 MAX6070BAUT21/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070BAUT21/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19934,7 +19934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.5V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19943,7 +19943,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20004,7 +20004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.5V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20013,7 +20013,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V AEC-Q100 MAX6070BAUT25/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070BAUT25/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20074,7 +20074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20083,7 +20083,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20144,7 +20144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3.3V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20153,7 +20153,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20214,7 +20214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3.3V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20223,7 +20223,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V AEC-Q100 MAX6070BAUT33/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070BAUT33/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20284,7 +20284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 4.096V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20293,7 +20293,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20354,7 +20354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 4.096V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20363,7 +20363,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V AEC-Q100 MAX6070BAUT41/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070BAUT41/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20424,7 +20424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 5V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20433,7 +20433,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20494,7 +20494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 5V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20503,7 +20503,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V AEC-Q100 MAX6070BAUT50/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070BAUT50/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20564,7 +20564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.2% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.25V, ±0.2% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20573,7 +20573,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V AEC-Q100 MAX6070DAUT12/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070DAUT12/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20634,7 +20634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.2% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.5V, ±0.2% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20643,7 +20643,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V AEC-Q100 MAX6070DAUT25/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070DAUT25/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20704,7 +20704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.2% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3V, ±0.2% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20713,7 +20713,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V AEC-Q100 MAX6070DAUT30/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070DAUT30/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20774,7 +20774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.2% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 4.096V, ±0.2% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20783,7 +20783,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V AEC-Q100 MAX6070DAUT41/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070DAUT41/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20844,7 +20844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.8V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20853,7 +20853,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.8V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20914,7 +20914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.048V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20923,7 +20923,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.048V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20984,7 +20984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.5V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20993,7 +20993,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21054,7 +21054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21063,7 +21063,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21124,7 +21124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21133,7 +21133,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V AEC-Q100 MAX6071AAUT30/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6071AAUT30/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21194,7 +21194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3.3V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21203,7 +21203,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21264,7 +21264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 4.096V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21273,7 +21273,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21334,7 +21334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.04% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 5V, ±0.04% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21343,7 +21343,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21404,7 +21404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.25V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21413,7 +21413,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.25V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21474,7 +21474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.8V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21483,7 +21483,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 1.8V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21544,7 +21544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.048V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21553,7 +21553,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.048V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21614,7 +21614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.5V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21623,7 +21623,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21684,7 +21684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 2.5V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21693,7 +21693,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 2.5V AEC-Q100 MAX6071BAUT25/V+T"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6071BAUT25/V+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21754,7 +21754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21763,7 +21763,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21824,7 +21824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 3.3V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21833,7 +21833,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 3.3V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21894,7 +21894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 4.096V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21903,7 +21903,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 4.096V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21964,7 +21964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, ±0.08% initial accuracy, SOT-23-6"
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 5V, ±0.08% initial accuracy, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21973,7 +21973,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Low Noise Precision Voltage Reference 5V"
+		(property "ki_keywords" "Low Noise Precision Voltage Reference"
 			(at 0 0 0)
 			(effects
 				(font
