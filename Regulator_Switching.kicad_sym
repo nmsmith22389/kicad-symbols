@@ -71868,7 +71868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, +/-12V Output Voltage, DIP Package"
+		(property "Description" "±42mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±12V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72204,7 +72204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, +/-12V Output Voltage, SIP3"
+		(property "Description" "±42mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±12V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -79039,7 +79039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, +/-12V fixed Output Voltage, SIP-6"
+		(property "Description" "±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±12V fixed Output Voltage, SIP-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -79355,7 +79355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, +/-12V fixed Output Voltage, SMD"
+		(property "Description" "±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±12V fixed Output Voltage, SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128532,7 +128532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-100mA Isolated 1W Dual output DC/DC Converter, 5V Input Voltage, +/-5V Output Voltage, DIP Package"
+		(property "Description" "±100mA Isolated 1W Dual output DC/DC Converter, 5V Input Voltage, ±5V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128599,7 +128599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-100mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, +/-5V Output Voltage, SIP3"
+		(property "Description" "±100mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±5V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128666,7 +128666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-55mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, +/-9V Output Voltage, DIP Package"
+		(property "Description" "±55mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±9V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128733,7 +128733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-55mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, +/-9V Output Voltage, SIP3"
+		(property "Description" "±55mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±9V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128800,7 +128800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, +/-15V Output Voltage, DIP Package"
+		(property "Description" "±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128867,7 +128867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, +/-15V Output Voltage, SIP3"
+		(property "Description" "±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128934,7 +128934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-100mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, +/-5V Output Voltage, DIP Package"
+		(property "Description" "±100mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±5V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129001,7 +129001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-100mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, +/-5V Output Voltage, SIP3"
+		(property "Description" "±100mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±5V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129068,7 +129068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-55mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, +/-9V Output Voltage, DIP Package"
+		(property "Description" "±55mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±9V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129135,7 +129135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-55mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, +/-9V Output Voltage, SIP3"
+		(property "Description" "±55mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±9V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129202,7 +129202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, +/-12V Output Voltage, DIP Package"
+		(property "Description" "±42mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±12V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129269,7 +129269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, +/-12V Output Voltage, SIP3"
+		(property "Description" "±42mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±12V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129336,7 +129336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, +/-15V Output Voltage, DIP Package"
+		(property "Description" "±33mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±15V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129403,7 +129403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, +/-15V Output Voltage, SIP3"
+		(property "Description" "±33mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±15V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129470,7 +129470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-100mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, +/-5V Output Voltage, DIP Package"
+		(property "Description" "±100mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±5V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129537,7 +129537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-100mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, +/-5V Output Voltage, SIP3"
+		(property "Description" "±100mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±5V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129604,7 +129604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, +/-12V Output Voltage, DIP Package"
+		(property "Description" "±42mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±12V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129671,7 +129671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, +/-12V Output Voltage, SIP3"
+		(property "Description" "±42mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±12V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129738,7 +129738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, +/-15V Output Voltage, DIP Package"
+		(property "Description" "±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, DIP Package"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129805,7 +129805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, +/-15V Output Voltage, SIP3"
+		(property "Description" "±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, SIP3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136530,7 +136530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, +/-15V fixed Output Voltage, SIP-6"
+		(property "Description" "±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±15V fixed Output Voltage, SIP-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136595,7 +136595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, +/-15V fixed Output Voltage, SMD"
+		(property "Description" "±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±15V fixed Output Voltage, SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137115,7 +137115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, +/-12V fixed Output Voltage, SIP-6"
+		(property "Description" "±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±12V fixed Output Voltage, SIP-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137180,7 +137180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, +/-12V fixed Output Voltage, SMD"
+		(property "Description" "±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±12V fixed Output Voltage, SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137245,7 +137245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, +/-15V fixed Output Voltage, SIP-6"
+		(property "Description" "±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±15V fixed Output Voltage, SIP-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137310,7 +137310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, +/-15V fixed Output Voltage, SMD"
+		(property "Description" "±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±15V fixed Output Voltage, SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137830,7 +137830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, +/-12V fixed Output Voltage, SIP-6"
+		(property "Description" "±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±12V fixed Output Voltage, SIP-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137895,7 +137895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, +/-12V fixed Output Voltage, SMD"
+		(property "Description" "±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±12V fixed Output Voltage, SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137960,7 +137960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, +/-15V fixed Output Voltage, SIP-6"
+		(property "Description" "±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±15V fixed Output Voltage, SIP-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138025,7 +138025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, +/-15V fixed Output Voltage, SMD"
+		(property "Description" "±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±15V fixed Output Voltage, SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138545,7 +138545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-12V fixed Output Voltage, SIP-6"
+		(property "Description" "±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±12V fixed Output Voltage, SIP-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138610,7 +138610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-12V fixed Output Voltage, SMD"
+		(property "Description" "±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±12V fixed Output Voltage, SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138675,7 +138675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-15V fixed Output Voltage, SIP-6"
+		(property "Description" "±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±15V fixed Output Voltage, SIP-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138740,7 +138740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-15V fixed Output Voltage, SMD"
+		(property "Description" "±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±15V fixed Output Voltage, SMD"
 			(at 0 0 0)
 			(effects
 				(font
