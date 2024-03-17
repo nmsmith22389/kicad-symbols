@@ -2731,7 +2731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -3155,7 +3155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3295,7 +3295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3435,7 +3435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24159,9 +24159,6 @@
 		)
 	)
 	(symbol "LT1761-5"
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -24334,9 +24331,6 @@
 		)
 	)
 	(symbol "LT1761-BYP"
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -24509,9 +24503,6 @@
 		)
 	)
 	(symbol "LT1761-SD"
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28859,6 +28850,286 @@
 			)
 		)
 		(symbol "LT3042xMSE_1_1"
+			(pin power_in line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 2.54 0)
+				(length 2.54) hide
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "EN/UV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "ILIM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "PGFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "SET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LT3045xDD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -6.35 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045xDD"
+			(at 1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm"
+			(at 0 8.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, DFN-10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "linear voltage regulator low-noise"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DFN*1EP*3x3mm*P0.5mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LT3045xDD_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LT3045xDD_1_1"
 			(pin power_in line
 				(at -10.16 2.54 0)
 				(length 2.54)
@@ -55730,7 +56001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps7a7200.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a47.pdf"
 			(at 0 24.13 0)
 			(effects
 				(font
@@ -62660,7 +62931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62726,7 +62997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62792,7 +63063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62858,7 +63129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62924,7 +63195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62990,7 +63261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63056,7 +63327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63122,7 +63393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100763,6 +101034,134 @@
 			)
 		)
 		(property "ki_fp_filters" "SOT*223*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "LT3014xDD"
+		(extends "LT3010")
+		(property "Reference" "U"
+			(at -6.985 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3014xDD"
+			(at 5.08 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3014fd.pdf"
+			(at 2.54 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20mA output, 3V..80Vin, High voltage low-dropout regulator, DFN-8"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "analog analog-devices linear linear-technology linear LDO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DFN*1EP*3x3mm*P0.5mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "LT3014xS5"
+		(extends "LT1761-SD")
+		(property "Reference" "U"
+			(at -6.985 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3014xS5"
+			(at 5.08 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3014fd.pdf"
+			(at 2.54 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20mA output, 3V..80Vin, High voltage low-dropout regulator, SOT-23-5"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "analog analog-devices linear linear-technology linear LDO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
 			(at 0 0 0)
 			(effects
 				(font
