@@ -12018,7 +12018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed +-12V Output Voltage, 9-18V Input Voltage, 12W"
+		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed ±12V Output Voltage, 9-18V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12672,7 +12672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2A Isolated DC/DC Dual Supply Converter Module, fixed +-5V Output Voltage, 9-36V Input Voltage"
+		(property "Description" "2A Isolated DC/DC Dual Supply Converter Module, fixed ±5V Output Voltage, 9-36V Input Voltage"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50098,7 +50098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed +-15V Output Voltage, 9-18V Input Voltage, 12W"
+		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed ±15V Output Voltage, 9-18V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50692,7 +50692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed +-12V Output Voltage, 18-36V Input Voltage, 12W"
+		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed ±12V Output Voltage, 18-36V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50758,7 +50758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed +-12V Output Voltage, 9-36V Input Voltage, 12W"
+		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed ±12V Output Voltage, 9-36V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50824,7 +50824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed +-15V Output Voltage, 18-36V Input Voltage, 12W"
+		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed ±15V Output Voltage, 18-36V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50890,7 +50890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed +-15V Output Voltage, 9-36V Input Voltage, 12W"
+		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed ±15V Output Voltage, 9-36V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51484,7 +51484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed +-12V Output Voltage, 36-75V Input Voltage, 12W"
+		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed ±12V Output Voltage, 36-75V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51550,7 +51550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed +-12V Output Voltage, 18-75V Input Voltage, 12W"
+		(property "Description" "0.5A Isolated DC/DC Converter Module, fixed ±12V Output Voltage, 18-75V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51616,7 +51616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed +-15V Output Voltage, 36-75V Input Voltage, 12W"
+		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed ±15V Output Voltage, 36-75V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51682,7 +51682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed +-15V Output Voltage, 18-75V Input Voltage, 12W"
+		(property "Description" "0.4A Isolated DC/DC Converter Module, fixed ±15V Output Voltage, 18-75V Input Voltage, 12W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51950,7 +51950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "835mA Isolated DC/DC Dual Supply Converter Module, fixed +-12V Output Voltage, 9-36V Input Voltage"
+		(property "Description" "835mA Isolated DC/DC Dual Supply Converter Module, fixed ±12V Output Voltage, 9-36V Input Voltage"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52017,7 +52017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "665mA Isolated DC/DC Dual Supply Converter Module, fixed +-15V Output Voltage, 9-36V Input Voltage"
+		(property "Description" "665mA Isolated DC/DC Dual Supply Converter Module, fixed ±15V Output Voltage, 9-36V Input Voltage"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52352,7 +52352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2A Isolated DC/DC Dual Supply Converter Module, fixed +-5V Output Voltage, 18-75V Input Voltage"
+		(property "Description" "2A Isolated DC/DC Dual Supply Converter Module, fixed ±5V Output Voltage, 18-75V Input Voltage"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52419,7 +52419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "835mA Isolated DC/DC Dual Supply Converter Module, fixed +-12V Output Voltage, 18-75V Input Voltage"
+		(property "Description" "835mA Isolated DC/DC Dual Supply Converter Module, fixed ±12V Output Voltage, 18-75V Input Voltage"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52486,7 +52486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "665mA Isolated DC/DC Dual Supply Converter Module, fixed +-15V Output Voltage, 18-75V Input Voltage"
+		(property "Description" "665mA Isolated DC/DC Dual Supply Converter Module, fixed ±15V Output Voltage, 18-75V Input Voltage"
 			(at 0 0 0)
 			(effects
 				(font
