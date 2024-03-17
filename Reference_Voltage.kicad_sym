@@ -4158,7 +4158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.04%, 2.5V, 100mA, 3V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.04%, 2.5V, 100mA, 3V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16149,7 +16149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.04%, 3V, 100mA, 3.5V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.04%, 3V, 100mA, 3.5V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16213,7 +16213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.04%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.04%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16277,7 +16277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.04%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.04%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16341,7 +16341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.04%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.04%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16405,7 +16405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.06%, 2.5V, 100mA, 3V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.06%, 2.5V, 100mA, 3V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16469,7 +16469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.06%, 3V, 100mA, 3.5V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.06%, 3V, 100mA, 3.5V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16533,7 +16533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.06%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.06%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16597,7 +16597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.06%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.06%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16661,7 +16661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.06%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.06%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16725,7 +16725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.08%, 2.5V, 100mA, 3V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.08%, 2.5V, 100mA, 3V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16789,7 +16789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.08%, 3V, 100mA, 3.5V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.08%, 3V, 100mA, 3.5V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16853,7 +16853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.08%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.08%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16917,7 +16917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.08%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.08%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16981,7 +16981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.08%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.08%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17045,7 +17045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.15%, 2.5V, 100mA, 3V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.15%, 2.5V, 100mA, 3V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17109,7 +17109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.15%, 3V, 100mA, 3.5V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.15%, 3V, 100mA, 3.5V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17173,7 +17173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.15%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.15%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17237,7 +17237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.15%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.15%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17301,7 +17301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Reference, +/-0.15%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
+		(property "Description" "Voltage Reference, ±0.15%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
