@@ -9097,7 +9097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
 			(at 3.175 3.175 0)
 			(effects
 				(font
@@ -9354,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.ru.com/pub_link/Collateral/NUP2202W1-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nup2202w1-d.pdf"
 			(at 2.032 1.905 0)
 			(effects
 				(font
@@ -31648,7 +31648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
 			(at 3.175 3.175 0)
 			(effects
 				(font
