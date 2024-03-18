@@ -2258,9 +2258,6 @@
 		)
 	)
 	(symbol "AD5290"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2292,7 +2289,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5290.pdf"
-			(at -11.43 10.16 0)
+			(at 0 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,8 +2297,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital Potentiometer  256 steps   (SPI control) +- 15V, MSOP-10"
-			(at 0 0 0)
+		(property "Description" "Digital Potentiometer, 256 steps, SPI interface, +30V/±15V supply, MSOP-10"
+			(at 0 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2306,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "R POT"
+		(property "ki_keywords" "analog-devices "
 			(at 0 0 0)
 			(effects
 				(font
@@ -2329,8 +2326,8 @@
 		)
 		(symbol "AD5290_0_1"
 			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -10.16)
+				(start -7.62 7.62)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2379,9 +2376,9 @@
 		)
 		(symbol "AD5290_1_1"
 			(pin passive line
-				(at 12.7 5.08 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
-				(name "RH"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2397,9 +2394,9 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "RW"
+				(name "W"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2415,9 +2412,9 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -5.08 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
-				(name "RL"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2435,7 +2432,7 @@
 			(pin power_in line
 				(at 2.54 -12.7 90)
 				(length 2.54)
-				(name "Vss-"
+				(name "V_{SS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2469,7 +2466,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "~{CS}"
 					(effects
@@ -2486,8 +2483,8 @@
 					)
 				)
 			)
-			(pin input clock
-				(at -12.7 0 0)
+			(pin input line
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -2505,7 +2502,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 5.08 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -2523,7 +2520,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "SDO"
 					(effects
@@ -2543,7 +2540,7 @@
 			(pin power_in line
 				(at 0 10.16 270)
 				(length 2.54)
-				(name "Vdd+"
+				(name "V_{DD}"
 					(effects
 						(font
 							(size 1.27 1.27)
