@@ -45474,7 +45474,7 @@
 				)
 			)
 		)
-		(property "Value" "AD7655AST"
+		(property "Value" "AD7655ACP"
 			(at -15.748 39.116 0)
 			(effects
 				(font
