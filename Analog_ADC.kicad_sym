@@ -7601,7 +7601,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "ADC, PulSAR ADC, LQFP-48, Serial ADC, Paralel ADC"
+		(property "ki_keywords" "ADC PulSAR  LQFP-48 Serial Paralel"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45509,7 +45509,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "ADC, PulSAR ADC, LQFP-48, Serial ADC, Paralel ADC"
+		(property "ki_keywords" "ADC PulSAR  LQFP-48 Serial Paralel"
 			(at 0 0 0)
 			(effects
 				(font
