@@ -7559,7 +7559,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -15.494 40.894 0)
+			(at 15.494 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7567,7 @@
 			)
 		)
 		(property "Value" "AD7655AST"
-			(at -15.748 39.116 0)
+			(at 15.748 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +7575,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 40.132 -39.624 0)
+			(at -40.132 -39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7584,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7655.pdf"
-			(at 54.102 -41.91 0)
+			(at -54.102 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7593,7 @@
 			)
 		)
 		(property "Description" "4-Channel, 16-Bit, 500 kSPS PulSAR ADC, Serial/Paralel interface"
-			(at 44.704 -44.45 0)
+			(at -44.704 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,8 +7622,55 @@
 		(symbol "AD7655AST_0_1"
 			(polyline
 				(pts
-					(xy -8.89 -5.08) (xy -7.62 -3.81) (xy -1.27 -3.81) (xy -1.27 -6.35) (xy -7.62 -6.35) (xy -8.89 -5.08)
+					(xy 8.89 -3.175) (xy 8.89 -6.985) (xy 5.715 -5.08) (xy 8.89 -3.175)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 6.985) (xy 8.89 3.175) (xy 5.715 5.08) (xy 8.89 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 6.985) (xy 5.715 -6.985) (xy 1.905 -5.715) (xy 1.905 5.715) (xy 5.715 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -15.875) (xy -6.985 -15.875) (xy -5.715 -12.065) (xy 5.715 -12.065) (xy 6.985 -15.875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.27 13.335)
+				(end 6.35 10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -7646,8 +7693,8 @@
 				)
 			)
 			(rectangle
-				(start -10.16 -16.51)
-				(end 10.16 -20.32)
+				(start -10.16 -20.955)
+				(end 10.16 -17.145)
 				(stroke
 					(width 0)
 					(type default)
@@ -7658,19 +7705,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -7.62) (xy -13.97 -7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -2.54) (xy -13.97 -2.54)
+					(xy -6.35 -13.97) (xy -6.985 -14.605)
 				)
 				(stroke
 					(width 0)
@@ -7682,7 +7717,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 2.54) (xy -13.97 2.54)
+					(xy -6.35 -13.97) (xy -6.985 -13.335)
 				)
 				(stroke
 					(width 0)
@@ -7694,7 +7729,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 7.62) (xy -13.97 7.62)
+					(xy -4.445 -15.875) (xy -4.445 -17.145)
 				)
 				(stroke
 					(width 0)
@@ -7706,7 +7741,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -5.08) (xy -8.89 -5.08)
+					(xy -2.54 -23.495) (xy -3.81 -22.225)
 				)
 				(stroke
 					(width 0)
@@ -7718,7 +7753,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 5.08) (xy -8.89 5.08)
+					(xy -2.54 -23.495) (xy -1.27 -22.225)
 				)
 				(stroke
 					(width 0)
@@ -7730,7 +7765,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -22.86) (xy -3.81 -21.59)
+					(xy -2.54 -20.955) (xy -2.54 -23.495)
 				)
 				(stroke
 					(width 0)
@@ -7742,7 +7777,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -22.86) (xy -1.27 -21.59)
+					(xy 0 -17.145) (xy 0 -20.955)
 				)
 				(stroke
 					(width 0)
@@ -7754,7 +7789,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -20.32) (xy -2.54 -22.86)
+					(xy 0 -10.795) (xy 0 -12.065)
 				)
 				(stroke
 					(width 0)
@@ -7766,7 +7801,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -16.51) (xy -3.81 -15.24)
+					(xy 2.54 -23.495) (xy 1.27 -22.225)
 				)
 				(stroke
 					(width 0)
@@ -7778,7 +7813,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -16.51) (xy -1.27 -15.24)
+					(xy 2.54 -23.495) (xy 3.81 -22.225)
 				)
 				(stroke
 					(width 0)
@@ -7790,7 +7825,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -13.97) (xy -2.54 -16.51)
+					(xy 2.54 -20.955) (xy 2.54 -23.495)
 				)
 				(stroke
 					(width 0)
@@ -7802,7 +7837,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy 0 -5.08)
+					(xy 3.81 6.35) (xy 3.175 6.985)
 				)
 				(stroke
 					(width 0)
@@ -7814,7 +7849,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 5.08) (xy 0 5.08)
+					(xy 3.81 6.35) (xy 4.445 6.985)
 				)
 				(stroke
 					(width 0)
@@ -7826,7 +7861,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -16.51) (xy 0 -20.32)
+					(xy 3.81 10.16) (xy 3.81 6.35)
 				)
 				(stroke
 					(width 0)
@@ -7838,7 +7873,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -22.86) (xy 1.27 -21.59)
+					(xy 3.81 13.335) (xy 3.81 13.97)
 				)
 				(stroke
 					(width 0)
@@ -7850,7 +7885,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -22.86) (xy 3.81 -21.59)
+					(xy 4.445 -15.875) (xy 4.445 -17.145)
 				)
 				(stroke
 					(width 0)
@@ -7862,7 +7897,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -20.32) (xy 2.54 -22.86)
+					(xy 10.16 -5.08) (xy 8.89 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -7874,7 +7909,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -16.51) (xy 1.27 -15.24)
+					(xy 10.16 5.08) (xy 8.89 5.08)
 				)
 				(stroke
 					(width 0)
@@ -7886,7 +7921,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -16.51) (xy 3.81 -15.24)
+					(xy 12.7 -7.62) (xy 13.97 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -7898,7 +7933,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -13.97) (xy 2.54 -16.51)
+					(xy 12.7 -2.54) (xy 13.97 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -7910,7 +7945,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 3.81) (xy -7.62 3.81) (xy -8.89 5.08)
+					(xy 12.7 2.54) (xy 13.97 2.54)
 				)
 				(stroke
 					(width 0)
@@ -7922,7 +7957,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.89 5.08) (xy -7.62 6.35) (xy -1.27 6.35) (xy -1.27 3.81)
+					(xy 12.7 7.62) (xy 13.97 7.62)
 				)
 				(stroke
 					(width 0)
@@ -7934,7 +7969,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -1.27) (xy -12.7 -8.89) (xy -10.16 -7.62) (xy -10.16 -2.54) (xy -12.7 -1.27)
+					(xy 1.905 0.635) (xy 0 0.635) (xy 0 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -7946,7 +7981,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 8.89) (xy -12.7 1.27) (xy -10.16 2.54) (xy -10.16 7.62) (xy -12.7 8.89)
+					(xy 7.62 -23.495) (xy 7.62 -28.575) (xy -7.62 -28.575) (xy -7.62 -23.495) (xy 7.62 -23.495)
 				)
 				(stroke
 					(width 0)
@@ -7958,7 +7993,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -22.86) (xy -7.62 -27.94) (xy 7.62 -27.94) (xy 7.62 -22.86) (xy -7.62 -22.86)
+					(xy 12.7 -1.27) (xy 12.7 -8.89) (xy 10.16 -7.62) (xy 10.16 -2.54) (xy 12.7 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -7970,7 +8005,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -10.16) (xy -6.35 -10.16) (xy -5.08 -13.97) (xy 5.08 -13.97) (xy 6.35 -10.16)
+					(xy 12.7 8.89) (xy 12.7 1.27) (xy 10.16 2.54) (xy 10.16 7.62) (xy 12.7 8.89)
 				)
 				(stroke
 					(width 0)
@@ -7982,7 +8017,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 -7.62) (xy -3.81 -7.62) (xy -3.81 -10.16) (xy 3.81 -10.16) (xy 3.81 5.08) (xy 0 5.08)
+					(xy 0 -6.985) (xy -1.27 -8.255) (xy -1.27 -10.795) (xy 1.27 -10.795) (xy 1.27 -8.255) (xy 0 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 8.255) (xy -3.81 8.255) (xy -3.81 -9.525) (xy -8.89 -9.525) (xy -8.89 -13.97) (xy -6.35 -13.97)
 				)
 				(stroke
 					(width 0)
@@ -7993,7 +8040,7 @@
 				)
 			)
 			(text "0"
-				(at -11.43 -3.556 0)
+				(at 3.81 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8001,7 +8048,23 @@
 				)
 			)
 			(text "0"
-				(at -11.43 6.604 0)
+				(at 4.572 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "0"
+				(at 11.43 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "0"
+				(at 11.43 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8009,7 +8072,7 @@
 				)
 			)
 			(text "1"
-				(at -11.43 -6.858 0)
+				(at -4.318 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8017,7 +8080,23 @@
 				)
 			)
 			(text "1"
-				(at -11.43 3.302 0)
+				(at 3.81 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "1"
+				(at 11.43 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "1"
+				(at 11.43 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8025,7 +8104,7 @@
 				)
 			)
 			(text "A/~{B}"
-				(at -0.254 -11.938 0)
+				(at 3.81 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8033,7 +8112,7 @@
 				)
 			)
 			(text "A0"
-				(at -11.43 -0.508 0)
+				(at 11.43 -0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8041,23 +8120,23 @@
 				)
 			)
 			(text "A0"
-				(at -11.43 9.652 0)
+				(at 11.43 9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(text "ADC_A"
-				(at -4.826 5.08 0)
+			(text "ADC"
+				(at 3.302 -9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(text "ADC_B"
-				(at -4.572 -5.08 0)
+			(text "CNTR"
+				(at 3.81 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8065,7 +8144,7 @@
 				)
 			)
 			(text "REGOUT0"
-				(at 5.08 -18.542 0)
+				(at -5.08 -19.177 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8073,7 +8152,7 @@
 				)
 			)
 			(text "REGOUT1"
-				(at -5.08 -18.542 0)
+				(at 5.08 -19.177 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8081,7 +8160,7 @@
 				)
 			)
 			(text "SER/~{PAR}"
-				(at 0.254 -25.654 0)
+				(at -0.254 -26.289 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8089,7 +8168,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 -40.64 90)
+				(at 7.62 -40.64 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -8107,7 +8186,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 22.86 180)
+				(at -22.86 22.86 0)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -8125,7 +8204,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 20.32 180)
+				(at -22.86 20.32 0)
 				(length 2.54)
 				(name "D2/DIVSCLK0"
 					(effects
@@ -8145,7 +8224,7 @@
 				(alternate "DIVSCLK0" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 17.78 180)
+				(at -22.86 17.78 0)
 				(length 2.54)
 				(name "D3/DIVSCLK1"
 					(effects
@@ -8165,7 +8244,7 @@
 				(alternate "DIVSCLK1" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 15.24 180)
+				(at -22.86 15.24 0)
 				(length 2.54)
 				(name "D4/EXT/~{INT}"
 					(effects
@@ -8185,7 +8264,7 @@
 				(alternate "EXT/~{INT}" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 12.7 180)
+				(at -22.86 12.7 0)
 				(length 2.54)
 				(name "D5/INVSYNC"
 					(effects
@@ -8205,7 +8284,7 @@
 				(alternate "INVSYNC" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 10.16 180)
+				(at -22.86 10.16 0)
 				(length 2.54)
 				(name "D6/INVSCLK"
 					(effects
@@ -8225,7 +8304,7 @@
 				(alternate "INVSCLK" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 7.62 180)
+				(at -22.86 7.62 0)
 				(length 2.54)
 				(name "D7/RDC/SDIN"
 					(effects
@@ -8246,7 +8325,7 @@
 				(alternate "SDIN" input line)
 			)
 			(pin power_in line
-				(at 7.62 -40.64 90)
+				(at -7.62 -40.64 90)
 				(length 2.54)
 				(name "OGND"
 					(effects
@@ -8264,7 +8343,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 40.64 270)
+				(at -7.62 40.64 270)
 				(length 2.54)
 				(name "OVCC"
 					(effects
@@ -8300,7 +8379,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 40.64 270)
+				(at 7.62 40.64 270)
 				(length 2.54)
 				(name "AVDD"
 					(effects
@@ -8336,7 +8415,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 5.08 180)
+				(at -22.86 5.08 0)
 				(length 2.54)
 				(name "D8/SDOUT"
 					(effects
@@ -8356,7 +8435,7 @@
 				(alternate "SDOUT" output line)
 			)
 			(pin bidirectional line
-				(at 22.86 2.54 180)
+				(at -22.86 2.54 0)
 				(length 2.54)
 				(name "D9/SCLK"
 					(effects
@@ -8376,7 +8455,7 @@
 				(alternate "SCLK" input line)
 			)
 			(pin output line
-				(at 22.86 0 180)
+				(at -22.86 0 0)
 				(length 2.54)
 				(name "D10/SYNC"
 					(effects
@@ -8396,7 +8475,7 @@
 				(alternate "SYNC" output line)
 			)
 			(pin output line
-				(at 22.86 -2.54 180)
+				(at -22.86 -2.54 0)
 				(length 2.54)
 				(name "D11/RDERROR"
 					(effects
@@ -8416,7 +8495,7 @@
 				(alternate "RDERROR" output line)
 			)
 			(pin output line
-				(at 22.86 -5.08 180)
+				(at -22.86 -5.08 0)
 				(length 2.54)
 				(name "D12"
 					(effects
@@ -8434,7 +8513,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -7.62 180)
+				(at -22.86 -7.62 0)
 				(length 2.54)
 				(name "D13"
 					(effects
@@ -8452,7 +8531,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -10.16 180)
+				(at -22.86 -10.16 0)
 				(length 2.54)
 				(name "D14"
 					(effects
@@ -8470,7 +8549,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -12.7 180)
+				(at -22.86 -12.7 0)
 				(length 2.54)
 				(name "D15"
 					(effects
@@ -8488,7 +8567,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -15.24 180)
+				(at -22.86 -15.24 0)
 				(length 2.54)
 				(name "BUSY"
 					(effects
@@ -8506,7 +8585,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 30.48 180)
+				(at -22.86 30.48 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -8524,7 +8603,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -17.78 180)
+				(at -22.86 -17.78 0)
 				(length 2.54)
 				(name "~{EOC}"
 					(effects
@@ -8542,7 +8621,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -20.32 180)
+				(at -22.86 -20.32 0)
 				(length 2.54)
 				(name "~{RD}"
 					(effects
@@ -8560,7 +8639,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -22.86 180)
+				(at -22.86 -22.86 0)
 				(length 2.54)
 				(name "~{CS}"
 					(effects
@@ -8578,7 +8657,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -25.4 180)
+				(at -22.86 -25.4 0)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -8596,7 +8675,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -27.94 180)
+				(at -22.86 -27.94 0)
 				(length 2.54)
 				(name "PD"
 					(effects
@@ -8614,7 +8693,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -30.48 180)
+				(at -22.86 -30.48 0)
 				(length 2.54)
 				(name "~{CNVST}"
 					(effects
@@ -8650,7 +8729,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 17.78 0)
+				(at 22.86 17.78 180)
 				(length 2.54)
 				(name "REF"
 					(effects
@@ -8668,7 +8747,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -17.78 0)
+				(at 22.86 -17.78 180)
 				(length 2.54)
 				(name "REFGND"
 					(effects
@@ -8686,7 +8765,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -2.54 0)
+				(at 22.86 -2.54 180)
 				(length 2.54)
 				(name "INB1"
 					(effects
@@ -8704,7 +8783,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 22.86 0)
+				(at 22.86 22.86 180)
 				(length 2.54)
 				(name "BYTESWAP"
 					(effects
@@ -8722,7 +8801,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -15.24 0)
+				(at 22.86 -15.24 180)
 				(length 2.54)
 				(name "INBN"
 					(effects
@@ -8740,7 +8819,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -7.62 0)
+				(at 22.86 -7.62 180)
 				(length 2.54)
 				(name "INB2"
 					(effects
@@ -8758,7 +8837,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 12.7 0)
+				(at 22.86 12.7 180)
 				(length 2.54)
 				(name "REFB"
 					(effects
@@ -8776,7 +8855,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 15.24 0)
+				(at 22.86 15.24 180)
 				(length 2.54)
 				(name "REFA"
 					(effects
@@ -8794,7 +8873,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 2.54 0)
+				(at 22.86 2.54 180)
 				(length 2.54)
 				(name "INA2"
 					(effects
@@ -8812,7 +8891,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -12.7 0)
+				(at 22.86 -12.7 180)
 				(length 2.54)
 				(name "INAN"
 					(effects
@@ -8830,7 +8909,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 7.62 0)
+				(at 22.86 7.62 180)
 				(length 2.54)
 				(name "INA1"
 					(effects
@@ -8848,7 +8927,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -40.64 90)
+				(at 7.62 -40.64 90)
 				(length 2.54) hide
 				(name "AGND"
 					(effects
@@ -8866,7 +8945,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -40.64 90)
+				(at 7.62 -40.64 90)
 				(length 2.54) hide
 				(name "AGND"
 					(effects
@@ -8884,7 +8963,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 27.94 180)
+				(at -22.86 27.94 0)
 				(length 2.54)
 				(name "A/~{B}"
 					(effects
@@ -8920,7 +8999,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 27.94 0)
+				(at 22.86 27.94 180)
 				(length 2.54)
 				(name "IMPULSE"
 					(effects
@@ -8938,7 +9017,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 30.48 0)
+				(at 22.86 30.48 180)
 				(length 2.54)
 				(name "SER/~{PAR}"
 					(effects
@@ -8956,7 +9035,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 25.4 180)
+				(at -22.86 25.4 0)
 				(length 2.54)
 				(name "D0"
 					(effects
