@@ -6837,7 +6837,7 @@
 			(pin passive line
 				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "IO1"
+				(name "IO1a"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6873,7 +6873,7 @@
 			(pin passive line
 				(at 10.16 -2.54 180)
 				(length 2.54)
-				(name "IO2"
+				(name "IO1b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6891,7 +6891,7 @@
 			(pin passive line
 				(at 10.16 2.54 180)
 				(length 2.54)
-				(name "IO3"
+				(name "IO2b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6927,7 +6927,7 @@
 			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "IO4"
+				(name "IO2a"
 					(effects
 						(font
 							(size 1.27 1.27)
