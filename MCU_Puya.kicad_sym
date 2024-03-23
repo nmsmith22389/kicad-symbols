@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -14.986 16.256 0)
+			(at -12.446 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,15 +15,15 @@
 			)
 		)
 		(property "Value" "PY32MD310K1xUx"
-			(at 0 0 0)
+			(at 18.288 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
-			(at 0 0 0)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
+			(at 2.54 -31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,8 +31,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32MD310%20%E7%B3%BB%E5%88%97%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C_Rev1.2.pdf"
+			(at 2.794 -36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,6 +41,24 @@
 			)
 		)
 		(property "Description" "The PY32MD310 series microcontrollers feature a high-performance 32-bit ARM® Cortex®-M0+ core, wide-voltage operating range MCUs, embedded with up to 64 Kbytes of flash and 8 Kbytes of SRAM memory, and operating at up to 48 MHz, and are available in a wide range of different package types. Multiple I2C, SPI, and USART communication peripherals, a 12-bit ADC, five 16-bit timers, and two comparators are integrated."
+			(at -5.08 -33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Puya MCU Motor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*4x4mm?P0.4mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,10 +69,10 @@
 		)
 		(symbol "PY32MD310K1xUx_1_1"
 			(rectangle
-				(start -15.24 15.24)
-				(end 15.24 -15.24)
+				(start -10.16 22.86)
+				(end 10.16 -22.86)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -62,7 +80,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 8.89 0)
+				(at -12.7 20.32 0)
 				(length 2.54)
 				(name "INN1"
 					(effects
@@ -80,7 +98,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 -17.78 90)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "LO2"
 					(effects
@@ -98,7 +116,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 -17.78 90)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "HO2"
 					(effects
@@ -116,7 +134,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.27 -17.78 90)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "LO3"
 					(effects
@@ -134,7 +152,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 -17.78 90)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "HO3"
 					(effects
@@ -152,7 +170,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -17.78 90)
+				(at 12.7 -17.78 180)
 				(length 2.54)
 				(name "PB4"
 					(effects
@@ -170,7 +188,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 -17.78 90)
+				(at 12.7 -15.24 180)
 				(length 2.54)
 				(name "PB5"
 					(effects
@@ -188,7 +206,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 -17.78 90)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(name "PB7"
 					(effects
@@ -206,7 +224,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -8.89 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "PA14/SWCLK"
 					(effects
@@ -224,7 +242,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -6.35 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "PA13/SWDIO"
 					(effects
@@ -242,7 +260,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -3.81 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "PB8"
 					(effects
@@ -260,7 +278,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 6.35 0)
+				(at -12.7 17.78 0)
 				(length 2.54)
 				(name "INP1"
 					(effects
@@ -278,7 +296,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -1.27 180)
+				(at 0 25.4 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -296,7 +314,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 1.27 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "PF0/OSCIN"
 					(effects
@@ -314,7 +332,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 3.81 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "PF1/OSCOUT"
 					(effects
@@ -332,7 +350,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 6.35 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "PF2/NRST"
 					(effects
@@ -350,7 +368,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 8.89 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "PF3"
 					(effects
@@ -368,7 +386,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 17.78 270)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "PA0"
 					(effects
@@ -386,7 +404,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 17.78 270)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "PA2"
 					(effects
@@ -404,7 +422,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 17.78 270)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "PA3"
 					(effects
@@ -422,7 +440,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 17.78 270)
+				(at 12.7 15.24 180)
 				(length 2.54)
 				(name "PA4"
 					(effects
@@ -440,7 +458,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.27 17.78 270)
+				(at 12.7 17.78 180)
 				(length 2.54)
 				(name "PA5"
 					(effects
@@ -458,7 +476,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 3.81 0)
+				(at -12.7 15.24 0)
 				(length 2.54)
 				(name "INN2"
 					(effects
@@ -476,7 +494,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 17.78 270)
+				(at 12.7 20.32 180)
 				(length 2.54)
 				(name "PA6"
 					(effects
@@ -494,7 +512,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 17.78 270)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "AO2"
 					(effects
@@ -512,7 +530,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 17.78 270)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "AO1"
 					(effects
@@ -530,7 +548,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 17.78 270)
+				(at 0 -25.4 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -548,7 +566,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 1.27 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "INP2"
 					(effects
@@ -566,7 +584,7 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 -1.27 0)
+				(at 2.54 25.4 270)
 				(length 2.54)
 				(name "LDO"
 					(effects
@@ -584,7 +602,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -3.81 0)
+				(at -2.54 25.4 270)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -602,7 +620,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -6.35 0)
+				(at 2.54 -25.4 90)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -620,7 +638,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -8.89 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "LO1"
 					(effects
@@ -638,7 +656,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -17.78 90)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "HO1"
 					(effects
@@ -662,7 +680,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 17.018 0)
+			(at -12.7 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +688,7 @@
 			)
 		)
 		(property "Value" "PY32MD320K1xUx"
-			(at 0 -15.24 90)
+			(at 24.638 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +696,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
-			(at 0 -15.24 90)
+			(at 79.756 -19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,8 +704,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -15.24 90)
+		(property "Datasheet" "https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32MD320%20%E7%B3%BB%E5%88%97%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C_Rev1.2.pdf"
+			(at 10.16 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +714,25 @@
 			)
 		)
 		(property "Description" "PY32MD320 series microcontrollers feature a high-performance 32-bit ARM® Cortex®-M0+ core, a wide voltage range MCU, embedded with up to 64 Kbytes flash and 8 Kbytes SRAM memory, and a maximum operating frequency of 48 MHz, and include a wide range of products in different package types. The MCUs include multiple I2C, SPI, and USART communication peripherals, a 12-bit ADC, five 16-bit timers, and two comparators."
-			(at 0 -15.24 90)
+			(at 84.074 -37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Puya MCU Motor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*4x4mm?P0.4mm*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,10 +742,10 @@
 		)
 		(symbol "PY32MD320K1xUx_1_1"
 			(rectangle
-				(start -12.7 15.24)
-				(end 17.78 -15.24)
+				(start -10.16 27.94)
+				(end 10.16 -27.94)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -717,7 +753,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 8.89 0)
+				(at -12.7 20.32 0)
 				(length 2.54)
 				(name "VS3"
 					(effects
@@ -735,7 +771,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 -17.78 90)
+				(at -12.7 -20.32 0)
 				(length 2.54)
 				(name "IBUS_OUT/PA0"
 					(effects
@@ -753,7 +789,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.27 -17.78 90)
+				(at 12.7 20.32 180)
 				(length 2.54)
 				(name "PF2/NRST"
 					(effects
@@ -771,7 +807,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 -17.78 90)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "PA1"
 					(effects
@@ -789,7 +825,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -17.78 90)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "PA2"
 					(effects
@@ -807,7 +843,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 -17.78 90)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "PA3"
 					(effects
@@ -825,7 +861,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 -17.78 90)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "PA4"
 					(effects
@@ -843,7 +879,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -17.78 90)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "PA5"
 					(effects
@@ -861,7 +897,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -8.89 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "PA6"
 					(effects
@@ -879,7 +915,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -6.35 180)
+				(at 12.7 15.24 180)
 				(length 2.54)
 				(name "PB2"
 					(effects
@@ -897,8 +933,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 20.32 -3.81 180)
-				(length 2.54)
+				(at -12.7 -22.86 0)
+				(length 2.54) hide
 				(name "NC"
 					(effects
 						(font
@@ -915,7 +951,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 6.35 0)
+				(at -12.7 17.78 0)
 				(length 2.54)
 				(name "HO3"
 					(effects
@@ -933,7 +969,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -1.27 180)
+				(at 0 30.48 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -951,7 +987,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 1.27 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "PA11"
 					(effects
@@ -969,7 +1005,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 3.81 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "PA13/SWDIO"
 					(effects
@@ -987,7 +1023,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 6.35 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "PA14/SWCLK"
 					(effects
@@ -1005,7 +1041,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 8.89 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "PA15"
 					(effects
@@ -1023,7 +1059,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 17.78 270)
+				(at 12.7 17.78 180)
 				(length 2.54)
 				(name "PB3"
 					(effects
@@ -1041,7 +1077,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 17.78 270)
+				(at -12.7 -15.24 0)
 				(length 2.54)
 				(name "IBUS"
 					(effects
@@ -1059,7 +1095,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 17.78 270)
+				(at -12.7 -17.78 0)
 				(length 2.54)
 				(name "IGND"
 					(effects
@@ -1077,7 +1113,7 @@
 				)
 			)
 			(pin power_out line
-				(at 3.81 17.78 270)
+				(at 2.54 30.48 270)
 				(length 2.54)
 				(name "VLDO"
 					(effects
@@ -1095,7 +1131,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 17.78 270)
+				(at -2.54 30.48 270)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -1113,7 +1149,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 3.81 0)
+				(at -12.7 15.24 0)
 				(length 2.54)
 				(name "VB3"
 					(effects
@@ -1131,7 +1167,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.27 17.78 270)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "LO2"
 					(effects
@@ -1149,7 +1185,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 17.78 270)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "LO1"
 					(effects
@@ -1167,7 +1203,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 17.78 270)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "LO3"
 					(effects
@@ -1185,9 +1221,9 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 17.78 270)
+				(at 0 -30.48 90)
 				(length 2.54)
-				(name "EP"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1203,7 +1239,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 1.27 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "VS2"
 					(effects
@@ -1221,7 +1257,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -1.27 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "HO2"
 					(effects
@@ -1239,7 +1275,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -3.81 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "VB2"
 					(effects
@@ -1257,7 +1293,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -6.35 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "VS1"
 					(effects
@@ -1275,7 +1311,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -8.89 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "HO1"
 					(effects
@@ -1293,7 +1329,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 -17.78 90)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "VB1"
 					(effects
