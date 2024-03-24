@@ -23898,7 +23898,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "changeover single-pole opposite -side-connection double-throw spdt ON-ON"
+		(property "ki_keywords" "changeover single-pole opposite-side-connection double-throw spdt ON-ON"
 			(at 0 0 0)
 			(effects
 				(font
