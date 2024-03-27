@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f205rg.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f205r.pdf"
 			(at 0 0 0)
 			(effects
 				(font
