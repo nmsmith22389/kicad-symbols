@@ -1,7 +1,7 @@
 (kicad_symbol_lib
 	(version 20231120)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(symbol "STM32G431CBYx"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3570,6 +3570,8 @@
 				(alternate "TIM2_CH1" bidirectional line)
 				(alternate "TIM2_ETR" bidirectional line)
 				(alternate "TIM8_CH1" bidirectional line)
+				(alternate "UART4_DE" bidirectional line)
+				(alternate "UART4_RTS" bidirectional line)
 				(alternate "USART2_RX" bidirectional line)
 			)
 			(pin bidirectional line
@@ -3594,6 +3596,7 @@
 				(alternate "I2S3_CK" bidirectional line)
 				(alternate "SPI3_SCK" bidirectional line)
 				(alternate "TIM8_CH1N" bidirectional line)
+				(alternate "UART4_TX" bidirectional line)
 				(alternate "USART3_TX" bidirectional line)
 			)
 			(pin bidirectional line
@@ -3639,6 +3642,7 @@
 				(alternate "I2C3_SDA" bidirectional line)
 				(alternate "SPI3_MISO" bidirectional line)
 				(alternate "TIM8_CH2N" bidirectional line)
+				(alternate "UART4_RX" bidirectional line)
 				(alternate "USART3_RX" bidirectional line)
 			)
 			(pin bidirectional line
@@ -3781,6 +3785,7 @@
 				(alternate "TIM3_CH4" bidirectional line)
 				(alternate "TIM4_CH2" bidirectional line)
 				(alternate "TIM8_BKIN" bidirectional line)
+				(alternate "UART4_CTS" bidirectional line)
 				(alternate "USART1_RX" bidirectional line)
 			)
 			(pin bidirectional line
@@ -15916,6 +15921,8 @@
 				(alternate "TIM2_CH1" bidirectional line)
 				(alternate "TIM2_ETR" bidirectional line)
 				(alternate "TIM8_CH1" bidirectional line)
+				(alternate "UART4_DE" bidirectional line)
+				(alternate "UART4_RTS" bidirectional line)
 				(alternate "USART2_RX" bidirectional line)
 			)
 			(pin bidirectional line
@@ -15940,6 +15947,7 @@
 				(alternate "I2S3_CK" bidirectional line)
 				(alternate "SPI3_SCK" bidirectional line)
 				(alternate "TIM8_CH1N" bidirectional line)
+				(alternate "UART4_TX" bidirectional line)
 				(alternate "USART3_TX" bidirectional line)
 			)
 			(pin bidirectional line
@@ -15985,6 +15993,7 @@
 				(alternate "I2C3_SDA" bidirectional line)
 				(alternate "SPI3_MISO" bidirectional line)
 				(alternate "TIM8_CH2N" bidirectional line)
+				(alternate "UART4_RX" bidirectional line)
 				(alternate "USART3_RX" bidirectional line)
 			)
 			(pin bidirectional line
@@ -16127,6 +16136,7 @@
 				(alternate "TIM3_CH4" bidirectional line)
 				(alternate "TIM4_CH2" bidirectional line)
 				(alternate "TIM8_BKIN" bidirectional line)
+				(alternate "UART4_CTS" bidirectional line)
 				(alternate "USART1_RX" bidirectional line)
 			)
 			(pin bidirectional line
