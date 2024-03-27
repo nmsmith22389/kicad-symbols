@@ -1,6 +1,6 @@
 (kicad_symbol_lib
 	(version 20231120)
-	(generator "kicad_symbol_editor")
+	(generator "kicad-library-utils")
 	(generator_version "8.0")
 	(symbol "STM32WL54CCUx"
 		(exclude_from_sim no)
@@ -34,16 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wl54cc.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wl54.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58,9 +49,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WL5x"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1184,16 +1185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wl54jc.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wl54j.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1208,9 +1200,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WL5x"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2830,7 +2832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2839,15 +2841,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WL5x"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WL5x"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3980,7 +3983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3989,15 +3992,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WL5x"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WL5x"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5617,7 +5621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 20KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -5626,15 +5630,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 20KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6758,16 +6763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wle4cb.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 48KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wle4c.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6782,9 +6778,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 48KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7908,16 +7914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wle4cc.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wle4c.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7932,9 +7929,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9067,7 +9074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 20KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -9076,15 +9083,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 20KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10695,16 +10703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wle4jb.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 48KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wle4j.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10719,9 +10718,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 48KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12341,7 +12350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -12350,15 +12359,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13978,7 +13988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 20KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -13987,15 +13997,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 20KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15128,7 +15139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 48KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -15137,15 +15148,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 48KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16278,7 +16290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -16287,15 +16299,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17428,7 +17441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 20KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -17437,15 +17450,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 20KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19065,7 +19079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 48KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -19074,15 +19088,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 48KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20702,7 +20717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -20711,15 +20726,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32WL STM32WLEx"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 43 GPIO, UFBGA73"
 			(at 0 0 0)
 			(effects
 				(font
