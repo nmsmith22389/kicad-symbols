@@ -51587,21 +51587,30 @@
 				)
 			)
 		)
+		(property "ki_keywords" "TTL latch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "74LS279_1_1"
 			(polyline
 				(pts
-					(xy -6.35 6.35) (xy 6.35 6.35) (xy 6.35 -6.35) (xy -6.35 -6.35) (xy -6.35 6.35)
+					(xy -5.08 5.08) (xy 5.08 5.08) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin input inverted
-				(at -11.43 -3.81 0)
+			(pin input line
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "~{R}"
 					(effects
@@ -51618,8 +51627,8 @@
 					)
 				)
 			)
-			(pin input inverted
-				(at -11.43 3.81 0)
+			(pin input line
+				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "~{S}"
 					(effects
@@ -51636,8 +51645,8 @@
 					)
 				)
 			)
-			(pin input inverted
-				(at -11.43 0 0)
+			(pin input line
+				(at -10.16 0 0)
 				(length 5.08)
 				(name "~{S}"
 					(effects
@@ -51655,7 +51664,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 0 180)
+				(at 10.16 0 180)
 				(length 5.08)
 				(name "Q"
 					(effects
@@ -51676,18 +51685,18 @@
 		(symbol "74LS279_2_1"
 			(polyline
 				(pts
-					(xy -6.35 5.08) (xy 6.35 5.08) (xy 6.35 -5.08) (xy -6.35 -5.08) (xy -6.35 5.08)
+					(xy -5.08 5.08) (xy 5.08 5.08) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin input inverted
-				(at -11.43 -2.54 0)
+			(pin input line
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "~{R}"
 					(effects
@@ -51704,8 +51713,8 @@
 					)
 				)
 			)
-			(pin input inverted
-				(at -11.43 2.54 0)
+			(pin input line
+				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "~{S}"
 					(effects
@@ -51723,7 +51732,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 0 180)
+				(at 10.16 0 180)
 				(length 5.08)
 				(name "Q"
 					(effects
@@ -51744,18 +51753,18 @@
 		(symbol "74LS279_3_1"
 			(polyline
 				(pts
-					(xy -6.35 6.35) (xy 6.35 6.35) (xy 6.35 -6.35) (xy -6.35 -6.35) (xy -6.35 6.35)
+					(xy -5.08 5.08) (xy 5.08 5.08) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin input inverted
-				(at -11.43 -3.81 0)
+			(pin input line
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "~{R}"
 					(effects
@@ -51772,8 +51781,8 @@
 					)
 				)
 			)
-			(pin input inverted
-				(at -11.43 3.81 0)
+			(pin input line
+				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "~{S}"
 					(effects
@@ -51790,8 +51799,8 @@
 					)
 				)
 			)
-			(pin input inverted
-				(at -11.43 0 0)
+			(pin input line
+				(at -10.16 0 0)
 				(length 5.08)
 				(name "~{S}"
 					(effects
@@ -51809,7 +51818,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 0 180)
+				(at 10.16 0 180)
 				(length 5.08)
 				(name "Q"
 					(effects
@@ -51830,10 +51839,10 @@
 		(symbol "74LS279_4_1"
 			(polyline
 				(pts
-					(xy -6.35 5.08) (xy 6.35 5.08) (xy 6.35 -5.08) (xy -6.35 -5.08) (xy -6.35 5.08)
+					(xy -5.08 5.08) (xy 5.08 5.08) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -51841,7 +51850,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 0 180)
+				(at 10.16 0 180)
 				(length 5.08)
 				(name "Q"
 					(effects
@@ -51858,8 +51867,8 @@
 					)
 				)
 			)
-			(pin input inverted
-				(at -11.43 -2.54 0)
+			(pin input line
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "~{R}"
 					(effects
@@ -51876,8 +51885,8 @@
 					)
 				)
 			)
-			(pin input inverted
-				(at -11.43 2.54 0)
+			(pin input line
+				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "~{S}"
 					(effects
