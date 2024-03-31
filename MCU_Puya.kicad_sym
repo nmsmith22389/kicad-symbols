@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "QFN*1EP*5x5mm?P0.5mm?EP3.5x3.5mm*"
+		(property "ki_fp_filters" "*QFN*1EP*5x5mm*P0.5mm*EP3.5x3.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -731,7 +731,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*QFN*1EP*4x4mm?P0.4mm?EP2.8x2.8mm*"
+		(property "ki_fp_filters" "*QFN*1EP*4x4mm*P0.4mm*EP2.8x2.8mm*"
 			(at 0 0 0)
 			(effects
 				(font
