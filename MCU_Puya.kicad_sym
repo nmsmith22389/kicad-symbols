@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm"
 			(at 1.524 -44.958 0)
 			(effects
 				(font
@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "?QFN*1EP*5x5mm?P0.5mm?EP3.5x3.5mm*"
+		(property "ki_fp_filters" "QFN*1EP*5x5mm?P0.5mm?EP3.5x3.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -695,7 +695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-32-1EP_4x4mm_P0.4mm_EP2.8x2.8mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.8x2.8mm"
 			(at 79.756 -19.05 90)
 			(effects
 				(font
@@ -731,7 +731,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "?QFN*1EP*4x4mm?P0.4mm?EP2.8x2.8mm*"
+		(property "ki_fp_filters" "QFN*1EP*4x4mm?P0.4mm?EP2.8x2.8mm*"
 			(at 0 0 0)
 			(effects
 				(font
