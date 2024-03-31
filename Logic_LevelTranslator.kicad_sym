@@ -7436,7 +7436,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -5.08 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -7680,7 +7680,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -5.08 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -8050,7 +8050,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -8420,7 +8420,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -8790,7 +8790,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -15355,7 +15355,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 12.7 0)
+				(at -10.16 -12.7 0)
 				(length 2.54)
 				(name "~{OE}"
 					(effects
@@ -15755,7 +15755,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -16011,7 +16011,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -16405,7 +16405,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -16799,7 +16799,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -17175,7 +17175,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -17587,7 +17587,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "OE"
 					(effects
