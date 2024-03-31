@@ -702,7 +702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADM1270"
+		(property "Value" "ADM1270ACPZ"
 			(at 2.54 -15.24 0)
 			(effects
 				(font
@@ -1096,7 +1096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADM1270"
+		(property "Value" "ADM1270ARQZ"
 			(at 2.54 -15.24 0)
 			(effects
 				(font
