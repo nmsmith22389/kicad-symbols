@@ -51562,7 +51562,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/sn54ls279a"
-			(at 0 0 0)
+			(at 10.922 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51570,8 +51570,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad SR latch"
-			(at 0 0 0)
+		(property "Description" "Quad SR latch, DIP-16/SOIC-16"
+			(at 7.62 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51587,7 +51587,16 @@
 				)
 			)
 		)
-		(property "ki_keywords" "TTL latch"
+		(property "ki_keywords" "TTL latch set reset srs flip flop flipflop rs-flipflop"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SOIC*5.3x10.2mm*P1.27mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51597,10 +51606,9 @@
 			)
 		)
 		(symbol "74LS279_1_1"
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy 5.08 5.08) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 5.08)
-				)
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -51610,8 +51618,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
-				(length 5.08)
+				(at -7.62 -2.54 0)
+				(length 2.54)
 				(name "~{R}"
 					(effects
 						(font
@@ -51628,8 +51636,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
-				(length 5.08)
+				(at -7.62 2.54 0)
+				(length 2.54)
 				(name "~{S}"
 					(effects
 						(font
@@ -51646,8 +51654,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 0 0)
-				(length 5.08)
+				(at -7.62 0 0)
+				(length 2.54)
 				(name "~{S}"
 					(effects
 						(font
@@ -51664,8 +51672,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "Q"
 					(effects
 						(font
@@ -51683,10 +51691,9 @@
 			)
 		)
 		(symbol "74LS279_2_1"
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy 5.08 5.08) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 5.08)
-				)
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -51696,8 +51703,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
-				(length 5.08)
+				(at -7.62 -2.54 0)
+				(length 2.54)
 				(name "~{R}"
 					(effects
 						(font
@@ -51714,8 +51721,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
-				(length 5.08)
+				(at -7.62 2.54 0)
+				(length 2.54)
 				(name "~{S}"
 					(effects
 						(font
@@ -51732,8 +51739,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "Q"
 					(effects
 						(font
@@ -51751,10 +51758,9 @@
 			)
 		)
 		(symbol "74LS279_3_1"
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy 5.08 5.08) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 5.08)
-				)
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -51764,8 +51770,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
-				(length 5.08)
+				(at -7.62 -2.54 0)
+				(length 2.54)
 				(name "~{R}"
 					(effects
 						(font
@@ -51782,8 +51788,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
-				(length 5.08)
+				(at -7.62 2.54 0)
+				(length 2.54)
 				(name "~{S}"
 					(effects
 						(font
@@ -51800,8 +51806,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 0 0)
-				(length 5.08)
+				(at -7.62 0 0)
+				(length 2.54)
 				(name "~{S}"
 					(effects
 						(font
@@ -51818,8 +51824,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "Q"
 					(effects
 						(font
@@ -51837,10 +51843,9 @@
 			)
 		)
 		(symbol "74LS279_4_1"
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy 5.08 5.08) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 5.08)
-				)
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -51850,8 +51855,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "Q"
 					(effects
 						(font
@@ -51868,8 +51873,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
-				(length 5.08)
+				(at -7.62 -2.54 0)
+				(length 2.54)
 				(name "~{R}"
 					(effects
 						(font
@@ -51886,8 +51891,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
-				(length 5.08)
+				(at -7.62 2.54 0)
+				(length 2.54)
 				(name "~{S}"
 					(effects
 						(font
@@ -51906,8 +51911,8 @@
 		)
 		(symbol "74LS279_5_0"
 			(pin power_in line
-				(at 0 12.7 270)
-				(length 5.08)
+				(at 0 10.16 270)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -51924,8 +51929,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 90)
-				(length 5.08)
+				(at 0 -10.16 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
