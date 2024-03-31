@@ -51570,7 +51570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad SR latch, DIP-16/SOIC-16"
+		(property "Description" "Quad SR latch, DIP-16/SOIC-16/SOIC-16W"
 			(at 7.62 -10.668 0)
 			(effects
 				(font
