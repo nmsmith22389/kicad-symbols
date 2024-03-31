@@ -933,7 +933,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -25.4 180)
+				(at 10.16 -25.4 180)
 				(length 2.54) hide
 				(name "NC"
 					(effects
