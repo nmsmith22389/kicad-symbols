@@ -28633,7 +28633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.66x2.38mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.65x2.38mm"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -28950,7 +28950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.66x2.38mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.65x2.38mm"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -29267,7 +29267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.66x2.38mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.65x2.38mm"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -53376,7 +53376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.66x2.38mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.65x2.38mm"
 			(at 0 -16.51 0)
 			(effects
 				(font
