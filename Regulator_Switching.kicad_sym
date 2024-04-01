@@ -76993,14 +76993,11 @@
 		)
 	)
 	(symbol "TLV61225DC"
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 7.62 0)
+			(at -5.08 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77009,7 +77006,7 @@
 			)
 		)
 		(property "Value" "TLV61225DC"
-			(at 0 7.62 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77018,7 +77015,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 1.27 -3.81 0)
+			(at 1.27 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77029,7 +77026,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv61225.pdf"
-			(at 6.35 3.81 0)
+			(at 6.35 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77038,7 +77035,7 @@
 			)
 		)
 		(property "Description" "Fixed 3.3V Output Voltage Boost Converter with Power Diode and Isolation Switch, 5uA Quiescent Current, SOT-363, SC-70-6"
-			(at -8.128 -1.778 0)
+			(at -8.128 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77066,8 +77063,8 @@
 		)
 		(symbol "TLV61225DC_0_1"
 			(rectangle
-				(start -5.08 6.35)
-				(end 5.08 -2.54)
+				(start -5.08 3.81)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -77079,7 +77076,7 @@
 		)
 		(symbol "TLV61225DC_1_1"
 			(pin power_in line
-				(at -7.62 5.08 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -77097,7 +77094,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 0 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -77115,7 +77112,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -5.08 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -77133,7 +77130,7 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 2.54 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -77151,7 +77148,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 5.08 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "L"
 					(effects
@@ -77169,7 +77166,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 0 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
