@@ -8248,7 +8248,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 12.7 -12.7 180)
 				(length 6.35)
 				(name "~{S13}"
