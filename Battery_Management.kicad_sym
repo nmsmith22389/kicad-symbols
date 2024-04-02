@@ -31232,7 +31232,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "battery charger singlecell li-ion li-poly"
+		(property "ki_keywords" "battery charger dual-cell two-cell li-ion li-poly"
 			(at 0 0 0)
 			(effects
 				(font
