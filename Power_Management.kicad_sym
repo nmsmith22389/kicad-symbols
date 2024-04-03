@@ -42891,7 +42891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM5067MM-1"
+		(property "Value" "LM5067MM-2"
 			(at 2.54 11.43 0)
 			(effects
 				(font
