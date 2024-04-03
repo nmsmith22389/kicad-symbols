@@ -13071,7 +13071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Logarithmic amplifer, 100pA to 10mA, integrated 2.5V reference, single or dual supply: +-5V, +5V VQFN-16"
+		(property "Description" "Logarithmic difference amplifer, Transimpedance input, 100pA to 10mA, integrated 2.5V reference, single or dual supply: +-5V, +5V, VQFN-16"
 			(at 7.366 -31.75 0)
 			(effects
 				(font
