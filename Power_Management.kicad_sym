@@ -14325,9 +14325,6 @@
 		)
 	)
 	(symbol "LM5060"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14593,9 +14590,6 @@
 		)
 	)
 	(symbol "LM50672NPAR"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
