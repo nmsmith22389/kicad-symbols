@@ -708,7 +708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.5x1.5mm"
+		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.5x1.5mm"
 			(at 3.81 -15.24 0)
 			(effects
 				(font
@@ -744,7 +744,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*QFN*3x3mm*P0.5mm*"
+		(property "ki_fp_filters" "*LFCSP*3x3mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
