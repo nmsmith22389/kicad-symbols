@@ -45318,7 +45318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP_dev:LFCSP-48-1EP_7x7mm_P0.5mm_EP5.1x5.1mm"
+		(property "Footprint" "Package_CSP:LFCSP-48-1EP_7x7mm_P0.5mm_EP5.1x5.1mm"
 			(at 40.132 -39.624 0)
 			(effects
 				(font
