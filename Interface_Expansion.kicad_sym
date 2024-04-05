@@ -30186,7 +30186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.maxlinear.com/web/documents/xra1201.pdfhttps://assets.maxlinear.com/web/documents/xra1201.pdf"
+		(property "Datasheet" "https://assets.maxlinear.com/web/documents/xra1201.pdf"
 			(at -12.7 22.86 0)
 			(effects
 				(font
