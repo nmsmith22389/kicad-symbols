@@ -2622,7 +2622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:IXYS_Flatpak-8_6.4x9.7mm_P2.54mm"
+		(property "Footprint" "Package_DIP:IXYS_Flatpak-8_6.3x9.7mm_P2.54mm"
 			(at -7.62 7.62 0)
 			(effects
 				(font
@@ -2660,7 +2660,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*Flatpak*6.4x9.7mm*P2.54mm"
+		(property "ki_fp_filters" "*Flatpak*6.3x9.7mm*P2.54mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2690,7 +2690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:IXYS_SMD-8_6.4x9.7mm_P2.54mm"
+		(property "Footprint" "Package_DIP:IXYS_SMD-8_6.3x9.7mm_P2.54mm"
 			(at -7.62 7.62 0)
 			(effects
 				(font
@@ -2728,7 +2728,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*SMD-8*6.4x9.7mm*P2.54mm"
+		(property "ki_fp_filters" "*SMD-8*6.3x9.7mm*P2.54mm"
 			(at 0 0 0)
 			(effects
 				(font
