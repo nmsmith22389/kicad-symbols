@@ -1574,7 +1574,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Isolated Linear Photocoupler"
+		(property "ki_keywords" "Vishay"
 			(at 0 0 0)
 			(effects
 				(font
