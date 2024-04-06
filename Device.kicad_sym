@@ -13943,7 +13943,7 @@
 			)
 		)
 	)
-	(symbol "D_Constant_Current"
+	(symbol "D_Current-regulator"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -13958,7 +13958,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Constant_Current"
+		(property "Value" "D_Current-regulator"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -13967,7 +13967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0.127 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +13984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode"
+		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14011,7 +14011,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "D_Constant_Current_0_1"
+		(symbol "D_Current-regulator_0_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -14025,7 +14025,31 @@
 				)
 			)
 		)
-		(symbol "D_Constant_Current_1_1"
+		(symbol "D_Current-regulator_1_1"
+			(polyline
+				(pts
+					(xy -0.127 0) (xy 0.635 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.127 0.254) (xy -0.635 0) (xy -0.127 -0.254) (xy -0.127 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
 				(center 0 0)
 				(radius 1.27)
@@ -14075,7 +14099,7 @@
 			)
 		)
 	)
-	(symbol "D_Constant_Current_Small"
+	(symbol "D_Current-regulator_Small"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
@@ -14091,7 +14115,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Constant_Current_Small"
+		(property "Value" "D_Current-regulator_Small"
 			(at -3.81 -2.032 0)
 			(effects
 				(font
@@ -14118,7 +14142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, small symbol"
+		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013, small symbol"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14145,7 +14169,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "D_Constant_Current_Small_0_1"
+		(symbol "D_Current-regulator_Small_0_1"
 			(polyline
 				(pts
 					(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -14159,7 +14183,31 @@
 				)
 			)
 		)
-		(symbol "D_Constant_Current_Small_1_1"
+		(symbol "D_Current-regulator_Small_1_1"
+			(polyline
+				(pts
+					(xy -0.0762 0) (xy 0.381 0)
+				)
+				(stroke
+					(width 0.1016)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0762 0.1524) (xy -0.381 0) (xy -0.0762 -0.1524) (xy -0.0762 0.1524)
+				)
+				(stroke
+					(width 0.0762)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
 				(center 0 0)
 				(radius 0.762)
@@ -97569,7 +97617,7 @@
 			(pin passive line
 				(at 5.08 5.08 270)
 				(length 2.54)
-				(name "G"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -97643,7 +97691,7 @@
 			(pin passive line
 				(at 5.08 5.08 270)
 				(length 2.54)
-				(name "G"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
