@@ -82831,7 +82831,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIP?20*"
+		(property "ki_fp_filters" "DIP?20* SOIC*7.5x12.8mm*P1.27mm* TSSOP*4.4x6.5mm*P0.65mm* SSOP*4.4x6.5mm*P0.65mm*"
 			(at 0 0 0)
 			(effects
 				(font
