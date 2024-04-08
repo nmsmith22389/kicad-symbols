@@ -46035,7 +46035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8"
+		(property "Description" "Single Low-Power, 500 MHz GBW, ±2.5V to ±5V Dual Supply, 5V to 12V Single Supply, 190mA output current, 1.8kV/us slew rate, Voltage-Feedback Operational Amplifier with Disable, SO-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46044,7 +46044,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "single opamp wideband low-power"
+		(property "ki_keywords" "opamp texas"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46101,7 +46101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6"
+		(property "Description" "Single Low-Power, 500 MHz GBW, ±2.5V to ±5V Dual Supply, 5V to 12V Single Supply, 190mA output current, 1.8kV/us slew rate, Voltage-Feedback Operational Amplifier with Disable, SO-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46110,7 +46110,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "single opamp wideband low-power"
+		(property "ki_keywords" "opamp texas"
 			(at 0 0 0)
 			(effects
 				(font
