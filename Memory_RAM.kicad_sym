@@ -23803,7 +23803,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TSOP-I*11.8x8* SOP*8.4*17.9*P1.27"
+		(property "ki_fp_filters" "TSOP-I*11.8x8*P0.55* SOP*8.4*18.16*P1.27*"
 			(at 0 0 0)
 			(effects
 				(font
