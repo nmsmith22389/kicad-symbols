@@ -44926,7 +44926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HK19F-DC12V-SHC"
+		(property "Value" "HK19F-DCxxV-SHC"
 			(at 16.51 1.27 0)
 			(effects
 				(font
