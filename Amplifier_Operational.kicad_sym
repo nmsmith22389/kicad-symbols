@@ -49308,7 +49308,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "dual opamp fet-input "
+		(property "ki_keywords" "dual opamp fet-input"
 			(at 0 0 0)
 			(effects
 				(font
