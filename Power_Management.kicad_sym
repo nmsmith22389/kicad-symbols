@@ -43647,7 +43647,7 @@
 	(symbol "LM5067MM-2"
 		(extends "LM5067MM-1")
 		(property "Reference" "U"
-			(at -7.62 11.43 0)
+			(at -7.62 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43656,7 +43656,7 @@
 			)
 		)
 		(property "Value" "LM5067MM-2"
-			(at 2.54 11.43 0)
+			(at 2.54 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43713,7 +43713,7 @@
 	(symbol "LM5067MMX-2"
 		(extends "LM5067MM-1")
 		(property "Reference" "U"
-			(at -7.62 11.43 0)
+			(at -7.62 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43722,7 +43722,7 @@
 			)
 		)
 		(property "Value" "LM5067MMX-2"
-			(at 2.54 11.43 0)
+			(at 2.54 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43779,7 +43779,7 @@
 	(symbol "LM5067MWX-1"
 		(extends "LM50672NPAR")
 		(property "Reference" "U"
-			(at -7.62 11.43 0)
+			(at -7.62 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43788,7 +43788,7 @@
 			)
 		)
 		(property "Value" "LM5067MWX-1"
-			(at 2.54 11.43 0)
+			(at 2.54 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
