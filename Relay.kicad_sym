@@ -44915,7 +44915,7 @@
 			)
 		)
 	)
-	(symbol "HK19F-DC12V-SHC"
+	(symbol "HK19F-DCxxV-SHC"
 		(extends "Relay_DPDT")
 		(property "Reference" "K"
 			(at 16.51 3.81 0)
