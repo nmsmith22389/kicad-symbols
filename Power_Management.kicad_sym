@@ -15393,7 +15393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting"
+		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting, SOIC-14W"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15658,7 +15658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting"
+		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting, VSSOP-10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43679,7 +43679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting"
+		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting, VSSOP-10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43745,7 +43745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting"
+		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting, VSSOP-10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43811,7 +43811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting"
+		(property "Description" "Negative Hot Swap / Inrush Current Controller with Power Limiting, SOIC-14W"
 			(at 0 0 0)
 			(effects
 				(font
