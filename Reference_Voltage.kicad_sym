@@ -13062,7 +13062,7 @@
 				)
 			)
 		)
-		(property "Value" "TL431ADBV"
+		(property "Value" "TLV431ADBV"
 			(at 0 -4.445 0)
 			(effects
 				(font
@@ -13238,7 +13238,7 @@
 				)
 			)
 		)
-		(property "Value" "TL431ADBZ"
+		(property "Value" "TLV431ADBZ"
 			(at 0 -2.54 0)
 			(effects
 				(font
