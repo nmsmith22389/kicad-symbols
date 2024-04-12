@@ -83674,7 +83674,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Photocouple highspeed non inverting push-pull output Toshiba TLP2310(TPL,E"
+		(property "ki_keywords" "Optocoupler high-speed Toshiba"
 			(at 0 0 0)
 			(effects
 				(font
