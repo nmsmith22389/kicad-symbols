@@ -2272,7 +2272,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 17.78 180)
+				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "CPL"
 					(effects
@@ -2308,7 +2308,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 17.78 0)
+				(at -15.24 20.32 0)
 				(length 2.54)
 				(name "IN1"
 					(effects
@@ -2326,7 +2326,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 15.24 0)
+				(at -15.24 17.78 0)
 				(length 2.54)
 				(name "IN2"
 					(effects
@@ -2398,7 +2398,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -10.16 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "DECAY"
 					(effects
@@ -2434,7 +2434,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -15.24 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "TOFF"
 					(effects
@@ -2452,7 +2452,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
+				(at -15.24 -22.86 0)
 				(length 2.54)
 				(name "VREF1"
 					(effects
@@ -2470,7 +2470,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
+				(at -15.24 -20.32 0)
 				(length 2.54)
 				(name "VREF2"
 					(effects
@@ -2542,7 +2542,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -22.86 0)
+				(at -15.24 -15.24 0)
 				(length 2.54)
 				(name "MODE2"
 					(effects
@@ -2560,7 +2560,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -20.32 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "MODE1"
 					(effects
@@ -2596,7 +2596,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -12.7 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "OCPM"
 					(effects
@@ -2632,7 +2632,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 27.94 270)
+				(at 0 27.94 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2760,7 +2760,7 @@
 		)
 		(symbol "DRV8262DDV_1_0"
 			(pin power_out line
-				(at -15.24 22.86 0)
+				(at -2.54 27.94 270)
 				(length 2.54)
 				(name "DVDD"
 					(effects
@@ -3147,7 +3147,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 27.94 270)
+				(at 0 27.94 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -3183,7 +3183,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -12.7 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "OCPM"
 					(effects
@@ -3201,7 +3201,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -20.32 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "MODE1"
 					(effects
@@ -3219,7 +3219,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -22.86 0)
+				(at -15.24 -15.24 0)
 				(length 2.54)
 				(name "MODE2"
 					(effects
@@ -3309,7 +3309,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
+				(at -15.24 -20.32 0)
 				(length 2.54)
 				(name "VREF2"
 					(effects
@@ -3327,7 +3327,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
+				(at -15.24 -22.86 0)
 				(length 2.54)
 				(name "VREF1"
 					(effects
@@ -3345,7 +3345,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -15.24 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "TOFF"
 					(effects
@@ -3381,7 +3381,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -10.16 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "DECAY"
 					(effects
@@ -3453,7 +3453,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 15.24 0)
+				(at -15.24 17.78 0)
 				(length 2.54)
 				(name "IN2"
 					(effects
@@ -3471,7 +3471,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 17.78 0)
+				(at -15.24 20.32 0)
 				(length 2.54)
 				(name "IN1"
 					(effects
@@ -3507,7 +3507,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 17.78 180)
+				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "CPL"
 					(effects
@@ -3653,7 +3653,7 @@
 		)
 		(symbol "DRV8262DDW_1_0"
 			(pin power_out line
-				(at -15.24 22.86 0)
+				(at -2.54 27.94 270)
 				(length 2.54)
 				(name "DVDD"
 					(effects
