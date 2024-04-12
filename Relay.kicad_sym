@@ -44954,7 +44954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "HuiKe 19F services 12VDC signal monostable relay DPDT"
+		(property "Description" "HuiKe 19F monostable relay, DPDT, 1A"
 			(at 1.27 -15.24 0)
 			(effects
 				(font
