@@ -15644,7 +15644,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 0 -17.78 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
