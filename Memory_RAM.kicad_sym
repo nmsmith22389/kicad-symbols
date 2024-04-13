@@ -23794,7 +23794,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "RAM SRAM CMOS MEMORY"
+		(property "ki_keywords" "SRAM MEMORY ISSI "
 			(at 0 0 0)
 			(effects
 				(font
