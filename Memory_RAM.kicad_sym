@@ -29947,7 +29947,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "SRAM MEMORY ISSI "
+		(property "ki_keywords" "SRAM MEMORY ISSI parallel-interface"
 			(at 0 0 0)
 			(effects
 				(font
