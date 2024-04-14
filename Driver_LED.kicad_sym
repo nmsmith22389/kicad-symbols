@@ -12480,8 +12480,8 @@
 		)
 		(symbol "KTD2027_1_1"
 			(rectangle
-				(start -7.62 7.62)
-				(end 7.62 -5.08)
+				(start -5.08 7.62)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -12491,7 +12491,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -2.54 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "D4"
 					(effects
@@ -12509,7 +12509,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -12527,7 +12527,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 2.54 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -12545,7 +12545,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 5.08 180)
+				(at 7.62 5.08 180)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -12581,7 +12581,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 5.08 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -12599,7 +12599,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 2.54 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
