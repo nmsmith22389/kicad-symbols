@@ -12580,7 +12580,7 @@
 					)
 				)
 			)
-			(pin open_collector line
+			(pin bidirectional line
 				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "SCL"
@@ -12598,7 +12598,7 @@
 					)
 				)
 			)
-			(pin open_collector line
+			(pin bidirectional line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "SDA"
