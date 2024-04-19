@@ -697,7 +697,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOT?363*"
+		(property "ki_fp_filters" "*PowerDI3333*P0.65mm*"
 			(at 0 0 0)
 			(effects
 				(font
