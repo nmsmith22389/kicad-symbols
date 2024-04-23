@@ -23610,7 +23610,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 15.24 0)
+			(at -12.7 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23618,7 +23618,7 @@
 			)
 		)
 		(property "Value" "CD4033B"
-			(at 5.08 15.24 0)
+			(at 7.62 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23672,8 +23672,8 @@
 		)
 		(symbol "CD4033B_1_1"
 			(rectangle
-				(start -17.78 12.7)
-				(end 17.78 -12.7)
+				(start -12.7 15.24)
+				(end 12.7 -17.78)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -23683,7 +23683,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 7.62 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "CLOCK"
 					(effects
@@ -23701,7 +23701,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 10.16 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "a"
 					(effects
@@ -23719,7 +23719,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 0 180)
+				(at 15.24 -10.16 180)
 				(length 2.54)
 				(name "e"
 					(effects
@@ -23737,7 +23737,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 7.62 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "b"
 					(effects
@@ -23755,7 +23755,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 5.08 180)
+				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "c"
 					(effects
@@ -23773,7 +23773,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -10.16 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "LAMP_TEST"
 					(effects
@@ -23791,7 +23791,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -7.62 0)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -23809,7 +23809,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 15.24 270)
+				(at 0 17.78 270)
 				(length 2.54)
 				(name "V_{DD}"
 					(effects
@@ -23827,7 +23827,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 5.08 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "CLOCK_INHIBIT"
 					(effects
@@ -23845,7 +23845,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -5.08 0)
+				(at -15.24 10.16 0)
 				(length 2.54)
 				(name "RIPPLE_BLANKING_IN"
 					(effects
@@ -23863,7 +23863,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -7.62 180)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "RIPPLE_BLANKING_OUT"
 					(effects
@@ -23881,7 +23881,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -10.16 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "CARRY_OUT"
 					(effects
@@ -23899,7 +23899,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -2.54 180)
+				(at 15.24 -12.7 180)
 				(length 2.54)
 				(name "f"
 					(effects
@@ -23917,7 +23917,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -5.08 180)
+				(at 15.24 -15.24 180)
 				(length 2.54)
 				(name "g"
 					(effects
@@ -23935,7 +23935,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -20.32 90)
 				(length 2.54)
 				(name "V_{SS}"
 					(effects
@@ -23953,7 +23953,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 2.54 180)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "d"
 					(effects
