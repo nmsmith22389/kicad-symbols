@@ -9597,7 +9597,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -25.4 90)
+				(at 0 -25.4 90)
 				(length 2.54)
 				(name "HPGND"
 					(effects
@@ -9687,7 +9687,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -25.4 90)
+				(at 2.54 -25.4 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -9903,7 +9903,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -25.4 90)
+				(at 5.08 -25.4 90)
 				(length 2.54)
 				(name "GND"
 					(effects
