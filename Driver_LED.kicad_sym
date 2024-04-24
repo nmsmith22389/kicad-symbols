@@ -657,7 +657,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Digital tube driver,keyboard control,I2C"
+		(property "ki_keywords" "Digital tube driver and keyboard control "
 			(at 0 0 0)
 			(effects
 				(font
@@ -1026,7 +1026,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Digital tube driver,keyboard control,I2C"
+		(property "ki_keywords" "Digital tube driver and keyboard control "
 			(at 0 0 0)
 			(effects
 				(font
@@ -39420,7 +39420,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Digital tube driver,keyboard control,I2C"
+		(property "ki_keywords" "Digital tube driver and keyboard control "
 			(at 0 0 0)
 			(effects
 				(font
