@@ -9490,7 +9490,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 11.176 21.336 0)
+			(at 11.176 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,14 +9498,14 @@
 			)
 		)
 		(property "Value" "CJC8988"
-			(at 11.176 19.05 0)
+			(at 11.176 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.4x2.4mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.4x2.4mm"
 			(at 0.254 0 0)
 			(effects
 				(font
@@ -9524,7 +9524,7 @@
 			)
 		)
 		(property "Description" "24-Bit, 48-kHz Stereo Audio CODEC,adapt WM8988"
-			(at 0.508 -0.254 0)
+			(at 0.254 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,9 +9541,18 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "QFN*4x4mm*P0.45mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CJC8988_0_0"
 			(pin input line
-				(at 17.78 -2.54 180)
+				(at 17.78 0 180)
 				(length 2.54)
 				(name "LCOM"
 					(effects
@@ -9561,7 +9570,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 12.7 180)
+				(at 17.78 15.24 180)
 				(length 2.54)
 				(name "ROUT1"
 					(effects
@@ -9579,7 +9588,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 15.24 180)
+				(at 17.78 17.78 180)
 				(length 2.54)
 				(name "LOUT1"
 					(effects
@@ -9597,7 +9606,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -25.4 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(name "HPGND"
 					(effects
@@ -9615,7 +9624,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 0 180)
+				(at 17.78 2.54 180)
 				(length 2.54)
 				(name "ROUT2"
 					(effects
@@ -9633,7 +9642,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 2.54 180)
+				(at 17.78 5.08 180)
 				(length 2.54)
 				(name "LOUT2"
 					(effects
@@ -9651,7 +9660,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 20.32 270)
+				(at 2.54 22.86 270)
 				(length 2.54)
 				(name "HPVDD"
 					(effects
@@ -9669,7 +9678,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 20.32 270)
+				(at 5.08 22.86 270)
 				(length 2.54)
 				(name "AVDD"
 					(effects
@@ -9687,7 +9696,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -25.4 90)
+				(at 2.54 -22.86 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -9705,7 +9714,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -10.16 180)
+				(at 17.78 -7.62 180)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -9723,7 +9732,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 20.32 270)
+				(at -2.54 22.86 270)
 				(length 2.54)
 				(name "DCVDD"
 					(effects
@@ -9741,7 +9750,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -12.7 180)
+				(at 17.78 -10.16 180)
 				(length 2.54)
 				(name "VMID"
 					(effects
@@ -9759,7 +9768,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -7.62 0)
+				(at -17.78 -5.08 0)
 				(length 2.54)
 				(name "RINPUT2"
 					(effects
@@ -9777,7 +9786,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
+				(at -17.78 -2.54 0)
 				(length 2.54)
 				(name "LINPUT2"
 					(effects
@@ -9795,7 +9804,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
+				(at -17.78 0 0)
 				(length 2.54)
 				(name "RINPUT1"
 					(effects
@@ -9813,7 +9822,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 0 0)
+				(at -17.78 2.54 0)
 				(length 2.54)
 				(name "LINPUT1"
 					(effects
@@ -9831,7 +9840,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 12.7 0)
+				(at -17.78 15.24 0)
 				(length 2.54)
 				(name "MODE"
 					(effects
@@ -9849,7 +9858,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 10.16 0)
+				(at -17.78 12.7 0)
 				(length 2.54)
 				(name "CSB"
 					(effects
@@ -9867,7 +9876,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 5.08 0)
+				(at -17.78 7.62 0)
 				(length 2.54)
 				(name "SDIN"
 					(effects
@@ -9885,7 +9894,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 7.62 0)
+				(at -17.78 10.16 0)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -9903,7 +9912,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -25.4 90)
+				(at 5.08 -22.86 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -9921,7 +9930,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 20.32 270)
+				(at 0 22.86 270)
 				(length 2.54)
 				(name "DBVDD"
 					(effects
@@ -9939,7 +9948,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -25.4 90)
+				(at -2.54 -22.86 90)
 				(length 2.54)
 				(name "DGND"
 					(effects
@@ -9957,7 +9966,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -12.7 0)
+				(at -17.78 -10.16 0)
 				(length 2.54)
 				(name "BCLK"
 					(effects
@@ -9975,7 +9984,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -20.32 0)
+				(at -17.78 -17.78 0)
 				(length 2.54)
 				(name "DACDAT"
 					(effects
@@ -9993,7 +10002,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -15.24 0)
+				(at -17.78 -12.7 0)
 				(length 2.54)
 				(name "LRC"
 					(effects
@@ -10011,7 +10020,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -20.32 180)
+				(at 17.78 -17.78 180)
 				(length 2.54)
 				(name "ADCDAT"
 					(effects
@@ -10029,7 +10038,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 10.16 180)
+				(at 17.78 12.7 180)
 				(length 2.54)
 				(name "HPCOM"
 					(effects
@@ -10049,7 +10058,7 @@
 		)
 		(symbol "CJC8988_1_0"
 			(pin input line
-				(at -15.24 15.24 0)
+				(at -17.78 17.78 0)
 				(length 2.54)
 				(name "MCLK"
 					(effects
@@ -10069,10 +10078,10 @@
 		)
 		(symbol "CJC8988_1_1"
 			(rectangle
-				(start -12.7 17.78)
-				(end 15.24 -22.86)
+				(start -15.24 20.32)
+				(end 15.24 -20.32)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
