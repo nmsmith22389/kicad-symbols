@@ -1392,7 +1392,7 @@
 				(alternate "URX" bidirectional line)
 				(alternate "UTX_2" bidirectional line)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -17.78 90)
 				(length 2.54) hide
 				(name "VSS"
