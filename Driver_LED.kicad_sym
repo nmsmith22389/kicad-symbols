@@ -648,7 +648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital tube driver and keyboard control"
+		(property "Description" "Digital tube driver and keyboard control, SOP-16"
 			(at 0 0 0)
 			(effects
 				(font
@@ -657,7 +657,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Digital tube driver and keyboard control "
+		(property "ki_keywords" "WCH Nixie I2C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -984,7 +984,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 24.384 0)
+			(at 5.08 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +992,7 @@
 			)
 		)
 		(property "Value" "CH455K"
-			(at 5.334 21.844 0)
+			(at 5.334 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1000,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
-			(at 0.508 0 0)
+			(at 0.508 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital tube driver and keyboard control"
+		(property "Description" "Digital tube driver and keyboard control, with interrupt/current setting, DIP-18"
 			(at 0.254 0 0)
 			(effects
 				(font
@@ -1026,7 +1026,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Digital tube driver and keyboard control "
+		(property "ki_keywords" "WCH Nixie I2C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1046,7 +1046,7 @@
 		)
 		(symbol "CH455K_0_0"
 			(pin output line
-				(at 10.16 17.78 180)
+				(at 10.16 15.24 180)
 				(length 2.54)
 				(name "DIG0"
 					(effects
@@ -1064,7 +1064,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 2.54 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "SEG1"
 					(effects
@@ -1082,7 +1082,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 22.86 270)
+				(at 0 20.32 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1100,7 +1100,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 0 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "SEG2"
 					(effects
@@ -1118,7 +1118,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -2.54 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "SEG3"
 					(effects
@@ -1136,7 +1136,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -5.08 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "SEG4"
 					(effects
@@ -1154,7 +1154,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -7.62 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "SEG5"
 					(effects
@@ -1172,7 +1172,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -10.16 180)
+				(at 10.16 -12.7 180)
 				(length 2.54)
 				(name "SEG6"
 					(effects
@@ -1190,7 +1190,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -12.7 180)
+				(at 10.16 -15.24 180)
 				(length 2.54)
 				(name "SEG7"
 					(effects
@@ -1208,7 +1208,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 17.78 0)
+				(at -10.16 15.24 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -1226,7 +1226,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 15.24 0)
+				(at -10.16 12.7 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -1244,7 +1244,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -22.86 90)
+				(at 0 -20.32 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1262,7 +1262,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 15.24 180)
+				(at 10.16 12.7 180)
 				(length 2.54)
 				(name "DIG1"
 					(effects
@@ -1280,7 +1280,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 12.7 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "DIG2"
 					(effects
@@ -1298,7 +1298,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 10.16 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "DIG3"
 					(effects
@@ -1316,7 +1316,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 5.08 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "SEG0"
 					(effects
@@ -1336,7 +1336,7 @@
 		)
 		(symbol "CH455K_1_0"
 			(pin output line
-				(at 10.16 -17.78 180)
+				(at -10.16 8.89 0)
 				(length 2.54)
 				(name "~{INT}"
 					(effects
@@ -1354,7 +1354,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 10.16 0)
+				(at -10.16 -15.24 0)
 				(length 2.54)
 				(name "ISET"
 					(effects
@@ -1374,8 +1374,8 @@
 		)
 		(symbol "CH455K_1_1"
 			(rectangle
-				(start -7.62 20.32)
-				(end 7.62 -20.32)
+				(start -7.62 17.78)
+				(end 7.62 -17.78)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -39411,7 +39411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital tube driver and keyboard control"
+		(property "Description" "Digital tube driver and keyboard control, with interrupt/current setting, SOP-18"
 			(at 0.254 0 0)
 			(effects
 				(font
@@ -39420,7 +39420,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Digital tube driver and keyboard control "
+		(property "ki_keywords" "WCH Nixie I2C"
 			(at 0 0 0)
 			(effects
 				(font
