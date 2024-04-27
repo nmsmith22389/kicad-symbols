@@ -42486,7 +42486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 0 -38.1 0)
 			(effects
 				(font
@@ -42522,7 +42522,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIP*16*W7.62mm*Socket*"
+		(property "ki_fp_filters" "DIP*16*W7.62mm*"
 			(at 0 0 0)
 			(effects
 				(font
