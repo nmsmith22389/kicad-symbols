@@ -677,7 +677,7 @@
 		)
 		(symbol "CH455G_0_0"
 			(pin tri_state line
-				(at 10.16 -7.62 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "SEG4"
 					(effects
@@ -695,7 +695,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 10.16 180)
+				(at 10.16 -12.7 180)
 				(length 2.54)
 				(name "DIG2"
 					(effects
@@ -713,7 +713,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 7.62 180)
+				(at 10.16 -15.24 180)
 				(length 2.54)
 				(name "DIG3"
 					(effects
@@ -731,7 +731,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 2.54 180)
+				(at 10.16 15.24 180)
 				(length 2.54)
 				(name "SEG0"
 					(effects
@@ -749,7 +749,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 0 180)
+				(at 10.16 12.7 180)
 				(length 2.54)
 				(name "SEG1"
 					(effects
@@ -785,7 +785,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -2.54 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "SEG2"
 					(effects
@@ -803,7 +803,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -5.08 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "SEG3"
 					(effects
@@ -821,7 +821,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -10.16 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "SEG5"
 					(effects
@@ -839,7 +839,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -12.7 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "SEG6"
 					(effects
@@ -857,7 +857,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -15.24 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "SEG7"
 					(effects
@@ -875,7 +875,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 15.24 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "DIG0"
 					(effects
@@ -947,7 +947,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 12.7 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "DIG1"
 					(effects
@@ -1046,7 +1046,7 @@
 		)
 		(symbol "CH455K_0_0"
 			(pin output line
-				(at 10.16 15.24 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "DIG0"
 					(effects
@@ -1064,7 +1064,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 0 180)
+				(at 10.16 12.7 180)
 				(length 2.54)
 				(name "SEG1"
 					(effects
@@ -1100,7 +1100,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -2.54 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "SEG2"
 					(effects
@@ -1118,7 +1118,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -5.08 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "SEG3"
 					(effects
@@ -1136,7 +1136,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -7.62 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "SEG4"
 					(effects
@@ -1154,7 +1154,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -10.16 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "SEG5"
 					(effects
@@ -1172,7 +1172,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -12.7 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "SEG6"
 					(effects
@@ -1190,7 +1190,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 -15.24 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "SEG7"
 					(effects
@@ -1262,7 +1262,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 12.7 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "DIG1"
 					(effects
@@ -1280,7 +1280,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 10.16 180)
+				(at 10.16 -12.7 180)
 				(length 2.54)
 				(name "DIG2"
 					(effects
@@ -1298,7 +1298,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 7.62 180)
+				(at 10.16 -15.24 180)
 				(length 2.54)
 				(name "DIG3"
 					(effects
@@ -1316,7 +1316,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 10.16 2.54 180)
+				(at 10.16 15.24 180)
 				(length 2.54)
 				(name "SEG0"
 					(effects
