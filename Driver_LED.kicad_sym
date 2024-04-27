@@ -648,7 +648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital tube driver and keyboard scan(common cathode only), SOP-16"
+		(property "Description" "Digital tube driver and keyboard scan (common cathode only), SOP-16"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1017,7 +1017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital tube driver and keyboard scan(common cathode only), with interrupt/current setting, DIP-18"
+		(property "Description" "Digital tube driver and keyboard scan (common cathode only), with interrupt/current setting, DIP-18"
 			(at 0.254 0 0)
 			(effects
 				(font
@@ -39411,7 +39411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital tube driver and keyboard scan(common cathode only), with interrupt/current setting, SOP-18"
+		(property "Description" "Digital tube driver and keyboard scan (common cathode only), with interrupt/current setting, SOP-18"
 			(at 0.254 0 0)
 			(effects
 				(font
