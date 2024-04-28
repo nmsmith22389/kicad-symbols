@@ -37590,7 +37590,7 @@
 				)
 			)
 		)
-		(property "Value" "LTC2850xS8"
+		(property "Value" "SSP3085"
 			(at 7.62 13.97 0)
 			(effects
 				(font
