@@ -5179,7 +5179,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.35 11.43 0)
+			(at -6.604 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5187,7 @@
 			)
 		)
 		(property "Value" "LM75C"
-			(at 0 11.43 0)
+			(at 2.032 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at -2.794 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5205,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm75b.pdf"
-			(at 0 0 0)
+			(at -17.018 9.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Description" " Digital Temperature Sensor & Thermal Watchdog, SOIC-8 and VSSOP-8"
-			(at 0 0 0)
+			(at -17.018 9.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,8 +5242,8 @@
 		)
 		(symbol "LM75C_0_1"
 			(rectangle
-				(start -7.62 10.16)
-				(end 7.62 -10.16)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5252,8 +5252,19 @@
 					(type background)
 				)
 			)
+			(rectangle
+				(start -3.556 0)
+				(end -2.286 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
-				(center -0.127 -2.54)
+				(center -2.921 -2.54)
 				(radius 1.27)
 				(stroke
 					(width 0.254)
@@ -5263,105 +5274,94 @@
 					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy -0.762 0.635) (xy -0.127 0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy -0.127 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 1.905) (xy -0.127 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 2.54) (xy -0.127 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 3.175) (xy -0.762 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 3.175) (xy -0.127 3.175)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.508 3.175) (xy 0.508 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 0.508 -1.905)
-				(end -0.762 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(arc
-				(start 0.508 3.175)
-				(mid -0.127 3.8073)
-				(end -0.762 3.175)
+				(start -2.286 3.175)
+				(mid -2.921 3.8073)
+				(end -3.556 3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 0.635) (xy -2.921 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 1.27) (xy -2.921 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 1.905) (xy -2.921 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -2.921 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 3.175) (xy -3.556 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 3.175) (xy -2.921 3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 3.175) (xy -2.286 0)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5373,7 +5373,7 @@
 		)
 		(symbol "LM75C_1_1"
 			(pin bidirectional line
-				(at -10.16 2.54 0)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -5391,7 +5391,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 0 0)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -5409,7 +5409,7 @@
 				)
 			)
 			(pin open_collector line
-				(at -10.16 -2.54 0)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "O.S."
 					(effects
@@ -5427,7 +5427,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5445,7 +5445,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -2.54 180)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "A2"
 					(effects
@@ -5463,7 +5463,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 0 180)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -5481,7 +5481,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 2.54 180)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -5499,7 +5499,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 12.7 270)
+				(at 0 7.62 270)
 				(length 2.54)
 				(name "+Vs"
 					(effects
