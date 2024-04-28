@@ -1893,7 +1893,7 @@
 		(symbol "MB85RS16_0_1"
 			(rectangle
 				(start -7.62 5.08)
-				(end 7.62 -5.08)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1905,7 +1905,7 @@
 		)
 		(symbol "MB85RS16_1_1"
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "~{CS}"
 					(effects
@@ -1941,7 +1941,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "~{WP}"
 					(effects
@@ -1959,7 +1959,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 90)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2013,7 +2013,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 0 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "~{HOLD}"
 					(effects
