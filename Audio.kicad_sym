@@ -24855,7 +24855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOL-16_10.5MMx7.6MM_P1.27MM"
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 0 -38.1 0)
 			(effects
 				(font
@@ -24891,7 +24891,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOL*16*10.5MMx7.6MM*P1.27MM*"
+		(property "ki_fp_filters" "SOIC*16W*7.5x10.3mm*P1.27mm*"
 			(at 0 0 0)
 			(effects
 				(font
