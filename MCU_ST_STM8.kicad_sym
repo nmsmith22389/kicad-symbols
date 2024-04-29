@@ -13662,7 +13662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24MHz, 128K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-80"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18207,7 +18207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24MHz, 128K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-80"
 			(at 0 0 0)
 			(effects
 				(font
