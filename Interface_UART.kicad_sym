@@ -35007,7 +35007,7 @@
 			)
 		)
 	)
-	(symbol "ST485EBDR"
+	(symbol "ST485E"
 		(extends "LTC2850xS8")
 		(property "Reference" "U"
 			(at -6.985 13.97 0)
@@ -35017,7 +35017,7 @@
 				)
 			)
 		)
-		(property "Value" "ST485EBDR"
+		(property "Value" "ST485E"
 			(at 2.54 13.97 0)
 			(effects
 				(font
@@ -35044,7 +35044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8"
+		(property "Description" "Half duplex RS-485/RS-422, 5 Mbps, ±15kV ESD, 5V supply, 256 bus load, SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35053,7 +35053,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Half duplex RS-485/RS-422, 5 Mbps, ±15kV  256 transceiver bus"
+		(property "ki_keywords" "ST-Microelectronics half-duplex"
 			(at 0 0 0)
 			(effects
 				(font
