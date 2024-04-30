@@ -37313,9 +37313,9 @@
 		)
 	)
 	(symbol "SP3485CN"
-		(extends "SP3481CN")
+		(extends "LTC2850xS8")
 		(property "Reference" "U"
-			(at -7.62 8.89 0)
+			(at -7.62 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37324,7 +37324,7 @@
 			)
 		)
 		(property "Value" "SP3485CN"
-			(at 2.54 8.89 0)
+			(at 1.905 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37380,9 +37380,9 @@
 		)
 	)
 	(symbol "SP3485CP"
-		(extends "SP3481CP")
+		(extends "LTC2850xS8")
 		(property "Reference" "U"
-			(at -7.62 8.89 0)
+			(at -7.62 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37391,7 +37391,7 @@
 			)
 		)
 		(property "Value" "SP3485CP"
-			(at 2.54 8.89 0)
+			(at 1.905 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37447,9 +37447,9 @@
 		)
 	)
 	(symbol "SP3485EN"
-		(extends "SP3481CN")
+		(extends "LTC2850xS8")
 		(property "Reference" "U"
-			(at -7.62 8.89 0)
+			(at -7.62 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37458,7 +37458,7 @@
 			)
 		)
 		(property "Value" "SP3485EN"
-			(at 2.54 8.89 0)
+			(at 1.905 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37514,9 +37514,9 @@
 		)
 	)
 	(symbol "SP3485EP"
-		(extends "SP3481CP")
+		(extends "LTC2850xS8")
 		(property "Reference" "U"
-			(at -7.62 8.89 0)
+			(at -7.62 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37525,7 +37525,7 @@
 			)
 		)
 		(property "Value" "SP3485EP"
-			(at 2.54 8.89 0)
+			(at 1.905 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
