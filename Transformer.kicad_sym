@@ -35406,7 +35406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://catalog.triadmagnetics.com/item/power-transformers/pc-mount-world-series-power-transformers-1/vpp16-310-1"
+		(property "Datasheet" "https://catalog.triadmagnetics.com/Asset/VPP16-310.pdf"
 			(at 0 -12.7 0)
 			(effects
 				(font
