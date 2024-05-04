@@ -43581,7 +43581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A, up to 4MHz Synchronous buck converter with internal switch, DFN-8"
+		(property "Description" "1A, 0.8V to 5V out, up to 4MHz Synchronous buck converter with internal switch, DFN-8"
 			(at 0 0 0)
 			(effects
 				(font
