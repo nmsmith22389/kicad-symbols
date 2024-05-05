@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "AD586"
+		(property "Value" "ZZAD586"
 			(at 6.35 -8.89 0)
 			(effects
 				(font
@@ -69,7 +69,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AD586_0_1"
+		(symbol "ZZAD586_0_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 7.62 -7.62)
@@ -82,7 +82,7 @@
 				)
 			)
 		)
-		(symbol "AD586_1_1"
+		(symbol "ZZAD586_1_1"
 			(pin no_connect line
 				(at -7.62 2.54 0)
 				(length 2.54) hide
