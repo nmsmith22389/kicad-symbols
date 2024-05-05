@@ -43548,7 +43548,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.112 13.716 0)
+			(at -7.112 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43556,7 +43556,7 @@
 			)
 		)
 		(property "Value" "LTC3561EDD"
-			(at 6.096 13.716 0)
+			(at 1.778 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43610,7 +43610,7 @@
 		)
 		(symbol "LTC3561EDD_0_0"
 			(pin input line
-				(at -10.16 0 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "SHDN/R_{T}"
 					(effects
@@ -43628,7 +43628,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -15.24 90)
+				(at -5.08 -12.7 90)
 				(length 2.54)
 				(name "SGND"
 					(effects
@@ -43646,7 +43646,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -15.24 90)
+				(at 5.08 -12.7 90)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -43682,7 +43682,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 15.24 270)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "SV_{IN}"
 					(effects
@@ -43718,7 +43718,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -5.08 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "I_{TH}"
 					(effects
@@ -43736,7 +43736,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -43776,8 +43776,8 @@
 		)
 		(symbol "LTC3561EDD_1_1"
 			(rectangle
-				(start -7.62 12.7)
-				(end 7.62 -12.7)
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
