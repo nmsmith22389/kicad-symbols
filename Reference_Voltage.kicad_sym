@@ -10043,7 +10043,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 0.254 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10053,7 +10053,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SO-8"
-			(at 0 0 0)
+			(at -0.254 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,18 +10094,6 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0.508 -1.016) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
 				)
 				(stroke
@@ -10114,6 +10102,18 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 		)
@@ -10273,7 +10273,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at -0.508 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10283,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SOT-23-5"
-			(at 0 0 0)
+			(at -0.254 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10324,7 +10324,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -10439,7 +10439,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 0 -3.81 0)
+			(at 0 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10449,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 1.778 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,7 +10459,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SOT-23"
-			(at 0 0 0)
+			(at 0 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,7 +10500,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -10603,7 +10603,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 0 -3.81 0)
+			(at 0 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10613,7 +10613,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 1.27 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10623,7 +10623,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SC-70"
-			(at 0 0 0)
+			(at -0.508 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10664,7 +10664,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -10777,7 +10777,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/760499.pdf"
-			(at 0 0 0)
+			(at 0.508 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10787,7 +10787,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, TO-252"
-			(at 0 0 0)
+			(at 0.762 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +10828,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -10931,7 +10931,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 0 -3.81 0)
+			(at 0 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +10941,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 0.508 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +10951,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, TO-92"
-			(at 0 0 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +10992,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -11095,7 +11095,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 0 -3.81 0)
+			(at 0 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11105,7 +11105,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 1.27 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11115,7 +11115,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, PDIP-8"
-			(at 0 0 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11156,7 +11156,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -11259,7 +11259,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 0 -3.81 0)
+			(at 0 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11269,7 +11269,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 1.27 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11279,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SOT-89"
-			(at 0 0 0)
+			(at 0 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11320,7 +11320,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -11423,7 +11423,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 0 -3.81 0)
+			(at 0 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +11433,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 1.016 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11443,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, MSOP-8"
-			(at 0 0 0)
+			(at 0 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11587,7 +11587,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
-			(at 0 -3.81 0)
+			(at 0 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,7 +11597,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 1.016 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11607,7 +11607,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, TSSOP-8"
-			(at 0 0 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11648,7 +11648,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -11761,7 +11761,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 0.508 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11771,7 +11771,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SOT-23-5"
-			(at 0 0 0)
+			(at 0.254 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11812,7 +11812,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -11915,7 +11915,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 0 -3.81 0)
+			(at 0 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11925,7 +11925,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 0.762 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +11935,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SOT-23"
-			(at 0 0 0)
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11976,7 +11976,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -12079,7 +12079,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 0 -3.81 0)
+			(at 0 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12089,7 +12089,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 0 0 0)
+			(at 1.524 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12099,7 +12099,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SOT-89"
-			(at 0 0 0)
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,7 +12140,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
