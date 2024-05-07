@@ -2920,7 +2920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB serial converter, UART, SOIC-16"
+		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
 			(at -1.524 36.068 0)
 			(effects
 				(font
