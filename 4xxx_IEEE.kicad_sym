@@ -19304,7 +19304,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 11.43 0)
+			(at -5.08 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19312,7 +19312,7 @@
 			)
 		)
 		(property "Value" "4068"
-			(at 3.81 11.43 0)
+			(at 3.81 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19320,7 +19320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19366,8 +19366,8 @@
 		)
 		(symbol "4068_0_0"
 			(rectangle
-				(start -5.08 10.16)
-				(end 5.08 -10.16)
+				(start -5.08 8.89)
+				(end 5.08 -11.43)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -19377,7 +19377,7 @@
 				)
 			)
 			(text "&"
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -19387,7 +19387,7 @@
 		)
 		(symbol "4068_0_1"
 			(pin power_in line
-				(at 0 15.24 270)
+				(at 0 13.97 270)
 				(length 5.08)
 				(name "Vdd"
 					(effects
@@ -19405,7 +19405,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -16.51 90)
 				(length 5.08)
 				(name "Vss"
 					(effects
@@ -19425,8 +19425,8 @@
 		)
 		(symbol "4068_1_1"
 			(pin output line
-				(at 12.7 2.54 180)
-				(length 7.62)
+				(at 10.16 2.54 180)
+				(length 5.08)
 				(name "K"
 					(effects
 						(font
@@ -19443,8 +19443,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -3.81 0)
-				(length 7.62)
+				(at -10.16 -5.08 0)
+				(length 5.08)
 				(name "F"
 					(effects
 						(font
@@ -19461,8 +19461,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -6.35 0)
-				(length 7.62)
+				(at -10.16 -7.62 0)
+				(length 5.08)
 				(name "G"
 					(effects
 						(font
@@ -19479,8 +19479,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -8.89 0)
-				(length 7.62)
+				(at -10.16 -10.16 0)
+				(length 5.08)
 				(name "H"
 					(effects
 						(font
@@ -19497,8 +19497,8 @@
 				)
 			)
 			(pin output inverted
-				(at 12.7 0 180)
-				(length 7.62)
+				(at 10.16 0 180)
+				(length 5.08)
 				(name "J"
 					(effects
 						(font
@@ -19515,8 +19515,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 8.89 0)
-				(length 7.62)
+				(at -10.16 7.62 0)
+				(length 5.08)
 				(name "A"
 					(effects
 						(font
@@ -19533,8 +19533,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 6.35 0)
-				(length 7.62)
+				(at -10.16 5.08 0)
+				(length 5.08)
 				(name "B"
 					(effects
 						(font
@@ -19551,8 +19551,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 3.81 0)
-				(length 7.62)
+				(at -10.16 2.54 0)
+				(length 5.08)
 				(name "C"
 					(effects
 						(font
@@ -19569,8 +19569,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
-				(length 7.62)
+				(at -10.16 0 0)
+				(length 5.08)
 				(name "D"
 					(effects
 						(font
@@ -19587,8 +19587,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 5.08 -6.35 180)
-				(length 2.54) hide
+				(at 5.08 -7.62 180)
+				(length 5.08) hide
 				(name "NC"
 					(effects
 						(font
@@ -19605,8 +19605,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 5.08 -3.81 180)
-				(length 2.54) hide
+				(at 5.08 -5.08 180)
+				(length 5.08) hide
 				(name "NC"
 					(effects
 						(font
@@ -19623,8 +19623,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
-				(length 7.62)
+				(at -10.16 -2.54 0)
+				(length 5.08)
 				(name "E"
 					(effects
 						(font
