@@ -25402,7 +25402,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.112 26.67 0)
+			(at -7.112 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25410,7 +25410,7 @@
 			)
 		)
 		(property "Value" "PGA2500"
-			(at 4.826 26.67 0)
+			(at 4.826 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25418,7 +25418,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
-			(at 1.27 3.81 0)
+			(at 0.254 -39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25427,7 +25427,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pga2500.pdf"
-			(at 1.27 1.27 0)
+			(at 0 -33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25436,7 +25436,7 @@
 			)
 		)
 		(property "Description" "Digitally Controlled Microphone Preamplifier"
-			(at 1.27 1.27 0)
+			(at 0 -36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25453,22 +25453,31 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "SSOP*5.3*10.2mm*P0.65mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "PGA2500_0_1"
 			(rectangle
-				(start -8.89 25.4)
-				(end 8.89 -22.86)
+				(start -8.89 24.13)
+				(end 8.89 -24.13)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
 		(symbol "PGA2500_1_1"
 			(pin output line
-				(at 11.43 15.24 180)
+				(at 11.43 12.7 180)
 				(length 2.54)
 				(name "GPO1"
 					(effects
@@ -25486,7 +25495,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 0 0)
+				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -25504,7 +25513,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -2.54 0)
+				(at -11.43 -5.08 0)
 				(length 2.54)
 				(name "~{CS}"
 					(effects
@@ -25522,7 +25531,7 @@
 				)
 			)
 			(pin input clock
-				(at -11.43 -5.08 0)
+				(at -11.43 -7.62 0)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -25540,7 +25549,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -7.62 0)
+				(at -11.43 -10.16 0)
 				(length 2.54)
 				(name "SDO"
 					(effects
@@ -25558,7 +25567,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -20.32 180)
+				(at 11.43 -22.86 180)
 				(length 2.54)
 				(name "VD-"
 					(effects
@@ -25576,7 +25585,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -12.7 180)
+				(at 11.43 -15.24 180)
 				(length 2.54)
 				(name "VA-"
 					(effects
@@ -25594,7 +25603,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 20.32 180)
+				(at 11.43 17.78 180)
 				(length 2.54)
 				(name "VOUT-"
 					(effects
@@ -25612,7 +25621,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 22.86 180)
+				(at 11.43 20.32 180)
 				(length 2.54)
 				(name "VOUT+"
 					(effects
@@ -25630,7 +25639,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -12.7 0)
+				(at -11.43 -15.24 0)
 				(length 2.54)
 				(name "VA+"
 					(effects
@@ -25648,7 +25657,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -15.24 0)
+				(at -11.43 -17.78 0)
 				(length 2.54)
 				(name "VA+"
 					(effects
@@ -25666,7 +25675,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 12.7 180)
+				(at 11.43 10.16 180)
 				(length 2.54)
 				(name "GP02"
 					(effects
@@ -25684,7 +25693,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -15.24 180)
+				(at 11.43 -17.78 180)
 				(length 2.54)
 				(name "VA-"
 					(effects
@@ -25702,7 +25711,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -7.62 180)
+				(at 11.43 -10.16 180)
 				(length 2.54)
 				(name "CS22"
 					(effects
@@ -25720,7 +25729,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -5.08 180)
+				(at 11.43 -7.62 180)
 				(length 2.54)
 				(name "CS21"
 					(effects
@@ -25738,7 +25747,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -2.54 180)
+				(at 11.43 -5.08 180)
 				(length 2.54)
 				(name "CS12"
 					(effects
@@ -25756,7 +25765,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 0 180)
+				(at 11.43 -2.54 180)
 				(length 2.54)
 				(name "CS11"
 					(effects
@@ -25774,7 +25783,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 17.78 0)
+				(at -11.43 15.24 0)
 				(length 2.54)
 				(name "VINCOM"
 					(effects
@@ -25792,7 +25801,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 20.32 0)
+				(at -11.43 17.78 0)
 				(length 2.54)
 				(name "VIN-"
 					(effects
@@ -25810,7 +25819,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 22.86 0)
+				(at -11.43 20.32 0)
 				(length 2.54)
 				(name "VIN+"
 					(effects
@@ -25828,7 +25837,7 @@
 				)
 			)
 			(pin output line
-				(at 2.54 -25.4 90)
+				(at 2.54 -26.67 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -25846,7 +25855,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 10.16 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "GP03"
 					(effects
@@ -25864,7 +25873,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 7.62 180)
+				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "GP04"
 					(effects
@@ -25882,7 +25891,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 5.08 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "OVR"
 					(effects
@@ -25900,7 +25909,7 @@
 				)
 			)
 			(pin output line
-				(at -1.27 -25.4 90)
+				(at -2.54 -26.67 90)
 				(length 2.54)
 				(name "DGND"
 					(effects
@@ -25918,7 +25927,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 12.7 0)
+				(at -11.43 10.16 0)
 				(length 2.54)
 				(name "~{DCEN}"
 					(effects
@@ -25936,7 +25945,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 10.16 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "0dB"
 					(effects
@@ -25954,7 +25963,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 7.62 0)
+				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "ZCEN"
 					(effects
