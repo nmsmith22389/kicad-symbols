@@ -25164,7 +25164,7 @@
 			(pin output line
 				(at 12.7 -15.24 180)
 				(length 2.54)
-				(name "VOUTR"
+				(name "V_{OUT}R"
 					(effects
 						(font
 							(size 1.27 1.27)
