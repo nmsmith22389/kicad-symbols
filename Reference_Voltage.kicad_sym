@@ -6775,231 +6775,6 @@
 			)
 		)
 	)
-	(symbol "MCP1501-10xSN"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -5.08 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP1501-10xSN"
-			(at 11.43 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf"
-			(at 5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.024V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "precision buffered voltage reference 1.024V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "MCP1501-10xSN_0_0"
-			(pin power_in line
-				(at 0 7.62 270)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 0 0)
-				(length 2.54)
-				(name "~{SHDN}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MCP1501-10xSN_0_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-	)
 	(symbol "MCP1525-TO"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23348,6 +23123,70 @@
 			)
 		)
 	)
+	(symbol "MCP1501-10xSN"
+		(extends "MCP1501-10xRW")
+		(property "Reference" "U"
+			(at -5.08 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1501-10xSN"
+			(at 11.43 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.024V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "precision buffered voltage reference 1.024V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MCP1501-12xCH"
 		(extends "MCP1501-10xCH")
 		(property "Reference" "U"
@@ -23477,7 +23316,7 @@
 		)
 	)
 	(symbol "MCP1501-12xSN"
-		(extends "MCP1501-10xSN")
+		(extends "MCP1501-10xRW")
 		(property "Reference" "U"
 			(at -5.08 6.35 0)
 			(effects
@@ -23669,7 +23508,7 @@
 		)
 	)
 	(symbol "MCP1501-18xSN"
-		(extends "MCP1501-10xSN")
+		(extends "MCP1501-10xRW")
 		(property "Reference" "U"
 			(at -5.08 6.35 0)
 			(effects
@@ -23861,7 +23700,7 @@
 		)
 	)
 	(symbol "MCP1501-20xSN"
-		(extends "MCP1501-10xSN")
+		(extends "MCP1501-10xRW")
 		(property "Reference" "U"
 			(at -5.08 6.35 0)
 			(effects
@@ -24053,7 +23892,7 @@
 		)
 	)
 	(symbol "MCP1501-25xSN"
-		(extends "MCP1501-10xSN")
+		(extends "MCP1501-10xRW")
 		(property "Reference" "U"
 			(at -5.08 6.35 0)
 			(effects
@@ -24245,7 +24084,7 @@
 		)
 	)
 	(symbol "MCP1501-30xSN"
-		(extends "MCP1501-10xSN")
+		(extends "MCP1501-10xRW")
 		(property "Reference" "U"
 			(at -5.08 6.35 0)
 			(effects
@@ -24437,7 +24276,7 @@
 		)
 	)
 	(symbol "MCP1501-33xSN"
-		(extends "MCP1501-10xSN")
+		(extends "MCP1501-10xRW")
 		(property "Reference" "U"
 			(at -5.08 6.35 0)
 			(effects
@@ -24629,7 +24468,7 @@
 		)
 	)
 	(symbol "MCP1501-40xSN"
-		(extends "MCP1501-10xSN")
+		(extends "MCP1501-10xRW")
 		(property "Reference" "U"
 			(at -5.08 6.35 0)
 			(effects
