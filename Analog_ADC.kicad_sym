@@ -17243,7 +17243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " Ultrasmall, Low-Power, SPI-Compatible, 12-Bit, Analog-to-Digital Converter With Internal Reference and Temperature Sensor, VSSOP-10"
+		(property "Description" "Ultrasmall, Low-Power, SPI-Compatible, 12-Bit, Analog-to-Digital Converter With Internal Reference and Temperature Sensor, VSSOP-10"
 			(at 0 0 0)
 			(effects
 				(font
