@@ -77669,7 +77669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -78095,7 +78095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 0 2.54 0)
 			(effects
 				(font
