@@ -28867,7 +28867,7 @@
 	)
 	(symbol "XRA1201IG24"
 		(pin_names
-			(offset 1.016)
+			(offset 0.762)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
