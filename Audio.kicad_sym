@@ -25605,7 +25605,7 @@
 			(pin output line
 				(at 12.7 20.32 180)
 				(length 2.54)
-				(name "VOUT-"
+				(name "V_{OUT}-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25623,7 +25623,7 @@
 			(pin output line
 				(at 12.7 22.86 180)
 				(length 2.54)
-				(name "VOUT+"
+				(name "V_{OUT}+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25713,7 +25713,7 @@
 			(pin output line
 				(at 12.7 -10.16 180)
 				(length 2.54)
-				(name "CS22"
+				(name "C_{S22}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25731,7 +25731,7 @@
 			(pin output line
 				(at 12.7 -7.62 180)
 				(length 2.54)
-				(name "CS21"
+				(name "C_{S21}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25749,7 +25749,7 @@
 			(pin output line
 				(at 12.7 -5.08 180)
 				(length 2.54)
-				(name "CS12"
+				(name "C_{S12}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25767,7 +25767,7 @@
 			(pin output line
 				(at 12.7 -2.54 180)
 				(length 2.54)
-				(name "CS11"
+				(name "C_{S11}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25785,7 +25785,7 @@
 			(pin power_in line
 				(at -12.7 17.78 0)
 				(length 2.54)
-				(name "VINCOM"
+				(name "VIN_{COM}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25803,7 +25803,7 @@
 			(pin input line
 				(at -12.7 20.32 0)
 				(length 2.54)
-				(name "VIN-"
+				(name "V_{IN}-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25821,7 +25821,7 @@
 			(pin input line
 				(at -12.7 22.86 0)
 				(length 2.54)
-				(name "VIN+"
+				(name "V_{IN}+"
 					(effects
 						(font
 							(size 1.27 1.27)
