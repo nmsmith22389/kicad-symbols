@@ -23463,7 +23463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 5-V, 7-A, 5-A Low-Side GaN and MOSFET Driver For 1-ns Pulse Width, DSBGA-6"
+		(property "Description" "5-V, 7-A, 5-A Low-Side GaN and MOSFET Driver For 1-ns Pulse Width, DSBGA-6"
 			(at 0 0 0)
 			(effects
 				(font

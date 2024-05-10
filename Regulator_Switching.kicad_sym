@@ -87100,7 +87100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 4.5V to 28V Input, 3A, Synchronous Step-Down Converter with Eco-mode(tm)"
+		(property "Description" "4.5V to 28V Input, 3A, Synchronous Step-Down Converter with Eco-mode(tm)"
 			(at 0 0 0)
 			(effects
 				(font

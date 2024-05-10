@@ -13855,7 +13855,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" " Traco isolated isolation dc-dc converter transformer"
+		(property "ki_keywords" "Traco isolated isolation dc-dc converter transformer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14135,7 +14135,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" " Traco isolated isolation dc-dc converter transformer"
+		(property "ki_keywords" "Traco isolated isolation dc-dc converter transformer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14998,7 +14998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 36-V, 2A input, stepdown, DC/DC converter, Texas B3QFN-14"
+		(property "Description" "36-V, 2A input, stepdown, DC/DC converter, Texas B3QFN-14"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58075,7 +58075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 36-V, 3A input, stepdown, DC/DC converter, Texas B3QFN-14"
+		(property "Description" "36-V, 3A input, stepdown, DC/DC converter, Texas B3QFN-14"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58142,7 +58142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 36-V, 4A input, stepdown, DC/DC converter, Texas B3QFN-14"
+		(property "Description" "36-V, 4A input, stepdown, DC/DC converter, Texas B3QFN-14"
 			(at 0 0 0)
 			(effects
 				(font

@@ -25285,7 +25285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " JFET input, ultralow distortion, low-noise operational amplifier, SOIC-8/VSSOP-8"
+		(property "Description" "JFET input, ultralow distortion, low-noise operational amplifier, SOIC-8/VSSOP-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30292,7 +30292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 2.7 GHz, High-Voltage, FET-Input, Low Noise, Operational Amplifier, WSON-8"
+		(property "Description" "2.7 GHz, High-Voltage, FET-Input, Low Noise, Operational Amplifier, WSON-8"
 			(at 0 0 0)
 			(effects
 				(font

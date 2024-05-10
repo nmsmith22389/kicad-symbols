@@ -6464,7 +6464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " Ultra wide band RF module With ranging location capabilities, I2C, UART, SPI, +2.8V to +3.6V VCC"
+		(property "Description" "Ultra wide band RF module With ranging location capabilities, I2C, UART, SPI, +2.8V to +3.6V VCC"
 			(at 0 0 0)
 			(effects
 				(font
