@@ -10176,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " High-speed switching diodes 2 pair Com A"
+		(property "Description" "High-speed switching diodes 2 pair Com A"
 			(at 0 0 0)
 			(effects
 				(font

@@ -5213,7 +5213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " Digital Temperature Sensor & Thermal Watchdog, SOIC-8 and VSSOP-8"
+		(property "Description" "Digital Temperature Sensor & Thermal Watchdog, SOIC-8 and VSSOP-8"
 			(at -17.018 9.525 0)
 			(effects
 				(font
