@@ -19521,7 +19521,7 @@
 		)
 		(symbol "DAC80504_0_0"
 			(pin bidirectional line
-				(at 15.24 -12.7 180)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(name "REF"
 					(effects
@@ -19539,7 +19539,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 7.62 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "REFDIV"
 					(effects
@@ -19557,7 +19557,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 0 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "~{LDAC}"
 					(effects
@@ -19575,7 +19575,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -10.16 0)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "~{CS}"
 					(effects
@@ -19593,7 +19593,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -12.7 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -19611,7 +19611,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -7.62 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -19629,7 +19629,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -7.62 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "SDO/~{ALARM}"
 					(effects
@@ -19647,7 +19647,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 17.78 270)
+				(at -2.54 17.78 270)
 				(length 2.54)
 				(name "VIO"
 					(effects
@@ -19665,7 +19665,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 12.7 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "OUT0"
 					(effects
@@ -19683,7 +19683,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 7.62 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -19701,7 +19701,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 2.54 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "OUT2"
 					(effects
@@ -19719,7 +19719,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "OUT3"
 					(effects
@@ -19737,7 +19737,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -17.78 90)
+				(at 2.54 -17.78 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -19755,7 +19755,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 17.78 270)
+				(at 2.54 17.78 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -19773,7 +19773,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 12.7 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "GAIN"
 					(effects
@@ -19791,7 +19791,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 10.16 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "RSTSEL"
 					(effects
@@ -19811,9 +19811,9 @@
 		)
 		(symbol "DAC80504_1_0"
 			(pin passive line
-				(at -5.08 -17.78 90)
+				(at -2.54 -17.78 90)
 				(length 2.54)
-				(name "Thermal_Pad"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19831,8 +19831,8 @@
 		)
 		(symbol "DAC80504_1_1"
 			(rectangle
-				(start -12.7 15.24)
-				(end 12.7 -15.24)
+				(start -10.16 15.24)
+				(end 10.16 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
