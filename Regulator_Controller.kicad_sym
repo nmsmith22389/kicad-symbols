@@ -20686,7 +20686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " Ultra-low EMI Transformer Driver for Isolated Bias Supplies, HVSSOP-8"
+		(property "Description" "Ultra-low EMI Transformer Driver for Isolated Bias Supplies, HVSSOP-8"
 			(at 0 0 0)
 			(effects
 				(font

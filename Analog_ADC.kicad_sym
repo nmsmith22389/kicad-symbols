@@ -2358,8 +2358,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7321.pdf"
@@ -2368,8 +2368,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Description" "2-Channel, software selectable input range ±10 V, ±5V, ±2.5V, 0 V to +10 V, true bipolar input, 12-Bit plus sign, 500 kSPS SAR ADC, TSSOP-14"
@@ -2378,8 +2378,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Analog-Devices ADC bipolar 12-Bit SPI"
@@ -2696,8 +2696,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7323.pdf"
@@ -2706,8 +2706,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Description" "4-Channel, software selectable input range ±10 V, ±5V, ±2.5V, 0 V to +10 V, true bipolar input, 12-Bit plus sign, 500 kSPS SAR ADC, TSSOP-16"
@@ -2716,8 +2716,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Analog-Devices ADC bipolar 12-Bit SPI"
@@ -3070,8 +3070,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad7327.pdf"
@@ -3080,8 +3080,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Description" "8-Channel, software selectable input range ±10 V, ±5V, ±2.5V, 0 V to +10 V, true bipolar input, 12-Bit plus sign, 500 kSPS SAR ADC, TSSOP-20"
@@ -3090,8 +3090,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Analog-Devices ADC bipolar 12-Bit SPI"
@@ -3516,8 +3516,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7329.pdf"
@@ -3526,8 +3526,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Description" "8-Channel, software selectable input range ±10 V, ±5V, ±2.5V, 0 V to +10 V, true bipolar input, 12-Bit plus sign, 1 MSPS SAR ADC, TSSOP-24"
@@ -3536,8 +3536,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Analog-Devices ADC bipolar 12-Bit SPI"
@@ -17243,7 +17243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " Ultrasmall, Low-Power, SPI-Compatible, 12-Bit, Analog-to-Digital Converter With Internal Reference and Temperature Sensor, VSSOP-10"
+		(property "Description" "Ultrasmall, Low-Power, SPI-Compatible, 12-Bit, Analog-to-Digital Converter With Internal Reference and Temperature Sensor, VSSOP-10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34934,7 +34934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.56x2.15mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
 			(at -15.24 12.7 0)
 			(effects
 				(font
@@ -45745,8 +45745,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7322.pdf"
@@ -45755,8 +45755,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Description" "2-Channel, software selectable input range ±10 V, ±5V, ±2.5V, 0 V to +10 V, true bipolar input, 12-Bit plus sign, 1 MSPS SAR ADC, TSSOP-14"
@@ -45765,8 +45765,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Analog-Devices ADC bipolar 12-Bit SPI"
@@ -45814,8 +45814,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7324.pdf"
@@ -45824,8 +45824,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Description" "4-Channel, software selectable input range ±10 V, ±5V, ±2.5V, 0 V to +10 V, true bipolar input, 12-Bit plus sign, 1 MSPS SAR ADC, TSSOP-16"
@@ -45834,8 +45834,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Analog-Devices ADC bipolar 12-Bit SPI"
@@ -45883,8 +45883,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7328.pdf"
@@ -45893,8 +45893,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Description" "8-Channel, software selectable input range ±10 V, ±5V, ±2.5V, 0 V to +10 V, true bipolar input, 12-Bit plus sign, 1 MSPS SAR ADC, TSSOP-20"
@@ -45903,8 +45903,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Analog-Devices ADC bipolar 12-Bit SPI"

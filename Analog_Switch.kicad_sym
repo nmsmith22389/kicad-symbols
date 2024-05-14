@@ -69964,7 +69964,7 @@
 			)
 		)
 	)
-	(symbol "TS3A24159DGSR"
+	(symbol "TS3A24159DGS"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -69977,7 +69977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TS3A24159DGSR"
+		(property "Value" "TS3A24159DGS"
 			(at -3.81 5.715 0)
 			(effects
 				(font
@@ -70041,7 +70041,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TS3A24159DGSR_1_1"
+		(symbol "TS3A24159DGS_1_1"
 			(rectangle
 				(start -3.81 4.445)
 				(end 3.81 -4.445)
@@ -70339,7 +70339,7 @@
 				)
 			)
 		)
-		(symbol "TS3A24159DGSR_2_1"
+		(symbol "TS3A24159DGS_2_1"
 			(rectangle
 				(start -3.81 4.445)
 				(end 3.81 -4.445)
@@ -70637,7 +70637,7 @@
 				)
 			)
 		)
-		(symbol "TS3A24159DGSR_3_1"
+		(symbol "TS3A24159DGS_3_1"
 			(rectangle
 				(start -3.81 10.16)
 				(end 3.81 -10.16)
@@ -70687,7 +70687,7 @@
 			)
 		)
 	)
-	(symbol "TS3A24159DRCR"
+	(symbol "TS3A24159DRC"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -70700,7 +70700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TS3A24159DRCR"
+		(property "Value" "TS3A24159DRC"
 			(at -3.81 5.715 0)
 			(effects
 				(font
@@ -70764,7 +70764,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TS3A24159DRCR_1_1"
+		(symbol "TS3A24159DRC_1_1"
 			(rectangle
 				(start -3.81 4.445)
 				(end 3.81 -4.445)
@@ -71062,7 +71062,7 @@
 				)
 			)
 		)
-		(symbol "TS3A24159DRCR_2_1"
+		(symbol "TS3A24159DRC_2_1"
 			(rectangle
 				(start -3.81 4.445)
 				(end 3.81 -4.445)
@@ -71360,7 +71360,7 @@
 				)
 			)
 		)
-		(symbol "TS3A24159DRCR_3_1"
+		(symbol "TS3A24159DRC_3_1"
 			(rectangle
 				(start -3.81 10.16)
 				(end 3.81 -10.16)
@@ -71428,7 +71428,7 @@
 			)
 		)
 	)
-	(symbol "TS3A24159YZPR"
+	(symbol "TS3A24159YZP"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -71441,7 +71441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TS3A24159YZPR"
+		(property "Value" "TS3A24159YZP"
 			(at -3.81 5.715 0)
 			(effects
 				(font
@@ -71505,7 +71505,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TS3A24159YZPR_1_1"
+		(symbol "TS3A24159YZP_1_1"
 			(rectangle
 				(start -3.81 4.445)
 				(end 3.81 -4.445)
@@ -71803,7 +71803,7 @@
 				)
 			)
 		)
-		(symbol "TS3A24159YZPR_2_1"
+		(symbol "TS3A24159YZP_2_1"
 			(rectangle
 				(start -3.81 4.445)
 				(end 3.81 -4.445)
@@ -72101,7 +72101,7 @@
 				)
 			)
 		)
-		(symbol "TS3A24159YZPR_3_1"
+		(symbol "TS3A24159YZP_3_1"
 			(rectangle
 				(start -3.81 10.16)
 				(end 3.81 -10.16)
@@ -77669,7 +77669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -78095,7 +78095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 0 2.54 0)
 			(effects
 				(font

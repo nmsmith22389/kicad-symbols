@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Description" "1500W unidirectional TVS diode, DO-201AE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52,7 +52,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "diode TVS voltage suppressor"
+		(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
 			(at 0 0 0)
 			(effects
 				(font
@@ -176,7 +176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Description" "1500W bidirectional TVS diode, DO-201AE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -185,7 +185,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "diode TVS voltage suppressor"
+		(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10176,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " High-speed switching diodes 2 pair Com A"
+		(property "Description" "High-speed switching diodes 2 pair Com A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12047,6 +12047,134 @@
 						)
 					)
 				)
+			)
+		)
+	)
+	(symbol "1.5SMCxxA"
+		(extends "1.5KExxA")
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5SMCxxA"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88303/15smc.pdf"
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1500W unidirectional TVS diode, SMC (DO-201AB)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D?SMC*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "1.5SMCxxCA"
+		(extends "1.5KExxCA")
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5SMCxxCA"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88303/15smc.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1500W bidirectional TVS diode, SMC (DO-201AB)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D?SMC*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)

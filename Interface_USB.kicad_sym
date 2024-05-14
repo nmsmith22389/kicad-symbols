@@ -2902,7 +2902,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 1.27 -13.97 0)
+			(at -18.542 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2912,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
-			(at -8.89 20.32 0)
+			(at -6.604 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,8 +2920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB serial converter, UART, SOIC-16"
-			(at 0 0 0)
+		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
+			(at -1.524 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,10 +3213,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -10.16 -7.62 0)
-				(length 2.54)
-				(name "~{OUT}/~{DTR}"
+			(pin no_connect line
+				(at -7.62 -7.62 0)
+				(length 2.54) hide
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
