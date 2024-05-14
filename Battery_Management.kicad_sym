@@ -8639,7 +8639,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at 12.7 17.78 180)
 				(length 2.54)
 				(name "BTST"
@@ -8783,7 +8783,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "VFB"
