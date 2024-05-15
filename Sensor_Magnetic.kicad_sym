@@ -3565,7 +3565,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 -10.16 0)
+			(at -8.636 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,14 +3573,14 @@
 			)
 		)
 		(property "Value" "BM1422AGMV"
-			(at 8.89 -11.43 0)
+			(at 8.128 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:Rohm_MLGA010V020A_LGA-10_2x2mm_P0.45mm_LayoutBorder_3x2y"
+		(property "Footprint" "Package_LGA:Rohm_MLGA010V020A_LGA-10_2x2mm_P0.45mm_LayoutBorder2x3y"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 			)
 		)
 		(property "Description" "Low power 3axis magnetic sensor, I2C interface, MLGA010V020A"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3712,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54) hide
 				(name "TEST1"
 					(effects
@@ -3748,7 +3748,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 0 180)
+				(at 10.16 0 180)
 				(length 2.54) hide
 				(name "TEST2"
 					(effects
