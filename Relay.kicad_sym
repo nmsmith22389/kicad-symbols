@@ -20919,7 +20919,7 @@
 				(start -13.335 1.905)
 				(end -6.985 -1.905)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -20940,31 +20940,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -1.905) (xy -10.795 1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -12.7 5.08) (xy -12.7 1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -9.525 -1.905) (xy -7.62 1.905)
 				)
 				(stroke
 					(width 0)
@@ -21210,6 +21186,30 @@
 			)
 		)
 		(symbol "G6AK_1_1"
+			(polyline
+				(pts
+					(xy -12.7 -1.905) (xy -10.795 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -9.525 -1.905) (xy -7.62 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
 				(at 0 -7.62 90)
 				(length 2.54)
