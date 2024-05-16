@@ -20835,7 +20835,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Relay Dual Pole DPDT Omron"
+		(property "ki_keywords" "Relay Dual Pole DPDT Omron bistable 2-Form-C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21442,7 +21442,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Relay Dual Pole DPDT Omron"
+		(property "ki_keywords" "Relay Dual Pole DPDT Omron bistable 2-Form-C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47669,7 +47669,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Relay Dual Pole DPDT Omron"
+		(property "ki_keywords" "Relay Dual Pole DPDT Omron 2-Form-C"
 			(at 0 0 0)
 			(effects
 				(font
