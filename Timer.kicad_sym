@@ -4468,7 +4468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP*3x3mm*P0.65mm"
 			(at 16.51 -10.16 0)
 			(effects
 				(font
@@ -10774,7 +10774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP*3x3mm*P0.65mm"
 			(at 16.51 -10.16 0)
 			(effects
 				(font
@@ -12538,7 +12538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP*3x3mm*P0.65mm"
 			(at 16.51 -10.16 0)
 			(effects
 				(font
