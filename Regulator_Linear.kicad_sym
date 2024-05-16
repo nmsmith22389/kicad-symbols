@@ -16538,7 +16538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -20884,7 +20884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 5.08 -8.89 0)
 			(effects
 				(font
@@ -21110,7 +21110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 5.08 -8.89 0)
 			(effects
 				(font
@@ -92166,7 +92166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -92423,7 +92423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -95099,7 +95099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 5.08 -8.89 0)
 			(effects
 				(font
@@ -95164,7 +95164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 5.08 -8.89 0)
 			(effects
 				(font
@@ -95229,7 +95229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 5.08 -8.89 0)
 			(effects
 				(font
@@ -95294,7 +95294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 5.08 -8.89 0)
 			(effects
 				(font
