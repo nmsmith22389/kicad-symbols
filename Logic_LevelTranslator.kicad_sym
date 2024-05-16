@@ -5033,7 +5033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 1.27 -13.97 0)
 			(effects
 				(font
@@ -5069,7 +5069,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "VSSOP*2.4x2.1mm*P0.5mm*"
+		(property "ki_fp_filters" "VSSOP*2.3x2mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8126,7 +8126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 0 -13.97 0)
 			(effects
 				(font
@@ -8162,7 +8162,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "VSSOP*P0.5mm*"
+		(property "ki_fp_filters" "VSSOP*2.3x2mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
