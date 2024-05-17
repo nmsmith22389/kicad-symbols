@@ -36309,18 +36309,6 @@
 			)
 			(polyline
 				(pts
-					(xy 9.525 0) (xy 10.16 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 10.16 -2.54) (xy 8.255 3.81)
 				)
 				(stroke
