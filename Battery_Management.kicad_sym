@@ -8441,7 +8441,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.16 26.67 0)
+			(at -10.16 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,7 +8449,7 @@
 			)
 		)
 		(property "Value" "BQ24650"
-			(at 7.62 -16.51 0)
+			(at 7.62 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +8457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 -40.64 0)
+			(at 0 -45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +8466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq24650.pdf"
-			(at 0 0 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8475,7 @@
 			)
 		)
 		(property "Description" "10A, 28V max voltage, Battery Charger w/600kHz NMOS-NMOS Synchronous Buck Converter for Solar, VQFN-16"
-			(at 0 0 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,8 +8503,8 @@
 		)
 		(symbol "BQ24650_1_1"
 			(rectangle
-				(start -10.16 25.4)
-				(end 10.16 -15.24)
+				(start -10.16 20.32)
+				(end 10.16 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -8514,7 +8514,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 27.94 270)
+				(at 0 22.86 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -8532,7 +8532,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 7.62 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "SRP"
 					(effects
@@ -8550,7 +8550,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -8568,7 +8568,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 15.24 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "REGN"
 					(effects
@@ -8586,7 +8586,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 12.7 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "LODRV"
 					(effects
@@ -8604,7 +8604,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 20.32 180)
+				(at 12.7 15.24 180)
 				(length 2.54)
 				(name "PH"
 					(effects
@@ -8622,7 +8622,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 22.86 180)
+				(at 12.7 17.78 180)
 				(length 2.54)
 				(name "HIDRV"
 					(effects
@@ -8640,7 +8640,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 17.78 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "BTST"
 					(effects
@@ -8658,7 +8658,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
+				(at 0 -22.86 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -8676,7 +8676,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 7.62 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "MPPSET"
 					(effects
@@ -8694,7 +8694,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 12.7 -10.16 180)
+				(at 12.7 -15.24 180)
 				(length 2.54)
 				(name "STAT1"
 					(effects
@@ -8712,7 +8712,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "TS"
 					(effects
@@ -8730,7 +8730,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 12.7 -12.7 180)
+				(at 12.7 -17.78 180)
 				(length 2.54)
 				(name "STAT2"
 					(effects
@@ -8748,7 +8748,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 15.24 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -8766,7 +8766,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 12.7 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "TERM_EN"
 					(effects
@@ -8784,7 +8784,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -2.54 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "VFB"
 					(effects
@@ -8802,7 +8802,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 2.54 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "SRN"
 					(effects
