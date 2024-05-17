@@ -35572,10 +35572,22 @@
 			)
 			(polyline
 				(pts
+					(xy -6.985 0) (xy -6.35 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -5.715 0) (xy -5.08 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35587,7 +35599,7 @@
 					(xy -4.445 0) (xy -3.81 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35599,7 +35611,7 @@
 					(xy -3.175 0) (xy -2.54 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35611,7 +35623,7 @@
 					(xy -1.905 0) (xy -1.27 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35623,7 +35635,7 @@
 					(xy -0.635 0) (xy 0 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35659,7 +35671,7 @@
 					(xy 0.635 0) (xy 1.27 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35671,7 +35683,7 @@
 					(xy 1.905 0) (xy 2.54 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35683,7 +35695,7 @@
 					(xy 3.175 0) (xy 3.81 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35695,7 +35707,7 @@
 					(xy 4.445 0) (xy 5.08 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35707,7 +35719,7 @@
 					(xy 5.715 0) (xy 6.35 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35719,7 +35731,7 @@
 					(xy 6.985 0) (xy 7.62 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -35731,7 +35743,7 @@
 					(xy 8.255 0) (xy 8.89 0)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.254)
 					(type default)
 				)
 				(fill
