@@ -8603,7 +8603,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 12.7 20.32 180)
 				(length 2.54)
 				(name "PH"
