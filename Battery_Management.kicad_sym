@@ -8747,7 +8747,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "VREF"
