@@ -36201,10 +36201,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 0 -5.08)
+					(xy 0 -2.54) (xy -1.905 3.81)
 				)
 				(stroke
-					(width 0)
+					(width 0.508)
 					(type default)
 				)
 				(fill
@@ -36213,10 +36213,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 1.905 3.81)
+					(xy 0 -2.54) (xy 0 -5.08)
 				)
 				(stroke
-					(width 0.508)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -36309,10 +36309,10 @@
 			)
 			(polyline
 				(pts
-					(xy 9.525 0) (xy 10.16 0)
+					(xy 10.16 -2.54) (xy 8.255 3.81)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.508)
 					(type default)
 				)
 				(fill
@@ -36333,38 +36333,26 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -2.54) (xy 12.065 3.81)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
+					(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
+					(xy 7.62 5.08) (xy 7.62 2.54) (xy 8.255 3.175) (xy 7.62 3.81)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 		)
@@ -36390,7 +36378,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -36399,7 +36387,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 7.62 270)
+				(at -2.54 7.62 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -36408,7 +36396,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -36426,7 +36414,7 @@
 						)
 					)
 				)
-				(number "23"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -36435,7 +36423,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 7.62 270)
+				(at 7.62 7.62 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -36444,7 +36432,7 @@
 						)
 					)
 				)
-				(number "24"
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37865,7 +37853,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37901,7 +37889,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -39170,20 +39158,6 @@
 				(hide yes)
 			)
 		)
-		(symbol "Relay_SPST-NC_0_0"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "Relay_SPST-NC_0_1"
 			(rectangle
 				(start -8.255 1.905)
@@ -39294,10 +39268,10 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 0) (xy 5.08 0)
+					(xy 5.08 -2.54) (xy 3.175 3.81)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.508)
 					(type default)
 				)
 				(fill
@@ -39318,14 +39292,14 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 6.985 3.81)
+					(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
 				)
 				(stroke
-					(width 0.508)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 		)
@@ -39351,7 +39325,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -39360,7 +39334,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 7.62 270)
+				(at 2.54 7.62 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -39369,7 +39343,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
