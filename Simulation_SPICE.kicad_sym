@@ -3556,7 +3556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "min=2 max=10m dt=0 td=1"
+		(property "Sim.Params" "ts=1u td=0 range=1 offset=0"
 			(at 2.54 -2.54 0)
 			(effects
 				(font
@@ -8966,7 +8966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "min=2 max=10m dt=0 td=1"
+		(property "Sim.Params" "ts=1u td=0 range=1 offset=0"
 			(at 2.54 -2.54 0)
 			(effects
 				(font
