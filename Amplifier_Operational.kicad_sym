@@ -3079,7 +3079,7 @@
 		)
 		(symbol "ADA4691-2ACBZ_3_1"
 			(pin power_in line
-				(at -2.54 7.62 270)
+				(at 0 7.62 270)
 				(length 3.81)
 				(name "V+"
 					(effects
@@ -3097,7 +3097,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -7.62 90)
+				(at 0 -7.62 90)
 				(length 3.81)
 				(name "V-"
 					(effects
@@ -3365,7 +3365,7 @@
 		)
 		(symbol "ADA4691-2ACPZ_3_1"
 			(pin power_in line
-				(at -2.54 -7.62 90)
+				(at 0 -7.62 90)
 				(length 3.81)
 				(name "V-"
 					(effects
@@ -3383,7 +3383,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 7.62 270)
+				(at 0 7.62 270)
 				(length 3.81)
 				(name "V+"
 					(effects
@@ -3787,7 +3787,7 @@
 		)
 		(symbol "ADA4691-4ACPZ_5_1"
 			(pin power_in line
-				(at -2.54 -7.62 90)
+				(at 0 -7.62 90)
 				(length 3.81)
 				(name "V-"
 					(effects
@@ -3805,7 +3805,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -7.62 90)
+				(at 0 -7.62 90)
 				(length 3.81) hide
 				(name "V-"
 					(effects
@@ -3823,7 +3823,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 7.62 270)
+				(at 0 7.62 270)
 				(length 3.81)
 				(name "V+"
 					(effects
