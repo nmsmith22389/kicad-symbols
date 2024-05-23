@@ -10273,8 +10273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf"
-			(at 0 7.62 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf"
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,8 +10715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf"
-			(at 0 7.62 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf"
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
