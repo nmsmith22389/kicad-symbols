@@ -212,7 +212,6 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM with EUI-48 or EUI-64, 2Kb, SOT-23-6"
-``
 			(at 0 0 0)
 			(effects
 				(font
