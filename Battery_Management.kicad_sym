@@ -32827,7 +32827,7 @@
 		)
 		(symbol "TP4057_1_0"
 			(pin open_collector line
-				(at -10.16 -3.81 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "STDBY"
 					(effects
@@ -32919,7 +32919,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -3.81 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "PROG"
 					(effects
