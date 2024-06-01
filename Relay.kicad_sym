@@ -49593,7 +49593,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*"
+		(property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries* Relay*2P2T*10x6mm*TE*IMxxG*"
 			(at 0 0 0)
 			(effects
 				(font
