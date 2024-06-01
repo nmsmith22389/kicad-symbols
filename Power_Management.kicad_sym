@@ -33702,7 +33702,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Texas Instruments"
+		(property "ki_keywords" "Texas-Instruments power-mux switchover"
 			(at 0 0 0)
 			(effects
 				(font
