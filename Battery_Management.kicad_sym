@@ -32751,7 +32751,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.842 6.604 0)
+			(at -6.35 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32776,7 +32776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312291747_YONGYUTAI-TP4057_C20199358.pdf"
+		(property "Datasheet" "http://toppwr.com/uploadfile/file/20230304/640302a47b738.pdf"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -32794,7 +32794,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Constant-current constant-voltage linear charger single cell lithium-ion battery"
+		(property "ki_keywords" "Constant-current constant-voltage linear charger single-cell lithium-ion battery"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32815,7 +32815,7 @@
 		(symbol "TP4057_0_1"
 			(rectangle
 				(start -7.62 5.08)
-				(end 7.62 -7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -32825,29 +32825,9 @@
 				)
 			)
 		)
-		(symbol "TP4057_1_0"
-			(pin open_collector line
-				(at -10.16 -5.08 0)
-				(length 2.54)
-				(name "STDBY"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(symbol "TP4057_1_1"
 			(pin open_collector line
-				(at -10.16 0 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "~{CHRG}"
 					(effects
@@ -32865,7 +32845,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -32883,7 +32863,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 0 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -32918,8 +32898,26 @@
 					)
 				)
 			)
+			(pin open_collector line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "STDBY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
-				(at 10.16 -5.08 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "PROG"
 					(effects
