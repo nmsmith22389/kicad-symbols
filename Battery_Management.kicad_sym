@@ -17505,7 +17505,7 @@
 				(start -5.08 5.08)
 				(end 5.08 -5.08)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
