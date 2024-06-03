@@ -17482,7 +17482,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Overcharge, overcurrent and overdischarge protection IC for single cell lithium-ion/polymer battery with integrated MOSFET"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "battery protection li-ion lipo overcurrent overdischarge overcharge short-circuit"
 			(at 0 0 0)
 			(effects
 				(font
