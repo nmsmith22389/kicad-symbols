@@ -17500,6 +17500,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "SOT?23?5*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "DW03_1_1"
 			(rectangle
 				(start -5.08 5.08)
