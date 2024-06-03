@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Modulei:MCU_Seeed_ESP32C3"
+		(property "Footprint" "RF_Module:MCU_Seeed_ESP32C3"
 			(at 0.762 -28.194 0)
 			(effects
 				(font
