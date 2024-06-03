@@ -17465,7 +17465,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 9.652 -10.16 0)
+			(at -0.508 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17474,7 +17474,7 @@
 			)
 		)
 		(property "Datasheet" "http://pingjingsemi.com/UploadFile/pdf/DW03.pdf"
-			(at 17.272 -14.732 0)
+			(at -0.508 -12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17483,7 +17483,7 @@
 			)
 		)
 		(property "Description" "Overcharge, overcurrent and overdischarge protection IC for single cell lithium-ion/polymer battery with integrated MOSFET"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17519,6 +17519,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "VT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin power_in line
