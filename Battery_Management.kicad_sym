@@ -32849,7 +32849,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -11.43 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -32867,7 +32867,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 11.43 270)
+				(at 0 10.16 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -32957,7 +32957,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -11.43 90)
+				(at -5.08 -12.7 90)
 				(length 2.54)
 				(name "PAD"
 					(effects
@@ -32977,8 +32977,8 @@
 		)
 		(symbol "TP4056_1_1"
 			(rectangle
-				(start -7.62 8.89)
-				(end 7.62 -8.89)
+				(start -7.62 7.62)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
