@@ -17522,7 +17522,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 0 0)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VT"
 					(effects
@@ -17576,7 +17576,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "VM"
 					(effects
@@ -17595,7 +17595,7 @@
 			)
 			(pin passive line
 				(at 7.62 -2.54 180)
-				(length 2.54)
+				(length 2.54) hide
 				(name "VM"
 					(effects
 						(font
