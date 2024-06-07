@@ -39997,7 +39997,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -34.036 60.198 0)
+			(at -35.052 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40005,7 +40005,7 @@
 			)
 		)
 		(property "Value" "Sipeed-M1s"
-			(at -28.702 57.912 0)
+			(at -29.972 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40013,7 +40013,7 @@
 			)
 		)
 		(property "Footprint" "Module:Sipeed-M1s"
-			(at 0.762 0.254 0)
+			(at 0.762 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40022,7 +40022,7 @@
 			)
 		)
 		(property "Datasheet" "https://dl.sipeed.com/shareURL/MAIX/M1s/M1s/1_Specification"
-			(at 0.254 0 0)
+			(at 0.254 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40031,7 +40031,16 @@
 			)
 		)
 		(property "Description" ""
-			(at -63.246 26.416 0)
+			(at -63.246 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "AI sipeed module"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40041,8 +40050,8 @@
 		)
 		(symbol "Sipeed-M1s_1_0"
 			(rectangle
-				(start -34.29 55.88)
-				(end 34.29 -43.18)
+				(start -35.56 63.5)
+				(end 35.56 -38.1)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -40052,7 +40061,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -45.72 90)
+				(at 0 -40.64 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -40070,7 +40079,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 24.13 180)
+				(at 38.1 33.02 180)
 				(length 2.54)
 				(name "IO13"
 					(effects
@@ -40088,7 +40097,7 @@
 				)
 			)
 			(pin power_out line
-				(at 19.05 58.42 270)
+				(at 15.24 64.77 270)
 				(length 2.54)
 				(name "VDD18_OUT"
 					(effects
@@ -40106,7 +40115,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 21.59 180)
+				(at 38.1 30.48 180)
 				(length 2.54)
 				(name "IO14"
 					(effects
@@ -40124,7 +40133,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 19.05 180)
+				(at 38.1 27.94 180)
 				(length 2.54)
 				(name "IO15"
 					(effects
@@ -40142,7 +40151,7 @@
 				)
 			)
 			(pin input line
-				(at -36.83 52.07 0)
+				(at -36.83 58.42 0)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -40160,7 +40169,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 -7.62 0)
+				(at -38.1 15.24 0)
 				(length 2.54)
 				(name "MIC_2N"
 					(effects
@@ -40178,7 +40187,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 -10.16 0)
+				(at -38.1 12.7 0)
 				(length 2.54)
 				(name "MIC_2P"
 					(effects
@@ -40196,7 +40205,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 -12.7 0)
+				(at -38.1 10.16 0)
 				(length 2.54)
 				(name "MIC_1N"
 					(effects
@@ -40214,7 +40223,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 -15.24 0)
+				(at -38.1 7.62 0)
 				(length 2.54)
 				(name "MIC_1P"
 					(effects
@@ -40232,7 +40241,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 -17.78 0)
+				(at -38.1 5.08 0)
 				(length 2.54)
 				(name "LINEOUT_1P"
 					(effects
@@ -40250,7 +40259,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 58.42 270)
+				(at -15.24 64.77 270)
 				(length 2.54)
 				(name "VDD15_CIS"
 					(effects
@@ -40268,7 +40277,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 16.51 180)
+				(at 38.1 25.4 180)
 				(length 2.54)
 				(name "IO16"
 					(effects
@@ -40286,7 +40295,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 13.97 180)
+				(at 38.1 22.86 180)
 				(length 2.54)
 				(name "IO17"
 					(effects
@@ -40304,7 +40313,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 11.43 180)
+				(at 38.1 20.32 180)
 				(length 2.54)
 				(name "IO18"
 					(effects
@@ -40322,7 +40331,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 8.89 180)
+				(at 38.1 17.78 180)
 				(length 2.54)
 				(name "IO19"
 					(effects
@@ -40340,7 +40349,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 6.35 180)
+				(at 38.1 15.24 180)
 				(length 2.54)
 				(name "IO20"
 					(effects
@@ -40358,7 +40367,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 3.81 180)
+				(at 38.1 12.7 180)
 				(length 2.54)
 				(name "IO21"
 					(effects
@@ -40376,7 +40385,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 1.27 180)
+				(at 38.1 10.16 180)
 				(length 2.54)
 				(name "IO22"
 					(effects
@@ -40394,7 +40403,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -29.21 180)
+				(at 38.1 -20.32 180)
 				(length 2.54)
 				(name "IO39_BOOT"
 					(effects
@@ -40412,7 +40421,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -40.64 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -40430,7 +40439,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -1.27 180)
+				(at 38.1 7.62 180)
 				(length 2.54)
 				(name "IO23"
 					(effects
@@ -40448,7 +40457,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -45.72 90)
+				(at 10.16 -40.64 90)
 				(length 2.54)
 				(name "VSS28_CIS"
 					(effects
@@ -40466,7 +40475,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -40.64 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -40484,7 +40493,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 58.42 270)
+				(at 2.54 64.77 270)
 				(length 2.54)
 				(name "VDDIO4_IN"
 					(effects
@@ -40502,7 +40511,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 58.42 270)
+				(at -2.54 64.77 270)
 				(length 2.54)
 				(name "VDDIO3_IN"
 					(effects
@@ -40520,7 +40529,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -40.64 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -40538,7 +40547,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 8.89 0)
+				(at -38.1 38.1 0)
 				(length 2.54)
 				(name "CSI1_N"
 					(effects
@@ -40556,7 +40565,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 6.35 0)
+				(at -38.1 35.56 0)
 				(length 2.54)
 				(name "CSI1_P"
 					(effects
@@ -40574,7 +40583,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 3.81 0)
+				(at -38.1 33.02 0)
 				(length 2.54)
 				(name "CSICLK_N"
 					(effects
@@ -40592,7 +40601,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 1.27 0)
+				(at -38.1 30.48 0)
 				(length 2.54)
 				(name "CSICLK_P"
 					(effects
@@ -40610,7 +40619,7 @@
 				)
 			)
 			(pin output line
-				(at 36.83 -40.64 180)
+				(at 38.1 -33.02 180)
 				(length 2.54)
 				(name "CSI0_N"
 					(effects
@@ -40628,7 +40637,7 @@
 				)
 			)
 			(pin output line
-				(at 36.83 -38.1 180)
+				(at 38.1 -30.48 180)
 				(length 2.54)
 				(name "CSI0_P"
 					(effects
@@ -40646,7 +40655,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 58.42 270)
+				(at -12.7 64.77 270)
 				(length 2.54)
 				(name "VDD28_CIS"
 					(effects
@@ -40664,7 +40673,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -40.64 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -40682,7 +40691,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -3.81 180)
+				(at 38.1 5.08 180)
 				(length 2.54)
 				(name "IO24"
 					(effects
@@ -40700,7 +40709,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -6.35 180)
+				(at 38.1 2.54 180)
 				(length 2.54)
 				(name "IO25"
 					(effects
@@ -40718,7 +40727,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -8.89 180)
+				(at 38.1 0 180)
 				(length 2.54)
 				(name "IO26"
 					(effects
@@ -40736,7 +40745,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -11.43 180)
+				(at 38.1 -2.54 180)
 				(length 2.54)
 				(name "IO27"
 					(effects
@@ -40754,7 +40763,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -13.97 180)
+				(at 38.1 -5.08 180)
 				(length 2.54)
 				(name "IO28"
 					(effects
@@ -40772,7 +40781,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -16.51 180)
+				(at 38.1 -7.62 180)
 				(length 2.54)
 				(name "IO29"
 					(effects
@@ -40790,7 +40799,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -19.05 180)
+				(at 38.1 -10.16 180)
 				(length 2.54)
 				(name "IO30"
 					(effects
@@ -40808,7 +40817,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -21.59 180)
+				(at 38.1 -12.7 180)
 				(length 2.54)
 				(name "IO31"
 					(effects
@@ -40826,7 +40835,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -24.13 180)
+				(at 38.1 -15.24 180)
 				(length 2.54)
 				(name "IO32"
 					(effects
@@ -40844,7 +40853,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 58.42 270)
+				(at 5.08 64.77 270)
 				(length 2.54)
 				(name "VDD33_IN"
 					(effects
@@ -40862,7 +40871,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -40.64 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -40880,7 +40889,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -26.67 180)
+				(at 38.1 -17.78 180)
 				(length 2.54)
 				(name "IO33"
 					(effects
@@ -40898,7 +40907,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -40.64 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -40916,7 +40925,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 24.13 0)
+				(at -38.1 48.26 0)
 				(length 2.54)
 				(name "USB_P"
 					(effects
@@ -40934,7 +40943,7 @@
 				)
 			)
 			(pin passive line
-				(at -36.83 21.59 0)
+				(at -38.1 45.72 0)
 				(length 2.54)
 				(name "USB_N"
 					(effects
@@ -40952,7 +40961,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -40.64 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -40970,7 +40979,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 31.75 180)
+				(at 38.1 40.64 180)
 				(length 2.54)
 				(name "IO8"
 					(effects
@@ -40988,7 +40997,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 34.29 180)
+				(at 38.1 43.18 180)
 				(length 2.54)
 				(name "IO7"
 					(effects
@@ -41006,7 +41015,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 36.83 180)
+				(at 38.1 45.72 180)
 				(length 2.54)
 				(name "IO6"
 					(effects
@@ -41024,7 +41033,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 39.37 180)
+				(at 38.1 48.26 180)
 				(length 2.54)
 				(name "IO5_C906RX"
 					(effects
@@ -41042,7 +41051,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -34.29 180)
+				(at 38.1 -25.4 180)
 				(length 2.54)
 				(name "IO41"
 					(effects
@@ -41060,7 +41069,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 41.91 180)
+				(at 38.1 50.8 180)
 				(length 2.54)
 				(name "IO4_C906TX"
 					(effects
@@ -41078,7 +41087,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 44.45 180)
+				(at 38.1 53.34 180)
 				(length 2.54)
 				(name "IO3"
 					(effects
@@ -41096,7 +41105,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 46.99 180)
+				(at 38.1 55.88 180)
 				(length 2.54)
 				(name "IO2"
 					(effects
@@ -41114,7 +41123,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 49.53 180)
+				(at 38.1 58.42 180)
 				(length 2.54)
 				(name "IO1"
 					(effects
@@ -41132,7 +41141,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 52.07 180)
+				(at 38.1 60.96 180)
 				(length 2.54)
 				(name "IO0"
 					(effects
@@ -41150,7 +41159,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 58.42 270)
+				(at -5.08 64.77 270)
 				(length 2.54)
 				(name "VDDIO1_IN"
 					(effects
@@ -41168,7 +41177,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -40.64 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -41186,7 +41195,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -45.72 90)
+				(at -12.7 -40.64 90)
 				(length 2.54)
 				(name "MID_PAD_GND"
 					(effects
@@ -41204,7 +41213,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -31.75 180)
+				(at 38.1 -22.86 180)
 				(length 2.54)
 				(name "IO40"
 					(effects
@@ -41222,7 +41231,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 29.21 180)
+				(at 38.1 38.1 180)
 				(length 2.54)
 				(name "IO11"
 					(effects
@@ -41240,7 +41249,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 26.67 180)
+				(at 38.1 35.56 180)
 				(length 2.54)
 				(name "IO12"
 					(effects
