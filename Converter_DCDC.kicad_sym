@@ -15517,7 +15517,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 10.16 0)
+			(at -7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15525,7 +15525,7 @@
 			)
 		)
 		(property "Value" "UWE-3.3/20-Q12"
-			(at 0 0 0)
+			(at 5.08 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15533,7 +15533,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
-			(at 0 0 0)
+			(at 5.08 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15542,7 +15542,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdata/8807040548894/uwe.pdf"
-			(at 0 0 0)
+			(at 5.08 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15551,7 +15551,7 @@
 			)
 		)
 		(property "Description" "Murata 66W, 1500 VDC Isolated DC/DC Converter Module, Output Voltage 3.3V, 20A, 12V Input Voltage"
-			(at 0 0 0)
+			(at 5.08 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15579,7 +15579,7 @@
 		)
 		(symbol "UWE-3.3/20-Q12_0_0"
 			(pin power_in line
-				(at -7.62 10.16 270)
+				(at -2.54 15.24 270)
 				(length 2.54)
 				(name "+Vin"
 					(effects
@@ -15597,7 +15597,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 0 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "On/Off_Control"
 					(effects
@@ -15615,7 +15615,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 -17.78 90)
+				(at -2.54 -12.7 90)
 				(length 2.54)
 				(name "-Vin"
 					(effects
@@ -15633,7 +15633,7 @@
 				)
 			)
 			(pin power_out line
-				(at -2.54 -17.78 90)
+				(at 2.54 -12.7 90)
 				(length 2.54)
 				(name "-Vout"
 					(effects
@@ -15651,7 +15651,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -7.62 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "-Sense"
 					(effects
@@ -15669,7 +15669,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -5.08 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "Trim"
 					(effects
@@ -15687,7 +15687,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "+Sense"
 					(effects
@@ -15705,7 +15705,7 @@
 				)
 			)
 			(pin power_out line
-				(at -2.54 10.16 270)
+				(at 2.54 15.24 270)
 				(length 2.54)
 				(name "+Vout"
 					(effects
@@ -15725,8 +15725,8 @@
 		)
 		(symbol "UWE-3.3/20-Q12_1_1"
 			(rectangle
-				(start -12.7 7.62)
-				(end 2.54 -15.24)
+				(start -7.62 12.7)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0)
 					(type default)
