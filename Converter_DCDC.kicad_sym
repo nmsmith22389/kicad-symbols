@@ -15524,7 +15524,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "UWE-3.3/20-Q12"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15532,7 +15532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15551,6 +15551,24 @@
 			)
 		)
 		(property "Description" "Murata 66W, 1500 VDC Isolated DC/DC Converter Module, Output Voltage 3.3V, 20A, 12V Input Voltage"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "murata dc dcdc converter switching switcher isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Converter*DCDC*Murata*UWE*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58899,7 +58917,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "UWE-12/6-Q12"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58907,7 +58925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58934,6 +58952,24 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "murata dc dcdc converter switching switcher isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Converter*DCDC*Murata*UWE*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "UWE-12/6-Q48"
 		(extends "UWE-3.3/20-Q12")
@@ -58945,7 +58981,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "UWE-12/6-Q48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58953,7 +58989,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58980,6 +59016,24 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "murata dc dcdc converter switching switcher isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Converter*DCDC*Murata*UWE*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "UWE-15/5-Q12"
 		(extends "UWE-3.3/20-Q12")
@@ -58991,7 +59045,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "UWE-15/5-Q12"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58999,7 +59053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59026,6 +59080,24 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "murata dc dcdc converter switching switcher isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Converter*DCDC*Murata*UWE*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "UWE-15/5-Q48"
 		(extends "UWE-3.3/20-Q12")
@@ -59037,7 +59109,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "UWE-15/5-Q48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59045,7 +59117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59072,6 +59144,24 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "murata dc dcdc converter switching switcher isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Converter*DCDC*Murata*UWE*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "UWE-24/3-Q12"
 		(extends "UWE-3.3/20-Q12")
@@ -59083,7 +59173,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "UWE-24/3-Q12"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59091,7 +59181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59118,6 +59208,24 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "murata dc dcdc converter switching switcher isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Converter*DCDC*Murata*UWE*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "UWE-3.3/20-Q48"
 		(extends "UWE-3.3/20-Q12")
@@ -59129,7 +59237,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "UWE-3.3/20-Q48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59137,7 +59245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59164,6 +59272,24 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "murata dc dcdc converter switching switcher isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Converter*DCDC*Murata*UWE*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "UWE-5/15-Q12"
 		(extends "UWE-3.3/20-Q12")
@@ -59175,7 +59301,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "UWE-5/15-Q12"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59183,7 +59309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59210,6 +59336,24 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "murata dc dcdc converter switching switcher isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Converter*DCDC*Murata*UWE*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "UWE-5/15-Q48"
 		(extends "UWE-3.3/20-Q12")
@@ -59221,7 +59365,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "UWE-5/15-Q48"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59229,7 +59373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_UWExxxxDC_THT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59248,6 +59392,24 @@
 			)
 		)
 		(property "Description" "Murata 75W, 2250 VDC Isolated DC/DC Converter Module, Output Voltage 5.0V, 15A, 48V Input Voltage"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "murata dc dcdc converter switching switcher isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Converter*DCDC*Murata*UWE*"
 			(at 0 0 0)
 			(effects
 				(font
