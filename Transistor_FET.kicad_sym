@@ -29439,7 +29439,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 2.54)
-				(name "SS"
+				(name "KS"
 					(effects
 						(font
 							(size 1.27 1.27)
