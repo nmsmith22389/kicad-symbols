@@ -36050,7 +36050,7 @@
 				(start -10.16 10.16)
 				(end 10.16 -10.16)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -47348,7 +47348,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS259814ARPW"
+		(property "Value" "TPS259813ARPW"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -47412,7 +47412,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS259814ARPW"
+		(property "Value" "TPS259813LRPW"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -47476,7 +47476,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS259814ARPW"
+		(property "Value" "TPS259814LRPW"
 			(at 0 11.43 0)
 			(effects
 				(font
