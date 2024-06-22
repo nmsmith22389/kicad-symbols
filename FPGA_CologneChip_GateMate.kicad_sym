@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf"
+		(property "Datasheet" "https://colognechip.com/docs/ds1001-gatemate1-datasheet-latest.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
