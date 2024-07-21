@@ -6350,10 +6350,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin input clock
 				(at -12.7 -5.08 0)
 				(length 2.54)
-				(name "SCL/SPC"
+				(name "SPC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6367,6 +6367,7 @@
 						)
 					)
 				)
+				(alternate "SCL" input clock)
 			)
 			(pin power_in line
 				(at 0 -15.24 90)
@@ -6386,10 +6387,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -12.7 -2.54 0)
 				(length 2.54)
-				(name "SDA/SDI/SDO"
+				(name "SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6403,11 +6404,13 @@
 						)
 					)
 				)
+				(alternate "SDA" bidirectional line)
+				(alternate "SDO" output line)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -12.7 0 0)
 				(length 2.54)
-				(name "SDO/SA0"
+				(name "SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6421,6 +6424,7 @@
 						)
 					)
 				)
+				(alternate "SA0" input line)
 			)
 			(pin input line
 				(at -12.7 -7.62 0)
