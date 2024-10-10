@@ -19308,7 +19308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.74x4.75mm_ThermalVias"
 			(at 0 0 0)
 			(effects
 				(font
