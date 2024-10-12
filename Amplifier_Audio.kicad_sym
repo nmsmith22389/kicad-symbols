@@ -10495,7 +10495,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 0 7.62 270)
 				(length 5.08)
 				(name "~{SHDN}"
@@ -10506,26 +10506,6 @@
 					)
 				)
 				(number "C3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LM4990ITL_2_1"
-			(pin output line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10678,7 +10658,7 @@
 					(type none)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 0 7.62 270)
 				(length 5.08)
 				(name "SHDN"
@@ -11021,7 +11001,7 @@
 					(type none)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 0 7.62 270)
 				(length 5.08)
 				(name "~{SHDN}"
@@ -11364,7 +11344,7 @@
 					(type none)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 0 7.62 270)
 				(length 5.08)
 				(name "~{SHDN}"
