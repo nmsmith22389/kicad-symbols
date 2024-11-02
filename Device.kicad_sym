@@ -78993,7 +78993,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 4.445 0)
+			(at 0 3.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79001,7 +79001,7 @@
 			)
 		)
 		(property "Value" "L_Coupled_Small_1324"
-			(at 0 -4.445 0)
+			(at 0 -3.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79054,8 +79054,20 @@
 			)
 		)
 		(symbol "L_Coupled_Small_1324_0_1"
+			(arc
+				(start -2.032 1.27)
+				(mid -1.524 0.7642)
+				(end -1.016 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
-				(center -3.048 -1.27)
+				(center -1.524 -1.27)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -79066,7 +79078,7 @@
 				)
 			)
 			(circle
-				(center -3.048 1.524)
+				(center -1.524 1.27)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -79077,9 +79089,9 @@
 				)
 			)
 			(arc
-				(start -2.54 2.032)
-				(mid -2.032 1.5262)
-				(end -1.524 2.032)
+				(start -1.016 -1.27)
+				(mid -1.524 -0.7642)
+				(end -2.032 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -79089,9 +79101,9 @@
 				)
 			)
 			(arc
-				(start -1.524 -2.032)
-				(mid -2.032 -1.5262)
-				(end -2.54 -2.032)
+				(start -1.016 1.27)
+				(mid -0.508 0.7642)
+				(end 0 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -79101,9 +79113,9 @@
 				)
 			)
 			(arc
-				(start -1.524 2.032)
-				(mid -1.016 1.5262)
-				(end -0.508 2.032)
+				(start 0 -1.27)
+				(mid -0.508 -0.7642)
+				(end -1.016 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -79113,9 +79125,9 @@
 				)
 			)
 			(arc
-				(start -0.508 -2.032)
-				(mid -1.016 -1.5262)
-				(end -1.524 -2.032)
+				(start 0 1.27)
+				(mid 0.508 0.7642)
+				(end 1.016 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -79125,57 +79137,9 @@
 				)
 			)
 			(arc
-				(start -0.508 2.032)
-				(mid 0 1.5262)
-				(end 0.508 2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.032) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.032) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.032) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 2.54 2.032)
-				)
+				(start 1.016 -1.27)
+				(mid 0.508 -0.7642)
+				(end 0 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -79185,9 +79149,9 @@
 				)
 			)
 			(arc
-				(start 0.508 -2.032)
-				(mid 0 -1.5262)
-				(end -0.508 -2.032)
+				(start 1.016 1.27)
+				(mid 1.524 0.7642)
+				(end 2.032 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -79197,45 +79161,9 @@
 				)
 			)
 			(arc
-				(start 0.508 2.032)
-				(mid 1.016 1.5262)
-				(end 1.524 2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.524 -2.032)
-				(mid 1.016 -1.5262)
-				(end 0.508 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.524 2.032)
-				(mid 2.032 1.5262)
-				(end 2.54 2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 -2.032)
-				(mid 2.032 -1.5262)
-				(end 1.524 -2.032)
+				(start 2.032 -1.27)
+				(mid 1.524 -0.7642)
+				(end 1.016 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -79247,8 +79175,8 @@
 		)
 		(symbol "L_Coupled_Small_1324_1_1"
 			(pin passive line
-				(at -5.08 2.54 0)
-				(length 2.54)
+				(at -2.54 1.27 0)
+				(length 0.508)
 				(name "1"
 					(effects
 						(font
@@ -79265,8 +79193,8 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -2.54 0)
-				(length 2.54)
+				(at -2.54 -1.27 0)
+				(length 0.508)
 				(name "2"
 					(effects
 						(font
@@ -79283,8 +79211,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 2.54 180)
-				(length 2.54)
+				(at 2.54 1.27 180)
+				(length 0.508)
 				(name "3"
 					(effects
 						(font
@@ -79301,8 +79229,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
-				(length 2.54)
+				(at 2.54 -1.27 180)
+				(length 0.508)
 				(name "4"
 					(effects
 						(font
