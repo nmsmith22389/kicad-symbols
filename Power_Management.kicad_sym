@@ -29910,6 +29910,24 @@
 			)
 		)
 		(symbol "SN6507DGQ_1_0"
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -10.16 2.54 0)
 				(length 2.54)
