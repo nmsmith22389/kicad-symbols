@@ -1820,7 +1820,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-12_1.403x1.555mm_P0.4mm_Stagger"
+		(property "Footprint" "Package_CSP:WLCSP-12_1.403x1.555mm_Layout6x4_P0.4mm_Stagger"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1856,7 +1856,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*1.403x1.555mm*P0.4mm*"
+		(property "ki_fp_filters" "WLCSP*1.403x1.555mm*Layout6x4*P0.4mm*Stagger*"
 			(at 0 0 0)
 			(effects
 				(font

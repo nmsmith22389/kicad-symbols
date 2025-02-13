@@ -42949,7 +42949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42985,7 +42985,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119229,7 +119229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119265,7 +119265,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119293,7 +119293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119329,7 +119329,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119357,7 +119357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119393,7 +119393,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119421,7 +119421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119457,7 +119457,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119485,7 +119485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119521,7 +119521,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119549,7 +119549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119585,7 +119585,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119613,7 +119613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119649,7 +119649,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119677,7 +119677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119713,7 +119713,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119741,7 +119741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119777,7 +119777,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119805,7 +119805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119841,7 +119841,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119869,7 +119869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119905,7 +119905,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119933,7 +119933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119969,7 +119969,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119997,7 +119997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120033,7 +120033,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120061,7 +120061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120097,7 +120097,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120125,7 +120125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120161,7 +120161,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120189,7 +120189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120225,7 +120225,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120253,7 +120253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120289,7 +120289,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120317,7 +120317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120353,7 +120353,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120381,7 +120381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120417,7 +120417,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120445,7 +120445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120481,7 +120481,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120509,7 +120509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120545,7 +120545,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121085,7 +121085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121121,7 +121121,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121149,7 +121149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121185,7 +121185,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121213,7 +121213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121249,7 +121249,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121277,7 +121277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_P0.35mm"
+		(property "Footprint" "Package_CSP:WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121313,7 +121313,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WLCSP*"
+		(property "ki_fp_filters" "WLCSP*0.64x0.64mm*Layout2x2*P0.35mm*"
 			(at 0 0 0)
 			(effects
 				(font

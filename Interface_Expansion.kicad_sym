@@ -18830,7 +18830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:NXP_VFBGA-42_2.6x3mm_Layout6x7_P0.4mm_Ball0.25mm_Pad0.24mm"
+		(property "Footprint" "Package_BGA:NXP_VFBGA-42_2.6x3mm_Layout6x7_P0.4mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18866,7 +18866,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*VFBGA*2.6x3mm*Layout6x7*P0.4mm*"
+		(property "ki_fp_filters" "NXP*VFBGA*2.6x3mm*Layout6x7*P0.4mm*"
 			(at 0 0 0)
 			(effects
 				(font
