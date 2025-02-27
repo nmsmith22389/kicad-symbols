@@ -15185,10 +15185,10 @@
 				(alternate "TIM2.2" bidirectional line)
 				(alternate "USART1.DE/RTS" output line)
 			)
-			(pin bidirectional line
+			(pin open_collector line
 				(at -17.78 0 0)
 				(length 2.54)
-				(name "I2C3.SMBA"
+				(name "~{I2C3.SMBA}"
 					(effects
 						(font
 							(size 1.27 1.27)
