@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Fan"
 		(pin_names
 			(offset 0)
@@ -74,9 +74,9 @@
 		)
 		(symbol "Fan_0_1"
 			(arc
-				(start -2.54 -0.508)
-				(mid 0.0028 0.9121)
-				(end 0 3.81)
+				(start 0 3.81)
+				(mid -0.0015 0.9048)
+				(end -2.54 -0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -87,8 +87,43 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 -4.572)
+					(xy 0 4.572) (xy 0 5.08)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.2672) (xy 0 4.6228)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.016)
+				(radius 3.2512)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -0.508)
+				(mid 0 1.0618)
+				(end 2.54 -0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -111,43 +146,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 4.2672) (xy 0 4.6228)
+					(xy 0 -5.08) (xy 0 -4.572)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 4.572) (xy 0 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 1.016)
-				(radius 3.2512)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 3.81)
-				(mid 0.053 0.921)
-				(end 2.54 -0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -158,8 +158,8 @@
 			)
 			(arc
 				(start 2.54 -0.508)
-				(mid 0 1.0618)
-				(end -2.54 -0.508)
+				(mid 0.047 0.9315)
+				(end 0 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -207,9 +207,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Fan_ALT"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -281,45 +284,9 @@
 		)
 		(symbol "Fan_ALT_0_1"
 			(arc
-				(start -4.572 0)
-				(mid -2.286 -0.5988)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.318 1.524)
-				(mid -2.4153 0.0291)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.524 -4.318)
-				(mid -0.0291 -2.4153)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -4.572)
+				(start 0 0)
 				(mid 0.5988 -2.286)
-				(end 0 0)
+				(end 0 -4.572)
 				(stroke
 					(width 0)
 					(type default)
@@ -328,10 +295,34 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0 -5.08) (xy 0 -4.572)
+			(arc
+				(start 0 0)
+				(mid -0.0298 -2.4174)
+				(end -1.524 -4.318)
+				(stroke
+					(width 0)
+					(type default)
 				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid -2.286 -0.5988)
+				(end -4.572 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid -2.4174 0.0298)
+				(end -4.318 1.524)
 				(stroke
 					(width 0)
 					(type default)
@@ -363,10 +354,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 0 4.572)
-				(mid -0.5988 2.286)
-				(end 0 0)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 0 -4.572)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -376,9 +367,9 @@
 				)
 			)
 			(arc
-				(start 1.524 4.318)
-				(mid 0.0291 2.4153)
-				(end 0 0)
+				(start 0 0)
+				(mid 2.4174 -0.0298)
+				(end 4.318 -1.524)
 				(stroke
 					(width 0)
 					(type default)
@@ -388,21 +379,33 @@
 				)
 			)
 			(arc
-				(start 4.318 -1.524)
-				(mid 2.4153 -0.0291)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 4.572 0)
+				(start 0 0)
 				(mid 2.286 0.5988)
-				(end 0 0)
+				(end 4.572 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.0324 2.4156)
+				(end 1.524 4.318)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid -0.5988 2.286)
+				(end 0 4.572)
 				(stroke
 					(width 0)
 					(type default)
@@ -450,8 +453,9 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "Fan_IEC60617"
+	(symbol "Fan_IEC-60617"
 		(pin_names
 			(offset 0)
 		)
@@ -467,7 +471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fan_IEC60617"
+		(property "Value" "Fan_IEC-60617"
 			(at 3.81 2.54 0)
 			(effects
 				(font
@@ -495,7 +499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fan (according to IEC-60617)"
+		(property "Description" "Fan according to IEC 60617"
 			(at 0 0 0)
 			(effects
 				(font
@@ -504,7 +508,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Fan Motor IEC-60617"
+		(property "ki_keywords" "fan motor iec 60617"
 			(at 0 0 0)
 			(effects
 				(font
@@ -522,7 +526,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Fan_IEC60617_0_1"
+		(symbol "Fan_IEC-60617_0_1"
 			(rectangle
 				(start -3.302 4.318)
 				(end 3.302 -2.286)
@@ -534,9 +538,21 @@
 					(type background)
 				)
 			)
+			(arc
+				(start -0.762 0.254)
+				(mid -2.6016 1.016)
+				(end -0.762 1.778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy -1.524 -1.016) (xy 2.286 0)
+					(xy -0.762 1.778) (xy 0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -548,7 +564,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 3.048) (xy 2.286 2.032)
+					(xy -0.762 0.254) (xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -560,19 +576,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 -4.572)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.2352) (xy 0 -2.6416)
+					(xy 0 4.572) (xy 0 5.08)
 				)
 				(stroke
 					(width 0)
@@ -596,7 +600,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 4.572) (xy 0 5.08)
+					(xy 0 -2.2352) (xy 0 -2.6416)
 				)
 				(stroke
 					(width 0)
@@ -606,9 +610,22 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 1.016)
-				(radius 2.54)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 0 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.762 1.778)
+				(mid 2.6016 1.016)
+				(end 0.762 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -618,7 +635,7 @@
 				)
 			)
 		)
-		(symbol "Fan_IEC60617_1_1"
+		(symbol "Fan_IEC-60617_1_1"
 			(pin passive line
 				(at 0 7.62 270)
 				(length 2.54)
@@ -656,6 +673,214 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "Fan_ISO-14617"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 3.81 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_ISO-14617"
+			(at 3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan 2302 according to ISO 14617"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "fan motor iso 14617"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Fan_ISO-14617_0_1"
+			(rectangle
+				(start -3.302 4.318)
+				(end 3.302 -2.286)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 3.048) (xy 2.286 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -1.016) (xy 2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.572) (xy 0 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.2672) (xy 0 4.6228)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.016)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.2352) (xy 0 -2.6416)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 0 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Fan_ISO-14617_1_1"
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "Fan_Tacho"
 		(pin_names
@@ -728,30 +953,6 @@
 			)
 		)
 		(symbol "Fan_Tacho_0_0"
-			(arc
-				(start -5.588 -1.016)
-				(mid -5.08 -1.5218)
-				(end -4.572 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 -0.508)
-				(mid -5.4392 -0.6568)
-				(end -5.588 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -5.08 -0.508) (xy -5.334 -0.381)
@@ -776,6 +977,30 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -4.572 -1.016)
+				(mid -5.08 -1.5218)
+				(end -5.588 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.588 -1.016)
+				(mid -5.4392 -0.6568)
+				(end -5.08 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy -4.064 0) (xy -4.064 -1.524) (xy -3.302 -1.524)
@@ -790,10 +1015,46 @@
 			)
 		)
 		(symbol "Fan_Tacho_0_1"
+			(polyline
+				(pts
+					(xy -4.064 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(arc
-				(start -2.54 -3.048)
-				(mid 0.0028 -1.6279)
-				(end 0 1.27)
+				(start 0 1.27)
+				(mid -0.0015 -1.6352)
+				(end -2.54 -3.048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.032) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.7272) (xy 0 2.0828)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -813,22 +1074,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -4.064 0) (xy -5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -7.62) (xy 0 -7.112)
-				)
+			(arc
+				(start -2.54 -3.048)
+				(mid 0 -1.4782)
+				(end 2.54 -3.048)
 				(stroke
 					(width 0)
 					(type default)
@@ -851,32 +1100,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.7272) (xy 0 2.0828)
+					(xy 0 -7.62) (xy 0 -7.112)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.032) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 1.27)
-				(mid 0.053 -1.619)
-				(end 2.54 -3.048)
 				(stroke
 					(width 0)
 					(type default)
@@ -887,8 +1112,8 @@
 			)
 			(arc
 				(start 2.54 -3.048)
-				(mid 0 -1.4782)
-				(end -2.54 -3.048)
+				(mid 0.047 -1.6085)
+				(end 0 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -909,7 +1134,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -945,7 +1170,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -954,6 +1179,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Fan_Tacho_PWM"
 		(pin_names
@@ -1026,30 +1252,6 @@
 			)
 		)
 		(symbol "Fan_Tacho_PWM_0_0"
-			(arc
-				(start -5.588 1.524)
-				(mid -5.08 1.0182)
-				(end -4.572 1.524)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 2.032)
-				(mid -5.4392 1.8832)
-				(end -5.588 1.524)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -5.08 2.032) (xy -5.334 2.159)
@@ -1074,6 +1276,30 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -4.572 1.524)
+				(mid -5.08 1.0182)
+				(end -5.588 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.588 1.524)
+				(mid -5.4392 1.8832)
+				(end -5.08 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy -4.064 2.54) (xy -4.064 1.016) (xy -3.302 1.016)
@@ -1088,10 +1314,11 @@
 			)
 		)
 		(symbol "Fan_Tacho_PWM_0_1"
-			(arc
-				(start -2.54 -0.508)
-				(mid 0.0028 0.9121)
-				(end 0 3.81)
+			(polyline
+				(pts
+					(xy -5.334 -3.302) (xy -5.08 -3.302) (xy -5.08 -3.048) (xy -4.826 -3.048) (xy -4.826 -3.302) (xy -4.318 -3.302)
+					(xy -4.318 -3.048) (xy -4.064 -3.048) (xy -4.064 -3.302) (xy -3.556 -3.302)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1114,7 +1341,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 -4.572)
+					(xy -2.54 -1.016) (xy -4.064 -1.016) (xy -4.064 -2.54) (xy -5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1124,22 +1351,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0 -2.2352) (xy 0 -2.6416)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 4.2672) (xy 0 4.6228)
-				)
+			(arc
+				(start 0 3.81)
+				(mid -0.0015 0.9048)
+				(end -2.54 -0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -1162,20 +1377,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.016) (xy -4.064 -1.016) (xy -4.064 -2.54) (xy -5.08 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.334 -3.302) (xy -5.08 -3.302) (xy -5.08 -3.048) (xy -4.826 -3.048) (xy -4.826 -3.302) (xy -4.318 -3.302)
-					(xy -4.318 -3.048) (xy -4.064 -3.048) (xy -4.064 -3.302) (xy -3.556 -3.302)
+					(xy 0 4.2672) (xy 0 4.6228)
 				)
 				(stroke
 					(width 0)
@@ -1197,9 +1399,33 @@
 				)
 			)
 			(arc
-				(start 0 3.81)
-				(mid 0.053 0.921)
+				(start -2.54 -0.508)
+				(mid 0 1.0618)
 				(end 2.54 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.2352) (xy 0 -2.6416)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 0 -4.572)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1210,8 +1436,8 @@
 			)
 			(arc
 				(start 2.54 -0.508)
-				(mid 0 1.0618)
-				(end -2.54 -0.508)
+				(mid 0.047 0.9315)
+				(end 0 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -1222,42 +1448,6 @@
 			)
 		)
 		(symbol "Fan_Tacho_PWM_1_1"
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 7.62 270)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -7.62 2.54 0)
 				(length 2.54)
@@ -1294,7 +1484,44 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Motor_AC"
 		(pin_names
@@ -1367,18 +1594,6 @@
 			)
 		)
 		(symbol "Motor_AC_0_0"
-			(arc
-				(start -1.524 -2.794)
-				(mid -0.8654 -3.5217)
-				(end 0 -3.048)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -1.016 -2.032) (xy -1.016 1.016) (xy 0 -1.016) (xy 1.016 1.016) (xy 1.016 -2.032)
@@ -1392,9 +1607,21 @@
 				)
 			)
 			(arc
-				(start 1.524 -3.302)
-				(mid 0.85 -2.5503)
-				(end 0 -3.048)
+				(start 0 -3.048)
+				(mid -0.8622 -3.5222)
+				(end -1.524 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -3.048)
+				(mid 0.8657 -2.5527)
+				(end 1.524 -3.302)
 				(stroke
 					(width 0)
 					(type default)
@@ -1405,32 +1632,9 @@
 			)
 		)
 		(symbol "Motor_AC_0_1"
-			(circle
-				(center 0 -1.524)
-				(radius 3.2512)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy 0 -7.62) (xy 0 -7.112)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -4.7752) (xy 0 -5.1816)
+					(xy 0 2.032) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1452,9 +1656,32 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 0 -1.524)
+				(radius 3.2512)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy 0 2.032) (xy 0 2.54)
+					(xy 0 -4.7752) (xy 0 -5.1816)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -7.62) (xy 0 -7.112)
 				)
 				(stroke
 					(width 0)
@@ -1503,6 +1730,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Motor_DC"
 		(pin_names
@@ -1589,32 +1817,9 @@
 			)
 		)
 		(symbol "Motor_DC_0_1"
-			(circle
-				(center 0 -1.524)
-				(radius 3.2512)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy 0 -7.62) (xy 0 -7.112)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -4.7752) (xy 0 -5.1816)
+					(xy 0 2.032) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1636,9 +1841,32 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 0 -1.524)
+				(radius 3.2512)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy 0 2.032) (xy 0 2.54)
+					(xy 0 -4.7752) (xy 0 -5.1816)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -7.62) (xy 0 -7.112)
 				)
 				(stroke
 					(width 0)
@@ -1687,6 +1915,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Motor_DC_ALT"
 		(pin_names
@@ -1759,29 +1988,6 @@
 			)
 		)
 		(symbol "Motor_DC_ALT_0_0"
-			(circle
-				(center 0 -1.524)
-				(radius 2.9718)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -4.318) (xy -1.27 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.318)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 2.032) (xy 1.27 2.032) (xy 1.27 1.27)
@@ -1800,6 +2006,29 @@
 				)
 				(stroke
 					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -4.318) (xy -1.27 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -1.524)
+				(radius 2.9718)
+				(stroke
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -1859,6 +2088,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Motor_Servo"
 		(pin_names
@@ -1933,30 +2163,6 @@
 		(symbol "Motor_Servo_0_1"
 			(polyline
 				(pts
-					(xy 2.413 -1.778) (xy 2.032 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.413 -1.778) (xy 2.286 -1.397)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 2.413 1.778) (xy 1.905 1.778)
 				)
 				(stroke
@@ -1981,7 +2187,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 4.445) (xy 2.54 1.27)
+					(xy 2.413 -1.778) (xy 2.032 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -1993,22 +2199,10 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 3.175) (xy 4.191 -1.016)
+					(xy 2.413 -1.778) (xy 2.286 -1.397)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
-				)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -2016,9 +2210,9 @@
 				)
 			)
 			(arc
-				(start 2.413 1.778)
+				(start 2.413 -1.778)
 				(mid 1.2406 0)
-				(end 2.413 -1.778)
+				(end 2.413 1.778)
 				(stroke
 					(width 0)
 					(type default)
@@ -2049,9 +2243,33 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 5.969 2.794)
 				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 4.445) (xy 2.54 1.27)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2071,6 +2289,18 @@
 					(type none)
 				)
 			)
+			(arc
+				(start 6.35 4.445)
+				(mid 7.4487 4.2737)
+				(end 7.62 3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 6.985 3.81)
 				(radius 0.127)
@@ -2082,10 +2312,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 7.62 3.175)
-				(mid 7.4485 4.2735)
-				(end 6.35 4.445)
+			(polyline
+				(pts
+					(xy 7.62 3.175) (xy 4.191 -1.016)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2151,6 +2381,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Motor_Servo_AirTronics"
 		(pin_names
@@ -2225,30 +2456,6 @@
 		(symbol "Motor_Servo_AirTronics_0_1"
 			(polyline
 				(pts
-					(xy 2.413 -1.778) (xy 2.032 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.413 -1.778) (xy 2.286 -1.397)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 2.413 1.778) (xy 1.905 1.778)
 				)
 				(stroke
@@ -2273,7 +2480,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 4.445) (xy 2.54 1.27)
+					(xy 2.413 -1.778) (xy 2.032 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -2285,22 +2492,10 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 3.175) (xy 4.191 -1.016)
+					(xy 2.413 -1.778) (xy 2.286 -1.397)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 1.524) (xy 6.35 -3.556) (xy -5.08 -3.556) (xy -5.08 3.556) (xy 5.08 3.556)
-				)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -2308,9 +2503,9 @@
 				)
 			)
 			(arc
-				(start 2.413 1.778)
+				(start 2.413 -1.778)
 				(mid 1.2406 0)
-				(end 2.413 -1.778)
+				(end 2.413 1.778)
 				(stroke
 					(width 0)
 					(type default)
@@ -2352,9 +2547,45 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 6.35 4.445) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 1.524) (xy 6.35 -3.556) (xy -5.08 -3.556) (xy -5.08 3.556) (xy 5.08 3.556)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 6.477 3.302)
 				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 4.445)
+				(mid 7.4487 4.2737)
+				(end 7.62 3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -2374,10 +2605,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 7.62 3.175)
-				(mid 7.4485 4.2735)
-				(end 6.35 4.445)
+			(polyline
+				(pts
+					(xy 7.62 3.175) (xy 4.191 -1.016)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2388,6 +2619,24 @@
 			)
 		)
 		(symbol "Motor_Servo_AirTronics_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "PWM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -7.62 0 0)
 				(length 2.54)
@@ -2424,29 +2673,14 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "PWM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Stepper_Motor_bipolar"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2528,70 +2762,10 @@
 			)
 		)
 		(symbol "Stepper_Motor_bipolar_0_1"
-			(arc
-				(start -4.445 -2.54)
-				(mid -3.8127 -1.905)
-				(end -4.445 -1.27)
-				(stroke
-					(width 0)
-					(type default)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -4.445 2.54)
 				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 -1.27)
-				(mid -3.8127 -0.635)
-				(end -4.445 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 0)
-				(mid -3.8127 0.635)
-				(end -4.445 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 1.27)
-				(mid -3.8127 1.905)
-				(end -4.445 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 4.445)
-				(mid -1.905 3.8127)
-				(end -1.27 4.445)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 4.445)
-				(mid -0.635 3.8127)
-				(end 0 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -2612,10 +2786,46 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -4.445 2.54)
+			(arc
+				(start -4.445 2.54)
+				(mid -3.8127 1.905)
+				(end -4.445 1.27)
+				(stroke
+					(width 0)
+					(type default)
 				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 1.27)
+				(mid -3.8127 0.635)
+				(end -4.445 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 0)
+				(mid -3.8127 -0.635)
+				(end -4.445 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 -1.27)
+				(mid -3.8127 -1.905)
+				(end -4.445 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -2636,10 +2846,22 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.54 5.08) (xy 2.54 4.445)
+			(arc
+				(start -1.27 4.445)
+				(mid -1.905 3.8127)
+				(end -2.54 4.445)
+				(stroke
+					(width 0)
+					(type default)
 				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 4.445)
+				(mid -0.635 3.8127)
+				(end -1.27 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -2660,9 +2882,9 @@
 				)
 			)
 			(arc
-				(start 0 4.445)
+				(start 1.27 4.445)
 				(mid 0.635 3.8127)
-				(end 1.27 4.445)
+				(end 0 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -2672,9 +2894,21 @@
 				)
 			)
 			(arc
-				(start 1.27 4.445)
+				(start 2.54 4.445)
 				(mid 1.905 3.8127)
-				(end 2.54 4.445)
+				(end 1.27 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 5.08) (xy 2.54 4.445)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2685,42 +2919,6 @@
 			)
 		)
 		(symbol "Stepper_Motor_bipolar_1_1"
-			(pin passive line
-				(at -2.54 7.62 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 7.62 270)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -7.62 2.54 0)
 				(length 2.54)
@@ -2757,11 +2955,50 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Stepper_Motor_unipolar_5pin"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2865,81 +3102,9 @@
 					(type outline)
 				)
 			)
-			(arc
-				(start -4.445 -2.54)
-				(mid -3.8127 -1.905)
-				(end -4.445 -1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 -1.27)
-				(mid -3.8127 -0.635)
-				(end -4.445 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 0)
-				(mid -3.8127 0.635)
-				(end -4.445 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 1.27)
-				(mid -3.8127 1.905)
-				(end -4.445 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 4.445)
-				(mid -1.905 3.8127)
-				(end -1.27 4.445)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 4.445)
-				(mid -0.635 3.8127)
-				(end 0 4.445)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -5.08 -2.54) (xy -4.445 -2.54)
+					(xy -5.08 5.08) (xy -5.08 0) (xy -4.445 0)
 				)
 				(stroke
 					(width 0)
@@ -2963,6 +3128,66 @@
 			)
 			(polyline
 				(pts
+					(xy -5.08 -2.54) (xy -4.445 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 2.54)
+				(mid -3.8127 1.905)
+				(end -4.445 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 1.27)
+				(mid -3.8127 0.635)
+				(end -4.445 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 0)
+				(mid -3.8127 -0.635)
+				(end -4.445 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 -1.27)
+				(mid -3.8127 -1.905)
+				(end -4.445 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -2.54 4.445) (xy -2.54 5.08)
 				)
 				(stroke
@@ -2973,10 +3198,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.54 4.445) (xy 2.54 5.08)
-				)
+			(arc
+				(start -1.27 4.445)
+				(mid -1.905 3.8127)
+				(end -2.54 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -2985,10 +3210,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -5.08 0) (xy -4.445 0)
-				)
+			(arc
+				(start 0 4.445)
+				(mid -0.635 3.8127)
+				(end -1.27 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -3021,9 +3246,9 @@
 				)
 			)
 			(arc
-				(start 0 4.445)
+				(start 1.27 4.445)
 				(mid 0.635 3.8127)
-				(end 1.27 4.445)
+				(end 0 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -3033,9 +3258,21 @@
 				)
 			)
 			(arc
-				(start 1.27 4.445)
+				(start 2.54 4.445)
 				(mid 1.905 3.8127)
-				(end 2.54 4.445)
+				(end 1.27 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 4.445) (xy 2.54 5.08)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3046,6 +3283,42 @@
 			)
 		)
 		(symbol "Stepper_Motor_unipolar_5pin_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -5.08 7.62 270)
 				(length 2.54)
@@ -3100,47 +3373,14 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Stepper_Motor_unipolar_6pin"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3222,70 +3462,10 @@
 			)
 		)
 		(symbol "Stepper_Motor_unipolar_6pin_0_1"
-			(arc
-				(start -4.445 -2.54)
-				(mid -3.8127 -1.905)
-				(end -4.445 -1.27)
-				(stroke
-					(width 0)
-					(type default)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -4.445 2.54)
 				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 -1.27)
-				(mid -3.8127 -0.635)
-				(end -4.445 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 0)
-				(mid -3.8127 0.635)
-				(end -4.445 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 1.27)
-				(mid -3.8127 1.905)
-				(end -4.445 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 4.445)
-				(mid -1.905 3.8127)
-				(end -1.27 4.445)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 4.445)
-				(mid -0.635 3.8127)
-				(end 0 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -3306,10 +3486,46 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -4.445 2.54)
+			(arc
+				(start -4.445 2.54)
+				(mid -3.8127 1.905)
+				(end -4.445 1.27)
+				(stroke
+					(width 0)
+					(type default)
 				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 1.27)
+				(mid -3.8127 0.635)
+				(end -4.445 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 0)
+				(mid -3.8127 -0.635)
+				(end -4.445 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 -1.27)
+				(mid -3.8127 -1.905)
+				(end -4.445 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -3342,10 +3558,22 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0 4.445) (xy 0 5.08)
+			(arc
+				(start -1.27 4.445)
+				(mid -1.905 3.8127)
+				(end -2.54 4.445)
+				(stroke
+					(width 0)
+					(type default)
 				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 4.445)
+				(mid -0.635 3.8127)
+				(end -1.27 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -3356,7 +3584,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 4.445) (xy 2.54 5.08)
+					(xy 0 4.445) (xy 0 5.08)
 				)
 				(stroke
 					(width 0)
@@ -3378,9 +3606,9 @@
 				)
 			)
 			(arc
-				(start 0 4.445)
+				(start 1.27 4.445)
 				(mid 0.635 3.8127)
-				(end 1.27 4.445)
+				(end 0 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -3390,9 +3618,21 @@
 				)
 			)
 			(arc
-				(start 1.27 4.445)
+				(start 2.54 4.445)
 				(mid 1.905 3.8127)
-				(end 2.54 4.445)
+				(end 1.27 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 4.445) (xy 2.54 5.08)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3403,60 +3643,6 @@
 			)
 		)
 		(symbol "Stepper_Motor_unipolar_6pin_1_1"
-			(pin passive line
-				(at -2.54 7.62 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 7.62 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 7.62 270)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -7.62 2.54 0)
 				(length 2.54)
@@ -3511,7 +3697,62 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Fan_3pin"
 		(extends "Fan_Tacho")
