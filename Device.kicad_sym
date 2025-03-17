@@ -47182,7 +47182,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at -2.54 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47190,7 +47190,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.54 0)
+			(at -12.7 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47207,7 +47207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at -10.16 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47216,7 +47216,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47306,7 +47306,7 @@
 		)
 		(symbol "LED_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -5.08 7.62 0)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -47324,7 +47324,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 2.54 7.62 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -56753,6 +56753,130 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "LED_Display_7-Seg_3-Char_CK"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.54 10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "a"
+			(at -1.016 10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LED_Display_7-Seg_3-Char_CK_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy -1.016 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 1.524) (xy 0 0) (xy -1.016 1.524) (xy 1.016 1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.778 0.762) (xy -1.778 1.016) (xy -1.778 0.762) (xy -1.524 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 0.762) (xy -1.27 0.254) (xy -1.27 0.508) (xy -1.27 0.254) (xy -1.016 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_Display_7-Seg_3-Char_CK_1_1"
+			(polyline
+				(pts
+					(xy 0 1.524) (xy 0 4.826)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -76285,7 +76409,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at -4.445 -2.54 0)
+			(at -1.905 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76294,7 +76418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 90)
+			(at -2.032 2.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76303,7 +76427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 90)
+			(at -4.572 5.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76312,7 +76436,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 0 0 0)
+			(at 2.54 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76402,7 +76526,7 @@
 		)
 		(symbol "LED_Small_1_1"
 			(pin passive line
-				(at -2.54 0 0)
+				(at 0 7.62 0)
 				(length 1.778)
 				(name "K"
 					(effects
@@ -76420,7 +76544,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 180)
+				(at 2.794 3.81 180)
 				(length 1.778)
 				(name "A"
 					(effects
